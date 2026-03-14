@@ -30,6 +30,7 @@ def execute_sales_flow(
     payload = {
         "customer_name": customer_name,
         "customer_company": customer_company,
+        "company": customer_company,
         "meeting_date": meeting_date,
         "memo": memo or "",
         "mode": mode,

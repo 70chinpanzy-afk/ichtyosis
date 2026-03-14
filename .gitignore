@@ -16,3 +16,4 @@ sales_copilot.db
 .idea/
 *.log
 .streamlit/secrets.toml
+.claude/

@@ -7,7 +7,7 @@ class ApiError(Exception):
 
 def api_healthcheck(api_base: str) -> bool:
     try:
-        r = requests.get(f"{api_base}/docs", timeout=3)
+        r = requests.get(f"{api_base}/healthz", timeout=3)
         return r.status_code == 200
     except Exception:
         return False

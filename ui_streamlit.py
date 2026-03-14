@@ -1,11 +1,12 @@
 """
 Sales Copilot UI（完成形）
 商談メモを /api/sales-flow に送信し、メール/アジェンダ/上司向け要約を表示。
-SQLite に履歴保存・履歴読み込みで入力・結果を完全復元。
+Postgres に履歴保存・履歴読み込みで入力・結果を完全復元。
 """
 
 from datetime import date, datetime
 import json
+import os
 
 import streamlit as st
 
@@ -49,8 +50,12 @@ def normalize_wrapped(obj: dict) -> dict:
 # =========================
 # 設定
 # =========================
-API_BASE = "http://127.0.0.1:8000"
-HISTORY_DB = "ui_history.db"
+API_BASE = os.getenv("SALES_COPILOT_API_BASE", "http://127.0.0.1:8000").rstrip("/")
+HISTORY_DB = (
+    os.getenv("HISTORY_DATABASE_URL")
+    or os.getenv("DATABASE_URL")
+    or "postgresql://postgres:postgres@localhost:5432/sales_copilot"
+)
 
 
 # =========================
@@ -90,9 +95,9 @@ st.title("Sales Copilot（日本語UI）")
 st.caption("入力 → /api/sales-flow → 結果を3タブで表示")
 
 if api_ok:
-    st.success("✅ FastAPI 接続OK（/docs）")
+    st.success("✅ FastAPI 接続OK（/healthz）")
 else:
-    st.error("❌ FastAPI に接続できません（/docs が開けない）")
+    st.error("❌ FastAPI に接続できません（/healthz が開けない）")
 
 # ---------- サイドバー（入力 + 履歴のみ。履歴UIはここに統一） ----------
 with st.sidebar:
@@ -102,6 +107,7 @@ with st.sidebar:
     meeting_date = st.date_input("日付", key="meeting_date")
     mode = st.selectbox("モード", options=["lite", "bank"], key="mode")
     tone = st.selectbox("トーン", options=["sales", "exec"], key="tone")
+
 
     st.divider()
     if st.button("この顧客のタイムラインを見る", key="btn_timeline"):
@@ -422,14 +428,17 @@ with st.container():
         if summary_card['open_questions']:
             st.markdown("**⚠️ 未確認事項（上位3）**")
             for i, question in enumerate(summary_card['open_questions'], 1):
-                st.markdown(f"{i}. {question}")
+                # 表記ゆれの補正（安全側でUI側でも置き換え）
+                q_disp = str(question).replace("入学希望時期", "導入希望時期")
+                st.markdown(f"{i}. {q_disp}")
         else:
             st.markdown("**未確認事項**: （なし）")
     with col2:
         if summary_card['next_actions']:
             st.markdown("**次アクション（上位3）**")
             for i, action in enumerate(summary_card['next_actions'], 1):
-                st.markdown(f"{i}. {action}")
+                a_disp = str(action).replace("入学希望時期", "導入希望時期")
+                st.markdown(f"{i}. {a_disp}")
         else:
             st.markdown("**次アクション**: （なし）")
     
@@ -505,4 +514,3 @@ with tab_boss:
 
 with st.expander("（デバッグ）生JSONを表示"):
     st.code(json.dumps(data, ensure_ascii=False, indent=2))
-

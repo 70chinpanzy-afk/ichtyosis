@@ -1,278 +1,96 @@
-# 🤝 Sales Copilot API
+# Sales Copilot
 
-営業活動を支援するAIコパイロットAPI。OpenAIのStructured Outputsを使用して、営業メール生成、商談議事録要約、提案書アウトライン生成などの機能を提供します。
+営業メモを構造化して返す `FastAPI` バックエンドと、ローカル運用の `Streamlit` UI を持つプロジェクトです。  
+本番運用は **FastAPIのみを Railway へデプロイ** する前提です。
 
-## 🎯 主な機能
+## 構成
 
-- **営業メール生成**: 顧客情報と目的から適切な営業メールを自動生成
-- **商談議事録要約**: 商談内容を分析し、要点・決定事項・ネクストアクションを抽出
-- **提案書アウトライン生成**: 顧客の課題と自社サービスから提案書の構成を生成
-- **会話履歴管理**: SQLiteで顧客とのやり取りを保存・検索
+- `app/`: RailwayへデプロイするFastAPIアプリ
+- `ui_streamlit.py`: ローカル実行用UI（任意）
+- `history_repo.py`: Postgresに履歴を保存
 
-## 🚀 セットアップ
+## 主要エンドポイント（FastAPI）
 
-### 1. 依存パッケージのインストール
+- `GET /` : API情報
+- `GET /healthz` : ヘルスチェック（DB接続確認込み）
+- `POST /api/sales-flow` : 営業フロー生成
+
+## 環境変数
+
+`.env.example` をコピーして `.env` を作成してください。
+
+必須（API）:
+
+- `OPENAI_API_KEY`
+- `DATABASE_URL`  
+  例: `postgresql://postgres:postgres@localhost:5432/sales_copilot`
+
+任意（API）:
+
+- `OPENAI_MODEL`（デフォルト: `gpt-4o-mini`）
+- `HOST`（デフォルト: `0.0.0.0`）
+- `PORT`（デフォルト: `8000`）
+- `CORS_ALLOW_ORIGINS`（カンマ区切り）
+- `CORS_ALLOW_CREDENTIALS`（`true`/`false`、デフォルト `false`）
+
+任意（UI）:
+
+- `SALES_COPILOT_API_BASE`（デフォルト: `http://127.0.0.1:8000`）
+- `HISTORY_DATABASE_URL`（未指定時は `DATABASE_URL` を利用）
+
+## ローカル開発手順
+
+### 1. API（FastAPI）
 
 ```bash
 cd sales-copilot
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-### 2. 環境変数の設定
-
-`.env.example`をコピーして`.env`ファイルを作成し、OpenAI APIキーを設定します。
-
-```bash
 cp .env.example .env
 ```
 
-`.env`ファイルを編集:
-```
-OPENAI_API_KEY=your_actual_openai_api_key_here
-```
-
-### 3. アプリケーションの起動
-
-```bash
-uvicorn app.main:app --reload
-```
-
-または
+Postgresを用意して `DATABASE_URL` を設定してから起動:
 
 ```bash
 python -m app.main
 ```
 
-サーバーが起動したら、以下のURLでアクセスできます:
-- API: http://localhost:8000
-- ドキュメント: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+`PORT` が設定されていればその値で起動します。  
+例: `PORT=8080 python -m app.main`
 
-## 📝 API エンドポイント
-
-### 1. 営業メール生成
-
-**POST** `/api/generate-email`
-
-```json
-{
-  "customer_name": "田中太郎",
-  "customer_company": "株式会社サンプル",
-  "email_type": "initial_approach",
-  "context": "新規顧客への初回アプローチ。物流システムの提案を行いたい。",
-  "key_points": [
-    "配送コスト削減",
-    "リアルタイム追跡機能",
-    "既存システムとの連携"
-  ]
-}
-```
-
-**レスポンス:**
-```json
-{
-  "subject": "【物流効率化のご提案】配送コスト削減とリアルタイム追跡の実現",
-  "body": "田中太郎様\n\nお世話になっております...",
-  "tone": "フォーマルかつ親しみやすい",
-  "next_action": "1週間以内にフォローアップの電話を入れる"
-}
-```
-
-### 2. 商談議事録要約
-
-**POST** `/api/summarize-meeting`
-
-```json
-{
-  "customer_name": "佐藤花子",
-  "customer_company": "株式会社テスト",
-  "meeting_date": "2024-01-24",
-  "meeting_content": "本日は物流システムの導入について打ち合わせを実施。現在の課題として、配送状況の可視化ができていない点、繁忙期の人手不足が挙げられた。予算は年間500万円程度。3月までに導入したいとのこと。"
-}
-```
-
-**レスポンス:**
-```json
-{
-  "summary": "物流システム導入の打ち合わせ。配送状況の可視化と繁忙期の人手不足が主な課題。予算500万円、3月までの導入を希望。",
-  "key_points": [
-    "配送状況の可視化が課題",
-    "繁忙期の人手不足",
-    "予算: 年間500万円",
-    "導入希望時期: 3月まで"
-  ],
-  "decisions": [
-    "3月までの導入を目指す",
-    "予算は年間500万円程度"
-  ],
-  "concerns": [
-    "配送状況の可視化ができていない",
-    "繁忙期の人手不足"
-  ],
-  "next_actions": [
-    "詳細な提案書を作成",
-    "デモンストレーションの日程調整",
-    "導入スケジュールの策定"
-  ]
-}
-```
-
-### 3. 提案書アウトライン生成
-
-**POST** `/api/generate-proposal`
-
-```json
-{
-  "customer_name": "山田次郎",
-  "customer_company": "株式会社物流",
-  "customer_industry": "製造業",
-  "customer_challenges": "配送コストが高い、配送状況が見えない、ドライバー不足",
-  "our_services": "クラウド型配送管理システム、リアルタイム追跡、AI配車最適化",
-  "proposal_goal": "3ヶ月以内にシステム導入を決定し、配送コスト15%削減を実現"
-}
-```
-
-**レスポンス:**
-```json
-{
-  "title": "配送業務効率化・コスト削減提案書",
-  "sections": [
-    {
-      "title": "現状課題の整理",
-      "key_points": [
-        "配送コストの増加傾向",
-        "配送状況の可視化不足",
-        "ドライバー不足による業務負荷"
-      ]
-    },
-    {
-      "title": "ご提案するソリューション",
-      "key_points": [
-        "クラウド型配送管理システムの導入",
-        "リアルタイム追跡機能による可視化",
-        "AI配車最適化によるコスト削減"
-      ]
-    }
-  ],
-  "expected_qa": [
-    {
-      "question": "導入にかかる期間はどのくらいですか？",
-      "answer": "通常2-3ヶ月程度で導入可能です。"
-    }
-  ]
-}
-```
-
-### 4. 会話履歴取得
-
-**GET** `/api/conversations/{customer_id}`
-
-顧客IDで会話履歴を取得します。
-
-**GET** `/api/conversations`
-
-すべての会話履歴を取得します（最大100件）。
-
-### 5. 会話履歴作成
-
-**POST** `/api/conversations`
-
-手動で会話履歴を作成します。
-
-### 6. 会話履歴削除
-
-**DELETE** `/api/conversations/{conversation_id}`
-
-指定されたIDの会話履歴を削除します。
-
-## 🏗️ プロジェクト構造
-
-```
-sales-copilot/
-├── app/
-│   ├── main.py          # FastAPIアプリケーション
-│   ├── llm.py           # OpenAI API呼び出し（Structured Outputs）
-│   ├── schemas.py       # Pydanticスキーマ定義
-│   ├── prompts.py       # 営業特化プロンプト
-│   └── db.py            # SQLiteデータベース操作
-├── .env.example         # 環境変数テンプレート
-├── requirements.txt     # 依存パッケージ
-└── README.md            # このファイル
-```
-
-## 🔧 技術スタック
-
-- **FastAPI**: 高速なWeb APIフレームワーク
-- **OpenAI API**: GPT-4を使用したAI生成（Structured Outputs）
-- **Pydantic**: データバリデーションと型安全性
-- **SQLite**: 軽量なデータベース
-- **Python 3.9+**: プログラミング言語
-
-## 📊 データベーススキーマ
-
-```sql
-CREATE TABLE conversations (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    customer_id TEXT NOT NULL,
-    customer_name TEXT NOT NULL,
-    customer_company TEXT NOT NULL,
-    conversation_type TEXT NOT NULL,
-    content TEXT NOT NULL,
-    metadata TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
-## 🔒 セキュリティ
-
-- APIキーは`.env`ファイルで管理（Gitにコミットしない）
-- 会話履歴はローカルのSQLiteに保存
-- CORS設定により外部からのアクセスを制御可能
-
-## 💡 使用例
-
-### cURLでの使用例
+動作確認:
 
 ```bash
-# 営業メール生成
-curl -X POST "http://localhost:8000/api/generate-email" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "customer_name": "田中太郎",
-    "customer_company": "株式会社サンプル",
-    "email_type": "initial_approach",
-    "context": "新規顧客への初回アプローチ",
-    "key_points": ["配送コスト削減", "リアルタイム追跡"]
-  }'
+curl http://127.0.0.1:8000/healthz
 ```
 
-### Pythonでの使用例
+### 2. UI（Streamlit, 任意）
 
-```python
-import requests
-
-response = requests.post(
-    "http://localhost:8000/api/generate-email",
-    json={
-        "customer_name": "田中太郎",
-        "customer_company": "株式会社サンプル",
-        "email_type": "initial_approach",
-        "context": "新規顧客への初回アプローチ",
-        "key_points": ["配送コスト削減", "リアルタイム追跡"]
-    }
-)
-
-print(response.json())
+```bash
+pip install -r requirements-ui.txt
+streamlit run ui_streamlit.py
 ```
 
-## 🤝 サポート
+UIは `SALES_COPILOT_API_BASE` で指定したFastAPIを呼び出します。
 
-問題が発生した場合:
+## Railwayデプロイ（FastAPIのみ）
 
-1. OpenAI APIキーが正しく設定されているか確認
-2. 依存パッケージが正しくインストールされているか確認
-3. ログを確認してエラーメッセージを確認
+このリポジトリには以下を同梱しています。
 
----
+- `Dockerfile`: FastAPI用コンテナビルド
+- `railway.json`: 起動コマンドとヘルスチェック設定
 
-**Sales Copilot API** | Powered by OpenAI GPT-4
+Railway側で設定する主な変数:
+
+- `OPENAI_API_KEY`
+- `DATABASE_URL`（Railway Postgres の接続文字列）
+- `OPENAI_MODEL`（任意）
+- `CORS_ALLOW_ORIGINS`（任意）
+
+デプロイ後、Railwayは `/healthz` で疎通確認します。
+
+## 補足
+
+- SQLite依存は削除し、DBアクセスはPostgres（`psycopg`）へ統一済みです。
+- Streamlit UIは本番デプロイ対象外です（ローカル利用専用）。

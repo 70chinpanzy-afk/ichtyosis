@@ -1,4 +1,16 @@
 # presenters.py
+
+
+def _normalize_term(text: str) -> str:
+    """
+    表記ゆれの補正など、表示前の軽い正規化を行う。
+    """
+    if not isinstance(text, str):
+        return text
+    # ユーザー要望: 「入学希望時期」→「導入希望時期」
+    return text.replace("入学希望時期", "導入希望時期")
+
+
 def format_boss_summary(customer_name: str, meeting_date: str, payload: dict) -> str:
     core = (payload or {}).get("core", {}) or {}
     summary_200 = (core.get("summary_200") or "").strip()
@@ -9,7 +21,7 @@ def format_boss_summary(customer_name: str, meeting_date: str, payload: dict) ->
     next_steps = core.get("next_steps") or []
 
     def bullets(items, prefix="・", limit=5):
-        items = [str(x).strip() for x in items if str(x).strip()]
+        items = [_normalize_term(str(x).strip()) for x in items if str(x).strip()]
         items = items[:limit]
         if not items:
             return "（なし）"
@@ -102,10 +114,14 @@ def format_summary_card(wrapped: dict) -> dict:
     
     # 次アクション上位3（action_items + next_steps を統合）
     next_actions = list(action_items) + list(next_steps)
-    next_actions = [str(x).strip() for x in next_actions if str(x).strip()][:3]
+    next_actions = [
+        _normalize_term(str(x).strip()) for x in next_actions if str(x).strip()
+    ][:3]
     
     # 未確認事項上位3
-    open_questions = [str(x).strip() for x in missing_info if str(x).strip()][:3]
+    open_questions = [
+        _normalize_term(str(x).strip()) for x in missing_info if str(x).strip()
+    ][:3]
     
     # payload から顧客情報を取得
     customer_name = payload.get("customer_name", "")
