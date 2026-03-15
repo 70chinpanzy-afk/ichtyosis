@@ -21,6 +21,10 @@ def main():
     parser.add_argument(
         "--port", type=int, default=8001, help="APIサーバーのポート（デフォルト: 8001）"
     )
+    parser.add_argument(
+        "--export", type=str, metavar="OUTPUT_DIR",
+        help="静的JSONをエクスポートする（例: ../frontend/public/data）"
+    )
     args = parser.parse_args()
 
     log_level = logging.DEBUG if args.verbose else logging.INFO
@@ -30,7 +34,17 @@ def main():
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
-    if args.serve:
+    if args.export:
+        from ichthyosis_curator.exporter import export_static_json
+        try:
+            config = load_config()
+        except EnvironmentError as e:
+            logging.error(f"設定エラー: {e}")
+            sys.exit(1)
+        count = export_static_json(config.db_path, args.export)
+        logging.info(f"エクスポート完了: {count} articles")
+        sys.exit(0)
+    elif args.serve:
         import uvicorn
         from ichthyosis_curator.api.app import app
 

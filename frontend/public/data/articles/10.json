@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "digest_date": "2026-03-15",
+  "source": "pubmed",
+  "source_id": "41817683",
+  "original_title": "Novel ABCA12 frameshift variant in a preterm infant with harlequin ichthyosis.",
+  "title_ja": "ハーレクイン型魚鱗癬を持つ早産児における新規ABCA12フレームシフト変異",
+  "summary_ja": "この研究では、ハーレクイン型魚鱗癬を持つ早産児に新しいABCA12遺伝子のフレームシフト変異が発見されました。この知見は、魚鱗癬の病因解明や治療に新たな道を開く可能性があります。",
+  "category": "研究論文",
+  "relevance_score": 1.0,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41817683/",
+  "published_date": "2026 Mar 02",
+  "curation_reasoning": "魚鱗癬に直接関連する遺伝子変異の発見であり、治療開発に貢献する可能性があるため。",
+  "created_at": "2026-03-14 15:11:37"
+}

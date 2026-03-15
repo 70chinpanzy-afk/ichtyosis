@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "digest_date": "2026-03-15",
+  "source": "pubmed",
+  "source_id": "41791722",
+  "original_title": "General Anesthesia for a Child With Sjögren-Larsson Syndrome.",
+  "title_ja": "シェーグレン・ラルソン症候群の子供に対する全身麻酔",
+  "summary_ja": "この症例報告は、稀な遺伝性疾患であるシェーグレン・ラルソン症候群（SLS）の男の子に対しての全身麻酔下での歯科治療について述べています。この症候群には先天性魚鱗癬が含まれ、心電図電極やIVカテーテルの接着が困難であることが麻酔における主要な懸念事項です。この情報は、SLSに伴う魚鱗癬患者の治療に役立つ可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.5,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41791722/",
+  "published_date": "2026 Mar 06",
+  "curation_reasoning": "シェーグレン・ラルソン症候群は魚鱗癬を伴うため、魚鱗癬患者のケアに有用な情報を含む。",
+  "created_at": "2026-03-14 15:03:29"
+}
