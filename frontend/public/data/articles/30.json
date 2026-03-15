@@ -1,0 +1,16 @@
+{
+  "id": 30,
+  "digest_date": "2026-03-15",
+  "source": "pubmed",
+  "source_id": "41816777",
+  "original_title": "Successful Treatment of Refractory Erythroderma with Abrocitinib: A Case Report.",
+  "title_ja": "アブロシチニブによる難治性紅皮症の治療成功事例",
+  "summary_ja": "この記事は、通常の治療に効かない紅皮症を持つ患者が新しい薬「アブロシチニブ」で治療され、改善した事例について述べています。この患者は、標準的な治療法に反応せず、新薬を使って症状が改善しました。特筆すべきは、炎症の軽減や髪の再生などの効果が見られたことです。このケーススタディは、アブロシチニブが魚鱗癬のような難治性皮膚炎にも応用できる可能性があることを示しています。患者さんにとって、新しい治療法の選択肢ができることに希望が持てる内容です。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41816777/",
+  "published_date": "2026",
+  "curation_reasoning": "アブロシチニブが魚鱗癬の治療に応用できる可能性が示されており、治療の選択肢として考えられるため。",
+  "created_at": "2026-03-15 12:41:22",
+  "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックすることで、皮膚の症状を改善する薬\"}]"
+}

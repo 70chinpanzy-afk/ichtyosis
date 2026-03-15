@@ -1,0 +1,16 @@
+{
+  "id": 40,
+  "digest_date": "2026-03-15",
+  "source": "reddit:r/SkincareAddiction",
+  "source_id": "e13e36739193ae67",
+  "original_title": "[Acne] derm refuses to prescribe Isotretinoin, what are my options?",
+  "title_ja": "皮膚科医がイソトレチノインを処方しない場合の選択肢",
+  "summary_ja": "この記事は、ニキビの治療にイソトレチノインが処方されなかったときの選択肢について話しています。筆者は様々なクリームや洗顔料を試し、抗生物質治療も受けましたが、効果はなく症状が悪化しています。筆者は重度の落ち込みを抱えており、顔の痛みが続いています。治療が難しい状況ですが、保湿剤などを使い乾燥対策を行うことが重要です。魚鱗癬を持つ患者にとっても、保湿やスキンケアの基礎知識が日常の快適さを助けるでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rub0g4/acne_derm_refuses_to_prescribe_isotretinoin_what/",
+  "published_date": "2026-03-15",
+  "curation_reasoning": "魚鱗癬を持つ方にとってもスキンケアの工夫は重要で、治療法が限られている場合の対処法として参考になります。",
+  "created_at": "2026-03-15 12:41:22",
+  "drugs_json": "[{\"drug_name\": \"イソトレチノイン（Isotretinoin）\", \"ingredients\": \"イソトレチノイン\", \"description\": \"皮脂の分泌を抑え、効果的にニキビを治療する飲み薬\"}]"
+}

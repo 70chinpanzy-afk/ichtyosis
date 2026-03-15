@@ -8,6 +8,7 @@ from ichthyosis_curator.db import init_db, log_run, save_curated_article
 from ichthyosis_curator.sources.pubmed import get_pubmed_articles
 from ichthyosis_curator.sources.clinical_trials import search_clinical_trials
 from ichthyosis_curator.sources.news_rss import get_news_articles
+from ichthyosis_curator.sources.reddit import get_reddit_posts
 from ichthyosis_curator.curation.llm_curator import curate_articles, generate_greeting
 from ichthyosis_curator.curation.dedup import filter_unseen_articles, mark_articles_sent
 from ichthyosis_curator.delivery.line_messaging import format_digest_for_line, send_line_push
@@ -64,6 +65,15 @@ def run_daily_curation(config: CuratorConfig) -> bool:
     except Exception as e:
         logger.error(f"News fetch failed: {e}")
         errors.append(f"News: {e}")
+
+    try:
+        reddit = get_reddit_posts(days_back=14)
+        all_raw.extend(reddit)
+        sources_scanned += 1
+        logger.info(f"Reddit: {len(reddit)} posts")
+    except Exception as e:
+        logger.error(f"Reddit fetch failed: {e}")
+        errors.append(f"Reddit: {e}")
 
     logger.info(f"合計: {len(all_raw)} raw articles from {sources_scanned} sources")
 
