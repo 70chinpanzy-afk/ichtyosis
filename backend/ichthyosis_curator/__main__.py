@@ -1,0 +1,50 @@
+"""エントリーポイント: python -m ichthyosis_curator"""
+
+import sys
+import logging
+import argparse
+
+from ichthyosis_curator.config import load_config
+from ichthyosis_curator.runner import run_daily_curation
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="魚鱗癬紅皮症 デイリーニュースキュレーター"
+    )
+    parser.add_argument(
+        "--verbose", action="store_true", help="デバッグログを有効にする"
+    )
+    parser.add_argument(
+        "--serve", action="store_true", help="APIサーバーを起動する"
+    )
+    parser.add_argument(
+        "--port", type=int, default=8001, help="APIサーバーのポート（デフォルト: 8001）"
+    )
+    args = parser.parse_args()
+
+    log_level = logging.DEBUG if args.verbose else logging.INFO
+    logging.basicConfig(
+        level=log_level,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    )
+
+    if args.serve:
+        import uvicorn
+        from ichthyosis_curator.api.app import app
+
+        uvicorn.run(app, host="0.0.0.0", port=args.port)
+    else:
+        try:
+            config = load_config()
+        except EnvironmentError as e:
+            logging.error(f"設定エラー: {e}")
+            sys.exit(1)
+
+        success = run_daily_curation(config)
+        sys.exit(0 if success else 1)
+
+
+if __name__ == "__main__":
+    main()
