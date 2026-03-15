@@ -16,6 +16,12 @@ export interface DigestSummary {
   article_count: number;
 }
 
+export interface DrugInfo {
+  drug_name: string;
+  ingredients: string;
+  description: string;
+}
+
 export interface Article {
   id: number;
   digest_date: string;
@@ -29,7 +35,19 @@ export interface Article {
   url: string | null;
   published_date: string | null;
   curation_reasoning: string | null;
+  drugs_json: string | null;
   created_at: string | null;
+}
+
+/** drugs_json文字列をDrugInfo配列にパース */
+export function parseDrugs(article: Article): DrugInfo[] {
+  if (!article.drugs_json) return [];
+  try {
+    const parsed = JSON.parse(article.drugs_json);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 }
 
 export type Category =

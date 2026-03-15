@@ -3,7 +3,14 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { Article, Category, CATEGORY_CONFIG, getArticle } from "@/lib/api";
+import {
+  Article,
+  Category,
+  CATEGORY_CONFIG,
+  DrugInfo,
+  getArticle,
+  parseDrugs,
+} from "@/lib/api";
 
 export default function ArticleDetailPage() {
   const params = useParams();
@@ -51,6 +58,7 @@ export default function ArticleDetailPage() {
 
   const category = article.category as Category;
   const config = category ? CATEGORY_CONFIG[category] : null;
+  const drugs = parseDrugs(article);
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -116,6 +124,35 @@ export default function ArticleDetailPage() {
             <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
               {article.summary_ja}
             </p>
+          </div>
+        </div>
+      )}
+
+      {/* 薬品・薬剤リスト */}
+      {drugs.length > 0 && (
+        <div className="mb-6">
+          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
+            {"\u{1f48a}"} 関連する薬品・薬剤
+          </h2>
+          <div className="bg-teal-50 rounded-lg border border-teal-200 divide-y divide-teal-100">
+            {drugs.map((drug: DrugInfo, i: number) => (
+              <div key={i} className="p-4">
+                <div className="flex items-baseline gap-2 mb-1">
+                  <span className="font-semibold text-teal-800">
+                    {drug.drug_name}
+                  </span>
+                </div>
+                {drug.ingredients && (
+                  <p className="text-sm text-teal-700 mb-1">
+                    <span className="font-medium">有効成分：</span>
+                    {drug.ingredients}
+                  </p>
+                )}
+                {drug.description && (
+                  <p className="text-sm text-teal-600">{drug.description}</p>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       )}

@@ -96,7 +96,9 @@ def run_daily_curation(config: CuratorConfig) -> bool:
     to_send = unseen[: config.max_articles]
 
     # --- DB保存 ---
+    import json as _json
     for article in to_send:
+        drugs_data = [d.model_dump() for d in article.drugs] if article.drugs else []
         save_curated_article(
             db_path=config.db_path,
             digest_date=today,
@@ -110,6 +112,7 @@ def run_daily_curation(config: CuratorConfig) -> bool:
             url=article.url,
             published_date=article.published_date,
             curation_reasoning=article.curation_reasoning,
+            drugs_json=_json.dumps(drugs_data, ensure_ascii=False),
         )
 
     # --- 挨拶メッセージ生成 ---

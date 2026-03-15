@@ -51,9 +51,16 @@ def init_db(db_path: str) -> None:
                 url TEXT,
                 published_date TEXT,
                 curation_reasoning TEXT,
+                drugs_json TEXT DEFAULT '[]',
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
+
+        # 既存テーブルにdrugs_jsonカラムがない場合は追加（マイグレーション）
+        try:
+            cursor.execute("SELECT drugs_json FROM curated_articles LIMIT 1")
+        except sqlite3.OperationalError:
+            cursor.execute("ALTER TABLE curated_articles ADD COLUMN drugs_json TEXT DEFAULT '[]'")
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS run_log (
@@ -125,18 +132,19 @@ def save_curated_article(
     url: str,
     published_date: Optional[str],
     curation_reasoning: str,
+    drugs_json: str = "[]",
 ) -> int:
     with get_db_connection(db_path) as conn:
         cursor = conn.cursor()
         cursor.execute(
             """INSERT INTO curated_articles
             (digest_date, source, source_id, original_title, title_ja, summary_ja,
-             category, relevance_score, url, published_date, curation_reasoning)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+             category, relevance_score, url, published_date, curation_reasoning, drugs_json)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 digest_date, source, source_id, original_title, title_ja,
                 summary_ja, category, relevance_score, url, published_date,
-                curation_reasoning,
+                curation_reasoning, drugs_json,
             ),
         )
         return cursor.lastrowid

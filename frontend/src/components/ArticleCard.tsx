@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Article, Category, CATEGORY_CONFIG } from "@/lib/api";
+import { Article, Category, CATEGORY_CONFIG, parseDrugs } from "@/lib/api";
 
 interface ArticleCardProps {
   article: Article;
@@ -8,6 +8,7 @@ interface ArticleCardProps {
 export default function ArticleCard({ article }: ArticleCardProps) {
   const category = article.category as Category;
   const config = category ? CATEGORY_CONFIG[category] : null;
+  const drugs = parseDrugs(article);
 
   return (
     <div
@@ -43,6 +44,21 @@ export default function ArticleCard({ article }: ArticleCardProps) {
         <p className="text-sm text-slate-600 leading-relaxed mb-3 line-clamp-3">
           {article.summary_ja}
         </p>
+      )}
+
+      {/* 薬品リスト（カード内コンパクト表示） */}
+      {drugs.length > 0 && (
+        <div className="mb-3 flex flex-wrap gap-1.5">
+          {drugs.map((drug, i) => (
+            <span
+              key={i}
+              className="inline-flex items-center gap-1 px-2 py-0.5 bg-white/80 border border-teal-200 rounded-full text-xs text-teal-700"
+              title={`${drug.ingredients ? drug.ingredients + " — " : ""}${drug.description}`}
+            >
+              {"\u{1f48a}"} {drug.drug_name}
+            </span>
+          ))}
+        </div>
       )}
 
       <div className="flex items-center justify-between text-xs text-slate-500">

@@ -28,6 +28,15 @@ class RawArticle(BaseModel):
     language: str = "en"
 
 
+class DrugInfo(BaseModel):
+    """記事に登場する薬品情報"""
+    model_config = ConfigDict(extra="forbid")
+
+    drug_name: str = Field(description="薬品名（日本語表記、括弧で英語名も記載）")
+    ingredients: str = Field(default="", description="有効成分・薬剤名（一般名）")
+    description: str = Field(default="", description="この薬が何をするか、一般向けの簡単な説明")
+
+
 class CuratedArticle(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
@@ -41,6 +50,7 @@ class CuratedArticle(BaseModel):
     url: str
     published_date: Optional[str] = None
     curation_reasoning: str = ""
+    drugs: list[DrugInfo] = Field(default_factory=list, description="記事に含まれる薬品リスト")
 
 
 class CurationBatchResult(BaseModel):
