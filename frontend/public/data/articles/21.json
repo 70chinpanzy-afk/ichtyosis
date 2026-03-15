@@ -1,0 +1,15 @@
+{
+  "id": 21,
+  "digest_date": "2026-03-15",
+  "source": "clinical_trials",
+  "source_id": "NCT05856526",
+  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
+  "title_ja": "ネザートン症候群に対する新治療薬の効果を検証",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚の病気のための新しい薬を試すためのものです。薬を受け取るグループと、見た目は同じだが薬が入っていないグループに分かれて、どちらが効果があるかを比べます。この研究が成功すれば、魚鱗癬に似た皮膚障害を持つ患者さんへの新しい治療法が期待できます。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05856526",
+  "published_date": "2026-03-12",
+  "curation_reasoning": "ネザートン症候群は魚鱗癬と似た症状を持つため、この薬が効果的なら魚鱗癬にも応用可能です。",
+  "created_at": "2026-03-15 11:23:32"
+}

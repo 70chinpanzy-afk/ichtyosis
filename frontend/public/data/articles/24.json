@@ -1,0 +1,15 @@
+{
+  "id": 24,
+  "digest_date": "2026-03-15",
+  "source": "pubmed",
+  "source_id": "41802486",
+  "original_title": "A multi-target combinatorial therapy of MDBA alleviates atopic dermatitis via synchronized immunosuppression and barrier repair.",
+  "title_ja": "アトピー性皮膚炎を軽減する複合療法MDBAの効果",
+  "summary_ja": "この研究は、皮膚のバリアを修復しつつ免疫を抑える新しい治療法について調べたものです。MDBAという成分を使ったこの治療は、アトピー性皮膚炎の症状を和らげる効果がありました。皮膚の厚みが減り、痒みなどの症状も改善されたとのことです。これは異なる方法でのアプローチなので、他の皮膚疾患にも応用できる可能性があります。特に魚鱗癬のような皮膚バリアが関係する疾患には希望が持てる内容です。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41802486/",
+  "published_date": "2026 Mar 07",
+  "curation_reasoning": "皮膚バリアの修復に役立つ方法が紹介されており、魚鱗癬にも効果がある可能性があるため。",
+  "created_at": "2026-03-15 11:23:32"
+}
