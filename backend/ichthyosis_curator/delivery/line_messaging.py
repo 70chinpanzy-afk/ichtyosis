@@ -73,7 +73,7 @@ def _build_article_bubble(
                         {
                             "type": "text",
                             "text": article.category,
-                            "size": "md",
+                            "size": "lg",
                             "color": "#FFFFFF",
                         }
                     ],
@@ -86,7 +86,7 @@ def _build_article_bubble(
                 {
                     "type": "text",
                     "text": source_label,
-                    "size": "md",
+                    "size": "lg",
                     "color": "#999999",
                     "align": "end",
                     "gravity": "center",
@@ -106,7 +106,7 @@ def _build_article_bubble(
                     "type": "text",
                     "text": article.title_ja or article.original_title or "無題",
                     "weight": "bold",
-                    "size": "xl",
+                    "size": "xxl",
                     "wrap": True,
                     "maxLines": 3,
                     "color": "#333333",
@@ -114,7 +114,7 @@ def _build_article_bubble(
                 {
                     "type": "text",
                     "text": summary,
-                    "size": "lg",
+                    "size": "xl",
                     "color": "#555555",
                     "wrap": True,
                     "margin": "lg",
@@ -183,7 +183,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         contents.append({
             "type": "text",
             "text": digest.greeting,
-            "size": "md",
+            "size": "lg",
             "color": "#555555",
             "wrap": True,
             "margin": "lg",
@@ -192,7 +192,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
     contents.append({
         "type": "text",
         "text": f"本日の注目記事: {len(digest.articles)}件",
-        "size": "lg",
+        "size": "xl",
         "color": "#333333",
         "weight": "bold",
         "margin": "lg",
@@ -208,7 +208,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         contents.append({
             "type": "text",
             "text": f"{emoji} {cat}: {count}件",
-            "size": "md",
+            "size": "lg",
             "color": "#888888",
             "margin": "sm",
         })
@@ -236,7 +236,7 @@ def _build_footer_bubble(frontend_url: str, total: int) -> dict:
                 {
                     "type": "text",
                     "text": f"他にも{total}件の記事があります",
-                    "size": "lg",
+                    "size": "xl",
                     "color": "#555555",
                     "align": "center",
                     "wrap": True,
