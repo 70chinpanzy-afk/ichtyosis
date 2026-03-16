@@ -107,9 +107,10 @@ def run_daily_curation(config: CuratorConfig) -> bool:
 
     # --- DB保存 ---
     import json as _json
+    saved_ids: list[int] = []
     for article in to_send:
         drugs_data = [d.model_dump() for d in article.drugs] if article.drugs else []
-        save_curated_article(
+        db_id = save_curated_article(
             db_path=config.db_path,
             digest_date=today,
             source=article.source,
@@ -124,6 +125,7 @@ def run_daily_curation(config: CuratorConfig) -> bool:
             curation_reasoning=article.curation_reasoning,
             drugs_json=_json.dumps(drugs_data, ensure_ascii=False),
         )
+        saved_ids.append(db_id)
 
     # --- 挨拶メッセージ生成 ---
     try:
@@ -141,7 +143,11 @@ def run_daily_curation(config: CuratorConfig) -> bool:
 
     line_sent = False
     if config.line_channel_access_token and config.line_user_id:
-        message = format_digest_for_line(digest)
+        message = format_digest_for_line(
+            digest,
+            frontend_url=config.frontend_url,
+            article_db_ids=saved_ids,
+        )
         line_sent = send_line_push(
             config.line_channel_access_token, config.line_user_id, message,
         )
@@ -174,5 +180,5 @@ def _send_empty_digest(config: CuratorConfig, date: str, sources_scanned: int) -
         greeting=f"{date}の魚鱗癬関連情報をお届けします。",
     )
     if config.line_channel_access_token and config.line_user_id:
-        message = format_digest_for_line(digest)
+        message = format_digest_for_line(digest, frontend_url=config.frontend_url)
         send_line_push(config.line_channel_access_token, config.line_user_id, message)

@@ -1,6 +1,7 @@
 """LINE Messaging API通知"""
 
 import logging
+import os
 
 import requests
 
@@ -19,7 +20,22 @@ CATEGORY_EMOJI = {
 }
 
 
-def format_digest_for_line(digest: DailyDigest) -> str:
+
+def format_digest_for_line(
+    digest: DailyDigest,
+    frontend_url: str = "",
+    article_db_ids: list[int] | None = None,
+) -> str:
+    if not frontend_url:
+        frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
+
+    # 記事→DB IDのマッピング
+    id_map: dict[str, int] = {}
+    if article_db_ids:
+        for i, article in enumerate(digest.articles):
+            if i < len(article_db_ids):
+                id_map[article.source_id] = article_db_ids[i]
+
     lines = []
     lines.append(f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース")
     lines.append(f"\U0001f4c5 {digest.date}")
@@ -48,10 +64,20 @@ def format_digest_for_line(digest: DailyDigest) -> str:
         lines.append(f"{emoji} {cat}")
         for a in articles[:3]:  # カテゴリ毎に最大3件
             lines.append(f"  {a.title_ja}")
-            lines.append(f"  {a.url}")
+            # フロントエンドURLがあればサイトの記事ページへリンク
+            db_id = id_map.get(a.source_id)
+            if frontend_url and db_id:
+                lines.append(f"  {frontend_url}/article/{db_id}")
+            elif a.url:
+                lines.append(f"  {a.url}")
             lines.append("")
 
-    lines.append(f"計{len(digest.articles)}件")
+    # サイトへの全件リンク
+    if frontend_url:
+        lines.append(f"全{len(digest.articles)}件の記事はこちら")
+        lines.append(frontend_url)
+    else:
+        lines.append(f"計{len(digest.articles)}件")
     return "\n".join(lines)
 
 
