@@ -1,4 +1,4 @@
-"""LINE Messaging API通知"""
+"""LINE Messaging API通知（Flex Message対応）"""
 
 import logging
 import os
@@ -11,6 +11,14 @@ logger = logging.getLogger(__name__)
 
 LINE_PUSH_URL = "https://api.line.me/v2/bot/message/push"
 
+CATEGORY_COLORS = {
+    "新薬・治療法": "#E74C3C",
+    "研究論文": "#3498DB",
+    "ケア・対処法": "#2ECC71",
+    "関連疾患からの知見": "#9B59B6",
+    "ニュース": "#F39C12",
+}
+
 CATEGORY_EMOJI = {
     "新薬・治療法": "\U0001f48a",
     "研究論文": "\U0001f4c4",
@@ -19,6 +27,303 @@ CATEGORY_EMOJI = {
     "ニュース": "\U0001f4f0",
 }
 
+SOURCE_LABELS = {
+    "pubmed": "PubMed",
+    "clinical_trials": "臨床試験",
+    "google_news": "ニュース",
+    "reddit": "Reddit",
+}
+
+
+def _get_source_label(source: str) -> str:
+    for key, label in SOURCE_LABELS.items():
+        if key in source:
+            return label
+    return "その他"
+
+
+def _build_article_bubble(
+    article: CuratedArticle,
+    frontend_url: str,
+    db_id: int | None,
+) -> dict:
+    """1記事分のFlex Bubble"""
+    cat_color = CATEGORY_COLORS.get(article.category, "#95A5A6")
+    source_label = _get_source_label(article.source)
+
+    # リンクURL
+    if frontend_url and db_id:
+        link_url = f"{frontend_url}/article/{db_id}"
+    else:
+        link_url = article.url or ""
+
+    # 要約を短縮（Flex Messageのサイズ制限対策）
+    summary = article.summary_ja or ""
+    if len(summary) > 120:
+        summary = summary[:117] + "..."
+
+    bubble: dict = {
+        "type": "bubble",
+        "size": "kilo",
+        "header": {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+                {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": article.category,
+                            "size": "xxs",
+                            "color": "#FFFFFF",
+                        }
+                    ],
+                    "backgroundColor": cat_color,
+                    "cornerRadius": "md",
+                    "paddingAll": "4px",
+                    "paddingStart": "8px",
+                    "paddingEnd": "8px",
+                },
+                {
+                    "type": "text",
+                    "text": source_label,
+                    "size": "xxs",
+                    "color": "#999999",
+                    "align": "end",
+                    "gravity": "center",
+                    "flex": 0,
+                },
+            ],
+            "paddingBottom": "8px",
+            "paddingTop": "12px",
+            "paddingStart": "16px",
+            "paddingEnd": "16px",
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": article.title_ja or article.original_title or "無題",
+                    "weight": "bold",
+                    "size": "sm",
+                    "wrap": True,
+                    "maxLines": 3,
+                    "color": "#333333",
+                },
+                {
+                    "type": "text",
+                    "text": summary,
+                    "size": "xs",
+                    "color": "#666666",
+                    "wrap": True,
+                    "maxLines": 4,
+                    "margin": "md",
+                },
+            ],
+            "spacing": "none",
+            "paddingTop": "4px",
+        },
+    }
+
+    # リンクがある場合はフッターにボタン追加
+    if link_url:
+        bubble["footer"] = {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "詳しく読む",
+                        "uri": link_url,
+                    },
+                    "style": "primary",
+                    "color": cat_color,
+                    "height": "sm",
+                },
+            ],
+            "paddingTop": "8px",
+        }
+
+    return bubble
+
+
+def _build_header_bubble(digest: DailyDigest) -> dict:
+    """ヘッダー用Bubble（挨拶 + 日付）"""
+    contents = [
+        {
+            "type": "text",
+            "text": "魚鱗癬紅皮症",
+            "size": "xs",
+            "color": "#AAAAAA",
+        },
+        {
+            "type": "text",
+            "text": "デイリーニュース",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#333333",
+            "margin": "sm",
+        },
+        {
+            "type": "text",
+            "text": digest.date,
+            "size": "xs",
+            "color": "#999999",
+            "margin": "md",
+        },
+        {
+            "type": "separator",
+            "margin": "lg",
+        },
+    ]
+
+    if digest.greeting:
+        contents.append({
+            "type": "text",
+            "text": digest.greeting,
+            "size": "sm",
+            "color": "#555555",
+            "wrap": True,
+            "margin": "lg",
+        })
+
+    contents.append({
+        "type": "text",
+        "text": f"本日の注目記事: {len(digest.articles)}件",
+        "size": "sm",
+        "color": "#333333",
+        "weight": "bold",
+        "margin": "lg",
+    })
+
+    # カテゴリ別件数
+    by_cat: dict[str, int] = {}
+    for a in digest.articles:
+        by_cat[a.category] = by_cat.get(a.category, 0) + 1
+
+    for cat, count in by_cat.items():
+        emoji = CATEGORY_EMOJI.get(cat, "")
+        contents.append({
+            "type": "text",
+            "text": f"{emoji} {cat}: {count}件",
+            "size": "xs",
+            "color": "#888888",
+            "margin": "sm",
+        })
+
+    return {
+        "type": "bubble",
+        "size": "kilo",
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": contents,
+        },
+    }
+
+
+def _build_footer_bubble(frontend_url: str, total: int) -> dict:
+    """フッター用Bubble（全件リンク）"""
+    bubble: dict = {
+        "type": "bubble",
+        "size": "kilo",
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": f"他にも{total}件の記事があります",
+                    "size": "sm",
+                    "color": "#555555",
+                    "align": "center",
+                },
+            ],
+            "justifyContent": "center",
+            "alignItems": "center",
+        },
+    }
+
+    if frontend_url:
+        bubble["footer"] = {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "すべての記事を見る",
+                        "uri": frontend_url,
+                    },
+                    "style": "primary",
+                    "color": "#4A90D9",
+                    "height": "sm",
+                },
+            ],
+        }
+
+    return bubble
+
+
+def build_flex_messages(
+    digest: DailyDigest,
+    frontend_url: str = "",
+    article_db_ids: list[int] | None = None,
+) -> list[dict]:
+    """Flex Messageオブジェクトのリストを生成"""
+    if not frontend_url:
+        frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
+
+    # 記事→DB IDのマッピング
+    id_map: dict[str, int] = {}
+    if article_db_ids:
+        for i, article in enumerate(digest.articles):
+            if i < len(article_db_ids):
+                id_map[article.source_id] = article_db_ids[i]
+
+    if not digest.articles:
+        # 記事なしの場合はテキストメッセージ
+        return [{
+            "type": "text",
+            "text": f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース\n"
+                    f"\U0001f4c5 {digest.date}\n\n"
+                    f"{digest.greeting}\n\n"
+                    f"本日は新しい関連ニュースはありませんでした。\n"
+                    f"明日もチェックを続けます。",
+        }]
+
+    messages: list[dict] = []
+
+    # --- Carousel 1: ヘッダー + 上位記事（最大12 bubbles） ---
+    bubbles: list[dict] = []
+    bubbles.append(_build_header_bubble(digest))
+
+    # 関連性スコアの高い順に最大10記事
+    sorted_articles = sorted(digest.articles, key=lambda a: a.relevance_score, reverse=True)
+    for article in sorted_articles[:10]:
+        db_id = id_map.get(article.source_id)
+        bubbles.append(_build_article_bubble(article, frontend_url, db_id))
+
+    # フッター
+    bubbles.append(_build_footer_bubble(frontend_url, len(digest.articles)))
+
+    messages.append({
+        "type": "flex",
+        "altText": f"魚鱗癬紅皮症 デイリーニュース {digest.date}（{len(digest.articles)}件）",
+        "contents": {
+            "type": "carousel",
+            "contents": bubbles,
+        },
+    })
+
+    return messages
 
 
 def format_digest_for_line(
@@ -26,10 +331,10 @@ def format_digest_for_line(
     frontend_url: str = "",
     article_db_ids: list[int] | None = None,
 ) -> str:
+    """テキスト形式のフォールバック（後方互換性）"""
     if not frontend_url:
         frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
 
-    # 記事→DB IDのマッピング
     id_map: dict[str, int] = {}
     if article_db_ids:
         for i, article in enumerate(digest.articles):
@@ -47,7 +352,6 @@ def format_digest_for_line(
 
     if not digest.articles:
         lines.append("本日は新しい関連ニュースはありませんでした。")
-        lines.append("明日もチェックを続けます。")
         return "\n".join(lines)
 
     by_category: dict[str, list[CuratedArticle]] = {}
@@ -62,9 +366,8 @@ def format_digest_for_line(
             continue
         emoji = CATEGORY_EMOJI.get(cat, "\U0001f4cc")
         lines.append(f"{emoji} {cat}")
-        for a in articles[:3]:  # カテゴリ毎に最大3件
+        for a in articles[:3]:
             lines.append(f"  {a.title_ja}")
-            # フロントエンドURLがあればサイトの記事ページへリンク
             db_id = id_map.get(a.source_id)
             if frontend_url and db_id:
                 lines.append(f"  {frontend_url}/article/{db_id}")
@@ -72,7 +375,6 @@ def format_digest_for_line(
                 lines.append(f"  {a.url}")
             lines.append("")
 
-    # サイトへの全件リンク
     if frontend_url:
         lines.append(f"全{len(digest.articles)}件の記事はこちら")
         lines.append(frontend_url)
@@ -81,8 +383,8 @@ def format_digest_for_line(
     return "\n".join(lines)
 
 
-def send_line_push(token: str, user_id: str, message: str) -> bool:
-    """LINE Messaging APIでpushメッセージを送信"""
+def send_line_flex(token: str, user_id: str, messages: list[dict]) -> bool:
+    """Flex Messageを送信"""
     if not token or not user_id:
         logger.warning("LINE credentials not configured, skipping notification")
         return False
@@ -92,10 +394,37 @@ def send_line_push(token: str, user_id: str, message: str) -> bool:
         "Authorization": f"Bearer {token}",
     }
 
-    # LINE Messaging APIは1メッセージ最大5000文字
-    chunks = _split_message(message, max_len=5000)
+    body = {
+        "to": user_id,
+        "messages": messages[:5],  # LINE APIは最大5メッセージ
+    }
 
-    messages = [{"type": "text", "text": chunk} for chunk in chunks[:5]]  # 最大5メッセージ
+    try:
+        resp = requests.post(LINE_PUSH_URL, headers=headers, json=body, timeout=30)
+        if resp.status_code == 200:
+            logger.info("LINE Flex Message sent")
+            return True
+        else:
+            logger.error(f"LINE Flex push failed: {resp.status_code} {resp.text}")
+            return False
+    except requests.RequestException as e:
+        logger.error(f"LINE Flex push request failed: {e}")
+        return False
+
+
+def send_line_push(token: str, user_id: str, message: str) -> bool:
+    """テキストメッセージを送信（後方互換性）"""
+    if not token or not user_id:
+        logger.warning("LINE credentials not configured, skipping notification")
+        return False
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {token}",
+    }
+
+    chunks = _split_message(message, max_len=5000)
+    messages = [{"type": "text", "text": chunk} for chunk in chunks[:5]]
 
     body = {
         "to": user_id,

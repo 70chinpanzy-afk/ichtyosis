@@ -11,7 +11,7 @@ from ichthyosis_curator.sources.news_rss import get_news_articles
 from ichthyosis_curator.sources.reddit import get_reddit_posts
 from ichthyosis_curator.curation.llm_curator import curate_articles, generate_greeting
 from ichthyosis_curator.curation.dedup import filter_unseen_articles, mark_articles_sent
-from ichthyosis_curator.delivery.line_messaging import format_digest_for_line, send_line_push
+from ichthyosis_curator.delivery.line_messaging import build_flex_messages, send_line_flex, format_digest_for_line, send_line_push
 from ichthyosis_curator.schemas import DailyDigest
 
 logger = logging.getLogger(__name__)
@@ -143,13 +143,13 @@ def run_daily_curation(config: CuratorConfig) -> bool:
 
     line_sent = False
     if config.line_channel_access_token and config.line_user_id:
-        message = format_digest_for_line(
+        flex_msgs = build_flex_messages(
             digest,
             frontend_url=config.frontend_url,
             article_db_ids=saved_ids,
         )
-        line_sent = send_line_push(
-            config.line_channel_access_token, config.line_user_id, message,
+        line_sent = send_line_flex(
+            config.line_channel_access_token, config.line_user_id, flex_msgs,
         )
     else:
         logger.info("LINE credentials not set, skipping LINE notification")
@@ -180,5 +180,5 @@ def _send_empty_digest(config: CuratorConfig, date: str, sources_scanned: int) -
         greeting=f"{date}の魚鱗癬関連情報をお届けします。",
     )
     if config.line_channel_access_token and config.line_user_id:
-        message = format_digest_for_line(digest, frontend_url=config.frontend_url)
-        send_line_push(config.line_channel_access_token, config.line_user_id, message)
+        flex_msgs = build_flex_messages(digest, frontend_url=config.frontend_url)
+        send_line_flex(config.line_channel_access_token, config.line_user_id, flex_msgs)
