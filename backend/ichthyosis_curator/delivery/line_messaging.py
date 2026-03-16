@@ -57,10 +57,7 @@ def _build_article_bubble(
     else:
         link_url = article.url or ""
 
-    # 要約を短縮（Flex Messageのサイズ制限対策）
     summary = article.summary_ja or ""
-    if len(summary) > 120:
-        summary = summary[:117] + "..."
 
     bubble: dict = {
         "type": "bubble",
@@ -120,7 +117,6 @@ def _build_article_bubble(
                     "size": "xs",
                     "color": "#666666",
                     "wrap": True,
-                    "maxLines": 4,
                     "margin": "md",
                 },
             ],
