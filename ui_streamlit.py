@@ -9,6 +9,7 @@ import json
 import os
 
 import streamlit as st
+from dotenv import load_dotenv
 
 from presenters import (
     format_boss_summary,
@@ -25,6 +26,8 @@ from history_repo import (
 
 from usecase_generate import execute_sales_flow
 from infra_api import api_healthcheck
+
+load_dotenv()
 
 def normalize_wrapped(obj: dict) -> dict:
     """
@@ -69,12 +72,15 @@ def init_session_state():
         ("last_history_id", None),
         ("last_run_at", None),
         ("last_edit_at", None),
-        ("show_timeline", False),        
+        ("show_timeline", False),
         ("customer_name", ""),
         ("customer_company", ""),
         ("meeting_date", date.today()),
         ("mode", "lite"),
         ("tone", "sales"),
+        ("history_enabled", True),
+        ("history_error", None),
+        ("history_initialized", False),
     ]
     for key, val in defaults:
         if key not in st.session_state:
@@ -87,17 +93,40 @@ def init_session_state():
 # 画面構築
 # =========================
 st.set_page_config(page_title="Sales Copilot UI", layout="wide")
-init_history_db(HISTORY_DB)
+st.markdown(
+    """
+    <style>
+    div.stButton > button {
+        white-space: normal;
+        height: auto;
+        min-height: 2.6rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 init_session_state()
+if not st.session_state.get("history_initialized"):
+    try:
+        init_history_db(HISTORY_DB)
+    except Exception as e:
+        st.session_state["history_enabled"] = False
+        st.session_state["history_error"] = str(e)
+    finally:
+        st.session_state["history_initialized"] = True
 
 api_ok = st.session_state["api_ok"]
 st.title("Sales Copilot（日本語UI）")
 st.caption("入力 → /api/sales-flow → 結果を3タブで表示")
+st.caption(f"API接続先: {API_BASE}")
 
 if api_ok:
     st.success("✅ FastAPI 接続OK（/healthz）")
 else:
     st.error("❌ FastAPI に接続できません（/healthz が開けない）")
+
+if not st.session_state.get("history_enabled", True):
+    st.warning("履歴DBに接続できないため、履歴機能は無効化しています。")
 
 # ---------- サイドバー（入力 + 履歴のみ。履歴UIはここに統一） ----------
 with st.sidebar:
@@ -110,7 +139,7 @@ with st.sidebar:
 
 
     st.divider()
-    if st.button("この顧客のタイムラインを見る", key="btn_timeline"):
+    if st.button("タイムライン表示", key="btn_timeline"):
         company = (st.session_state.get("customer_company") or "").strip()
         name = (st.session_state.get("customer_name") or "").strip()
 
@@ -122,7 +151,7 @@ with st.sidebar:
 
     # 閉じるボタン（任意だけど実用的）
     if st.session_state.get("show_timeline"):
-        if st.button("タイムラインを閉じる", key="btn_timeline_close"):
+        if st.button("タイムライン閉じる", key="btn_timeline_close"):
             st.session_state["show_timeline"] = False
             st.rerun()
 
@@ -132,11 +161,20 @@ with st.sidebar:
 
     st.divider()
     st.subheader("履歴")
+    if not st.session_state.get("history_enabled", True):
+        st.caption("履歴DBが未接続のため、履歴の保存・読み込みは停止中です。")
 
     # 履歴検索（会社名・担当者で絞り込み）
-    q = st.text_input("履歴検索（会社名/担当者）", key="history_query", placeholder="例：〇〇銀行")
-    rows_all = list_history(HISTORY_DB, limit=30)
-    
+    q = st.text_input("履歴検索（会社/担当）", key="history_query", placeholder="例：〇〇銀行")
+    rows_all = []
+    if st.session_state.get("history_enabled", True):
+        try:
+            rows_all = list_history(HISTORY_DB, limit=30)
+        except Exception as e:
+            st.session_state["history_enabled"] = False
+            st.session_state["history_error"] = str(e)
+            st.warning("履歴DBエラーのため、履歴機能を無効化しました。")
+
     # 検索クエリでフィルタリング
     if q and q.strip():
         filtered = []
@@ -190,7 +228,7 @@ with st.sidebar:
 
     selected_idx = (
         st.selectbox(
-            "履歴を選択（読み込み）",
+            "履歴を選択",
             options=list(range(len(labels))),
             format_func=lambda i: labels[i],
             index=default_index,
@@ -203,7 +241,7 @@ with st.sidebar:
     with col_h1:
         load_btn = st.button("読み込み", key="btn_history_load", disabled=(selected_idx is None))
     with col_h2:
-        clear_btn = st.button("履歴クリア（表示のみ）", key="btn_history_clear", disabled=(selected_idx is None))
+        clear_btn = st.button("履歴クリア", key="btn_history_clear", disabled=(selected_idx is None))
 
     if clear_btn:
         st.session_state["last_response"] = None
@@ -215,7 +253,14 @@ with st.sidebar:
         if not history_id:
             st.error("履歴の読み込みに失敗しました")
             st.rerun()
-        row = load_history(HISTORY_DB, history_id)
+        row = None
+        try:
+            row = load_history(HISTORY_DB, history_id)
+        except Exception as e:
+            st.session_state["history_enabled"] = False
+            st.session_state["history_error"] = str(e)
+            st.error("履歴DBエラーのため、履歴読み込みを停止しました。")
+            st.rerun()
 
         if row:
             # DBの1件分の履歴から、UIの入力・メモ・結果をすべて復元
@@ -281,7 +326,6 @@ def _on_memo_change():
 memo = st.text_area(
     "ここに議事録/メモを貼り付け（箇条書きOK）",
     height=320,
-    value=st.session_state["memo_text"],
     key="memo_text",
     on_change=_on_memo_change,
 )
@@ -332,7 +376,7 @@ if run:
         with st.spinner("API呼び出し中..."):
             result = execute_sales_flow(
                 api_base=API_BASE,
-                db_path=HISTORY_DB,
+                db_path=HISTORY_DB if st.session_state.get("history_enabled", True) else None,
                 customer_name=customer_name,
                 customer_company=customer_company,
                 meeting_date=str(meeting_date),
@@ -377,10 +421,18 @@ if st.session_state.get("show_timeline"):
 
     if not company or not name:
         st.info("会社名と顧客名を入れるとタイムラインが表示されます。")
+    elif not st.session_state.get("history_enabled", True):
+        st.info("履歴DB未接続のため、タイムライン表示は無効です。")
     else:
         st.subheader(f"顧客タイムライン：{company} {name}")
 
-        timeline_rows = list_history_by_customer(HISTORY_DB, company, name)
+        try:
+            timeline_rows = list_history_by_customer(HISTORY_DB, company, name)
+        except Exception as e:
+            st.session_state["history_enabled"] = False
+            st.session_state["history_error"] = str(e)
+            st.error("履歴DBエラーのため、タイムライン表示を停止しました。")
+            timeline_rows = []
 
         if not timeline_rows:
             st.info("この顧客の履歴はまだありません。")

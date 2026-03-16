@@ -6,9 +6,14 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
-import psycopg
-from psycopg.rows import dict_row
-from psycopg.types.json import Json
+try:
+    import psycopg
+    from psycopg.rows import dict_row
+    from psycopg.types.json import Json
+except Exception:  # pragma: no cover - optional dependency at runtime
+    psycopg = None
+    dict_row = None
+    Json = None
 
 
 @dataclass(frozen=True)
@@ -25,6 +30,8 @@ class HistoryRow:
 
 
 def _connect(db_url: str) -> psycopg.Connection:
+    if psycopg is None or dict_row is None:
+        raise RuntimeError("psycopg is not installed. Install requirements-ui.txt or requirements.txt")
     if not (db_url or "").strip():
         raise RuntimeError("History database URL is empty")
     return psycopg.connect(db_url, row_factory=dict_row)

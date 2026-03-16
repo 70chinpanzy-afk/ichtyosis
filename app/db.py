@@ -7,9 +7,14 @@ from contextlib import contextmanager
 from datetime import datetime
 from typing import Iterator, List, Optional
 
-import psycopg
-from psycopg.rows import dict_row
-from psycopg.types.json import Json
+try:
+    import psycopg
+    from psycopg.rows import dict_row
+    from psycopg.types.json import Json
+except Exception:  # pragma: no cover - optional in local runtime
+    psycopg = None
+    dict_row = None
+    Json = None
 
 
 def get_database_url() -> str:
@@ -19,8 +24,22 @@ def get_database_url() -> str:
     return database_url
 
 
+def is_db_enabled() -> bool:
+    return bool(os.getenv("DATABASE_URL", "").strip())
+
+
+def is_db_required() -> bool:
+    raw = os.getenv("DB_REQUIRED")
+    if raw is not None:
+        return raw.lower() == "true"
+    # Railway環境ではDB必須、ローカルは任意にする
+    return bool(os.getenv("RAILWAY_PROJECT_ID"))
+
+
 @contextmanager
 def get_db_connection() -> Iterator[psycopg.Connection]:
+    if psycopg is None or dict_row is None:
+        raise RuntimeError("psycopg is not installed")
     conn = psycopg.connect(get_database_url(), row_factory=dict_row)
     try:
         yield conn
@@ -33,6 +52,10 @@ def get_db_connection() -> Iterator[psycopg.Connection]:
 
 
 def init_db() -> None:
+    if not is_db_enabled():
+        if is_db_required():
+            raise RuntimeError("DATABASE_URL is not set")
+        return
     with get_db_connection() as conn:
         with conn.cursor() as cur:
             cur.execute(
@@ -64,6 +87,8 @@ def init_db() -> None:
 
 
 def check_db_health() -> bool:
+    if not is_db_enabled():
+        return not is_db_required()
     try:
         with get_db_connection() as conn:
             with conn.cursor() as cur:

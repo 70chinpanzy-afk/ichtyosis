@@ -7,18 +7,23 @@ from contextlib import asynccontextmanager
 
 import uvicorn
 from fastapi import FastAPI
+from fastapi import HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from openai import AuthenticationError as OpenAIAuthenticationError
 
 from app.schemas import SalesFlowRequest, SalesFlowResponse
 from app.services.sales_flow_service import run_sales_flow
-from app.db import check_db_health, init_db
+from app.db import check_db_health, init_db, is_db_enabled
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
-    print("✅ Database initialized")
+    if is_db_enabled():
+        print("✅ Database initialized")
+    else:
+        print("ℹ️ Database disabled in local mode")
     yield
     print("👋 Shutting down...")
 
@@ -60,6 +65,8 @@ def root():
 
 @app.get("/healthz")
 def healthcheck():
+    if not is_db_enabled():
+        return {"status": "ok", "database": "disabled"}
     if not check_db_health():
         return JSONResponse(
             status_code=503,
@@ -70,7 +77,20 @@ def healthcheck():
 
 @app.post("/api/sales-flow", response_model=SalesFlowResponse)
 def sales_flow(req: SalesFlowRequest):
-    return run_sales_flow(req)
+    try:
+        return run_sales_flow(req)
+    except RuntimeError as e:
+        if "OPENAI_API_KEY" in str(e):
+            raise HTTPException(
+                status_code=502,
+                detail="OPENAI_API_KEY is missing. Please set it in Railway Variables.",
+            )
+        raise
+    except OpenAIAuthenticationError:
+        raise HTTPException(
+            status_code=502,
+            detail="OPENAI_API_KEY is invalid. Please update your API key and restart FastAPI.",
+        )
 
 
 if __name__ == "__main__":

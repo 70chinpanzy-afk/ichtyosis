@@ -18,7 +18,7 @@ class GenerateResult:
 def execute_sales_flow(
     *,
     api_base: str,
-    db_path: str,
+    db_path: Optional[str],
     customer_name: str,
     customer_company: str,
     meeting_date: str,
@@ -26,6 +26,8 @@ def execute_sales_flow(
     mode: str,
     tone: str,
 ) -> GenerateResult:
+    history_enabled = bool((db_path or "").strip())
+
     # 1) payload構築（メモ空でも再現用に保存する）
     payload = {
         "customer_name": customer_name,
@@ -46,18 +48,21 @@ def execute_sales_flow(
             "data": None,
             "error": err_msg,
         }
-        try:
-            history_id = save_history(
-                db_path,
-                customer_name=customer_name,
-                customer_company=customer_company,
-                meeting_date=meeting_date,
-                mode=mode,
-                tone=tone,
-                memo=memo or "",
-                response_obj=wrapped,
-            )
-        except Exception:
+        if history_enabled:
+            try:
+                history_id = save_history(
+                    db_path,
+                    customer_name=customer_name,
+                    customer_company=customer_company,
+                    meeting_date=meeting_date,
+                    mode=mode,
+                    tone=tone,
+                    memo=memo or "",
+                    response_obj=wrapped,
+                )
+            except Exception:
+                history_id = None
+        else:
             history_id = None
         return GenerateResult(ok=False, data=wrapped, error=err_msg, history_id=history_id)
 
@@ -75,23 +80,25 @@ def execute_sales_flow(
         "error": err if err else None,
     }
     
-    try:
-        history_id = save_history(
-            db_path,
-            customer_name=customer_name,
-            customer_company=customer_company,
-            meeting_date=meeting_date,
-            mode=mode,
-            tone=tone,
-            memo=memo,
-            response_obj=wrapped,
-        )
-    except Exception as e:
-        # 保存失敗は警告として扱う（API成功時のみ）
-        if not err:
-            return GenerateResult(ok=True, data=wrapped, error=f"履歴保存に失敗: {e!r}", history_id=None)
-        # API失敗＋保存失敗の場合は、API失敗を優先
-        return GenerateResult(ok=False, data=wrapped, error=err, history_id=None)
+    history_id = None
+    if history_enabled:
+        try:
+            history_id = save_history(
+                db_path,
+                customer_name=customer_name,
+                customer_company=customer_company,
+                meeting_date=meeting_date,
+                mode=mode,
+                tone=tone,
+                memo=memo,
+                response_obj=wrapped,
+            )
+        except Exception as e:
+            # 保存失敗は警告として扱う（API成功時のみ）
+            if not err:
+                return GenerateResult(ok=True, data=wrapped, error=f"履歴保存に失敗: {e!r}", history_id=None)
+            # API失敗＋保存失敗の場合は、API失敗を優先
+            return GenerateResult(ok=False, data=wrapped, error=err, history_id=None)
     
     if err:
         # API失敗だが履歴は保存できた
