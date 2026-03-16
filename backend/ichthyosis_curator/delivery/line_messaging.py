@@ -61,7 +61,7 @@ def _build_article_bubble(
 
     bubble: dict = {
         "type": "bubble",
-        "size": "kilo",
+        "size": "mega",
         "header": {
             "type": "box",
             "layout": "horizontal",
@@ -73,30 +73,30 @@ def _build_article_bubble(
                         {
                             "type": "text",
                             "text": article.category,
-                            "size": "xxs",
+                            "size": "sm",
                             "color": "#FFFFFF",
                         }
                     ],
                     "backgroundColor": cat_color,
                     "cornerRadius": "md",
-                    "paddingAll": "4px",
-                    "paddingStart": "8px",
-                    "paddingEnd": "8px",
+                    "paddingAll": "6px",
+                    "paddingStart": "12px",
+                    "paddingEnd": "12px",
                 },
                 {
                     "type": "text",
                     "text": source_label,
-                    "size": "xxs",
+                    "size": "sm",
                     "color": "#999999",
                     "align": "end",
                     "gravity": "center",
                     "flex": 0,
                 },
             ],
-            "paddingBottom": "8px",
-            "paddingTop": "12px",
-            "paddingStart": "16px",
-            "paddingEnd": "16px",
+            "paddingBottom": "10px",
+            "paddingTop": "14px",
+            "paddingStart": "20px",
+            "paddingEnd": "20px",
         },
         "body": {
             "type": "box",
@@ -106,7 +106,7 @@ def _build_article_bubble(
                     "type": "text",
                     "text": article.title_ja or article.original_title or "無題",
                     "weight": "bold",
-                    "size": "sm",
+                    "size": "lg",
                     "wrap": True,
                     "maxLines": 3,
                     "color": "#333333",
@@ -114,10 +114,10 @@ def _build_article_bubble(
                 {
                     "type": "text",
                     "text": summary,
-                    "size": "xs",
-                    "color": "#666666",
+                    "size": "md",
+                    "color": "#555555",
                     "wrap": True,
-                    "margin": "md",
+                    "margin": "lg",
                 },
             ],
             "spacing": "none",
@@ -155,21 +155,21 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         {
             "type": "text",
             "text": "魚鱗癬紅皮症",
-            "size": "xs",
+            "size": "sm",
             "color": "#AAAAAA",
         },
         {
             "type": "text",
             "text": "デイリーニュース",
             "weight": "bold",
-            "size": "xl",
+            "size": "xxl",
             "color": "#333333",
             "margin": "sm",
         },
         {
             "type": "text",
             "text": digest.date,
-            "size": "xs",
+            "size": "md",
             "color": "#999999",
             "margin": "md",
         },
@@ -183,7 +183,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         contents.append({
             "type": "text",
             "text": digest.greeting,
-            "size": "sm",
+            "size": "md",
             "color": "#555555",
             "wrap": True,
             "margin": "lg",
@@ -192,7 +192,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
     contents.append({
         "type": "text",
         "text": f"本日の注目記事: {len(digest.articles)}件",
-        "size": "sm",
+        "size": "lg",
         "color": "#333333",
         "weight": "bold",
         "margin": "lg",
@@ -208,14 +208,14 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         contents.append({
             "type": "text",
             "text": f"{emoji} {cat}: {count}件",
-            "size": "xs",
+            "size": "md",
             "color": "#888888",
             "margin": "sm",
         })
 
     return {
         "type": "bubble",
-        "size": "kilo",
+        "size": "mega",
         "body": {
             "type": "box",
             "layout": "vertical",
@@ -228,7 +228,7 @@ def _build_footer_bubble(frontend_url: str, total: int) -> dict:
     """フッター用Bubble（全件リンク）"""
     bubble: dict = {
         "type": "bubble",
-        "size": "kilo",
+        "size": "mega",
         "body": {
             "type": "box",
             "layout": "vertical",
@@ -236,9 +236,10 @@ def _build_footer_bubble(frontend_url: str, total: int) -> dict:
                 {
                     "type": "text",
                     "text": f"他にも{total}件の記事があります",
-                    "size": "sm",
+                    "size": "lg",
                     "color": "#555555",
                     "align": "center",
+                    "wrap": True,
                 },
             ],
             "justifyContent": "center",
