@@ -73,7 +73,7 @@ def _build_article_bubble(
                         {
                             "type": "text",
                             "text": article.category,
-                            "size": "sm",
+                            "size": "md",
                             "color": "#FFFFFF",
                         }
                     ],
@@ -86,7 +86,7 @@ def _build_article_bubble(
                 {
                     "type": "text",
                     "text": source_label,
-                    "size": "sm",
+                    "size": "md",
                     "color": "#999999",
                     "align": "end",
                     "gravity": "center",
@@ -106,7 +106,7 @@ def _build_article_bubble(
                     "type": "text",
                     "text": article.title_ja or article.original_title or "無題",
                     "weight": "bold",
-                    "size": "lg",
+                    "size": "xl",
                     "wrap": True,
                     "maxLines": 3,
                     "color": "#333333",
@@ -114,7 +114,7 @@ def _build_article_bubble(
                 {
                     "type": "text",
                     "text": summary,
-                    "size": "md",
+                    "size": "lg",
                     "color": "#555555",
                     "wrap": True,
                     "margin": "lg",
