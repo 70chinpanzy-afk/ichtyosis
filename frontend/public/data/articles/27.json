@@ -1,16 +1,16 @@
 {
   "id": 27,
-  "digest_date": "2026-03-15",
-  "source": "pubmed",
-  "source_id": "41809259",
-  "original_title": "A self-assembled nano-spray formulation for synergistic therapy of anti-inflammation and skin repair.",
-  "title_ja": "新しいナノスプレーが皮膚の炎症を和らげ、修復を助ける",
-  "summary_ja": "この研究では、慢性の皮膚炎症を抑え、皮膚を修復する新しいナノスプレーについて紹介しています。緑茶の成分（エピガロカテキン-3-ガレート）とコラーゲンのペプチドを組み合わせたナノ薬剤を開発しました。このスプレーは、皮膚の奥深くまで浸透し、炎症を和らげ、皮膚のバリア機能を改善します。魚鱗癬などの皮膚の問題を持つ方々に、皮膚の健康をサポートする新しい選択肢として期待できます。この方法は動物実験で有望な結果を示しており、今後の臨床試験が期待されています。",
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "fb3af2827ba9f137",
+  "original_title": "Vaseline all over clothes?",
+  "title_ja": "ワセリンの使い方と服への影響を回避するための工夫",
+  "summary_ja": "この投稿では、魚鱗癬の重症患者が毎日の保湿にワセリンを使用し、服や家具への油染みの問題に直面している体験を共有しています。ワセリンの代わりに使える保湿剤や、油染みを防ぐ方法についての情報を求めています。このような日常的な悩みは多くの患者が共感でき、生活を少し改善するためのヒントとなるでしょう。自分に合った方法を見つけることで、ストレスを軽減し、日常をもっと快適に過ごせるかもしれません。",
   "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41809259/",
-  "published_date": "2025-10",
-  "curation_reasoning": "魚鱗癬患者にとって皮膚の炎症を和らげ、修復を助ける新しいスプレーは、症状改善の一助となる可能性があるため、注目に値します。",
-  "created_at": "2026-03-15 12:23:04",
-  "drugs_json": "[{\"drug_name\": \"エピガロカテキン-3-ガレート\", \"ingredients\": \"エピガロカテキン-3-ガレート\", \"description\": \"炎症を抑える作用がある緑茶成分\"}, {\"drug_name\": \"ナノコラーゲンペプチド\", \"ingredients\": \"コラーゲンペプチド\", \"description\": \"皮膚修復を促進するペプチド\"}]"
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1rnhb38/vaseline_all_over_clothes/",
+  "published_date": "2026-03-07",
+  "curation_reasoning": "ワセリンの使い方に関する具体的な日常の工夫が、同じ問題を抱える人に役立つため。",
+  "drugs_json": "[{\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"肌に潤いを閉じ込め、乾燥を防ぐ油脂性の保湿剤\"}]",
+  "created_at": "2026-03-18 14:05:30"
 }

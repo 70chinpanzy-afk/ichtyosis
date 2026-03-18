@@ -1,16 +1,16 @@
 {
   "id": 29,
-  "digest_date": "2026-03-15",
-  "source": "google_news:Technology Networks",
-  "source_id": "9fc04b3f3a2b813a",
-  "original_title": "Dupilumab Restores Skin Barrier in Paediatric Atopic Dermatitis - Technology Networks",
-  "title_ja": "デュピルマブが子供のアトピー性皮膚炎における皮膚バリアを改善",
-  "summary_ja": "この研究は、アトピー性皮膚炎に苦しむ子供たちで、デュピルマブという薬が皮膚を守る「壁」を修復する効果があることを示しています。通常、アトピー性皮膚炎では皮膚がかゆく、乾燥しやすくなりますが、この薬はその状態を改善します。これは、魚鱗癬などの皮膚疾患においても皮膚バリアの強化に役立つ可能性があります。今後、この治療法が他の皮膚疾患にも応用できるかどうかの研究が進むことが期待されます。",
-  "category": "関連疾患からの知見",
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/SkincareAddicts",
+  "source_id": "d0eed196bff5c6cd",
+  "original_title": "Hydroquinone 4% Do I use it on spots or do whole face?",
+  "title_ja": "ヒドロキノン4%を部分的に使うべきか、それとも顔全体に使うべきか？",
+  "summary_ja": "この記事は、色素沈着を改善するためのヒドロキノンという薬についての質問投稿です。ヒドロキノンは肌の色を均一にするために使われますが、投稿者は顔全体に使うべきか、特定のスポットだけに使うべきか迷っています。彼のスキンケアには、肌をうるおすための保湿剤と日焼け止めが含まれており、この投稿では、特に敏感肌の人に対する適切な使い方が話題になっています。魚鱗癬の患者さんにとって、色素沈着や肌の色不均一は悩みの種になることがあるため、このような情報は日常ケアの参考になるでしょう。",
+  "category": "ケア・対処法",
   "relevance_score": 0.7,
-  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR3VFVExudjJncDJob2dWeUFYQ05nb2lxNHR3dWptbHl1YW5mNjZyaHIwdFhKSVRZajdpM2hpZlJ1VXhIYWNCUzlxbEpGQW94VHgtRy13MnJIT0FxQzExdmFGdXg0azlVRkVuSzNuNlJOZ1Z0djhVNEhFLXlxdVdxZ2xfa3NScENTOVI3YXF1c3BDMENmMWlSY25WTEprOWN5bjJIaDlmM2RwRldzUHYydWxXYVdoLUxZX0FZcA?oc=5",
-  "published_date": "2026-03-13",
-  "curation_reasoning": "アトピー性皮膚炎に効果的な治療が、同様に皮膚バリアの問題を抱える魚鱗癬にも応用できる可能性があるため。",
-  "created_at": "2026-03-15 12:23:04",
-  "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]"
+  "url": "https://www.reddit.com/r/SkincareAddicts/comments/1rwxdv1/hydroquinone_4_do_i_use_it_on_spots_or_do_whole/",
+  "published_date": "2026-03-18",
+  "curation_reasoning": "色素沈着の治療に関する情報は、皮膚が乾燥しやすい魚鱗癬の患者さんにとって有益です。投稿は日常的なケアの改善に役立ちます。",
+  "drugs_json": "[{\"drug_name\": \"ヒドロキノン（Hydroquinone）\", \"ingredients\": \"ヒドロキノン\", \"description\": \"肌の色素沈着を薄くするために使用されるクリーム\"}]",
+  "created_at": "2026-03-18 14:05:30"
 }

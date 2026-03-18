@@ -1,16 +1,16 @@
 {
   "id": 34,
-  "digest_date": "2026-03-15",
-  "source": "reddit:r/eczema",
-  "source_id": "16c79f5fb7100ed4",
-  "original_title": "DIY balm update: Sunflower oil wins",
-  "title_ja": "DIY保湿バームの比較: ヒマワリ油が勝利",
-  "summary_ja": "この投稿は、ヒマワリ油とココナッツオイルを使った手作り保湿バームの比較についてのものです。ヒマワリ油は、肌を保湿し保護する効果が高く、特に肌のバリア機能を修復するのに効果的であるとされています。魚鱗癬の患者にとっても、このような自然素材の保湿方法は安全で助けになる可能性があります。親御さんが簡単に試せる方法なので、家庭でのケアに取り入れる価値があります。",
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/SkincareAddiction",
+  "source_id": "d421257a34d7ac2f",
+  "original_title": "[routine help] Recovering skin barrier further or something else?",
+  "title_ja": "肌のバリアを修復する方法に関する体験談",
+  "summary_ja": "この投稿は、スキンケアで肌のバリアがどのように修復されるかについての体験談です。投稿者は以前、強いスキンケア製品を使用して肌を傷つけたことがあり、その後、バリアを修復するために保湿クリームを使っているとのことです。しかし、回復が思わしくなく、改善の兆しを待ち続けていると述べています。皮膚のバリアは外部からの刺激を防ぐ重要な役割を果たしており、魚鱗癬の患者さんにも参考になる可能性があります。SNSでの共有情報ですので、具体的なケア方法として参考程度にご覧ください。",
   "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://www.reddit.com/r/eczema/comments/1rkrue2/diy_balm_update_sunflower_oil_wins/",
-  "published_date": "2026-03-04",
-  "curation_reasoning": "自然素材で肌の保護と保湿ができる方法は、魚鱗癬患者の肌ケアに役立つため。",
-  "created_at": "2026-03-15 12:41:22",
-  "drugs_json": "[{\"drug_name\": \"ヒマワリ油（Sunflower Oil）\", \"ingredients\": \"ヒマワリ油\", \"description\": \"肌のバリア機能をサポートし、保湿する植物油\"}]"
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rvb136/routine_help_recovering_skin_barrier_further_or/",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "肌のバリア修復は魚鱗癬のケアに関連し、具体的な保湿方法の参考になるため。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-18 14:05:30"
 }

@@ -1,0 +1,16 @@
+{
+  "id": 23,
+  "digest_date": "2026-03-18",
+  "source": "pubmed",
+  "source_id": "41822892",
+  "original_title": "From apremilast to JAK inhibitors-salvage treatment strategies for refractory palmoplantar pustulosis: case series.",
+  "title_ja": "アプレミラストからJAK阻害薬への移行で治療困難な掌蹠膿疱症を改善",
+  "summary_ja": "この記事は、掌蹠膿疱症（てのひらや足の裏に繰り返し現れる膿のある水疱）の難治例に対する治療法の変化についてのケーススタディです。一般的な治療法に効果がなかった患者に対して、新しい薬であるJAK阻害薬を使用したところ、症状の改善が見られました。特に、アプレミラストが効かない場合に次の選択肢として役立つ可能性があります。この研究は、類似の慢性的な皮膚疾患の治療に新たな道を示しています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41822892/",
+  "published_date": "2026",
+  "curation_reasoning": "この研究は新しい治療法について紹介しており、類似の皮膚疾患に応用できる可能性があるため、魚鱗癬の患者にとっても有用です。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬\", \"ingredients\": \"JAK inhibitors\", \"description\": \"炎症を引き起こす体内の信号をブロックする新しいタイプの薬\"}]",
+  "created_at": "2026-03-18 14:05:30"
+}

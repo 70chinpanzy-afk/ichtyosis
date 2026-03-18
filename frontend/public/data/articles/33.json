@@ -1,16 +1,16 @@
 {
   "id": 33,
-  "digest_date": "2026-03-15",
-  "source": "reddit:r/eczema",
-  "source_id": "dddf9830debdefe1",
-  "original_title": "Hyaluronic acid shows promise!",
-  "title_ja": "ヒアルロン酸が肌に良いかも！",
-  "summary_ja": "この投稿では、ヒアルロン酸という成分が肌を保湿するのに非常に効果的であることについて紹介されています。投稿者の妻がヒアルロン酸を含む美容液を使用し、乾燥や皮膚のトラブルに良い影響があったとのことです。特に乾燥肌や皮膚が硬くなる症状に効果があるとされています。魚鱗癬の方にとっても、肌を柔らかく保つことができる可能性があります。ただし、これはSNSの体験談なので、個人差があることに注意してください。",
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "f567ec2c16ba7664",
+  "original_title": "Occupational Flare-ups",
+  "title_ja": "仕事場での皮膚の悪化に対処する方法",
+  "summary_ja": "この投稿は、乾燥した職場環境で魚鱗癬（特に手に症状が出る）を持つ人の経験を共有しています。著者は皮膚の保湿にAmLactinやAquaphorを使っていますが、水質や職場の環境が悪化要因になっていると感じています。職場での皮膚への影響を減らすために、ラテックス手袋の使用を検討する案が出ています。この情報は同じように職場環境で皮膚の問題を抱えている人に役立つかもしれません。解決方法を模索することで日常生活や仕事での困難を少しでも和らげることができるかもしれません。",
   "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://www.reddit.com/r/eczema/comments/1rloi46/hyaluronic_acid_shows_promise/",
-  "published_date": "2026-03-05",
-  "curation_reasoning": "ヒアルロン酸の保湿効果により、魚鱗癬の肌トラブル軽減に役立つ可能性が高いため。",
-  "created_at": "2026-03-15 12:41:22",
-  "drugs_json": "[{\"drug_name\": \"ヒアルロン酸（Hyaluronic Acid）\", \"ingredients\": \"ヒアルロン酸\", \"description\": \"皮膚の水分を保持し、保湿効果を高める成分\"}]"
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1rsdztg/occupational_flareups/",
+  "published_date": "2026-03-13",
+  "curation_reasoning": "乾燥環境での対策は、多くの魚鱗癬患者に共通する悩みで、実際の工夫が詳しく述べられているため。",
+  "drugs_json": "[{\"drug_name\": \"アクアフォー（Aquaphor）\", \"ingredients\": \"ワセリン、ラノリンアルコール\", \"description\": \"乾燥を防ぐための保湿剤\"}, {\"drug_name\": \"アムラクトイン（AmLactin）\", \"ingredients\": \"乳酸\", \"description\": \"角質を柔らかくし、潤いを与える保湿クリーム\"}]",
+  "created_at": "2026-03-18 14:05:30"
 }

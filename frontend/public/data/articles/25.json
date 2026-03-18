@@ -1,0 +1,16 @@
+{
+  "id": 25,
+  "digest_date": "2026-03-18",
+  "source": "clinical_trials",
+  "source_id": "NCT06539507",
+  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+  "title_ja": "BCX17725の安全性と効果を評価するネザートン症候群患者のための初期試験",
+  "summary_ja": "この研究は、新薬「BCX17725」の安全性と効果を調べるための初期試験です。健康な成人とネザートン症候群の患者を対象に行われます。薬は皮下注射や点滴で投与され、最大12週間続きます。この試験により、同様の皮膚状態を抱える魚鱗癬紅皮症の患者にも将来的に役立つ治療法が開発される可能性があります。新しい薬への期待が高まる一方で、慎重に安全性と効果が監視されています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT06539507",
+  "published_date": "2026-03-10",
+  "curation_reasoning": "新薬BCX17725の効果が確認されれば、魚鱗癬紅皮症に対する新しい治療の一助となるかもしれません。",
+  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"未公開であるが、皮膚炎症の改善を目指す新薬\"}]",
+  "created_at": "2026-03-18 14:05:30"
+}

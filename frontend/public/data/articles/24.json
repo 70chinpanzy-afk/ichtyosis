@@ -1,0 +1,16 @@
+{
+  "id": 24,
+  "digest_date": "2026-03-18",
+  "source": "clinical_trials",
+  "source_id": "NCT05856526",
+  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
+  "title_ja": "ネザートン症候群の治療におけるスペソリマブの効果と安全性を試す試験",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚病を持つ人において、新しい薬「スペソリマブ」が効果的かどうかを調べるものです。参加者は薬を受けるグループと、見せかけの薬を受けるグループに分けられ、4か月後には全員がスペソリマブを受けます。スペソリマブは最初に点滴で、その後は毎月皮下注射されます。研究は最大3年間行われ、その間42回の診察を受けます。この試験が成功すれば、将来的に魚鱗癬紅皮症の治療にも役立つ可能性があります。新しい治療法への期待が高まりますが、注意深く安全性が監視されています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT05856526",
+  "published_date": "2026-03-12",
+  "curation_reasoning": "ネザートン症候群の治療法の研究ですが、同様の皮膚疾患である魚鱗癬紅皮症にも応用できる可能性があり、期待が持てます。",
+  "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫系の過剰反応を抑えて皮膚炎症を軽減する抗体薬\"}]",
+  "created_at": "2026-03-18 14:05:30"
+}

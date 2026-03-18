@@ -1,16 +1,16 @@
 {
   "id": 32,
-  "digest_date": "2026-03-15",
-  "source": "reddit:r/IndianSkincareAddicts",
-  "source_id": "1a98d88a5d456179",
-  "original_title": "Everthing about Ichthyosis Vulgaris",
-  "title_ja": "魚鱗癬（ikkeoushin）の全て",
-  "summary_ja": "これは遺伝性の皮膚状態である魚鱗癬について解説しています。多くの場合、皮膚のバリアを作るタンパク質（フィラグリン）に関連した遺伝子の変異によって、皮膚が水分を失いやすくなり、乾燥しやすくなります。皮膚が全体的に鱗のように見えることがあり、とても乾燥した手足によく見られますが、腕や足、全身に広がることもあります。治療法はありませんが、適切なケアで症状を改善できることが多いです。こうした情報は、魚鱗癬を持つ方々が日常のケアを見直す際に役立ちます。",
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/eczema",
+  "source_id": "d6ac4523867d8f01",
+  "original_title": "urgent plea for help",
+  "title_ja": "新しい薬が効かなくなってきたと感じたがどうすれば？",
+  "summary_ja": "この投稿は、ある患者さんが新しい薬「リンボック（Rinvoq、一般名：ウパダシチニブ）」の効果に変化を感じたというものです。皮膚の炎症を抑えるこの薬はしばらく効いていましたが、最近症状が再発してきたようです。現在の低い投与量を維持するか、または費用の高い方法で投与量を増やすか悩んでいます。このような経済的負担は患者さんにとって大きな問題です。この情報は、他の患者さんが経済的な対策や医療支援を見つけるための参考になるでしょう。",
   "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://www.reddit.com/r/IndianSkincareAddicts/comments/1rrujs9/everthing_about_ichthyosis_vulgaris/",
-  "published_date": "2026-03-12",
-  "curation_reasoning": "魚鱗癬に特化した情報を提供しており、患者さんが日常生活での対策を考えるための有用な情報が含まれています。",
-  "created_at": "2026-03-15 12:41:22",
-  "drugs_json": "[]"
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1ro9j27/urgent_plea_for_help/",
+  "published_date": "2026-03-08",
+  "curation_reasoning": "特定の薬の効果が減少した場合の対応方法や、治療費の経済的負担についての情報が得られるため、患者さんの役に立ちます。",
+  "drugs_json": "[{\"drug_name\": \"リンボック（Rinvoq）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内で炎症を引き起こすタンパク質の信号を妨げる薬\"}]",
+  "created_at": "2026-03-18 14:05:30"
 }
