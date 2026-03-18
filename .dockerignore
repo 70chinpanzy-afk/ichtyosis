@@ -15,9 +15,3 @@ __pycache__
 *.db
 *.sqlite
 *.sqlite3
-ui_streamlit.py
-history_repo.py
-usecase_generate.py
-presenters.py
-requirements-ui.txt
-README.md

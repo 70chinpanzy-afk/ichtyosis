@@ -1,7 +1,10 @@
 # Sales Copilot
 
 営業メモを構造化して返す `FastAPI` バックエンドと、ローカル運用の `Streamlit` UI を持つプロジェクトです。  
-本番運用は **FastAPIのみを Railway へデプロイ** する前提です。
+本番運用は以下の2パターンに対応しています。
+
+- APIのみ Railway にデプロイ（推奨）
+- API + UI（Streamlit）を Railway にデプロイ（外出先スマホ利用向け）
 
 ## 構成
 
@@ -89,6 +92,38 @@ Railway側で設定する主な変数:
 - `CORS_ALLOW_ORIGINS`（任意）
 
 デプロイ後、Railwayは `/healthz` で疎通確認します。
+
+## Railwayデプロイ（外出先で使う: API + UI）
+
+外出先でスマホから使う場合は、Railway に UI サービスを追加します。
+
+### 1. APIサービス（既存）
+
+- 既存の `sales-copilot` サービスを利用
+- `https://<api-domain>/healthz` が `{"status":"ok","database":"up"}` であることを確認
+
+### 2. UIサービス（新規）
+
+Railwayで同じリポジトリから2つ目のサービスを作成し、以下を設定します。
+
+- Builder: Dockerfile
+- Dockerfile Path: `Dockerfile.streamlit`
+- Start Command: 空でOK（DockerfileのCMDを使用）
+
+UIサービスの Variables:
+
+- `SALES_COPILOT_API_BASE=https://<api-domain>`
+- `HISTORY_DATABASE_URL`（任意。履歴を使う場合のみ）
+
+### 3. UIの公開URLでアクセス
+
+- `https://<ui-domain>.up.railway.app` をスマホで開く
+- サイドバーの「接続再判定」を押して接続状態を確認
+
+### 注意（重要）
+
+- APIに認証がないため、URLを知っている第三者も利用できる状態です。
+- 本番運用時は将来的にAPIトークン認証を追加することを推奨します。
 
 ## 補足
 
