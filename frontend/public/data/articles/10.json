@@ -1,0 +1,16 @@
+{
+  "id": 10,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/SkincareAddiction",
+  "source_id": "f7bbbcb4c15600e5",
+  "original_title": "[Acne] Skincare while on Accutane",
+  "title_ja": "アキュテイン使用中のスキンケア相談",
+  "summary_ja": "この記事では、アキュテイン（にきび治療薬）を使用中の方が肌の乾燥に悩んでいる状況が紹介されています。アキュテインは皮脂の分泌を抑える薬で、強い乾燥を引き起こすことがあります。この投稿者は、より効果的な保湿剤を探しており、セラミド（肌の「壁」を作る成分）の入ったクリームを推奨しています。この情報は、乾燥肌やバリア機能が低下している魚鱗癬患者にも役立つ可能性があります。特に肌の保湿を重視することで、症状の改善が期待できます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rsx4py/acne_skincare_while_on_accutane/",
+  "published_date": "2026-03-13",
+  "curation_reasoning": "アキュテインの使用により肌の乾燥がひどくなる状況の相談で、魚鱗癬患者にも通じるスキンケアの必要性が示されています。",
+  "drugs_json": "[{\"drug_name\": \"アキュテイン（Accutane）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮脂の分泌を抑え、にきびを改善する内服薬\"}, {\"drug_name\": \"ラウンドラボ - バーチジュースモイスチャライジングクリーム\", \"ingredients\": \"バーチジュース\", \"description\": \"皮膚の保湿を促進するクリーム\"}, {\"drug_name\": \"エクレリン - デルモピュアハイドラリペアクリーム\", \"ingredients\": \"\", \"description\": \"皮膚の乾燥と炎症を抑えるクリーム\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 17,
+  "digest_date": "2026-03-18",
+  "source": "clinical_trials",
+  "source_id": "NCT06539507",
+  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+  "title_ja": "ネザートン症候群の治療を目指したBCX17725の初期試験",
+  "summary_ja": "この初期試験では、ネザートン症候群の治療に使われるかもしれない新しい薬、BCX17725の安全性などを調べています。成人や青少年の参加者にも複数回投与し、効果を見ていきます。こうした研究は、魚鱗癬における新薬の開発に影響を与える可能性があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.6,
+  "url": "https://clinicaltrials.gov/study/NCT06539507",
+  "published_date": "2026-03-10",
+  "curation_reasoning": "ネザートン症候群の治療に向けた研究が、魚鱗癬患者さんに利用できる可能性のある新薬開発を示唆しているため。",
+  "drugs_json": "[{\"drug_name\": \"BCX17725（BCX17725）\", \"ingredients\": \"BCX17725\", \"description\": \"新たに開発中の薬で、免疫系に作用して炎症を抑えることを目指している\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

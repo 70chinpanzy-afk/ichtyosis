@@ -1,0 +1,16 @@
+{
+  "id": 15,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/eczema",
+  "source_id": "3b8eaf8314b58281",
+  "original_title": "Fractionated Coconut Oil",
+  "title_ja": "分別ココナッツオイルを使った新しいスキンケア法",
+  "summary_ja": "長年湿疹に悩む人が、分別ココナッツオイルを使うことで肌の状態が改善したと報告しています。硬水の地域に住むようになってから湿疹が悪化したため、このオイルを使い始めたそうです。厚いローションやワセリンではなく、この軽いオイルが肌に合っていると言います。魚鱗癬の患者さんにも、肌の保湿用として試してみる価値がありそうです。ただし、人によって効果は異なることがあります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1rqkll0/fractionated_coconut_oil/",
+  "published_date": "2026-03-11",
+  "curation_reasoning": "分別ココナッツオイルが肌の保護に役立つ可能性があり、魚鱗癬の患者にも試す価値があるため。",
+  "drugs_json": "[{\"drug_name\": \"分別ココナッツオイル（Fractionated Coconut Oil）\", \"ingredients\": \"ココナッツオイル\", \"description\": \"肌の水分を補い、柔らかくするための天然オイルです\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

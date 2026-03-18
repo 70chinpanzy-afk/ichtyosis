@@ -1,0 +1,16 @@
+{
+  "id": 20,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "fb3af2827ba9f137",
+  "original_title": "Vaseline all over clothes?",
+  "title_ja": "ワセリンが服につく問題について",
+  "summary_ja": "魚鱗癬持ちの方が、日常のケアでワセリンを使用していますが、服や座るところに付着してしまうことに悩んでいます。新しい保湿剤の提案や、ワセリンを洗濯で簡単に落とす方法を求めています。保湿は重要ですが、日常生活での使い方に工夫が必要です。他の患者さんからのアドバイスが参考になります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1rnhb38/vaseline_all_over_clothes/",
+  "published_date": "2026-03-07",
+  "curation_reasoning": "ワセリン使用における現実的な問題と、その解決策を探る情報が患者に役立ちます。",
+  "drugs_json": "[{\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚を保護するための保湿剤\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

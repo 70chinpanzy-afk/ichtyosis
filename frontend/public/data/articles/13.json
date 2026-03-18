@@ -1,0 +1,16 @@
+{
+  "id": 13,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/eczema",
+  "source_id": "fc05d85578df0ef4",
+  "original_title": "Beware of Oleic Acid",
+  "title_ja": "オレイン酸に注意",
+  "summary_ja": "エクゼマの方がオレイン酸についての注意喚起をしています。オレイン酸を含む製品は肌の天然の脂質を妨げ、炎症を悪化させる可能性があるとのこと。魚鱗癬においても肌のバリアを守ることは重要で、成分選びに慎重になる必要があります。安心して使える製品を選ぶ際の参考になる情報です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1ruwr4y/beware_of_oleic_acid/",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "成分が肌に与える影響についての情報は、魚鱗癬の治療やケアにとっても大切です。",
+  "drugs_json": "[{\"drug_name\": \"シアバター\", \"ingredients\": \"オレイン酸\", \"description\": \"オレイン酸を多く含む保湿成分で、肌への浸透を助けますが、敏感肌の人には刺激になることがあります。\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

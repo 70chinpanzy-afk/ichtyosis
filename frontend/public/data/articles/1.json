@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "digest_date": "2026-03-18",
+  "source": "pubmed",
+  "source_id": "41841670",
+  "original_title": "Advances in the use of Janus kinase inhibitors.",
+  "title_ja": "JAK阻害薬の進展とその可能性",
+  "summary_ja": "JAK阻害薬（ジャックそがいやく）は、新しい種類の薬で、体内の炎症を引き起こす信号をブロックします。この薬は、アトピー性皮膚炎をはじめ、多くの免疫関連炎症疾患で効果が確認されています。最近の研究で、この薬がさまざまな病気にどれだけ効果があるかが確かめられています。魚鱗癬の症状を持つ人が抱える皮膚の炎症にも役立つかもしれません。この薬の安全性と効果についてはさらに研究が必要ですが、新しい選択肢として期待されています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41841670/",
+  "published_date": "2026-03-17",
+  "curation_reasoning": "JAK阻害薬はアトピー性皮膚炎で効果が確認されており、魚鱗癬のような皮膚炎症状にも応用できる可能性があります。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-18 13:45:19"
+}

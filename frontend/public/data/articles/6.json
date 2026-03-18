@@ -1,0 +1,16 @@
+{
+  "id": 6,
+  "digest_date": "2026-03-18",
+  "source": "clinical_trials",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "ネザートン症候群の患者を対象にしたQRX003ローションの安全性と効果を調べる研究",
+  "summary_ja": "この研究では、ネザートン症候群という病気の患者に対してQRX003というローションの安全性と効果を調べています。研究に参加する患者は、異なる濃度のローションを使い、その効果を測定します。この研究の結果が、魚鱗癬や似たような皮膚の病気を持つ人々に役立つかもしれません。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "ネザートン症候群は魚鱗癬と類似性があるため、この研究の結果が魚鱗癬の新しい治療法の開発に役立つ可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"QRX003（QRX003）\", \"ingredients\": \"QRX003\", \"description\": \"皮膚のバリアを強化し、炎症を抑えることを目的としたローション\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}

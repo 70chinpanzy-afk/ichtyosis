@@ -1,0 +1,16 @@
+{
+  "id": 16,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/eczema",
+  "source_id": "a3957b8da14012c9",
+  "original_title": "6-year-old eczema flare – skin softer but itching still severe. Is this normal?",
+  "title_ja": "6歳の子供の湿疹が改善しても痒みが続くのは普通？",
+  "summary_ja": "この投稿では、6歳の娘さんの湿疹が悪化した際の体験が共有されています。皮膚の乾燥は改善したものの、痒みが続くため心配されています。「浸してシールする」（お風呂でのしっかりとした保湿）というケア方法を取り入れ、皮膚は柔らかくなりましたが、痒みのために娘さんが引っ掻いてしまう状況です。この経験は湿疹を持つ子供の親御さんにとって非常に共感でき、日常的なケアの重要性を伝えています。改善が見られない場合は医師への相談が推奨されます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1rnrqvk/6yearold_eczema_flare_skin_softer_but_itching/",
+  "published_date": "2026-03-08",
+  "curation_reasoning": "湿疹のケアに関する実践的な体験が共有されており、親御さんにとって役立つ可能性があります。痒みの対処方法について知見を得ることができます。",
+  "drugs_json": "[{\"drug_name\": \"ユーカリン湿疹リリーフクリーム（Eucerin Eczema Relief Cream）\", \"ingredients\": \"ヒドロコルチゾン\", \"description\": \"湿疹の炎症を和らげるクリーム\"}, {\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚の保湿を助けるジェル\"}, {\"drug_name\": \"プレドニゾロン（Prednisolone）\", \"ingredients\": \"プレドニゾロン\", \"description\": \"炎症を抑えるステロイド薬\"}, {\"drug_name\": \"ジルテック（Zyrtec）\", \"ingredients\": \"セチリジン\", \"description\": \"アレルギー症状を改善する抗ヒスタミン薬\"}, {\"drug_name\": \"ベナドリル（Benadryl）\", \"ingredients\": \"ジフェンヒドラミン\", \"description\": \"アレルギー反応を抑える抗ヒスタミン薬\"}]",
+  "created_at": "2026-03-18 13:45:19"
+}
