@@ -1,16 +1,16 @@
 {
   "id": 5,
   "digest_date": "2026-03-20",
-  "source": "pubmed",
-  "source_id": "41849564",
-  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
-  "title_ja": "生まれつきの魚鱗癬とSNSの声: 患者さんの声を聞く",
-  "summary_ja": "この研究は、ヨーロッパの生まれつきの魚鱗癬患者さんとその家族がSNSでどんなことを話しているかを分析しました。特に、清潔の保ち方や心理的影響、治療の課題、知識の不足が話題にされていました。この情報を通じて患者さんのニーズが把握され、生活の質向上に向けた行動が示唆されています。魚鱗癬の患者さんにとって、自分たちの悩みが共有されることで、新たなサポートや理解が生まれる可能性があります。",
-  "category": "ケア・対処法",
-  "relevance_score": 0.6,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
+  "source": "google_news:Woman's World",
+  "source_id": "b667bd2aa020e220",
+  "original_title": "Why Skin pH Could Be the Key to Better Eczema Care and Relief - Woman's World",
+  "title_ja": "皮膚のpHが湿疹ケアの鍵になる理由",
+  "summary_ja": "湿疹のケアにおいて、皮膚のpHバランスが重要な役割を果たすことがわかっています。適切なpHを保つことで、皮膚の健康が改善される可能性があり、湿疹の症状も軽減されます。これは、皮膚の健康を維持し、炎症を減少させる可能性があるため、魚鱗癬などの皮膚疾患を持つ人々にも応用できる知識です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vZEFIM2h2dEFuaWNVNm0ycS1UME51RHl1SXY2N0EyM2hZRUotdS1jMXBuLUNvWi05eHlZaXY3MThzazZ4ZWU2cF9sSi1pT0M2ZEgwUWZHY050UlNqSDBNYlRvMGRwT2tIUUtfVQ?oc=5",
   "published_date": "2026-03-18",
-  "curation_reasoning": "SNSでの患者さんの声を集めることで、実際の生活に役立つ具体的なケア方法やニーズが明らかになっています。",
+  "curation_reasoning": "皮膚のpHバランスに関する情報は、魚鱗癬患者の皮膚ケアにも有益な可能性があります。正しいケア方法の知識が広がることで、症状の改善が期待できます。",
   "drugs_json": "[]",
-  "created_at": "2026-03-20 12:09:13"
+  "created_at": "2026-03-20 13:22:03"
 }
