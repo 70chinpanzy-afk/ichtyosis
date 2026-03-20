@@ -1,16 +1,16 @@
 {
   "id": 4,
   "digest_date": "2026-03-20",
-  "source": "pubmed",
-  "source_id": "41841670",
-  "original_title": "Advances in the use of Janus kinase inhibitors.",
-  "title_ja": "JAK阻害薬の進展とその応用",
-  "summary_ja": "この研究は、様々な免疫系の病気で使われている「JAK阻害薬」という新しいタイプの薬についてです。これらの薬は、体内の炎症を引き起こす信号をブロックし、効果を示しています。特に、アトピー性皮膚炎のような皮膚病にも有効性が確認されています。魚鱗癬にも関係する炎症反応を抑える上で興味深い研究で、将来的に役立つ可能性があります。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41841670/",
-  "published_date": "2026 Mar 17",
-  "curation_reasoning": "JAK阻害薬は炎症を抑える作用があり、魚鱗癬のような症状にも応用の可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（tofacitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックする薬\"}]",
-  "created_at": "2026-03-20 13:51:42"
+  "source": "google_news:Woman's World",
+  "source_id": "b667bd2aa020e220",
+  "original_title": "Why Skin pH Could Be the Key to Better Eczema Care and Relief - Woman's World",
+  "title_ja": "肌のpHが湿疹ケアの鍵になる理由",
+  "summary_ja": "このニュースは、肌のpHバランスを正しく保つことが湿疹（アトピー性皮膚炎を含む）のケアに効果的である可能性について紹介しています。肌が弱酸性に保たれていると、バリア機能が高まり、外部からの刺激に強くなります。魚鱗癬を持つ方にとって、適切なpHバランスを目指すことで、症状が緩和される可能性があります。新しいスキンケア方法として取り入れる価値があります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vZEFIM2h2dEFuaWNVNm0ycS1UME51RHl1SXY2N0EyM2hZRUotdS1jMXBuLUNvWi05eHlZaXY3MThzazZ4ZWU2cF9sSi1pT0M2ZEgwUWZHY050UlNqSDBNYlRvMGRwT2tIUUtfVQ?oc=5",
+  "published_date": "2026-03-18",
+  "curation_reasoning": "肌のpH管理は皮膚バリアを強化し、魚鱗癬の症状管理に役立つ可能性があるため。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-20 22:31:07"
 }
