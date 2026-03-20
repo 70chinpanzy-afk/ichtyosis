@@ -1,16 +1,16 @@
 {
   "id": 6,
   "digest_date": "2026-03-20",
-  "source": "google_news:MSN",
-  "source_id": "54bda1b37d70d8d3",
-  "original_title": "Meet Suma Krishnan: Indian-origin scientist named among America’s greatest innovators for a breakthrough therapy to treat rare skin disorder - MSN",
-  "title_ja": "稀少皮膚疾患治療の画期的な研究者に選ばれた科学者",
-  "summary_ja": "このニュースでは、希少な皮膚疾患治療における画期的な療法を開発したインド出身の科学者が紹介されています。この研究は、魚鱗癬のような希少な皮膚疾患に対しても役立つ可能性があります。新しい治療法の登場は、患者さんに希望をもたらし、未来に向けた光を感じさせます。",
-  "category": "ニュース",
+  "source": "google_news:The Straits Times",
+  "source_id": "20fe65e7eb65d27f",
+  "original_title": "Chaos Math Can Tell You How to Manage Your Eczema - ScienceBlog.com",
+  "title_ja": "混沌理論でアトピーの管理法を改善 - ScienceBlog.com",
+  "summary_ja": "新しい研究によれば、「混沌理論」と呼ばれる数学的手法を使うと、アトピー性皮膚炎の症状のパターンをより効果的に理解し、管理できるかもしれません。患者の皮膚状態の変動パターンを予測することで、症状の悪化を未然に防ぐ方法を見つけやすくなる可能性があります。魚鱗癬のような同様の皮膚疾患についても、この方法が適用できるかもしれません。これは新しい視点を提供するもので、今後の研究が期待されます。",
+  "category": "研究論文",
   "relevance_score": 0.6,
-  "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOTEJIRWt5N01ZU202TUU1Vzd0aWR5akVCb2hnODhWbUZXSi1MMkxYTERhLUk4cnpjRjdENmg2dEFSX3FsaHBxckJ2d2xsQ01qTFBJcXFhUEVQbzNGNXllYWc2Q2tMOG5Db2ZlaEFYVkNOWThWekhrZ1NvZHpnaVV3bUhXN29qV0tJNV9mbFRDbE5GQkN0MTE0NVh1QURxZ21ucXNmS3FQeEFxZjVQM3lVUEFIS1IwT0RhZG5WQVdqYjloa29rZG5RWUdaRXdINUtONS1qV2syQVoxTTVTY2R5S29DQ0VjQW9PalV2SUxSU3U1bmQyc3JiQUhDLWFzaHhSQndyTGcyZUxxNlFTbmg4a2ZRTDBMSUhXX29QZE41ZHB3QQ?oc=5",
-  "published_date": "2026-03-18",
-  "curation_reasoning": "このニュースは、稀少な皮膚疾患に対する新しい治療法の開発に関するもので、将来的に魚鱗癬にも応用可能な知見が含まれている可能性があります。",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGNlZRNHNVajFqeWNuT3VIMVA1bS1Hb1BGYU5sX2VDLTBSSVVCX0YzYU9yMjJ0ZXJRdm8wcGVFaXd5VnlxVVBfbmFMandTSWtCYXZ2TWNQTl9QcDN1Wkw2ckdwamJ2SjZQZzY3YnpTbTBKdEgtS2tFZ2trTVBTSVE?oc=5",
+  "published_date": "2026-03-17",
+  "curation_reasoning": "アトピー性皮膚炎に対する新しい管理方法であり、魚鱗癬患者にも適用の可能性があるため、紹介します。",
   "drugs_json": "[]",
-  "created_at": "2026-03-20 13:22:03"
+  "created_at": "2026-03-20 13:51:42"
 }

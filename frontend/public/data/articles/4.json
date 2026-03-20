@@ -4,13 +4,13 @@
   "source": "pubmed",
   "source_id": "41841670",
   "original_title": "Advances in the use of Janus kinase inhibitors.",
-  "title_ja": "ヤヌスキナーゼ阻害薬の新たな進展",
-  "summary_ja": "ヤヌスキナーゼ（JAK）阻害薬は、炎症を引き起こす体内の信号をブロックする新しいタイプの薬です。リウマチやアトピー性皮膚炎など、さまざまな免疫の問題に効果があることがわかっています。最近の研究では、これらの薬が他の疾患にも役立つ可能性が示されていますが、安全性に関する懸念も考慮が必要です。魚鱗癬のような皮膚病の治療にも、今後新しい治療法として期待が持てます。",
-  "category": "研究論文",
+  "title_ja": "JAK阻害薬の進展とその応用",
+  "summary_ja": "この研究は、様々な免疫系の病気で使われている「JAK阻害薬」という新しいタイプの薬についてです。これらの薬は、体内の炎症を引き起こす信号をブロックし、効果を示しています。特に、アトピー性皮膚炎のような皮膚病にも有効性が確認されています。魚鱗癬にも関係する炎症反応を抑える上で興味深い研究で、将来的に役立つ可能性があります。",
+  "category": "関連疾患からの知見",
   "relevance_score": 0.7,
   "url": "https://pubmed.ncbi.nlm.nih.gov/41841670/",
-  "published_date": "2026-03-17",
-  "curation_reasoning": "JAK阻害薬は、皮膚疾患の新たな治療法として期待されており、魚鱗癬にも応用可能なため注目に値します。",
-  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（tofacitinib）\", \"description\": \"体内で炎症を引き起こす信号をブロックする薬\"}]",
-  "created_at": "2026-03-20 13:22:03"
+  "published_date": "2026 Mar 17",
+  "curation_reasoning": "JAK阻害薬は炎症を抑える作用があり、魚鱗癬のような症状にも応用の可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（tofacitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックする薬\"}]",
+  "created_at": "2026-03-20 13:51:42"
 }

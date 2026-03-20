@@ -1,16 +1,16 @@
 {
   "id": 1,
   "digest_date": "2026-03-20",
-  "source": "pubmed",
-  "source_id": "41849564",
-  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
-  "title_ja": "遺伝性魚鱗癬についてのSNS調査：量的および質的な発見",
-  "summary_ja": "この研究は、ヨーロッパの遺伝性魚鱗癬を持つ患者やその家族のSNS投稿を分析しました。主に若い女性たちが、衛生管理や心理的影響、治療の課題、情報不足について議論しています。これらの投稿を通じて、患者さんが抱える問題や改善のためのアクションが示されました。この情報は、患者さんの日常生活の質を向上させるために役立つ可能性があります。また、SNSを通じた意見交換は、同じ問題を抱える人々にとって大切な情報源となります。",
-  "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
-  "published_date": "2026-03-18",
-  "curation_reasoning": "SNSを通じた患者や家族の経験は、同じ状況にある人々に貴重な支援と情報を提供します。特に心理的なサポートや具体的なケア方法を知る手がかりになります。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-20 13:22:03"
+  "source": "clinical_trials",
+  "source_id": "NCT06539507",
+  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+  "title_ja": "Netherton症候群向けBCX17725の安全性と効果を評価する初期試験の結果",
+  "summary_ja": "この臨床試験は、皮膚疾患Netherton症候群の治療薬としてBCX17725の安全性と効果を調べる初めての研究です。健康な成人と、この病気を持つ成人に分けて、薬を投与して研究しました。薬がどのように体内で動くかやそれが安全かどうかを確認しました。魚鱗癬に類似する皮膚バリアの問題を持つ患者さんにとって、この研究は新しい治療の可能性を示しています。これは初期の試験であり、今後の詳細な研究が期待されます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.9,
+  "url": "https://clinicaltrials.gov/study/NCT06539507",
+  "published_date": "2026-03-10",
+  "curation_reasoning": "この試験はNetherton症候群という魚鱗癬に類似する疾患の新しい治療可能性を探っており、関連性が高いです。",
+  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"Netherton症候群の治療に向け開発されている新薬\"}]",
+  "created_at": "2026-03-20 13:51:42"
 }

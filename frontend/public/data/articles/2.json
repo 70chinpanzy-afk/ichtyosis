@@ -1,16 +1,16 @@
 {
   "id": 2,
   "digest_date": "2026-03-20",
-  "source": "clinical_trials",
-  "source_id": "NCT06539507",
-  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
-  "title_ja": "BCX17725の安全性と効果を検証する初の人対象試験",
-  "summary_ja": "この研究は、新しい薬BCX17725の安全性や効果を調べるための最初の試験です。最初は健康な人で試験を開始し、その後、ネザートン症候群という皮膚病を持つ人々に試験を拡大します。ネザートン症候群は、重度の皮膚症状を引き起こす遺伝的な疾患で、この試験は症状改善に役立つ可能性があります。魚鱗癬紅皮症とは異なる疾患ですが、皮膚の病気に対する新しい治療法の開発が進んでいることは、魚鱗癬の治療法の発展にもつながるかもしれません。",
-  "category": "新薬・治療法",
+  "source": "pubmed",
+  "source_id": "41849564",
+  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
+  "title_ja": "先天性魚鱗癬に関するSNSからの声：課題と改善策を探る",
+  "summary_ja": "この研究は、ヨーロッパの先天性魚鱗癬患者さんやそのお世話をしている方々のSNS投稿を分析しました。多くの投稿では、日常のケアや心理的影響、治療の難しさ、病気への理解不足に関する話題が取り上げられていました。このデータから、患者さんの生活の質を向上させるための具体的な課題と改善策が見えてきました。これらの情報は、患者さんやご家族が抱える悩みを減らし、より良い生活をサポートするために役立つでしょう。",
+  "category": "ケア・対処法",
   "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT06539507",
-  "published_date": "2026-03-10",
-  "curation_reasoning": "この研究は新しい薬の効果を調べる試験であり、同様の皮膚疾患に対する治療法の可能性を示しています。魚鱗癬の患者さんにも将来的に役立つ知見が得られる可能性があります。",
-  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"新しい薬で、皮膚疾患の症状を改善する可能性がある。\"}]",
-  "created_at": "2026-03-20 13:22:03"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
+  "published_date": "2026 Mar 18",
+  "curation_reasoning": "魚鱗癬患者さんや家族が実際に話している内容が生の声として集まり、患者さん自身の生活向上に役立つ情報が含まれているため。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-20 13:51:42"
 }
