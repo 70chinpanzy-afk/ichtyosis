@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-18",
-  "source": "pubmed",
-  "source_id": "41809259",
-  "original_title": "A self-assembled nano-spray formulation for synergistic therapy of anti-inflammation and skin repair.",
-  "title_ja": "炎症を抑え皮膚を修復するナノスプレーの開発",
-  "summary_ja": "新しいナノスプレーが炎症を和らげ、皮膚のバリア機能を修復する助けとなります。天然成分を使って細かい粒子を作り、効果的に皮膚に浸透させることが可能です。このスプレーはアトピー性皮膚炎や乾癬などの皮膚問題に効果を持つ可能性があります。魚鱗癬症状を緩和する新たなケア方法として期待が持てますが、まだ実験段階のため注意が必要です。",
-  "category": "ケア・対処法",
+  "digest_date": "2026-03-20",
+  "source": "clinical_trials",
+  "source_id": "NCT07477769",
+  "original_title": "Phénotype Lymphocytaire Des Ichtyoses congénitales Autosomiques récessives mutées NIPAL4 (Nipal4-nEDD)",
+  "title_ja": "NIPAL4遺伝子変異による先天性魚鱗癬の研究と関連するリンパの病気",
+  "summary_ja": "この研究は、NIPAL4遺伝子変異による先天性魚鱗癬の人が成人期に稀で深刻なリンパ腫であるセザリー症候群を発症するケースについて調べています。この遺伝子変異は皮膚のバリアを作るのに重要で、これが壊れると肌の赤みやかゆみが増すことがあります。この研究は、魚鱗癬患者とリンパ腫との関連を理解するために重要で、早期発見や治療の手助けになる可能性があります。",
+  "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41809259/",
-  "published_date": "2025-10",
-  "curation_reasoning": "新しいナノスプレーの開発は皮膚の炎症やバリア機能の改善に役立ち、魚鱗癬のケアに応用できる可能性があります。",
+  "url": "https://clinicaltrials.gov/study/NCT07477769",
+  "published_date": "2026-03-17",
+  "curation_reasoning": "魚鱗癬患者の中でもリンパ腫を発症するケースがあり、その理解が進むことで治療の項目が広がることが期待できます。",
   "drugs_json": "[]",
-  "created_at": "2026-03-18 13:45:19"
+  "created_at": "2026-03-20 12:09:13"
 }
