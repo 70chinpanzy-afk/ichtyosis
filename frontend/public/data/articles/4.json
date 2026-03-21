@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-20",
-  "source": "google_news:Woman's World",
-  "source_id": "b667bd2aa020e220",
-  "original_title": "Why Skin pH Could Be the Key to Better Eczema Care and Relief - Woman's World",
-  "title_ja": "肌のpHが湿疹ケアの鍵になる理由",
-  "summary_ja": "このニュースは、肌のpHバランスを正しく保つことが湿疹（アトピー性皮膚炎を含む）のケアに効果的である可能性について紹介しています。肌が弱酸性に保たれていると、バリア機能が高まり、外部からの刺激に強くなります。魚鱗癬を持つ方にとって、適切なpHバランスを目指すことで、症状が緩和される可能性があります。新しいスキンケア方法として取り入れる価値があります。",
-  "category": "ケア・対処法",
+  "digest_date": "2026-03-21",
+  "source": "clinical_trials",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "Netherton症候群患者に対するQRX003ローションの安全性と効果を調べる試験",
+  "summary_ja": "この研究は、Netherton症候群患者にQRX003というローションを使用して、その安全性や効果を確認する試験です。この病気は魚鱗癬に似た症状を引き起こすため、このローションが効果的であれば魚鱗癬の患者にも役立つ可能性があります。症状の改善が期待されており、新しいスキンケアとして注目されています。まだ研究が進行中なので、さらなる結果を待つ必要があります。",
+  "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vZEFIM2h2dEFuaWNVNm0ycS1UME51RHl1SXY2N0EyM2hZRUotdS1jMXBuLUNvWi05eHlZaXY3MThzazZ4ZWU2cF9sSi1pT0M2ZEgwUWZHY050UlNqSDBNYlRvMGRwT2tIUUtfVQ?oc=5",
-  "published_date": "2026-03-18",
-  "curation_reasoning": "肌のpH管理は皮膚バリアを強化し、魚鱗癬の症状管理に役立つ可能性があるため。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-20 22:31:07"
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "Netherton症候群は魚鱗癬に類似するため、このローションが同じく有効である可能性があります。保湿剤などの日常ケア用品の選択肢が増えるのは患者にとって重要です。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"不明\", \"description\": \"Netherton症候群における皮膚ケア用の治験中のローション\"}]",
+  "created_at": "2026-03-21 22:27:53"
 }

@@ -1,16 +1,16 @@
 {
   "id": 1,
-  "digest_date": "2026-03-20",
+  "digest_date": "2026-03-21",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "魚鱗癬の新しい外用薬TMB-001の最終試験",
-  "summary_ja": "この研究は、魚鱗癬という遺伝性の皮膚疾患に対する新しい外用薬TMB-001の安全性と効果を調べる最終段階の試験です。6歳以上の患者を対象に、毎日使用することで皮膚の状態がどのくらい改善するかを確認しています。結果が良ければ、家庭でのケアがより容易になる可能性があります。安心して使えそうかどうかを徹底的に調べているので、有望な治療法として期待されます。",
+  "title_ja": "TMB-001を用いた魚鱗癬治療の大規模試験",
+  "summary_ja": "この研究は、X連鎖や常染色体劣性型の魚鱗癬を持つ6歳以上の方を対象に、TMB-001という塗り薬の安全性と効果を確認するための試験です。この試験は、薬の入っていない塗り薬（プラセボ）を使うグループと比較しています。試験は、第III相と呼ばれる最終段階にあり、成果が確認されれば実際に治療に使われる可能性があります。魚鱗癬の患者さんにとって、日常的に使える新しい治療法の選択肢として期待されています。",
   "category": "新薬・治療法",
-  "relevance_score": 1.0,
+  "relevance_score": 0.9,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-03-20",
-  "curation_reasoning": "魚鱗癬に対する新しい治療法として直接的に関連し、具体的な症状改善が期待できる試験内容のため。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"不明（試験中の成分）\", \"description\": \"魚鱗癬の治療のために開発された外用薬\"}]",
-  "created_at": "2026-03-20 22:31:07"
+  "curation_reasoning": "直接的に魚鱗癬の新しい治療法の効果を試す試験で、実用化に近い段階にあるため。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未記載\", \"description\": \"皮膚の異常を改善するための塗り薬です\"}]",
+  "created_at": "2026-03-21 22:27:53"
 }

@@ -1,16 +1,16 @@
 {
   "id": 5,
-  "digest_date": "2026-03-20",
-  "source": "google_news:The Straits Times",
-  "source_id": "552b0264c4a07c2e",
-  "original_title": "MOH’s plans to provide more support for eczema welcomed by patients - The Straits Times",
-  "title_ja": "シンガポールM内務省、アトピー性皮膚炎患者向け支援の強化計画発表",
-  "summary_ja": "シンガポールの内務省は、アトピー性皮膚炎（AD）の患者への支援を強化する計画を発表しました。これには新しい医療支援制度や、患者が治療を受けやすくするための助成が含まれています。この取り組みは、似た症状を抱える魚鱗癬患者にも間接的に役立つ可能性があります。効果的な治療法の普及や、医療サービスの充実により、患者さんがより良い生活を送れるようになることが期待されます。",
-  "category": "ニュース",
+  "digest_date": "2026-03-21",
+  "source": "clinical_trials",
+  "source_id": "NCT05856526",
+  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
+  "title_ja": "ネザートン症候群の治療における新薬Spesolimabの試験",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚疾患の患者さんを対象に、新しいお薬Spesolimab（スぺソリマブ）の効果と安全性を比較する試験です。試験では、参加者がSpesolimabの注射を受けるグループと、薬を含まない注射（プラセボ）を受けるグループに分けられます。最初は腕に、後からは皮膚の下に毎月注射します。4か月後にはプラセボグループもSpesolimabを受け取ります。この試験は、魚鱗癬に似た症状を持つ他の病気の治療にも役立つかもしれません。",
+  "category": "新薬・治療法",
   "relevance_score": 0.7,
-  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTZYSUtwVmt6SjVNWXh2OTNpd1cyY3pvWTUwRWlIcGdrUWpfY2xsVjByNENSQUgwZWtlRjBEUGlSdmhuSmt3c2xKdHVMSXgzQmRyYUpzY3hHZ3U1eDdIZWItc2RJZUpjbnVMZjVIcTZqb0EtUnVSb0RFQTBzLWNDRWh0ZHBHYjVjV0ljQnBZcEZCS3pzWXZQQkFTX0NReUpiQndZVjdDakRLbHdzcVBIbEFn?oc=5",
-  "published_date": "2026-03-17",
-  "curation_reasoning": "類似症状を持つ患者にも有益な情報で、魚鱗癬にも応用が期待できるため、関連性があります。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-20 13:51:42"
+  "url": "https://clinicaltrials.gov/study/NCT05856526",
+  "published_date": "2026-03-12",
+  "curation_reasoning": "魚鱗癬にも似た症状を持つネザートン症候群の治療で、新しい薬の可能性を探る試験だから。",
+  "drugs_json": "[{\"drug_name\": \"スぺソリマブ（Spesolimab）\", \"ingredients\": \"Spesolimab\", \"description\": \"炎症を抑えるための新しい種類の薬です\"}]",
+  "created_at": "2026-03-21 22:27:53"
 }
