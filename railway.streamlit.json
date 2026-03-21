@@ -5,7 +5,7 @@
     "dockerfilePath": "Dockerfile.streamlit"
   },
   "deploy": {
-    "startCommand": "streamlit run ui_streamlit.py --server.address 0.0.0.0 --server.port $PORT",
+    "startCommand": "sh -c \"streamlit run ui_streamlit.py --server.address 0.0.0.0 --server.port ${PORT:-8080}\"",
     "healthcheckPath": "/_stcore/health",
     "healthcheckTimeout": 180
   }
