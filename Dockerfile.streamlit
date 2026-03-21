@@ -14,4 +14,4 @@ COPY usecase_generate.py .
 COPY infra_api.py .
 COPY history_repo.py .
 
-CMD ["sh", "-c", "streamlit run ui_streamlit.py --server.address 0.0.0.0 --server.port ${PORT:-8501}"]
+CMD ["sh", "-c", "streamlit run ui_streamlit.py --server.address 0.0.0.0 --server.port ${PORT:-8080} --server.headless true"]
