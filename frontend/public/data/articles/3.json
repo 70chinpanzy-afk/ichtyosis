@@ -1,16 +1,16 @@
 {
   "id": 3,
-  "digest_date": "2026-03-21",
+  "digest_date": "2026-03-22",
   "source": "clinical_trials",
-  "source_id": "NCT06539507",
-  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
-  "title_ja": "Netherton症候群におけるBCX17725の安全性と効果を確認する初期試験",
-  "summary_ja": "この研究は、Netherton症候群という皮膚疾患に対する治療薬BCX17725の安全性や効果を確認するための初期試験です。大人のNetherton症候群の患者さんにこの薬を投与し、その反応を確認します。今後、症状の改善が期待されるため、これが成功すれば魚鱗癬（うろこ病）の治療にも役立つかもしれません。患者さんにとって効果的な新しい治療法が増える可能性に希望が持てますが、まだ初期の試験段階ですので慎重に進めていく必要があります。",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "QRX003ローションのネザートン症候群への効果を探る",
+  "summary_ja": "この研究は、ネザートン症候群を持つ人に対して、新しいQRX003ローションの効果を探るものです。二重盲検という方法で、患者と医師のどちらもどの薬剤を使っているかわからないようにして、効果を正確に評価します。魚鱗癬のような皮膚疾患の患者さんにとって、新たな治療の可能性を見つけることは非常に重要です。この研究の結果は、病気の管理を改善する手助けになり得ます。",
   "category": "新薬・治療法",
-  "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT06539507",
-  "published_date": "2026-03-10",
-  "curation_reasoning": "Netherton症候群は魚鱗癬と類似の遺伝性皮膚疾患であり、同様の治療法が役に立つ可能性があります。BCX17725の試験結果は、同種の皮膚症状のある患者にとって新しい選択肢となる可能性があります。",
-  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"不明\", \"description\": \"Netherton症候群の皮膚症状改善を目的とした治療薬の候補\"}]",
-  "created_at": "2026-03-21 22:27:53"
+  "relevance_score": 1.0,
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "QRX003ローションは魚鱗癬と類似した疾患の治療法であり、この情報は患者さんの選択肢を広げる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"QRX003\", \"description\": \"皮膚の状態を改善するための新しいローション。\"}]",
+  "created_at": "2026-03-22 22:28:37"
 }

@@ -1,16 +1,16 @@
 {
   "id": 5,
-  "digest_date": "2026-03-21",
+  "digest_date": "2026-03-22",
   "source": "clinical_trials",
   "source_id": "NCT05856526",
-  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
-  "title_ja": "ネザートン症候群の治療における新薬Spesolimabの試験",
-  "summary_ja": "この研究は、ネザートン症候群という皮膚疾患の患者さんを対象に、新しいお薬Spesolimab（スぺソリマブ）の効果と安全性を比較する試験です。試験では、参加者がSpesolimabの注射を受けるグループと、薬を含まない注射（プラセボ）を受けるグループに分けられます。最初は腕に、後からは皮膚の下に毎月注射します。4か月後にはプラセボグループもSpesolimabを受け取ります。この試験は、魚鱗癬に似た症状を持つ他の病気の治療にも役立つかもしれません。",
+  "original_title": "EvasayilTM: A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
+  "title_ja": "ネザートン症候群向けの新薬スペソリマブの効果と安全性を試す試験",
+  "summary_ja": "この研究は、肌の疾患であるネザートン症候群に対して、新しい薬のスペソリマブが効果的かどうかを調べます。参加者全員に3年間、定期的な健康チェックが行われ、薬の効果と安全性が確認されます。この試験は、新しい治療法の可能性を探るもので、魚鱗癬のような他の遺伝性皮膚疾患にも役立つ可能性があります。将来的には、魚鱗癬の患者さんにも類似の治療法の提供が期待されます。",
   "category": "新薬・治療法",
   "relevance_score": 0.7,
   "url": "https://clinicaltrials.gov/study/NCT05856526",
   "published_date": "2026-03-12",
-  "curation_reasoning": "魚鱗癬にも似た症状を持つネザートン症候群の治療で、新しい薬の可能性を探る試験だから。",
-  "drugs_json": "[{\"drug_name\": \"スぺソリマブ（Spesolimab）\", \"ingredients\": \"Spesolimab\", \"description\": \"炎症を抑えるための新しい種類の薬です\"}]",
-  "created_at": "2026-03-21 22:27:53"
+  "curation_reasoning": "新薬の試験が魚鱗癬やその類似疾患にも応用可能であるため、希望を持てるニュースです。",
+  "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ（Spesolimab）\", \"description\": \"ネザートン症候群の症状を改善する可能性がある新薬\"}]",
+  "created_at": "2026-03-22 22:28:37"
 }
