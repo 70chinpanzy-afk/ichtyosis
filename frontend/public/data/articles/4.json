@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-22",
-  "source": "pubmed",
-  "source_id": "41849564",
-  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
-  "title_ja": "魚鱗癬患者のSNSから見える日常の課題と支援の必要性",
-  "summary_ja": "この研究は、ヨーロッパで魚鱗癬を持つ患者がSNSで共有している日常の課題を分析しました。特に、清潔ケアや心理的な影響、治療上の困難、疾患への理解不足が話題に挙がっています。これにより、魚鱗癬の患者さんが直面する課題や支援の必要性を理解する助けとなります。この情報は、患者さんの生活の質を向上させるための取り組みを考える上で重要です。今後、このようなSNSからの情報を活用して、具体的な支援策が提案されるかもしれません。",
-  "category": "ケア・対処法",
+  "digest_date": "2026-03-23",
+  "source": "clinical_trials",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "Netherton症候群に対するQRX003ローションの多施設試験",
+  "summary_ja": "この臨床試験は、Netherton症候群という特定の皮膚疾患に対するQRX003というローションの効果と安全性を見ています。参加者は無作為に選ばれ、QRX003か偽薬（実際の薬ではないもの）を使用しています。Netherton症候群は皮膚バリアの異常で知られており、この試験は魚鱗癬にも似た効果が期待されています。新しい治療の可能性が広がり、特定の患者さんに希望をもたらすかもしれません。",
+  "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
-  "published_date": "2026 Mar 18",
-  "curation_reasoning": "SNSでの患者の声を分析することで、具体的な課題を知ることができ、支援策を考える参考になる。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-22 22:28:37"
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "魚鱗癬に類似した疾患への新しい治療法の試験であり、魚鱗癬にも応用可能な治療の希望を持てる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"QRX003\", \"description\": \"新しい治療用ローション。皮膚の保護・改善を目的とする\"}]",
+  "created_at": "2026-03-23 22:35:11"
 }
