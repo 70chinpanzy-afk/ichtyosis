@@ -1,16 +1,16 @@
 {
   "id": 1,
-  "digest_date": "2026-03-23",
+  "digest_date": "2026-03-24",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "魚鱗癬の治療における新しい軟膏の試験「ASCEND」",
-  "summary_ja": "この研究は、魚鱗癬（ギョリンセン）の一種である先天性魚鱗癬の治療に、新しい軟膏（TMB-001）の安全性と効果を調査するものです。大きな試験で、薬の効果や安全性を確認する段階（第III相試験）にあり、6歳以上の方が対象です。この試験では、2つのグループに分かれて、実際の薬と外見は同じでも薬が入っていない別の物（プラセボ）を使用します。この研究が進むことで、魚鱗癬のための新しい治療法が現実になるかもしれません。",
+  "title_ja": "TMB-001軟膏を用いた魚鱗癬の治療効果を調べる大規模試験",
+  "summary_ja": "この研究は、魚鱗癬（ぎょりんせん）という皮膚の病気を持つ患者さんに対する、新しい塗り薬TMB-001の効果と安全性を調べるための試験です。参加する6歳以上の患者さんは、TMB-001かプラセボ（見た目は同じだが効果のない薬）を塗ります。この試験は、皮膚の症状の改善が見られるかを比較します。この治療法が成功すれば、魚鱗癬の症状を軽減する新しい希望となるかもしれません。今後、広く利用される可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-03-20",
-  "curation_reasoning": "特に魚鱗癬の新しい治療法の開発に直結しており、患者さんにとって希望のある情報です。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"新しい軟膏で、皮膚の症状を和らげるために使用される外用薬\"}]",
-  "created_at": "2026-03-23 22:35:11"
+  "curation_reasoning": "魚鱗癬に直接関係する試験で、新しい治療法TMB-001が、患者さんの症状を改善する可能性を示しています。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"未公開\", \"description\": \"皮膚に塗ることで、乾燥やひび割れを和らげる可能性のある試験中の薬\"}]",
+  "created_at": "2026-03-24 22:34:23"
 }

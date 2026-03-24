@@ -1,16 +1,16 @@
 {
   "id": 3,
-  "digest_date": "2026-03-23",
+  "digest_date": "2026-03-24",
   "source": "pubmed",
-  "source_id": "41849564",
-  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
-  "title_ja": "魚鱗癬の社会的な声を聞く：SNS分析からわかったこと",
-  "summary_ja": "この研究は、ヨーロッパの魚鱗癬患者とその家族がSNSでどのようにケアや心理的影響について話題にしているかを分析しました。多くの患者さんがスキンケアの工夫や病気に対する認知不足を感じていることがわかりました。この情報を元に、患者さんの生活の質を向上させるための具体的なアクションが提案されています。魚鱗癬の患者さんや家族にとって、他の人の経験談や助言は日々の対応に役立つかもしれません。今後もこうした声から新しいサポート策が生まれることが期待されます。",
-  "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
-  "published_date": "2026 Mar 18",
-  "curation_reasoning": "患者や家族の具体的な体験談やケア方法に関する情報が得られ、日常生活に役立つ可能性があります。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-23 22:35:11"
+  "source_id": "41841670",
+  "original_title": "Advances in the use of Janus kinase inhibitors.",
+  "title_ja": "ヤヌスキナーゼ阻害薬の進歩：新しい炎症治療の可能性",
+  "summary_ja": "この研究は、ヤヌスキナーゼ（JAK）阻害薬が、皮膚の炎症を含むさまざまな免疫疾患に効果があることを示しています。これらの薬は、関節リウマチやアトピー性皮膚炎などの治療で既に使われており、新たな臨床試験ではさらに多くの病気で効果が確認されています。JAK阻害薬は、体の中で炎症を引き起こす信号をブロックすることで、症状を改善します。この薬が魚鱗癬紅皮症の治療にも有効になれば、患者さんの生活が改善される可能性があります。今はまだ試験段階ですが、将来に向けた希望の一歩です。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41841670/",
+  "published_date": "2026 Mar 17",
+  "curation_reasoning": "JAK阻害薬はアトピー性皮膚炎の治療にも使われており、魚鱗癬紅皮症にも応用可能な知見となり得るため。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックする飲み薬。\"}]",
+  "created_at": "2026-03-24 22:34:23"
 }
