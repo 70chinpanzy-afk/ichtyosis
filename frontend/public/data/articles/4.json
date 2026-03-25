@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-24",
+  "digest_date": "2026-03-25",
   "source": "clinical_trials",
-  "source_id": "NCT05856526",
-  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
-  "title_ja": "ネザートン症候群におけるスペソリマブの効果と安全性に関する試験",
-  "summary_ja": "この臨床試験では、皮膚病であるネザートン症候群の患者さんに対するスペソリマブという新しい薬が効果的かどうかを検討します。12歳以上の人が対象で、薬または見た目が同じ偽薬を定期的に注射します。4か月の後、偽薬を受けていた人もスペソリマブの治療に移ります。3年間の研究期間で、42回の診療があり、症状の変化などを詳しく調べます。スペソリマブが魚鱗癬に似た症状の改善に役立つ可能性があるため、今後の治療に希望が持てる内容です。",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "ネザートン症候群患者を対象としたQRX003ローションの多施設無作為化比較試験",
+  "summary_ja": "QRX003というローションを使って、ネザートン症候群という病気の人たちの症状の改善を目指す試験を行っています。この試験は多くの医療機関で実施され、参加者は偽薬と比較されることでローションの効果が客観的に判定されます。もし効果が確認されれば、このローションが魚鱗癬に似た症状に対する新しい治療法になるかもしれません。",
   "category": "新薬・治療法",
-  "relevance_score": 0.7,
-  "url": "https://clinicaltrials.gov/study/NCT05856526",
-  "published_date": "2026-03-12",
-  "curation_reasoning": "ネザートン症候群の治療が魚鱗癬の治療にも応用できる可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫反応を調整する注射薬で、炎症を抑える効果がある。\"}]",
-  "created_at": "2026-03-24 22:34:23"
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "魚鱗癬に似た症状を持つネザートン症候群での研究が、治療の新たな選択肢を提供する可能性があるためです。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"未公開\", \"description\": \"皮膚の保護や治療を目的とした外用ローション\"}]",
+  "created_at": "2026-03-25 22:39:02"
 }
