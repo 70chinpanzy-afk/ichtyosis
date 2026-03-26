@@ -20,7 +20,7 @@ CHART_WINDOW_SIZE = 60  # Number of candles per chart image
 CHART_SLIDE_STEP = 5    # Slide step for rolling window
 
 # Numerical pre-filter thresholds
-PREFILTER_MIN_SWING_PCT = 3.0   # Minimum swing size as % of price
+PREFILTER_MIN_SWING_PCT = 2.0   # Minimum swing size as % of price (relaxed for more candidates)
 PREFILTER_LOOKBACK = 30         # Candles to look back for pattern detection
 
 # Gemini API
