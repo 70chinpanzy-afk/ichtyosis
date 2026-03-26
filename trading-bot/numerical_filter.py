@@ -102,6 +102,87 @@ def has_triangle_candidate(highs: list, lows: list) -> str | None:
     return None
 
 
+def has_flag_candidate(df: pd.DataFrame, highs: list, lows: list) -> str | None:
+    """Check for bull/bear flag: strong trend followed by small consolidation."""
+    if len(df) < 20:
+        return None
+    closes = df["close"].values
+
+    # Check last 20 bars: first 10 = impulse, last 10 = consolidation
+    impulse = closes[-20:-10]
+    consolidation = closes[-10:]
+
+    impulse_move = (impulse[-1] - impulse[0]) / impulse[0]
+    consol_range = (max(consolidation) - min(consolidation)) / min(consolidation)
+
+    # Flag: strong impulse (>3%) + tight consolidation (<2%)
+    if impulse_move > 0.03 and consol_range < 0.02:
+        return "bullish_flag"
+    if impulse_move < -0.03 and consol_range < 0.02:
+        return "bearish_flag"
+    return None
+
+
+def has_wedge_candidate(highs: list, lows: list) -> str | None:
+    """Check for rising/falling wedge: converging highs and lows."""
+    if len(highs) < 3 or len(lows) < 3:
+        return None
+
+    h_vals = [h[1] for h in highs[-3:]]
+    l_vals = [l[1] for l in lows[-3:]]
+
+    highs_rising = h_vals[-1] > h_vals[0]
+    highs_falling = h_vals[-1] < h_vals[0]
+    lows_rising = l_vals[-1] > l_vals[0]
+    lows_falling = l_vals[-1] < l_vals[0]
+
+    # Converging: range narrowing
+    range_first = h_vals[0] - l_vals[0]
+    range_last = h_vals[-1] - l_vals[-1]
+    converging = range_last < range_first * 0.8 if range_first > 0 else False
+
+    # Rising wedge: both rising + converging (bearish)
+    if highs_rising and lows_rising and converging:
+        return "rising_wedge"
+    # Falling wedge: both falling + converging (bullish)
+    if highs_falling and lows_falling and converging:
+        return "falling_wedge"
+    return None
+
+
+def has_triple_bottom_candidate(lows: list, price: float, min_swing_pct: float) -> bool:
+    """Check for three similar swing lows (potential triple bottom)."""
+    if len(lows) < 3:
+        return False
+    min_diff = price * min_swing_pct / 100
+    for i in range(len(lows) - 2):
+        for j in range(i + 1, len(lows) - 1):
+            for k in range(j + 1, len(lows)):
+                if (abs(lows[i][1] - lows[j][1]) < min_diff and
+                        abs(lows[j][1] - lows[k][1]) < min_diff):
+                    # At least 5 bars between each
+                    if (abs(lows[i][0] - lows[j][0]) >= 5 and
+                            abs(lows[j][0] - lows[k][0]) >= 5):
+                        return True
+    return False
+
+
+def has_triple_top_candidate(highs: list, price: float, min_swing_pct: float) -> bool:
+    """Check for three similar swing highs (potential triple top)."""
+    if len(highs) < 3:
+        return False
+    min_diff = price * min_swing_pct / 100
+    for i in range(len(highs) - 2):
+        for j in range(i + 1, len(highs) - 1):
+            for k in range(j + 1, len(highs)):
+                if (abs(highs[i][1] - highs[j][1]) < min_diff and
+                        abs(highs[j][1] - highs[k][1]) < min_diff):
+                    if (abs(highs[i][0] - highs[j][0]) >= 5 and
+                            abs(highs[j][0] - highs[k][0]) >= 5):
+                        return True
+    return False
+
+
 def prefilter_window(df_window: pd.DataFrame) -> list[str]:
     """Run all numerical filters on a window and return candidate pattern names."""
     candidates = []
@@ -120,5 +201,18 @@ def prefilter_window(df_window: pd.DataFrame) -> list[str]:
     triangle = has_triangle_candidate(highs, lows)
     if triangle:
         candidates.append(triangle)
+
+    flag = has_flag_candidate(df_window, highs, lows)
+    if flag:
+        candidates.append(flag)
+
+    wedge = has_wedge_candidate(highs, lows)
+    if wedge:
+        candidates.append(wedge)
+
+    if has_triple_bottom_candidate(lows, price, PREFILTER_MIN_SWING_PCT):
+        candidates.append("triple_bottom")
+    if has_triple_top_candidate(highs, price, PREFILTER_MIN_SWING_PCT):
+        candidates.append("triple_top")
 
     return candidates

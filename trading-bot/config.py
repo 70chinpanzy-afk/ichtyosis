@@ -44,4 +44,10 @@ PATTERNS = [
     "inverse_head_and_shoulders",
     "ascending_triangle",
     "descending_triangle",
+    "bullish_flag",
+    "bearish_flag",
+    "rising_wedge",
+    "falling_wedge",
+    "triple_bottom",
+    "triple_top",
 ]

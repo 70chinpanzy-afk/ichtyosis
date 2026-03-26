@@ -46,6 +46,9 @@ Patterns to look for:
 - double_bottom / double_top
 - head_and_shoulders / inverse_head_and_shoulders
 - ascending_triangle / descending_triangle
+- bullish_flag / bearish_flag (strong impulse + tight consolidation)
+- rising_wedge (bearish) / falling_wedge (bullish)
+- triple_bottom / triple_top
 
 RULES:
 1. Only identify CLEAR, WELL-FORMED patterns with prominent candlesticks.
