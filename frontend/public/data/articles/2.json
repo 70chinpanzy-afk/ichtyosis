@@ -1,16 +1,16 @@
 {
   "id": 2,
-  "digest_date": "2026-03-25",
+  "digest_date": "2026-03-26",
   "source": "pubmed",
-  "source_id": "41849564",
-  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
-  "title_ja": "先天性魚鱗癬に関するSNSの話題調査：定量的および定性的な知見",
-  "summary_ja": "この研究は、先天性魚鱗癬を持つ患者やその家族がSNS上でどのようなことを話しているかを調査しました。特に、日常のケア方法や心理的な影響、治療の難しさ、病気に対する理解不足などの話題が多いことが分かりました。これにより、患者さんの満たされていないニーズを明らかにし、生活の質を向上させるための可能性が見えてきました。魚鱗癬の患者さんが抱える困難や、どのようにサポートできるかを知る手がかりとなります。",
-  "category": "ケア・対処法",
+  "source_id": "41884384",
+  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent",
+  "title_ja": "アトピー性皮膚炎と魚鱗癬を持つ患者のケーススタディ",
+  "summary_ja": "この研究は、アトピー性皮膚炎（AD）と魚鱗癬を併発した患者の症状についてまとめています。この患者は再発する真菌感染やウイルス感染に苦しんでいます。今回のケースでは、皮膚のバリアが非常に弱くなっているため、外部からの感染が容易に起こることが分かりました。この情報は、魚鱗癬の患者さんが抱える皮膚感染症に関するリスクを理解するのに役立ちます。特に、皮膚を守るケアや感染予防が必要であることが示唆されています。",
+  "category": "関連疾患からの知見",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
-  "published_date": "2026 Mar 18",
-  "curation_reasoning": "患者や家族の具体的なケアの悩みや治療の課題が明らかになり、他の家族にとっても共感しやすい内容だからです。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
+  "published_date": "2026",
+  "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の合併症が報告され、皮膚バリアの重要性が再確認されています。魚鱗癬患者の感染対策として有用な情報です。",
   "drugs_json": "[]",
-  "created_at": "2026-03-25 22:39:02"
+  "created_at": "2026-03-26 22:32:26"
 }

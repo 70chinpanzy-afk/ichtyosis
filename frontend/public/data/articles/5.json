@@ -1,16 +1,16 @@
 {
   "id": 5,
-  "digest_date": "2026-03-25",
-  "source": "google_news:New York Magazine",
-  "source_id": "6ff3764091897cf9",
-  "original_title": "The Very Best Treatments for Eczema - New York Magazine",
-  "title_ja": "アトピー性皮膚炎の最良の治療法について",
-  "summary_ja": "この記事は、アトピー性皮膚炎に最も効果的な治療法について紹介しています。クリームや保湿剤、抗炎症薬などが紹介されています。アトピー性皮膚炎と魚鱗癬は、どちらも肌の乾燥や炎症が関係しているため、これらの治療法が魚鱗癬でも役立つ可能性があります。特に保湿剤は、毎日のスキンケアにおいてとても大切です。家族の方にも、普段のケアに役立つ情報となるかもしれません。",
+  "digest_date": "2026-03-26",
+  "source": "pubmed",
+  "source_id": "41884388",
+  "original_title": "A Case Series of Tofacitinib Treatment for Chronic Spontaneous Urticaria with Inadequate Response to Omalizumab.",
+  "title_ja": "トファシチニブによる慢性蕁麻疹の治療",
+  "summary_ja": "この研究は、慢性的な蕁麻疹（じんましん）の患者さんがトファシチニブという薬でどのように改善するかを調べたものです。通常の治療薬で効果がみられない場合に、新たな治療法として注目されています。トファシチニブは、体の中で炎症を引き起こす信号を阻害する働きを持ちます。全体の症状改善を評価するテストで多くの患者が改善を示しました。魚鱗癬の患者さんにとっても、似たような免疫系の関与があることから、その効果が期待されます。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPSlliRGc4YWVEQTRZZmFRWnJEMVhTMGEtb0JRNGZZeks0MEI5QTcwNXdRU2Z3cG13YUNEMjlDYTN0Q1ExdEJKM2JOT3FMbzhVNzB1d3NWOEk3aktab3M3RlBlTGQ0aEpDTDZORzVyWk9wdw?oc=5",
-  "published_date": "2026-03-23",
-  "curation_reasoning": "アトピー性皮膚炎の治療法が魚鱗癬にも応用できる可能性があり、患者さんのスキンケアに参考になる情報です。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-25 22:39:02"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41884388/",
+  "published_date": "2026",
+  "curation_reasoning": "トファシチニブは炎症の根本を抑えることで、魚鱗癬の免疫系が関与する症状にも応用される可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（Tofacitinib）\", \"description\": \"体内の炎症を引き起こす信号を阻害することによって、様々な免疫系疾患を治療する飲み薬\"}]",
+  "created_at": "2026-03-26 22:32:26"
 }
