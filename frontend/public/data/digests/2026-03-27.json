@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-03-27",
+    "source": "clinical_trials",
+    "source_id": "NCT05295732",
+    "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+    "title_ja": "新薬TMB-001の魚鱗癬への効果を試す大規模試験",
+    "summary_ja": "この研究は、新しい軟膏（TMB-001）の効果と安全性を試すための大規模な試験です。魚鱗癬の中でも特に珍しいタイプに対しての治療法を探しています。この試験では、薬の効果を安全に確認するために3つの段階で行われます。この新薬は、軽度化や症状改善に期待されています。魚鱗癬を持つ患者さんにとって、新しい治療の選択肢が増えることは希望になります。",
+    "category": "新薬・治療法",
+    "relevance_score": 1.0,
+    "url": "https://clinicaltrials.gov/study/NCT05295732",
+    "published_date": "2026-03-20",
+    "curation_reasoning": "魚鱗癬に直接効果が期待できる新薬の試験であり、患者さんに新しい治療の希望を与える重要な情報です。",
+    "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の乾燥や皮膚の硬化を和らげる効果が期待される新薬の軟膏\"}]",
+    "created_at": "2026-03-27 22:34:43"
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-03-27",
+    "source": "clinical_trials",
+    "source_id": "NCT06539507",
+    "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+    "title_ja": "BCX17725の安全性と効果を検証する初の治験",
+    "summary_ja": "この研究は、遺伝性皮膚疾患であるネザートン症候群に対する新薬BCX17725の安全性や効果を調べています。特に大人と思春期の患者さんに何度も投与し、12週間の間でその安全性と有効性を確認します。この新しい薬は、ネザートン症候群の症状を和らげる可能性があります。魚鱗癬に似た症状を持つ病気の研究は、患者さんに新たな治療の希望を与える可能性があります。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://clinicaltrials.gov/study/NCT06539507",
+    "published_date": "2026-03-24",
+    "curation_reasoning": "この治験は、魚鱗癬に類似した症状を持つネザートン症候群に新薬が効果を発揮する可能性があり、類似疾患の治療への応用が期待できます。",
+    "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"不明\", \"description\": \"ネザートン症候群の症状を和らげることを目的とした新薬\"}]",
+    "created_at": "2026-03-27 22:34:43"
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-03-27",
+    "source": "pubmed",
+    "source_id": "41884384",
+    "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent",
+    "title_ja": "魚鱗癬とアトピー性皮膚炎を併発した患者さんの事例報告",
+    "summary_ja": "この研究は、魚鱗癬とアトピー性皮膚炎を同時に抱えていた31歳の女性について話しています。研究では、彼女が常に乾燥した肌や感染症と戦っていることがわかりました。このような症例は、両方の疾患がどのように関連し、治療法がそれぞれの症状をどう助けるかを示す大切な例です。この情報は、似た症状を持つ患者さんが日常のケアをする際に参考になるかもしれません。魚鱗癬の症状を持つ方にとって、特に保湿や感染対策の重要性が理解できます。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
+    "published_date": "2026",
+    "curation_reasoning": "魚鱗癬とアトピー性皮膚炎の併発例を通じて、患者さんの日常生活でのケアの重要性を理解するために役立ちます。",
+    "drugs_json": "[]",
+    "created_at": "2026-03-27 22:34:43"
+  }
+]
