@@ -5,14 +5,17 @@ import { useSearchParams } from "next/navigation";
 import {
   Article,
   Category,
+  Region,
   DigestSummary,
   getDigests,
   getDigestByDate,
+  getArticleRegion,
   searchArticles,
 } from "@/lib/api";
 import ArticleCard from "@/components/ArticleCard";
 import CategoryFilter from "@/components/CategoryFilter";
 import DigestHeader from "@/components/DigestHeader";
+import RegionTabs from "@/components/RegionTabs";
 import SearchBar from "@/components/SearchBar";
 
 function ArchiveContent() {
@@ -23,6 +26,7 @@ function ArchiveContent() {
   const [digests, setDigests] = useState<DigestSummary[]>([]);
   const [articles, setArticles] = useState<Article[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
+  const [selectedRegion, setSelectedRegion] = useState<Region | null>(null);
   const [loading, setLoading] = useState(true);
   const [currentDate, setCurrentDate] = useState<string>("");
 
@@ -57,6 +61,7 @@ function ArchiveContent() {
   const handleDateChange = async (date: string) => {
     setLoading(true);
     setSelectedCategory(null);
+    setSelectedRegion(null);
     try {
       const dateArticles = await getDigestByDate(date);
       setArticles(dateArticles);
@@ -68,12 +73,26 @@ function ArchiveContent() {
     }
   };
 
-  const filteredArticles = selectedCategory
-    ? articles.filter((a) => a.category === selectedCategory)
+  // Region filtering
+  const regionFilteredArticles = selectedRegion
+    ? articles.filter((a) => getArticleRegion(a) === selectedRegion)
     : articles;
 
-  const categoryCounts: Record<string, number> = {};
+  // Category filtering
+  const filteredArticles = selectedCategory
+    ? regionFilteredArticles.filter((a) => a.category === selectedCategory)
+    : regionFilteredArticles;
+
+  // Region counts
+  const regionCounts = { japan: 0, international: 0 };
   for (const a of articles) {
+    const r = getArticleRegion(a);
+    regionCounts[r]++;
+  }
+
+  // Category counts
+  const categoryCounts: Record<string, number> = {};
+  for (const a of regionFilteredArticles) {
     if (a.category) {
       categoryCounts[a.category] = (categoryCounts[a.category] || 0) + 1;
     }
@@ -124,6 +143,16 @@ function ArchiveContent() {
             <DigestHeader date={currentDate} articleCount={articles.length} />
           )}
 
+          {/* Region Tabs */}
+          <RegionTabs
+            selected={selectedRegion}
+            onSelect={(region) => {
+              setSelectedRegion(region);
+              setSelectedCategory(null);
+            }}
+            counts={regionCounts}
+          />
+
           <div className="mb-6">
             <CategoryFilter
               selected={selectedCategory}
@@ -137,6 +166,12 @@ function ArchiveContent() {
               <ArticleCard key={article.id} article={article} />
             ))}
           </div>
+
+          {filteredArticles.length === 0 && (
+            <p className="text-center text-slate-500 py-10">
+              該当する記事はありません。
+            </p>
+          )}
         </>
       ) : (
         <p className="text-center text-slate-500 py-10">

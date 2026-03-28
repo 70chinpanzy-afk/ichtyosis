@@ -1,16 +1,16 @@
 {
   "id": 2,
-  "digest_date": "2026-03-27",
-  "source": "clinical_trials",
-  "source_id": "NCT06539507",
-  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
-  "title_ja": "BCX17725の安全性と効果を検証する初の治験",
-  "summary_ja": "この研究は、遺伝性皮膚疾患であるネザートン症候群に対する新薬BCX17725の安全性や効果を調べています。特に大人と思春期の患者さんに何度も投与し、12週間の間でその安全性と有効性を確認します。この新しい薬は、ネザートン症候群の症状を和らげる可能性があります。魚鱗癬に似た症状を持つ病気の研究は、患者さんに新たな治療の希望を与える可能性があります。",
-  "category": "新薬・治療法",
+  "digest_date": "2026-03-29",
+  "source": "google_news:ダイヤモンド・オンライン",
+  "source_id": "acf95219feb3a41c",
+  "original_title": "26年春闘平均5.26％の賃上げで生活は楽になるのか？「実質賃金」でみる日本経済停滞“失われた30年”の正体 - ダイヤモンド・オンライン",
+  "title_ja": "26年春闘で平均5.26％賃上げ、生活は改善？",
+  "summary_ja": "2026年の春闘では平均賃上げ率が5.26％となり、この結果が生活改善に繋がるか注目されています。実質賃金の観点から見ると、依然として日本経済の停滞が課題です。営業パーソンは、この賃上げトピックを通じて消費者マインドの変化や購買力の向上についてクライアントと議論し、商談の方向性を探る良い機会となります。",
+  "category": "経済・ビジネス",
+  "region": "japan",
   "relevance_score": 0.9,
-  "url": "https://clinicaltrials.gov/study/NCT06539507",
-  "published_date": "2026-03-24",
-  "curation_reasoning": "この治験は、魚鱗癬に類似した症状を持つネザートン症候群に新薬が効果を発揮する可能性があり、類似疾患の治療への応用が期待できます。",
-  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"不明\", \"description\": \"ネザートン症候群の症状を和らげることを目的とした新薬\"}]",
-  "created_at": "2026-03-27 22:34:43"
+  "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjMU5ydGkya3ZLOVFpdXBRYWplUWtwVVFNNHVObzVXUjBxWnpVdmhSTmNSUGZZUl9kVy1pQVhzVXJ5NElpdHc3NWMwbk_SAU9BVV95cUxQdk5Hek1ZOFdjTnZEWWdtN0ZsakFRRGdRNGZHdUx2VjJvLXo0UGllQ0s2NXJkbS1RcXdNdTdpWGF5dkNBaldUS2N1UjZPaTFB?oc=5",
+  "published_date": "2026-03-26",
+  "curation_reasoning": "賃上げは消費者行動に直接影響を及ぼすため、この情報で商談が活性化します。",
+  "created_at": "2026-03-28 16:17:13"
 }

@@ -1,0 +1,16 @@
+{
+  "id": 65,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "2e0da25b99240a8f",
+  "original_title": "anyone try dupixent? 1 week in, confetti ichthyosis",
+  "title_ja": "「デュピクセント」を試した人はいますか？：患者の声",
+  "summary_ja": "この記事は、魚鱗癬の一種であるコンフェティ魚鱗癬の患者さんが、新しい治療薬「デュピクセント」を使って1週間が経過した経験を共有しています。患者さんの皮膚科医は、この薬が症状改善に役立つと期待しているようです。今のところ変化は見られませんが、他の患者さんの経験からは、効果が出るまでには時間がかかることがあります。デュピクセントは、皮膚の炎症を抑える注射薬で、アトピー性皮膚炎の治療でも使用されています。魚鱗癬の患者さんにとって、新たな治療法として注目されています。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.8,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1runit4/anyone_try_dupixent_1_week_in_confetti_ichthyosis/",
+  "published_date": "2026-03-15",
+  "curation_reasoning": "デュピクセント（Dupixent）は魚鱗癬のケアに応用できる可能性があり、患者にとって有益な情報です。",
+  "drugs_json": "[{\"drug_name\": \"デュピクセント（Dupixent）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

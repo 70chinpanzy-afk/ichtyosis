@@ -1,0 +1,16 @@
+{
+  "id": 64,
+  "digest_date": "2026-03-20",
+  "source": "pubmed",
+  "source_id": "41841670",
+  "original_title": "Advances in the use of Janus kinase inhibitors.",
+  "title_ja": "ヤヌスキナーゼ阻害薬の最新の進展",
+  "summary_ja": "この研究は、ヤヌスキナーゼ阻害薬という新しいタイプの薬の進展についてまとめています。これらの薬は、体内の不必要な免疫反応を抑えることで様々な炎症性疾患に効果を示しています。特に、アトピー性皮膚炎の治療にも使われ始めており、魚鱗癬の治療にも転用できる可能性があります。魚鱗癬の症状を和らげる新しい治療法の候補として期待されています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41841670/",
+  "published_date": "2026 Mar 17",
+  "curation_reasoning": "ヤヌスキナーゼ阻害薬は新しい治療法の一つであり、アトピー性皮膚炎への効果から魚鱗癬への応用が期待されます。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"体の中の余分な免疫反応を抑えるための薬\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

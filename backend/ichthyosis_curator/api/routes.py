@@ -29,6 +29,7 @@ class ArticleResponse(BaseModel):
     title_ja: Optional[str]
     summary_ja: Optional[str]
     category: Optional[str]
+    region: Optional[str] = None
     relevance_score: Optional[float]
     url: Optional[str]
     published_date: Optional[str]
@@ -43,8 +44,8 @@ def _get_db_path(request: Request) -> str:
 @router.get("/")
 def root():
     return {
-        "service": "魚鱗癬紅皮症 ニュースキュレーター",
-        "version": "0.1.0",
+        "service": "Sales News Copilot - 営業向けニュースキュレーター",
+        "version": "0.2.0",
         "endpoints": ["/api/digests", "/api/articles/{id}", "/api/search"],
     }
 

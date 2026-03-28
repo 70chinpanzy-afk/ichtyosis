@@ -1,0 +1,16 @@
+{
+  "id": 69,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "f567ec2c16ba7664",
+  "original_title": "Occupational Flare-ups",
+  "title_ja": "職場での魚鱗癬の悪化: 対処法とアドバイス",
+  "summary_ja": "この記事は、魚鱗癬を持つ人が職場で症状が悪化する経験を共有しています。特に乾燥した環境や温度変化が原因で、肌の炎症がひどくなることがあります。この方は、毎晩保湿剤を使って対処していますが、悪化を防ぐための方法に悩んでいます。患者さんは、仕事中に白いコットンの手袋を使って肌を保護していますが、さらに効果的な方法を模索中です。このような実体験は、同じ悩みを抱える多くの人に役立つでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1rsdztg/occupational_flareups/",
+  "published_date": "2026-03-13",
+  "curation_reasoning": "実生活での対処法の共有は、魚鱗癬の患者にとって重要な学びとなります。",
+  "drugs_json": "[{\"drug_name\": \"AmLactin\", \"ingredients\": \"乳酸（lactic acid）\", \"description\": \"肌を柔らかく保つための乳酸を含むクリーム\"}, {\"drug_name\": \"アクアフォー（Aquaphor）\", \"ingredients\": \"ワセリン（petrolatum）\", \"description\": \"肌を保護し、水分を閉じ込めるクリーム\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

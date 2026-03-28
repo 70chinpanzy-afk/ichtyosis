@@ -113,4 +113,4 @@ def generate_greeting(date_str: str, model: str = "gpt-4o") -> str:
         return resp.output_text
     except Exception as e:
         logger.warning(f"Greeting generation failed: {e}")
-        return f"{date_str}の魚鱗癬関連情報をお届けします。"
+        return f"{date_str}の注目ニュースをお届けします。"

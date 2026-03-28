@@ -1,0 +1,16 @@
+{
+  "id": 50,
+  "digest_date": "2026-03-19",
+  "source": "reddit:r/ichthyosis",
+  "source_id": "fb3af2827ba9f137",
+  "original_title": "Vaseline all over clothes?",
+  "title_ja": "服にワセリンがつく問題について",
+  "summary_ja": "この投稿は、重度の魚鱗癬を持つ方が、ワセリンを使用した後に服が汚れる問題についての相談です。投稿者はワセリンの代わりに服を汚さない保湿剤を探しているようです。投稿は、他の患者からのアドバイスを求めています。ワセリンは皮膚を保護し、乾燥を防ぐ効果がありますが、衣類に付着しやすいため、使用方法によっては日常生活で不便を感じることもあります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/ichthyosis/comments/1rnhb38/vaseline_all_over_clothes/",
+  "published_date": "2026-03-07",
+  "curation_reasoning": "ワセリンの効果と副作用について、実生活での使用体験が分かる投稿です。日常のケアに取り入れられる方法を考える上で役立つ情報です。",
+  "drugs_json": "[{\"drug_name\": \"ワセリン\", \"ingredients\": \"ペトロラタム\", \"description\": \"皮膚のバリアを作り、乾燥を防ぐための保湿剤\"}]",
+  "created_at": "2026-03-20 01:39:35"
+}

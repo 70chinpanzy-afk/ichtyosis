@@ -1,0 +1,16 @@
+{
+  "id": 71,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/SebDerm",
+  "source_id": "9c16447a226c6cb9",
+  "original_title": "1st Week Progress Update: Dealing with Seb Derm and Fungal Infection (Face/Scalp) ouno",
+  "title_ja": "脂漏性皮膚炎と真菌感染症の経過報告",
+  "summary_ja": "この記事は、脂漏性皮膚炎と顔の真菌感染症の治療経過を報告しています。1週間目の治療では、医薬用石鹸、抗真菌薬（イタコナゾール）、保湿剤（Vanicream）、ステロイド抗真菌薬を使用しました。2週目に入り、いくつかの治療を続けることになり、特にステロイド薬は皮膚の薄化を防ぐために2週間に制限されています。油っぽい肌や肌のつっぱり感が報告されていますが、この情報はSNSでの共有情報のため参考程度としてください。魚鱗癬の患者さんにとって、異なる皮膚炎の治療法がどのように作用するか知る手掛かりになるでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/SebDerm/comments/1ry0xcx/1st_week_progress_update_dealing_with_seb_derm/",
+  "published_date": "2026-03-19",
+  "curation_reasoning": "脂漏性皮膚炎の治療法を通じて、他の皮膚病の対応法も学べるためです。",
+  "drugs_json": "[{\"drug_name\": \"イタコナゾール（Itraconazole）\", \"ingredients\": \"イタコナゾール\", \"description\": \"真菌（かび）を殺す飲み薬です。\"}, {\"drug_name\": \"Vanicream\", \"ingredients\": \"保湿成分\", \"description\": \"乾燥した皮膚を保湿するクリームです。\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

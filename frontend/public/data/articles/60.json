@@ -1,0 +1,16 @@
+{
+  "id": 60,
+  "digest_date": "2026-03-19",
+  "source": "reddit:r/eczema",
+  "source_id": "fdda1f744a6ab702",
+  "original_title": "Derm told me to try increasing water intake before adding another prescription and Im skeptical but trying it",
+  "title_ja": "皮膚科医が水分摂取を増やすよう指示、処方薬の前に試すことに",
+  "summary_ja": "この投稿は、水分を多く摂ることでアトピー性皮膚炎（湿疹）の管理に役立つかもしれないというお話です。主は3年間ステロイドクリームや保湿剤を使用してきましたが、肌の乾燥が続いているとのこと。医師に相談したところ、まずは水分摂取量を増やすように言われ、1日80オンス（約2.3リットル）を目標にするよう指示されました。その結果、肌の引っ張られる感じやかゆみが少し和らいだと感じています。これは水分摂取が効果的な場合もありえると示しているかもしれません。特に乾燥する季節は水分補給が大切です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/eczema/comments/1rox51h/derm_told_me_to_try_increasing_water_intake/",
+  "published_date": "2026-03-09",
+  "curation_reasoning": "水分補給は皮膚の健康にとって重要であり、患者さんが試せる簡単な方法です。そのため、多くの方にとって役立つ情報です。",
+  "drugs_json": "[{\"drug_name\": \"セラヴィ製品（CeraVe）\", \"ingredients\": \"保湿剤\", \"description\": \"肌の水分を保ち、乾燥を防ぐためのクリームやローション\"}]",
+  "created_at": "2026-03-20 01:39:35"
+}

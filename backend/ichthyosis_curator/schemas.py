@@ -7,12 +7,14 @@ from pydantic import BaseModel, Field, ConfigDict
 
 
 Category = Literal[
-    "新薬・治療法",
-    "研究論文",
-    "ケア・対処法",
-    "関連疾患からの知見",
-    "ニュース",
+    "経済・ビジネス",
+    "政治・社会",
+    "テクノロジー",
+    "国際",
+    "スポーツ・文化",
 ]
+
+Region = Literal["japan", "international"]
 
 
 class RawArticle(BaseModel):
@@ -26,15 +28,7 @@ class RawArticle(BaseModel):
     url: str
     published_date: Optional[str] = None
     language: str = "en"
-
-
-class DrugInfo(BaseModel):
-    """記事に登場する薬品情報"""
-    model_config = ConfigDict(extra="forbid")
-
-    drug_name: str = Field(description="薬品名（日本語表記、括弧で英語名も記載）")
-    ingredients: str = Field(default="", description="有効成分・薬剤名（一般名）")
-    description: str = Field(default="", description="この薬が何をするか、一般向けの簡単な説明")
+    region: Optional[Region] = None
 
 
 class CuratedArticle(BaseModel):
@@ -46,11 +40,11 @@ class CuratedArticle(BaseModel):
     title_ja: str
     summary_ja: str
     category: Category
+    region: Region = "international"
     relevance_score: float = Field(ge=0.0, le=1.0)
     url: str
     published_date: Optional[str] = None
     curation_reasoning: str = ""
-    drugs: list[DrugInfo] = Field(default_factory=list, description="記事に含まれる薬品リスト")
 
 
 class CurationBatchResult(BaseModel):

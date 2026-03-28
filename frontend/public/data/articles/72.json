@@ -1,0 +1,16 @@
+{
+  "id": 72,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/eczema",
+  "source_id": "fc05d85578df0ef4",
+  "original_title": "Beware of Oleic Acid",
+  "title_ja": "オレイン酸に気をつけて！",
+  "summary_ja": "多くのスキンケア製品に含まれるオレイン酸が、肌の敏感な人には炎症を起こす可能性があることがわかりました。特にシアバターや牛脂などを使用すると、初めは良いが後に症状が悪化することがありました。オレイン酸は肌への浸透を助けるため、逆に肌のバリアを破壊することもあるのです。魚鱗癬の方でも、肌に合った保湿剤を選ぶことが大切です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1ruwr4y/beware_of_oleic_acid/",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "オレイン酸が肌に合わない場合があり、特に魚鱗癬の方は注意が必要です。肌に優しい製品を選ぶ参考になります。",
+  "drugs_json": "[{\"drug_name\": \"シアバター（Shea Butter）\", \"ingredients\": \"シアバター\", \"description\": \"保湿効果を持つ天然成分ですが、肌の敏感な人には合わないことがあります。\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

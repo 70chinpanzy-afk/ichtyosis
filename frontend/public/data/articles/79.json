@@ -1,0 +1,16 @@
+{
+  "id": 79,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/eczema",
+  "source_id": "7293e3d8e41ee3ca",
+  "original_title": "What helped my flare up this winter",
+  "title_ja": "冬の悪化を和らげた方法",
+  "summary_ja": "冬の乾燥によるアトピーの悪化を改善するため、セラミドを含む保湿クリームとワセリンを使ったという体験が紹介されています。セラミドは皮膚を守る役割を持っており、使用後2日間で症状が改善したといいます。この情報は、保湿剤選びに悩む患者さんに具体的な製品名を通じて有用なアドバイスを提供します。セラミドが含まれる製品は皮膚のバリアを強化し、乾燥を防ぎます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/eczema/comments/1rwqeh7/what_helped_my_flare_up_this_winter/",
+  "published_date": "2026-03-18",
+  "curation_reasoning": "特定の製品を使った改善の具体例を示しており、他の患者さんにとって参考になります。",
+  "drugs_json": "[{\"drug_name\": \"COSRX セラミドスキンバリアモイスチャライザー\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守るバリアを強化し、乾燥を防ぐ保湿剤。\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

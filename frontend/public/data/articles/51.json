@@ -1,0 +1,16 @@
+{
+  "id": 51,
+  "digest_date": "2026-03-19",
+  "source": "reddit:r/SkincareAddiction",
+  "source_id": "40d39b0a32f7119e",
+  "original_title": "Battle of the Soothing Oat Serums! [Product Question]",
+  "title_ja": "穏やかなオーツセラムの選び方",
+  "summary_ja": "この投稿は、肌を落ち着かせる成分を含んだオーツセラムについての情報を提供しています。肌の赤みや乾燥を和らげるために、アメリカで入手可能なセラムの選択肢を紹介しています。価格や成分の違いが説明されており、グリセリンやヒアルロン酸、アロエなどの成分が肌を潤し、炎症を抑える効果があります。魚鱗癬紅皮症の方にとっては、敏感な肌でも使える保湿剤を選ぶヒントになります。家でのスキンケアを改善し、肌の健康を守る参考にしてください。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rxsepx/battle_of_the_soothing_oat_serums_product_question/",
+  "published_date": "2026-03-19",
+  "curation_reasoning": "穏やかなオーツセラムは魚鱗癬紅皮症の敏感な肌にも適している可能性が高い。利用できるセラムとその成分が詳しく説明されているため、患者さんの自宅でのスキンケア選択に役立つ情報となっています。",
+  "drugs_json": "[{\"drug_name\": \"Aveeno\", \"ingredients\": \"オートミール（oatmeal）\", \"description\": \"オーツを成分として含む、肌を穏やかにするセラム\"}, {\"drug_name\": \"First Aid Beauty\", \"ingredients\": \"コロイド状オートミール（colloidal oatmeal）\", \"description\": \"コロイド状のオートミールを含むセラムで、肌の炎症を和らげる効果がある\"}]",
+  "created_at": "2026-03-20 01:39:35"
+}

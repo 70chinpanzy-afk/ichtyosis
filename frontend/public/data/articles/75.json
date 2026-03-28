@@ -1,0 +1,16 @@
+{
+  "id": 75,
+  "digest_date": "2026-03-20",
+  "source": "reddit:r/SkincareAddiction",
+  "source_id": "de6690cac3f92a0e",
+  "original_title": "Best tret routine? [Routine Help]",
+  "title_ja": "最適なトレチノインの使い方を教えてください",
+  "summary_ja": "この記事では、トレチノインという薬の使用方法について話されています。トレチノインは、皮膚の代謝を良くし、皮膚の生まれ変わりを促す薬です。使用の際には保湿が重要で、乾燥を防ぐために他の保湿剤と組み合わせて使う方法が提案されています。魚鱗癬の方も、適切な保湿と組み合わせたトレチノインの使用で、皮膚のコンディションを改善する手助けになるかもしれません。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ruy4hc/best_tret_routine_routine_help/",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "トレチノインと保湿の適切な組み合わせは、魚鱗癬にも役立つ可能性があるため重要です。",
+  "drugs_json": "[{\"drug_name\": \"トレチノイン（Tretinoin）\", \"ingredients\": \"トレチノイン\", \"description\": \"皮膚の代謝を高め、肌の生まれ変わりを促進する薬\"}]",
+  "created_at": "2026-03-20 01:59:26"
+}

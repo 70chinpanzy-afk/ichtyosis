@@ -1,0 +1,16 @@
+{
+  "id": 61,
+  "digest_date": "2026-03-20",
+  "source": "pubmed",
+  "source_id": "41849564",
+  "original_title": "Social Media Listening in Congenital Ichthyosis: Quantitative and Qualitative Findings.",
+  "title_ja": "魚鱗癬に関するSNS投稿の分析: 患者の悩みとニーズ",
+  "summary_ja": "この研究は、ヨーロッパの魚鱗癬の患者さんやその介護者がSNSに投稿した内容を分析しました。主に若い女性たちが、衛生ケアや病気の心理的影響、治療の課題について話し合っています。これにより、患者さんが抱える問題やニーズが明らかになりました。魚鱗癬の患者さんにとっては、この情報が生活の質を向上させるためのヒントとなる可能性があります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41849564/",
+  "published_date": "2026 Mar 18",
+  "curation_reasoning": "SNSの投稿から患者さんが実際に感じている問題点を知ることで、より効果的なケア方法を見つける手がかりになります。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-20 01:59:26"
+}
