@@ -7,9 +7,9 @@ import {
   Article,
   Category,
   CATEGORY_CONFIG,
-  DrugInfo,
   getArticle,
-  parseDrugs,
+  getArticleRegion,
+  REGION_CONFIG,
 } from "@/lib/api";
 
 export default function ArticleDetailPage() {
@@ -58,7 +58,8 @@ export default function ArticleDetailPage() {
 
   const category = article.category as Category;
   const config = category ? CATEGORY_CONFIG[category] : null;
-  const drugs = parseDrugs(article);
+  const region = getArticleRegion(article);
+  const regionConfig = REGION_CONFIG[region];
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -78,21 +79,24 @@ export default function ArticleDetailPage() {
         <span className="text-slate-700">記事詳細</span>
       </nav>
 
-      {/* Category Badge */}
-      {config && (
-        <div className="flex items-center gap-2 mb-3">
+      {/* Category & Region Badge */}
+      <div className="flex items-center gap-2 mb-3 flex-wrap">
+        {config && (
           <span
             className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border ${config.bgColor} ${config.color}`}
           >
             {config.emoji} {category}
           </span>
-          {article.relevance_score != null && (
-            <span className="text-sm text-slate-500">
-              関連度: {Math.round(article.relevance_score * 100)}%
-            </span>
-          )}
-        </div>
-      )}
+        )}
+        <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border bg-slate-50 border-slate-200 text-slate-600">
+          {regionConfig.emoji} {regionConfig.label}
+        </span>
+        {article.relevance_score != null && (
+          <span className="text-sm text-slate-500">
+            重要度: {Math.round(article.relevance_score * 100)}%
+          </span>
+        )}
+      </div>
 
       {/* Title */}
       <h1 className="text-2xl font-bold text-slate-800 leading-snug mb-2">
@@ -118,7 +122,7 @@ export default function ArticleDetailPage() {
       {article.summary_ja && (
         <div className="mb-6">
           <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            日本語要約
+            要約
           </h2>
           <div className="bg-white rounded-lg border border-slate-200 p-5">
             <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
@@ -128,40 +132,11 @@ export default function ArticleDetailPage() {
         </div>
       )}
 
-      {/* 薬品・薬剤リスト */}
-      {drugs.length > 0 && (
-        <div className="mb-6">
-          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            {"\u{1f48a}"} 関連する薬品・薬剤
-          </h2>
-          <div className="bg-teal-50 rounded-lg border border-teal-200 divide-y divide-teal-100">
-            {drugs.map((drug: DrugInfo, i: number) => (
-              <div key={i} className="p-4">
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="font-semibold text-teal-800">
-                    {drug.drug_name}
-                  </span>
-                </div>
-                {drug.ingredients && (
-                  <p className="text-sm text-teal-700 mb-1">
-                    <span className="font-medium">有効成分：</span>
-                    {drug.ingredients}
-                  </p>
-                )}
-                {drug.description && (
-                  <p className="text-sm text-teal-600">{drug.description}</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {/* Curation Reasoning */}
       {article.curation_reasoning && (
         <div className="mb-6">
           <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            キュレーション理由
+            営業への示唆
           </h2>
           <p className="text-sm text-slate-600 bg-slate-100 rounded-lg p-4">
             {article.curation_reasoning}
@@ -200,7 +175,7 @@ export default function ArticleDetailPage() {
       <div className="mt-10 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-800">
         <p className="font-medium mb-1">ご注意</p>
         <p>
-          この情報はAIによるキュレーションです。治療に関する判断は必ず専門医にご相談ください。
+          この情報はAIによるキュレーションです。投資判断や重要な意思決定の際は必ず原文をご確認ください。
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-"""Google News RSSによるニュース記事検索"""
+"""Google News RSSによるニュース記事検索（営業向け一般時事ニュース）"""
 
 import hashlib
 import logging
@@ -11,21 +11,36 @@ from ichthyosis_curator.schemas import RawArticle
 
 logger = logging.getLogger(__name__)
 
-GOOGLE_NEWS_FEEDS = [
-    # 魚鱗癬 直接（英語）
-    "https://news.google.com/rss/search?q=ichthyosis+treatment&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=ichthyosis+erythroderma&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=ichthyosis+gene+therapy&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=orphan+drug+ichthyosis&hl=en&gl=US&ceid=US:en",
-    # 類似疾患（英語）
-    "https://news.google.com/rss/search?q=atopic+dermatitis+skin+barrier+treatment&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=JAK+inhibitor+skin+disease&hl=en&gl=US&ceid=US:en",
-    "https://news.google.com/rss/search?q=rare+skin+disease+drug&hl=en&gl=US&ceid=US:en",
-    # 日本語
-    "https://news.google.com/rss/search?q=%E9%AD%9A%E9%B1%97%E7%99%AC+%E6%B2%BB%E7%99%82&hl=ja&gl=JP&ceid=JP:ja",
-    "https://news.google.com/rss/search?q=%E9%AD%9A%E9%B1%97%E7%99%AC+%E6%96%B0%E8%96%AC&hl=ja&gl=JP&ceid=JP:ja",
-    "https://news.google.com/rss/search?q=%E7%B4%85%E7%9A%AE%E7%97%87&hl=ja&gl=JP&ceid=JP:ja",
-    "https://news.google.com/rss/search?q=%E3%82%A2%E3%83%88%E3%83%94%E3%83%BC+%E7%9A%AE%E8%86%9A%E3%83%90%E3%83%AA%E3%82%A2+%E6%96%B0%E8%96%AC&hl=ja&gl=JP&ceid=JP:ja",
+# 日本ニュース（日本語）
+JAPAN_NEWS_FEEDS = [
+    # 経済・ビジネス
+    "https://news.google.com/rss/search?q=%E7%B5%8C%E6%B8%88+%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9&hl=ja&gl=JP&ceid=JP:ja",
+    "https://news.google.com/rss/search?q=%E6%A0%AA%E4%BE%A1+%E5%B8%82%E5%A0%B4+%E6%99%AF%E6%B0%97&hl=ja&gl=JP&ceid=JP:ja",
+    # 政治・社会
+    "https://news.google.com/rss/search?q=%E6%94%BF%E6%B2%BB+%E6%94%BF%E7%AD%96+%E6%B3%95%E6%94%B9%E6%AD%A3&hl=ja&gl=JP&ceid=JP:ja",
+    "https://news.google.com/rss/search?q=%E7%A4%BE%E4%BC%9A+%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9+%E8%A9%B1%E9%A1%8C&hl=ja&gl=JP&ceid=JP:ja",
+    # テクノロジー
+    "https://news.google.com/rss/search?q=AI+DX+%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC&hl=ja&gl=JP&ceid=JP:ja",
+    # スポーツ・文化
+    "https://news.google.com/rss/search?q=%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84+%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%A1&hl=ja&gl=JP&ceid=JP:ja",
+    # トップニュース（日本）
+    "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja",
+]
+
+# 海外ニュース（英語）
+INTERNATIONAL_NEWS_FEEDS = [
+    # Business & Economy
+    "https://news.google.com/rss/search?q=business+economy+market&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=stock+market+global+economy&hl=en&gl=US&ceid=US:en",
+    # Technology
+    "https://news.google.com/rss/search?q=AI+technology+innovation&hl=en&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=SaaS+startup+digital+transformation&hl=en&gl=US&ceid=US:en",
+    # World / Politics
+    "https://news.google.com/rss/search?q=world+politics+geopolitics&hl=en&gl=US&ceid=US:en",
+    # Sports & Culture
+    "https://news.google.com/rss/search?q=sports+entertainment+culture&hl=en&gl=US&ceid=US:en",
+    # Top stories (US)
+    "https://news.google.com/rss?hl=en&gl=US&ceid=US:en",
 ]
 
 
@@ -47,12 +62,16 @@ def _is_recent(entry, days_back: int) -> bool:
         return True
 
 
-def fetch_google_news(days_back: int = 7) -> list[RawArticle]:
-    """Google News RSSからニュース記事を取得"""
+def _fetch_feeds(
+    feeds: list[str],
+    region: str,
+    days_back: int,
+) -> list[RawArticle]:
+    """フィードリストから記事を取得"""
     articles: list[RawArticle] = []
     seen_urls: set[str] = set()
 
-    for feed_url in GOOGLE_NEWS_FEEDS:
+    for feed_url in feeds:
         try:
             feed = feedparser.parse(feed_url)
 
@@ -96,6 +115,7 @@ def fetch_google_news(days_back: int = 7) -> list[RawArticle]:
                         url=url,
                         published_date=pub_date,
                         language=language,
+                        region=region,
                     )
                 )
 
@@ -103,10 +123,27 @@ def fetch_google_news(days_back: int = 7) -> list[RawArticle]:
             logger.warning(f"RSS feed fetch failed for {feed_url[:60]}...: {e}")
             continue
 
-    logger.info(f"Google News RSS: {len(articles)} articles found")
     return articles
 
 
-def get_news_articles(days_back: int = 7) -> list[RawArticle]:
-    """ニュース記事を取得"""
-    return fetch_google_news(days_back)
+def fetch_japan_news(days_back: int = 3) -> list[RawArticle]:
+    """日本ニュースを取得"""
+    articles = _fetch_feeds(JAPAN_NEWS_FEEDS, "japan", days_back)
+    logger.info(f"Japan News RSS: {len(articles)} articles found")
+    return articles
+
+
+def fetch_international_news(days_back: int = 3) -> list[RawArticle]:
+    """海外ニュースを取得"""
+    articles = _fetch_feeds(INTERNATIONAL_NEWS_FEEDS, "international", days_back)
+    logger.info(f"International News RSS: {len(articles)} articles found")
+    return articles
+
+
+def get_news_articles(days_back: int = 3) -> list[RawArticle]:
+    """日本・海外のニュース記事をまとめて取得"""
+    japan = fetch_japan_news(days_back)
+    international = fetch_international_news(days_back)
+    all_articles = japan + international
+    logger.info(f"Total News RSS: {len(all_articles)} articles (Japan: {len(japan)}, International: {len(international)})")
+    return all_articles
