@@ -1,16 +1,16 @@
 {
   "id": 8,
-  "digest_date": "2026-03-29",
-  "source": "google_news:NBC News",
-  "source_id": "686891d156ad1d85",
-  "original_title": "Markets plunge and U.S. oil hits $100 as Trump's ability to reassure Wall Street hits its limit - NBC News",
-  "title_ja": "市場急落、米国の原油は100ドルを突破、トランプの影響力限界か",
-  "summary_ja": "市場が急落し、米国での原油価格が100ドルを突破しています。この状況は、トランプ氏のウォール街への影響力が限界に達したことを示唆しています。営業パーソンは、原油価格の上昇が物流や製造業に及ぼす影響を議論することで、お客様の関心を引き付けられます。",
+  "digest_date": "2026-03-30",
+  "source": "google_news:nippon.com",
+  "source_id": "6b94b664881c6cc5",
+  "original_title": "財務官「そろそろ断固たる措置」＝円安で介入示唆、全方位に照準",
+  "title_ja": "円安介入の可能性示唆",
+  "summary_ja": "日本の財務官が円安に対する介入の可能性を示唆しました。為替レートの急変動に対する政府の警戒感が強まっています。通貨の価値がビジネスや輸出入に与える影響を話題にすることで、お客様の関心を引くことができる可能性があります。",
   "category": "経済・ビジネス",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTklVdzhpWE9vY1U1T2VGbUFOOTRHZmVJVlRhSEtBVVI5dnRoYThTdnczYlJoYzFBMVh6YllfVWtGakNHR0tTaURaZUFuLW5Ja3h5LWl0Q29kbFU1N1ZxcEhkRHpxVUNnQUx2M0tacExNN196bGV4ZUM4ZnJpbU1PbU16OXhwNjlackJydzRB?oc=5",
-  "published_date": "2026-03-27",
-  "curation_reasoning": "原油価格の上昇は、特にエネルギーコストに敏感な業種にとって重要です。商談の際には、この変動が今後のビジネスやコスト構造にどのように影響するかを話題にすると良いでしょう。",
-  "created_at": "2026-03-28 16:17:13"
+  "region": "japan",
+  "relevance_score": 0.85,
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jajMyU2ZwVmxxVmxiMlozTGR4bXM2QUF3UUdGbmY0OVV3YXVjNDd6REVWZWs3RVZaTHNxeGVjT2tXRmpVVjNrazdicWtDWGtpRWU1dGF4dlphQl9o?oc=5",
+  "published_date": "2026-03-30",
+  "curation_reasoning": "円安リスクは輸出入業務に影響を与えるため、広範な関心を惹きます。会話の糸口として活用できます。",
+  "created_at": "2026-03-30 13:21:18"
 }
