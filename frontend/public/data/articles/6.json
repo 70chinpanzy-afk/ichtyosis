@@ -1,16 +1,16 @@
 {
   "id": 6,
   "digest_date": "2026-03-30",
-  "source": "pubmed",
-  "source_id": "41891530",
-  "original_title": "Efficacy and Safety of Topical Delgocitinib for Chronic Hand Eczema: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
-  "title_ja": "手の慢性湿疹に対する新しい塗り薬の安全性と効果を評価",
-  "summary_ja": "この研究では、手の湿疹に対する新しい塗り薬の効果と安全性が調べられました。たくさんの試験結果をまとめた大規模な分析によって、この薬が肌をほぼきれいにすることができることが確認されました。特に、かゆみや痛みの改善が著しいことが報告されています。これは魚鱗癬のような皮膚症状を持つ人にも応用できる可能性があり、患者さんにとっては期待が持てる情報です。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41891530/",
-  "published_date": "2026-04",
-  "curation_reasoning": "デュルゴシチニブが慢性湿疹に有効であり、魚鱗癬症にも応用できる可能性があるため、患者に有用。",
-  "drugs_json": "[{\"drug_name\": \"デュルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デュルゴシチニブ\", \"description\": \"免疫系の信号を抑制することで皮膚の炎症を抑える塗り薬\"}]",
-  "created_at": "2026-03-30 22:19:53"
+  "source": "clinical_trials",
+  "source_id": "NCT07477769",
+  "original_title": "Phénotype Lymphocytaire Des Ichtyoses congénitales Autosomiques récessives mutées NIPAL4 (Nipal4-nEDD)",
+  "title_ja": "NIPAL4変異を持つ先天性魚鱗癬のリンパ球フェノタイプ研究",
+  "summary_ja": "この研究は、魚鱗癬の中でも特にNIPAL4という遺伝子に変異がある患者を対象にしたもので、それらの患者の中で稀な皮膚のリンパ腫が併発したケースを報告しています。研究によれば、魚鱗癬を持つ方が他の稀な病気も抱える可能性があり、注意深い観察が必要です。このような合併症の理解は、病気の進行をより良く管理するために重要です。患者さん自身も、皮膚の変化に注意を払うことが勧められます。",
+  "category": "研究論文",
+  "relevance_score": 0.6,
+  "url": "https://clinicaltrials.gov/study/NCT07477769",
+  "published_date": "2026-03-17",
+  "curation_reasoning": "複数の稀な疾患を持つ患者に関する知見を通して、魚鱗癬の進行管理に役立つ可能性があるため、研究段階の情報として重要です。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-30 22:41:00"
 }

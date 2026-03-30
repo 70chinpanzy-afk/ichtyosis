@@ -1,16 +1,16 @@
 {
   "id": 7,
   "digest_date": "2026-03-30",
-  "source": "google_news:CBS News",
-  "source_id": "68eb244991dbf61c",
-  "original_title": "Live Updates: Trump renews threat to Iran's power plants as war sends oil prices soaring again - CBS News",
-  "title_ja": "トランプ氏、イランの発電所への脅威を再燃",
-  "summary_ja": "トランプ元大統領は、イランの発電所を攻撃する可能性があると再び警告しました。この発言を受けて、石油価格が急上昇しています。エネルギー市場の不安定さが増し、経済への影響が懸念されています。営業パーソンにとって、この話題は、特にエネルギー業界や価格変動に関連する商談で使える内容です。",
-  "category": "国際",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaW42THRaWHdQTnN0aVJza1RvX1ZXanNtUFRkMDc2MVdyd0h5LU1qY0RDSEtuOHhzdUdPdC1WalVTb1diS1RaU2ZnYXVZNGVLNC0zaXRnZUd3YnhVNG1uM3k5TGlpcHNhWFBVeHNocmhBOUw2aGN6Y1VGckZCSXFCajFPRVI5NExlSUhlXzVGbnA1WkVxYm90UWJyeWZxbTBwNlQ2bWV4c09sOXBxZjhKRtIBtgFBVV95cUxOS0VRaXBTc1VLRUJjbllVUkN1V0lMclVOUFYybWRMMmNDMDQtQk8zWW9XTmJsUW11SnZnOG12RnlzSW9rVENGWFBoTVoyYjdOZ0cxUnZkU3c3NDFXR0pLcnd0UmRBaG1YVWVpalIzdEdYeFd0LVk3SG5QMk5rQ1NwRFpFRmhIak90ME9XQzZZY1pwczFCTWRXUC11M1dRV1NPRk40OEx4WGtLTW9tMHhxUzlFeTM0Zw?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "原油価格の大幅な変動は、エネルギー関連のビジネスの商談や業績に直接影響するため、この情報は非常に重要です。",
-  "created_at": "2026-03-30 14:34:15"
+  "source": "clinical_trials",
+  "source_id": "NCT05047354",
+  "original_title": "Natural History Investigation Into Biochemical and Phenotypical Aspects of Smith-Lemli-Opitz Syndrome and Related Disorders of Cholesterol Metabolism",
+  "title_ja": "スミス・レンリ・オピッツ症候群の研究",
+  "summary_ja": "スミス・レンリ・オピッツ症候群（SLOS）は、遺伝子の問題でコレステロールの生産がうまくいかない病気で、発達の遅れや生まれつきの体の問題を引き起こします。完全な治療法はありませんが、この研究では病気の原因を深く理解して、将来的な治療の改善に役立てようとしています。この病気のメカニズムを知ることは、魚鱗癬のような遺伝子が関与する病気の解明にもつながるかもしれません。",
+  "category": "研究論文",
+  "relevance_score": 0.6,
+  "url": "https://clinicaltrials.gov/study/NCT05047354",
+  "published_date": "2026-03-02",
+  "curation_reasoning": "コレステロール代謝の問題を研究することで、魚鱗癬を含む他の遺伝的皮膚疾患におけるメカニズム理解に貢献できるためです。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-30 22:41:00"
 }
