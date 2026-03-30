@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-03-30",
-  "source": "google_news:Reuters",
-  "source_id": "86de9df965d7adbd",
-  "original_title": "Stocks fall, oil prices rise on darkening economic outlook from Middle East war - Reuters",
-  "title_ja": "中東の戦争で経済見通し悪化、株価下落と石油価格上昇",
-  "summary_ja": "中東の紛争が経済見通しを暗くする中、株価が下落し、石油価格が上昇しています。この状況は、世界経済に深刻な影響を及ぼす可能性があり、多くの企業が今後の戦略を再考しています。商談では、この紛争が将来的にもたらすリスクや、企業としての対策が話題になるでしょう。",
-  "category": "国際",
-  "region": "international",
+  "source": "google_news:日本経済新聞",
+  "source_id": "3ce3639ee58ca731",
+  "original_title": "日本車8社の2月世界生産、2カ月連続減 日産は14%マイナス - 日本経済新聞",
+  "title_ja": "日本車の世界生産が2カ月連続で減少",
+  "summary_ja": "2026年2月、日本の主要自動車メーカー8社の世界生産が2カ月連続で減少し、特に日産は14%のマイナスを記録しました。これは新型車への移行や供給チェーンの問題が影響しています。自動車業界関係者との商談では、このデータが業界トレンドの理解を深める助けとなるでしょう。",
+  "category": "経済・ビジネス",
+  "region": "japan",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMC05b2dRM21tR1hDUUgzWEx0aUZKMkgteDBFUDhEcTV4ZVlkOW1Wc2RXOTZ2dzBBTW9jcWdCeVBGdl90QURFTmxiall3M1RWckcxVkZVSDV1alMyR1NfSDN2ekZPTnlLbExIX0VoZkptMkZlMzBvNC16RnhMYjZmNEVvQUxPeDZq?oc=5",
-  "published_date": "2026-03-27",
-  "curation_reasoning": "国際情勢とその影響についての深い理解は、商談でのリスク管理についての議論を促進します。",
-  "created_at": "2026-03-30 13:55:08"
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LQVQ0Zi15ODZnaVZVeTZEZEk2amVlSGNybUduQ1NhdEQ0SGNNUk53QkFwcktwOHE3SmFfSWVPMUpsNG96dFBNdlRScFp4S1JRaWdNNlVURDBiaW5MUkMtVkNSaFlPOHE2Qnp3cw?oc=5",
+  "published_date": "2026-03-30",
+  "curation_reasoning": "自動車業界は多くの人に関係するため、業界の動向に関する知識を持つことで、幅広い顧客との会話を促進できます。",
+  "created_at": "2026-03-30 14:14:34"
 }

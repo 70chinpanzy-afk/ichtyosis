@@ -1,16 +1,16 @@
 {
   "id": 4,
   "digest_date": "2026-03-30",
-  "source": "google_news:Investing.com Australia",
-  "source_id": "aa37e81880d8a835",
-  "original_title": "As US Dollar Index Breaks the 100 Mark, the Global Economy Faces a New Stress Test - Investing.com Australia",
-  "title_ja": "米ドル指数が100を突破、グローバル経済の新たな試練",
-  "summary_ja": "米ドル指数が100を突破し、グローバル経済に新たな試練が訪れています。この変動は国際貿易に影響を与える可能性があり、新興国市場にも余波が広がると予測されています。営業の現場では、為替変動がもたらすビジネスへの影響や顧客との契約条件の再評価について話題にすることで、顧客の関心を引くことができます。",
-  "category": "経済・ビジネス",
+  "source": "google_news:The Washington Post",
+  "source_id": "68358b58d3f53942",
+  "original_title": "Financial markets fall to new 2026 low as oil rises again - The Washington Post",
+  "title_ja": "金融市場が再び低下、原油価格は上昇中",
+  "summary_ja": "2026年に入り、金融市場がさらに下落し続けており、同時に原油価格が上昇しています。特にエネルギー関連のコスト上昇が経済全体に影響を与えている状態です。この状況を踏まえ、クライアントとエネルギー価格の動向について議論することで、ビジネス上のリスク管理の話題に発展させることが可能です。",
+  "category": "国際",
   "region": "international",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTUNkdUFZd0JtYUJVOHNuRmhURXZtcVVHWnl1R0o0MTM3Z3lyLWpQM3JHNHo4QUpMM0llakdSVDBBQXVFOVlSOWdFbUlhT0NxM3IzQ1YxNDdWbmtpeGhBLWp2VGNBd0x3RF8zdktDeXdWV1BhWEM1a1FGWGE1c1I2ZGpFTmcyUmt2ZkZoZlEybWpielJJUExVODlVWkUxdUk4R0ZKdUVCV05nbnJTOW9NTFU2ZFBxaDdjRGc5eXJNLS1WeGs?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "為替の変動は多くの業界に影響を与えるため、商談や顧客との会話で幅広く取り上げることができます。",
-  "created_at": "2026-03-30 13:55:08"
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXdyUHdLUjIySnhLSUxDMDVScnoxRFRvbnYwYldRb0xiR2VZdUhmOHdQZXZnZGt2ckRnX2FpQlNjdXgteWN2ZVdfaXlieERaT1M5Q1B5OFZWUXM5SWR1OVYxV3pyNzFaeEFObmFfU0NjcURvWWMyRWpBQllkRWlxS0FaZ29OUnRLb0t2LTJRQkQ5eXc?oc=5",
+  "published_date": "2026-03-28",
+  "curation_reasoning": "原油価格の上昇は業種を問わず、企業活動全般に大きな影響を与えるため、商談時の重要な話題となります。",
+  "created_at": "2026-03-30 14:14:34"
 }

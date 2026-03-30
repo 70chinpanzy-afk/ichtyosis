@@ -1,16 +1,16 @@
 {
   "id": 2,
   "digest_date": "2026-03-30",
-  "source": "google_news:Bloomberg.com",
-  "source_id": "f6ad2889d4c35dd9",
-  "original_title": "【日本市況】株急落、原油高で景気懸念－介入警戒し159円台に円反発 - Bloomberg.com",
-  "title_ja": "株急落、原油高で景気懸念",
-  "summary_ja": "日本の株式市場で急落が見られ、原油価格の高騰が景気への懸念を高めています。これにより円は一時159円台で反発しました。インフレーションの影響を受け、企業のコスト増が予想されるため、営業パーソンは取引先のコスト管理やリスク対応についての会話の切り口に役立てられます。",
-  "category": "経済・ビジネス",
+  "source": "google_news:毎日新聞",
+  "source_id": "20d27ec8fad25be8",
+  "original_title": "読む政治：高市首相の「独り相撲」 こだわり続けた「年度内」予算成立断念 - 毎日新聞",
+  "title_ja": "高市首相が予算成立断念",
+  "summary_ja": "高市首相が2025年度予算の年度内成立を断念しました。予算を巡る政争が長引き、野党の抵抗も続いています。政府の政策方針や今後の行政運営に影響を与える可能性があります。商談や雑談で、政府の動きや経済政策への影響についての話題を提供できます。",
+  "category": "政治・社会",
   "region": "japan",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50WXE3bENsWFNjTXMzdERfWEI0MHRBWkJSSFdHUFBKN1ltTFQ1eHJROXNfTUU2cUFzNUZvZGp1U29aVThOUmh4cHJWT2dNTzBzcVdPMzhhY2h3THVoWEtHMlo5X3JOeGIyeW9HaW9QMlB4b01ScTA4?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92TmR5S0oxN0IwSzdJUTJXemJwLUE3TmdxZjZHRVdCblZMU0Ywak9ZU2JsNkVsLTJ5ZXd2N1dpQnRiZVhnTmkxMXloRU95cHUzMER6OUs2ZF9VTVVZVXktOTBSOFZmejhB?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "市場の動きは営業パーソンにとって重要な商談材料となり得ます。クライアントのリスク管理や戦略について話し合う際に役立つ情報です。",
-  "created_at": "2026-03-30 13:55:08"
+  "curation_reasoning": "政策の変更や政治情勢の変動は、関連業界のビジネスチャンスやリスクに影響するため、注目すべきです。",
+  "created_at": "2026-03-30 14:14:34"
 }

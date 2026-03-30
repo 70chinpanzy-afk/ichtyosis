@@ -1,16 +1,16 @@
 {
   "id": 7,
   "digest_date": "2026-03-30",
-  "source": "google_news:nippon.com",
-  "source_id": "aaa3274594c6093d",
-  "original_title": "北海道電力、1千億円調達へ AI、ラピダスで需要増 - nippon.com",
-  "title_ja": "北海道電力、1千億円調達へ AI活用で需要増",
-  "summary_ja": "北海道電力はAI技術の進展とラピダスプラントの運用により電力需要が高まることを受け、1千億円を調達する方針です。これにより供給能力を強化し、今後の需要増に対応します。AIを活用した効果的な電力供給は、持続可能なエネルギー戦略の一環として注目されています。営業パーソンはエネルギー産業の動向として注目し、自社の省エネ提案の際に話題にできます。",
-  "category": "経済・ビジネス",
-  "region": "japan",
-  "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTYjlHV1pMal9wQlN5WVVRaEZUcEhacUdWRndxbTJoTkVlN0J5SXQxTUpNM1ppdXNJOGxYd0pReUVRb1RacmZwZktOZGNjZTR6OWRhbGJXS2JncHpBVm1xQVV1TQ?oc=5",
+  "source": "google_news:BBC",
+  "source_id": "1b0d9aced9320a77",
+  "original_title": "Trump says he is considering seizing Iran's Kharg Island, but deal could be made 'very quickly' - BBC",
+  "title_ja": "トランプ氏、イランのハルグ島の占領を検討",
+  "summary_ja": "トランプ氏がイランのハルグ島の占領を検討していると発言しました。しかし、交渉による早期の解決も可能と強調しています。これはイランとの緊張状態を引き起こす可能性があり、国際的な政治情勢に影響を与えると考えられます。営業トークにおいては、地政学的リスクや石油市場の変動についての話題が有効です。",
+  "category": "国際",
+  "region": "international",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "エネルギー業界の動向として重要であり、省エネに関する顧客との商談の際に有用な情報です。",
-  "created_at": "2026-03-30 13:55:08"
+  "curation_reasoning": "大規模な地政学的動きであり、ビジネスリスクやマーケット動向を考える上で重要な話題です。",
+  "created_at": "2026-03-30 14:14:34"
 }

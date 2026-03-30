@@ -1,16 +1,16 @@
 {
   "id": 11,
   "digest_date": "2026-03-30",
-  "source": "google_news:Yahoo!ニュース",
-  "source_id": "6f08629a06f48fdf",
-  "original_title": "【速報】トランプ大統領「ホルムズ海峡が開放されなければ壊滅させる」と警告 イランとの協議には「大きな進展」 - Yahoo!ニュース",
-  "title_ja": "トランプ大統領、ホルムズ海峡問題で警告",
-  "summary_ja": "トランプ大統領は、ホルムズ海峡が開放されなければ壊滅させると警告しました。同時に、イランとの協議には大きな進展があるとし、状況の改善を狙っています。エネルギー輸送の要所であるホルムズ海峡の情勢は、国際経済に大きな影響を与えるため、営業の際にはこのトピックを踏まえた会話が効果的です。",
-  "category": "国際",
+  "source": "google_news:OregonLive.com",
+  "source_id": "a4d36c72bbfb2a5e",
+  "original_title": "A formerly low-profile COVID variant is spreading fast. Here’s what to know - OregonLive.com",
+  "title_ja": "新たなCOVID変異株が急速に拡大",
+  "summary_ja": "新たなCOVID-19の変異株が急速に拡大しています。この変異株は従来株と異なる症状を引き起こす可能性があり、各国の対応が求められています。パンデミックの状況が再び変化する可能性があるため、ビジネスへの影響についても考える必要があります。",
+  "category": "政治・社会",
   "region": "international",
-  "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yZFpHQmVoVHJ1Q1NfY1FPM0c3Z3JfdllwRGVGVElMSFc4Q2MzUnpQZFJnMHpOZXJyT1JSTEt3UWk3d0lGNVlicDlWN184dWJHRUJaY2k1Tmx0eTR3NDgwcmdQNHExVUFISUlreHRXTFdRMURFRmQ5eWpqSXloTVU?oc=5",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN0s5X053d3F3SjI0MTRMSk5RZmJLN0FYdWdlMFR2WE9MNl9sSzJQOUh3RUJpTWlpdW1ON2I4VHF6OU9VRGFpQ1dZZzVHNFZHWjVPckRFV0JkS1pGS2JZWm1QT0VObFJ0SkdLZVJaaTZyYklBWWIxWGQwSDRudjltS1ZuRjhCRjgxckNXcFhXblVuSU1OTUtIREFNWE5EMFFSZUZ1TGlPOVQxZHJWVG9iZEtzS0RnWlZzLVlTMNIB0AFBVV95cUxNb1JHRG0taUREdmZXbmtNbjZtVG50NmFpYnpWZEtHMzJ3VDMwR1Rzamkzd1NVVllRdTB5NlRsdFZsYjNpS0k4NzV4T3YwVDZOQndHOXFsWFEwSjluUEN0cTliU2Y1Zmd6UkNJMDZPcUxxQkNicHZjUjBTTmFZLVlPaWVMYmhWYmhEMVRxZ2Fib3pZOHZLMmRmS2VKMzZ2S3pXUUZZWmt6VGppMjBQV2lmWlMwUTB6TmxRWGY1T3h2UlFxYWowVlRnbzVoaXE2SG1y?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "国際情勢に大きな影響を及ぼす可能性があり、エネルギー関連顧客との会話ネタになります。",
-  "created_at": "2026-03-30 13:55:08"
+  "curation_reasoning": "現在のパンデミック対策やビジネス上の予防策を検討するために重要な情報です。",
+  "created_at": "2026-03-30 14:14:34"
 }
