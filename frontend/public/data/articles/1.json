@@ -4,13 +4,13 @@
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "魚鱗癬の新薬TMB-001の大規模試験",
-  "summary_ja": "この試験では、TMB-001という新しい塗り薬が魚鱗癬の症状をどのくらい改善できるかを確認しています。この薬は特に、遺伝性の魚鱗癬（RXLIやARCIと呼ばれるタイプ）に効果が期待されているため、6歳以上の子どもも含めています。もし結果が良ければ、日常的に使える新しい治療法が将来の選択肢として増えるかもしれません。",
+  "title_ja": "RXLIまたはARCI魚鱗癬に対するTMB-001軟膏の効果を評価する第III相試験",
+  "summary_ja": "この大規模な試験は、遺伝的な魚鱗癬（RXLIやARCIと呼ばれるタイプ）の治療に対する新しい外用薬TMB-001の効果を調べています。参加者は、TMB-001またはプラセボと呼ばれる見た目は同じですが中身がない薬を使用し、効果を比較されます。この試験は魚鱗癬の症状を改善することを目指しており、成功すれば多くの患者さんの生活が楽になる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-03-20",
-  "curation_reasoning": "TMB-001は魚鱗癬に対する直接的な新薬であり、患者さんに新しい希望をもたらす可能性があります。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"不明（試験中の化合物）\", \"description\": \"遺伝性魚鱗癬に対する新しい塗り薬\"}]",
-  "created_at": "2026-03-30 22:14:50"
+  "curation_reasoning": "TMB-001は具体的に魚鱗癬の治療に焦点を当てており、直接的な改善が期待できるためです。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001軟膏\", \"ingredients\": \"TMB-001\", \"description\": \"遺伝性魚鱗癬の皮膚症状を改善することを目的とした外用薬\"}]",
+  "created_at": "2026-03-30 22:19:53"
 }
