@@ -10,7 +10,7 @@ from ichthyosis_curator.runner import run_daily_curation
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Sales News Copilot - 営業向けデイリーニュースキュレーター"
+        description="魚鱗癬紅皮症 デイリーニュースキュレーター"
     )
     parser.add_argument(
         "--verbose", action="store_true", help="デバッグログを有効にする"

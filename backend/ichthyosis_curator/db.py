@@ -47,20 +47,20 @@ def init_db(db_path: str) -> None:
                 title_ja TEXT,
                 summary_ja TEXT,
                 category TEXT,
-                region TEXT DEFAULT 'international',
                 relevance_score REAL,
                 url TEXT,
                 published_date TEXT,
                 curation_reasoning TEXT,
+                drugs_json TEXT DEFAULT '[]',
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
 
-        # 既存テーブルにregionカラムがない場合は追加（マイグレーション）
+        # 既存テーブルにdrugs_jsonカラムがない場合は追加（マイグレーション）
         try:
-            cursor.execute("SELECT region FROM curated_articles LIMIT 1")
+            cursor.execute("SELECT drugs_json FROM curated_articles LIMIT 1")
         except sqlite3.OperationalError:
-            cursor.execute("ALTER TABLE curated_articles ADD COLUMN region TEXT DEFAULT 'international'")
+            cursor.execute("ALTER TABLE curated_articles ADD COLUMN drugs_json TEXT DEFAULT '[]'")
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS run_log (
@@ -88,11 +88,6 @@ def init_db(db_path: str) -> None:
         cursor.execute("""
             CREATE INDEX IF NOT EXISTS idx_curated_category
             ON curated_articles(category)
-        """)
-
-        cursor.execute("""
-            CREATE INDEX IF NOT EXISTS idx_curated_region
-            ON curated_articles(region)
         """)
 
 
@@ -133,23 +128,23 @@ def save_curated_article(
     title_ja: str,
     summary_ja: str,
     category: str,
-    region: str,
     relevance_score: float,
     url: str,
     published_date: Optional[str],
     curation_reasoning: str,
+    drugs_json: str = "[]",
 ) -> int:
     with get_db_connection(db_path) as conn:
         cursor = conn.cursor()
         cursor.execute(
             """INSERT INTO curated_articles
             (digest_date, source, source_id, original_title, title_ja, summary_ja,
-             category, region, relevance_score, url, published_date, curation_reasoning)
+             category, relevance_score, url, published_date, curation_reasoning, drugs_json)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 digest_date, source, source_id, original_title, title_ja,
-                summary_ja, category, region, relevance_score, url, published_date,
-                curation_reasoning,
+                summary_ja, category, relevance_score, url, published_date,
+                curation_reasoning, drugs_json,
             ),
         )
         return cursor.lastrowid

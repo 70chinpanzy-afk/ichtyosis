@@ -12,28 +12,26 @@ logger = logging.getLogger(__name__)
 LINE_PUSH_URL = "https://api.line.me/v2/bot/message/push"
 
 CATEGORY_COLORS = {
-    "経済・ビジネス": "#2ECC71",
-    "政治・社会": "#3498DB",
-    "テクノロジー": "#9B59B6",
-    "国際": "#F39C12",
-    "スポーツ・文化": "#E74C3C",
+    "新薬・治療法": "#E74C3C",
+    "研究論文": "#3498DB",
+    "ケア・対処法": "#2ECC71",
+    "関連疾患からの知見": "#9B59B6",
+    "ニュース": "#F39C12",
 }
 
 CATEGORY_EMOJI = {
-    "経済・ビジネス": "\U0001f4b9",
-    "政治・社会": "\U0001f3db\ufe0f",
-    "テクノロジー": "\U0001f4bb",
-    "国際": "\U0001f30d",
-    "スポーツ・文化": "\u26bd",
-}
-
-REGION_EMOJI = {
-    "japan": "\U0001f1ef\U0001f1f5",
-    "international": "\U0001f30d",
+    "新薬・治療法": "\U0001f48a",
+    "研究論文": "\U0001f4c4",
+    "ケア・対処法": "\U0001f9f4",
+    "関連疾患からの知見": "\U0001f517",
+    "ニュース": "\U0001f4f0",
 }
 
 SOURCE_LABELS = {
+    "pubmed": "PubMed",
+    "clinical_trials": "臨床試験",
     "google_news": "ニュース",
+    "reddit": "Reddit",
 }
 
 
@@ -53,7 +51,6 @@ def _build_article_bubble(
     category = article.category or "ニュース"
     cat_color = CATEGORY_COLORS.get(category, "#95A5A6")
     source_label = _get_source_label(article.source)
-    region_emoji = REGION_EMOJI.get(article.region, "")
 
     # リンクURL
     if frontend_url and db_id:
@@ -76,7 +73,7 @@ def _build_article_bubble(
                     "contents": [
                         {
                             "type": "text",
-                            "text": f"{region_emoji} {category}",
+                            "text": category,
                             "size": "lg",
                             "color": "#FFFFFF",
                         }
@@ -158,7 +155,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
     contents = [
         {
             "type": "text",
-            "text": "Sales News Copilot",
+            "text": "魚鱗癬紅皮症",
             "size": "sm",
             "color": "#AAAAAA",
         },
@@ -293,10 +290,10 @@ def build_flex_messages(
         # 記事なしの場合はテキストメッセージ
         return [{
             "type": "text",
-            "text": f"\U0001f4f0 Sales News Copilot\n"
+            "text": f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース\n"
                     f"\U0001f4c5 {digest.date}\n\n"
                     f"{digest.greeting}\n\n"
-                    f"本日は新しいニュースはありませんでした。\n"
+                    f"本日は新しい関連ニュースはありませんでした。\n"
                     f"明日もチェックを続けます。",
         }]
 
@@ -306,7 +303,7 @@ def build_flex_messages(
     bubbles: list[dict] = []
     bubbles.append(_build_header_bubble(digest))
 
-    # 重要度スコアの高い順に最大10記事
+    # 関連性スコアの高い順に最大10記事
     sorted_articles = sorted(digest.articles, key=lambda a: a.relevance_score, reverse=True)
     for article in sorted_articles[:10]:
         db_id = id_map.get(article.source_id)
@@ -315,7 +312,7 @@ def build_flex_messages(
     # フッター
     bubbles.append(_build_footer_bubble(frontend_url, len(digest.articles)))
 
-    alt_text = f"Sales News Copilot {digest.date}（{len(digest.articles)}件）"
+    alt_text = f"魚鱗癬紅皮症 デイリーニュース {digest.date}（{len(digest.articles)}件）"
     messages.append({
         "type": "flex",
         "altText": alt_text[:400],
@@ -344,7 +341,7 @@ def format_digest_for_line(
                 id_map[article.source_id] = article_db_ids[i]
 
     lines = []
-    lines.append(f"\U0001f4f0 Sales News Copilot")
+    lines.append(f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース")
     lines.append(f"\U0001f4c5 {digest.date}")
     lines.append("")
 
@@ -353,14 +350,14 @@ def format_digest_for_line(
         lines.append("")
 
     if not digest.articles:
-        lines.append("本日は新しいニュースはありませんでした。")
+        lines.append("本日は新しい関連ニュースはありませんでした。")
         return "\n".join(lines)
 
     by_category: dict[str, list[CuratedArticle]] = {}
     for article in digest.articles:
         by_category.setdefault(article.category, []).append(article)
 
-    order = ["経済・ビジネス", "政治・社会", "テクノロジー", "国際", "スポーツ・文化"]
+    order = ["新薬・治療法", "研究論文", "ケア・対処法", "関連疾患からの知見", "ニュース"]
 
     for cat in order:
         articles = by_category.get(cat, [])
