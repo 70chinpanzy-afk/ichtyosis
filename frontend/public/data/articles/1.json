@@ -1,16 +1,16 @@
 {
   "id": 1,
   "digest_date": "2026-03-30",
-  "source": "google_news:nippon.com",
-  "source_id": "ec036e13016886f4",
-  "original_title": "東京株、一時５万１０００円割れ＝イラン情勢の不透明感で全面安 - nippon.com",
-  "title_ja": "東京株価、一時5万1000円割れ、イラン情勢の影響",
-  "summary_ja": "東京の株式市場で株価が一時5万1000円を下回りました。これはイラン情勢の不透明感が市場全体に影響を及ぼしたためです。地政学的な緊張が投資家の心理に与える影響は大きく、今後も変動が予想されます。リスク管理や海外展開の話題として、商談の場で触れる価値があります。",
-  "category": "経済・ビジネス",
-  "region": "japan",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ac1lYTDJUQ0pyVm54dTZkdUJrMWIxZ2FUaDhSWjloVGJ5QTlhcHkySktEUXFzOUJVZ0R4UEdXUU1ZWFY1a092bmtSN0JXVWtLY3ptTkcxbmpDQ20y?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "市場動向に敏感なお客様にとって重要なニュースです。",
-  "created_at": "2026-03-30 14:34:15"
+  "source": "clinical_trials",
+  "source_id": "NCT05295732",
+  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+  "title_ja": "魚鱗癬の治療薬TMB-001の大規模試験",
+  "summary_ja": "この研究は、魚鱗癬という皮膚に亀裂ができやすい病気の治療薬TMB-001の安全性と効果を確認するための最終段階の大規模な試験です。対象は6歳以上の患者様です。薬をどれくらい塗ると効果があるか、安全な使用量を確認するための特別な試験も行います。こうした研究により、魚鱗癬治療に新しい選択肢が増える可能性があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 1.0,
+  "url": "https://clinicaltrials.gov/study/NCT05295732",
+  "published_date": "2026-03-20",
+  "curation_reasoning": "TMB-001は魚鱗癬専用の治療薬であり、臨床試験の結果は直接的に患者さんの新たな治療選択肢になる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"TMB-001\", \"description\": \"魚鱗癬の症状を和らげる塗り薬\"}]",
+  "created_at": "2026-03-30 22:06:50"
 }

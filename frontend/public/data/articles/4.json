@@ -1,16 +1,16 @@
 {
   "id": 4,
   "digest_date": "2026-03-30",
-  "source": "google_news:The Washington Post",
-  "source_id": "68358b58d3f53942",
-  "original_title": "Financial markets fall to new 2026 low as oil rises again - The Washington Post",
-  "title_ja": "金融市場が2026年の新安値、原油価格再び上昇",
-  "summary_ja": "金融市場が2026年の新低値を記録し、原油価格の再上昇が影響を与えています。これにより世界経済全体に不確実性が増し、株式市場にも大きな影響を及ぼしています。営業パーソンは、この状況が顧客の投資判断やビジネス戦略に与える影響を理解することが重要です。特に、エネルギー関連企業や輸送業界の動向を観察し、商談での話題として活用できます。",
-  "category": "経済・ビジネス",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXdyUHdLUjIySnhLSUxDMDVScnoxRFRvbnYwYldRb0xiR2VZdUhmOHdQZXZnZGt2ckRnX2FpQlNjdXgteWN2ZVdfaXlieERaT1M5Q1B5OFZWUXM5SWR1OVYxV3pyNzFaeEFObmFfU0NjcURvWWMyRWpBQllkRWlxS0FaZ29OUnRLb0t2LTJRQkQ5eXc?oc=5",
-  "published_date": "2026-03-28",
-  "curation_reasoning": "金融市場の変動が企業活動や投資環境に直接影響を与えるため、営業活動において重要な話題となります。",
-  "created_at": "2026-03-30 14:34:15"
+  "source": "pubmed",
+  "source_id": "41884384",
+  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent",
+  "title_ja": "アトピー性皮膚炎と魚鱗癬を伴う感染症の併発例",
+  "summary_ja": "この研究は、アトピー性皮膚炎と魚鱗癬（皮膚がしっかり働かず、乾燥して剥がれやすい症状）が合併した女性について報告しています。彼女はまた、頻繁に真菌やウイルスに感染していました。研究は、これらの症状が一緒に現れると、皮膚がより傷つきやすく、感染症にもかかりやすくなる可能性を示しています。魚鱗癬の患者さんにとって、この情報は症状の理解や適切な対処法を考える上で役立つかもしれません。さらなる研究が必要ですが、このケースは日常生活での注意点となるかもしれません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
+  "published_date": "2026",
+  "curation_reasoning": "アトピー性皮膚炎と魚鱗癬を持つ患者への具体的な事例報告であり、両方の疾患を持つ方への注意喚起となる情報だからです。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-30 22:06:50"
 }
