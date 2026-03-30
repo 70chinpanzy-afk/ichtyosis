@@ -1,16 +1,16 @@
 {
   "id": 12,
   "digest_date": "2026-03-30",
-  "source": "google_news:DXマガジン",
-  "source_id": "3c0d38eb7d686f8d",
-  "original_title": "独自データが「AI時代の武器」に。日本IBM、CDO 1,700人調査で描くAI大規模展開への道 - DXマガジン",
-  "title_ja": "IBMがAI展開の道を探る",
-  "summary_ja": "日本IBMが1,700人のCDOを対象に行った調査で、AIの大規模展開における独自データの重要性が示されました。AI導入を進める組織が独自のデータを活用することで、競争優位を確保できるとしています。AIの大規模展開を目指す企業にとって、データ戦略の重要性が再確認される内容です。これを話題に、データ活用の具体的な例や自社導入への意欲を引き出せるかもしれません。",
-  "category": "テクノロジー",
+  "source": "google_news:産経ニュース",
+  "source_id": "9d34081313c63c09",
+  "original_title": "4月からこう変わる 防衛力強化、共同親権、私立高校無償化、食品2500品目値上げ - 産経ニュース",
+  "title_ja": "4月からの主な制度変更",
+  "summary_ja": "4月から日本で複数の制度変更が行われます。防衛力が強化され、共同親権が導入される他、私立高校の授業料が無償化されます。また、食品2500品目の値上げも予定されています。これらの変化は、家庭の生活費や防衛関連のニュースを話題にする際の切り口として。",
+  "category": "政治・社会",
   "region": "japan",
   "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YaEtsZm5EbGREa2FDTGVVcjFPb19xNlVBTzVQWTlQUHR2Z1RzZ0plRTRkVE9NVXUzMUUtNnZ6U1ZsbXVFS3kzUHZyc08?oc=5",
-  "published_date": "2026-03-29",
-  "curation_reasoning": "AI活用の最新トレンドがわかる記事で、業界を問わず注目されやすく、商談の取っ掛かりに適しています。",
-  "created_at": "2026-03-30 13:21:18"
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MNXpQNEdsU3ZHSjJZS0Q4cGp4TzVBMEZsR3Rrd0ZuVHZqSFd0dDNteUxTa2JxX2E3SzZBdzZCalpJRDU0MHFLa0x0QjNIaU1PZ1ZMaXBGLVBPbERTcDFEZUtrM25vS1dEV3JadEJWOWo2dFNUWHc?oc=5",
+  "published_date": "2026-03-30",
+  "curation_reasoning": "新制度の変更は生活やビジネスに直接影響を与えるため、取引先との対話で有意義な情報となります。",
+  "created_at": "2026-03-30 13:55:08"
 }

@@ -1,16 +1,16 @@
 {
   "id": 20,
   "digest_date": "2026-03-30",
-  "source": "google_news:The New York Times",
-  "source_id": "e50468aaef453b58",
-  "original_title": "Can the ‘Dubai Dream’ Survive the War? Residents Say Life Goes On. - The New York Times",
-  "title_ja": "ドバイの生活は戦争を乗り越えるか？住民は日常を続ける",
-  "summary_ja": "ドバイの住民は戦争の影響を受けながらも、日常生活を続けています。戦争がUAEの経済に与える影響が懸念され、アブダビやドバイの市場からは1200億ドルが失われました。この状況を共有することで、顧客の国際展開や資産管理に関連する懸念に対応できる機会があります。",
-  "category": "国際",
+  "source": "google_news:Bloomberg.com",
+  "source_id": "6c76354d68f8a1cf",
+  "original_title": "Government Bonds Everywhere Are Rallying on Slowdown Concerns - Bloomberg.com",
+  "title_ja": "世界中で国債が景気減速懸念から買われる",
+  "summary_ja": "世界各国の国債が景気減速懸念から買われており、投資家たちが安全資産に資金を移動させていると報じられています。この動きは株式や他のリスク資産の価格にダイレクトな影響を与えています。金融商品の変動は多くの業界に影響し、経済動向や投資戦略についての商談を豊かにする話題と言えます。特に金融関連の顧客とは、金利動向に基づく商品提案が可能です。",
+  "category": "経済・ビジネス",
   "region": "international",
   "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUlUzckxocTJodEpnNnN6b2FSREJsSzVSTktxTmlkUy1HZS1JV0xUY2JGWkJJajhqNmQ2RFlzb3k5Y3dDbzBjRzdRWS1fb0RhTlp1ZEdYMWllOHZHblM4NWtSNWNtaUc1QTc5bEZvTnZSQnlKbnlfd1B2MGJGdl9MT1hCWQ?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX3AzclZWYUFDTGpLTnluaGo2MjBhQnk4bUU0YkEtcjQ5TS15LWNXZlN0dzU5Q25GMVZmaE1YM0xrb0ZDV1RKcEg2N29aWFRkVG85WGFpck4xenh1aFVGVGZiaXJyY242aTdCeHZpRlJiVDZhalAwZXVISWxhT3JUUmFmS0F1OVVWYktxdloxcy1wQ3FHSjZWOWlCazhmWTcyWUlHVGNwcXBqNDZNUnJMVmJKVHdvZw?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "中東の動静がヨーロッパやアメリカの企業に与える影響を考慮し、国際ビジネスや投資のリスク管理に関する話題として有効です。",
-  "created_at": "2026-03-30 13:21:18"
+  "curation_reasoning": "国債の動向は、景気全体を判断する指標として利用可能であり、金融商品の提案や投資戦略の話題に最適です。",
+  "created_at": "2026-03-30 13:55:08"
 }

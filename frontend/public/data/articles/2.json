@@ -1,16 +1,16 @@
 {
   "id": 2,
   "digest_date": "2026-03-30",
-  "source": "google_news:Reuters",
-  "source_id": "28aa680cd9fa8833",
-  "original_title": "原油先物・為替、この状況続けば断固たる措置必要 照準は全方位＝三村財務官 - Reuters",
-  "title_ja": "財務官、原油先物・為替の対応を示唆",
-  "summary_ja": "日本の財務官は、原油先物や為替の現状が続く場合には強硬な措置が必要と発言しました。中東情勢の影響で円安が進んでおり、市場の不安定さに対する対応が注目されています。経済の変動に対して迅速な対応が必要であることを理解し、商談で関連するリスクを話題にできます。",
+  "source": "google_news:Bloomberg.com",
+  "source_id": "f6ad2889d4c35dd9",
+  "original_title": "【日本市況】株急落、原油高で景気懸念－介入警戒し159円台に円反発 - Bloomberg.com",
+  "title_ja": "株急落、原油高で景気懸念",
+  "summary_ja": "日本の株式市場で急落が見られ、原油価格の高騰が景気への懸念を高めています。これにより円は一時159円台で反発しました。インフレーションの影響を受け、企業のコスト増が予想されるため、営業パーソンは取引先のコスト管理やリスク対応についての会話の切り口に役立てられます。",
   "category": "経済・ビジネス",
   "region": "japan",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUS1sQTUyejlOem51Q1BUYnZoVXFfM0FDUm81dmw3SGt4Q3JGcmNqMGF6bkx0YkFIb2c2MVZZNDVWcmJtSlJrNUdJbXZjblRaemMzdnk5aXB5ZDNaa3pIbXlhVEV5R1ZSeWdua1dJbXFWUkthQ1BLRE52dFNlUkxFZg?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50WXE3bENsWFNjTXMzdERfWEI0MHRBWkJSSFdHUFBKN1ltTFQ1eHJROXNfTUU2cUFzNUZvZGp1U29aVThOUmh4cHJWT2dNTzBzcVdPMzhhY2h3THVoWEtHMlo5X3JOeGIyeW9HaW9QMlB4b01ScTA4?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "日本経済の現況とそれに対する政府の姿勢は、ビジネスに直結する情報であり、商談の際に重視されます。",
-  "created_at": "2026-03-30 13:21:18"
+  "curation_reasoning": "市場の動きは営業パーソンにとって重要な商談材料となり得ます。クライアントのリスク管理や戦略について話し合う際に役立つ情報です。",
+  "created_at": "2026-03-30 13:55:08"
 }

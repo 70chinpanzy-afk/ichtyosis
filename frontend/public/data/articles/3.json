@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-03-30",
-  "source": "google_news:Investing.com Australia",
-  "source_id": "aa37e81880d8a835",
-  "original_title": "As US Dollar Index Breaks the 100 Mark, the Global Economy Faces a New Stress Test - Investing.com Australia",
-  "title_ja": "米ドルインデックスが100を突破、世界経済への新たな試練",
-  "summary_ja": "米ドルインデックスが100の大台を突破しました。これは世界経済に新たな圧力をもたらす可能性があります。為替市場や輸出入のコストに影響を与えるため、国際ビジネスにおいて注視すべきです。顧客との会話で為替リスクに関する相談を受けることが増えるかもしれません。",
+  "source": "google_news:Reuters",
+  "source_id": "86de9df965d7adbd",
+  "original_title": "Stocks fall, oil prices rise on darkening economic outlook from Middle East war - Reuters",
+  "title_ja": "中東の戦争で経済見通し悪化、株価下落と石油価格上昇",
+  "summary_ja": "中東の紛争が経済見通しを暗くする中、株価が下落し、石油価格が上昇しています。この状況は、世界経済に深刻な影響を及ぼす可能性があり、多くの企業が今後の戦略を再考しています。商談では、この紛争が将来的にもたらすリスクや、企業としての対策が話題になるでしょう。",
   "category": "国際",
   "region": "international",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTUNkdUFZd0JtYUJVOHNuRmhURXZtcVVHWnl1R0o0MTM3Z3lyLWpQM3JHNHo4QUpMM0llakdSVDBBQXVFOVlSOWdFbUlhT0NxM3IzQ1YxNDdWbmtpeGhBLWp2VGNBd0x3RF8zdktDeXdWV1BhWEM1a1FGWGE1c1I2ZGpFTmcyUmt2ZkZoZlEybWpielJJUExVODlVWkUxdUk4R0ZKdUVCV05nbnJTOW9NTFU2ZFBxaDdjRGc5eXJNLS1WeGs?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "為替の変動は輸出入や国際ビジネスに直接的な影響を及ぼし、商談でも話題にしやすいです。",
-  "created_at": "2026-03-30 13:21:18"
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMC05b2dRM21tR1hDUUgzWEx0aUZKMkgteDBFUDhEcTV4ZVlkOW1Wc2RXOTZ2dzBBTW9jcWdCeVBGdl90QURFTmxiall3M1RWckcxVkZVSDV1alMyR1NfSDN2ekZPTnlLbExIX0VoZkptMkZlMzBvNC16RnhMYjZmNEVvQUxPeDZq?oc=5",
+  "published_date": "2026-03-27",
+  "curation_reasoning": "国際情勢とその影響についての深い理解は、商談でのリスク管理についての議論を促進します。",
+  "created_at": "2026-03-30 13:55:08"
 }

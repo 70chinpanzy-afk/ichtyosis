@@ -1,16 +1,16 @@
 {
   "id": 6,
   "digest_date": "2026-03-30",
-  "source": "google_news:BBC",
-  "source_id": "1b0d9aced9320a77",
-  "original_title": "Trump says he is considering seizing Iran's Kharg Island, but deal could be made 'very quickly' - BBC",
-  "title_ja": "トランプ氏、イランのハルグ島の掌握を検討中",
-  "summary_ja": "トランプ元大統領は、イランのハルグ島の掌握を検討していると発表しました。同氏によると、交渉次第では迅速に解決する可能性もあるとのことです。地政学リスクが高まる中、エネルギー価格への影響が懸念されます。ビジネスパーソンとしては、市場の不安定性を理解し、顧客とのリスク管理についての会話を深めるきっかけとなるでしょう。",
-  "category": "国際",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
+  "source": "google_news:nippon.com",
+  "source_id": "ec036e13016886f4",
+  "original_title": "東京株、一時５万１０００円割れ＝イラン情勢の不透明感で全面安 - nippon.com",
+  "title_ja": "東京株、一時5万1000円割れ イラン情勢で全面安",
+  "summary_ja": "イランの情勢不透明感を背景に、東京株式市場が一時5万1000円を割り込みました。地政学的リスクの高まりにより、投資家心理に影響を及ぼし、市場全体が下落しています。営業パーソンは、市場動向やリスク管理についての理解を深め、金融商品やリスクヘッジについての商談で顧客をサポートする際に役立てることができます。",
+  "category": "経済・ビジネス",
+  "region": "japan",
+  "relevance_score": 0.85,
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ac1lYTDJUQ0pyVm54dTZkdUJrMWIxZ2FUaDhSWjloVGJ5QTlhcHkySktEUXFzOUJVZ0R4UEdXUU1ZWFY1a092bmtSN0JXVWtLY3ptTkcxbmpDQ20y?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "国際関係とエネルギー市場に大きな影響を与える可能性があり、顧客と政治リスクについての会話を広げる良い機会です。",
-  "created_at": "2026-03-30 13:21:18"
+  "curation_reasoning": "市場変動はビジネス全般に影響を及ぼすため、特に投資関連の商談において重要な情報です。",
+  "created_at": "2026-03-30 13:55:08"
 }
