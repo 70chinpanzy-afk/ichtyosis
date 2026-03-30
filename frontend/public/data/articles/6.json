@@ -1,16 +1,16 @@
 {
   "id": 6,
   "digest_date": "2026-03-30",
-  "source": "google_news:bbc.com",
-  "source_id": "1b0d9aced9320a77",
-  "original_title": "Trump says he is considering seizing Iran's Kharg Island, but deal could be made 'very quickly' - bbc.com",
-  "title_ja": "トランプ氏、イランのカールク島の占拠を検討",
-  "summary_ja": "トランプ氏はイランの重要な石油輸出拠点であるカールク島の占拠を検討していると発言しました。ただし、早急に取引が成立する可能性も示唆しています。中東の緊張が高まり、原油価格に影響を与える可能性があります。営業パーソンとして、原油マーケットの動向を見守りつつ、お客様とのエネルギー関連の商談で話題にできる内容です。",
-  "category": "国際",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "地政学的リスクが高まることで、業種を問わずエネルギーマーケットや政治の話題として顧客との会話の糸口となります。",
-  "created_at": "2026-03-30 14:34:15"
+  "source": "pubmed",
+  "source_id": "41865984",
+  "original_title": "Health care resource utilization in patients with atopic dermatitis according to treatment response: evidence from the BIOBADATOP registry.",
+  "title_ja": "アトピー性皮膚炎の治療効果と医療資源の利用状況に関する研究",
+  "summary_ja": "この研究はアトピー性皮膚炎の患者さんがどのくらい効果的に病気を管理できているかについてのデータを集めました。211人の患者が参加し、12か月後の治療の効果を調査しました。患者のうち35.5%が良好にコントロールされ、46%が中程度、18.5%がコントロール不良のままでした。早期に生物学的薬やJAK阻害薬（炎症を引き起こす信号をブロックする薬）を使用すると、病状が良くなる傾向がありました。この情報は、治療の選択肢を検討する際の参考になります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41865984/",
+  "published_date": "2026 Mar 20",
+  "curation_reasoning": "アトピー性皮膚炎の治療が魚鱗癬の患者さんにも応用できる可能性を示しています。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬\", \"ingredients\": \"JAK阻害薬\", \"description\": \"炎症を引き起こす体内信号をブロックする薬剤\"}]",
+  "created_at": "2026-03-30 22:14:50"
 }

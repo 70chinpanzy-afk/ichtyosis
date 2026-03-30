@@ -1,16 +1,16 @@
 {
   "id": 5,
   "digest_date": "2026-03-30",
-  "source": "google_news:EY",
-  "source_id": "88191e844b254daa",
-  "original_title": "Why India is winning the cloud investment race - EY",
-  "title_ja": "インドがクラウド投資競争で勝利する理由",
-  "summary_ja": "インドがクラウドインフラへの投資で他国を上回る成長を遂げています。これにより、インドはIT関連投資やテクノロジー系スタートアップにおいて優位性を持ち始めています。営業パーソンは、インド市場の成長を背景に、新たなビジネス機会について顧客と議論することができます。",
-  "category": "経済・ビジネス",
-  "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWEpyalA0b0pDaGpKUmtJa21wZENqdGRRUFJ1QVVhYjFVdzJTejlmQ201T2o2a3BXWThxT1pQLUFFemtDN1QyQ194dk10NWF0OWFxanktbEhyWVdhYld1d3AtazUzdXZ1V0h3YjRRaDlNT1R5bWJLYXF5cTVVRzM1SzRHeTVTUXl4a2w4ZlBGcG4zY3NOZ0E?oc=5",
+  "source": "google_news:simplywall.st",
+  "source_id": "06f0c54ff7cf3c4e",
+  "original_title": "Palvella Hire Highlights QTORIN Launch Plans And Deep Rare Skin Focus - simplywall.st",
+  "title_ja": "QTORINローションの発売計画と珍しい皮膚疾患への取り組み",
+  "summary_ja": "この記事では、新しい薬であるQTORINローションの発売計画と、まれな皮膚疾患に対する医薬品開発の最新情報が紹介されています。QTORINは魚鱗癬のようなまれな皮膚疾患にも効果が期待されており、その新薬開発が話題です。これは皮膚の障害に苦しむ患者さんにとって重要なニュースで、今後の治療の選択肢が広がるかもしれません。",
+  "category": "ニュース",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZFgwVkVmQUtYMnhoX2tjVXdLM3Ezd2lZYmxKemhKUmROZnp5Y3ZyUW1KTEJLbndma0ppMDZGU3F4R09TN245MDFkbEZ1ZlJyMnowQlNRbDBob0RjVTZYOUNtWnQxem1MdmxVbWFCRHd3Zk96bEJGSHA5WnBFSUViX0tJUVJQLXM3SHhsX0l3c2tHVXF1QUY0eFg2NldVU0dBREwtbXQzaWNwblhjLWtDSjdWeUtvN3BuUnlRM1B3VlFDeE5salEwV3F5N3dZdzlSdkNtVG8xTENVeWFWQWNyMGhDYnU1bXB1eHZGOEZFU3LSAfABQVVfeXFMTmRYMFZFZkFLWDJ4aF9rY1V3SzNxM3dpWWJsSnpoSlJkTmZ6eWN2clFtSkxCS253ZmtKaTA2RlNxeEdPUzduOTAxZGxGdWZScjJ6MEJTUWwwaG9EY1U2WDlDbVp0MXptTHZsVW1hQkR3d2ZPemxCRkhwOVpwRUlFYl9LSVFSUC1zN0h4bF9Jd3NrR1VxdUFGNHhYNjZXVVNHQURMLW10M2ljcG5YYy1rQ0o3VnlLbzdwblJ5UTNQd1ZRQ3hObGpRMFdxeTd3WXc5UnZDbVRvMUxDVXlhVkFjcjBoQ2J1NW1wdXh2RjhGRVNy?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "クラウドインフラは多くのビジネスで重要な要素であり、そのトレンドを押さえておくことで顧客との会話が広がります。",
-  "created_at": "2026-03-30 14:34:15"
+  "curation_reasoning": "QTORINローションの開発は、魚鱗癬に影響を持つ可能性があり、患者さんの治療選択肢を広げるニュースです。",
+  "drugs_json": "[]",
+  "created_at": "2026-03-30 22:14:50"
 }

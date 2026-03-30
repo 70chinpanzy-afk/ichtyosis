@@ -1,16 +1,16 @@
 {
   "id": 4,
   "digest_date": "2026-03-30",
-  "source": "pubmed",
-  "source_id": "41884384",
-  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent",
-  "title_ja": "アトピー性皮膚炎と魚鱗癬を伴う感染症の併発例",
-  "summary_ja": "この研究は、アトピー性皮膚炎と魚鱗癬（皮膚がしっかり働かず、乾燥して剥がれやすい症状）が合併した女性について報告しています。彼女はまた、頻繁に真菌やウイルスに感染していました。研究は、これらの症状が一緒に現れると、皮膚がより傷つきやすく、感染症にもかかりやすくなる可能性を示しています。魚鱗癬の患者さんにとって、この情報は症状の理解や適切な対処法を考える上で役立つかもしれません。さらなる研究が必要ですが、このケースは日常生活での注意点となるかもしれません。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
-  "published_date": "2026",
-  "curation_reasoning": "アトピー性皮膚炎と魚鱗癬を持つ患者への具体的な事例報告であり、両方の疾患を持つ方への注意喚起となる情報だからです。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-30 22:06:50"
+  "source": "clinical_trials",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "ネザートン症候群に対するQRX003ローションの新しい試験",
+  "summary_ja": "この研究は、皮膚疾患であるネザートン症候群の患者さんを対象に、QRX003ローションという新しい薬の効果と安全性を確認するために行われています。ネザートン症候群は皮膚のバリア機能の問題で、治療に工夫が必要です。この試験では、毎日1回または2回のローション塗布を通じて、皮膚症状の改善を目指しています。もしこのローションが有効であれば、魚鱗癬といった他の皮膚のバリア機能に関連する疾患にも応用できる可能性があります。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "QRX003ローションは、皮膚症状の治療に新しい可能性を示しています。これは魚鱗癬の治療にも役立つかもしれません。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"不明（試験中の化合物）\", \"description\": \"皮膚の保護バリアを強化し、症状の改善を目指す塗り薬\"}]",
+  "created_at": "2026-03-30 22:14:50"
 }

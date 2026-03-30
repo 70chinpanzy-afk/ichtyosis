@@ -4,13 +4,13 @@
   "source": "clinical_trials",
   "source_id": "NCT07477769",
   "original_title": "Phénotype Lymphocytaire Des Ichtyoses congénitales Autosomiques récessives mutées NIPAL4 (Nipal4-nEDD)",
-  "title_ja": "NIPAL4遺伝子変異による先天性魚鱗癬のリンパ球タイプ研究",
-  "summary_ja": "この臨床試験は、先天性魚鱗癬という皮膚が乾燥してうろこ状になる病気に関連する遺伝子、NIPAL4に注目しています。この研究では、この遺伝子の変異がある患者に、特に「セザリー症候群（皮膚にできるまれなリンパ腫）」という病気も見つかったことから、両方の病気がなぜ同時に起こるのかを探ろうとしています。魚鱗癬患者さんにとって、自分の症状の進展を知るための重要な手がかりになるかもしれません。研究の進展により、将来的により良い診断や治療方法が見つかることが期待されています。",
+  "title_ja": "NIPAL4遺伝子変異による先天性魚鱗癬の研究",
+  "summary_ja": "この臨床試験は、NIPAL4という遺伝子に変異がある魚鱗癬の患者さんについて調査しました。この遺伝子の変異は、肌の角化が異常になることで魚鱗癬を引き起こします。本研究では、3人の患者さんが同時に別のまれな皮膚の病気、セザリー症候群を発症しました。この研究は、遺伝子変異がどのように異なる病気を引き起こすか理解する手がかりを与えます。",
   "category": "研究論文",
-  "relevance_score": 0.8,
+  "relevance_score": 0.9,
   "url": "https://clinicaltrials.gov/study/NCT07477769",
   "published_date": "2026-03-17",
-  "curation_reasoning": "先天性魚鱗癬に関する遺伝子研究は、病態の理解を深め、将来的な治療法の可能性があるためです。",
+  "curation_reasoning": "遺伝子レベルでの病気の理解が進むことで、将来的な治療法開発に期待が持てます。",
   "drugs_json": "[]",
-  "created_at": "2026-03-30 22:06:50"
+  "created_at": "2026-03-30 22:14:50"
 }
