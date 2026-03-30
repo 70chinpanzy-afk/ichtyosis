@@ -28,13 +28,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r backend/requirements.txt
 
+      - name: Debug env var lengths
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+        run: |
+          echo "TOKEN length: ${#LINE_CHANNEL_ACCESS_TOKEN}"
+          echo "USER_ID length: ${#LINE_USER_ID}"
+          echo "USER_ID first 3 chars: ${LINE_USER_ID:0:3}"
+
       - name: Run curation (fetch → AI → LINE notify)
         working-directory: backend
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
-          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
+          FRONTEND_URL: https://sales-copilot-hdpqo2qwp-naoya-enomotos-projects.vercel.app
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
         run: PYTHONPATH=. python -m ichthyosis_curator --verbose
 
