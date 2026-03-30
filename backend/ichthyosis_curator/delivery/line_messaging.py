@@ -50,7 +50,8 @@ def _build_article_bubble(
     db_id: int | None,
 ) -> dict:
     """1記事分のFlex Bubble"""
-    cat_color = CATEGORY_COLORS.get(article.category, "#95A5A6")
+    category = article.category or "ニュース"
+    cat_color = CATEGORY_COLORS.get(category, "#95A5A6")
     source_label = _get_source_label(article.source)
     region_emoji = REGION_EMOJI.get(article.region, "")
 
@@ -60,7 +61,7 @@ def _build_article_bubble(
     else:
         link_url = article.url or ""
 
-    summary = article.summary_ja or ""
+    summary = article.summary_ja or "（要約なし）"
 
     bubble: dict = {
         "type": "bubble",
@@ -75,7 +76,7 @@ def _build_article_bubble(
                     "contents": [
                         {
                             "type": "text",
-                            "text": f"{region_emoji} {article.category}",
+                            "text": f"{region_emoji} {category}",
                             "size": "lg",
                             "color": "#FFFFFF",
                         }
@@ -314,9 +315,10 @@ def build_flex_messages(
     # フッター
     bubbles.append(_build_footer_bubble(frontend_url, len(digest.articles)))
 
+    alt_text = f"Sales News Copilot {digest.date}（{len(digest.articles)}件）"
     messages.append({
         "type": "flex",
-        "altText": f"Sales News Copilot {digest.date}（{len(digest.articles)}件）",
+        "altText": alt_text[:400],
         "contents": {
             "type": "carousel",
             "contents": bubbles,
