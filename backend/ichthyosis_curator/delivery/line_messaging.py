@@ -399,10 +399,21 @@ def send_line_flex(token: str, user_id: str, messages: list[dict]) -> bool:
     }
 
     import json as _json
-    body_size = len(_json.dumps(body, ensure_ascii=False))
+    body_json = _json.dumps(body, ensure_ascii=False)
+    body_size = len(body_json)
     logger.info(f"LINE Flex push: {len(messages)} messages, body size={body_size} bytes")
+    # デバッグ: 最初の500文字を出力
+    logger.debug(f"LINE body preview: {body_json[:500]}")
 
     try:
+        # まず最もシンプルなテキストメッセージで認証テスト
+        test_body = {
+            "to": user_id,
+            "messages": [{"type": "text", "text": "LINE通知テスト"}],
+        }
+        test_resp = requests.post(LINE_PUSH_URL, headers=headers, json=test_body, timeout=30)
+        logger.info(f"LINE auth test: {test_resp.status_code} {test_resp.text}")
+
         resp = requests.post(LINE_PUSH_URL, headers=headers, json=body, timeout=30)
         if resp.status_code == 200:
             logger.info("LINE Flex Message sent")
