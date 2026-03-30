@@ -1,16 +1,16 @@
 {
   "id": 10,
   "digest_date": "2026-03-30",
-  "source": "google_news:macrumors.com",
-  "source_id": "1149f67fc70d03b8",
-  "original_title": "Apple's 50th Anniversary Finale Revealed - macrumors.com",
-  "title_ja": "Appleの50周年記念イベントが発表される",
-  "summary_ja": "Appleが創立50周年を迎え、多くの話題を集めています。ガレージから始まったAppleは現在3.5兆ドルの企業価値を持つ大企業となりました。営業時には、Appleの歴史や革新の力を話題に挙げることで、テクノロジーの影響力についての会話が広がるでしょう。",
-  "category": "経済・ビジネス",
+  "source": "google_news:Business Insider",
+  "source_id": "e7b9753c81a3e74b",
+  "original_title": "From oil to food to markets: How a month of war on Iran has remade the world economy - Business Insider",
+  "title_ja": "イランでの戦争により経済の変動",
+  "summary_ja": "イランでの戦争が続く中、原油価格が高騰し、食品価格や市場全般に大きな影響を与えています。これにより、各国の経済政策や企業戦略にも変化が見られます。営業パーソンは、この変動が顧客のビジネス環境に与える影響を理解し、適切なアドバイスを行うことが重要です。",
+  "category": "国際",
   "region": "international",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOblFseUtqalk5bDNXY01pVTJsWkZGdW9GY01CbG8xNmVZSHZjejRjZXVkdURBUWtxcVE4UjZ2Z3A1enVPWFZEbXVxYnhUajV0V0ZIYW9TTmRNcnZaaTdfNWRYLThVVFI1RjRKZlFXRC0tSmpOdzFOWjBHVDFvS0YyTkRLaw?oc=5",
+  "relevance_score": 0.85,
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbVVhYVduWWp5SUZwU2l4Q2xSSERVLUVYNWd5XzQtb09UdDFsdnZTLWwyR0YxNkxWaFRkdm5rQnFtU3pyYlFNSXpDRjNrYzV6QUlPNjMyLUhLZTFjWUJFUHV1cmZEdXBxS3RwbnhPakJLdUd5bzFHUDJwNnFOODdRZmw3RjA0QTVwUHNRVjJaZEJsUm9wOVFjT0x3?oc=5",
   "published_date": "2026-03-29",
-  "curation_reasoning": "Appleの成長の軌跡は、イノベーションの重要性を象徴しており、営業先でのビジネス展開のヒントとなる話題。",
-  "created_at": "2026-03-30 14:14:34"
+  "curation_reasoning": "国際的な経済変動は広範な影響を持ち、顧客との商談での話題として重要です。",
+  "created_at": "2026-03-30 14:34:15"
 }

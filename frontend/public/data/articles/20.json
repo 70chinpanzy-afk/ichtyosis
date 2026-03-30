@@ -1,16 +1,16 @@
 {
   "id": 20,
   "digest_date": "2026-03-30",
-  "source": "google_news:読売新聞オンライン",
-  "source_id": "b392ea73a6710988",
-  "original_title": "現職首長では４人目、東京都清瀬市に共産党籍の市長誕生へ…田村委員長「この流れを各地に」 - 読売新聞オンライン",
-  "title_ja": "東京都清瀬市に共産党市長誕生",
-  "summary_ja": "東京都清瀬市で共産党籍の市長が誕生しました。これは現職首長としては全国で4人目となります。政治や地域社会に変化が起こる可能性があり、特に地元商圏への影響が注目されます。地域の政治的変化についてお客様との会話を広げるきっかけにできます。",
-  "category": "政治・社会",
+  "source": "google_news:nikkei.com",
+  "source_id": "3ce3639ee58ca731",
+  "original_title": "日本車8社の2月世界生産、2カ月連続減 日産は14%マイナス - nikkei.com",
+  "title_ja": "日本車8社の2月世界生産が2カ月連続減少",
+  "summary_ja": "日本車8社の2月の世界生産が2カ月連続で減少し、特に日産では14%の減少が報告されています。各社が供給チェーンの問題や材料不足に直面している背景があります。自動車業界に関心がある顧客との商談での話題や、サプライチェーンのリスク管理の重要性を強調する際に役立ちます。",
+  "category": "経済・ビジネス",
   "region": "japan",
   "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80bms5ZlhUUWhGNUdXRWU1U3RqdHlCVndyYTNmN1ZsQ0h3cjdGYUYyODBwZ3ZCSC1MVkczS2J5WnRTa0pCME9rOXVJODBCUFFSSDdXUHZxalcyRFlsNEY1MTBGWU5JZw?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LQVQ0Zi15ODZnaVZVeTZEZEk2amVlSGNybUduQ1NhdEQ0SGNNUk53QkFwcktwOHE3SmFfSWVPMUpsNG96dFBNdlRScFp4S1JRaWdNNlVURDBiaW5MUkMtVkNSaFlPOHE2Qnp3cw?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "地域政治の変革は地元経済に影響を与え、新たな商機や戦略の再構築が求められるため、注目に値します。",
-  "created_at": "2026-03-30 14:14:34"
+  "curation_reasoning": "自動車業界全体の動向として抑えておくべきニュースで、業界のサプライチェーンリスクについての会話が広がります。",
+  "created_at": "2026-03-30 14:34:15"
 }

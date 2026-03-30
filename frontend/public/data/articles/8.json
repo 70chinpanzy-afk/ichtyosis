@@ -1,16 +1,16 @@
 {
   "id": 8,
   "digest_date": "2026-03-30",
-  "source": "google_news:Bloomberg.com",
-  "source_id": "285abba6e402a921",
-  "original_title": "Russian Oil Tanker Arrives in Cuba After US Approved Passage - Bloomberg.com",
-  "title_ja": "ロシアのタンカーが米国の承認でキューバに到着",
-  "summary_ja": "ロシアのタンカーが米国の承認を得てキューバに到着しました。これにより、一部経済制裁が緩和される兆しがあります。エネルギー市場への影響や国際関係の動向について、商談時の話題として考慮することができます。",
-  "category": "国際",
+  "source": "google_news:Reuters",
+  "source_id": "662a5e331070a5d8",
+  "original_title": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+  "title_ja": "原油とLNG供給に最悪のシナリオのリスク",
+  "summary_ja": "原油とLNGの供給が最悪のシナリオに直面するリスクがあることが報じられています。中東地域の緊張が背景にあり、エネルギー市場の不安定感が増しています。営業パーソンはこの情報を基にエネルギー関連の商談でリスク管理の重要性を強調することができるでしょう。",
+  "category": "経済・ビジネス",
   "region": "international",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOXzBaZkhGRTk4Q21IRTRqX3JQNExUVHludXRueXFweVRjZnM0c0pHRVI5c1VGbFd6YWhlLUgyREtBV0lJY01OMld6dFVPa3ZvUzJmYXg5aWxoUU84d0ZpUUVsanl5SVpjU3c1c1BnSFI5aGdNWm5ESkRBa2lfYTlxZ19PS2JUcE43VWNDcXp5R2ZVVTJoUGd5bFBBNV9aYVA4cmFUTXJpbE1XN2ZKeEJwWA?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxBSWFud1RLWEU1QlFtRmNNWktrZGlRX05lS1lmclBXZFI2TlV2NndRVW9EZ3F5Nl8zaWZpUHZHVGV2UWlCVXlFcDg4N0EzZ3JTTThmQ1hRZ0FWbTd3T0t5YlJwRC1MbEJtbGl0UE1vME1sZThYaG9GSXdMY1ppSUpUSmplMDRFRE1hVXlTWndRVzJlN245dVBBcjJzYzhTaF9vMDVKMTF1bmNYZWc?oc=5",
   "published_date": "2026-03-30",
-  "curation_reasoning": "国際経済およびエネルギー市場に影響を与える可能性があるため、ビジネスにおけるリスク管理や戦略的な会話に役立ちます。",
-  "created_at": "2026-03-30 14:14:34"
+  "curation_reasoning": "エネルギー市場の不安定感が企業活動に直接影響し得るため、重要な話題。",
+  "created_at": "2026-03-30 14:34:15"
 }

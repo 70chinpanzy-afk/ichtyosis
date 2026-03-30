@@ -1,16 +1,16 @@
 {
   "id": 15,
   "digest_date": "2026-03-30",
-  "source": "google_news:nippon.com",
-  "source_id": "ec036e13016886f4",
-  "original_title": "東京株、一時５万１０００円割れ＝イラン情勢の不透明感で全面安",
-  "title_ja": "東京株、一時5万1000円割れ",
-  "summary_ja": "東京株式市場は一時、5万1000円を割り込み、全面安となりました。その要因はイラン情勢の不透明感にあります。このことは、世界情勢が経済に与えるインパクトを改めて浮き彫りにしています。営業パーソンは、国際情勢が国内経済に与える影響を理解し、リスク管理や経済分析の視点をお客様との会話で活用できます。",
-  "category": "経済・ビジネス",
+  "source": "google_news:DXマガジン",
+  "source_id": "3c0d38eb7d686f8d",
+  "original_title": "独自データが「AI時代の武器」に。日本IBM、CDO 1,700人調査で描くAI大規模展開への道 - DXマガジン",
+  "title_ja": "日本IBM、AI時代の戦略をCDO調査から示唆",
+  "summary_ja": "日本IBMがAI時代における独自データの重要性を報告し、CDO（最高デジタル責任者）1,700人を対象に調査を実施しました。調査結果は、AIの大規模展開に際しての課題と機会を明らかにしています。営業活動においても、AIを活用したデータ戦略の重要性を顧客と共有し、新たなビジネスチャンスを模索するきっかけとなります。",
+  "category": "テクノロジー",
   "region": "japan",
   "relevance_score": 0.8,
-  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ac1lYTDJUQ0pyVm54dTZkdUJrMWIxZ2FUaDhSWjloVGJ5QTlhcHkySktEUXFzOUJVZ0R4UEdXUU1ZWFY1a092bmtSN0JXVWtLY3ptTkcxbmpDQ20y?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "国際情勢が国内市場に与える影響を理解することは、どの業界においても重要です。",
-  "created_at": "2026-03-30 14:14:34"
+  "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YaEtsZm5EbGREa2FDTGVVcjFPb19xNlVBTzVQWTlQUHR2Z1RzZ0plRTRkVE9NVXUzMUUtNnZ6U1ZsbXVFS3kzUHZyc08?oc=5",
+  "published_date": "2026-03-29",
+  "curation_reasoning": "AIやデータ活用はあらゆる業界で注目されており、この知見は営業現場での武器になります。",
+  "created_at": "2026-03-30 14:34:15"
 }

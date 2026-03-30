@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-03-30",
-  "source": "google_news:日本経済新聞",
-  "source_id": "3ce3639ee58ca731",
-  "original_title": "日本車8社の2月世界生産、2カ月連続減 日産は14%マイナス - 日本経済新聞",
-  "title_ja": "日本車の世界生産が2カ月連続で減少",
-  "summary_ja": "2026年2月、日本の主要自動車メーカー8社の世界生産が2カ月連続で減少し、特に日産は14%のマイナスを記録しました。これは新型車への移行や供給チェーンの問題が影響しています。自動車業界関係者との商談では、このデータが業界トレンドの理解を深める助けとなるでしょう。",
+  "source": "google_news:nippon.com",
+  "source_id": "5e99e9b9f90a295d",
+  "original_title": "NY円、一時160円42銭 - nippon.com",
+  "title_ja": "NY円が一時160円42銭に",
+  "summary_ja": "ニューヨーク市場で円の為替レートが一時160円42銭に達しました。これは、円安傾向が依然として続いていることを示しています。円安の影響で輸出企業には追い風となる一方、輸入業者には逆風となります。このニュースは、日本企業の国際競争力や価格設定に影響を与えるため、商談時の話題作りに役立ちます。",
   "category": "経済・ビジネス",
-  "region": "japan",
+  "region": "international",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LQVQ0Zi15ODZnaVZVeTZEZEk2amVlSGNybUduQ1NhdEQ0SGNNUk53QkFwcktwOHE3SmFfSWVPMUpsNG96dFBNdlRScFp4S1JRaWdNNlVURDBiaW5MUkMtVkNSaFlPOHE2Qnp3cw?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "自動車業界は多くの人に関係するため、業界の動向に関する知識を持つことで、幅広い顧客との会話を促進できます。",
-  "created_at": "2026-03-30 14:14:34"
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xS3dXWnl3bjhERXJZNm5vYzJvREtYS2FqdWt0alppWjlHUUFHU2ZfWGREMTFVbU1veU81SGs5cnZQQ3g2cDc0M3dFUm42V0lweDlZdDRrNGVQQXhHb25sS3phbw?oc=5",
+  "published_date": "2026-03-27",
+  "curation_reasoning": "円安問題は経済全般に関係し、特に輸出入企業の戦略に大きな影響を与えるため、話題性が高いです。",
+  "created_at": "2026-03-30 14:34:15"
 }
