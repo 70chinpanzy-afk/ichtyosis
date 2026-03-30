@@ -401,13 +401,37 @@ def send_line_flex(token: str, user_id: str, messages: list[dict]) -> bool:
         "messages": messages[:5],  # LINE APIは最大5メッセージ
     }
 
+    import json as _json
+    body_size = len(_json.dumps(body, ensure_ascii=False))
+    logger.info(f"LINE Flex push: {len(messages)} messages, body size={body_size} bytes")
+
     try:
         resp = requests.post(LINE_PUSH_URL, headers=headers, json=body, timeout=30)
         if resp.status_code == 200:
             logger.info("LINE Flex Message sent")
             return True
         else:
-            logger.error(f"LINE Flex push failed: {resp.status_code} {resp.text}")
+            logger.error(f"LINE Flex push failed: {resp.status_code} {resp.text} (body_size={body_size})")
+            # Flex失敗時はテキストにフォールバック
+            logger.info("Falling back to text message")
+            alt_texts = []
+            for msg in messages:
+                if msg.get("type") == "flex":
+                    alt_texts.append(msg.get("altText", ""))
+            if alt_texts:
+                text_body = {
+                    "to": user_id,
+                    "messages": [{"type": "text", "text": t} for t in alt_texts[:5] if t],
+                }
+                try:
+                    resp2 = requests.post(LINE_PUSH_URL, headers=headers, json=text_body, timeout=30)
+                    if resp2.status_code == 200:
+                        logger.info("LINE text fallback sent")
+                        return True
+                    else:
+                        logger.error(f"LINE text fallback also failed: {resp2.status_code} {resp2.text}")
+                except requests.RequestException as e2:
+                    logger.error(f"LINE text fallback request failed: {e2}")
             return False
     except requests.RequestException as e:
         logger.error(f"LINE Flex push request failed: {e}")
