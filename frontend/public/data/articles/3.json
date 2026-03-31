@@ -1,16 +1,16 @@
 {
   "id": 3,
-  "digest_date": "2026-03-30",
+  "digest_date": "2026-03-31",
   "source": "pubmed",
   "source_id": "41884384",
-  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent",
-  "title_ja": "アトピー性皮膚炎と魚鱗癬、反復する感染症: 重複した症例の報告",
-  "summary_ja": "この研究は、アトピー性皮膚炎と魚鱗癬、さらには反復する感染症を持った患者の症例を報告しています。この患者さんは、皮膚のバリア機能が弱く、しばしば感染症にかかってしまう状況でした。研究では、持続的な皮膚のケアと感染予防が重要であることが示唆されました。魚鱗癬の患者さんにも、日常のケアや感染症予防の工夫が参考になる情報です。今後、具体的なケア法の開発が期待されます。",
+  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent ",
+  "title_ja": "魚鱗癬とアトピーによる感染症例",
+  "summary_ja": "この研究では、魚鱗癬と重度のアトピー性皮膚炎を抱える患者の症例を報告しています。この患者は頻繁に細菌やウイルスの感染症を発症していました。皮膚のバリアが弱いことが、これらの感染を引き起こす要因となっていると考えられます。この報告は、同様の症状を持つ患者さんの治療において、皮膚の強化策や感染予防の重要性を示しています。",
   "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
+  "relevance_score": 0.8,
   "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
   "published_date": "2026",
-  "curation_reasoning": "魚鱗癬とアトピー性皮膚炎が重なる患者の症例で、皮膚のバリア機能と感染予防についての洞察が得られるため、患者さんのケアに役立つ情報です。",
+  "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の両方に関連する貴重な知見を提供し、病気との闘いに役立てられる情報があります。",
   "drugs_json": "[]",
-  "created_at": "2026-03-30 22:41:00"
+  "created_at": "2026-03-31 22:38:44"
 }

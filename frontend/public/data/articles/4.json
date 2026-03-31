@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-30",
+  "digest_date": "2026-03-31",
   "source": "pubmed",
-  "source_id": "41865984",
-  "original_title": "Health care resource utilization in patients with atopic dermatitis according to treatment response: evidence from the BIOBADATOP registry.",
-  "title_ja": "アトピー性皮膚炎患者の治療反応に基づく医療資源の利用状況",
-  "summary_ja": "この研究は、アトピー性皮膚炎患者の治療による効果と医療資源の利用状況を調査したものです。より早く効果的な治療を開始することで、病気の管理が改善され、医療費も削減できることが示されました。特にバイオ製剤や新しい薬を使うと病状が安定しやすいようです。このような知見は、魚鱗癬のような似た症状を持つ病気の治療戦略にも生かせるかもしれません。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41865984/",
-  "published_date": "2026 Mar 20",
-  "curation_reasoning": "アトピー性皮膚炎の治療法による管理改善が魚鱗癬の治療戦略にも応用できる可能性があるため、有益な情報です。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-30 22:41:00"
+  "source_id": "41891530",
+  "original_title": "Efficacy and Safety of Topical Delgocitinib for Chronic Hand Eczema: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+  "title_ja": "デュルゴシチニブの手湿疹治療効果と安全性",
+  "summary_ja": "この研究では、手湿疹に対するデュルゴシチニブという新しい外用薬の効果と安全性についてのデータをまとめています。この薬は、JAKという体の炎症を引き起こす信号をブロックすることで、症状を軽減します。多くの試験で、デュルゴシチニブを使用した患者さんの皮膚症状が改善し、副作用も少ないことが示されています。魚鱗癬の患者さんにとっても、このような炎症を抑える薬は、治療の新たな選択肢となる可能性があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41891530/",
+  "published_date": "2026 Apr",
+  "curation_reasoning": "新しい治療法として注目されるJAK阻害薬が、魚鱗癬のような皮膚疾患にも応用可能であることを示唆しているため。",
+  "drugs_json": "[{\"drug_name\": \"デュルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デュルゴシチニブ\", \"description\": \"炎症を引き起こす信号をブロックする新しい外用薬です。\"}]",
+  "created_at": "2026-03-31 22:38:44"
 }
