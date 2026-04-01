@@ -1,16 +1,16 @@
 {
   "id": 8,
   "digest_date": "2026-04-01",
-  "source": "clinical_trials",
-  "source_id": "NCT05856526",
-  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
-  "title_ja": "スペソリマブによるネザートン症候群の治療試験",
-  "summary_ja": "スペソリマブという薬がネザートン症候群の症状を改善できるかを調べる研究です。これはプラセボ（偽薬）を使った比較研究で、効果をしっかり確認するための方法です。この研究に参加することで、新たな治療の選択肢が増える可能性があるため、魚鱗癬様の症状を持つ患者さんとその家族には大きな希望となります。薬の効果が確認されるまで、引き続き研究を見守る必要があります。",
+  "source": "google_news:minichart.com.sg",
+  "source_id": "8f4d5f03b2fbc323",
+  "original_title": "Palvella Therapeutics QTORIN Rapamycin: Novel Treatment Advancements for Rare Skin Diseases and Vascular Malformations - minichart.com.sg",
+  "title_ja": "QTORIN ラパマイシンが珍しい皮膚病の治療に新たな可能性",
+  "summary_ja": "この記事では、QTORIN ラパマイシンという新しい治療法が話題になっています。この薬は、皮膚の病気や血管異常に対する治療に新たな可能性を提供します。ラパマイシンは、細胞の成長を抑える働きがあり、炎症や異常な組織の増殖を防ぐことができます。この薬が魚鱗癬の治療にも役立つ可能性があるため、患者さんにとって興味深い情報です。治療効果の確認にはさらなる試験が必要ですが、今後の研究に期待が寄せられています。",
   "category": "新薬・治療法",
-  "relevance_score": 0.7,
-  "url": "https://clinicaltrials.gov/study/NCT05856526",
-  "published_date": "2026-03-12",
-  "curation_reasoning": "ネザートン症候群と魚鱗癬は類似した症状を持つため、治療法の研究は重要です。",
-  "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"未公開\", \"description\": \"ネザートン症候群の炎症を抑える可能性のある薬\"}]",
-  "created_at": "2026-04-01 12:11:14"
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMUljUWpVSlE5aHRXbzBGNGdZSWdHVXVySVczb3Y4Zm9mUlloTGFNVjd6dFVrWktRTHkwYmNvSnZsNG10ZUxvV3RmODhOaU1Cd2VQaUJsczlhWTVmdTJJSXpEZW1DQS1GTXNsTS1CQm9kb1FiUm9rTTF1QjZlLWJ4QW9zWjM3ZEdiRkJuU2NBYWhzUkxyM0tWNWF4NWtENTNkemsySW1GTGQzTktMSmlpOVJjVFh6dUNtbXIwRWNDYnlGa0RCZkNGVmlmdFUyMEZ1SzFPZFM4TVdGTlliVUMzRlNqNlp4VlpDeGZwS0x5SQ?oc=5",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "新しい治療法の紹介は患者に新しい選択肢を提供し、希望を持つきっかけになる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"ラパマイシン（Rapamycin）\", \"ingredients\": \"シロリムス（sirolimus）\", \"description\": \"細胞の成長を抑え、異常組織の増殖を防ぐ薬剤\"}]",
+  "created_at": "2026-04-01 22:42:27"
 }

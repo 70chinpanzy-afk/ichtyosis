@@ -1,16 +1,16 @@
 {
   "id": 6,
   "digest_date": "2026-04-01",
-  "source": "pubmed",
-  "source_id": "41909533",
-  "original_title": "Abrocitinib Treatment of Atopic Dermatitis or Eczema in Patients with Coexistent or Prior Psoriasis: Three Cases with Literature Review.",
-  "title_ja": "アブロシチニブによるアトピー性皮膚炎と乾癬の併存症の治療",
-  "summary_ja": "この研究は、アトピー性皮膚炎と乾癬を一緒に持つ患者さんに新しい薬アブロシチニブがどれほど効果的かを示したものです。3人の患者さんが明らかな改善を示しました。この薬は体内の炎症信号をブロックするJAK阻害薬です。魚鱗癬の患者さんにも炎症を抑える新しい治療の可能性を示唆しています。さらなる研究が今後の治療法選択に役立ちそうです。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41909533/",
-  "published_date": "2026",
-  "curation_reasoning": "炎症を抑える新薬の効果が確認されており、魚鱗癬患者にも応用の可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックするJAK阻害薬\"}]",
-  "created_at": "2026-04-01 13:08:04"
+  "source": "clinical_trials",
+  "source_id": "NCT06539507",
+  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+  "title_ja": "ネザートン症候群の新薬BCX17725の安全性を確かめる試験",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚疾患に対する新しい治療薬BCX17725の安全性を確認する初期段階の試験です。健康な参加者とネザートン症候群を持つ参加者に薬を投与し、約3ヶ月間にわたりその安全性や体にどのように吸収されるかを調べます。このような新薬の開発は、魚鱗癬紅皮症患者にも新たな治療の希望となる可能性があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT06539507",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "新薬が魚鱗癬紅皮症の治療に応用できる可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"BCX17725（BCX17725）\", \"ingredients\": \"BCX17725\", \"description\": \"ネザートン症候群に対する新しい治療薬。\"}]",
+  "created_at": "2026-04-01 22:42:27"
 }

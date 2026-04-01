@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-04-01",
-  "source": "pubmed",
-  "source_id": "41884384",
-  "original_title": "Atopic Dermatitis with Ichthyosis, Recurrent Fungal and Viral Infections: A Case of Concurrent ",
-  "title_ja": "魚鱗癬とアトピー性皮膚炎を持つ患者の症例研究",
-  "summary_ja": "この研究は、魚鱗癬とアトピー性皮膚炎が同時に存在する患者さんの症例についてです。31歳の中国人女性が終生の魚鱗癬と重度のアトピー性皮膚炎を抱え、再発する感染症と闘っています。この症例研究は、日常的なケアだけでなく、感染症の治療が大切であることを示しています。魚鱗癬の患者さんにとって、自身の症状に近い事例を知ることで、適切な治療法や生活管理を考えるきっかけになるかもしれません。今後のさらなる研究が、同じような症状を持つ方々の助けになることが期待されます。",
-  "category": "ケア・対処法",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41884384/",
-  "published_date": "2026",
-  "curation_reasoning": "魚鱗癬とアトピー性皮膚炎を併発するケースを通して、感染症のリスクや対応方法を学べるため。",
+  "source": "google_news:dermatologyadvisor.com",
+  "source_id": "9999c79d3066ed2d",
+  "original_title": "Immunomodulatory Therapy May Reduce Some Comorbidities in Congenital Ichthyosis - dermatologyadvisor.com",
+  "title_ja": "免疫調整治療が先天性魚鱗癬の合併症を減少させる可能性",
+  "summary_ja": "この研究は、免疫調整治療が先天性魚鱗癬における一部の合併症を減らす可能性についてです。免疫調整治療は、体の免疫反応を調整して炎症を抑える方法で、皮膚の健康を改善する可能性があります。魚鱗癬の患者さんが苦しむ合併症、例えば炎症性の皮膚症状を和らげる効果も期待できます。この治療が実際に多くの患者さんにどれだけ効果があるかは、今後の更なる研究が必要です。",
+  "category": "新薬・治療法",
+  "relevance_score": 1.0,
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMi1YSGxvQUFzWVpRbjdSWlpLb05YeHl5Ul95S2s5NVlTS2hjOXphb285SHhJN0szQ1MzX0F3UTgwRTFNVk1ha0VpTXhNTHRNOTZ6YkMyLU9sTVZYd3lIS1JTSG5kcF80bm0zanotd1NQRVZHNWc3YzJfTWcycWljZVgtcFJrbzFKb2NCNmdJSjV2RUFtNkdnZ205UmwzTWRLT1FteWRFa0J6ZEVFTjh4ZndMTlk2UUE?oc=5",
+  "published_date": "2026-04-01",
+  "curation_reasoning": "合併症を軽減する治療法は患者の日常生活を改善する可能性があり、重要と判断しました。",
   "drugs_json": "[]",
-  "created_at": "2026-04-01 13:08:04"
+  "created_at": "2026-04-01 22:42:27"
 }

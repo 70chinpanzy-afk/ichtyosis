@@ -1,16 +1,16 @@
 {
   "id": 7,
   "digest_date": "2026-04-01",
-  "source": "pubmed",
-  "source_id": "41878175",
-  "original_title": "A Case of Toxic Epidermal Necrolysis-Like Dermatosis Associated With Contact Exposure to a Flurbiprofen Plaster.",
-  "title_ja": "フルルビプロフェンプラスターと関連する重症皮膚疾患の症例",
-  "summary_ja": "この記事は、81歳の男性が痛みを和らげる薬のプラスターを貼ったことで重篤な皮膚反応を起こした症例についてです。重篤な皮膚のただれと全身症状が現れましたが、適切な治療で回復しました。薬の副作用には注意が必要で、特に皮膚の弱い魚鱗癬の患者さんには重要です。医療現場での適切な診断とケアの重要性が改めて確認されました。",
-  "category": "ニュース",
-  "relevance_score": 0.5,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41878175/",
-  "published_date": "2026 Feb",
-  "curation_reasoning": "魚鱗癬患者は皮膚の反応に敏感であり、薬物誘発性の皮膚障害への警戒が必要なため。",
-  "drugs_json": "[]",
-  "created_at": "2026-04-01 13:08:04"
+  "source": "clinical_trials",
+  "source_id": "NCT05521438",
+  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
+  "title_ja": "ネザートン症候群に対するQRX003ローションの安全性と効果を調べる多施設試験",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚疾患患者にQRX003ローションを使用する際の安全性と効果を検証するものです。参加者は異なる濃度のローションを使い、それが症状の改善にどの程度効果があるかを確認します。新しいスキンケア製品の登場は、魚鱗癬患者にも新しい治療の選択肢を提供するかもしれません。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05521438",
+  "published_date": "2026-03-16",
+  "curation_reasoning": "新しいスキンケア製品が魚鱗癬治療にも役立つ可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"QRX003ローション（QRX003 Lotion）\", \"ingredients\": \"QRX003\", \"description\": \"ネザートン症候群に使用されるローション。\"}]",
+  "created_at": "2026-04-01 22:42:27"
 }
