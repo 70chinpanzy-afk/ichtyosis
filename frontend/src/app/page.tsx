@@ -86,12 +86,12 @@ export default function Home() {
   if (error) {
     return (
       <div className="text-center py-20">
-        <p className="text-6xl mb-4">{"\u{1f4f0}"}</p>
+        <p className="text-6xl mb-4">{"\u{1f52c}"}</p>
         <h2 className="text-xl font-bold text-slate-800 mb-2">
-          Sales News Copilot へようこそ
+          IchthyoCure へようこそ
         </h2>
         <p className="text-slate-500 mb-6 max-w-md mx-auto">
-          営業パーソンが押さえるべき最新ニュースを毎日キュレーションしてお届けします。
+          魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日お届けします。
         </p>
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 max-w-md mx-auto">
           <p className="text-sm text-amber-800">{error}</p>

@@ -136,7 +136,7 @@ export default function ArticleDetailPage() {
       {article.curation_reasoning && (
         <div className="mb-6">
           <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            営業への示唆
+            キュレーション理由
           </h2>
           <p className="text-sm text-slate-600 bg-slate-100 rounded-lg p-4">
             {article.curation_reasoning}

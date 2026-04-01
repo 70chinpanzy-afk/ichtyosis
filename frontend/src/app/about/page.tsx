@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold text-slate-800 mb-6">
-        Sales News Copilot について
+        IchthyoCure について
       </h1>
 
       <div className="space-y-8">
@@ -12,10 +12,10 @@ export default function AboutPage() {
             このサイトの目的
           </h2>
           <p className="text-slate-600 leading-relaxed">
-            Sales News Copilotは、営業パーソンが日々押さえておくべきニュースを、日本と海外に分けて毎日自動的にキュレーションし、分かりやすくお届けするサービスです。
+            IchthyoCureは、希少皮膚疾患「魚鱗癬紅皮症（Ichthyosis Erythroderma）」に関する最新の研究・治療法・ケア情報を、毎日自動的にキュレーションしてお届けするサイトです。
           </p>
           <p className="text-slate-600 leading-relaxed mt-3">
-            商談前の情報収集や、顧客との会話のきっかけ作りに活用いただけます。業界動向、テクノロジートレンド、経済・市場の動き、競合情報をまとめてチェックできます。
+            患者さんご本人やご家族が、最新の医療情報を分かりやすい日本語で読めることを目指しています。
           </p>
         </section>
 
@@ -27,19 +27,19 @@ export default function AboutPage() {
           <ul className="space-y-2 text-slate-600">
             <li className="flex items-start gap-2">
               <span className="text-blue-500 mt-0.5">{"\u{2022}"}</span>
-              <span>毎朝のニュースチェックを効率化したい営業パーソン</span>
+              <span>魚鱗癬紅皮症のお子様を持つ親御さん</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-500 mt-0.5">{"\u{2022}"}</span>
-              <span>商談前に業界の最新動向を素早く把握したい方</span>
+              <span>魚鱗癬の治療・ケアに関する最新情報を探している方</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-500 mt-0.5">{"\u{2022}"}</span>
-              <span>海外の市場トレンドも日本語でキャッチアップしたい方</span>
+              <span>海外の研究・臨床試験の情報を日本語で知りたい方</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-blue-500 mt-0.5">{"\u{2022}"}</span>
-              <span>チームで共通のニュースソースを持ちたいセールスマネージャー</span>
+              <span>同じ疾患を持つ方々の体験談やケア方法を知りたい方</span>
             </li>
           </ul>
         </section>
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 1
               </span>
               <p>
-                毎朝、国内外のニュースサイト・経済メディアから営業に関連する最新情報を自動収集
+                毎朝、PubMed（医学論文）、Google News、Reddit等から魚鱗癬に関連する最新情報を自動収集
               </p>
             </div>
             <div className="flex items-center gap-3">
@@ -63,21 +63,21 @@ export default function AboutPage() {
                 2
               </span>
               <p>
-                AIが営業パーソンにとっての重要度を評価し、カテゴリ分類・日本/海外の振り分けを実施
+                AIが関連性を評価し、カテゴリ分類・薬品情報の抽出を実施
               </p>
             </div>
             <div className="flex items-center gap-3">
               <span className="bg-blue-100 text-blue-700 rounded-full h-7 w-7 flex items-center justify-center text-sm font-bold shrink-0">
                 3
               </span>
-              <p>海外ニュースは日本語に翻訳・要約してお届け</p>
+              <p>専門用語を分かりやすい日本語に噛み砕いて要約</p>
             </div>
             <div className="flex items-center gap-3">
               <span className="bg-blue-100 text-blue-700 rounded-full h-7 w-7 flex items-center justify-center text-sm font-bold shrink-0">
                 4
               </span>
               <p>
-                キュレーション結果をこのサイトに掲載し、毎日更新
+                このサイトとLINEで毎日お届け
               </p>
             </div>
           </div>
@@ -90,44 +90,24 @@ export default function AboutPage() {
           </h2>
           <ul className="space-y-2 text-slate-600">
             <li>
-              {"\u{1f4b9}"}{" "}
-              <strong>経済・ビジネス</strong> - 景気動向、企業ニュース、マーケット情報、M&A
+              {"\u{1f48a}"}{" "}
+              <strong>新薬・治療法</strong> - 新薬開発、臨床試験、承認情報、遺伝子治療
             </li>
             <li>
-              {"\u{1f3db}\u{fe0f}"}{" "}
-              <strong>政治・社会</strong> - 政策、法改正、社会問題など商談の話題になるニュース
+              {"\u{1f4c4}"}{" "}
+              <strong>研究論文</strong> - 基礎研究、病態メカニズム、遺伝子解析
             </li>
             <li>
-              {"\u{1f4bb}"}{" "}
-              <strong>テクノロジー</strong> - AI、DX、新サービスなど話題のテクノロジートピック
+              {"\u{1f9f4}"}{" "}
+              <strong>ケア・対処法</strong> - スキンケア、保湿剤、日常生活のアドバイス、患者の体験談
             </li>
             <li>
-              {"\u{1f30d}"}{" "}
-              <strong>国際</strong> - グローバル情勢、海外経済、地政学リスク
+              {"\u{1f517}"}{" "}
+              <strong>関連疾患からの知見</strong> - アトピー等の類似疾患から応用可能な治療法
             </li>
             <li>
-              {"\u{26bd}"}{" "}
-              <strong>スポーツ・文化</strong> - スポーツ、エンタメ、文化など雑談に使える話題
-            </li>
-          </ul>
-        </section>
-
-        {/* Region */}
-        <section className="bg-white rounded-lg border border-slate-200 p-6">
-          <h2 className="text-xl font-semibold text-slate-800 mb-3">
-            日本/海外ニュースの切り替え
-          </h2>
-          <p className="text-slate-600 leading-relaxed">
-            各ページのタブで「日本」と「海外」のニュースを切り替えて表示できます。
-          </p>
-          <ul className="mt-3 space-y-2 text-slate-600">
-            <li>
-              {"\u{1f1ef}\u{1f1f5}"}{" "}
-              <strong>日本ニュース</strong> - 国内メディアからの最新ビジネスニュース
-            </li>
-            <li>
-              {"\u{1f30d}"}{" "}
-              <strong>海外ニュース</strong> - グローバルメディアからの情報（日本語要約付き）
+              {"\u{1f4f0}"}{" "}
+              <strong>ニュース</strong> - 患者会、支援制度、医療費助成、メディア報道
             </li>
           </ul>
         </section>
@@ -138,7 +118,7 @@ export default function AboutPage() {
             免責事項
           </h2>
           <p className="text-sm text-amber-800 leading-relaxed">
-            本サイトの情報はAIによる自動キュレーションであり、投資助言や商談上のアドバイスを提供するものではありません。重要な意思決定の際は必ず原文や公式情報をご確認ください。情報の正確性については最大限の努力を払っていますが、完全性を保証するものではありません。
+            本サイトの情報はAIによる自動キュレーションであり、医療上のアドバイスを提供するものではありません。治療に関する判断は必ず主治医にご相談ください。情報の正確性については最大限の努力を払っていますが、完全性を保証するものではありません。
           </p>
         </section>
       </div>

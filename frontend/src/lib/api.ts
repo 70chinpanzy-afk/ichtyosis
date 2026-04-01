@@ -36,48 +36,48 @@ export interface Article {
 }
 
 export type Category =
-  | "経済・ビジネス"
-  | "政治・社会"
-  | "テクノロジー"
-  | "国際"
-  | "スポーツ・文化";
+  | "新薬・治療法"
+  | "研究論文"
+  | "ケア・対処法"
+  | "関連疾患からの知見"
+  | "ニュース";
 
 export const CATEGORIES: Category[] = [
-  "経済・ビジネス",
-  "政治・社会",
-  "テクノロジー",
-  "国際",
-  "スポーツ・文化",
+  "新薬・治療法",
+  "研究論文",
+  "ケア・対処法",
+  "関連疾患からの知見",
+  "ニュース",
 ];
 
 export const CATEGORY_CONFIG: Record<
   Category,
   { emoji: string; color: string; bgColor: string }
 > = {
-  "経済・ビジネス": {
-    emoji: "\u{1f4b9}",
-    color: "text-green-700",
-    bgColor: "bg-green-50 border-green-200",
+  "新薬・治療法": {
+    emoji: "\u{1f48a}",
+    color: "text-red-700",
+    bgColor: "bg-red-50 border-red-200",
   },
-  "政治・社会": {
-    emoji: "\u{1f3db}\u{fe0f}",
+  "研究論文": {
+    emoji: "\u{1f4c4}",
     color: "text-blue-700",
     bgColor: "bg-blue-50 border-blue-200",
   },
-  テクノロジー: {
-    emoji: "\u{1f4bb}",
+  "ケア・対処法": {
+    emoji: "\u{1f9f4}",
+    color: "text-green-700",
+    bgColor: "bg-green-50 border-green-200",
+  },
+  "関連疾患からの知見": {
+    emoji: "\u{1f517}",
     color: "text-purple-700",
     bgColor: "bg-purple-50 border-purple-200",
   },
-  国際: {
-    emoji: "\u{1f30d}",
+  "ニュース": {
+    emoji: "\u{1f4f0}",
     color: "text-orange-700",
     bgColor: "bg-orange-50 border-orange-200",
-  },
-  "スポーツ・文化": {
-    emoji: "\u{26bd}",
-    color: "text-red-700",
-    bgColor: "bg-red-50 border-red-200",
   },
 };
 

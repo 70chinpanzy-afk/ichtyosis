@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sales News Copilot - 営業パーソンのためのニュースキュレーション",
+  title: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報",
   description:
-    "営業パーソンが押さえておくべき最新ニュースを日本・海外に分けて毎日キュレーション。業界動向、テクノロジー、経済・市場情報をお届けします。",
+    "魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日キュレーション。患者さんとご家族のための情報サイトです。",
   openGraph: {
-    title: "Sales News Copilot - 営業パーソンのためのニュースキュレーション",
+    title: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報",
     description:
-      "営業パーソンが押さえておくべき最新ニュースを毎日キュレーション。業界動向、テクノロジー、経済・市場、競合情報を日本・海外に分けてお届けします。",
+      "魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日キュレーション。患者さんとご家族のための情報サイトです。",
     type: "website",
     locale: "ja_JP",
   },
@@ -40,13 +40,13 @@ export default function RootLayout({
         <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
           <div className="max-w-4xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-2">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80">
-              <span className="text-2xl">{"\u{1f4f0}"}</span>
+              <span className="text-2xl">{"\u{1f52c}"}</span>
               <div>
                 <h1 className="text-lg font-bold text-slate-800 leading-tight">
-                  Sales News Copilot
+                  IchthyoCure
                 </h1>
                 <p className="text-xs text-slate-500 hidden sm:block">
-                  営業パーソンのためのデイリーニュース
+                  魚鱗癬紅皮症の最新医療情報
                 </p>
               </div>
             </Link>
@@ -80,7 +80,7 @@ export default function RootLayout({
         <footer className="bg-white border-t border-slate-200 mt-12">
           <div className="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-slate-500">
             <p>
-              Sales News Copilot - 営業パーソンが押さえるべきニュースを毎日キュレーション
+              IchthyoCure - 魚鱗癬紅皮症の最新情報を毎日お届け
             </p>
             <p className="mt-1">
               AIによる自動キュレーションです。投資判断等にはご自身でご確認ください。
