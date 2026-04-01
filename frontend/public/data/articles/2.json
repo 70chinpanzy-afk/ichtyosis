@@ -1,16 +1,16 @@
 {
   "id": 2,
   "digest_date": "2026-04-01",
-  "source": "clinical_trials",
-  "source_id": "NCT05295732",
-  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "TMB-001軟膏を使った先天性魚鱗癬の治療効果を検証する研究",
-  "summary_ja": "この研究は、TMB-001という軟膏が先天性魚鱗癬（RXLIやARCIタイプ）にどのように効くかを確認するものです。患者さんは6歳以上で、3週間の導入期間と9週間の治療期間で効果を見ます。特に肌の保護剤として提供される保湿クリーム「セタフィル」と一緒に使用されます。これは新しい治療法として、より安全で効果的な魚鱗癬の改善を期待するものです。研究結果がうまくいけば、この治療法で患者さんの日常生活がもっと快適になるかもしれません。",
+  "source": "google_news:Minichart",
+  "source_id": "8f4d5f03b2fbc323",
+  "original_title": "Palvella Therapeutics QTORIN Rapamycin: Novel Treatment Advancements for Rare Skin Diseases and Vascular Malformations - Minichart",
+  "title_ja": "希少皮膚疾患と血管異常に対する新しい治療法：QTORINラパマイシンの進展",
+  "summary_ja": "この研究は、希少な皮膚疾患や血管の異常に対して、QTORINラパマイシンという新しい治療法を開発しているというニュースです。ラパマイシンは、免疫を調整する作用があり、特に皮膚を正常に保つ助けをすると考えられています。魚鱗癬を含む精密な治療が求められる疾患において、新しい選択肢となる可能性があります。今後実用化されれば、症状のコントロールや生活の質の向上に役立つかもしれません。具体的な治療効果は今後の臨床試験で明らかになるでしょう。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT05295732",
-  "published_date": "2026-03-20",
-  "curation_reasoning": "TMB-001という新しい軟膏が魚鱗癬の治療にどれだけ効果的かを検証する重要な研究で、患者さんに新たな希望を提供する可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の症状を抑えることを目的とした新しい外用薬\"}]",
-  "created_at": "2026-04-01 12:35:31"
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMUljUWpVSlE5aHRXbzBGNGdZSWdHVXVySVczb3Y4Zm9mUlloTGFNVjd6dFVrWktRTHkwYmNvSnZsNG10ZUxvV3RmODhOaU1Cd2VQaUJsczlhWTVmdTJJSXpEZW1DQS1GTXNsTS1CQm9kb1FiUm9rTTF1QjZlLWJ4QW9zWjM3ZEdiRkJuU2NBYWhzUkxyM0tWNWF4NWtENTNkemsySW1GTGQzTktMSmlpOVJjVFh6dUNtbXIwRWNDYnlGa0RCZkNGVmlmdFUyMEZ1SzFPZFM4TVdGTlliVUMzRlNqNlp4VlpDeGZwS0x5SQ?oc=5",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "魚鱗癬のような希少な皮膚疾患の患者さんに、新しい治療法の可能性を提案できる記事です。具体的な有効性は今後の検証が必要ですが、希望を持つための一助となります。",
+  "drugs_json": "[{\"drug_name\": \"QTORINラパマイシン（QTORIN Rapamycin）\", \"ingredients\": \"ラパマイシン（sirolimus）\", \"description\": \"免疫を調整し、皮膚の異常な細胞の増殖を抑える可能性があります。\"}]",
+  "created_at": "2026-04-01 13:08:04"
 }

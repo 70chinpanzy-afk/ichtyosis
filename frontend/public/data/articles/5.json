@@ -1,16 +1,16 @@
 {
   "id": 5,
   "digest_date": "2026-04-01",
-  "source": "clinical_trials",
-  "source_id": "NCT05521438",
-  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
-  "title_ja": "QRX003ローションがNetherton症候群にどのように効くかを調べる研究",
-  "summary_ja": "この研究は、QRX003というローションがNetherton症候群の治療にどれほど安全で効果的かを調べます。Netherton症候群は皮膚が弱くなり、炎症やかゆみを引き起こす病気です。研究では、ローションを1日1回または2回使用して、その結果を他のローションと比較します。この治療法がうまくいけば、患者さんは皮膚の状態が安定し、生活の質が向上する可能性があります。",
-  "category": "新薬・治療法",
-  "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT05521438",
-  "published_date": "2026-03-16",
-  "curation_reasoning": "QRX003ローションという新しい治療法がNetherton症候群に対してどのような効果を持つかを示すと期待される研究。魚鱗癬の症状も和らげる可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"未公開\", \"description\": \"Netherton症候群患者の皮膚状態を改善するため開発されたローション\"}]",
-  "created_at": "2026-04-01 12:35:31"
+  "source": "pubmed",
+  "source_id": "41914526",
+  "original_title": "Skin Barrier Dysfunction in Contact and Atopic Dermatitis: A Comparative Review.",
+  "title_ja": "接触性皮膚炎とアトピー性皮膚炎の皮膚バリア機能障害",
+  "summary_ja": "この研究は、皮膚のバリア機能に障害があるとどのような影響があるかを比較したレビューです。皮膚のバリアが壊れると、アトピー性皮膚炎や接触性皮膚炎といった病気が起こります。このレビューでは、セラミドを含んだ保湿剤を使って皮膚のバリアを強化することが重要であると述べています。魚鱗癬の患者さんにも、皮膚の保湿とバリア強化が同様に重要です。日常のケアに役立つ具体的な方法が解説されています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41914526/",
+  "published_date": "2026 Mar",
+  "curation_reasoning": "魚鱗癬のケアに有用なバリア機能強化の方法が詳細に紹介されているため。",
+  "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤（Ceramide-based moisturizers）\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守る\\\"壁\\\"の材料となる脂質を含んだ保湿剤\"}]",
+  "created_at": "2026-04-01 13:08:04"
 }
