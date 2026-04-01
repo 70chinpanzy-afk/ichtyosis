@@ -1,16 +1,16 @@
 {
   "id": 2,
-  "digest_date": "2026-03-31",
-  "source": "clinical_trials",
-  "source_id": "NCT05295732",
-  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "先天性魚鱗癬の治療におけるTMB-001軟膏の効果を検証する研究",
-  "summary_ja": "この研究は、先天性魚鱗癬を持つ人々を対象に、TMB-001という軟膏の安全性と効果を検証する試験です。この病気には皮膚が乾燥し、うろこのようになってしまう症状があります。試験は二つのグループにわかれ、一方には実際の薬、もう一方には見た目が同じだが有効成分を含まない薬が用いられます。魚鱗癬の人にとって、生活の質を改善するための重要な新薬開発の一環です。これが成功すれば、患者さんたちの皮膚の状態を大きく改善する可能性があります。",
+  "digest_date": "2026-04-01",
+  "source": "google_news:simplywall.st",
+  "source_id": "63e401354fe1e073",
+  "original_title": "Palvella Hire Highlights QTORIN Launch Plans And Deep Rare Skin Focus - simplywall.st",
+  "title_ja": "希少皮膚疾患に向けた新しい治療薬QTORINの紹介",
+  "summary_ja": "この記事は、希少な皮膚疾患に対する新しい治療薬「QTORIN」がどのように計画されているかを紹介しています。QTORINは、主に魚鱗癬（うろこ状の皮膚を形成する病気）の治療に向けられた薬です。この治療薬は、皮膚のバリアを補強し症状を改善するために設計されています。魚鱗癬の患者さんにとって、症状緩和の日常的なケアと並行して、効果的な治療法の選択肢が広がることが期待されます。今後、患者さんの役に立つ正確な情報提供が求められます。",
   "category": "新薬・治療法",
-  "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT05295732",
-  "published_date": "2026-03-20",
-  "curation_reasoning": "先天性魚鱗癬の新しい治療法の開発は、患者に直接役立つため。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001軟膏\", \"ingredients\": \"塗布用軟膏の有効成分未公開\", \"description\": \"皮膚を潤し、乾燥から守るために開発された薬です\"}]",
-  "created_at": "2026-03-31 22:38:44"
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdjliM0c2aU4zV3RQUFRmaXBUMVhUTHJDNEFxajRyUXRpZkdUVGxkZFp5QkJ1YlZ6S21IZXkxaFBjU3FfMHppQXN6N1E0RVk3SFh1cTd2bG5QcVN2cHlxLVRwbjN4cVZZa0lfbWYzLTF0eFlzTGNpcnlfd3lpelhITmlWY0x6QkFTMEhFSGRDak1zcWJld1BMOGs2bTNCei1NeWNHUTFjcmM5dF9rcXJCTU9uUlFPQ00yZ2l6bW03SF9FQVFtNEZ5aXFZenlmRHo1ZG5pTExWc251ZTM4RTJsOFFxbW96aDdrVEZr0gHwAUFVX3lxTE5kWDBWRWZBS1gyeGhfa2NVd0szcTN3aVlibEp6aEpSZE5menljdnJRbUpMQktud2ZrSmkwNkZTcXhHT1M3bjkwMWRsRnVmUnIyejBCU1FsMGhvRGNVNlg5Q21adDF6bUx2bFVtYUJEd3dmT3psQkZIcDlacEVJRWJfS0lRUlAtczdIeGxfSXdza0dVcXVBRjR4WDY2V1VTR0FETC1tdDNpY3BuWGMta0NKN1Z5S283cG5SeVEzUHdWUUN4TmxqUTBXcXk3d1l3OVJ2Q21UbzFMQ1V5YVZBY3IwaENidTVtcHV4dkY4RkVTcg?oc=5",
+  "published_date": "2026-03-30",
+  "curation_reasoning": "QTORINは魚鱗癬の新しい治療選択肢として有望であるため、患者さんに重要な情報です。",
+  "drugs_json": "[{\"drug_name\": \"QTORIN\", \"ingredients\": \"不明（実験段階の薬）\", \"description\": \"希少皮膚疾患の症状を和らげるために開発された新しい治療薬\"}]",
+  "created_at": "2026-04-01 12:11:14"
 }

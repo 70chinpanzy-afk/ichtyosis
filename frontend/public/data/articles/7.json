@@ -1,16 +1,16 @@
 {
   "id": 7,
-  "digest_date": "2026-03-30",
+  "digest_date": "2026-04-01",
   "source": "clinical_trials",
-  "source_id": "NCT05047354",
-  "original_title": "Natural History Investigation Into Biochemical and Phenotypical Aspects of Smith-Lemli-Opitz Syndrome and Related Disorders of Cholesterol Metabolism",
-  "title_ja": "スミス・レンリ・オピッツ症候群の研究",
-  "summary_ja": "スミス・レンリ・オピッツ症候群（SLOS）は、遺伝子の問題でコレステロールの生産がうまくいかない病気で、発達の遅れや生まれつきの体の問題を引き起こします。完全な治療法はありませんが、この研究では病気の原因を深く理解して、将来的な治療の改善に役立てようとしています。この病気のメカニズムを知ることは、魚鱗癬のような遺伝子が関与する病気の解明にもつながるかもしれません。",
-  "category": "研究論文",
-  "relevance_score": 0.6,
-  "url": "https://clinicaltrials.gov/study/NCT05047354",
-  "published_date": "2026-03-02",
-  "curation_reasoning": "コレステロール代謝の問題を研究することで、魚鱗癬を含む他の遺伝的皮膚疾患におけるメカニズム理解に貢献できるためです。",
-  "drugs_json": "[]",
-  "created_at": "2026-03-30 22:41:00"
+  "source_id": "NCT06539507",
+  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+  "title_ja": "BCX17725の安全性と効果を調べる初期試験",
+  "summary_ja": "この研究は、ネザートン症候群の患者さんを対象にした新しい治療薬BCX17725の初期試験についてです。この薬がどのように体に吸収されるか、また安全かどうかを確かめています。特に、試験では数週間にわたって何度も投与することで効果を確認します。これまでに効果的な治療法が限られていたネザートン症候群に対して、新しい選択肢になる可能性がありますが、まだ初期段階の研究であるため、慎重な評価が求められます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT06539507",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "ネザートン症候群は魚鱗癬様の症状を持つため、治療薬の研究は関連性があります。",
+  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"未公開\", \"description\": \"ネザートン症候群の症状を軽減する可能性のある新薬\"}]",
+  "created_at": "2026-04-01 12:11:14"
 }

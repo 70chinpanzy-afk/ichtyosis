@@ -1,16 +1,16 @@
 {
   "id": 4,
-  "digest_date": "2026-03-31",
+  "digest_date": "2026-04-01",
   "source": "pubmed",
-  "source_id": "41891530",
-  "original_title": "Efficacy and Safety of Topical Delgocitinib for Chronic Hand Eczema: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
-  "title_ja": "デュルゴシチニブの手湿疹治療効果と安全性",
-  "summary_ja": "この研究では、手湿疹に対するデュルゴシチニブという新しい外用薬の効果と安全性についてのデータをまとめています。この薬は、JAKという体の炎症を引き起こす信号をブロックすることで、症状を軽減します。多くの試験で、デュルゴシチニブを使用した患者さんの皮膚症状が改善し、副作用も少ないことが示されています。魚鱗癬の患者さんにとっても、このような炎症を抑える薬は、治療の新たな選択肢となる可能性があります。",
-  "category": "新薬・治療法",
+  "source_id": "41912165",
+  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
+  "title_ja": "ハーレクイン型魚鱗癬の症状と治療例に関するレビュー",
+  "summary_ja": "この記事は、非常にまれな皮膚疾患であるハーレクイン型魚鱗癬の症状や治療法についてまとめたものです。この病気は、厚く硬い皮膚が生じ、新生児期の死亡率が高いという特徴があります。この記事では、これまでの症例を分析し、治療法や遺伝子の傾向などを探っています。この知識は、珍しい魚鱗癬のケースを持つ親御さんに、どのような治療が考えられるかという選択肢を提供する助けになります。",
+  "category": "研究論文",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41891530/",
-  "published_date": "2026 Apr",
-  "curation_reasoning": "新しい治療法として注目されるJAK阻害薬が、魚鱗癬のような皮膚疾患にも応用可能であることを示唆しているため。",
-  "drugs_json": "[{\"drug_name\": \"デュルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デュルゴシチニブ\", \"description\": \"炎症を引き起こす信号をブロックする新しい外用薬です。\"}]",
-  "created_at": "2026-03-31 22:38:44"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
+  "published_date": "2026 Jan 30",
+  "curation_reasoning": "ハーレクイン型魚鱗癬に関するこの包括的なレビューは、症状の理解を深め、より良い治療法の発見につながる可能性があり、特にこの病気に関心のある方々に役立ちます。",
+  "drugs_json": "[]",
+  "created_at": "2026-04-01 12:11:14"
 }

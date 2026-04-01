@@ -1,16 +1,16 @@
 {
   "id": 6,
-  "digest_date": "2026-03-31",
+  "digest_date": "2026-04-01",
   "source": "pubmed",
-  "source_id": "41914526",
-  "original_title": "Skin Barrier Dysfunction in Contact and Atopic Dermatitis: A Comparative Review.",
-  "title_ja": "皮膚バリアの障害と接触皮膚炎、アトピー皮膚炎の比較研究",
-  "summary_ja": "この研究は、皮膚のバリアが弱くなることで起こる皮膚疾患についてのレビューです。皮膚の表面には、外からの刺激をブロックするバリアがありますが、これが壊れるとアトピーや接触性皮膚炎などの炎症が起こります。この研究では、特にセラミドという脂質を使った保湿剤が効果的であるとされています。魚鱗癬の患者さんにとっても、皮膚を守るための保湿が重要であることが再確認されました。日常でのスキンケア習慣に役立ちます。",
-  "category": "ケア・対処法",
+  "source_id": "41884388",
+  "original_title": "A Case Series of Tofacitinib Treatment for Chronic Spontaneous Urticaria with Inadequate Response to Omalizumab.",
+  "title_ja": "慢性じんましんに対するトファシチニブ治療事例",
+  "summary_ja": "この研究は、トファシチニブという薬がなかなか効かないじんましんの治療に役立つかを調査しました。10名の患者にトファシチニブ（体内の炎症を抑える薬）を投与したところ、6割以上の患者で症状が改善し、生活の質も向上しました。この薬はアトピー性皮膚炎などの他の皮膚病にも応用されることが期待されており、魚鱗癬のような炎症を伴う疾患の治療にも新しい可能性を提供するかもしれません。",
+  "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41914526/",
-  "published_date": "2026 Mar",
-  "curation_reasoning": "皮膚バリアを改善する方法は、魚鱗癬の患者さんにも有効であり、スキンケアの基本的な知識として重要です。",
-  "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守るための重要な脂質を含んだ保湿剤です。\"}]",
-  "created_at": "2026-03-31 22:38:44"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41884388/",
+  "published_date": "2026",
+  "curation_reasoning": "トファシチニブは皮膚の炎症に効果があるとされ、魚鱗癬の患者さんにも新しい治療の手段となり得る可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（tofacitinib）\", \"description\": \"体内の炎症を抑える薬\"}]",
+  "created_at": "2026-04-01 12:11:14"
 }
