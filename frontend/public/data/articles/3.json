@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-04-01",
-  "source": "pubmed",
-  "source_id": "41912165",
-  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
-  "title_ja": "ハーレキン魚鱗癬の臨床特性に関するレビュー",
-  "summary_ja": "この研究は、非常に珍しく深刻な先天性疾患であるハーレキン魚鱗癬についての国際的な事例報告をまとめたものです。患者の多くが指定されていない遺伝子変異を持ちながら、30.9%が特定の遺伝子ABCA12の変異を持っていることがわかりました。この情報は、より良い治療戦略を立てるために役立ちます。研究は魚鱗癬の患者さんにとって、新しい治療法の可能性を示唆するものであり、将来的な治療改善の希望になるかもしれません。ただし、全ての患者に当てはまるわけではないため、専門家と相談しながら利用する必要があります。",
-  "category": "研究論文",
-  "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
-  "published_date": "2026 Jan 30",
-  "curation_reasoning": "魚鱗癬の診断と治療に重要な遺伝的情報が含まれており、患者のケアに役立ちます。",
-  "drugs_json": "[]",
-  "created_at": "2026-04-01 12:28:11"
+  "source": "google_news:Minichart",
+  "source_id": "8f4d5f03b2fbc323",
+  "original_title": "Palvella Therapeutics QTORIN Rapamycin: Novel Treatment Advancements for Rare Skin Diseases and Vascular Malformations - Minichart",
+  "title_ja": "珍しい皮膚病と血管奇形の新しい治療法: QTORIN ラパマイシン",
+  "summary_ja": "この記事は、珍しい皮膚病や血管の異常に対する新しい治療薬「QTORIN ラパマイシン」について紹介しています。この薬は、皮膚の細胞に直接届くように特別に設計されており、効果的に病気の進行を抑えることが期待されています。魚鱗癬のような希少な皮膚疾患にも応用が考えられており、この薬がどのように役立つかを研究中です。魚鱗癬患者さんにとって、新しい治療の選択肢が増えることは大変重要です。将来的に治療の選択肢が広がる可能性があり、患者さんに希望をもたらしますが、まだ研究段階ですので注意が必要です。",
+  "category": "新薬・治療法",
+  "relevance_score": 1.0,
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMUljUWpVSlE5aHRXbzBGNGdZSWdHVXVySVczb3Y4Zm9mUlloTGFNVjd6dFVrWktRTHkwYmNvSnZsNG10ZUxvV3RmODhOaU1Cd2VQaUJsczlhWTVmdTJJSXpEZW1DQS1GTXNsTS1CQm9kb1FiUm9rTTF1QjZlLWJ4QW9zWjM3ZEdiRkJuU2NBYWhzUkxyM0tWNWF4NWtENTNkemsySW1GTGQzTktMSmlpOVJjVFh6dUNtbXIwRWNDYnlGa0RCZkNGVmlmdFUyMEZ1SzFPZFM4TVdGTlliVUMzRlNqNlp4VlpDeGZwS0x5SQ?oc=5",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "魚鱗癬などの希少皮膚疾患に対する新しい治療法の可能性が示されているため、患者さんや家族に有益です。",
+  "drugs_json": "[{\"drug_name\": \"QTORIN ラパマイシン（QTORIN Rapamycin）\", \"ingredients\": \"ラパマイシン（rapamycin）\", \"description\": \"皮膚の細胞の増殖を抑制し、病気の進行を抑える外用薬\"}]",
+  "created_at": "2026-04-01 12:35:31"
 }
