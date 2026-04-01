@@ -28,15 +28,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r backend/requirements.txt
 
-      - name: Debug env var lengths
-        env:
-          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
-        run: |
-          echo "TOKEN length: ${#LINE_CHANNEL_ACCESS_TOKEN}"
-          echo "USER_ID length: ${#LINE_USER_ID}"
-          echo "USER_ID first 3 chars: ${LINE_USER_ID:0:3}"
-
       - name: Run curation (fetch → AI → LINE notify)
         working-directory: backend
         env:
