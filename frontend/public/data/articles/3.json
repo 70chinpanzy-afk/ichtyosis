@@ -1,16 +1,16 @@
 {
   "id": 3,
   "digest_date": "2026-04-01",
-  "source": "google_news:Minichart",
-  "source_id": "8f4d5f03b2fbc323",
-  "original_title": "Palvella Therapeutics QTORIN Rapamycin: Novel Treatment Advancements for Rare Skin Diseases and Vascular Malformations - Minichart",
-  "title_ja": "希少皮膚疾患と血管異常に対する新しい治療法QTORINラパマイシンの進化",
-  "summary_ja": "この記事では、魚鱗癬などの希少な皮膚疾患に向けた新しい治療薬「QTORINラパマイシン」について解説しています。この薬は、皮膚の健康を取り戻すために重要な働きを持つ成分ラパマイシンを含んでいます。研究によると、これにより症状が効果的に改善され、日常生活の質を向上させる可能性があります。魚鱗癬の患者さんに、新たな希望と選択肢を提供するものとして期待されています。治療の進展に伴い、さらなる情報収集と議論が求められます。",
-  "category": "新薬・治療法",
+  "source": "pubmed",
+  "source_id": "41912165",
+  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
+  "title_ja": "ハーレキン魚鱗癬の臨床特性に関するレビュー",
+  "summary_ja": "この研究は、非常に珍しく深刻な先天性疾患であるハーレキン魚鱗癬についての国際的な事例報告をまとめたものです。患者の多くが指定されていない遺伝子変異を持ちながら、30.9%が特定の遺伝子ABCA12の変異を持っていることがわかりました。この情報は、より良い治療戦略を立てるために役立ちます。研究は魚鱗癬の患者さんにとって、新しい治療法の可能性を示唆するものであり、将来的な治療改善の希望になるかもしれません。ただし、全ての患者に当てはまるわけではないため、専門家と相談しながら利用する必要があります。",
+  "category": "研究論文",
   "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMUljUWpVSlE5aHRXbzBGNGdZSWdHVXVySVczb3Y4Zm9mUlloTGFNVjd6dFVrWktRTHkwYmNvSnZsNG10ZUxvV3RmODhOaU1Cd2VQaUJsczlhWTVmdTJJSXpEZW1DQS1GTXNsTS1CQm9kb1FiUm9rTTF1QjZlLWJ4QW9zWjM3ZEdiRkJuU2NBYWhzUkxyM0tWNWF4NWtENTNkemsySW1GTGQzTktMSmlpOVJjVFh6dUNtbXIwRWNDYnlGa0RCZkNGVmlmdFUyMEZ1SzFPZFM4TVdGTlliVUMzRlNqNlp4VlpDeGZwS0x5SQ?oc=5",
-  "published_date": "2026-03-31",
-  "curation_reasoning": "QTORINラパマイシンは希少疾患への新たな治療アプローチを提供し、患者さんに有益な情報を提供します。",
-  "drugs_json": "[{\"drug_name\": \"QTORINラパマイシン\", \"ingredients\": \"ラパマイシン\", \"description\": \"希少皮膚疾患の改善を目的とした治療薬\"}]",
-  "created_at": "2026-04-01 12:11:14"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
+  "published_date": "2026 Jan 30",
+  "curation_reasoning": "魚鱗癬の診断と治療に重要な遺伝的情報が含まれており、患者のケアに役立ちます。",
+  "drugs_json": "[]",
+  "created_at": "2026-04-01 12:28:11"
 }

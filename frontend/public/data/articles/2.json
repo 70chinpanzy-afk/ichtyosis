@@ -1,16 +1,16 @@
 {
   "id": 2,
   "digest_date": "2026-04-01",
-  "source": "google_news:simplywall.st",
-  "source_id": "63e401354fe1e073",
-  "original_title": "Palvella Hire Highlights QTORIN Launch Plans And Deep Rare Skin Focus - simplywall.st",
-  "title_ja": "希少皮膚疾患に向けた新しい治療薬QTORINの紹介",
-  "summary_ja": "この記事は、希少な皮膚疾患に対する新しい治療薬「QTORIN」がどのように計画されているかを紹介しています。QTORINは、主に魚鱗癬（うろこ状の皮膚を形成する病気）の治療に向けられた薬です。この治療薬は、皮膚のバリアを補強し症状を改善するために設計されています。魚鱗癬の患者さんにとって、症状緩和の日常的なケアと並行して、効果的な治療法の選択肢が広がることが期待されます。今後、患者さんの役に立つ正確な情報提供が求められます。",
+  "source": "google_news:Minichart",
+  "source_id": "8f4d5f03b2fbc323",
+  "original_title": "Palvella Therapeutics QTORIN Rapamycin: Novel Treatment Advancements for Rare Skin Diseases and Vascular Malformations - Minichart",
+  "title_ja": "稀少な皮膚疾患への新しい治療法「QTORINラパマイシン」が登場",
+  "summary_ja": "このニュースは、稀少な皮膚疾患の治療の進展についてです。Palvella Therapeutics社が開発したQTORINラパマイシンという新しい薬が、皮膚の状態を改善する可能性があるとされています。特に、遺伝的な要因で皮膚に問題が生じる患者さんに効果が期待されています。魚鱗癬などの稀少疾患にも適用が期待され、患者さんの生活の質を向上させる可能性があります。ただし、実際に効果が確認されるまでには時間がかかるかもしれません。",
   "category": "新薬・治療法",
-  "relevance_score": 0.9,
-  "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdjliM0c2aU4zV3RQUFRmaXBUMVhUTHJDNEFxajRyUXRpZkdUVGxkZFp5QkJ1YlZ6S21IZXkxaFBjU3FfMHppQXN6N1E0RVk3SFh1cTd2bG5QcVN2cHlxLVRwbjN4cVZZa0lfbWYzLTF0eFlzTGNpcnlfd3lpelhITmlWY0x6QkFTMEhFSGRDak1zcWJld1BMOGs2bTNCei1NeWNHUTFjcmM5dF9rcXJCTU9uUlFPQ00yZ2l6bW03SF9FQVFtNEZ5aXFZenlmRHo1ZG5pTExWc251ZTM4RTJsOFFxbW96aDdrVEZr0gHwAUFVX3lxTE5kWDBWRWZBS1gyeGhfa2NVd0szcTN3aVlibEp6aEpSZE5menljdnJRbUpMQktud2ZrSmkwNkZTcXhHT1M3bjkwMWRsRnVmUnIyejBCU1FsMGhvRGNVNlg5Q21adDF6bUx2bFVtYUJEd3dmT3psQkZIcDlacEVJRWJfS0lRUlAtczdIeGxfSXdza0dVcXVBRjR4WDY2V1VTR0FETC1tdDNpY3BuWGMta0NKN1Z5S283cG5SeVEzUHdWUUN4TmxqUTBXcXk3d1l3OVJ2Q21UbzFMQ1V5YVZBY3IwaENidTVtcHV4dkY4RkVTcg?oc=5",
-  "published_date": "2026-03-30",
-  "curation_reasoning": "QTORINは魚鱗癬の新しい治療選択肢として有望であるため、患者さんに重要な情報です。",
-  "drugs_json": "[{\"drug_name\": \"QTORIN\", \"ingredients\": \"不明（実験段階の薬）\", \"description\": \"希少皮膚疾患の症状を和らげるために開発された新しい治療薬\"}]",
-  "created_at": "2026-04-01 12:11:14"
+  "relevance_score": 1.0,
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMUljUWpVSlE5aHRXbzBGNGdZSWdHVXVySVczb3Y4Zm9mUlloTGFNVjd6dFVrWktRTHkwYmNvSnZsNG10ZUxvV3RmODhOaU1Cd2VQaUJsczlhWTVmdTJJSXpEZW1DQS1GTXNsTS1CQm9kb1FiUm9rTTF1QjZlLWJ4QW9zWjM3ZEdiRkJuU2NBYWhzUkxyM0tWNWF4NWtENTNkemsySW1GTGQzTktMSmlpOVJjVFh6dUNtbXIwRWNDYnlGa0RCZkNGVmlmdFUyMEZ1SzFPZFM4TVdGTlliVUMzRlNqNlp4VlpDeGZwS0x5SQ?oc=5",
+  "published_date": "2026-03-31",
+  "curation_reasoning": "この記事では、魚鱗癬を含む稀少な皮膚疾患の新しい治療法、QTORINラパマイシンが紹介されています。患者さんやそのご家族にとって希望となる情報です。",
+  "drugs_json": "[{\"drug_name\": \"QTORINラパマイシン（QTORIN Rapamycin）\", \"ingredients\": \"ラパマイシン（Rapamycin）\", \"description\": \"細胞の成長を抑えることで肌の問題を改善する可能性のある薬\"}]",
+  "created_at": "2026-04-01 12:28:11"
 }
