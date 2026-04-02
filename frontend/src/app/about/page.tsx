@@ -1,3 +1,16 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IchthyoCureについて",
+  description:
+    "IchthyoCureは魚鱗癬紅皮症の最新研究・治療法・ケア情報を毎日自動キュレーションするサイトです。PubMed、Google News、Redditから情報を収集し、わかりやすい日本語でお届けします。",
+  openGraph: {
+    title: "IchthyoCureについて",
+    description:
+      "魚鱗癬紅皮症の最新医療情報を毎日お届け。患者さんとご家族のための情報サイトです。",
+  },
+};
+
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto">

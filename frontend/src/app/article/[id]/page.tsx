@@ -1,183 +1,90 @@
-"use client";
+import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
+import ArticleContent from "./ArticleContent";
 
-import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
-import Link from "next/link";
-import {
-  Article,
-  Category,
-  CATEGORY_CONFIG,
-  getArticle,
-  getArticleRegion,
-  REGION_CONFIG,
-} from "@/lib/api";
+type Props = {
+  params: Promise<{ id: string }>;
+};
 
-export default function ArticleDetailPage() {
-  const params = useParams();
-  const [article, setArticle] = useState<Article | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function load() {
-      try {
-        const id = Number(params.id);
-        if (!isNaN(id)) {
-          const data = await getArticle(id);
-          setArticle(data);
-        }
-      } catch {
-        setArticle(null);
-      } finally {
-        setLoading(false);
-      }
+async function getArticleData(id: string) {
+  try {
+    const filePath = path.join(process.cwd(), `public/data/articles/${id}.json`);
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      return data;
     }
-    load();
-  }, [params.id]);
-
-  if (loading) {
-    return (
-      <div className="flex justify-center py-20">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
-      </div>
-    );
+  } catch {
+    // ファイルが存在しない場合
   }
+  return null;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params;
+  const article = await getArticleData(id);
 
   if (!article) {
-    return (
-      <div className="text-center py-20">
-        <p className="text-slate-500">記事が見つかりませんでした。</p>
-        <Link
-          href="/"
-          className="text-blue-600 hover:underline mt-4 inline-block"
-        >
-          トップへ戻る
-        </Link>
-      </div>
-    );
+    return { title: "記事が見つかりません" };
   }
 
-  const category = article.category as Category;
-  const config = category ? CATEGORY_CONFIG[category] : null;
-  const region = getArticleRegion(article);
-  const regionConfig = REGION_CONFIG[region];
+  const title = article.title_ja || article.original_title || "記事詳細";
+  const description = article.summary_ja
+    ? article.summary_ja.substring(0, 160)
+    : "魚鱗癬紅皮症に関する医療情報";
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      publishedTime: article.published_date || undefined,
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+  };
+}
+
+export default async function ArticleDetailPage({ params }: Props) {
+  const { id } = await params;
+  const articleId = Number(id);
+
+  // 記事用のJSON-LD構造化データ
+  const article = await getArticleData(id);
+  const jsonLd = article
+    ? {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        headline: article.title_ja || article.original_title,
+        description: article.summary_ja?.substring(0, 300),
+        datePublished: article.published_date || article.digest_date,
+        dateModified: article.digest_date,
+        publisher: {
+          "@type": "Organization",
+          name: "IchthyoCure",
+        },
+        about: {
+          "@type": "MedicalCondition",
+          name: "魚鱗癬紅皮症",
+          alternateName: "Ichthyosis Erythroderma",
+        },
+      }
+    : null;
 
   return (
-    <div className="max-w-3xl mx-auto">
-      {/* Breadcrumb */}
-      <nav className="text-sm text-slate-500 mb-6">
-        <Link href="/" className="hover:text-blue-600">
-          トップ
-        </Link>
-        <span className="mx-2">/</span>
-        <Link
-          href={`/archive?date=${article.digest_date}`}
-          className="hover:text-blue-600"
-        >
-          {article.digest_date}
-        </Link>
-        <span className="mx-2">/</span>
-        <span className="text-slate-700">記事詳細</span>
-      </nav>
-
-      {/* Category & Region Badge */}
-      <div className="flex items-center gap-2 mb-3 flex-wrap">
-        {config && (
-          <span
-            className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border ${config.bgColor} ${config.color}`}
-          >
-            {config.emoji} {category}
-          </span>
-        )}
-        <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border bg-slate-50 border-slate-200 text-slate-600">
-          {regionConfig.emoji} {regionConfig.label}
-        </span>
-        {article.relevance_score != null && (
-          <span className="text-sm text-slate-500">
-            重要度: {Math.round(article.relevance_score * 100)}%
-          </span>
-        )}
-      </div>
-
-      {/* Title */}
-      <h1 className="text-2xl font-bold text-slate-800 leading-snug mb-2">
-        {article.title_ja || article.original_title || "タイトルなし"}
-      </h1>
-
-      {article.title_ja && article.original_title && (
-        <p className="text-sm text-slate-500 mb-4 italic">
-          {article.original_title}
-        </p>
+    <>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       )}
-
-      {/* Meta */}
-      <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 mb-6 pb-6 border-b border-slate-200">
-        <span>ソース: {article.source}</span>
-        {article.published_date && (
-          <span>発行日: {article.published_date}</span>
-        )}
-        <span>配信日: {article.digest_date}</span>
-      </div>
-
-      {/* Summary */}
-      {article.summary_ja && (
-        <div className="mb-6">
-          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            要約
-          </h2>
-          <div className="bg-white rounded-lg border border-slate-200 p-5">
-            <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
-              {article.summary_ja}
-            </p>
-          </div>
-        </div>
-      )}
-
-      {/* Curation Reasoning */}
-      {article.curation_reasoning && (
-        <div className="mb-6">
-          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
-            キュレーション理由
-          </h2>
-          <p className="text-sm text-slate-600 bg-slate-100 rounded-lg p-4">
-            {article.curation_reasoning}
-          </p>
-        </div>
-      )}
-
-      {/* Link to original */}
-      {article.url && (
-        <div className="mt-8">
-          <a
-            href={article.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-sm font-medium"
-          >
-            原文を読む
-            <svg
-              className="h-4 w-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
-          </a>
-        </div>
-      )}
-
-      {/* Disclaimer */}
-      <div className="mt-10 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-800">
-        <p className="font-medium mb-1">ご注意</p>
-        <p>
-          この情報はAIによるキュレーションです。投資判断や重要な意思決定の際は必ず原文をご確認ください。
-        </p>
-      </div>
-    </div>
+      <ArticleContent id={articleId} />
+    </>
   );
 }

@@ -13,16 +13,56 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://ichtyosis.vercel.app";
+const SITE_NAME = "IchthyoCure";
+const SITE_DESCRIPTION =
+  "魚鱗癬紅皮症（先天性魚鱗癬様紅皮症・層板状魚鱗癬）に関する最新の研究・治療法・薬品情報・スキンケア方法を毎日AIがキュレーション。患者さんとご家族のための医療情報サイトです。";
+
 export const metadata: Metadata = {
-  title: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報",
-  description:
-    "魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日キュレーション。患者さんとご家族のための情報サイトです。",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報キュレーション",
+    template: "%s | IchthyoCure",
+  },
+  description: SITE_DESCRIPTION,
+  keywords: [
+    "魚鱗癬",
+    "魚鱗癬紅皮症",
+    "先天性魚鱗癬様紅皮症",
+    "層板状魚鱗癬",
+    "ichthyosis",
+    "ichthyosis erythroderma",
+    "皮膚疾患",
+    "希少疾患",
+    "スキンケア",
+    "保湿剤",
+    "遺伝子治療",
+    "治療法",
+    "臨床試験",
+  ],
   openGraph: {
     title: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報",
-    description:
-      "魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日キュレーション。患者さんとご家族のための情報サイトです。",
+    description: SITE_DESCRIPTION,
     type: "website",
     locale: "ja_JP",
+    siteName: SITE_NAME,
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary",
+    title: "IchthyoCure - 魚鱗癬紅皮症の最新医療情報",
+    description: SITE_DESCRIPTION,
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
@@ -33,6 +73,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "IchthyoCure",
+              alternateName: "イクチオキュア",
+              url: "https://ichtyosis.vercel.app",
+              description: SITE_DESCRIPTION,
+              publisher: {
+                "@type": "Organization",
+                name: "IchthyoCure",
+              },
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://ichtyosis.vercel.app/archive?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 min-h-screen`}
       >
@@ -83,7 +147,7 @@ export default function RootLayout({
               IchthyoCure - 魚鱗癬紅皮症の最新情報を毎日お届け
             </p>
             <p className="mt-1">
-              AIによる自動キュレーションです。投資判断等にはご自身でご確認ください。
+              AIによる自動キュレーションです。治療に関する判断は必ず主治医にご相談ください。
             </p>
           </div>
         </footer>
