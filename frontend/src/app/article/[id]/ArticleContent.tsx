@@ -9,7 +9,9 @@ import {
   getArticle,
   getArticleRegion,
   REGION_CONFIG,
+  parseDrugs,
 } from "@/lib/api";
+import RelatedProducts from "@/components/RelatedProducts";
 
 export default function ArticleContent({ id }: { id: number }) {
   const [article, setArticle] = useState<Article | null>(null);
@@ -167,6 +169,12 @@ export default function ArticleContent({ id }: { id: number }) {
           </a>
         </div>
       )}
+
+      {/* Related Products */}
+      <RelatedProducts
+        articleCategory={article.category}
+        drugs={parseDrugs(article.drugs_json).map((d) => d.drug_name)}
+      />
 
       {/* Disclaimer */}
       <div className="mt-10 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-amber-800">

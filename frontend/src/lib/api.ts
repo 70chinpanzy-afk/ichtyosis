@@ -18,6 +18,12 @@ export interface DigestSummary {
 
 export type Region = "japan" | "international";
 
+export interface DrugInfo {
+  drug_name: string;
+  ingredients: string;
+  description: string;
+}
+
 export interface Article {
   id: number;
   digest_date: string;
@@ -32,7 +38,20 @@ export interface Article {
   url: string | null;
   published_date: string | null;
   curation_reasoning: string | null;
+  drugs_json: string | null;
   created_at: string | null;
+}
+
+/** drugs_json文字列をDrugInfo配列にパース */
+export function parseDrugs(drugsJson: string | null | undefined): DrugInfo[] {
+  if (!drugsJson) return [];
+  try {
+    const parsed = JSON.parse(drugsJson);
+    if (Array.isArray(parsed)) return parsed;
+  } catch {
+    // パース失敗
+  }
+  return [];
 }
 
 export type Category =
