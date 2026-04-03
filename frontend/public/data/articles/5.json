@@ -1,16 +1,16 @@
 {
   "id": 5,
-  "digest_date": "2026-04-01",
+  "digest_date": "2026-04-03",
   "source": "pubmed",
-  "source_id": "41919337",
-  "original_title": "Comparative efficacy of targeted systemic therapies for moderate-to-severe atopic dermatitis: a network meta-analysis of phase 3-4 randomized trials.",
-  "title_ja": "中等度から重度のアトピー性皮膚炎に対する新しい全身治療薬の効果比較",
-  "summary_ja": "この研究は、中等度から重度のアトピー性皮膚炎に対する新しい全身治療薬の効果を比較したものです。特にウパダシチニブという新しい治療薬が非常に高い効果を示しました。こうした全身治療薬は、魚鱗癬のような皮膚の治療においても新しい可能性を示すことが期待できます。特に長い間困っているかゆみや皮膚の炎症を抑える新しい方法として注目されています。",
-  "category": "関連疾患からの知見",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/",
-  "published_date": "2026 Dec",
-  "curation_reasoning": "新しい全身治療薬の効果が示されており、魚鱗癬のような疾患に対する新たな治療の可能性が期待できるため。",
-  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックする新しいタイプの薬。\"}]",
-  "created_at": "2026-04-01 22:42:27"
+  "source_id": "41914526",
+  "original_title": "Skin Barrier Dysfunction in Contact and Atopic Dermatitis: A Comparative Review.",
+  "title_ja": "皮膚バリアの機能改善による皮膚炎対策",
+  "summary_ja": "この研究は皮膚の一番外側の層（皮膚バリア）の破壊と皮膚炎の関係について解説しています。皮膚バリアの修復には、セラミドという成分を含んだ保湿剤が効果的とされています。この情報は、日常的に皮膚を保護するためのケアとして、魚鱗癬の患者さんにも役立つでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41914526/",
+  "published_date": "2026 Mar",
+  "curation_reasoning": "皮膚バリアの修復が魚鱗癬のケアに重要であるため、有用な情報です。",
+  "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚の保護バリアを修復する脂質を含む保湿剤\"}]",
+  "created_at": "2026-04-03 13:58:57"
 }

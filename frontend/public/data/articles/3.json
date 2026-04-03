@@ -1,16 +1,16 @@
 {
   "id": 3,
-  "digest_date": "2026-04-01",
-  "source": "google_news:dermatologyadvisor.com",
-  "source_id": "9999c79d3066ed2d",
-  "original_title": "Immunomodulatory Therapy May Reduce Some Comorbidities in Congenital Ichthyosis - dermatologyadvisor.com",
-  "title_ja": "免疫調整治療が先天性魚鱗癬の合併症を減少させる可能性",
-  "summary_ja": "この研究は、免疫調整治療が先天性魚鱗癬における一部の合併症を減らす可能性についてです。免疫調整治療は、体の免疫反応を調整して炎症を抑える方法で、皮膚の健康を改善する可能性があります。魚鱗癬の患者さんが苦しむ合併症、例えば炎症性の皮膚症状を和らげる効果も期待できます。この治療が実際に多くの患者さんにどれだけ効果があるかは、今後の更なる研究が必要です。",
+  "digest_date": "2026-04-03",
+  "source": "clinical_trials",
+  "source_id": "NCT05856526",
+  "original_title": "EvasayilTM : A Placebo-controlled Trial to Evaluate the Efficacy and Safety of Spesolimab in the Treatment of Patients With Netherton Syndrome",
+  "title_ja": "スペソリマブのネザートン症候群治療効果を評価する試験",
+  "summary_ja": "この研究は、ネザートン症候群という皮膚の病気を持つ人たちを対象に、新しい薬スペソリマブが効果的かどうかを調べるためのものです。参加者はスペソリマブを注射で受け、その後3年間の間に定期的に健康状態がチェックされます。皮膚の炎症を抑える可能性があるので、魚鱗癬に類似した症状を持つ方にも注目されています。患者さん自身の体験を通じて、この薬が新たな希望を提供する可能性があります。",
   "category": "新薬・治療法",
-  "relevance_score": 1.0,
-  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMi1YSGxvQUFzWVpRbjdSWlpLb05YeHl5Ul95S2s5NVlTS2hjOXphb285SHhJN0szQ1MzX0F3UTgwRTFNVk1ha0VpTXhNTHRNOTZ6YkMyLU9sTVZYd3lIS1JTSG5kcF80bm0zanotd1NQRVZHNWc3YzJfTWcycWljZVgtcFJrbzFKb2NCNmdJSjV2RUFtNkdnZ205UmwzTWRLT1FteWRFa0J6ZEVFTjh4ZndMTlk2UUE?oc=5",
-  "published_date": "2026-04-01",
-  "curation_reasoning": "合併症を軽減する治療法は患者の日常生活を改善する可能性があり、重要と判断しました。",
-  "drugs_json": "[]",
-  "created_at": "2026-04-01 22:42:27"
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05856526",
+  "published_date": "2026-03-12",
+  "curation_reasoning": "スペソリマブは皮膚の炎症を抑える薬で、魚鱗癬にも応用可能な治療法として期待できます。",
+  "drugs_json": "[{\"drug_name\": \"スペソリマブ\", \"ingredients\": \"特定されていない\", \"description\": \"皮膚の炎症を抑える注射薬\"}]",
+  "created_at": "2026-04-03 13:58:57"
 }
