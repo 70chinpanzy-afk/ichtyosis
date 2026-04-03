@@ -4,17 +4,15 @@ import { useState, useEffect } from "react";
 import {
   Article,
   Category,
-  Region,
   getDigests,
   getDigestByDate,
-  getArticleRegion,
   DigestSummary,
 } from "@/lib/api";
 import ArticleCard from "@/components/ArticleCard";
 import CategoryFilter from "@/components/CategoryFilter";
 import DigestHeader from "@/components/DigestHeader";
-import RegionTabs from "@/components/RegionTabs";
 import SearchBar from "@/components/SearchBar";
+import { FeaturedProducts } from "@/components/RelatedProducts";
 
 export default function Home() {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -22,7 +20,6 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(
     null
   );
-  const [selectedRegion, setSelectedRegion] = useState<Region | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -47,26 +44,12 @@ export default function Home() {
     load();
   }, []);
 
-  // Region filtering
-  const regionFilteredArticles = selectedRegion
-    ? articles.filter((a) => getArticleRegion(a) === selectedRegion)
+  const filteredArticles = selectedCategory
+    ? articles.filter((a) => a.category === selectedCategory)
     : articles;
 
-  // Category filtering (on top of region)
-  const filteredArticles = selectedCategory
-    ? regionFilteredArticles.filter((a) => a.category === selectedCategory)
-    : regionFilteredArticles;
-
-  // Region counts
-  const regionCounts = { japan: 0, international: 0 };
-  for (const a of articles) {
-    const r = getArticleRegion(a);
-    regionCounts[r]++;
-  }
-
-  // Category counts (within selected region)
   const categoryCounts: Record<string, number> = {};
-  for (const a of regionFilteredArticles) {
+  for (const a of articles) {
     if (a.category) {
       categoryCounts[a.category] = (categoryCounts[a.category] || 0) + 1;
     }
@@ -78,7 +61,7 @@ export default function Home() {
     return (
       <div className="flex flex-col items-center justify-center py-20">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mb-4" />
-        <p className="text-slate-500">最新のニュースを取得中...</p>
+        <p className="text-slate-500">最新のキュレーション情報を取得中...</p>
       </div>
     );
   }
@@ -91,7 +74,7 @@ export default function Home() {
           IchthyoCure へようこそ
         </h2>
         <p className="text-slate-500 mb-6 max-w-md mx-auto">
-          魚鱗癬紅皮症に関する最新の研究・治療法・ケア情報を毎日お届けします。
+          魚鱗癬紅皮症に関する最新の医学情報を毎日キュレーションしてお届けします。
         </p>
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 max-w-md mx-auto">
           <p className="text-sm text-amber-800">{error}</p>
@@ -109,7 +92,7 @@ export default function Home() {
   if (articles.length === 0) {
     return (
       <div className="text-center py-20">
-        <p className="text-6xl mb-4">{"\u{1f4f0}"}</p>
+        <p className="text-6xl mb-4">{"\u{1f52c}"}</p>
         <h2 className="text-xl font-bold text-slate-800 mb-2">
           まだキュレーション記事がありません
         </h2>
@@ -133,16 +116,6 @@ export default function Home() {
       {/* Digest Header */}
       <DigestHeader date={latestDate} articleCount={articles.length} />
 
-      {/* Region Tabs */}
-      <RegionTabs
-        selected={selectedRegion}
-        onSelect={(region) => {
-          setSelectedRegion(region);
-          setSelectedCategory(null);
-        }}
-        counts={regionCounts}
-      />
-
       {/* Category Filter */}
       <div className="mb-6">
         <CategoryFilter
@@ -161,9 +134,12 @@ export default function Home() {
 
       {filteredArticles.length === 0 && (
         <p className="text-center text-slate-500 py-10">
-          該当する記事はありません。
+          このカテゴリの記事はありません。
         </p>
       )}
+
+      {/* Featured Products (Affiliate) */}
+      <FeaturedProducts />
 
       {/* Recent Digests */}
       {digests.length > 1 && (
