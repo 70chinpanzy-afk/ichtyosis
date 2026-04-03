@@ -21,11 +21,11 @@ export default function RelatedProducts({
   articleCategory,
   drugs,
 }: {
-  articleCategory: string;
+  articleCategory: string | null;
   drugs?: string[];
 }) {
   const products = useMemo(
-    () => getRelatedProducts(articleCategory, 3),
+    () => getRelatedProducts(articleCategory || "", 3),
     [articleCategory]
   );
 
