@@ -1,10 +1,10 @@
 name: Daily Ichthyosis Curation
 
 on:
-  # schedule disabled — 自動キュレーション停止中
-  # schedule:
-  #   - cron: '0 22 * * *'
-  workflow_dispatch: # 手動実行のみ
+  schedule:
+    # 毎朝7時 JST（UTC 22:00 前日）
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 手動実行も可能
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
-          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
+          FRONTEND_URL: https://ichtyosis.vercel.app
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
         run: PYTHONPATH=. python -m ichthyosis_curator --verbose
 
@@ -50,5 +50,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add frontend/public/data/
           git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "Daily curation update $(date +%Y-%m-%d)"
+          git commit -m "daily: $(date +%Y-%m-%d) curated articles"
           git push
