@@ -4,13 +4,13 @@
   "source": "pubmed",
   "source_id": "41914526",
   "original_title": "Skin Barrier Dysfunction in Contact and Atopic Dermatitis: A Comparative Review.",
-  "title_ja": "皮膚バリアの機能改善による皮膚炎対策",
-  "summary_ja": "この研究は皮膚の一番外側の層（皮膚バリア）の破壊と皮膚炎の関係について解説しています。皮膚バリアの修復には、セラミドという成分を含んだ保湿剤が効果的とされています。この情報は、日常的に皮膚を保護するためのケアとして、魚鱗癬の患者さんにも役立つでしょう。",
+  "title_ja": "接触性皮膚炎とアトピー性皮膚炎の皮膚バリア障害：保湿剤の重要性",
+  "summary_ja": "皮膚バリアが弱くなり皮膚炎が悪化することがありますが、この研究ではそのメカニズムを探っています。特に、皮膚を守るためのセラミドを含む保湿剤が重要であることが明らかになりました。皮膚バリアの強化は魚鱗癬のケアにもつながるため、保湿方法を見直すきっかけになるでしょう。日常的な保湿ケアが症状軽減につながる可能性があります。",
   "category": "ケア・対処法",
   "relevance_score": 0.7,
   "url": "https://pubmed.ncbi.nlm.nih.gov/41914526/",
   "published_date": "2026 Mar",
-  "curation_reasoning": "皮膚バリアの修復が魚鱗癬のケアに重要であるため、有用な情報です。",
-  "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚の保護バリアを修復する脂質を含む保湿剤\"}]",
-  "created_at": "2026-04-03 13:58:57"
+  "curation_reasoning": "皮膚バリアを修復する保湿剤の使用は、魚鱗癬の対策にも共通するため、有用な知見が得られます。",
+  "drugs_json": "[]",
+  "created_at": "2026-04-03 22:43:04"
 }

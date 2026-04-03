@@ -1,16 +1,16 @@
 {
   "id": 7,
-  "digest_date": "2026-04-01",
-  "source": "clinical_trials",
-  "source_id": "NCT05521438",
-  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
-  "title_ja": "ネザートン症候群に対するQRX003ローションの安全性と効果を調べる多施設試験",
-  "summary_ja": "この研究は、ネザートン症候群という皮膚疾患患者にQRX003ローションを使用する際の安全性と効果を検証するものです。参加者は異なる濃度のローションを使い、それが症状の改善にどの程度効果があるかを確認します。新しいスキンケア製品の登場は、魚鱗癬患者にも新しい治療の選択肢を提供するかもしれません。",
+  "digest_date": "2026-04-03",
+  "source": "pubmed",
+  "source_id": "41931696",
+  "original_title": "Racial and Ethnic Representation in Clinical Trials of Janus Kinase Inhibitors for Dermatologic Conditions: A Systematic Review.",
+  "title_ja": "皮膚病治療薬の臨床試験における多様性についての研究",
+  "summary_ja": "新しい治療薬であるJAK阻害薬が皮膚病にどのように効果を示すかを調べる試験の中で、人種や民族による効果の違いが重要であることが指摘されています。これにより、魚鱗癬などに使われる時の効果予測や治療個別化のヒントが得られるかもしれません。さまざまな背景を持つ患者さんにとって効果があるよう、今後も多様な研究が期待されています。",
   "category": "研究論文",
-  "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT05521438",
-  "published_date": "2026-03-16",
-  "curation_reasoning": "新しいスキンケア製品が魚鱗癬治療にも役立つ可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"QRX003ローション（QRX003 Lotion）\", \"ingredients\": \"QRX003\", \"description\": \"ネザートン症候群に使用されるローション。\"}]",
-  "created_at": "2026-04-01 22:42:27"
+  "relevance_score": 0.5,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41931696/",
+  "published_date": "2026 Apr 01",
+  "curation_reasoning": "JAK阻害薬の試験における多様性の理解は、魚鱗癬治療の個別化に役立つ可能性があります。",
+  "drugs_json": "[]",
+  "created_at": "2026-04-03 22:43:04"
 }
