@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
-import fs from "fs";
-import path from "path";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://ichtyosis.vercel.app";
   const entries: MetadataRoute.Sitemap = [
     {
@@ -27,23 +25,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 記事ページを動的に追加
   try {
-    const articlesDir = path.join(process.cwd(), "public/data/articles");
-    if (fs.existsSync(articlesDir)) {
-      const files = fs.readdirSync(articlesDir);
-      for (const file of files) {
-        if (file.endsWith(".json")) {
-          const id = file.replace(".json", "");
-          entries.push({
-            url: `${baseUrl}/article/${id}`,
-            lastModified: new Date(),
-            changeFrequency: "weekly",
-            priority: 0.7,
-          });
+    const res = await fetch(`${baseUrl}/data/digests.json`);
+    if (res.ok) {
+      const digests = await res.json();
+      for (const digest of digests) {
+        const articlesRes = await fetch(
+          `${baseUrl}/data/digests/${digest.date}.json`
+        );
+        if (articlesRes.ok) {
+          const articles = await articlesRes.json();
+          for (const article of articles) {
+            entries.push({
+              url: `${baseUrl}/article/${article.id}`,
+              lastModified: new Date(),
+              changeFrequency: "weekly",
+              priority: 0.7,
+            });
+          }
         }
       }
     }
   } catch {
-    // 記事ディレクトリが存在しない場合はスキップ
+    // フェッチ失敗時はスキップ
   }
 
   return entries;
