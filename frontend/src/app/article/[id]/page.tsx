@@ -135,6 +135,20 @@ export default function ArticleDetailPage() {
         </div>
       )}
 
+      {/* Patient Insight */}
+      {article.patient_insight && (
+        <div className="mb-6">
+          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-2">
+            患者さんへのポイント
+          </h2>
+          <div className="bg-sky-50 rounded-lg border border-sky-200 p-5">
+            <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
+              {article.patient_insight}
+            </p>
+          </div>
+        </div>
+      )}
+
       {/* Drugs */}
       {drugs.length > 0 && (
         <div className="mb-6">

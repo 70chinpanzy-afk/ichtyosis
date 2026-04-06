@@ -124,6 +124,7 @@ def run_daily_curation(config: CuratorConfig) -> bool:
             published_date=article.published_date,
             curation_reasoning=article.curation_reasoning,
             drugs_json=_json.dumps(drugs_data, ensure_ascii=False),
+            patient_insight=article.patient_insight,
         )
         saved_ids.append(db_id)
 

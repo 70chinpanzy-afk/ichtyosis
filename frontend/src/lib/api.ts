@@ -39,6 +39,7 @@ export interface Article {
   published_date: string | null;
   curation_reasoning: string | null;
   drugs_json: string | null;
+  patient_insight: string | null;
   created_at: string | null;
 }
 

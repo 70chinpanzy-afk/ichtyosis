@@ -50,6 +50,7 @@ class CuratedArticle(BaseModel):
     url: str
     published_date: Optional[str] = None
     curation_reasoning: str = ""
+    patient_insight: str = Field(default="", description="患者さんへのポイント: この記事が患者さんやご家族にとって何を意味するか")
     drugs: list[DrugInfo] = Field(default_factory=list, description="記事に含まれる薬品リスト")
 
 
