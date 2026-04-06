@@ -114,12 +114,30 @@ export default function RootLayout({
                 </p>
               </div>
             </Link>
-            <nav className="flex gap-4 text-sm">
+            <nav className="flex flex-wrap gap-3 text-sm">
               <Link
                 href="/"
                 className="text-slate-600 hover:text-blue-600 transition"
               >
                 最新
+              </Link>
+              <Link
+                href="/ichthyosis"
+                className="text-slate-600 hover:text-blue-600 transition"
+              >
+                疾患解説
+              </Link>
+              <Link
+                href="/moisturizer-guide"
+                className="text-slate-600 hover:text-blue-600 transition"
+              >
+                保湿ガイド
+              </Link>
+              <Link
+                href="/faq"
+                className="text-slate-600 hover:text-blue-600 transition"
+              >
+                FAQ
               </Link>
               <Link
                 href="/archive"
