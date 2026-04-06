@@ -38,24 +38,22 @@ jobs:
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
         run: PYTHONPATH=. python -m ichthyosis_curator --verbose
 
-      - name: Post to X (Twitter)
+      - name: Post to Bluesky
         working-directory: backend
         env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: |
           PYTHONPATH=. python -c "
           from ichthyosis_curator.db import get_articles_by_date, get_digest_dates
-          from ichthyosis_curator.delivery.x_posting import post_to_x
+          from ichthyosis_curator.delivery.bluesky_posting import post_to_bluesky
           from ichthyosis_curator.config import CuratorConfig
           config = CuratorConfig()
           dates = get_digest_dates(config.db_path, limit=1)
           if dates:
               articles = get_articles_by_date(config.db_path, dates[0])
-              post_to_x(articles)
-          " || echo "X posting skipped or failed (non-fatal)"
+              post_to_bluesky(articles)
+          " || echo "Bluesky posting skipped or failed (non-fatal)"
 
       - name: Export to frontend
         working-directory: backend
