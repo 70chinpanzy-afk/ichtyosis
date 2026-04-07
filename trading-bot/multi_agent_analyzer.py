@@ -100,6 +100,29 @@ Respond with JSON:
 {"pattern": "uptrend/downtrend/sideways", "confidence": 0.0-1.0, "direction": "long/short/none", "reasoning": "brief trend assessment"}
 """
 
+AGENT_15M_ENTRY = """You are Agent 5: an entry timing specialist analyzing a 15-MINUTE candlestick chart.
+You are always trading at the RIGHTMOST edge of the chart.
+
+The chart shows:
+- Candlesticks with volume bars
+- EMA 20 (yellow), EMA 50 (cyan), EMA 200 (magenta dashed)
+- RSI(14) in the bottom panel
+
+Your task: Determine if THIS EXACT MOMENT is a good entry point.
+
+Evaluate:
+1. MICRO-STRUCTURE: Are the last 3-5 candles showing entry signals (pullback to EMA, bounce off support)?
+2. MOMENTUM SHIFT: Is RSI turning in the trade direction from a neutral zone?
+3. VOLUME SPIKE: Is there a volume increase in the last few candles?
+4. CANDLE PATTERNS: Look for engulfing, pin bars, or hammer candles at the right edge.
+5. IMMEDIATE RISK: Is there a nearby resistance (for longs) or support (for shorts) within 0.5%?
+
+This is about TIMING, not direction. The other agents decide direction — you decide if NOW is the right moment.
+
+Respond with JSON:
+{"pattern": "entry_confirmed/entry_wait/none", "confidence": 0.0-1.0, "direction": "long/short/none", "reasoning": "brief explanation of why now is or isn't a good entry"}
+"""
+
 AGENT_DEVILS_ADVOCATE = """You are Agent 4: the DEVIL'S ADVOCATE. Your job is to critically evaluate whether this trade is worth taking.
 You are always trading at the RIGHTMOST edge of the chart.
 
@@ -241,12 +264,25 @@ def multi_agent_analyze(image_path: Path,
                          "reasoning": "Failed to generate daily chart"}
     time.sleep(sleep_sec)
 
+    # --- Agent 5: 15m Entry Timing ---
+    print("      ⏱️  Agent 5 (15m Entry Timing)...")
+    chart_15m_bytes = _fetch_chart_bytes(symbol, "15m")
+    if chart_15m_bytes:
+        agent5_result = _call_gemini(
+            AGENT_15M_ENTRY, chart_15m_bytes,
+            "Is this the right moment to enter a trade? Focus on micro price action and timing.")
+    else:
+        agent5_result = {"pattern": "none", "confidence": 0, "direction": "none",
+                         "reasoning": "Failed to generate 15m chart"}
+    time.sleep(sleep_sec)
+
     # --- Agent 4: Devil's Advocate ---
     print("      😈 Agent 4 (Devil's Advocate)...")
     others_summary = json.dumps({
         "agent1_4h_pattern": agent1_result,
         "agent2_1h_momentum": agent2_result,
         "agent3_daily_trend": agent3_result,
+        "agent5_15m_entry": agent5_result,
     }, indent=2)
 
     devil_prompt = (f"The other agents analyzed this chart and concluded:\n\n"
@@ -257,13 +293,15 @@ def multi_agent_analyze(image_path: Path,
         AGENT_DEVILS_ADVOCATE, main_image_bytes, devil_prompt, temperature=0.3)
 
     # --- Consensus Decision ---
-    final = _compute_consensus(agent1_result, agent2_result, agent3_result, agent4_result)
+    final = _compute_consensus(agent1_result, agent2_result, agent3_result,
+                               agent4_result, agent5_result)
 
     result = {
         "agent1_pattern": agent1_result,
         "agent2_momentum": agent2_result,
         "agent3_trend": agent3_result,
         "agent4_devil": agent4_result,
+        "agent5_entry": agent5_result,
         "consensus": final,
         # Top-level fields for compatibility with backtester
         "pattern": final["pattern"],
@@ -275,18 +313,20 @@ def multi_agent_analyze(image_path: Path,
     return result
 
 
-def _compute_consensus(agent1: dict, agent2: dict, agent3: dict, agent4: dict) -> dict:
+def _compute_consensus(agent1: dict, agent2: dict, agent3: dict,
+                       agent4: dict, agent5: dict) -> dict:
     """Compute weighted consensus from all agents.
 
     Weights:
-      Agent 1 (4h Pattern):   0.40 — primary signal source
-      Agent 2 (1h Momentum):  0.25 — short-term confirmation
-      Agent 3 (Daily Trend):  0.25 — trend alignment
-      Agent 4 (Devil's Adv):  0.10 — veto power at high objection
+      Agent 1 (4h Pattern):    0.35 — primary signal source
+      Agent 2 (1h Momentum):   0.15 — short-term confirmation
+      Agent 3 (Daily Trend):   0.25 — trend alignment
+      Agent 5 (15m Entry):     0.15 — entry timing precision
+      Agent 4 (Devil's Adv):   veto power at high objection
 
-    Veto: If Agent 4 objection_strength >= 0.85, the trade is vetoed regardless.
+    Veto: If Agent 4 objection_strength >= 0.90, the trade is vetoed regardless.
     """
-    WEIGHTS = {"agent1": 0.40, "agent2": 0.20, "agent3": 0.30}  # Daily trend more important
+    WEIGHTS = {"agent1": 0.35, "agent2": 0.15, "agent3": 0.25, "agent5": 0.15}
     DEVIL_VETO_THRESHOLD = 0.90   # Only veto on critical issues
     CONSENSUS_THRESHOLD = 0.45    # Allow trades when 2/3 agents agree
 
@@ -295,6 +335,7 @@ def _compute_consensus(agent1: dict, agent2: dict, agent3: dict, agent4: dict) -
         "agent1": (agent1.get("direction", "none"), agent1.get("confidence", 0)),
         "agent2": (agent2.get("direction", "none"), agent2.get("confidence", 0)),
         "agent3": (agent3.get("direction", "none"), agent3.get("confidence", 0)),
+        "agent5": (agent5.get("direction", "none"), agent5.get("confidence", 0)),
     }
 
     # Devil's Advocate check
@@ -358,14 +399,14 @@ def _compute_consensus(agent1: dict, agent2: dict, agent3: dict, agent4: dict) -
     pattern = agent1.get("pattern", "none") if "agent1" in voters else "consensus_signal"
 
     # Build reasoning
-    agent_names = {"agent1": "4h Pattern", "agent2": "1h Momentum", "agent3": "Daily Trend"}
+    agent_names = {"agent1": "4h Pattern", "agent2": "1h Momentum", "agent3": "Daily Trend", "agent5": "15m Entry"}
     voter_labels = [agent_names.get(v, v) for v in voters]
     devil_note = ""
     if devil_risks:
         devil_note = f" ⚠️ Risks noted: {'; '.join(devil_risks[:2])}"
 
     reasoning = (f"Consensus {direction.upper()} ({confidence:.0%}). "
-                 f"Agreed: {', '.join(voter_labels)} ({len(voters)}/3).{devil_note}")
+                 f"Agreed: {', '.join(voter_labels)} ({len(voters)}/4).{devil_note}")
 
     return {
         "pattern": pattern,
@@ -383,6 +424,7 @@ def _format_votes(agents: dict, devil: dict) -> dict:
         "agent1_4h": {"dir": agents["agent1"][0], "conf": agents["agent1"][1]},
         "agent2_1h": {"dir": agents["agent2"][0], "conf": agents["agent2"][1]},
         "agent3_daily": {"dir": agents["agent3"][0], "conf": agents["agent3"][1]},
+        "agent5_15m": {"dir": agents.get("agent5", ("none", 0))[0], "conf": agents.get("agent5", ("none", 0))[1]},
         "agent4_devil": {
             "should_trade": devil.get("should_trade", True),
             "objection": devil.get("objection_strength", 0),
