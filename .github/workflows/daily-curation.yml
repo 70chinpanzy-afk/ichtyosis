@@ -36,7 +36,28 @@ jobs:
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
           FRONTEND_URL: https://ichtyosis.vercel.app
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
-        run: PYTHONPATH=. python -m ichthyosis_curator --verbose
+        run: |
+          echo "=== Starting curation ==="
+          echo "DB path: $(pwd)/ichthyosis_curator.db"
+          PYTHONPATH=. python -m ichthyosis_curator --verbose 2>&1 | tee /tmp/curation.log
+          echo "=== Curation complete ==="
+          echo "DB contents:"
+          PYTHONPATH=. python -c "
+          import sqlite3
+          conn = sqlite3.connect('ichthyosis_curator.db')
+          c = conn.cursor()
+          c.execute('SELECT COUNT(*) FROM curated_articles')
+          print(f'  curated_articles: {c.fetchone()[0]} rows')
+          c.execute('SELECT COUNT(*) FROM seen_articles')
+          print(f'  seen_articles: {c.fetchone()[0]} rows')
+          c.execute('SELECT * FROM run_log ORDER BY run_at DESC LIMIT 1')
+          cols = [d[0] for d in c.description]
+          row = c.fetchone()
+          if row:
+              r = dict(zip(cols, row))
+              print(f'  Latest run: scanned={r[\"sources_scanned\"]} found={r[\"articles_found\"]} curated={r[\"articles_curated\"]} sent={r[\"articles_sent\"]} status={r[\"status\"]} err={r.get(\"error_message\",\"\")}')
+          conn.close()
+          " || echo "DB check failed"
 
       - name: Post to Bluesky
         working-directory: backend
