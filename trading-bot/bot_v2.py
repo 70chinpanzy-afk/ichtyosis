@@ -29,6 +29,8 @@ from backtester import calculate_atr
 from kill_switch import KillSwitch
 from notifier import notify_signal, notify_close, notify_daily_summary, _send_discord
 from config import SYMBOLS, RESULT_DIR
+from sentiment import get_all_sentiments
+from funding_rate import get_funding_rates, find_arb_opportunities, format_funding_report
 
 STATE_PATH = RESULT_DIR / "bot_v2_state.json"
 JOURNAL_PATH = RESULT_DIR / "bot_v2_journal.json"
@@ -42,20 +44,25 @@ SYMBOL_MAP = {
     "BNB/USDT": "BNB_JPY",
 }
 
-# Optimized strategies per symbol (from grid search backtest)
+# Optimized strategies per symbol (grid search with multi-TF + volatility filters)
+# SOL excluded: 0% win rate across all parameter combos
 SYMBOL_STRATEGIES = {
     "BTC/USDT": [TrendFollowingStrategy(ema_fast=8, ema_slow=100, adx_threshold=35,
                                          atr_sl_mult=2.0, atr_tp_mult=3.0)],
     "XRP/USDT": [TrendFollowingStrategy(ema_fast=12, ema_slow=50, adx_threshold=30,
                                          atr_sl_mult=2.0, atr_tp_mult=3.0)],
+    "ETH/USDT": [TrendFollowingStrategy(ema_fast=8, ema_slow=100, adx_threshold=35,
+                                         atr_sl_mult=1.5, atr_tp_mult=3.0)],
+    "BNB/USDT": [TrendFollowingStrategy(ema_fast=20, ema_slow=100, adx_threshold=40,
+                                         atr_sl_mult=1.5, atr_tp_mult=3.0)],
 }
-# Only trade symbols with backtested profitable strategies
-DEFAULT_SYMBOLS = ["BTC/USDT", "XRP/USDT"]
+DEFAULT_SYMBOLS = ["BTC/USDT", "XRP/USDT", "ETH/USDT", "BNB/USDT"]
 MIN_ORDER_SIZE = {
     "BTC_JPY": 0.0001,
     "ETH_JPY": 0.01,
     "XRP_JPY": 1.0,
     "SOL_JPY": 0.01,
+    "BNB_JPY": 0.01,
 }
 
 
@@ -330,11 +337,28 @@ class TradingBotV2:
         if symbol in self.positions:
             return
 
-        # Generate signals (ZERO API calls!)
-        # Use symbol-specific optimized strategy if available
+        # Fetch daily data for multi-timeframe confirmation (施策1)
+        daily_df = None
+        try:
+            daily_df = fetch_ohlcv(symbol=symbol, timeframe="1d", limit=100)
+        except Exception:
+            pass
+
+        # Check news sentiment if available (施策3)
+        sentiment_modifier = 1.0
+        if hasattr(self, 'sentiment_cache') and symbol in self.sentiment_cache:
+            sent = self.sentiment_cache[symbol]
+            sentiment_modifier = sent.get("modifier", 1.0)
+            self._log(f"    📰 Sentiment: {sent.get('label', 'neutral')} ({sentiment_modifier:.2f})")
+
+        # Generate signals (ZERO API calls for core strategy!)
         strats = SYMBOL_STRATEGIES.get(symbol, self.strategies)
-        signals = run_all_strategies(df, strats)
+        signals = run_all_strategies(df, strats, daily_df=daily_df)
         best = select_best_signal(signals)
+
+        # Apply sentiment modifier to strength
+        if best and sentiment_modifier != 1.0:
+            best.strength = min(best.strength * sentiment_modifier, 1.0)
 
         if best is None or best.strength < self.min_strength:
             if signals:
@@ -377,9 +401,32 @@ class TradingBotV2:
         self._log(f"Capital: ${self.capital:,.2f} | Positions: {len(self.positions)} "
                   f"| Trades: {len(self.journal)}")
 
+        # Fetch news sentiment for all symbols (施策3)
+        try:
+            self.sentiment_cache = get_all_sentiments(self.symbols)
+            for sym, sent in self.sentiment_cache.items():
+                if sent["label"] != "neutral":
+                    self._log(f"  📰 {sym}: {sent['label']} (modifier={sent['modifier']})")
+        except Exception as e:
+            self._log(f"  ⚠️ Sentiment fetch failed: {e}")
+            self.sentiment_cache = {}
+
         for symbol in self.symbols:
             self._log(f"  {symbol}...")
             self.scan_symbol(symbol)
+
+        # Check funding rates for arbitrage (施策5)
+        try:
+            rates = get_funding_rates()
+            opps = find_arb_opportunities(rates)
+            if opps:
+                report = format_funding_report(rates, opps)
+                self._log(f"  💰 Funding rate arb: {len(opps)} opportunities")
+                for o in opps:
+                    self._log(f"    {o['strength']}: {o['symbol']} {o['daily_yield_pct']:.3f}%/day")
+                _send_discord(content=report)
+        except Exception as e:
+            self._log(f"  ⚠️ Funding rate check failed: {e}")
 
         self._print_status()
         self.save()
