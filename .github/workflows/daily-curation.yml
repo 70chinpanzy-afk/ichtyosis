@@ -59,13 +59,24 @@ jobs:
         working-directory: backend
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: PYTHONPATH=. python -m ichthyosis_curator --export ../frontend/public/data
+        run: |
+          PYTHONPATH=. python -m ichthyosis_curator --export ../frontend/public/data
+          echo "=== Export results ==="
+          cat ../frontend/public/data/digests.json | head -20
+          ls -la ../frontend/public/data/digests/ | tail -5
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add frontend/public/data/
-          git diff --cached --quiet && echo "No changes" && exit 0
+          echo "=== Files changed ==="
+          git diff --cached --stat
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "daily: $(date +%Y-%m-%d) curated articles"
-          git push
+          # Retry push with rebase in case of concurrent commits
+          for i in 1 2 3; do
+            git push && break
+            echo "Push failed (attempt $i), pulling with rebase..."
+            git pull --rebase origin main
+          done
