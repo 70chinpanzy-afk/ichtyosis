@@ -18,7 +18,7 @@ load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
 
 
-def _send_discord(content: str = "", embeds: list | None = None) -> bool:
+def _send_discord(content: str = "", embeds=None) -> bool:
     """Send a message via Discord Webhook.
 
     Returns True on success, False on failure.

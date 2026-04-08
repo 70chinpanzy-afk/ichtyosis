@@ -13,4 +13,4 @@ COPY *.py .
 RUN mkdir -p charts results
 
 # Run paper trader
-CMD ["python", "-u", "paper_trader.py", "--interval", "3600"]
+CMD ["python", "-u", "bot_v2.py", "--interval", "3600"]
