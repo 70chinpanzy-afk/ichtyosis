@@ -1,16 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-04-04",
+  "digest_date": "2026-04-11",
   "source": "pubmed",
-  "source_id": "41912165",
-  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
-  "title_ja": "ハーリクイン魚鱗癬の特徴と治療についての研究",
-  "summary_ja": "この研究は、ハーリクイン魚鱗癬と呼ばれる非常にまれで重篤な皮膚疾患の特徴と治療法についてまとめたものです。皮膚に厚い鱗状のものができるこの病気のケースを世界中から集め、共通する特徴や遺伝子の傾向を調査しました。どの遺伝子の変異が多いのか、どの地域でよく見られるのか、またどの治療法が有効かを知ることで、今後の適切な治療戦略につなげることを目的としています。この知見は、魚鱗癬の患者さんや医療従事者にとって、より良い治療法を見つけるための重要な手がかりになります。",
-  "category": "研究論文",
-  "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
-  "published_date": "2026 Jan 30",
-  "curation_reasoning": "ハーリクイン魚鱗癬は魚鱗癬紅皮症の一種であり、疾患に関する詳細な知識と治療法の選択肢を増やすために役立つ情報です。",
+  "source_id": "41940243",
+  "original_title": "Lamellar Ichthyosis in a Resource-Limited Setting: A Somaliland Case Report.",
+  "title_ja": "リソースが限られた地域での層板状魚鱗癬の治療の挑戦：ソマリランドの事例報告",
+  "summary_ja": "この記事は、ソマリランドで生まれた赤ちゃんが生まれつき皮膚が膜に包まれるような症状を示す層板状魚鱗癬のケースを報告しています。限られた医療資源の中での治療には、皮膚を保護するためのクリームの使用や、目薬の利用が行われました。加えて、両親への詳しい説明と支援も重要な要素でした。このような治療の工夫は、特に医療の資源が限られた地域でも魚鱗癬の子どもたちに少しでも良い生活を提供するために、重要です。今後も各地域でのサポート体制の強化が求められます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41940243/",
+  "published_date": "2026",
+  "curation_reasoning": "層板状魚鱗癬の具体的な事例が紹介されており、限られたリソースでのケア方法が具体的に述べられているため、患者家族の参考になる。",
   "drugs_json": "[]",
-  "created_at": "2026-04-04 22:39:12"
+  "patient_insight": "この事例は、限られた医療環境でも、工夫次第で魚鱗癬のケアができることを示しています。特に生活の中での保湿や医師からの詳しい説明が役立つことが分かります。医療機関との連携を大切にし、家族ができる範囲でのケアが重要です。",
+  "created_at": "2026-04-11 22:41:33"
 }

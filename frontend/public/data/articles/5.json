@@ -1,16 +1,17 @@
 {
   "id": 5,
-  "digest_date": "2026-04-03",
+  "digest_date": "2026-04-11",
   "source": "pubmed",
-  "source_id": "41914526",
-  "original_title": "Skin Barrier Dysfunction in Contact and Atopic Dermatitis: A Comparative Review.",
-  "title_ja": "接触性皮膚炎とアトピー性皮膚炎の皮膚バリア障害：保湿剤の重要性",
-  "summary_ja": "皮膚バリアが弱くなり皮膚炎が悪化することがありますが、この研究ではそのメカニズムを探っています。特に、皮膚を守るためのセラミドを含む保湿剤が重要であることが明らかになりました。皮膚バリアの強化は魚鱗癬のケアにもつながるため、保湿方法を見直すきっかけになるでしょう。日常的な保湿ケアが症状軽減につながる可能性があります。",
+  "source_id": "41949508",
+  "original_title": "Guidelines of care for the management of atopic dermatitis in pediatric patients.",
+  "title_ja": "小児アトピー性皮膚炎の治療ガイドライン: 新しい治療法の紹介",
+  "summary_ja": "この記事は、小児向けアトピー性皮膚炎の治療と管理法についての最新ガイドラインを提供しています。アトピー性皮膚炎は慢性的な皮膚の病気で、家庭でも皮膚を保護するためのクリームや他の薬品を使う具体的な方法が数多く紹介されています。このガイドラインは魚鱗癬の患者にも適用できる部分があり、日常的なケアに有用です。新しい治療法やガイドラインが更新されることで、より効果的なケアが可能になります。",
   "category": "ケア・対処法",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41914526/",
-  "published_date": "2026 Mar",
-  "curation_reasoning": "皮膚バリアを修復する保湿剤の使用は、魚鱗癬の対策にも共通するため、有用な知見が得られます。",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41949508/",
+  "published_date": "2028 Apr 28",
+  "curation_reasoning": "アトピー性皮膚炎の治療ガイドラインが魚鱗癬のケアにも応用できる可能性があるため、患者の日常生活に役立つ情報が含まれている。",
   "drugs_json": "[]",
-  "created_at": "2026-04-03 22:43:04"
+  "patient_insight": "アトピー性皮膚炎の治療法のガイドラインが更新され、魚鱗癬の患者にも応用できるかもしれません。日常的なスキンケアや新しい治療法の紹介があるので、主治医に相談して日々のケアに取り入れてみるとよいでしょう。保湿を忘れず、症状の改善を目指しましょう。",
+  "created_at": "2026-04-11 22:41:33"
 }
