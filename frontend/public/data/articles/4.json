@@ -1,17 +1,17 @@
 {
   "id": 4,
-  "digest_date": "2026-04-12",
+  "digest_date": "2026-04-13",
   "source": "clinical_trials",
-  "source_id": "NCT05521438",
-  "original_title": "A Multicenter, Randomized, Vehicle-Controlled, Double-Blind, Parallel Comparison Study of QRX003 Lotion in Subjects With Netherton Syndrome",
-  "title_ja": "ネザートン症候群患者におけるQRX003ローションの安全性と効能を調べる研究",
-  "summary_ja": "この研究は、ネザートン症候群という皮膚の病気に対してQRX003というローションの安全性と効果を調べるものです。ネザートン症候群は、皮膚バリアの異常が原因で非常に乾燥しやすくなる病気です。このQRX003ローションを使うことで、患者さんが肌の乾燥や炎症から解放される可能性があります。特に魚鱗癬の患者さんにも似た効果が期待できるかもしれません。今後の結果次第で、日常のケア方法に影響を与えるかもしれません。",
+  "source_id": "NCT05295732",
+  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+  "title_ja": "先天性魚鱗癬治療におけるTMB-001軟膏の効果を評価する第III相試験",
+  "summary_ja": "この研究は、TMB-001という軟膏が先天性魚鱗癬の患者さんに効果があるかを確認する大規模な試験です。TMB-001は、皮膚の厚くなった部分を柔らかくし、見た目を改善することを目的としています。この試験は、複数の病院で行われ、参加者は薬を含む軟膏または薬を含まない軟膏を使用します。効果が確認されれば、新しい治療方法として活用される可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT05521438",
-  "published_date": "2026-03-16",
-  "curation_reasoning": "乾燥や炎症に対する新しいローションが、魚鱗癬と似た症状に効果を示す可能性があるため、関連性が非常に高い。",
-  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"\", \"description\": \"乾燥と炎症を和らげる効果が期待されるローション\"}]",
-  "patient_insight": "QRX003ローションが日常的に使えるようになれば、乾燥や炎症を抑える新しい選択肢として期待できます。ただし、臨床試験の結果を待ちつつ、現行の保湿ケアを続けることが大切です。",
-  "created_at": "2026-04-12 22:44:13"
+  "url": "https://clinicaltrials.gov/study/NCT05295732",
+  "published_date": "2026-03-20",
+  "curation_reasoning": "TMB-001は先天性魚鱗癬に特化した新たな治療選択肢を提供する可能性があり、症状改善への期待が高まります。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"非公開\", \"description\": \"皮膚の厚い部分を柔らかくし、見た目を改善する軟膏\"}]",
+  "patient_insight": "TMB-001軟膏が将来的に承認されれば、魚鱗癬の症状をより効果的に管理できるようになるかもしれません。現時点では、現行のケア方法を続けつつ、新薬について継続的に情報を追っていくことが重要です。",
+  "created_at": "2026-04-13 22:54:10"
 }
