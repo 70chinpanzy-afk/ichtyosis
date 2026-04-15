@@ -1,17 +1,17 @@
 {
   "id": 5,
-  "digest_date": "2026-04-13",
+  "digest_date": "2026-04-15",
   "source": "pubmed",
-  "source_id": "41966446",
-  "original_title": "Tape strips capture immune and epidermal hyperplasia markers in the major orphan ichthyoses.",
-  "title_ja": "テープストリップによる魚鱗癬の簡易診断法",
-  "summary_ja": "魚鱗癬を無侵襲で診断する新しい方法が紹介されました。この方法は、肌に貼るテープで皮膚の状態を調べるもので、炎症や免疫の異常を検出できます。これにより、患者さんへの負担が少なく、早期診断や適切な治療に役立つ可能性があります。魚鱗癬のような希少疾患でも、手軽に病状を把握できることで、治療計画を立てやすくなるでしょう。",
+  "source_id": "41964248",
+  "original_title": "Mutation Analysis in Ten Cases With PNPLA1-Nonsyndromic Epidermal Differentiation Disorder: Evidence of a Founder Effect.",
+  "title_ja": "PNPLA1変異がある10例の遺伝子解析: ファウンダー効果の証拠",
+  "summary_ja": "この研究では、皮膚のバリアを作るのに必要な酵素を作る遺伝子（PNPLA1）に変異がある10人の患者を調べました。これらの変異は皮膚の保護システムに影響を与え、さまざまな症状を引き起こします。この研究は、特定の遺伝子変異が同じ地域や起源に由来する可能性を示しており、家族内での発生に注意が必要です。これにより、似たような症状を持つ場合に遺伝子検査の重要性が示されています。",
   "category": "研究論文",
-  "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41966446/",
-  "published_date": "2026 Apr 09",
-  "curation_reasoning": "魚鱗癬の簡易診断法が患者の負担を軽減し、早期治療を促進する可能性があるため",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41964248/",
+  "published_date": "2026 Apr 10",
+  "curation_reasoning": "遺伝子変異の特定は、症状の原因を理解し、より効果的な治療法を探す助けになります。",
   "drugs_json": "[]",
-  "patient_insight": "このテープによる検査は、どんな環境でも簡単に実施でき、早めの診断と治療が可能になります。主治医と相談し、この検査の利用を検討してみるのも良いでしょう。症状の変化を早期に捉えることで、日々のケアもより効果的になります。",
-  "created_at": "2026-04-13 22:54:10"
+  "patient_insight": "この研究から分かったことは、家族内で同じ遺伝子変異がある可能性があるということです。ご家庭で同様の症状が見られた場合には、早めに遺伝子検査を受けることを検討してみてください。",
+  "created_at": "2026-04-15 22:51:43"
 }
