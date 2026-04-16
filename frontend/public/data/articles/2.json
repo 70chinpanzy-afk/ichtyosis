@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-04-15",
+  "digest_date": "2026-04-16",
   "source": "google_news:Technology Networks",
   "source_id": "4b561d7dcef15150",
   "original_title": "Treatment Target Identified for Rare Skin Condition, With Drug Repurposing Potential - Technology Networks",
-  "title_ja": "希少皮膚疾患の新しい治療目標が特定、既存薬が利用できる可能性",
-  "summary_ja": "この研究では、希少な皮膚疾患に対する新しい治療目標が発見されました。この発見により、既存の薬をこの新しい目的のために使える可能性が出ています。具体的には、いくつかの薬が皮膚のバリア機能を改善する上で有望であることが示されています。魚鱗癬の患者さんにとって、既存薬が使えるというのは治療が容易になる可能性があり、大きな希望を持てるニュースです。今後の研究で具体的な薬の選定とどれくらい効果があるかの確認が必要です。",
+  "title_ja": "希少皮膚疾患への治療標的が特定、新たな薬の可能性",
+  "summary_ja": "この研究では、希少な皮膚疾患である魚鱗癬に対して新しい治療の可能性が見つかりました。通常は他の病気に使われる薬が、魚鱗癬にも効く可能性があることが示されています。これにより、既存の薬を活用して新たな治療法を早期に確立できる可能性があります。魚鱗癬の患者さんにとって、新薬開発の時間を短縮する手段になりうるため、非常に重要です。今後は具体的な薬効の確認や、臨床試験の進展が期待されます。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYlVnOUFzN2RDYXN0RTc4bmVEVE9MMWliVFhEUlRBVkhQR1JsdkRMZmtfM05ZWnNHYUZ1UXgxZmRlVm1rU3lRaVo0bW15S3M0T0I3SnV2WmQ3Rk9KRTBWTVItT0YyTTJWZGR6WFFBZGxwZFN3cWh2R2J5Q0VtWTExVEtYdE5OVEt2YWI0b1JvNE8tTGdVUHNMQ01NX252Y1hQZ0F6RXFkdTdPVk04TUZueUFTZjZlTXE4dWo3V2kxNzlWM3BuNWFhNnJ3NzcxWUx2RF9XVUFzWEpOVXRSX3c?oc=5",
   "published_date": "2026-04-15",
-  "curation_reasoning": "この研究は魚鱗癬の新しい治療法につながる可能性があり、患者さんに希望をもたらす重要な情報です。",
+  "curation_reasoning": "魚鱗癬に特化した治療法の開発が進むことが期待されるため、患者にとって重要な情報です。",
   "drugs_json": "[]",
-  "patient_insight": "この発見により、将来使えるかもしれない薬が今あるかもしれません。今は主治医とどのように治療を進めるか相談しながら、毎日のケアを大切にしましょう。新しい情報があるときにまた相談できる心の余裕を持っておくと良いです。",
-  "created_at": "2026-04-15 22:51:43"
+  "patient_insight": "新しい薬が既に使われているものを応用してできるかもしれないため、治療の選択肢が増える可能性があります。足りない部分は、主治医と相談しながら、現行のケアをしっかりと続けていくことが重要です。",
+  "created_at": "2026-04-16 22:53:28"
 }
