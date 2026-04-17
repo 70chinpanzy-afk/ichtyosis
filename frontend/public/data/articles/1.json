@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-04-16",
+  "digest_date": "2026-04-17",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "新しい軟膏TMB-001の大規模試験が始まります",
-  "summary_ja": "この研究は魚鱗癬に対する新しい外用薬TMB-001の効果を確認するための大規模な試験です。6歳以上の患者を対象に、9週間にわたってこの薬を使った効果を観察します。これにより、魚鱗癬の症状を軽減する可能性があると期待されています。患者さんたちにとって重要なのは、新しい治療法が試されていることです。",
+  "title_ja": "新人種TMB-001の安全性と効果を試す大規模試験が進行中",
+  "summary_ja": "この試験は、魚鱗癬の一部であるRXLIやARCIに対する新しい薬「TMB-001」の効果と安全性を調べるための大規模な試験です。参加者は6歳以上で、皆、新しいクリームを使用するか、偽物のクリーム（プラセボ）を使います。試験は皆がどのクリームを使っているか分からないようにして行われます（これを「ダブルブラインド」と言います）。この試験によって、新しい治療法が見つかる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-03-20",
-  "curation_reasoning": "薬の効果が確認されれば、魚鱗癬に苦しむ多くの人々に新しい治療機会を提供できるため。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"肌のバリアを改善する目的の外用薬\"}]",
-  "patient_insight": "この新しい軟膏は、今後の治療法の候補として期待されています。手に入れるまでには時間がかかるかもしれませんが、治療の選択肢が広がれば生活の質が向上する可能性があります。",
-  "created_at": "2026-04-16 22:53:28"
+  "curation_reasoning": "魚鱗癬に対する新しい治療薬の大規模試験であり、患者さんの治療選択肢を広げる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"新しい治療薬であり、特定の種類の魚鱗癬に対する療法として開発中の軟膏\"}]",
+  "patient_insight": "この試験は新しい薬の安全性と効果を確かめています。現在の治療が効果的でない方には、新しい希望が見えてくるかもしれません。医師と相談し、今後の進展を見守りましょう。",
+  "created_at": "2026-04-17 22:53:22"
 }
