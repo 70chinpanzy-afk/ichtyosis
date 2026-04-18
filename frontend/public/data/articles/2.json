@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-04-17",
+  "digest_date": "2026-04-18",
   "source": "pubmed",
-  "source_id": "41964248",
-  "original_title": "Mutation Analysis in Ten Cases With PNPLA1-Nonsyndromic Epidermal Differentiation Disorder: Evidence of a Founder Effect.",
-  "title_ja": "皮膚のバリア作りに関わるPNPLA1遺伝子の変異が原因の一例",
-  "summary_ja": "この研究では、先天性魚鱗癬（ARCI）の原因となる遺伝子変異について調査しました。中国の10例の患者を対象に、PNPLA1という皮膚のバリア作りに必要なタンパク質を作る遺伝子の変異を特定しました。これにより、同じ変異が地域に集中する「創始者効果」が見つかりました。この発見は、患者ごとに適切な治療法を選ぶ手助けをする可能性があります。これにより、魚鱗癬の原因がさらに明確になり、新しい治療法の開発につながることが期待されます。",
+  "source_id": "41966446",
+  "original_title": "Tape strips capture immune and epidermal hyperplasia markers in the major orphan ichthyoses.",
+  "title_ja": "テープストリップを使った魚鱗癬の免疫と皮膚の変化の分析",
+  "summary_ja": "魚鱗癬の研究で、皮膚を少しだけ削るテープストリップという方法を使って、皮膚の免疫細胞やバリアの異常を調べました。Netherton症候群（ネザーシンドローム）、先天性魚鱗癬様紅皮症（こうひしょう）、層板状魚鱗癬、表皮剥離性魚鱗癬の患者さんの皮膚を分析し、炎症を引き起こす物質が多いことがわかりました。この方法は、痛みが少なく、魚鱗癬の特性を調べる簡便な手段です。魚鱗癬の患者さんにとっては、将来的に個々の症状に応じた治療方針を立てる手助けとなる可能性があります。",
   "category": "研究論文",
   "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41964248/",
-  "published_date": "2026 Apr 10",
-  "curation_reasoning": "魚鱗癬の原因となる遺伝子変異の特定は、新しい治療法の開発につながる重要な発見です。患者ごとに適切な治療法を見つける手掛かりになります。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41966446/",
+  "published_date": "2026 Apr 09",
+  "curation_reasoning": "魚鱗癬の特性をより詳しく理解するための研究で、診断や個別化医療に役立つ可能性があります。",
   "drugs_json": "[]",
-  "patient_insight": "この研究で特定された遺伝子変異は、各患者さんに最適な治療法を見つける手助けになるかもしれません。まだ直接の治療につながっているわけではありませんが、この知見を基に将来新しい治療法が開発されることが期待されます。",
-  "created_at": "2026-04-17 22:53:22"
+  "patient_insight": "この研究は、魚鱗癬の診断や治療をより個人に合わせる手助けをするかもしれません。将来的には、より効果的な治療が受けられるようになる可能性も。現在は、医師と相談しながら適切なケアを続けましょう。",
+  "created_at": "2026-04-18 22:45:06"
 }
