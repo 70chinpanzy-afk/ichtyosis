@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-04-18",
+  "digest_date": "2026-04-19",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "ASCEND試験: RXLIまたはARCI魚鱗癬の治療におけるTMB-001の効果を調べる大規模試験",
-  "summary_ja": "この研究は、RXLI（X連鎖性）とARCI（常染色体劣性）魚鱗癬の治療において、新しい外用薬TMB-001の効果と安全性を確かめるための大規模試験です。6歳以上の患者さんを対象に、通常のクリームとTMB-001を用いて効果を比べています。この試験は、症状をやわらげる新しい方法として注目されています。もしこの薬が効果的であれば、日常的な生活の質を大きく向上させる可能性があります。",
+  "title_ja": "TMB-001という新しい薬の魚鱗癬治療効果の大規模試験",
+  "summary_ja": "この研究は、TMB-001という新しい薬を使って、魚鱗癬の治療効果を確かめるために行われています。日本語でいうと、患者さんの症状を軽くするクリームです。今回は多くの患者さんに試してもらい、安全性と効果を確認しています。最終段階の試験（フェーズIII）なので、成功すれば一般的な治療にも使われる可能性があります。この治療が広まれば、クリームを塗るだけで症状を改善できる日が来るかもしれません。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-03-20",
-  "curation_reasoning": "魚鱗癬に直接関係する新しい治療法の臨床試験であり、患者さんにとって希望となる可能性があるからです。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"transcutol (トランスクトール)\", \"description\": \"RXLIとARCI魚鱗癬の症状を軽減するための外用薬\"}]",
-  "patient_insight": "TMB-001という新しい薬は魚鱗癬の症状を軽減する可能性があります。この研究の結果が成功すれば、将来的に新しい治療が提供されるかも知れません。今は医師の指導のもと、現行の治療を続けましょう。",
-  "created_at": "2026-04-18 22:45:06"
+  "curation_reasoning": "このフェーズIII試験は魚鱗癬に直接関連し、新しい治療法の可能性を示す重要な研究であるため、非常に関連性が高いと判断されます。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"TMB-001\", \"description\": \"魚鱗癬の症状を軽減することを目指すクリームタイプの薬\"}]",
+  "patient_insight": "この新しい薬、TMB-001は、クリームタイプで塗るだけなので使いやすそうです。研究が進めば、病院で処方してもらって自宅で手軽にケアできるようになる期待があります。それまでの間、保湿や日常のスキンケアを続けることが大切です。",
+  "created_at": "2026-04-19 22:46:23"
 }

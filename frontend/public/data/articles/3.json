@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-04-18",
+  "digest_date": "2026-04-19",
   "source": "pubmed",
-  "source_id": "41964248",
-  "original_title": "Mutation Analysis in Ten Cases With PNPLA1-Nonsyndromic Epidermal Differentiation Disorder: Evidence of a Founder Effect.",
-  "title_ja": "PNPLA1遺伝子変異による魚鱗癬タイプの分析",
-  "summary_ja": "この研究では、ARCI（常染色体劣性魚鱗癬）の一部を引き起こすPNPLA1遺伝子というものの変異を調べました。中国の患者さん10例を対象に、全エクソンシーケンシングという遺伝子解析技術を使い、よく見られる変異を特定しました。この研究は、魚鱗癬の遺伝的な仕組みを理解する手助けとなり、将来的には遺伝子治療の可能性を探ることにつながります。",
+  "source_id": "41966446",
+  "original_title": "Tape strips capture immune and epidermal hyperplasia markers in the major orphan ichthyoses.",
+  "title_ja": "魚鱗癬の新しい簡便な診断法：テープを使った皮膚サンプルの分析",
+  "summary_ja": "この研究は、魚鱗癬の患者さんの皮膚に起こる異常を、テープを使って簡単に調べる方法を紹介しています。テープを皮膚に貼って剥がすだけで、皮膚のバリア機能や免疫反応の異常を調べられることがわかりました。これにより、魚鱗癬だけでなく、他の皮膚疾患の診断や研究にも役立つ可能性があります。特に痛みなく、簡単に行えるため、子どもにも安心して使える診断法です。これから、こうした手法が日常の診療で広まり、一人一人に合った治療法の選択に役立つかもしれません。",
   "category": "研究論文",
-  "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41964248/",
-  "published_date": "2026 Apr 10",
-  "curation_reasoning": "魚鱗癬の遺伝子パターンを明らかにすることで、将来的な遺伝子治療や個別化医療に役立つ可能性があります。",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41966446/",
+  "published_date": "2026 Apr 09",
+  "curation_reasoning": "魚鱗癬の新しい診断方法として、テープを使った簡便な方法が開発されたことで、より早期の診断が可能になり、患者さん一人ひとりに適した治療方針の決定が期待できるからです。",
   "drugs_json": "[]",
-  "patient_insight": "この研究は、魚鱗癬を引き起こす遺伝子変異を明らかにして、将来の治療法に重要な手がかりを提供するものです。現在採用できる治療法については、医師と密に連絡を取り合いながら進めることが大切です。",
-  "created_at": "2026-04-18 22:45:06"
+  "patient_insight": "このテープを使った診断方法は、気軽に皮膚の状態を確認できる手段となりえます。これにより正確な診断ができることで、最適な治療を受けやすくなるかもしれません。日常の負担を少しでも減らし、病気と向き合う手助けになります。",
+  "created_at": "2026-04-19 22:46:23"
 }
