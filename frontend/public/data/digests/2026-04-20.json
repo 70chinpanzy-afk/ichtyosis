@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-04-20",
+    "source": "pubmed",
+    "source_id": "42002762",
+    "original_title": "Selective Reduction in Scale Thickness After IL-13 Blockade with Lebrikizumab in a Lamellar Ichthyosis Phenotype.",
+    "title_ja": "新しい薬で魚鱗癬の皮膚の厚みを減らす可能性",
+    "summary_ja": "最近の研究で、層板状魚鱗癬（皮膚が鱗のように見える状態）を持つ患者さんに対して、IL-13と呼ばれるたんぱく質をブロックする薬であるレブリキズマブが試されました。その結果、皮膚の鱗の厚みが減少することが確認されました。この研究は、魚鱗癬に苦しむ人々にとって、新たな治療法の可能性を示しています。ただし、まだ広範な試験が必要です。現在は観察中の段階ですが、今後に期待が持てる発見です。",
+    "category": "新薬・治療法",
+    "relevance_score": 1.0,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42002762/",
+    "published_date": "2026 Apr 19",
+    "curation_reasoning": "層板状魚鱗癬の患者さんに直接関係のある新薬の情報で、新たな治療法の可能性を示しているため。",
+    "drugs_json": "[{\"drug_name\": \"レブリキズマブ（Lebrikizumab）\", \"ingredients\": \"レブリキズマブ\", \"description\": \"IL-13というたんぱく質をブロックして、炎症を抑える作用のある治療薬\"}]",
+    "patient_insight": "レブリキズマブという新しい薬が、魚鱗癬の皮膚の厚みを減らすことがわかってきました。今後の試験で効果が確認されれば、治療の選択肢が増えるかもしれません。主治医と相談して新しい治療法について情報を集めると良いでしょう。",
+    "created_at": "2026-04-20 22:55:05"
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-04-20",
+    "source": "clinical_trials",
+    "source_id": "NCT05979506",
+    "original_title": "Evaluate the Evolution of Cutaneous Discomfort of the Body and Scalp After 3 Wraps, in Patients With Moderate to Very Severe Hereditary Ichthyosis",
+    "title_ja": "遺伝性魚鱗癬患者における包帯療法の効果を評価",
+    "summary_ja": "この研究は中等度から重度の遺伝性魚鱗癬の患者さんに対して、特別な看護師による包帯療法の効果を評価するものです。魚鱗癬は生まれつき皮膚がウロコのようになり、治療にはリピッド（脂質）を含んだ保湿クリームの塗布が推奨されますが、効果が限定的で痛みを伴うこともあります。包帯療法は全身にクリームを塗った後、皮膚を覆って保護し、効果的なケアを提供します。この研究では、包帯療法が肌の状態をどのように改善するか短期的、長期的効果について見ていきます。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://clinicaltrials.gov/study/NCT05979506",
+    "published_date": "2026-04-13",
+    "curation_reasoning": "包帯療法という新しいアプローチが、魚鱗癬の患者さんに痛みを軽減し、皮膚状態を改善する可能性があるからです。",
+    "drugs_json": "[]",
+    "patient_insight": "この包帯療法は、普段の治療法に加え、より快適な生活をサポートできるかもしれません。日々のスキンケアに含めることで、少しでも痛みや不快感を和らげる助けとなる可能性があります。",
+    "created_at": "2026-04-20 22:55:05"
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-04-20",
+    "source": "clinical_trials",
+    "source_id": "NCT06539507",
+    "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
+    "title_ja": "新薬BCX17725のネザートン症候群患者における安全性と効果の初期試験",
+    "summary_ja": "この研究はネザートン症候群という遺伝的皮膚疾患を持つ人における薬BCX17725の初期試験です。健康な成人にシングル及びマルチプルドーズでの安全性を確認した後、ネザートン症候群の患者さんに数週間にわたり継続して投与されます。この薬がどのように体に吸収され、どのように反応するか、また、副作用がないかを調べます。初期段階の研究ですが、効果が期待される新しい治療法です。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.7,
+    "url": "https://clinicaltrials.gov/study/NCT06539507",
+    "published_date": "2026-03-31",
+    "curation_reasoning": "ネザートン症候群は魚鱗癬と同様の皮膚症状を持つ疾患で、新しい治療の可能性を示します。",
+    "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"新しい皮膚疾患治療のための臨床試験中の化合物\"}]",
+    "patient_insight": "この研究により、BCX17725が新しい治療法としての可能性を探ることができますが、まだ初期段階です。安心して治療を続けられるよう、主治医と相談を進めながら、新しい情報を待ちましょう。",
+    "created_at": "2026-04-20 22:55:05"
+  }
+]
