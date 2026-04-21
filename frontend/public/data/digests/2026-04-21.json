@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-04-21",
+    "source": "pubmed",
+    "source_id": "42002762",
+    "original_title": "Selective Reduction in Scale Thickness After IL-13 Blockade with Lebrikizumab in a Lamellar Ichthyosis Phenotype.",
+    "title_ja": "IL-13阻害薬レブリキズマブによる層板状魚鱗癬の鱗屑減少",
+    "summary_ja": "この研究は、層板状魚鱗癬という皮膚病の治療に、IL-13という体内の炎症を引き起こす信号をブロックする薬（IL-13阻害薬）であるレブリキズマブを使った結果、皮膚の鱗屑（うろこのようなもの）が減少したことを示しています。この治療法により、特に皮膚の厚みが減り、患者さんの見た目や生活の質が改善されました。この結果は、魚鱗癬という特定のタイプの皮膚病を持つ方々にとって、症状を緩和するための新しい選択肢になる可能性があります。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42002762/",
+    "published_date": "2026 Apr 19",
+    "curation_reasoning": "層板状魚鱗癬という魚鱗癬の治療法に関する有望な結果が示されたため、直接関連があり、患者さんにとって役立つ情報です。",
+    "drugs_json": "[{\"drug_name\": \"レブリキズマブ（Lebrikizumab）\", \"ingredients\": \"レブリキズマブ\", \"description\": \"IL-13という体内の炎症を引き起こす信号をブロックする薬\"}]",
+    "patient_insight": "この研究で試されたレブリキズマブという薬は、まだ研究段階ですが、魚鱗癬の症状である鱗屑を軽減する効果が期待できます。今後、この薬が一般的に使用できるようになるのか、主治医と相談しながら、最新の情報を追っていくことが大切です。",
+    "created_at": "2026-04-21 22:48:25"
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-04-21",
+    "source": "google_news:TipRanks",
+    "source_id": "b1524c2efa4f111a",
+    "original_title": "Quoin’s QRX003 Trial Moves Forward In Rare Skin Disease, Keeping QNRX On Investor Watch - TipRanks",
+    "title_ja": "Quoin社のQRX003、希少な皮膚疾患での試験が進行中",
+    "summary_ja": "この記事は、Quoin社が開発中のQRX003という新しい治療薬の試験が進行中であることを解説しています。これは特に希少な皮膚病を対象としたもので、資金を集めるための動きもあります。この治療薬はまだ試験段階ですが、進展が見られれば市場に出る可能性も出てきます。患者さんにとって、新しい治療法の開発が進むことは大きな希望となるでしょう。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEZfNUt1Qm14ZURBakV1Yi1JbmpiTWs0M0g3ZEVhVnRRd0pvZ25IQm5QRzBjd3BSNEJQWXZkclFfdzZwR1RsZXJqbVRPY200LUtKVnVHc1pBWl9ON0p0dXJvSGZGaWZSNTRxUlN2Nno3ZDdsVUFiajVGRnlWMDlqOWFMMkdDTFZsNjh1RUZ4dFhpNHNUQ2Z6MjJ6TllSYTY4MHExQTBpb29NWWVmZG92UV9vVTJfWmlMNTZLMUJNbExhLTI5S1Jmc3g0X3FLQmZQY21v?oc=5",
+    "published_date": "2026-04-21",
+    "curation_reasoning": "魚鱗癬などの希少皮膚疾患に対する新薬の開発試験であり、患者さんの新たな治療オプションとなる可能性があるため。",
+    "drugs_json": "[]",
+    "patient_insight": "QRX003という新しい薬の開発が進行中です。この薬が実用化されれば、魚鱗癬を含む希少疾患の患者さんにとって、大きな治療の選択肢となり得ます。現時点では保湿や皮膚のケアに集中しながら、この新しい治療の進展を見守りましょう。",
+    "created_at": "2026-04-21 22:48:25"
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-04-21",
+    "source": "clinical_trials",
+    "source_id": "NCT05979506",
+    "original_title": "Evaluate the Evolution of Cutaneous Discomfort of the Body and Scalp After 3 Wraps, in Patients With Moderate to Very Severe Hereditary Ichthyosis",
+    "title_ja": "遺伝性魚鱗癬患者へのラップ療法の効果を評価",
+    "summary_ja": "この研究は、遺伝性魚鱗癬の患者さんに対して行われるラップ療法の効果を評価するものです。ラップ療法では、治療用の風呂に入った後、体に大量のクリームを塗り、その上に専用の布を覆ってしばらく置くという方法を取ります。結果として、短期間および中期間で皮膚の状態がどのように変化するかを観察します。この方法はこれまでフランスで一般的ではないため、専門の看護師による指導が必要とされています。この研究の成果は、患者さんの痛みの軽減や生活の質の向上に役立つかもしれません。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://clinicaltrials.gov/study/NCT05979506",
+    "published_date": "2026-04-13",
+    "curation_reasoning": "魚鱗癬に対する新しいケア方法であるラップ療法の効果を評価しており、患者さんの症状軽減に寄与する可能性があるため。",
+    "drugs_json": "[{\"drug_name\": \"高脂肪保湿クリーム\", \"ingredients\": \"高脂肪成分\", \"description\": \"肌に潤いを与え、乾燥を防ぐためのクリーム\"}]",
+    "patient_insight": "このラップ療法は新しい方法ですが、特にフランスでは広く実施されていないため、今後のケアの選択肢として注目されるかもしれません。具体的な導入前に、この研究の結果を確認し、専門医と相談しながら取り入れを検討するのが良いでしょう。",
+    "created_at": "2026-04-21 22:48:25"
+  }
+]
