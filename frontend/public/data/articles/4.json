@@ -1,17 +1,17 @@
 {
   "id": 4,
-  "digest_date": "2026-04-22",
+  "digest_date": "2026-04-23",
   "source": "google_news:TipRanks",
   "source_id": "b1524c2efa4f111a",
   "original_title": "Quoin’s QRX003 Trial Moves Forward In Rare Skin Disease, Keeping QNRX On Investor Watch - TipRanks",
-  "title_ja": "希少皮膚疾患に対するQRX003試験が進行中",
-  "summary_ja": "QRX003という新しいローションが、希少な皮膚病のために開発されています。このローションは、病気の患者さんにどのくらい効果があるかを調べる試験が始まっており、進捗が注目されています。膨大な患者データを集めて、治療効果や安全性をしっかり確認するのが目的です。この知らせは、魚鱗癬を含む乾燥系皮膚疾患にとっても希望を持てる要素があり、将来の治療選択肢を広げる可能性があります。",
+  "title_ja": "QRX003の試験が希少皮膚疾患で前進、投資家の注目を集める",
+  "summary_ja": "QRX003という新しいローションの試験が、希少な皮膚病に対して行われています。この研究は、患者さんの皮膚の状態を改善することを目指しています。試験が進展すると、新しい治療法が患者さんの生活の質を向上させる可能性があります。市場も注目しており、今後の結果に期待が高まります。",
   "category": "新薬・治療法",
   "relevance_score": 0.8,
   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEZfNUt1Qm14ZURBakV1Yi1JbmpiTWs0M0g3ZEVhVnRRd0pvZ25IQm5QRzBjd3BSNEJQWXZkclFfdzZwR1RsZXJqbVRPY200LUtKVnVHc1pBWl9ON0p0dXJvSGZGaWZSNTRxUlN2Nno3ZDdsVUFiajVGRnlWMDlqOWFMMkdDTFZsNjh1RUZ4dFhpNHNUQ2Z6MjJ6TllSYTY4MHExQTBpb29NWWVmZG92UV9vVTJfWmlMNTZLMUJNbExhLTI5S1Jmc3g0X3FLQmZQY21v?oc=5",
   "published_date": "2026-04-21",
-  "curation_reasoning": "新しい治療法の進展情報は、同様の症状を持つ病気の患者さんにとっても重要です。将来的には魚鱗癬の治療改善につながる可能性があります。",
-  "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"成分は公開されていない\", \"description\": \"希少皮膚疾患に対する効果を検証するプロセスの新保湿ローション\"}]",
-  "patient_insight": "このローションが成功すれば、現在苦労している皮膚のケアが楽になるかもしれません。さらなる試験の進展に期待しつつ、現状では指示されている保湿ケアを続けてください。",
-  "created_at": "2026-04-22 22:55:55"
+  "curation_reasoning": "QRX003試験の進行は、魚鱗癬に対する新しいアプローチとして興味深く、患者さんの新たな希望となるかもしれません。",
+  "drugs_json": "[{\"drug_name\": \"QRX003\", \"ingredients\": \"非公開\", \"description\": \"皮膚の保湿と保護を目的としたローション\"}]",
+  "patient_insight": "QRX003ローションは、将来の治療選択肢として期待されています。現時点では、主治医との相談の上、日々のケアを丁寧に行うことを心がけてください。",
+  "created_at": "2026-04-23 22:57:16"
 }
