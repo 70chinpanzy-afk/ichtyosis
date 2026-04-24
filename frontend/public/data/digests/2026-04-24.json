@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-04-24",
+    "source": "pubmed",
+    "source_id": "42002762",
+    "original_title": "Selective Reduction in Scale Thickness After IL-13 Blockade with Lebrikizumab in a Lamellar Ichthyosis Phenotype.",
+    "title_ja": "層板状魚鱗癬でIL-13をブロックする新薬の効果",
+    "summary_ja": "この研究では、層板状魚鱗癬というタイプの魚鱗癬に対して、新しい治療薬であるレブリキズマブがどのように効果を示すか調べました。この薬は、皮膚で起きる炎症反応を引き起こすシグナルをブロックするタイプの薬です。研究の結果、この薬を使うことで皮膚の鱗（うろこ）の厚さが減り、症状が軽くなることがわかりました。この治療法は特に、日常生活での不快感を減らせる可能性があります。新しい選択肢が増えることにより治療の幅が広がり、将来の症状管理が期待されます。",
+    "category": "新薬・治療法",
+    "relevance_score": 1.0,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42002762/",
+    "published_date": "2026 Apr 19",
+    "curation_reasoning": "層板状魚鱗癬に対する新しい治療薬が有効であることを示したため、直接的な治療の可能性がある。",
+    "drugs_json": "[{\"drug_name\": \"レブリキズマブ（Lebrikizumab）\", \"ingredients\": \"レブリキズマブ\", \"description\": \"皮膚の炎症を引き起こすシグナルをブロックし、症状を改善する抗体治療薬\"}]",
+    "patient_insight": "この研究によって、新しい薬が層板状魚鱗癬の治療に役立つ可能性が示されました。まだ実験段階の情報ですが、将来的には日常生活での肌の快適さを大幅に向上させるかもしれません。今は引き続き、保湿ケアを中心に症状を管理しましょう。",
+    "created_at": "2026-04-24 22:50:30"
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-04-24",
+    "source": "clinical_trials",
+    "source_id": "NCT07538583",
+    "original_title": "A Multicenter, Open-label Study of QRX003 Lotion in Participants With Netherton Syndrome",
+    "title_ja": "ネザートン症候群に対するQRX003ローションの臨床試験",
+    "summary_ja": "この研究は、ネザートン症候群という皮膚の病気にQRX003というローションの効果を調べています。参加者は体の半分以上の範囲にこのローションを12週間かけて、一日2回使います。目的は安全性や効果の確認です。このローションが魚鱗癬の患者さんにも応用できる可能性があります。特に皮膚の赤みや乾燥を抑える助けになるかもしれません。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.8,
+    "url": "https://clinicaltrials.gov/study/NCT07538583",
+    "published_date": "2026-04-21",
+    "curation_reasoning": "QRX003は皮膚疾患の治療法としての可能性があるため、魚鱗癬の患者さんにも役立つかもしれません。",
+    "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"不明\", \"description\": \"皮膚に塗布して炎症や乾燥を抑えるローション\"}]",
+    "patient_insight": "QRX003ローションは今後、皮膚の乾燥や赤みに対して効果が期待できる可能性があります。現在は試験段階ですが、今後の結果を見てスキンケアの選択肢に加わるかもしれませんので、注目しておくと良いでしょう。",
+    "created_at": "2026-04-24 22:50:30"
+  }
+]
