@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-05-01",
+  "digest_date": "2026-05-02",
   "source": "pubmed",
-  "source_id": "42062794",
-  "original_title": "Harlequin Ichthyosis in Resource Limited Environments: Practical Strategies to Improve Neonatal Survival.",
-  "title_ja": "限られたリソースでハーレクイン型魚鱗癬の新生児を救う実用的な方法",
-  "summary_ja": "ハーレクイン型魚鱗癬は非常に稀で生命を脅かす生まれつきの病気ですが、適切なケアで生存率が上がります。この研究では、設備不足の中でも保湿や呼吸のサポート、基礎的な感染対策を工夫し、命を救えた事例が紹介されています。特に保湿剤の使用と簡易的な保温が重要視されています。これにより、重症の新生児でも生存の可能性が広がります。",
+  "source_id": "42052316",
+  "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges.",
+  "title_ja": "ハーレクイン型魚鱗癬の低収入地域での管理方法の事例報告",
+  "summary_ja": "この研究は珍しい魚鱗癬の一種であるハーレクイン型魚鱗癬についての事例報告です。特に診療設備が整っていない地域での赤ちゃんへの対応が記載されています。この病気は出生時に診断され、体温管理、水分バランスの維持、感染予防、集中的なスキンケアが生存に重要です。低収入地域でも効果的な治療が可能であることが示されています。魚鱗癬の患者さんにとって、地域によらず適切なケアが命を守る上で重要なことを示しています。",
   "category": "ケア・対処法",
   "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42062794/",
-  "published_date": "2026 Apr 30",
-  "curation_reasoning": "実践可能なケア方法が詳細に紹介されており、特に医療リソースが限られた状況下においても効果的な点が魚鱗癬患者にとって有益だからです。",
-  "drugs_json": "[{\"drug_name\": \"保湿剤\", \"ingredients\": \"\", \"description\": \"皮膚を守るための保湿剤は、体を保温しつつ、乾燥を防ぎます。\"}]",
-  "patient_insight": "この情報は、限られたリソースの中でも実行できる効果的なケア方法を示しています。保湿剤を中心とした日常的なケアと、即席の方法でも適切なサポートが可能ですので、親御さんの負担を軽減できるヒントになります。",
-  "created_at": "2026-05-01 22:56:54"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42052316/",
+  "published_date": "2026 May",
+  "curation_reasoning": "低収入地域での魚鱗癬管理方法の事例報告が、適切なスキンケアの重要性を示しており、どの地域でも適応可能な治療法が紹介されているため、魚鱗癬の患者さんに役立ちます。",
+  "drugs_json": "[]",
+  "patient_insight": "この報告は、魚鱗癬を持つ赤ちゃんへのケアが地域を問わず重要であることを教えてくれます。家でのケアでも体温管理や保湿など基本のスキンケアが大切です。",
+  "created_at": "2026-05-02 22:53:34"
 }
