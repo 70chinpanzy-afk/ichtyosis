@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-05-04",
+  "digest_date": "2026-05-05",
   "source": "pubmed",
-  "source_id": "42062794",
-  "original_title": "Harlequin Ichthyosis in Resource Limited Environments: Practical Strategies to Improve Neonatal Survival.",
-  "title_ja": "リソースが限られた環境でのハーレクイン魚鱗癬への対策: 新生児の生存率を高める実践的な方法",
-  "summary_ja": "この報告では、ハーレクイン魚鱗癬という稀な皮膚疾患を持つ新生児が、医療機器が限られた条件下でどのようにして生存率を高めることができたかが示されています。手作りの保湿治療など低コストで実践できる介入方法を用いて治療が行われた事例が紹介されています。こうした基礎的なサポートが、十分な設備がなくても命を救う可能性があるという知見を与えてくれます。",
+  "source_id": "42052316",
+  "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges.",
+  "title_ja": "ABCA12関連ハーレクイン魚鱗癬の初期管理について：低リソース環境でのビデオ事例",
+  "summary_ja": "ハーレクイン魚鱗癬は、早期の体温管理や感染予防、スキンケアが生存のカギとなる重大な皮膚疾患です。この研究では、特殊な医療設備がない環境で、早期の対策がどのように実施され、赤ちゃんが救われたかをビデオで示しています。肌のケアや体温管理といった基本的なサポートが、医療資源が少ない中でもどれほど効果的かを示しています。魚鱗癬患者さんやその家族にとって、日常のケアで工夫するヒントになる情報です。",
   "category": "ケア・対処法",
   "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42062794/",
-  "published_date": "2026 Apr 30",
-  "curation_reasoning": "資源が限られた状況で使える実践的なケア方法が示されており、患児の家庭でのケアに役立つ情報です。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42052316/",
+  "published_date": "2026 May",
+  "curation_reasoning": "ハーレクイン魚鱗癬という深刻な症状において、どのように環境を整えケアを行うかの具体例が示されています。この情報は、魚鱗癬のケアに役立ちます。",
   "drugs_json": "[]",
-  "patient_insight": "この記事は、自宅でできる基本的なスキンケアのアイデアを提供しています。特に医療の限られた環境でも工夫次第で改善が期待できるため、身近な材料でできるケア方法を医師と相談しながら試してみてください。",
-  "created_at": "2026-05-04 23:02:18"
+  "patient_insight": "特殊な器具や医薬品がなくても、基本的なスキンケアや体温管理が命を守る大切なポイントです。自宅でのケアでも、工夫して同様のケアを行うことで、症状改善の期待が持てます。医療従事者と一緒に最適な方法を考えてみてください。",
+  "created_at": "2026-05-05 23:02:49"
 }
