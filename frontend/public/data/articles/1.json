@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-05-05",
+  "digest_date": "2026-05-06",
   "source": "pubmed",
-  "source_id": "42062794",
-  "original_title": "Harlequin Ichthyosis in Resource Limited Environments: Practical Strategies to Improve Neonatal Survival.",
-  "title_ja": "ハーレクイン魚鱗癬の新生児救命のための具体的な戦略：資源が限られた環境でのケーススタディ",
-  "summary_ja": "ハーレクイン魚鱗癬という稀に見る重症の先天性疾患において、特別な機材が足りない病院で生まれた赤ちゃんを救うために、低コストの工夫でスキンケアを行ったケースが紹介されています。湿度を調整する自作の装置や、安価な保湿クリームを使い、基本的な呼吸サポートを行うなど、限られた環境下でも命を守るための実践的な方法が強調されています。これらの方法は他の魚鱗癬の患者さんの生活にも応用可能で、特に医療リソースが限られた状況で重要になります。",
+  "source_id": "42052316",
+  "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges.",
+  "title_ja": "低リソース地域でのハーライクイン魚鱗癬のビデオデモンストレーション：早期管理の課題について",
+  "summary_ja": "この研究は、ハーライクイン魚鱗癬と言われる非常にまれな皮膚疾患についてのものです。生まれてすぐに識別することが可能で、適切な管理は生存に重要です。温度管理や感染予防、皮膚の保湿が特に大切で、特にリソースが限られている地域ではこれが難しいという課題があります。この情報は、魚鱗癬の患者さんが家庭で適切なケアをする上で重要です。これまで経験が少ない方々には特に有益でしょう。",
   "category": "ケア・対処法",
   "relevance_score": 0.9,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42062794/",
-  "published_date": "2026 Apr 30",
-  "curation_reasoning": "特別な治療設備がない環境での魚鱗癬ケアに関する実践的な方法が示されています。これにより、他の魚鱗癬患者さんやその家族も日常のケアに応用できる可能性が高く、重要な知見となります。",
-  "drugs_json": "[{\"drug_name\": \"保湿エモリエント（Emollient）\", \"ingredients\": \"エモリエント成分\", \"description\": \"肌の乾燥を和らげ、柔らかく保つためのクリーム\"}]",
-  "patient_insight": "この事例では、特別な医療機器がない環境での保湿ケアや応急処置が紹介されています。家庭でも、身近な道具や市販の保湿剤を活用して、工夫次第でケアがより充実する可能性があります。医師と相談の上、試してみると良いでしょう。",
-  "created_at": "2026-05-05 23:02:49"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42052316/",
+  "published_date": "2026 May",
+  "curation_reasoning": "ハーライクイン魚鱗癬の早期管理は、魚鱗癬紅皮症にも関連するケアの知見を提供します。特に低リソース地域での実例は、広く応用できる重要な情報です。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は、温度管理や皮膚ケア、感染予防が魚鱗癬の患者さんにどれほど重要かを示しています。特に、家庭でのケアをしっかりと行うことで、病状の進行を防ぐことができます。医師と相談しながら、最適なケア方法を見つけましょう。",
+  "created_at": "2026-05-06 22:58:47"
 }
