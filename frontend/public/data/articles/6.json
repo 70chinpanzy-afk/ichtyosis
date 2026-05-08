@@ -1,17 +1,17 @@
 {
   "id": 6,
   "digest_date": "2026-05-08",
-  "source": "google_news:Cureus",
-  "source_id": "bfc24794785b2594",
-  "original_title": "Upadacitinib Treatment for Fulminant Cutaneous and Mucosal Lichen Planus - Cureus",
-  "title_ja": "ウパダシチニブによる皮膚と粘膜のライケンプラナスの治療",
-  "summary_ja": "この研究は、ウパダシチニブ（薬の名前）がライケンプラナスという皮膚と粘膜の病気に対して効果があったという内容です。ライケンプラナスは、炎症を起こす病気で、皮膚や口の中にかゆみや痛みを伴う発疹を引き起こします。ウパダシチニブは、体内の炎症を引き起こす信号をブロックする薬で、この研究で症状の改善が見られました。類似の炎症性皮膚疾患に対する治療法としての可能性があり、魚鱗癬の治療にも何らかのヒントを与えるかもしれません。今後、さらに幅広い患者に対する研究が進められると期待されます。",
+  "source": "pubmed",
+  "source_id": "42072832",
+  "original_title": "Multimodal Anterior Segment Imaging of Severe Mixed Exposure-Related Neurotrophic Keratopathy with Marked Corneal Thinning in Lamellar Ichthyosis.",
+  "title_ja": "層板状魚鱗癬による重度の眼疾患についての症例報告",
+  "summary_ja": "層板状魚鱗癬という遺伝性の皮膚病を持つ患者さんで、重い目の病気が発生したケースが報告されました。この患者さんは、目のまぶたが外を向いてしまい、目を閉じることが難しくなる症状があり、これが原因で角膜がとても薄くなってしまいました。特に、目の表面が常に露出していることが、眼の病気の原因として指摘されています。魚鱗癬の患者さんにとっては、皮膚だけでなく、眼の健康にも注意を払う必要があることを示しています。視力低下を防ぐため、定期的な眼科検診が有効です。",
   "category": "研究論文",
   "relevance_score": 0.5,
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSF9Vc2RKZnlRODBTYVFubDdwZ0FRclhmenRjYWJtX3BmcXFEaXZNaXdzRXloYzZncVU5S0J0dWFkNjg3dG9XWjBjbGw4UmJxOEJGWk1yNV9LV3AteEVTS2UzYXVCUkhKa1U1cDBsZEl5UExRRE00eHR1VFhQVWdRam82bDBJd2xGYkFDX0hiazA3R0w5emd2TTlKeTZaYUgyTGxmaHItSnhSWkVod1ZaVw?oc=5",
-  "published_date": "2026-05-07",
-  "curation_reasoning": "魚鱗癬と同様の炎症性皮膚疾患への治療法として、魚鱗癬の治療に応用できる可能性が示唆される点が有用です。",
-  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"体内の炎症を引き起こす信号をブロックする薬\"}]",
-  "patient_insight": "この研究は、魚鱗癬のような炎症性疾患に対する新しい治療法の可能性を探るものです。今すぐに治療法が確立されるわけではありませんが、将来的には異なる治療選択肢が提供されるかもしれません。引き続き、現在の治療法を基にしたケアを続けつつ、新しい情報をチェックしていくことが重要です。",
-  "created_at": "2026-05-08 13:04:16"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42072832/",
+  "published_date": "2026 Apr 17",
+  "curation_reasoning": "層板状魚鱗癬が関与する眼疾患のケースが報告され、魚鱗癬の患者さんが眼の健康にも注意を払う必要性が示されています。",
+  "drugs_json": "[]",
+  "patient_insight": "この報告により、魚鱗癬の患者さんは皮膚だけでなく、目の健康にも気を付けるべきだと分かります。特に目が乾燥しやすい状況では、眼科医の定期的な診察を受けることが推奨されます。家庭でできる保湿や保護も検討してください。",
+  "created_at": "2026-05-08 13:08:40"
 }
