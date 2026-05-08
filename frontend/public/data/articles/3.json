@@ -1,17 +1,17 @@
 {
   "id": 3,
   "digest_date": "2026-05-08",
-  "source": "clinical_trials",
-  "source_id": "NCT06800755",
-  "original_title": "Evaluation of the Efficacy and Tolerance of the Medical Device RL3020-DP0364 in Adult Population With Stable Mild Plaque Psoriasis, Dry Skin and Pruritus",
-  "title_ja": "RL3020-DP0364の乾燥肌やかゆみに対する効果を調査する試験",
-  "summary_ja": "乾燥肌やかゆみを改善する医療機器の効果を調べるための試験です。この製品は、乾燥した皮膚を潤すとともに、外部からのダメージから肌を守る保護膜を形成します。アトピー性皮膚炎や魚鱗癬の症状を和らげる可能性があります。この製品は全身に適用されるため、魚鱗癬の方にも恩恵があるかもしれません。結果が良ければ、今後、魚鱗癬のケアの新しい選択肢になる可能性があります。",
-  "category": "ケア・対処法",
+  "source": "pubmed",
+  "source_id": "42083494",
+  "original_title": "Bilateral Involvement in CHILD Syndrome Successfully Treated With Cholesterol-Lovastatin Combination.",
+  "title_ja": "CHILD症候群の皮膚症状がコレステロールとロバスタチンで改善",
+  "summary_ja": "この研究は珍しい皮膚と骨の異常を引き起こすCHILD症候群の治療に関するものです。ある7歳の少女の皮膚症状が、コレステロールとロバスタチンを含むクリームで改善されました。この疾患はコレステロールの合成に関与する遺伝子の異常により起こります。患者さんにとって、症状が消える可能性があるというのは大きな希望です。日常生活で使いやすいクリームタイプの治療法だからです。",
+  "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT06800755",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42083494/",
   "published_date": "2026-05-05",
-  "curation_reasoning": "この試験は乾燥肌をしっかりと潤す医療機器の効果を調査しており、魚鱗癬のケアにも役立つ可能性があるため関連性が高いです。",
-  "drugs_json": "[]",
-  "patient_insight": "この研究で使われる医療機器は、魚鱗癬の乾燥やかゆみを和らげる新たな方法として期待できます。今のところ、試験結果を待つ必要がありますが、効果が確認された場合、将来的なケアの選択肢に加えることができるかもしれません。日々の保湿ケアを続けつつ、進捗を見守りましょう。",
-  "created_at": "2026-05-08 13:08:40"
+  "curation_reasoning": "コレステロールとロバスタチンの組み合わせが魚鱗癬のような症状にも応用可能かもしれない新しい治療法として注目できます。",
+  "drugs_json": "[{\"drug_name\": \"コレステロール・ロバスタチンクリーム（Cholesterol-Lovastatin cream）\", \"ingredients\": \"コレステロール、ロバスタチン\", \"description\": \"皮膚の異常を改善するために、コレステロールとロバスタチンを用いるクリーム\"}]",
+  "patient_insight": "この研究は特定の症候群に対するものですが、コレステロールとロバスタチンの組み合わせが魚鱗癬のケアにもヒントを与えてくれるかもしれません。クリームの使い方については医師に相談してみるとよいでしょう。まだ研究中の部分もあるため、慎重に検討することが大切です。",
+  "created_at": "2026-05-08 13:17:27"
 }
