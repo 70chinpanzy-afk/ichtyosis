@@ -1,17 +1,17 @@
 {
   "id": 2,
   "digest_date": "2026-05-08",
-  "source": "clinical_trials",
-  "source_id": "NCT03417856",
-  "original_title": "Defining the Skin and Blood Biomarkers of Ichthyosis",
-  "title_ja": "魚鱗癬の皮膚や血液の特異なマーカーを探る",
-  "summary_ja": "この研究では、魚鱗癬の皮膚や血液中の特異なマーカー（細胞が出す特定の信号）を見つけ出そうとしています。これにより、将来的な治療法の開発やより良い診断方法の確立が期待されます。現在のところ、魚鱗癬自体を治す方法はないため、このような研究が進むことで、より良い治療の選択肢が増えるかもしれません。",
+  "source": "pubmed",
+  "source_id": "42072832",
+  "original_title": "Multimodal Anterior Segment Imaging of Severe Mixed Exposure-Related Neurotrophic Keratopathy with Marked Corneal Thinning in Lamellar Ichthyosis.",
+  "title_ja": "層板状魚鱗癬患者の眼の健康について",
+  "summary_ja": "層板状魚鱗癬を持つ患者さんの中には、目に影響を及ぼすことがあります。この研究では、眼の表面が長時間露出していることやまばたきの不完全さにより、角膜（目の表面の透明な部分）が非常に薄くなっている事例が報告されました。これにより視力の低下や痛みが生じる可能性があります。魚鱗癬の患者さんは、目の健康を意識することが重要であることが示されています。今後は、適切な眼科専門医のフォローアップを含めた総合的なケアが求められます。",
   "category": "研究論文",
-  "relevance_score": 0.9,
-  "url": "https://clinicaltrials.gov/study/NCT03417856",
-  "published_date": "2026-04-27",
-  "curation_reasoning": "魚鱗癬に直接関係する重要な研究であり、今後の治療法開発に繋がる可能性があります。",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42072832/",
+  "published_date": "2026 Apr 17",
+  "curation_reasoning": "眼への影響が日常生活に直結するため、魚鱗癬患者さんにとって重要な情報だから。",
   "drugs_json": "[]",
-  "patient_insight": "この研究はまだ基礎的な段階ですが、新しい治療法の開発への希望をつなぐものです。現在は、主治医の指示に従って日常ケアを怠らず、治療の進展を見守ることが重要です。",
-  "created_at": "2026-05-08 14:37:22"
+  "patient_insight": "目の健康は生活の質に大きく影響します。層板状魚鱗癬の場合、特に眼科医の定期的な診察を受け、目の乾燥や炎症に対するケアを行うことが大切です。お子様の視力保護のために、日常的な目のケアを習慣化しましょう。",
+  "created_at": "2026-05-08 15:02:56"
 }

@@ -4,14 +4,14 @@
   "source": "google_news:Cureus",
   "source_id": "bfc24794785b2594",
   "original_title": "Upadacitinib Treatment for Fulminant Cutaneous and Mucosal Lichen Planus - Cureus",
-  "title_ja": "重度の皮膚・粘膜扁平苔癬に対するウパダシチニブ治療",
-  "summary_ja": "この研究は、皮膚や粘膜に強い炎症を起こす「扁平苔癬（へんぺいたいせん）」という病気に対する新しい治療薬「ウパダシチニブ（Upadacitinib）」の効果を調査しました。「ウパダシチニブ」は、体内の炎症を引き起こすシグナルをブロックする薬です。試験では、これを使うと症状が大幅に改善されることがわかりました。魚鱗癬の症状を持つ方々にとっても、炎症をやわらげる新しい選択肢として希望が持てるかもしれません。ただし、この研究はまだ特定の病気に対するものなので、今後の追加研究が必要です。",
+  "title_ja": "全身性皮膚および粘膜扁平苔癬へのウパダシチニブ治療",
+  "summary_ja": "この研究は、炎症を引き起こす体内の信号をブロックする薬（ウパダシチニブ）が重症の皮膚や粘膜の扁平苔癬に効果があるかを調べたものです。ウパダシチニブは通常、関節リウマチなどに使用されていますが、今回のケーススタディでは難治性の皮膚状態にも効果があることが確認されました。この薬はJAK阻害薬と呼ばれ、体内の過剰な炎症反応を抑制します。魚鱗癬紅皮症の患者さんにとっても、このような治療が将来応用される可能性があります。ただし、現時点では専門医の指導のもとで慎重に使用されるべきです。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSF9Vc2RKZnlRODBTYVFubDdwZ0FRclhmenRjYWJtX3BmcXFEaXZNaXdzRXloYzZncVU5S0J0dWFkNjg3dG9XWjBjbGw4UmJxOEJGWk1yNV9LV3AteEVTS2UzYXVCUkhKa1U1cDBsZEl5UExRRE00eHR1VFhQVWdRam82bDBJd2xGYkFDX0hiazA3R0w5emd2TTlKeTZaYUgyTGxmaHItSnhSWkVod1ZaVw?oc=5",
   "published_date": "2026-05-07",
-  "curation_reasoning": "この治療薬は炎症を抑える新しい選択肢を提供し、魚鱗癬のような炎症性の皮膚疾患の患者さんに役立つ可能性があります。",
-  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内で炎症を引き起こすシグナルをブロックする薬\"}]",
-  "patient_insight": "ウパダシチニブという薬は、新しく開発されたもので、炎症を抑える効果があります。魚鱗癬の方に直接適用されているわけではありませんが、今後このような新しい治療法が出てくる可能性を示しています。現時点では、主治医と相談の上、現在の治療法をしっかり続けることが大切です。",
-  "created_at": "2026-05-08 14:09:04"
+  "curation_reasoning": "炎症を抑える新しい治療法の可能性が示され、魚鱗癬紅皮症にも応用できる可能性があります。患者さんにとって今後の治療の選択肢が広がるかもしれません。",
+  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内の炎症を引き起こす信号をブロックする薬\"}]",
+  "patient_insight": "この研究で紹介されたウパダシチニブという薬は、魚鱗癬のような皮膚の炎症を伴う疾患にも効果が期待できるかもしれません。現状では通常の治療法では難しい場合に選択の一つとして出てくる可能性がありますが、必ず主治医と相談して使用を検討してください。",
+  "created_at": "2026-05-08 15:02:56"
 }

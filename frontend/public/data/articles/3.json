@@ -1,17 +1,17 @@
 {
   "id": 3,
   "digest_date": "2026-05-08",
-  "source": "pubmed",
-  "source_id": "42072832",
-  "original_title": "Multimodal Anterior Segment Imaging of Severe Mixed Exposure-Related Neurotrophic Keratopathy with Marked Corneal Thinning in Lamellar Ichthyosis.",
-  "title_ja": "層板状魚鱗癬における角膜障害のケース報告",
-  "summary_ja": "この研究は、層板状魚鱗癬と診断された患者さんの目の合併症について報告しています。この患者さんは角膜が薄くなるという非常に稀な状態になっていました。詳細な眼科検査により、角膜の異常が見つかり、痛みや視力の問題の原因が明らかになりました。魚鱗癬患者さんにとって、こうした目の異常は視力を左右する重大な問題であり、早期発見と適切な治療が重要です。今後は、専門医の診察を受け、定期的な経過観察を行うことが推奨されます。",
+  "source": "clinical_trials",
+  "source_id": "NCT03417856",
+  "original_title": "Defining the Skin and Blood Biomarkers of Ichthyosis",
+  "title_ja": "「魚鱗癬」の症状を見分ける新しい指標についての研究",
+  "summary_ja": "この研究は、魚鱗癬という遺伝性の皮膚病において病気の状態を示す指標（バイオマーカー）を調べています。血液や皮膚のサンプルから検出されるこれらの指標は、新しい治療方法の開発に役立つ可能性があります。現在は乾燥を緩和するための保湿剤が主な対処法ですが、今後根本的な治療につながる期待があります。今後、魚鱗癬の診断と治療がより正確で効果的になるかもしれません。",
   "category": "研究論文",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42072832/",
-  "published_date": "2026 Apr 17",
-  "curation_reasoning": "魚鱗癬患者さんにとって、目の健康は生活の質に直接影響するため、角膜障害の詳細は重要です。",
+  "url": "https://clinicaltrials.gov/study/NCT03417856",
+  "published_date": "2026-04-27",
+  "curation_reasoning": "魚鱗癬の新しい治療方法開発につながる可能性があるため、患者さんにとって重要です。",
   "drugs_json": "[]",
-  "patient_insight": "魚鱗癬の患者さんやご家族の中には、このような眼の問題を経験する方もいるかもしれません。目の健康状態を定期的にチェックし、異常があれば早期に眼科医に相談することが大切です。",
-  "created_at": "2026-05-08 14:37:22"
+  "patient_insight": "この研究で進められている指標の発見は、将来的に魚鱗癬の診断や治療の改善に役立つかもしれません。現時点では保湿ケアを続けつつ、新たな治療の進展を期待しましょう。",
+  "created_at": "2026-05-08 15:02:56"
 }
