@@ -1,17 +1,17 @@
 {
   "id": 4,
   "digest_date": "2026-05-08",
-  "source": "pubmed",
-  "source_id": "42062794",
-  "original_title": "Harlequin Ichthyosis in Resource Limited Environments: Practical Strategies to Improve Neonatal Survival.",
-  "title_ja": "ハーレクイン型魚鱗癬の赤ちゃんの生存率を向上させる実践的対策",
-  "summary_ja": "ハーレクイン型魚鱗癬は非常に重度で生命に危険を及ぼす皮膚疾患です。特に設備が整っていない病院では新生児の死亡率が高いです。しかし、簡易的な方法を用いることで生存率が改善された例が報告されました。湿った環境を作る方法や、手作りでできる保湿ケアが役立ったとのことです。こうした方法は、同じ境遇にある他の家庭にとっても希望につながるかもしれません。",
+  "source": "clinical_trials",
+  "source_id": "NCT06800755",
+  "original_title": "Evaluation of the Efficacy and Tolerance of the Medical Device RL3020-DP0364 in Adult Population With Stable Mild Plaque Psoriasis, Dry Skin and Pruritus",
+  "title_ja": "乾燥肌やかゆみを伴う人への新しい保湿剤の効果",
+  "summary_ja": "この研究では、RL3020-DP0364という新しい保湿剤の効果を調べています。この製品は、肌に潤いを与え、乾燥を防ぐために保護膜を作ります。特に乾燥肌やかゆみを持つ人に効果的であることが期待されています。魚鱗癬（いちようせん）やアトピー性皮膚炎などの症状改善にも役立つかもしれません。このような製品が増えることで、日常のケアが楽になる可能性があります。",
   "category": "ケア・対処法",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42062794/",
-  "published_date": "2026 Apr 30",
-  "curation_reasoning": "かんたんに実施できるケア方法が示されているため、実際に自宅で役立てることが可能です。",
-  "drugs_json": "[{\"drug_name\": \"イソトレチノイン（Isotretinoin）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質を正常にする働きをもち、スキンケアを補助する薬です。\"}]",
-  "patient_insight": "この研究は、過酷な状況でもできることがあると示しています。自宅での保湿ケアや環境調整が赤ちゃんを守るために大切です。主治医に相談しながらできる保湿ケアを研究して取り入れてみると良いでしょう。",
-  "created_at": "2026-05-08 14:09:04"
+  "url": "https://clinicaltrials.gov/study/NCT06800755",
+  "published_date": "2026-05-05",
+  "curation_reasoning": "新しい保湿剤が魚鱗癬に対する日常ケアを改善する可能性があるため、関連性が高いと判断しました。",
+  "drugs_json": "[{\"drug_name\": \"RL3020-DP0364\", \"ingredients\": \"不明\", \"description\": \"乾燥肌を潤す保湿剤\"}]",
+  "patient_insight": "この製品は市販される可能性があるため、普段のスキンケアをより効果的にする手助けになるかもしれません。主治医に相談して興味があるか確認してみるのも良いでしょう。",
+  "created_at": "2026-05-08 14:37:22"
 }
