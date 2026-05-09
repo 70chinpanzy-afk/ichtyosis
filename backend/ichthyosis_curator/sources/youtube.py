@@ -43,6 +43,53 @@ SEARCH_QUERIES = [
 # 動画の説明文の最大取得文字数
 MAX_DESCRIPTION_LENGTH = 800
 
+# 宣伝・スパムチャンネルのブロックリスト（大文字小文字を区別しない）
+BLOCKED_CHANNELS = {
+    "zhangjian ichthyosis treatment",
+    "ichthyosis care center from china",
+    "r s group 21",
+}
+
+# 宣伝・スパムを示すキーワード（タイトル・説明文の小文字検索）
+SPAM_KEYWORDS = [
+    "whatsapp",
+    "wechat",
+    "contact us for",
+    "for details contact",
+    "get free",
+    "anniversary sale",
+    "our therapy",
+    "zhangjian",
+    "only we can",
+    "restore to normal",
+    "cure guarantee",
+    "guaranteed cure",
+    "100% cure",
+    "100% natural cure",
+]
+
+
+def _is_spam(item: dict) -> bool:
+    """宣伝・スパム動画かどうかを判定する"""
+    snippet = item.get("snippet", {})
+    channel = snippet.get("channelTitle", "").lower()
+    title = snippet.get("title", "").lower()
+    description = snippet.get("description", "").lower()
+
+    # チャンネルブロックリスト
+    if channel in BLOCKED_CHANNELS:
+        logger.debug(f"YouTube spam filter: blocked channel '{snippet.get('channelTitle')}'")
+        return True
+
+    # タイトル・説明文のスパムキーワード
+    text = f"{title} {description}"
+    for kw in SPAM_KEYWORDS:
+        if kw in text:
+            logger.debug(f"YouTube spam filter: keyword '{kw}' in '{snippet.get('title')}'")
+            return True
+
+    return False
+
 
 def _video_hash(video_id: str) -> str:
     return hashlib.sha256(video_id.encode()).hexdigest()[:16]
@@ -159,6 +206,8 @@ def get_youtube_videos(days_back: int = 30) -> list[RawArticle]:
             continue
 
         for item in items:
+            if _is_spam(item):
+                continue
             article = _item_to_raw_article(item)
             if article and article.source_id not in seen_ids:
                 seen_ids.add(article.source_id)
