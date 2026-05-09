@@ -9,6 +9,8 @@ from ichthyosis_curator.sources.pubmed import get_pubmed_articles
 from ichthyosis_curator.sources.clinical_trials import search_clinical_trials
 from ichthyosis_curator.sources.news_rss import get_news_articles
 from ichthyosis_curator.sources.reddit import get_reddit_posts
+from ichthyosis_curator.sources.patient_communities import get_patient_community_posts
+from ichthyosis_curator.sources.youtube import get_youtube_videos
 from ichthyosis_curator.curation.llm_curator import curate_articles, generate_greeting
 from ichthyosis_curator.curation.dedup import filter_unseen_articles, mark_articles_sent
 from ichthyosis_curator.delivery.line_messaging import build_flex_messages, send_line_flex, format_digest_for_line, send_line_push
@@ -74,6 +76,24 @@ def run_daily_curation(config: CuratorConfig) -> bool:
     except Exception as e:
         logger.error(f"Reddit fetch failed: {e}")
         errors.append(f"Reddit: {e}")
+
+    try:
+        community_posts = get_patient_community_posts(days_back=14)
+        all_raw.extend(community_posts)
+        sources_scanned += 1
+        logger.info(f"Patient communities: {len(community_posts)} posts")
+    except Exception as e:
+        logger.error(f"Patient communities fetch failed: {e}")
+        errors.append(f"PatientCommunities: {e}")
+
+    try:
+        youtube_videos = get_youtube_videos(days_back=30)
+        all_raw.extend(youtube_videos)
+        sources_scanned += 1
+        logger.info(f"YouTube: {len(youtube_videos)} videos")
+    except Exception as e:
+        logger.error(f"YouTube fetch failed: {e}")
+        errors.append(f"YouTube: {e}")
 
     logger.info(f"合計: {len(all_raw)} raw articles from {sources_scanned} sources")
 

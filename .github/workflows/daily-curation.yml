@@ -36,6 +36,7 @@ jobs:
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
           FRONTEND_URL: https://ichtyosis.vercel.app
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           echo "=== Starting curation ==="
           echo "DB path: $(pwd)/ichthyosis_curator.db"
