@@ -1,17 +1,17 @@
 {
   "id": 5,
   "digest_date": "2026-05-09",
-  "source": "youtube:Tea with MD",
-  "source_id": "e9105f6bbb5a9bb2",
-  "original_title": "If your legs look like this, it may be ichthyosis vulgaris.",
-  "title_ja": "足の乾燥肌がこれなら、それは魚鱗癬かも？",
-  "summary_ja": "この動画では、ただの乾燥肌ではない「魚鱗癬」と呼ばれる皮膚疾患について説明しています。魚鱗癬は、古い肌の細胞が適切に剥がれ落ちないために起こる疾患です。動画では、保湿だけでは不十分で、尿素や乳酸が含まれた製品が効果的とされています。魚鱗癬の患者さんにとって、これらの成分を含むスキンケア製品の選択が症状管理に役立つ可能性があります。正しいスキンケア製品の選び方を知ることが、日常生活での症状緩和に繋がるかもしれません。",
+  "source": "youtube:Derma Aesthetica  By Dr Rehmat",
+  "source_id": "722b8d1223caf829",
+  "original_title": "Severe Dry Skin? Lamellar Ichthyosis Explained by Dermatologist | Before & After",
+  "title_ja": "重度の乾燥肌？層板状魚鱗癬について皮膚科医が解説",
+  "summary_ja": "このYouTube動画では、層板状魚鱗癬という珍しい遺伝的な皮膚疾患について解説しています。層板状魚鱗癬は、通常の保湿だけでは対処が難しく、皮膚が剥がれ落ちにくい遺伝病であり、重度の乾燥肌を引き起こします。動画では、適切な保湿剤の選び方や具体的なスキンケア方法についても詳しく説明されています。この情報は、患者さんの日常生活の改善に直接役立つ内容となっています。特に、保湿が症状の管理において重要であると強調されています。",
   "category": "ケア・対処法",
   "relevance_score": 0.8,
-  "url": "https://www.youtube.com/watch?v=siJFPwbc3kQ",
-  "published_date": "2026-05-01",
-  "curation_reasoning": "魚鱗癬のスキンケアに関する有用な情報が含まれており、実際の日常で役立つ製品選びに関する情報が得られるため。",
-  "drugs_json": "[{\"drug_name\": \"尿素（Urea）\", \"ingredients\": \"尿素\", \"description\": \"皮膚の水分保持を助ける成分\"}, {\"drug_name\": \"乳酸（Lactic Acid）\", \"ingredients\": \"乳酸\", \"description\": \"角質を柔らかくし、古い角質を除去する成分\"}]",
-  "patient_insight": "尿素や乳酸を含むスキンケア製品が症状改善に役立つかもしれませんので、試してみる価値があります。使用の際は主治医に確認し、肌に合うかどうか少量でテストしてみてください。",
-  "created_at": "2026-05-09 13:01:51"
+  "url": "https://www.youtube.com/watch?v=IAFA3kQiepQ",
+  "published_date": "2026-04-23",
+  "curation_reasoning": "層板状魚鱗癬に関する基本的な情報と具体的なケア方法を提供しており、患者さんの日常生活に直接役立ちます。保湿の重要性と具体的な方法が解説されている点で価値があります。",
+  "drugs_json": "[]",
+  "patient_insight": "この動画では、具体的なスキンケアの方法が説明されています。日々のケアとして保湿を徹底し、専用の保湿剤を使用することで症状が改善する可能性があります。医師に相談しつつ、動画の情報を参考に新しいケアを試してみるのも良いかもしれません。",
+  "created_at": "2026-05-09 13:21:44"
 }

@@ -1,17 +1,17 @@
 {
   "id": 4,
   "digest_date": "2026-05-09",
-  "source": "pubmed",
-  "source_id": "42072832",
-  "original_title": "Multimodal Anterior Segment Imaging of Severe Mixed Exposure-Related Neurotrophic Keratopathy with Marked Corneal Thinning in Lamellar Ichthyosis.",
-  "title_ja": "層板状魚鱗癬における角膜障害の治療法の検討",
-  "summary_ja": "層板状魚鱗癬の患者さんが目のトラブルで苦しむケース。この病気により目の表面が乾燥してしまい、特に角膜が薄くなってしまうことがあります。この記事では、特別な検査でこの目の状態を詳しく調べた事例を紹介。これは魚鱗癬の合併症として、目の健康に注意が必要であることを示しています。早めの眼科検診が推奨されるでしょう。",
+  "source": "clinical_trials",
+  "source_id": "NCT03417856",
+  "original_title": "Defining the Skin and Blood Biomarkers of Ichthyosis",
+  "title_ja": "魚鱗癬の皮膚と血液のマーカーを探る研究",
+  "summary_ja": "魚鱗癬は、乾燥し、厚くなり、鱗状の肌を特徴とする遺伝性皮膚疾患です。この研究では、魚鱗癬の新しい治療法を見つけるために、特定の血液や皮膚の中で変化する物質（バイオマーカー）を調べています。バイオマーカーの理解は、病気の進行を追跡し、新しい治療法を開発する手助けになります。魚鱗癬患者にとって、より効果的な治療法を生み出すための第一歩です。",
   "category": "研究論文",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42072832/",
-  "published_date": "2026 Apr 17",
-  "curation_reasoning": "魚鱗癬の患者が直面する可能性がある目の健康問題に対する理解を深める上で有用です。",
+  "url": "https://clinicaltrials.gov/study/NCT03417856",
+  "published_date": "2026-04-27",
+  "curation_reasoning": "バイオマーカーの特定は新しい治療法の開発に繋がり、患者さんに将来的な希望を与えるため。",
   "drugs_json": "[]",
-  "patient_insight": "この情報を基に、目の健康に不安を感じたら早めに眼科医に相談することをお勧めします。また、目を保護するために保湿や適切なケア製品の使用を取り入れてください。",
-  "created_at": "2026-05-09 13:01:51"
+  "patient_insight": "この研究は魚鱗癬の治療法の開発に向けた重要な一歩です。今後、こうした研究によって、より効果的な治療法が見つかることを期待しましょう。保湿ケアの継続が現時点での最善です。",
+  "created_at": "2026-05-09 13:21:44"
 }
