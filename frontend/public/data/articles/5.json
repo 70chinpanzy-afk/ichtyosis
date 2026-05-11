@@ -1,17 +1,17 @@
 {
   "id": 5,
-  "digest_date": "2026-05-10",
+  "digest_date": "2026-05-11",
   "source": "pubmed",
-  "source_id": "42072832",
-  "original_title": "Multimodal Anterior Segment Imaging of Severe Mixed Exposure-Related Neurotrophic Keratopathy with Marked Corneal Thinning in Lamellar Ichthyosis.",
-  "title_ja": "層板状魚鱗癬における重度の角膜の薄さと眼の問題",
-  "summary_ja": "層板状魚鱗癬を持つ61歳の男性が、角膜が非常に薄くなる重度の眼の問題を抱えていました。まぶたが完全に閉じないため、角膜が乾燥し、傷がついていました。この症例では、目の表面を保護し、問題を緩和するための適切なケアが重要です。同じ疾患を持つ方々にとって、早期の眼科的評価と継続的なケアが重要であることが示されました。",
-  "category": "ケア・対処法",
+  "source_id": "42100332",
+  "original_title": "Immunomodulatory functions of ginsenosides in skin diseases: molecular mechanisms and therapeutic prospects.",
+  "title_ja": "人参サポニンの皮膚疾患における免疫調節機能と治療の可能性",
+  "summary_ja": "この研究は、韓国の伝統的な薬草である朝鮮人参に含まれる有効成分「人参サポニン」が、皮膚の病気にどのような影響を及ぼすかを調査しました。人参サポニンは、免疫系を調節する能力があり、これが皮膚の炎症を軽減する可能性があります。魚鱗癬やアトピー性皮膚炎など、慢性の皮膚疾患に新たな治療法として有望視されており、安全性や有効性についてさらなる研究が進められています。これにより、魚鱗癬の患者さんにとって今後の治療の選択肢が広がる可能性がありそうです。今後の研究に期待しつつ、現時点では主治医の相談の上で取り組むことが大切です。",
+  "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42072832/",
-  "published_date": "2026-04-17",
-  "curation_reasoning": "魚鱗癬に関連する眼の問題を扱い、ケアの重要性を示しているため。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42100332/",
+  "published_date": "2026",
+  "curation_reasoning": "人参サポニンという自然の成分が、皮膚の炎症を和らげる可能性があるため、将来的な治療法として期待できる情報。",
   "drugs_json": "[]",
-  "patient_insight": "魚鱗癬は皮膚だけでなく、眼の健康にも影響を及ぼすことがあるので注意が必要です。眼科での定期検診を受け、必要ならば保護具や人工涙液などを使って眼のケアを行いましょう。",
-  "created_at": "2026-05-10 22:57:15"
+  "patient_insight": "人参サポニンは自然成分なので、将来的に魚鱗癬の治療として利用できるかもしれません。ただし、まだ研究段階なので、すぐには試せません。医師と相談しつつ、今のケアを続けてください。",
+  "created_at": "2026-05-11 23:03:07"
 }
