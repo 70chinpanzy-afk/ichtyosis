@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-05-11",
+  "digest_date": "2026-05-12",
   "source": "clinical_trials",
-  "source_id": "NCT06800755",
-  "original_title": "Evaluation of the Efficacy and Tolerance of the Medical Device RL3020-DP0364 in Adult Population With Stable Mild Plaque Psoriasis, Dry Skin and Pruritus",
-  "title_ja": "RL3020-DP0364の効果と耐性の評価-乾燥肌と痒みを持つ軽度の乾癬患者",
-  "summary_ja": "この研究では、特定の医療デバイス（RL3020-DP0364）が、乾燥肌や痒みを伴う皮膚疾患に対してどのくらい効果があるかが調べられました。製品は肌に膜を作り出し、乾燥を防ぎ外部からの刺激から保護するという特徴があります。魚鱗癬の患者さんが抱える症状にも応用できるかもしれず、保湿が重要なスキンケアの選択肢に加えられる可能性があります。将来には多くの人が利用できるようになるかもしれませんが、まだ検証中な部分もあります。",
-  "category": "ケア・対処法",
+  "source_id": "NCT03417856",
+  "original_title": "Defining the Skin and Blood Biomarkers of Ichthyosis",
+  "title_ja": "魚鱗癬の皮膚と血液の特徴を探る研究",
+  "summary_ja": "魚鱗癬の原因を探るため、皮膚や血液に現れるマーカーを調査する研究が行われています。魚鱗癬は遺伝性の皮膚疾患で、肌が乾燥しやすく厚くなります。この研究により、どのような体内のシグナルが病気の活動と関係しているかを明らかにし、新たな治療法の開発につながることが期待されています。",
+  "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://clinicaltrials.gov/study/NCT06800755",
-  "published_date": "2026-05-05",
-  "curation_reasoning": "乾燥肌や痒みに対する新しい治療法の可能性があり、魚鱗癬の患者さんの日常ケアにも応用できそうな情報。",
+  "url": "https://clinicaltrials.gov/study/NCT03417856",
+  "published_date": "2026-04-27",
+  "curation_reasoning": "魚鱗癬の基礎理解が進むことで、将来的な治療法の開発につながる可能性があり、患者にとって希望となる情報です。",
   "drugs_json": "[]",
-  "patient_insight": "新しい保湿製品が魚鱗癬にも効果を発揮する可能性があります。医療デバイスが市場に登場するには時間がかかるかもしれませんが、主治医と相談して現状の保湿ケアを続けましょう。",
-  "created_at": "2026-05-11 23:03:07"
+  "patient_insight": "この研究は魚鱗癬の原因解明に貢献し、新しい治療法の開発に一歩近づく可能性があります。今後も研究の成果を注視しつつ、現行のケアに励んでください。",
+  "created_at": "2026-05-12 23:10:00"
 }
