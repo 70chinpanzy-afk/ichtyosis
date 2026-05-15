@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-05-14",
+  "digest_date": "2026-05-15",
   "source": "clinical_trials",
   "source_id": "NCT05979831",
   "original_title": "A Phase 1b/2, Double-Blind, Placebo-Controlled, Randomized, Parallel-Arm Study to Explore Safety, Pharmacokinetics, and Early Clinical Signal of Efficacy of DS-2325a in Patients With Netherton Syndrome",
-  "title_ja": "ネザートン症候群に対するDS-2325aの評価研究",
-  "summary_ja": "ネザートン症候群は、皮膚が赤くなり、鱗状になったりする遺伝性の疾患です。この研究では、新しい薬剤DS-2325aが患者にどのような効果をもたらすかを調べています。研究は安全性や薬が体内でどう動くかを見る初期段階（フェーズ1b/2）のものです。治療法が少ないネザートン症候群の治療に向けて、新たな選択肢ができる可能性があります。",
+  "title_ja": "ネザートン症候群の新薬DS-2325aの安全性と効果に関する試験",
+  "summary_ja": "この研究は、ネザートン症候群（重度の皮膚の乾燥や赤みを特徴とする病気）を持つ患者を対象に、新しい薬DS-2325aの安全性と初期の効果を評価するものです。第1b/2相試験（初期段階の小規模な試験）として進められ、薬がどのように体内で働くのかも調べます。これにより、患者さんにとって新たな治療法となる可能性があります。症状の改善が期待されるため、患者さんの生活の質向上に寄与するかもしれません。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05979831",
   "published_date": "2026-05-14",
-  "curation_reasoning": "ネザートン症候群に直接関係する新薬の初期臨床試験で、魚鱗癬患者にも関係がある。",
-  "drugs_json": "[{\"drug_name\": \"DS-2325a\", \"ingredients\": \"情報なし\", \"description\": \"ネザートン症候群の症状改善を目指した新しい薬剤\"}]",
-  "patient_insight": "この研究は、将来ネザートン症候群やそれに似た魚鱗癬の治療法として選択肢が広がる可能性があります。今は主治医と現在の治療をしっかり続けることが大切です。",
-  "created_at": "2026-05-14 23:05:07"
+  "curation_reasoning": "ネザートン症候群は魚鱗癬の一種と関連があり、新薬の効果に期待がもてるため。",
+  "drugs_json": "[{\"drug_name\": \"DS-2325a\", \"ingredients\": \"不明\", \"description\": \"ネザートン症候群の治療を目的に開発中の新薬\"}]",
+  "patient_insight": "この新しい薬が実用化されれば、ネザートン症候群の症状が大きく改善される可能性があります。まだ試験段階ですが、今後の治療選択肢として期待がもてます。現在は、保湿などの日常ケアをしっかり続けましょう。",
+  "created_at": "2026-05-15 23:04:03"
 }

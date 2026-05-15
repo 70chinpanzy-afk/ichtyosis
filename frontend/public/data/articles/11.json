@@ -1,16 +1,17 @@
 {
   "id": 11,
-  "digest_date": "2026-04-01",
+  "digest_date": "2026-05-15",
   "source": "pubmed",
-  "source_id": "41912165",
-  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
-  "title_ja": "ハーレクイン魚鱗癬の疫学と臨床的特徴の系統的レビュー",
-  "summary_ja": "この研究は、非常に稀な遺伝性皮膚疾患であるハーレクイン魚鱗癬についての情報を集めたものです。命に関わる症状を持つこの病気は、厚い鱗状の皮膚や体中の多くの問題を引き起こします。研究により、この病気の共通する特徴や発生地域、そして遺伝的な背景がまとめられています。魚鱗癬に関連する情報として、稀少疾患の理解を深め、今後の管理法に役立つ可能性があります。",
+  "source_id": "42101073",
+  "original_title": "Complicated Spastic Paraparesis: Study of a Patient With a De Novo Pathogenic Variant in ELOVL1.",
+  "title_ja": "ELOVL1遺伝子変異による合併症と魚鱗癬の関連",
+  "summary_ja": "この研究では、ELOVL1という遺伝子の変異が、魚鱗癬や他の症状とつながることがわかりました。この遺伝子は、体内の脂質を作るのに重要で、その機能に異常があると皮膚に問題が起きることがあります。魚鱗癬の患者さんにもこの影響が関連していることが示唆されており、将来的に新しい治療法が見つかる可能性があります。",
   "category": "研究論文",
-  "relevance_score": 0.6,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
-  "published_date": "2026 Jan 30",
-  "curation_reasoning": "魚鱗癬の希少なタイプに関する情報は患者家族の理解を助け、治療選択に影響を与えるため。",
+  "relevance_score": 0.5,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42101073/",
+  "published_date": "2026 May",
+  "curation_reasoning": "ELOVL1遺伝子の変異が魚鱗癬に関わる可能性があり、新しい治療の方向性を示唆しているため重要です。",
   "drugs_json": "[]",
-  "created_at": "2026-04-01 22:42:27"
+  "patient_insight": "この遺伝子の変異研究によって、新しい治療の可能性が広がるかもしれません。普段のケアを継続しながら、新しい情報を定期的に確認することが大切です。特に遺伝子に関する情報は医師と相談して活用方法を考えてください。",
+  "created_at": "2026-05-15 23:04:03"
 }
