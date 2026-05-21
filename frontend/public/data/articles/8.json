@@ -1,17 +1,17 @@
 {
   "id": 8,
   "digest_date": "2026-05-21",
-  "source": "youtube:Brown Skin Derm",
-  "source_id": "bc6bac6b9e21b395",
-  "original_title": "Ichthyosis vulgaris Treatment #skincare #dryskin",
-  "title_ja": "魚鱗癬バルガリスの治療法",
-  "summary_ja": "この動画では、魚鱗癬バルガリスの治療について詳しく説明されています。この疾患は肌にざらざらした鱗状の症状が現れる病気で、正しいスキンケアや薬剤の使用が重要です。具体的には、保湿剤や特定の薬剤を使ったケア方法が紹介されており、これらを続けることで症状の改善が期待できます。患者さんにとって、日々のケアに役立つ有用な情報を得られます。",
+  "source": "youtube:Tea with MD",
+  "source_id": "e9105f6bbb5a9bb2",
+  "original_title": "If your legs look like this, it may be ichthyosis vulgaris.",
+  "title_ja": "足の皮膚がこんなふうなら魚鱗癬かも",
+  "summary_ja": "この動画は、魚鱗癬（いちょうせん）という皮膚状態についての解説です。通常の乾燥肌とは異なり、古い皮膚がうまく剥がれ落ちずに溜まってしまいます。このような場合は、通常の保湿剤だけでは不十分で、尿素や乳酸を含む製品が効果的です。これらを使用することで、よりよいスキンケアが可能になります。魚鱗癬に苦しむ方々にとっては、適切な製品選びが重要です。",
   "category": "ケア・対処法",
   "relevance_score": 0.8,
-  "url": "https://www.youtube.com/watch?v=fDWp216xFIo",
-  "published_date": "2026-05-13",
-  "curation_reasoning": "魚鱗癬バルガリスに特化した治療法が紹介されており、患者さんの要望に応えるために役立つ情報を提供しているからです。",
-  "drugs_json": "[]",
-  "patient_insight": "魚鱗癬バルガリスの症状を効果的に管理するためのスキンケア方法が学べます。この動画に基づいて、保湿ケアの見直しや新しい製品の使用を検討する価値があります。自分に合った方法を見つけるために、日々のケアに取り入れると良いでしょう。",
-  "created_at": "2026-05-21 13:11:14"
+  "url": "https://www.youtube.com/watch?v=siJFPwbc3kQ",
+  "published_date": "2026-05-01",
+  "curation_reasoning": "魚鱗癬の基本的な特性とスキンケアの方法を具体的に紹介しています。患者さんに実用的な知識を提供します。",
+  "drugs_json": "[{\"drug_name\": \"尿素クリーム（Urea Cream）\", \"ingredients\": \"尿素\", \"description\": \"肌を柔らかくし、古い皮膚が剥がれやすくするクリーム\"}, {\"drug_name\": \"乳酸ローション（Lactic Acid Lotion）\", \"ingredients\": \"乳酸\", \"description\": \"肌の古い細胞を除去し、なめらかに保つローション\"}]",
+  "patient_insight": "魚鱗癬の場合、ただの乾燥肌用クリームでは効果が不十分な場合があります。尿素や乳酸入りの保湿剤を試すことで、肌の状態が改善するかもしれませんので、ご検討ください。",
+  "created_at": "2026-05-21 23:10:51"
 }
