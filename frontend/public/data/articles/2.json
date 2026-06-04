@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-05-24",
+  "digest_date": "2026-06-04",
   "source": "clinical_trials",
-  "source_id": "NCT04154293",
-  "original_title": "A Randomized, Parallel, Double-Blind, Vehicle Controlled Study to Evaluate the Safety and Efficacy of Two Concentrations of Topical TMB-001 for the Treatment of Congenital Ichthyosis",
-  "title_ja": "TMB-001軟膏の異なる濃度による魚鱗癬治療の研究",
-  "summary_ja": "この研究は、魚鱗癬治療用のTMB-001軟膏の0.05%と0.1%の濃度がどのくらい効果的かを調べるものです。対象は9歳以上の患者さんで、安心して使えるかどうかも評価されます。初期の結果では、皮膚の状態が改善されることが期待されています。新たな治療選択肢が増えることは、魚鱗癬患者さんにとって大きなサポートです。",
+  "source_id": "NCT05295732",
+  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+  "title_ja": "X連鎖型魚鱗癬とARCIの治療における新しい軟膏TMB-001の効果を評価",
+  "summary_ja": "この研究は、TMB-001という新しい軟膏の安全性と効果を評価するために行われています。TMB-001は、先天性魚鱗癬と診断された6歳以上の人々を対象にしたもので、X連鎖型魚鱗癬やARCIと呼ばれるタイプに焦点を当てています。この薬が有効な場合、魚鱗癬の症状を抑えるための新しい治療法として期待されています。患者さんにとって、その選択肢が増えることで、より良い生活の質を維持できる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT04154293",
+  "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-05-22",
-  "curation_reasoning": "様々な濃度のTMB-001の効果が新たな希望を提供します。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質の生成を抑え、柔らかくすることで症状を改善する塗り薬です。\"}]",
-  "patient_insight": "TMB-001の濃度が異なるバージョンが研究されています。これにより、もっと適切な治療法が見つかるかもしれません。現状はしっかりと保湿ケアを続けていきましょう。",
-  "created_at": "2026-05-24 23:04:34"
+  "curation_reasoning": "この試験は、魚鱗癬の特にX連鎖型やARCI型を持つ患者さんに直接関係する新薬の効果を探るものです。新しい軟膏が実際の症状管理にどのような効果があるのかを具体的に調べているため、興味深い情報です。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の症状を改善するために開発された軟膏\"}]",
+  "patient_insight": "この新しい軟膏が効果を示す場合、毎日のケアがより簡単になるかもしれません。現時点では、実験段階ですが、医療機関での相談を続けながら、入手可能になったときに試す準備をしておくと良いでしょう。しっかりと保湿することが現時点での大事な対策です。",
+  "created_at": "2026-06-04 23:16:35"
 }
