@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-06-04",
+  "digest_date": "2026-06-05",
   "source": "clinical_trials",
-  "source_id": "NCT05295732",
-  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "X連鎖型魚鱗癬とARCIの治療における新しい軟膏TMB-001の効果を評価",
-  "summary_ja": "この研究は、TMB-001という新しい軟膏の安全性と効果を評価するために行われています。TMB-001は、先天性魚鱗癬と診断された6歳以上の人々を対象にしたもので、X連鎖型魚鱗癬やARCIと呼ばれるタイプに焦点を当てています。この薬が有効な場合、魚鱗癬の症状を抑えるための新しい治療法として期待されています。患者さんにとって、その選択肢が増えることで、より良い生活の質を維持できる可能性があります。",
+  "source_id": "NCT04154293",
+  "original_title": "A Randomized, Parallel, Double-Blind, Vehicle Controlled Study to Evaluate the Safety and Efficacy of Two Concentrations of Topical TMB-001 for the Treatment of Congenital Ichthyosis",
+  "title_ja": "先天性魚鱗癬に対する外用薬TMB-001の安全性と効果を調べる試験",
+  "summary_ja": "この治験は、先天性魚鱗癬の治療における外用薬TMB-001の効果と安全性を検証するものです。TMB-001には二つの濃度があり、イソトレチノイン（合成のビタミンAで皮膚の細胞の成長を助ける成分）が0.05%と0.1%で含まれています。9歳以上の患者を対象とし、特にX連鎖劣性魚鱗癬（皮膚が厚くなるタイプの遺伝病）や層板状魚鱗癬に注目しています。魚鱗癬の症状を和らげ、肌をより健康に保つ可能性があります。今回の研究はアメリカ食品医薬品局（FDA）からも支援されており、信頼性の高い情報と言えます。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT05295732",
+  "url": "https://clinicaltrials.gov/study/NCT04154293",
   "published_date": "2026-05-22",
-  "curation_reasoning": "この試験は、魚鱗癬の特にX連鎖型やARCI型を持つ患者さんに直接関係する新薬の効果を探るものです。新しい軟膏が実際の症状管理にどのような効果があるのかを具体的に調べているため、興味深い情報です。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の症状を改善するために開発された軟膏\"}]",
-  "patient_insight": "この新しい軟膏が効果を示す場合、毎日のケアがより簡単になるかもしれません。現時点では、実験段階ですが、医療機関での相談を続けながら、入手可能になったときに試す準備をしておくと良いでしょう。しっかりと保湿することが現時点での大事な対策です。",
-  "created_at": "2026-06-04 23:16:35"
+  "curation_reasoning": "この試験は魚鱗癬に特化した新しい治療法の有効性を直接検証するもので、魚鱗癬の患者さんにとって非常に有用です。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001（イソトレチノイン）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の細胞の成長を助け、表面を滑らかにする外用薬\"}]",
+  "patient_insight": "この治験で使われた外用薬は、一般に使用される治療法と異なり、新しい選択肢を提供するものです。まだ治験段階ですが、将来的に保湿ケア以外の治療として役立つかもしれません。現時点では、既存のスキンケア方法をしっかり続けることが重要です。",
+  "created_at": "2026-06-05 23:17:59"
 }
