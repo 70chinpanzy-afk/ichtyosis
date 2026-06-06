@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-06-05",
+  "digest_date": "2026-06-06",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "X連鎖性およびARCI魚鱗癬の治療におけるTMB-001の効果と安全性",
-  "summary_ja": "この臨床試験は、X連鎖性およびARCI魚鱗癬を持つ6歳以上の患者さんを対象にしたものです。TMB-001という外用薬の効果と安全性を評価することを目的にしています。試験は三つの期間に分かれて行われ、最初に薬を少量から始めて、徐々に量を増やしながら、安全性と効果を確かめます。この薬は皮膚の改善を目的とした新しい選択肢になる可能性があります。",
+  "title_ja": "魚鱗癬治療のためのTMB-001軟膏の効果を確認するASCEND試験",
+  "summary_ja": "この研究は、魚鱗癬のための新しい軟膏TMB-001の安全性と効果を確認するものです。魚鱗癬は皮膚がカサカサになる状態で、この軟膏はそれを改善するために作られました。研究の初期段階（第III相臨床試験）では、特に遺伝的に魚鱗癬を持つ子供を対象としています。この研究は、皮膚を滑らかにして、生活の質を向上させる可能性があります。ただし、まだ試験段階なので、市販されるまでは時間がかかるかもしれません。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-05-22",
-  "curation_reasoning": "魚鱗癬の直接的な治療法として、TMB-001の安全性と効果が高く評価されることが期待されます。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001（TMB-001）\", \"ingredients\": \"未公表\", \"description\": \"魚鱗癬の症状を改善することを目的とした外用薬\"}]",
-  "patient_insight": "新しい外用薬TMB-001は、魚鱗癬の治療法として非常に有望です。今後も新しい情報を心待ちにしつつ、主治医と相談しながら適切なケアを続けることが重要です。",
-  "created_at": "2026-06-05 23:17:59"
+  "curation_reasoning": "魚鱗癬に特化した新薬の大規模臨床試験情報は、直接的に関連する最新治療情報のため非常に関連性が高いです。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の症状を緩和する外用軟膏\"}]",
+  "patient_insight": "この新しい軟膏TMB-001が承認されれば、既存の治療法より効果的な結果が期待できるかもしれません。現状では試験段階ですが、希望が持てる情報として注目しておく価値があります。",
+  "created_at": "2026-06-06 23:11:37"
 }
