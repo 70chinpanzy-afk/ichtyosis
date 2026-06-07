@@ -1,17 +1,17 @@
 {
   "id": 5,
-  "digest_date": "2026-06-06",
+  "digest_date": "2026-06-07",
   "source": "pubmed",
-  "source_id": "42220541",
-  "original_title": "Real-world effectiveness and safety of 200 mg abrocitinib initiation in Chinese adults with moderate-to-severe atopic dermatitis: a retrospective study.",
-  "title_ja": "アトピー性皮膚炎に対するアブロシチニブの効果と安全性：中国での実際の使用事例",
-  "summary_ja": "これはアトピー性皮膚炎の重症患者に新しい薬、アブロシチニブを使用したときの効果と安全性を調査した研究です。この薬は炎症を引き起こす体内の信号をブロックする薬です。研究では、中国の患者に200 mgのアブロシチニブを始めた場合、多くの患者で症状が改善したことが示されました。魚鱗癬を持つ患者さんにとってもこの薬が有用である可能性があり、特に強い炎症が伴う場合に効果が期待されます。ただし、使用する場合は専門医と相談してください。",
+  "source_id": "42244272",
+  "original_title": "Baricitinib for Itch-Dominant Atopic Dermatitis: A 52-week Baricitinib Real-World Experience in Korea.",
+  "title_ja": "バリシチニブによるアトピー性皮膚炎のかゆみ改善効果",
+  "summary_ja": "韓国で行われた研究で、バリシチニブという薬がアトピー性皮膚炎によるひどいかゆみを改善する効果があることが確認されました。体内の特定の炎症を阻害することで、かゆみと湿疹を抑える働きをします。52週にわたる観察で、多くの患者でかゆみのスコアが半分以上減少しました。魚鱗癬の患者さんにも、かゆみ止めとして参考になる可能性があります。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42220541/",
-  "published_date": "2026",
-  "curation_reasoning": "アトピー性皮膚炎で効果があることがわかっている薬が、類似の皮膚炎である魚鱗癬にも有効である可能性があるためです。",
-  "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ（abrocitinib）\", \"description\": \"体内の炎症を引き起こす信号を抑える薬\"}]",
-  "patient_insight": "この薬は、魚鱗癬の重症ケースでも有効な可能性があり、特に炎症が強い場合に役立つかもしれません。ただし、必ず専門医と相談して使用を検討してください。",
-  "created_at": "2026-06-06 23:11:37"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42244272/",
+  "published_date": "2026 Jun",
+  "curation_reasoning": "バリシチニブは、魚鱗癬のかゆみ対策にも応用が可能と考えられるため、関心がある内容です。",
+  "drugs_json": "[{\"drug_name\": \"バリシチニブ（baricitinib）\", \"ingredients\": \"バリシチニブ\", \"description\": \"炎症を抑えることでかゆみや湿疹を軽減する薬\"}]",
+  "patient_insight": "この研究結果を受けて、魚鱗癬のかゆみを和らげる新しい方法として、バリシチニブの使用を検討しても良いかもしれません。医師と相談し、他の治療と組み合わせることも考えましょう。",
+  "created_at": "2026-06-07 23:15:17"
 }
