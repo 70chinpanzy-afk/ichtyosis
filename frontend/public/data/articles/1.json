@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-06-10",
+  "digest_date": "2026-06-11",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "魚鱗癬治療のためのTMB-001の効果を試験する第III相臨床試験",
-  "summary_ja": "この研究は、魚鱗癬（先天性）を持つ患者を対象に、新しい外用薬TMB-001の安全性と効果を調べる大規模な試験です。TMB-001は、RXLIやARCIという魚鱗癬のサブタイプに対する治療効果を評価します。この薬は、お肌に塗る形で使用され、炎症や皮膚の乾燥を和らげることが期待されています。治験の結果によっては、魚鱗癬の新しい治療法として広まる可能性があります。親御さんにとっては、お子様の症状改善につながるかもしれないので、注目すべき情報です。",
+  "title_ja": "先天性魚鱗癬に対するTMB-001の効果と安全性を評価する研究",
+  "summary_ja": "この研究は、先天性魚鱗癬という“ウロコのような皮膚”の症状を持つ患者さんに対する新しい治療薬、TMB-001の効果と安全性を確認する試験です。この研究では、6歳以上の参加者が対象となり、TMB-001という塗り薬と偽薬を比較しています。3週間の間、最初の試験が行われ、その後9週間にわたって効果と安全性を評価します。患者さんにとって、この研究は新しい選択肢を提供できる可能性があり、特に皮膚の症状を改善することに役立つかもしれません。今後、さらに詳細な効果や使い方の情報が明らかになることが期待されます。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-05-22",
-  "curation_reasoning": "この臨床試験は、魚鱗癬の新しい治療法に関わるため、患者さんにとって直接的に重要です。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の炎症を和らげる新しい外用薬\"}]",
-  "patient_insight": "この外用薬TMB-001は、乾燥や炎症を抑える効果が期待できるため、日常のケアに役立つ可能性があります。今はまだ治験段階なので、主治医に相談の上、情報収集を続けてください。",
-  "created_at": "2026-06-10 23:41:48"
+  "curation_reasoning": "TMB-001は先天性魚鱗癬に直接関連する新しい治療法であり、症状改善の新たな可能性を提供するため、非常に関連性が高いと判断しました。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質が異常に増えないようにする塗り薬\"}]",
+  "patient_insight": "この試験は新しい薬TMB-001の効果を確認するもので、皮膚の“ウロコ”を減らす新たな方法として注目されています。まだ研究中のため、主治医と相談しながら、現行の治療を続けてください。",
+  "created_at": "2026-06-11 23:46:08"
 }

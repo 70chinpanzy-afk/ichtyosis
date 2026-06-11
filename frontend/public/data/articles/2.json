@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-06-10",
+  "digest_date": "2026-06-11",
   "source": "clinical_trials",
   "source_id": "NCT04154293",
   "original_title": "A Randomized, Parallel, Double-Blind, Vehicle Controlled Study to Evaluate the Safety and Efficacy of Two Concentrations of Topical TMB-001 for the Treatment of Congenital Ichthyosis",
-  "title_ja": "先天性魚鱗癬治療のための外用薬TMB-001の効果を検証",
-  "summary_ja": "この研究は、先天性魚鱗癬の治療に使用される外用薬TMB-001の効果と安全性を調べています。TMB-001は異なる濃度でテストされており、皮膚の乾燥や炎症を和らげることを目指した薬です。また、参加者は標準的な保湿剤と併用して使用します。研究の結果次第では、新しい治療法として普及する可能性があります。これにより、患者さんの生活の質が向上することが期待されています。",
+  "title_ja": "先天性魚鱗癬に対する2つの濃度のTMB-001の安全性と効果を評価する研究",
+  "summary_ja": "この研究は、先天性魚鱗癬の患者さんに対するTMB-001という外用薬を2つの異なる濃度で比較し、その効果と安全性を確認する試験です。9歳以上の参加者が対象で、濃度の異なる2種類のTMB-001を使って治療の効果を調べています。試験の目的は、この薬がどの程度皮膚の“ウロコ”を減らすかを確認することです。患者さんにとっては、新たな治療選択肢の提供につながる可能性があるため、重要な研究です。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT04154293",
   "published_date": "2026-05-22",
-  "curation_reasoning": "この臨床試験は、魚鱗癬に直接関わる新しい治療法の検証であり、患者さんにとって非常に重要です。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の乾燥や炎症を和らげる外用薬\"}]",
-  "patient_insight": "この外用薬の治験は、皮膚の炎症を和らげる新しい治療法の可能性を示しています。最終的な承認には時間がかかりますが、今後の結果に期待が持てます。主治医と相談しながら、情報に注目しましょう。",
-  "created_at": "2026-06-10 23:41:48"
+  "curation_reasoning": "TMB-001は魚鱗癬の直接的な治療法であり、異なる濃度での効果が検証されるため、患者さんにとって有用な情報と判断しました。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質形成を正常化する外用薬\"}]",
+  "patient_insight": "TMB-001が魚鱗癬の新たな治療法として期待されています。濃度の違いが効果にどう影響するのかを調べる重要な試験ですので、主治医と相談して今後の治療計画を考えてください。",
+  "created_at": "2026-06-11 23:46:08"
 }
