@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-06-12",
+  "digest_date": "2026-06-13",
   "source": "clinical_trials",
   "source_id": "NCT05295732",
   "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
-  "title_ja": "TMB-001の魚鱗癬治療における臨床試験",
-  "summary_ja": "この研究は、魚鱗癬（ぎょりんせん）を持つ患者さんを対象に、TMB-001という外用薬クリームの安全性と効果を調べる大規模な試験です。6歳以上の参加者が対象となり、研究では2つのグループに分かれてプラセボ（効果のない薬）やTMB-001を使って治療します。試験の目的は、TMB-001がどれだけ症状を改善するかを確認することです。安全性も細かく評価されるため、子供にも使いやすい薬になる可能性があります。魚鱗癬の患者さんにとって、新しい治療法の一つとして期待できます。",
+  "title_ja": "TMB-001の臨床試験：X連鎖魚鱗癬と常染色体劣性魚鱗癬の治療",
+  "summary_ja": "この研究は、TMB-001という新しい軟膏を使って、魚鱗癬（ぎょりんせん）という皮膚の病気の治療効果を調べるものです。参加者は6歳以上で、適切な量を塗ることで改善が期待できるか試しています。研究は安全性と効果の両方を確認することを目的としています。この新しい治療法が承認されれば、特に重症の患者さんにとって大きな助けになる可能性があります。治験の結果次第で、今後の治療選択肢が広がりそうです。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-05-22",
-  "curation_reasoning": "この臨床試験は、魚鱗癬の新しい外用薬についてであり、直接的な治療の進展を示しています。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"魚鱗癬の症状を改善するための、皮膚に塗る薬\"}]",
-  "patient_insight": "この新しい薬が効果を示せば、毎日のケアが少し楽になるかもしれません。ご家族と一緒に試験結果を注視し、新しい選択肢について医師に相談しましょう。",
-  "created_at": "2026-06-12 23:25:42"
+  "curation_reasoning": "魚鱗癬の患者に対する新しい治療法の有効性と安全性を検証する重要な臨床試験で、患者さんにとって直接役立つ可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001 オイントメント\", \"ingredients\": \"イソトレチノイン\", \"description\": \"魚鱗癬の症状を抑えるための新しい外用薬\"}]",
+  "patient_insight": "この研究で試されている新しい塗り薬TMB-001は、塗るだけで効果が期待できるかもしれません。今はまだ試験中ですが、主治医と相談して、この薬が利用可能になったら治療の選択肢として考えるのが良いでしょう。",
+  "created_at": "2026-06-13 23:14:41"
 }
