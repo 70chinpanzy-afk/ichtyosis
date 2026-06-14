@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-06-14",
+    "source": "clinical_trials",
+    "source_id": "NCT05295732",
+    "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+    "title_ja": "TMB-001の魚鱗癬に対する効果を試験する研究",
+    "summary_ja": "この研究は、TMB-001という新しい軟膏を使った魚鱗癬の治療法を調査するものです。6歳以上の患者を対象に、症状の改善度合いと安全性を確認しています。TMB-001は皮膚の異常な角質を改善する効果が期待されており、日常生活の質を向上させる可能性があります。試験が成功すれば、新しい治療オプションとして活用されるでしょう。現在、主に希望者に対して試験中です。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://clinicaltrials.gov/study/NCT05295732",
+    "published_date": "2026-05-22",
+    "curation_reasoning": "魚鱗癬に直接関係する新しい治療法の治験情報であり、患者さんにとって希望となる可能性があるため。",
+    "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の過剰な角質を抑えるための軟膏\"}]",
+    "patient_insight": "この新しいTMB-001軟膏は、魚鱗癬の症状を軽くする可能性があります。まだ試験中ですが、もし効果が確認されれば、新しいケアの選択肢として考えられます。現時点では、医師の指導のもとで日常のスキンケアを継続しながら、最新情報をフォローすることが大切です。",
+    "created_at": "2026-06-14 23:17:36"
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-06-14",
+    "source": "pubmed",
+    "source_id": "42252516",
+    "original_title": "Safety, tolerability, and pharmacokinetics of HL-300, a novel topical pan-JAK inhibitor, in healthy Chinese adults: a first-in-human, randomized, double-blind, placebo-controlled phase I trial.",
+    "title_ja": "新しい皮膚の薬HL-300の安全性と効果を調べた研究",
+    "summary_ja": "この研究は、新しい皮膚薬「HL-300」についての安全性と効果を調べたものです。この薬は皮膚の炎症を抑える働きがあり、アトピー性皮膚炎に使われることを目的としています。研究では、健康な大人を対象に、安全で副作用が少ないことが確認されました。将来的に魚鱗癬（うろこ症）を持つ人にも効果が期待されるかもしれませんが、まだ初期の段階です。今後の研究でさらなる効果が確認されれば、皮膚の炎症を和らげる新しい選択肢となる可能性があります。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.8,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42252516/",
+    "published_date": "2026 Jun 09",
+    "curation_reasoning": "皮膚の炎症を抑える新しい薬が開発中で、魚鱗癬の治療に応用できる可能性があるため。",
+    "drugs_json": "[{\"drug_name\": \"HL-300\", \"ingredients\": \"不明（JAK1, JAK2, JAK3, TYK2阻害剤）\", \"description\": \"皮膚の炎症を抑えることを目的とした新しい局所薬\"}]",
+    "patient_insight": "この新しい薬HL-300は、炎症を抑える働きがあり、将来の魚鱗癬治療に貢献するかもしれません。現時点では、日々の保湿ケアをしっかり続けることが大切ですが、この薬の開発が進めば、選択肢が増えるかもしれません。",
+    "created_at": "2026-06-14 23:17:36"
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-06-14",
+    "source": "youtube:Dr. Daniel Sugai",
+    "source_id": "6977186e2d4f0bf6",
+    "original_title": "Dermatologist Explains Ichthyosis Vulgaris",
+    "title_ja": "皮膚科医が解説する魚鱗癬（普通型）",
+    "summary_ja": "この動画は、皮膚科医が魚鱗癬（特に普通型）について解説しています。魚鱗癬は、肌が乾燥してサメのような鱗状になる疾患で、遺伝によるものが多いです。治療方法は主に保湿をしっかり行うことですが、ビタミンDクリームや角質を柔らかくする薬も使われることがあります。これらの治療によって、肌の状態を改善し、日常生活の質を高めることが期待されます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.youtube.com/watch?v=opyjFbs09RY",
+    "published_date": "2026-05-21",
+    "curation_reasoning": "専門的な視点から魚鱗癬について詳しく解説されており、具体的なケア方法も紹介されているため、患者さんの日常ケアに役立つ情報です。",
+    "drugs_json": "[]",
+    "patient_insight": "魚鱗癬は遺伝的な要因が多いですが、毎日の保湿ケアがとても重要です。この動画で紹介された治療方法は、症状の改善に繋がる可能性がありますので、主治医と相談して取り入れてみると良いでしょう。保湿の際は、お風呂上がりにすぐ塗るとより効果的です。",
+    "created_at": "2026-06-14 23:17:36"
+  }
+]
