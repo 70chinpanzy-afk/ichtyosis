@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-06-17",
+  "digest_date": "2026-06-18",
   "source": "clinical_trials",
-  "source_id": "NCT04154293",
-  "original_title": "A Randomized, Parallel, Double-Blind, Vehicle Controlled Study to Evaluate the Safety and Efficacy of Two Concentrations of Topical TMB-001 for the Treatment of Congenital Ichthyosis",
-  "title_ja": "先天性魚鱗癬治療のためのTMB-001外用薬の安全性と効果の研究",
-  "summary_ja": "この研究は、先天性魚鱗癬の治療に使われるTMB-001という外用薬の安全性と効果を調べるためのものです。参加者には2つの異なる濃度の薬が用いられ、プラセボ（偽物の薬）と比較されます。特に9歳以上の患者さんを対象に行われ、安全性や効果が確認できるかどうかをチェックします。この情報は将来の治療法の選択肢を増やす可能性があります。安全で効果的な治療法が増えると、日々のケアが楽になり、生活の質が向上するかもしれません。",
+  "source_id": "NCT05295732",
+  "original_title": "The ASCEND Study: A Phase III, Multicenter, Double Blinded Vehicle Controlled Study of TMB-001 - With a Parallel Optional Maximal Use Arm - in the Treatment of RXLI (X-linked) or ARCI Ichthyosis in Subjects Aged ≥6 Years",
+  "title_ja": "TMB-001の第III相試験が魚鱗癬治療に挑む",
+  "summary_ja": "この臨床試験は、TMB-001という外用薬の効果を魚鱗癬の患者さんに確認するためのものです。児童から大人までを対象に、治療効果や安全性を評価しています。TMB-001は、皮膚の乾燥や鱗屑（うろこ）の軽減を目指す薬です。もし成功すれば、新しい治療方法として多くの人に役立つ可能性があります。",
   "category": "新薬・治療法",
-  "relevance_score": 0.9,
-  "url": "https://clinicaltrials.gov/study/NCT04154293",
+  "relevance_score": 1.0,
+  "url": "https://clinicaltrials.gov/study/NCT05295732",
   "published_date": "2026-05-22",
-  "curation_reasoning": "新しい治療法の開発が魚鱗癬の患者さんの日常生活に直接影響を与える可能性があるため。",
-  "drugs_json": "[{\"drug_name\": \"TMB-001（Isotretinoin外用薬）\", \"ingredients\": \"イソトレチノイン\", \"description\": \"皮膚のターンオーバーを促進して、角質を減らし、肌を滑らかにする外用薬\"}]",
-  "patient_insight": "新しい外用薬が開発されており、実用化されれば、今のケアがより効果的になるかもしれませんが、しばらく様子を見る必要があります。すでに行っている日常のスキンケアと比べてどのような違いがあるか、主治医とよく相談してみてください。",
-  "created_at": "2026-06-17 23:45:25"
+  "curation_reasoning": "魚鱗癬患者の新薬開発のため、将来的に治療選択肢が広がる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"皮膚の乾燥や鱗屑の軽減を目指す外用薬\"}]",
+  "patient_insight": "この試験は新しい外用薬の効果を確認しています。今後の結果が良ければ、日常的なケアに追加できる新しい手段が得られます。専門医から最新の情報を受け取ることが重要です。",
+  "created_at": "2026-06-18 23:52:47"
 }
