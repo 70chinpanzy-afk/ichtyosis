@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-06-20",
+  "digest_date": "2026-06-21",
   "source": "clinical_trials",
-  "source_id": "NCT01222000",
-  "original_title": "TREATMENT OF THE RECESSIVE NONBULLOUS CONGENITAL ICHTHYOSIS BY THE EPIGALLOCATECHINE CUTANEOUS",
-  "title_ja": "エピガロカテキンを使った魚鱗癬治療の臨床試験",
-  "summary_ja": "この研究は、エピガロカテキンという緑茶由来の成分を使った薬が、魚鱗癬の治療にどのように役立つかを調べています。皮膚の乾燥や鱗のような状態を改善するのを狙いとした外用剤です。この試験は、薬が皮膚の状態を正常に近づける効果があるかどうかをチェックするものです。魚鱗癬に対する新しいアプローチで、今後の治療法の選択肢の一つとして期待されます。日常のケアがより充実し、生活の質が向上する可能性があります。",
+  "source_id": "NCT04154293",
+  "original_title": "A Randomized, Parallel, Double-Blind, Vehicle Controlled Study to Evaluate the Safety and Efficacy of Two Concentrations of Topical TMB-001 for the Treatment of Congenital Ichthyosis",
+  "title_ja": "先天性魚鱗癬に対する新たな外用薬の安全性と効果を調べる臨床試験",
+  "summary_ja": "この研究は、先天性魚鱗癬の患者さんを対象に、新しい軟膏の安全性と効果を調べるものです。TMB-001という薬に含まれる成分、イソトレチノイン（0.05% および0.1%）の2つの濃度を使い、9歳以上の方に使用しています。この薬が病気の症状に効果があるかどうかを確かめるためのテストです。魚鱗癬の症状を軽減する新しいオプションとなる可能性があります。効果が確認されれば、より多くの治療選択が提供できるかもしれません。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT01222000",
-  "published_date": "2026-06-17",
-  "curation_reasoning": "エピガロカテキンを含む新しい外用薬が研究されており、これが魚鱗癬治療に新たな可能性を提供するかもしれない。",
-  "drugs_json": "[]",
-  "patient_insight": "エピガロカテキンは緑茶から取れる成分で、保湿効果があります。まだ研究段階にあるとはいえ、これが正式に認められれば、皮膚の改善に役立つ日常的な選択肢が増えるでしょう。今は、保湿をしっかりし、症状の悪化を未然に防ぐように心がけましょう。",
-  "created_at": "2026-06-20 23:18:00"
+  "url": "https://clinicaltrials.gov/study/NCT04154293",
+  "published_date": "2026-05-22",
+  "curation_reasoning": "この研究は、魚鱗癬の治療に直接関連する新しい外用薬の臨床試験であり、患者さんにとって重要な新薬の選択肢となる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"TMB-001（TMB-001）\", \"ingredients\": \"イソトレチノイン\", \"description\": \"イソトレチノインを含む外用薬で、魚鱗癬の症状を軽減する可能性がある\"}]",
+  "patient_insight": "この新しい軟膏は、今後の治療の一環として期待されています。ただし、現在は試験段階なので、医師の指導のもとで使用されるべきです。日々の保湿ケアも引き続き重要です。",
+  "created_at": "2026-06-21 23:23:56"
 }
