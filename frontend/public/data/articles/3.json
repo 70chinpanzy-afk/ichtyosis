@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-06-22",
+  "digest_date": "2026-06-23",
   "source": "pubmed",
-  "source_id": "42295031",
-  "original_title": "Potential of 3D Skin Models and N/TERT-2G Cell Line in Genetic Research on Autosomal Recessive Nonsyndromic Epidermal Differentiation Disorders.",
-  "title_ja": "魚鱗癬の遺伝子研究における人工皮膚モデルの可能性",
-  "summary_ja": "魚鱗癬のような遺伝性の皮膚病の研究に、人工皮膚モデルが有効であると示した研究です。従来、こうした病気の研究はサンプルが手に入りにくかったため難しい面がありました。しかし、この研究では人工の皮膚組織を使うことで、病気の特性を調べることができるようになりました。将来的には新たな治療法の開発にもつながる可能性があります。",
-  "category": "研究論文",
+  "source_id": "42327467",
+  "original_title": "Effects of a Moisturizer and Emollient on the Stratum Corneum Assessed by Confocal Raman Spectroscopy in Patients With and Without Atopic Dermatitis: An Assessor-Blinded Prospective Cohort Study.",
+  "title_ja": "保湿剤と軟膏が肌に与える効果：新しい方法での分析",
+  "summary_ja": "この研究では、アトピー性皮膚炎のある人とない人で、クリームタイプの保湿剤とワセリンの効果を比較しました。現代の技術を使って皮膚の奥までの影響を観察した結果、どちらの製品も肌のバリアを改善する効果がありました。皮膚の水分が保たれることで、魚鱗癬の症状を和らげる助けになるかもしれません。日常生活で使いやすい保湿剤を選ぶことが大切です。",
+  "category": "ケア・対処法",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42295031/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42327467/",
   "published_date": "2026 Jun",
-  "curation_reasoning": "新たな研究方法により、魚鱗癬の理解と治療法の開発が進む可能性があり、患者に大きな希望を与える情報です。",
-  "drugs_json": "[]",
-  "patient_insight": "人工皮膚モデルの進展により、魚鱗癬の詳しいメカニズムがわかることで、将来的により効果的な治療法が開発される可能性があります。現段階では引き続き、日常のケアを大切にしましょう。",
-  "created_at": "2026-06-22 23:26:37"
+  "curation_reasoning": "保湿とバリア機能の改善は魚鱗癬のケアにとって非常に重要なため、関連性が高い。",
+  "drugs_json": "[{\"drug_name\": \"クリームタイプの保湿剤\", \"ingredients\": \"不明（市販の製品）\", \"description\": \"肌の水分を閉じ込めて乾燥を防ぐための製品。\"}, {\"drug_name\": \"ワセリン（Petroleum Jelly）\", \"ingredients\": \"不明（市販の製品）\", \"description\": \"肌に油分の膜を作り、水分を保つことでバリアを強化する軟膏。\"}]",
+  "patient_insight": "保湿は魚鱗癬のケアにおいて非常に重要です。研究で取り上げられたクリームやワセリンは市販で手に入るので、主治医に相談しながら日々のスキンケアに取り入れると良いでしょう。特にお風呂上がりに塗ると効果的です。",
+  "created_at": "2026-06-23 23:14:21"
 }
