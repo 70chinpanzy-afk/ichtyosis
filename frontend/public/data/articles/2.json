@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-06-23",
+  "digest_date": "2026-06-24",
   "source": "pubmed",
-  "source_id": "42311448",
-  "original_title": "Translational insights into interleukin-driven macrophage polarization as diagnostic biomarkers for atopic dermatitis-a narrative review.",
-  "title_ja": "アトピー性皮膚炎の診断に役立つ新しい手がかり：免疫の重要な働きについて",
-  "summary_ja": "この研究はアトピー性皮膚炎での免疫の動きを詳しく調べたものです。特に、インターロイキンという物質がどのように免疫細胞を働かせるかに注目しています。この働きがバランスを崩すと、肌に炎症が起きやすくなるそうです。今回の研究により、将来的には魚鱗癬など他の皮膚病にも応用できる可能性があります。このような理解が進むことで、より正確な診断や新しい治療法が期待されています。",
+  "source_id": "42339913",
+  "original_title": "Cutaneous features of SDR9C7 variants in eight subjects with autosomal recessive nonsyndromic epidermal differentiation disorders.",
+  "title_ja": "希少疾患SDR9C7の遺伝子変異による皮膚症状の研究",
+  "summary_ja": "SDR9C7という遺伝子の変異が、皮膚のバリアを作るプロセスに問題を引き起こすという研究がありました。この研究に参加した人々の多くは、肌が乾燥して剥がれやすい状態でしたが、特に手足にその傾向が強いことがわかりました。保湿剤や特定の酸を含むクリームが、肌の乾燥を改善する効果があることも確認されました。魚鱗癬を含む皮膚疾患の患者さんにとって、効果的な日常ケアを見つける手がかりとなるかもしれません。",
   "category": "研究論文",
   "relevance_score": 0.8,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42311448/",
-  "published_date": "2026",
-  "curation_reasoning": "アトピー性皮膚炎の診断や治療に関する新しい知見が魚鱗癬にも適用できる可能性があるため、関連性が高いと判断。",
-  "drugs_json": "[]",
-  "patient_insight": "この研究は肌の炎症を引き起こすメカニズムを詳しく解明していて、魚鱗癬のような他の皮膚疾患にも応用できるかもしれません。患者としては、引き続き日常のスキンケアを重視しつつ、新しい治療法が利用可能になるのを期待しましょう。",
-  "created_at": "2026-06-23 23:14:21"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42339913/",
+  "published_date": "2026-06-24",
+  "curation_reasoning": "SDR9C7遺伝子変異に関する情報は、魚鱗癬の根本原因にアプローチする可能性があり、症状改善のための具体的な製品の利用方法を提案しているため有用です。",
+  "drugs_json": "[{\"drug_name\": \"保湿剤\", \"ingredients\": \"不明（アボット）\", \"description\": \"肌の乾燥を防ぎ、保湿するためのクリーム\"}, {\"drug_name\": \"アンモニウムラクトレート（ammonium lactate）またはα-ヒドロキシ酸含有クリーム\", \"ingredients\": \"アンモニウムラクトレートまたはα-ヒドロキシ酸\", \"description\": \"皮膚の乾燥を改善し、スケーリング（剥がれ）を減少させるクリーム\"}]",
+  "patient_insight": "この研究は、SDR9C7という特定の遺伝子変異によって皮膚に問題が起きることを確認しています。まだ研究段階ですが、保湿剤や酸を含むクリームの使用が症状の改善に役立つ可能性があります。医師や専門家と相談しながら適したケア製品を探すのが良いでしょう。",
+  "created_at": "2026-06-24 23:14:39"
 }

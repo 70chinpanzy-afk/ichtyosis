@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-06-23",
+  "digest_date": "2026-06-24",
   "source": "pubmed",
   "source_id": "42327467",
   "original_title": "Effects of a Moisturizer and Emollient on the Stratum Corneum Assessed by Confocal Raman Spectroscopy in Patients With and Without Atopic Dermatitis: An Assessor-Blinded Prospective Cohort Study.",
-  "title_ja": "保湿剤と軟膏が肌に与える効果：新しい方法での分析",
-  "summary_ja": "この研究では、アトピー性皮膚炎のある人とない人で、クリームタイプの保湿剤とワセリンの効果を比較しました。現代の技術を使って皮膚の奥までの影響を観察した結果、どちらの製品も肌のバリアを改善する効果がありました。皮膚の水分が保たれることで、魚鱗癬の症状を和らげる助けになるかもしれません。日常生活で使いやすい保湿剤を選ぶことが大切です。",
+  "title_ja": "保湿剤と軟膏の皮膚への作用を観察した研究",
+  "summary_ja": "この研究では、アトピー性皮膚炎の患者さんと健康な人に対して、クリームタイプの保湿剤とワセリンが皮膚の一番外側の層にどう影響するかを調べました。保湿剤は皮膚に必要な水分や脂質を増やし、皮膚をより健康に保つ効果が確認されました。特に乾燥しがちな皮膚には、これらの製品が日常的なケアとして推奨されることがあります。",
   "category": "ケア・対処法",
   "relevance_score": 0.8,
   "url": "https://pubmed.ncbi.nlm.nih.gov/42327467/",
-  "published_date": "2026 Jun",
-  "curation_reasoning": "保湿とバリア機能の改善は魚鱗癬のケアにとって非常に重要なため、関連性が高い。",
-  "drugs_json": "[{\"drug_name\": \"クリームタイプの保湿剤\", \"ingredients\": \"不明（市販の製品）\", \"description\": \"肌の水分を閉じ込めて乾燥を防ぐための製品。\"}, {\"drug_name\": \"ワセリン（Petroleum Jelly）\", \"ingredients\": \"不明（市販の製品）\", \"description\": \"肌に油分の膜を作り、水分を保つことでバリアを強化する軟膏。\"}]",
-  "patient_insight": "保湿は魚鱗癬のケアにおいて非常に重要です。研究で取り上げられたクリームやワセリンは市販で手に入るので、主治医に相談しながら日々のスキンケアに取り入れると良いでしょう。特にお風呂上がりに塗ると効果的です。",
-  "created_at": "2026-06-23 23:14:21"
+  "published_date": "2026-06",
+  "curation_reasoning": "保湿剤とワセリンの具体的な効果を示しており、魚鱗癬の患者にも役立つケア方法につながる可能性がある点で有益です。",
+  "drugs_json": "[{\"drug_name\": \"クリームタイプの保湿剤\", \"ingredients\": \"不明（商品による）\", \"description\": \"皮膚に水分を与え、乾燥を防ぎます。\"}, {\"drug_name\": \"ワセリン\", \"ingredients\": \"白色ワセリン\", \"description\": \"肌の保湿を助け、外部刺激から守ります。\"}]",
+  "patient_insight": "日常的なスキンケアにおいて、クリームタイプの保湿剤やワセリンの使用が、皮膚の水分を保ち、健康を維持する助けとなることが示されています。お風呂上がりに5分以内に保湿をすることが効果的です。医師に相談しながら最適な製品を選びましょう。",
+  "created_at": "2026-06-24 23:14:39"
 }

@@ -1,17 +1,17 @@
 {
   "id": 4,
-  "digest_date": "2026-06-23",
+  "digest_date": "2026-06-24",
   "source": "clinical_trials",
-  "source_id": "NCT06539507",
-  "original_title": "A Phase 1/1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Immunogenicity of Single and Multiple Ascending Doses of BCX17725 in Healthy Participants and Multiple Doses of BCX17725 in Participants With Netherton Syndrome",
-  "title_ja": "ネザートン症候群に対する新薬BCX17725の安全性試験",
-  "summary_ja": "この臨床試験は、ネザートン症候群という遺伝性皮膚病の治療を目的に、新しい薬BCX17725の安全性や効果を確認するためのものです。試験の初段階（フェーズ1）は、安全性に焦点を当てており、健康な人を対象に薬の効果を調べます。これが成功すれば、魚鱗癬と同様の症状を持つ患者さんにも、新たな治療の可能性が広がります。この薬の結果次第で、今後の治療法に大きな影響を与えるかもしれません。",
+  "source_id": "NCT06651489",
+  "original_title": "Efficacy of Guselkumab in the Treatment of Hailey Hailey Disease: An Open-label, Proof of Concept Study",
+  "title_ja": "Hailey Hailey病の治療におけるグセルクマブの効果",
+  "summary_ja": "この研究は、遺伝性の皮膚疾患であるHailey Hailey病に対する新しい治療法を探るものです。この病気は、体の折り目に痛みを伴う炎症や水ぶくれができる疾患です。今回の研究では、炎症を抑える効果が期待される薬「グセルクマブ」が、どれだけ安全で効果的かを確認します。臨床試験の結果が良ければ、魚鱗癬にも応用可能かもしれないという希望があります。この治療法が実用化されれば、魚鱗癬患者の新たな選択肢となる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT06539507",
-  "published_date": "2026-06-16",
-  "curation_reasoning": "ネザートン症候群と魚鱗癬は似た症状を持つため、新薬BCX17725の試験結果が魚鱗癬にも有用である可能性がある。",
-  "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"不明（新開発の化合物）\", \"description\": \"新しい治療薬として開発されているが、詳細はまだ不明。試験段階で有効性と安全性を確認中。\"}]",
-  "patient_insight": "新しい治療法につながる可能性がありますが、まだ試験段階ですので期待しすぎないようにしましょう。今は、医師と相談して現行のスキンケアを続けることが最善です。今後も情報を追ってみてください。",
-  "created_at": "2026-06-23 23:14:21"
+  "url": "https://clinicaltrials.gov/study/NCT06651489",
+  "published_date": "2026-06-22",
+  "curation_reasoning": "グセルクマブは炎症を抑える可能性があり、魚鱗癬の治療にも応用できるかもしれません。",
+  "drugs_json": "[{\"drug_name\": \"グセルクマブ（Guselkumab）\", \"ingredients\": \"グセルクマブ（guselkumab）\", \"description\": \"皮膚の炎症を抑える効果が期待される注射薬\"}]",
+  "patient_insight": "この研究で使われているグセルクマブという薬は、新しい可能性を秘めています。まだ実用化までは時間がかかりますが、他の治療法と併用することで生活の質が向上するかもしれません。今は医師に相談し、現行の治療を続けながら新情報に注意しましょう。",
+  "created_at": "2026-06-24 23:14:39"
 }
