@@ -3,6 +3,7 @@
 import json
 import logging
 import os
+from dataclasses import dataclass, field
 from typing import Type, TypeVar
 
 from dotenv import load_dotenv
@@ -24,6 +25,34 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 T = TypeVar("T", bound=BaseModel)
+
+
+@dataclass
+class BatchFailure:
+    """LLMキュレーションバッチの失敗記録（1バッチ = 1件）"""
+
+    batch_index: int
+    error: str
+
+
+@dataclass
+class CurationRunStats:
+    """curate_articles 呼び出し1回分の実行統計。
+
+    呼び出し元が失敗を検知できるよう curate_articles に渡して
+    バッチ失敗を蓄積させるための軽量な収集用オブジェクト。
+    """
+
+    total_batches: int = 0
+    failures: list[BatchFailure] = field(default_factory=list)
+
+    @property
+    def failed_batches(self) -> int:
+        return len(self.failures)
+
+    @property
+    def all_batches_failed(self) -> bool:
+        return self.total_batches > 0 and self.failed_batches == self.total_batches
 
 
 def _get_client() -> OpenAI:
@@ -52,13 +81,22 @@ def curate_articles(
     raw_articles: list[RawArticle],
     model: str = "gpt-4o",
     batch_size: int = 10,
+    stats: CurationRunStats | None = None,
 ) -> list[CuratedArticle]:
-    """記事をバッチ処理でキュレーション（関連性評価・分類・翻訳）"""
+    """記事をバッチ処理でキュレーション（関連性評価・分類・翻訳）
+
+    stats: 指定するとバッチ数・失敗回数・代表エラーを呼び出し元に伝えるための
+    CurationRunStats に結果を蓄積する（既存呼び出しとの後方互換性維持のためオプション）。
+    """
     if not raw_articles:
         return []
 
     client = _get_client()
     all_curated: list[CuratedArticle] = []
+
+    batch_count = (len(raw_articles) + batch_size - 1) // batch_size
+    if stats is not None:
+        stats.total_batches += batch_count
 
     for i in range(0, len(raw_articles), batch_size):
         batch = raw_articles[i : i + batch_size]
@@ -87,6 +125,10 @@ def curate_articles(
             logger.debug(f"Batch {i // batch_size + 1}: {len(result.curated_articles)} curated")
         except Exception as e:
             logger.error(f"Curation batch {i // batch_size + 1} failed: {e}")
+            if stats is not None:
+                stats.failures.append(
+                    BatchFailure(batch_index=i // batch_size + 1, error=str(e))
+                )
             continue
 
     # 関連性スコア0.3以上でフィルタし、スコア降順ソート

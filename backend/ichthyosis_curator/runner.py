@@ -11,12 +11,31 @@ from ichthyosis_curator.sources.news_rss import get_news_articles
 from ichthyosis_curator.sources.reddit import get_reddit_posts
 from ichthyosis_curator.sources.patient_communities import get_patient_community_posts
 from ichthyosis_curator.sources.youtube import get_youtube_videos
-from ichthyosis_curator.curation.llm_curator import curate_articles, generate_greeting
+from ichthyosis_curator.curation.llm_curator import (
+    curate_articles,
+    generate_greeting,
+    CurationRunStats,
+)
 from ichthyosis_curator.curation.dedup import filter_unseen_articles, mark_articles_sent
 from ichthyosis_curator.delivery.line_messaging import build_flex_messages, send_line_flex, format_digest_for_line, send_line_push
 from ichthyosis_curator.schemas import DailyDigest
 
 logger = logging.getLogger(__name__)
+
+
+def _build_llm_failure_alert(stats: CurationRunStats) -> str:
+    """LLMキュレーションが全滅した場合にLINEへ送る警告テキストを組み立てる"""
+    representative_error = stats.failures[0].error if stats.failures else "unknown error"
+    return (
+        "⚠️ キュレーション失敗: LLM呼び出しが全滅"
+        f"（{representative_error}）。"
+        "OpenAIのクレジット/請求設定を確認してください"
+    )
+
+
+def _should_alert_llm_failure(articles_sent: int, stats: CurationRunStats) -> bool:
+    """0件送信 かつ 1回以上のバッチ失敗があるときにアラートを出すべきか判定"""
+    return articles_sent == 0 and stats.failed_batches > 0
 
 
 def run_daily_curation(config: CuratorConfig) -> bool:
@@ -108,8 +127,11 @@ def run_daily_curation(config: CuratorConfig) -> bool:
 
     # --- キュレーション ---
     logger.info("=== LLMキュレーション開始 ===")
+    curation_stats = CurationRunStats()
     try:
-        curated = curate_articles(all_raw, model=config.openai_model)
+        curated = curate_articles(
+            all_raw, model=config.openai_model, stats=curation_stats
+        )
         logger.info(f"キュレーション結果: {len(curated)} relevant / {len(all_raw)} raw")
     except Exception as e:
         logger.error(f"Curation failed: {e}")
@@ -118,6 +140,18 @@ def run_daily_curation(config: CuratorConfig) -> bool:
             status="error", error_message=f"Curation: {e}",
         )
         return False
+
+    if curation_stats.failed_batches > 0:
+        if curation_stats.all_batches_failed:
+            logger.error(
+                f"LLMキュレーションが全バッチ失敗: "
+                f"{curation_stats.failed_batches}/{curation_stats.total_batches} batches"
+            )
+        else:
+            logger.info(
+                f"LLMキュレーションの一部バッチが失敗: "
+                f"{curation_stats.failed_batches}/{curation_stats.total_batches} batches"
+            )
 
     # --- 重複排除 ---
     unseen = filter_unseen_articles(curated, config.db_path)
@@ -162,16 +196,25 @@ def run_daily_curation(config: CuratorConfig) -> bool:
         greeting=greeting,
     )
 
+    alert_llm_failure = _should_alert_llm_failure(len(to_send), curation_stats)
+
     line_sent = False
     if config.line_channel_access_token and config.line_user_id:
-        flex_msgs = build_flex_messages(
-            digest,
-            frontend_url=config.frontend_url,
-            article_db_ids=saved_ids,
-        )
-        line_sent = send_line_flex(
-            config.line_channel_access_token, config.line_user_id, flex_msgs,
-        )
+        if alert_llm_failure:
+            alert_text = _build_llm_failure_alert(curation_stats)
+            logger.error(f"LLM全滅アラートをLINE送信: {alert_text}")
+            line_sent = send_line_push(
+                config.line_channel_access_token, config.line_user_id, alert_text,
+            )
+        else:
+            flex_msgs = build_flex_messages(
+                digest,
+                frontend_url=config.frontend_url,
+                article_db_ids=saved_ids,
+            )
+            line_sent = send_line_flex(
+                config.line_channel_access_token, config.line_user_id, flex_msgs,
+            )
     else:
         logger.info("LINE credentials not set, skipping LINE notification")
 
@@ -179,17 +222,31 @@ def run_daily_curation(config: CuratorConfig) -> bool:
         mark_articles_sent(to_send, config.db_path)
 
     # --- ログ記録 ---
+    llm_failure_note = None
+    if curation_stats.failed_batches > 0:
+        representative_error = (
+            curation_stats.failures[0].error if curation_stats.failures else ""
+        )
+        llm_failure_note = (
+            f"LLM batches failed: {curation_stats.failed_batches}/"
+            f"{curation_stats.total_batches} ({representative_error})"
+        )
+
+    combined_errors = errors + ([llm_failure_note] if llm_failure_note else [])
     log_run(
         config.db_path,
         sources_scanned=sources_scanned,
         articles_found=len(all_raw),
         articles_curated=len(curated),
         articles_sent=len(to_send),
-        status="ok",
-        error_message="; ".join(errors) if errors else None,
+        status="error" if alert_llm_failure else "ok",
+        error_message="; ".join(combined_errors) if combined_errors else None,
     )
 
-    logger.info(f"=== 完了: {len(to_send)} articles saved, LINE={line_sent} ===")
+    logger.info(
+        f"=== 完了: {len(to_send)} articles saved, LINE={line_sent}, "
+        f"llm_alert={alert_llm_failure} ==="
+    )
     return True
 
 

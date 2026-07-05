@@ -60,23 +60,6 @@ jobs:
           conn.close()
           " || echo "DB check failed"
 
-      - name: Post to Bluesky
-        working-directory: backend
-        env:
-          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
-          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: |
-          PYTHONPATH=. python -c "
-          from ichthyosis_curator.db import get_articles_by_date, get_digest_dates
-          from ichthyosis_curator.delivery.bluesky_posting import post_to_bluesky
-          from ichthyosis_curator.config import CuratorConfig
-          config = CuratorConfig()
-          dates = get_digest_dates(config.db_path, limit=1)
-          if dates:
-              articles = get_articles_by_date(config.db_path, dates[0])
-              post_to_bluesky(articles)
-          " || echo "Bluesky posting skipped or failed (non-fatal)"
-
       - name: Export to frontend
         working-directory: backend
         env:
