@@ -1,17 +1,17 @@
 {
   "id": 7,
   "digest_date": "2026-07-06",
-  "source": "google_news:Vietnam.vn",
-  "source_id": "b0b621925071297e",
-  "original_title": "医療ニュース速報（7月5日）：先天性魚鱗癬のため、多くの子供たちが入院している。 - Vietnam.vn",
-  "title_ja": "先天性魚鱗癬で多くの子供が入院",
-  "summary_ja": "先天性魚鱗癬を持つ多くの子供たちが入院しているというニュースです。この疾患は皮膚のバリア機能に影響を与え、外部からの感染症のリスクを高めます。入院の原因の一つは、適切なケアが不足していることです。親や医療従事者のサポートで、適切なケアを行い、入院を防ぐことが検討されています。",
-  "category": "ニュース",
+  "source": "clinical_trials",
+  "source_id": "NCT07280091",
+  "original_title": "Study of Skin and Gut Microbiome in a Skin Condition Involving Skin Barrier Impairment and Allergic Symptoms: Netherton Syndrome",
+  "title_ja": "ネザートン症候群における皮膚と腸の微生物研究",
+  "summary_ja": "ネザートン症候群の患者を対象にして、皮膚や腸の微生物を研究する試験です。この病気は皮膚のバリアが壊れることで、アレルギー症状が悪化することがあります。この試験では、皮膚や腸の微生物がこの症候群にどう影響するかを調べています。結果として、症状の改善に役立つ情報が得られ、多くの皮膚疾患の治療法開発に貢献するかもしれません。",
+  "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ1pMdTBmU0lZOU1TbTNoX2Z0dHJHUC1yRFVNVUx3Vk8wb1RJY3NDN0k2VnFQOERCbHlWY21SbjNWQ043bnBrQXZnYUREOHFlaEFQSUg4VXQ0VTBGbFl6a2poc0lDLVBQRkp6RTZDVlFzUDBraHdGR1NYOWtCeUJWRXNNcDAyRHZRZHU4a3NUZHpiMlctamc?oc=5",
-  "published_date": "2026-07-05",
-  "curation_reasoning": "入院の原因として適切なケアが欠かせないことを伝えており、魚鱗癬患者への具体的な指導の重要性を示しているため",
+  "url": "https://clinicaltrials.gov/study/NCT07280091",
+  "published_date": "2026-06-30",
+  "curation_reasoning": "魚鱗癬に類似する皮膚バリアの問題を持つ疾患の微生物環境を調査し、新たな治療法開発のインサイトを提供します。",
   "drugs_json": "[]",
-  "patient_insight": "入院を防ぐためには、日常的なスキンケアがとても大切です。主治医の助言のもと、適切な保湿方法や皮膚のケアを習得し、子供の症状を管理しましょう。",
-  "created_at": "2026-07-06 06:42:08"
+  "patient_insight": "皮膚や腸の微生物の変化が、魚鱗癬の治療にもつながる可能性があります。将来的にはこれらの知見を活用して、より効果的なケアができるようになるかもしれません。",
+  "created_at": "2026-07-06 23:15:47"
 }

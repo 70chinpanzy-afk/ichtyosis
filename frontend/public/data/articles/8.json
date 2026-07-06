@@ -1,17 +1,17 @@
 {
   "id": 8,
   "digest_date": "2026-07-06",
-  "source": "youtube:Tapestry of Wisdom",
-  "source_id": "f51e25fae4bccdf6",
-  "original_title": "HARLEQUIN-TYPE-ICHTHYOSIS (HI)",
-  "title_ja": "ハーレクイン型魚鱗癬（HI）の概要",
-  "summary_ja": "この動画では、ハーレクイン型魚鱗癬という非常に稀な皮膚疾患について説明されています。その特徴や一般的な症状、そして治療の選択肢についても触れられています。この情報は、病気の理解を深めるのに役立ちます。特に患者さんの家族が病状を理解し、適切なケアを行うために重要です。",
-  "category": "体験談・対処法",
+  "source": "clinical_trials",
+  "source_id": "NCT05902663",
+  "original_title": "Non-interventional Study of Patients With Netherton Syndrome to Characterise the Natural History of Disease",
+  "title_ja": "ネザートン症候群の自然経過を調べる研究",
+  "summary_ja": "ネザートン症候群の患者さんたちの自然経過を追跡調査する試みです。この研究では、患者の日常生活の中で病状がどう変わっていくかを記録しています。この結果は病気の理解を深めるだけでなく、魚鱗癬のような症状を持つ他の疾患にも役立つ情報となるでしょう。",
+  "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://www.youtube.com/watch?v=X3kuMxwcHyc",
-  "published_date": "2026-06-26",
-  "curation_reasoning": "ハーレクイン型魚鱗癬についての情報は非常に少なく、理解とケアに役立つため、患者やその家族にとって貴重なリソースとなります。",
+  "url": "https://clinicaltrials.gov/study/NCT05902663",
+  "published_date": "2026-06-24",
+  "curation_reasoning": "ネザートン症候群の病態を深く理解することで、魚鱗癬に似た症状にも応用できる情報を提供します。",
   "drugs_json": "[]",
-  "patient_insight": "この動画を通じて病気の基本的な知識を得ることで、適切な医療ケアに繋がる可能性があります。引き続き主治医と共に、最適な対応方法を見つける努力が必要です。",
-  "created_at": "2026-07-06 06:42:08"
+  "patient_insight": "病状の進行を長期的に見ることで、日々のケアに役立つ知識が増える可能性があります。日常生活にどう取り入れられるか、主治医と相談するのが良いでしょう。",
+  "created_at": "2026-07-06 23:15:47"
 }
