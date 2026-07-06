@@ -15,6 +15,7 @@ CATEGORY_COLORS = {
     "新薬・治療法": "#E74C3C",
     "研究論文": "#3498DB",
     "ケア・対処法": "#2ECC71",
+    "体験談・対処法": "#F1C40F",
     "関連疾患からの知見": "#9B59B6",
     "ニュース": "#F39C12",
 }
@@ -23,6 +24,7 @@ CATEGORY_EMOJI = {
     "新薬・治療法": "\U0001f48a",
     "研究論文": "\U0001f4c4",
     "ケア・対処法": "\U0001f9f4",
+    "体験談・対処法": "\U0001f4ac",
     "関連疾患からの知見": "\U0001f517",
     "ニュース": "\U0001f4f0",
 }
@@ -357,7 +359,7 @@ def format_digest_for_line(
     for article in digest.articles:
         by_category.setdefault(article.category, []).append(article)
 
-    order = ["新薬・治療法", "研究論文", "ケア・対処法", "関連疾患からの知見", "ニュース"]
+    order = ["新薬・治療法", "研究論文", "ケア・対処法", "体験談・対処法", "関連疾患からの知見", "ニュース"]
 
     for cat in order:
         articles = by_category.get(cat, [])

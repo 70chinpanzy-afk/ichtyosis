@@ -59,6 +59,7 @@ export type Category =
   | "新薬・治療法"
   | "研究論文"
   | "ケア・対処法"
+  | "体験談・対処法"
   | "関連疾患からの知見"
   | "ニュース";
 
@@ -66,6 +67,7 @@ export const CATEGORIES: Category[] = [
   "新薬・治療法",
   "研究論文",
   "ケア・対処法",
+  "体験談・対処法",
   "関連疾患からの知見",
   "ニュース",
 ];
@@ -88,6 +90,11 @@ export const CATEGORY_CONFIG: Record<
     emoji: "\u{1f9f4}",
     color: "text-green-700",
     bgColor: "bg-green-50 border-green-200",
+  },
+  "体験談・対処法": {
+    emoji: "\u{1f4ac}",
+    color: "text-amber-700",
+    bgColor: "bg-amber-50 border-amber-200",
   },
   "関連疾患からの知見": {
     emoji: "\u{1f517}",

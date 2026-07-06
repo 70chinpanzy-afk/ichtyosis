@@ -4,6 +4,7 @@
 - FIRST (Foundation for Ichthyosis & Related Skin Types) - ichthyosis.org
 - ISG (Ichthyosis Support Group UK) - ichthyosis.org.uk
 - Inspire.com - 希少疾患患者コミュニティ
+- note.com の魚鱗癬患者・家族による日本語体験談ブログ
 
 患者・家族が実際に行っているスキンケアや生活の工夫、体験談を収集する。
 """
@@ -70,6 +71,15 @@ def _parse_feedparser_date(entry: Any) -> str:
 # https://www.ichthyosis.org
 # --------------------------------------------------------------------------- #
 
+# 既知の制約:
+# www.ichthyosis.org へのHTTPS接続はTLSハンドシェイクの段階で失敗する
+# （SSL alert handshake failure / sslv3 alert handshake failure）。
+# curl、openssl s_client、Python requests のいずれで直接検証しても同じ失敗が
+# 再現し、User-Agentや暗号スイート・TLSバージョンの指定を変えても解消しない
+# ことを確認済み（2026-07時点）。サーバー側のWAF等によるボット遮断の可能性が高く、
+# クライアント側の設定変更では対処できないため、現状維持とする。
+# なお ISG UK (ichthyosis.org.uk) は接続自体は成功するが、/feed/ が301リダイレクト
+# の後404を返す状態（RSS自体が現状存在しない）。こちらはTLSレベルの問題ではない。
 FIRST_RSS_FEEDS = [
     "https://www.ichthyosis.org/feed/",          # WordPress標準RSS
     "https://www.ichthyosis.org/news/feed/",      # ニュースカテゴリ
@@ -348,6 +358,87 @@ def get_inspire_posts(days_back: int = 14) -> list[RawArticle]:
 
 
 # --------------------------------------------------------------------------- #
+# note.com - 魚鱗癬患者・家族による日本語体験談ブログ
+#
+# note.comはユーザー単位で `https://note.com/{urlname}/rss` 形式のRSSフィードを
+# 提供している。urlname: safe_magpie2015（「浄化太郎」氏）は魚鱗癬の子を持つ
+# 父親で「魚鱗癬と歩んだ家族の物語」という体験談シリーズを連載しており、
+# curlでの実地検証で200 OK・実データ取得を確認済み（2026-07時点）。
+# 全記事が魚鱗癬に直接関係するわけではない個人ブログのため、関連性の絞り込みは
+# LLMキュレーション側の関連性スコア閾値（0.3）に委ねる。
+# --------------------------------------------------------------------------- #
+
+NOTE_RSS_FEEDS = [
+    # 浄化太郎氏「魚鱗癬と歩んだ家族の物語」シリーズ
+    {"urlname": "safe_magpie2015", "label": "浄化太郎"},
+]
+
+
+def get_note_ichthyosis_articles(days_back: int = 60) -> list[RawArticle]:
+    """note.comの魚鱗癬患者・家族による体験談ブログから記事を取得
+
+    Args:
+        days_back: 何日前までの記事を対象にするか（noteは更新頻度が低いブログも
+            あるため、他ソースよりデフォルトを長め（60日）に設定）
+    """
+    import re
+
+    articles: list[RawArticle] = []
+    seen: set[str] = set()
+
+    for feed_info in NOTE_RSS_FEEDS:
+        urlname = feed_info["urlname"]
+        feed_url = f"https://note.com/{urlname}/rss"
+
+        try:
+            feed = feedparser.parse(feed_url)
+            if feed.bozo and not feed.entries:
+                logger.debug(f"note.com RSS parse failed ({feed_url})")
+                continue
+
+            for entry in feed.entries:
+                url = getattr(entry, "link", "")
+                if not url or url in seen:
+                    continue
+
+                title = getattr(entry, "title", "").strip()
+                if not title:
+                    continue
+
+                pub_date = _parse_feedparser_date(entry)
+                if not _is_recent(pub_date, days_back):
+                    continue
+
+                summary = ""
+                if hasattr(entry, "summary"):
+                    summary = re.sub(r"<[^>]+>", " ", entry.summary).strip()
+                    summary = re.sub(r"\s+", " ", summary)[:800]
+                elif hasattr(entry, "description"):
+                    summary = re.sub(r"<[^>]+>", " ", entry.description).strip()
+                    summary = re.sub(r"\s+", " ", summary)[:800]
+
+                seen.add(url)
+                articles.append(RawArticle(
+                    source=f"patient_blog:note_{urlname}",
+                    source_id=_url_hash(url),
+                    title=f"[note] {title}",
+                    abstract=summary or "[Patient/family blog post from note.com]",
+                    url=url,
+                    published_date=pub_date,
+                    language="ja",
+                ))
+
+            logger.info(f"note.com RSS ({feed_url}): {len(articles)} entries")
+
+        except Exception as e:
+            logger.debug(f"note.com RSS fetch failed ({feed_url}): {e}")
+            continue
+
+    logger.info(f"note.com: {len(articles)} articles found")
+    return articles
+
+
+# --------------------------------------------------------------------------- #
 # 統合エントリーポイント
 # --------------------------------------------------------------------------- #
 
@@ -359,6 +450,7 @@ def get_patient_community_posts(days_back: int = 14) -> list[RawArticle]:
         - FIRST (ichthyosis.org) - 米国患者団体
         - ISG UK (ichthyosis.org.uk) - 英国患者サポートグループ
         - Inspire.com - 希少疾患患者コミュニティ
+        - note.com - 魚鱗癬患者・家族による日本語体験談ブログ
 
     Args:
         days_back: 何日前までのコンテンツを対象にするか
@@ -370,6 +462,7 @@ def get_patient_community_posts(days_back: int = 14) -> list[RawArticle]:
         ("FIRST", lambda: get_first_articles(days_back=max(days_back, 30))),
         ("ISG UK", lambda: get_isg_articles(days_back=max(days_back, 30))),
         ("Inspire", lambda: get_inspire_posts(days_back=days_back)),
+        ("note.com", lambda: get_note_ichthyosis_articles(days_back=max(days_back, 60))),
     ]
 
     for name, fetch_fn in sources:

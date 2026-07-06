@@ -1,4 +1,14 @@
-"""RedditからのSNS投稿取得（認証不要のJSON API使用）"""
+"""RedditからのSNS投稿取得（認証不要のJSON API使用）
+
+既知の制約:
+GitHub Actionsのrunner（AWS/Azure等のホスティングIPレンジ）からのアクセスは
+Reddit側で403 Forbiddenとして継続的にブロックされていることを確認済み。
+User-Agent文字列の変更（ブラウザ相当のUAへの偽装含む）では解消しない
+（RedditはIPレンジ単位でクラウドプロバイダのbot判定を行っているとみられる）。
+ローカル環境（自宅回線等）からは200で取得できるため、コード自体の不具合ではない。
+恒久対応にはプロキシ経由アクセスやReddit公式APIの認証利用が必要だが、
+個人利用ツールのスコープ外として現状維持とする。
+"""
 
 import hashlib
 import logging
