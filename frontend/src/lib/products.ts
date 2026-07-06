@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     title: "ヒルドイドソフト軟膏（ヘパリン類似物質）",
     description: "皮膚科で最も処方される保湿剤の市販版。肌の水分保持力を高めます。",
     category: "moisturizer",
-    tags: ["ケア・対処法", "新薬・治療法", "関連疾患からの知見"],
+    tags: ["ケア・対処法", "体験談・対処法", "新薬・治療法", "関連疾患からの知見"],
     imageKeyword: "ヒルドイド",
   },
   {
@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     title: "HPクリーム（ヘパリン類似物質配合）",
     description: "乾燥性皮膚に。ヘパリン類似物質が肌の保湿をサポートします。",
     category: "moisturizer",
-    tags: ["ケア・対処法", "関連疾患からの知見"],
+    tags: ["ケア・対処法", "体験談・対処法", "関連疾患からの知見"],
     imageKeyword: "HPクリーム",
   },
   {
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
     title: "ワセリンHG（高品質白色ワセリン）",
     description: "皮膚バリアの保護に。刺激が少なく敏感肌にも安心して使えます。",
     category: "moisturizer",
-    tags: ["ケア・対処法", "新薬・治療法"],
+    tags: ["ケア・対処法", "体験談・対処法", "新薬・治療法"],
     imageKeyword: "ワセリンHG",
   },
   {
@@ -46,7 +46,7 @@ export const PRODUCTS: Product[] = [
     title: "セタフィル モイスチャライジングクリーム",
     description: "世界中の皮膚科医が推奨。低刺激で乾燥肌・敏感肌に幅広く使われています。",
     category: "moisturizer",
-    tags: ["ケア・対処法", "関連疾患からの知見"],
+    tags: ["ケア・対処法", "体験談・対処法", "関連疾患からの知見"],
     imageKeyword: "セタフィル",
   },
   // === スキンケア ===
@@ -55,7 +55,7 @@ export const PRODUCTS: Product[] = [
     title: "キュレル 潤浸保湿フェイスクリーム",
     description: "セラミド配合。肌のバリア機能を助け、乾燥による肌荒れを防ぎます。",
     category: "skincare",
-    tags: ["ケア・対処法", "関連疾患からの知見"],
+    tags: ["ケア・対処法", "体験談・対処法", "関連疾患からの知見"],
     imageKeyword: "キュレル",
   },
   {
@@ -63,7 +63,7 @@ export const PRODUCTS: Product[] = [
     title: "ミノン全身保湿ミルク",
     description: "アミノ酸系保湿。全身に使える低刺激ミルクタイプの保湿剤です。",
     category: "skincare",
-    tags: ["ケア・対処法"],
+    tags: ["ケア・対処法", "体験談・対処法"],
     imageKeyword: "ミノン全身保湿",
   },
   // === 入浴関連 ===
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     title: "コロイドオートミール入浴剤（Aveeno）",
     description: "オートミール由来の保湿成分が入浴中の肌を保護。欧米の皮膚科で推奨されています。",
     category: "bath",
-    tags: ["ケア・対処法", "関連疾患からの知見"],
+    tags: ["ケア・対処法", "体験談・対処法", "関連疾患からの知見"],
     imageKeyword: "Aveeno 入浴剤",
   },
   // === 書籍 ===

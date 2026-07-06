@@ -69,7 +69,7 @@ export default function RelatedProducts({
               key={drug}
               href={getAmazonSearchUrl(drug)}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="sponsored noopener"
               className="text-xs px-3 py-1.5 bg-orange-50 text-orange-700 border border-orange-200 rounded-full hover:bg-orange-100 hover:shadow-sm transition font-medium"
             >
               {"\u{1f50d}"} {drug} で検索
@@ -123,7 +123,7 @@ export function FeaturedProducts() {
         <a
           href={getAmazonSearchUrl("魚鱗癬 保湿 スキンケア")}
           target="_blank"
-          rel="noopener noreferrer sponsored"
+          rel="sponsored noopener"
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full hover:from-orange-600 hover:to-amber-600 transition shadow-md hover:shadow-lg text-sm font-bold"
         >
           Amazonでもっと見る →
@@ -147,7 +147,7 @@ function ProductCard({ product }: { product: Product }) {
     <a
       href={getAmazonUrl(product.asin)}
       target="_blank"
-      rel="noopener noreferrer sponsored"
+      rel="sponsored noopener"
       className={`block bg-gradient-to-br ${gradient} border rounded-xl p-5 hover:shadow-md transition-all duration-200 group`}
     >
       <div className="flex items-center gap-2 mb-3">
