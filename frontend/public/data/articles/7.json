@@ -1,17 +1,17 @@
 {
   "id": 7,
-  "digest_date": "2026-07-10",
+  "digest_date": "2026-07-11",
   "source": "pubmed",
-  "source_id": "42398206",
-  "original_title": "Unveiling the pharmacological basis of Rhodiola crenulata for atopic dermatitis: A multi-model approach combining zebrafish, mouse studies, and intelligent computational analysis.",
-  "title_ja": "アトピー性皮膚炎へのロディオラクレヌラータの効果の解明",
-  "summary_ja": "この研究では、植物由来のロディオラクレヌラータがアトピー性皮膚炎に及ぼす影響を調べました。動物実験と計算機解析により、炎症を抑える効果が確認されました。これが魚鱗癬にも応用できるかはまだ明確ではありませんが、将来的に植物エキスを使った新しい治療法の可能性を示唆しています。",
+  "source_id": "42404574",
+  "original_title": "The role of dupilumab in skin microbiome shifts in the Netherton genodermatosis: a case report and review of literature.",
+  "title_ja": "デュピルマブがネザートン症候群の皮膚マイクロバイオームに及ぼす影響",
+  "summary_ja": "この研究では、ネザートン症候群という遺伝性皮膚疾患を持つ患者さんの皮膚における微生物バランスがデュピルマブ（身体の炎症を抑える薬）によってどう変わるかを詳しく探りました。症例報告として、35歳の女性患者さんのマイクロバイオームが治療前と治療後でどう変化するか観察しました。治療を始めて1ヶ月後と1年後に、微生物の多様性が改善され、皮膚の炎症が軽減される可能性が示唆されました。この成果は、他の魚鱗癬にも応用できる可能性があります。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42398206/",
-  "published_date": "2026 Jun 26",
-  "curation_reasoning": "植物エキスが炎症を抑える可能性があり、魚鱗癬の新しい治療法につながるかもしれない。",
-  "drugs_json": "[{\"drug_name\": \"ロディオラクレヌラータ\", \"ingredients\": \"カエムフェロール, ナリンゲニン\", \"description\": \"炎症や酸化ストレスを抑える植物由来の成分\"}]",
-  "patient_insight": "植物由来のエキスが炎症を抑えるかもしれませんが、まだ研究中です。新しい治療法になる可能性がありますが、使用する前に必ず医師に相談してください。",
-  "created_at": "2026-07-10 23:06:43"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42404574/",
+  "published_date": "2026",
+  "curation_reasoning": "デュピルマブによる治療がネザートン症候群の皮膚改善に寄与する可能性があり、これが魚鱗癬患者にも影響を与える可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]",
+  "patient_insight": "デュピルマブによる治療が皮膚の健康に役立つかもしれません。魚鱗癬の治療に役立つ可能性があるため、興味があれば主治医にご相談ください。",
+  "created_at": "2026-07-11 22:58:07"
 }
