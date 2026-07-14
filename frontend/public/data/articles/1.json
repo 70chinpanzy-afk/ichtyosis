@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-07-13",
+  "digest_date": "2026-07-14",
   "source": "clinical_trials",
-  "source_id": "NCT01222000",
-  "original_title": "TREATMENT OF THE RECESSIVE NONBULLOUS CONGENITAL ICHTHYOSIS BY THE EPIGALLOCATECHINE CUTANEOUS",
-  "title_ja": "緑茶成分での先天性魚鱗癬の治療法",
-  "summary_ja": "この研究は、緑茶から抽出されたエピガロカテキン-3-ガレートが魚鱗癬の症状を改善するかどうかを調べます。魚鱗癬は体の皮膚が乾燥し、鱗状に剥がれる病気です。現状は保湿剤を使って乾燥を和らげる対処法しかありませんが、新しい成分であるエピガロカテキンが皮膚のバリアを強化する可能性があります。この研究は新しい治療法の可能性を示していますが、実用化には時間がかかります。",
+  "source_id": "NCT07689435",
+  "original_title": "A Comparative Study on the Efficacy of 10% Cholesterol Cream Versus 10% Urea Cream in Improving Skin Barrier Function and Quality of Life in Patients With Autosomal Recessive Congenital Ichthyosis",
+  "title_ja": "魚鱗癬患者の皮膚バリア機能を改善する10%コレステロールクリームと10%尿素クリームの比較研究",
+  "summary_ja": "コンジナル魚鱗癬（ARCI）の患者さんを対象に、皮膚のバリア機能を改善するためのクリームを比べる研究です。10%のコレステロールを含むクリームと、一般的な10%尿素クリームを比較しています。コレステロールクリームが皮膚の「壁」を修復し、湿疹や感染症を防ぐ効果があるかもしれないとのことです。この研究は魚鱗癬の新しい治療法の開発に役立ちます。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://clinicaltrials.gov/study/NCT01222000",
-  "published_date": "2026-06-17",
-  "curation_reasoning": "魚鱗癬の新たな治療オプションになる可能性があるため、患者さんに希望を与える情報です。",
-  "drugs_json": "[{\"drug_name\": \"エピガロカテキン-3-ガレート（Epigallocatechin-3-gallate）\", \"ingredients\": \"エピガロカテキン-3-ガレート\", \"description\": \"緑茶から抽出された成分で、皮膚のバリアを強化する可能性があります。\"}]",
-  "patient_insight": "この研究が成功すれば、魚鱗癬に対する新しい治療法ができるかもしれません。現時点では、引き続き保湿ケアを大事にしながら、主治医と話し合ってさらなる対応を考えていくことが有効です。",
-  "created_at": "2026-07-13 23:03:11"
+  "url": "https://clinicaltrials.gov/study/NCT07689435",
+  "published_date": "2026-07-08",
+  "curation_reasoning": "この研究は、魚鱗癬の患者に直接関係する新しい治療法の開発に結びつく可能性があるため、重要です。",
+  "drugs_json": "[{\"drug_name\": \"コレステロールクリーム\", \"ingredients\": \"コレステロール\", \"description\": \"皮膚バリアを修復するためのクリームです\"}, {\"drug_name\": \"尿素クリーム\", \"ingredients\": \"尿素\", \"description\": \"皮膚を柔らかくし、角質を取り除くための一般的なクリームです\"}]",
+  "patient_insight": "この研究では、魚鱗癬の皮膚ケアにおける新たな選択肢として、コレステロールクリームが注目されています。保湿ケアとして取り入れられる可能性があるので、興味がある方は主治医に相談してみましょう。",
+  "created_at": "2026-07-14 23:04:07"
 }
