@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-07-20",
+  "digest_date": "2026-07-21",
   "source": "clinical_trials",
   "source_id": "NCT07689435",
   "original_title": "A Comparative Study on the Efficacy of 10% Cholesterol Cream Versus 10% Urea Cream in Improving Skin Barrier Function and Quality of Life in Patients With Autosomal Recessive Congenital Ichthyosis",
-  "title_ja": "魚鱗癬患者向け：10%コレステロールクリームvs10%尿素クリーム",
-  "summary_ja": "この研究は、魚鱗癬の患者さんにおける10%コレステロールクリームと10%尿素クリームの効果を比較したものです。魚鱗癬では皮膚のバリアが弱く、水分が逃げやすいため、保湿が必要です。尿素クリームは一般的な治療法ですが、コレステロールは皮膚のバリアを構成する重要な脂質であり、より効果的にバリアを補強できる可能性があります。",
-  "category": "新薬・治療法",
-  "relevance_score": 1.0,
+  "title_ja": "魚鱗癬患者におけるコレステロールクリームと尿素クリームの効果比較",
+  "summary_ja": "この研究は、魚鱗癬という皮膚の疾患を持つ人に対して、コレステロールを含むクリームと尿素を含むクリームの効果を比較しています。魚鱗癬の患者さんは皮膚のバリアが弱いため、皮膚が乾燥しやすく、かゆみや感染症のリスクが高まります。コレステロールは皮膚のバリアを作るのに役立つ成分で、これを皮膚に直接塗ることで、バリアがより強くなるかもしれません。この研究では、どちらのクリームがより効果的かを調べています。これは魚鱗癬の患者さんが使う保湿剤を選ぶ際の参考になります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.9,
   "url": "https://clinicaltrials.gov/study/NCT07689435",
   "published_date": "2026-07-08",
-  "curation_reasoning": "魚鱗癬の治療法として直接的に関係し、既存の治療より改善が見込まれる新しいアプローチを示しているため。",
-  "drugs_json": "[{\"drug_name\": \"10%コレステロールクリーム\", \"ingredients\": \"コレステロール\", \"description\": \"皮膚の自然なバリアを補強し、水分の保持を助けるクリーム\"}, {\"drug_name\": \"10%尿素クリーム\", \"ingredients\": \"尿素\", \"description\": \"皮膚の水分を引き込み、スケール（鱗屑）を柔らかくして取り除きやすくするクリーム\"}]",
-  "patient_insight": "この研究は、新しい保湿法が日常のケアにどんな影響を与えるかを明確にする手助けになります。主治医と相談しながら、日々のスキンケアに取り入れることを検討しても良いかもしれません。",
-  "created_at": "2026-07-20 23:07:16"
+  "curation_reasoning": "コレステロールクリームが魚鱗癬の患者に有効かもしれないという知見は、治療選択肢の拡大につながる。",
+  "drugs_json": "[{\"drug_name\": \"コレステロールクリーム（Cholesterol Cream）\", \"ingredients\": \"コレステロール\", \"description\": \"皮膚のバリアを強化するために用いられるクリーム\"}, {\"drug_name\": \"尿素クリーム（Urea Cream）\", \"ingredients\": \"尿素\", \"description\": \"皮膚の乾燥を和らげるために使用されるクリーム\"}]",
+  "patient_insight": "このニュースは、魚鱗癬で苦しむ方にとって新しい保湿方法の可能性を示しています。日常のスキンケアに取り入れる際は、主治医と相談してから導入することをお勧めします。",
+  "created_at": "2026-07-21 23:04:54"
 }
