@@ -1,17 +1,17 @@
 {
   "id": 1,
-  "digest_date": "2026-07-24",
+  "digest_date": "2026-07-25",
   "source": "clinical_trials",
   "source_id": "NCT07689435",
   "original_title": "A Comparative Study on the Efficacy of 10% Cholesterol Cream Versus 10% Urea Cream in Improving Skin Barrier Function and Quality of Life in Patients With Autosomal Recessive Congenital Ichthyosis",
-  "title_ja": "先天性魚鱗癬患者におけるコレステロールクリームと尿素クリームの比較",
-  "summary_ja": "この研究は、先天性魚鱗癬の患者さんにおいて、コレステロールクリームが尿素クリームよりも皮膚のバリアを改善するかどうかを調べています。魚鱗癬では皮膚が乾燥しやすく、バリアが弱くなりがちです。コレステロールは皮膚のバリアを構築するための重要な成分であり、直接肌につけることで効果があると考えられています。この研究の結果次第では、日々のケアに革新をもたらす可能性があり、魚鱗癬の患者さんにとって重要な進展となりそうです。",
-  "category": "ケア・対処法",
+  "title_ja": "遺伝性魚鱗癬に対する10%コレステロールクリームと10%尿素クリームの効果比較",
+  "summary_ja": "この研究では、遺伝性魚鱗癬の患者さんを対象に、10%のコレステロールクリームと10%の尿素クリームの効果を比較しています。コレステロールは皮膚のバリアを強化し、水分保持力を高める可能性があるとされています。現在の標準治療である尿素クリームと比較して、コレステロールクリームがどのくらい効果的かを検証中です。",
+  "category": "新薬・治療法",
   "relevance_score": 1.0,
   "url": "https://clinicaltrials.gov/study/NCT07689435",
   "published_date": "2026-07-08",
-  "curation_reasoning": "魚鱗癬に直接関連し、新たな治療・ケアの選択肢を提供し得る情報であるため。",
-  "drugs_json": "[{\"drug_name\": \"コレステロールクリーム\", \"ingredients\": \"コレステロール\", \"description\": \"皮膚のバリアを構築するのに重要な脂質を補う保湿クリーム\"}, {\"drug_name\": \"尿素クリーム\", \"ingredients\": \"尿素\", \"description\": \"皮膚を柔らかくし、角質を取り除くためのクリーム\"}]",
-  "patient_insight": "コレステロールクリームを使用することで、皮膚の持つ自然のバリアが修復されやすくなる可能性があります。試してみる価値がありそうですが、使用前に必ず主治医に相談しましょう。",
-  "created_at": "2026-07-24 23:10:16"
+  "curation_reasoning": "遺伝性魚鱗癬に対する新しい治療の可能性を示す研究で、魚鱗癬の患者さんに直接関連性があります。",
+  "drugs_json": "[{\"drug_name\": \"コレステロールクリーム\", \"ingredients\": \"コレステロール\", \"description\": \"皮膚のバリアを強化し、水分を保持する効果が期待できる保湿剤。\"}, {\"drug_name\": \"尿素クリーム\", \"ingredients\": \"尿素\", \"description\": \"皮膚の古い角質を柔らかくして取り除く効果がある保湿剤。\"}]",
+  "patient_insight": "この研究は、コレステロールクリームの使用が魚鱗癬の症状を改善する可能性を示しています。日常のスキンケアに取り入れる際は、医師と相談して試してみると良いでしょう。",
+  "created_at": "2026-07-25 23:01:24"
 }
