@@ -1,17 +1,17 @@
 {
   "id": 12,
-  "digest_date": "2026-08-01",
+  "digest_date": "2026-08-04",
   "source": "clinical_trials",
-  "source_id": "NCT06137157",
-  "original_title": "A Randomized, Double-Blind, Vehicle-Controlled, First-in-Human Safety, Tolerability and Proof-of-Concept Study of Topical ATR12-351 in Adults With Netherton Syndrome",
-  "title_ja": "ネザーケン症候群患者向けの外用薬ATR12-351の安全性と効果の初期研究",
-  "summary_ja": "ネザーケン症候群の成人患者を対象に、新しい外用薬ATR12-351の安全性と効果を調べる初期の研究です。この薬は、体内で作用する成分が皮膚の健康を改善する可能性を持っています。研究は12人の患者を対象に行われ、結果が期待されています。このような新しい治療法は、魚鱗癬の治療に役立つ可能性があります。",
+  "source_id": "NCT00046202",
+  "original_title": "Investigations Into Inborn Errors of Cholesterol Synthesis and Related Disorders",
+  "title_ja": "コレステロール合成の異常と関連障害の研究",
+  "summary_ja": "この研究は、コレステロールを体内でうまく作れない遺伝性の病気がどのような問題を引き起こすのかを調べています。例えば、スミス・レムリ・オピッツ症候群などがこれにあたります。この病気は生まれつきの奇形や学習障害を引き起こすことがあります。研究に参加することで、今後の治療法の開発に役立つ可能性があります。",
   "category": "研究論文",
-  "relevance_score": 0.7,
-  "url": "https://clinicaltrials.gov/study/NCT06137157",
-  "published_date": "2026-07-29",
-  "curation_reasoning": "ネザーケン症候群患者向けの新薬の開発情報ですが、新しい外用薬が魚鱗癬にも応用される可能性があります。",
+  "relevance_score": 0.5,
+  "url": "https://clinicaltrials.gov/study/NCT00046202",
+  "published_date": "2026-07-28",
+  "curation_reasoning": "コレステロール合成の異常は魚鱗癬と類似した皮膚障害を引き起こすことがあり、治療法の研究は今後の参考になります。",
   "drugs_json": "[]",
-  "patient_insight": "この新しい薬は魚鱗癬の治療に役立つかもしれませんが、現在はまだ早期の研究段階です。他の治療法と併せて検討する際は医師に相談しましょう。",
-  "created_at": "2026-08-01 23:01:21"
+  "patient_insight": "この研究は、魚鱗癬のように皮膚に影響を与える遺伝性疾患の理解を深め、将来の治療法を開発するための基礎を築くものです。治療法はまだ確立されていませんが、研究が進むことで希望が持てるかもしれません。",
+  "created_at": "2026-08-04 23:11:17"
 }

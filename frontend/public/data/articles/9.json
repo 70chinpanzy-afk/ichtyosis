@@ -1,17 +1,17 @@
 {
   "id": 9,
-  "digest_date": "2026-08-01",
+  "digest_date": "2026-08-04",
   "source": "pubmed",
-  "source_id": "42513470",
-  "original_title": "Novel Compound Heterozygous Variants in ",
-  "title_ja": "新しい複合ヘテロ変異について",
-  "summary_ja": "この記事では、特定の遺伝子変異が魚鱗癬に関与していることが新たに見つかりました。皮膚のバリア機能に重要なタンパク質を作る遺伝子に影響を及ぼすこの変異が、どのように症状を引き起こすかを説明しています。情報は詳細ではないが、遺伝子変異の理解は、今後の治療法開発につながる可能性があります。科学者たちは新しい治療のターゲットとして、この変異の役割をさらに研究する必要があります。",
+  "source_id": "42544840",
+  "original_title": "Repetin Regulates Epidermal Barrier Homeostasis and Is Associated With Inflammatory Skin Diseases.",
+  "title_ja": "レペチンが表皮バリアの維持に関与し、炎症性皮膚疾患と関連する研究",
+  "summary_ja": "この研究は、表皮のバリアを維持するタンパク質であるレペチンの役割について調べました。レペチンは皮膚の外層でのバリア機能をサポートし、不足すると炎症が起こりやすくなります。特に、アトピー性皮膚炎などの皮膚疾患でその発現が変化します。この研究は、バリア機能の維持や治療のターゲットとしての可能性を示しています。",
   "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42513470/",
-  "published_date": "2026 Jul 15",
-  "curation_reasoning": "魚鱗癬に関連する新しい遺伝子変異の発見は、治療法の開発に向けた重要なステップです。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42544840/",
+  "published_date": "2026 Aug",
+  "curation_reasoning": "皮膚バリアを維持するメカニズムの理解が深まることで、魚鱗癬の新しい治療法開発に役立つ可能性があります。",
   "drugs_json": "[]",
-  "patient_insight": "この新しい遺伝子発見は、将来的により効果的な治療法開発の可能性を示しています。現時点では、遺伝子検査を希望する場合、主治医と相談してみると良いでしょう。",
-  "created_at": "2026-08-01 23:01:21"
+  "patient_insight": "皮膚のバリア機能を支える物質について理解が進むことで、新たな治療法や保湿剤の開発が期待されます。日常のスキンケアに活用できる情報が増えることで、症状の管理がしやすくなるかもしれません。",
+  "created_at": "2026-08-04 23:11:17"
 }
