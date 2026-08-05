@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-08-04",
+  "digest_date": "2026-08-05",
   "source": "pubmed",
   "source_id": "42548722",
   "original_title": "MDI1228, a topical pan-JAK inhibitor, disrupts dermal fibroblast-T cell chemokine crosstalk to resolve allergic contact and atopic dermatitis.",
-  "title_ja": "新しい外用薬MDI1228がアトピー性皮膚炎に効果",
-  "summary_ja": "この研究は、新しい外用薬MDI1228がアトピー性皮膚炎（AD）やアレルギー性接触皮膚炎（ACD）の治療に使われる可能性について調査したものです。MDI1228は、皮膚にいる特定の細胞（線維芽細胞とT細胞）同士のやりとりを抑えることで、症状を改善する効果が見られました。この薬が導入されれば、他の既存の治療方法に限界を感じている人にとって新たな選択肢となるかもしれません。",
-  "category": "新薬・治療法",
-  "relevance_score": 0.8,
+  "title_ja": "MDI1228：新しい外用薬がアトピー性皮膚炎や接触性皮膚炎に効果を示す",
+  "summary_ja": "この研究では、MDI1228という新しい外用薬が、アトピー性皮膚炎や接触性皮膚炎の症状を改善することが示されました。この薬は体の免疫反応を調節するタンパク質（JAK）を阻害し、皮膚の炎症を抑える働きがあります。実験では、炎症細胞の働きを抑えるだけでなく、他の皮膚細胞とのコミュニケーションも改善しました。魚鱗癬への直接的な影響はまだ不明ですが、炎症を抑える新しい方法として期待できます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
   "url": "https://pubmed.ncbi.nlm.nih.gov/42548722/",
   "published_date": "2026",
-  "curation_reasoning": "魚鱗癬にも応用できるアトピー性皮膚炎の新しい外用薬の情報であるため。",
-  "drugs_json": "[{\"drug_name\": \"MDI1228\", \"ingredients\": \"非公開\", \"description\": \"新しい外用薬で、皮膚の炎症を引き起こす細胞間のやりとりを抑える作用があります。\"}]",
-  "patient_insight": "この新しい薬は外用なので、全身への影響が少ない可能性があります。魚鱗癬の方にとっても、新しい治療法として検討する価値があるかもしれません。医師と相談してみてください。",
-  "created_at": "2026-08-04 23:11:17"
+  "curation_reasoning": "アトピー性皮膚炎の治療に関する新しい知見は、魚鱗癬の炎症にも応用可能で、将来的に役立つ可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"MDI1228\", \"ingredients\": \"pan-JAK阻害薬\", \"description\": \"免疫系の過剰な反応を抑えることで皮膚の炎症を軽減する新しい外用薬\"}]",
+  "patient_insight": "MDI1228のような新しい外用薬は、アトピー性皮膚炎だけでなく魚鱗癬にも応用できるかもしれません。今は主治医と相談して、適切なスキンケアを継続しましょう。",
+  "created_at": "2026-08-05 23:09:38"
 }
