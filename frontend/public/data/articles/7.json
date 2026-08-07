@@ -1,17 +1,17 @@
 {
   "id": 7,
-  "digest_date": "2026-08-05",
+  "digest_date": "2026-08-07",
   "source": "pubmed",
-  "source_id": "42547464",
-  "original_title": "Skin Lipid Dysregulation in Atopic Dermatitis and Related Inflammatory Skin Diseases.",
-  "title_ja": "アトピー性皮膚炎と皮膚の脂質バランスの関係",
-  "summary_ja": "この研究は、アトピー性皮膚炎における皮膚の脂質バランスの乱れについてです。皮膚を守る天然の油分が不足すると、皮膚バリアの働きが低下し、炎症が起きやすくなります。この脂質バランスを整えることで、皮膚炎の症状が改善される可能性があることが分かりました。皮膚を守る脂質を補うことで、魚鱗癬の症状緩和にも役立つかもしれません。",
-  "category": "関連疾患からの知見",
+  "source_id": "42544840",
+  "original_title": "Repetin Regulates Epidermal Barrier Homeostasis and Is Associated With Inflammatory Skin Diseases.",
+  "title_ja": "皮膚バリアと炎症に関わるたんぱく質「リペチン」の発見",
+  "summary_ja": "白血球の一種による炎症を引き起こすたんぱく質である「リペチン」が、皮膚の健康を保つために重要な役割を担っていることが分かりました。このたんぱく質が不足すると、アトピー性皮膚炎のような炎症性皮膚疾患が悪化する可能性があります。この研究は、リペチンを目標にした新しい治療法の開発につながる可能性があります。魚鱗癬の患者さんにとっても、皮膚バリア機能を高める手段が増えることに期待が持てそうです。",
+  "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42547464/",
-  "published_date": "2026 Jul",
-  "curation_reasoning": "皮膚バリアの回復が魚鱗癬の管理にも重要であるため、アトピー性皮膚炎での知見が参考になる。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42544840/",
+  "published_date": "2026-08",
+  "curation_reasoning": "皮膚バリアを調節する新しいたんぱく質が見つかり、炎症性皮膚疾患の治療に影響を与える可能性があります。魚鱗癬患者にとっても皮膚バリア改善の可能性があるため、関心を持つ価値があります。",
   "drugs_json": "[]",
-  "patient_insight": "脂質バランスを保つことは、魚鱗癬にも役立つ可能性があります。皮膚を守るために保湿をしっかり行い、バリア機能をサポートしましょう。",
-  "created_at": "2026-08-05 23:09:38"
+  "patient_insight": "この研究でのリペチンは、皮膚バリアの改善に役立つ可能性があります。将来的に治療法に応用されることで、症状の軽減が期待できるかもしれません。現時点では、保湿ケアを中心とした従来の方法を続け、定期的に医師と相談してください。",
+  "created_at": "2026-08-07 01:32:26"
 }

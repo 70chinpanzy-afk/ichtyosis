@@ -1,17 +1,17 @@
 {
   "id": 8,
-  "digest_date": "2026-08-05",
+  "digest_date": "2026-08-07",
   "source": "pubmed",
-  "source_id": "42544840",
-  "original_title": "Repetin Regulates Epidermal Barrier Homeostasis and Is Associated With Inflammatory Skin Diseases.",
-  "title_ja": "レペチンが皮膚バリア機能と炎症に影響を与える",
-  "summary_ja": "この研究は、レペチンというタンパク質が皮膚バリアの調節に関わり、炎症性皮膚疾患に影響を与えることを示しています。レペチンは皮膚が形成される時に重要な役割を果たし、炎症の発生に関与することがわかりました。この情報により、皮膚の健康を保つ方法が新たに見つかるかもしれません。魚鱗癬の患者さんにとっても、皮膚の健康を守るためのヒントになる可能性があります。",
+  "source_id": "42548722",
+  "original_title": "MDI1228, a topical pan-JAK inhibitor, disrupts dermal fibroblast-T cell chemokine crosstalk to resolve allergic contact and atopic dermatitis.",
+  "title_ja": "新しい塗り薬がアレルギー性皮膚炎を改善する可能性",
+  "summary_ja": "新しい塗り薬、MDI1228（エムディアイ1228）が開発され、皮膚の炎症を引き起こす細胞間の信号をブロックすることが分かりました。この薬は、アレルギー性皮膚炎やアトピー性皮膚炎の症状を軽減する可能性があります。マウスを使った実験で、症状が大幅に改善されることが確認されました。現在はまだ研究段階ですが、魚鱗癬患者の皮膚炎症の治療に役立つ可能性があります。注意点もあるため、今後の臨床試験結果に期待が必要です。",
   "category": "研究論文",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42544840/",
-  "published_date": "2026 Aug",
-  "curation_reasoning": "皮膚バリア機能の維持が魚鱗癬の管理に重要であるため、レペチンの研究が役立つ可能性があります。",
-  "drugs_json": "[]",
-  "patient_insight": "レペチンの役割を理解することで、皮膚バリアを強化する新しい方法が期待できます。日々のスキンケアが大切です。",
-  "created_at": "2026-08-05 23:09:38"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42548722/",
+  "published_date": "2026",
+  "curation_reasoning": "新しい塗り薬が炎症性皮膚疾患の治療に効果があるかもしれず、魚鱗癬の患者さんにも関連性があります。将来的な治療選択肢として期待されます。",
+  "drugs_json": "[{\"drug_name\": \"MDI1228（エムディアイ1228）\", \"ingredients\": \"未公開\", \"description\": \"皮膚の炎症を引き起こす信号をブロックする塗り薬\"}]",
+  "patient_insight": "現在は研究段階の薬ですが、炎症を引き起こす仕組みに着目した新しいアプローチです。今後の進展に期待しつつ、今は確立されたスキンケアを続けることが重要です。定期的な皮膚の状態チェックと適切な保湿を心がけましょう。",
+  "created_at": "2026-08-07 01:32:26"
 }
