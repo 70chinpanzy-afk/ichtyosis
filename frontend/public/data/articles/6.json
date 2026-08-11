@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-08-10",
-  "source": "clinical_trials",
-  "source_id": "NCT06687512",
-  "original_title": "An Exploratory, Proof-of-Concept, Double-Blind, Placebo-Controlled, Randomized, Comparative, Interventional, Prospective, Safety In-Use Tolerability and Efficacy Study of Test Products in Patients With Mild to Moderate Atopic Dermatitis (AD).",
-  "title_ja": "軽度から中等度のアトピー性皮膚炎に対する試験製品の安全性と有効性の研究",
-  "summary_ja": "この研究は、軽度から中等度のアトピー性皮膚炎の患者さんに対する新しい治療法の安全性と有効性を調べています。試験は二重盲検法とプラセボ対照群を用いて行われ、複数の治療をランダムに比較しています。この結果は、魚鱗癬の類似症状を持つ患者さんにも適用できる可能性があります。この研究により、魚鱗癬の患者さんに新しい治療の選択肢が増えることが期待されますが、具体的な効果については今後の検証が必要です。",
+  "digest_date": "2026-08-11",
+  "source": "pubmed",
+  "source_id": "42547464",
+  "original_title": "Skin Lipid Dysregulation in Atopic Dermatitis and Related Inflammatory Skin Diseases.",
+  "title_ja": "アトピー性皮膚炎における皮膚脂質の異常とその関係",
+  "summary_ja": "アトピー性皮膚炎は皮膚の脂質バランスが崩れることが原因の一つとされています。この研究は、皮膚のバリアを作るために必要な脂質がどのように破壊され、炎症が進むのかを詳しく調べました。特にセラミドという脂質の不足がバリアを弱めることが分かり、これが新しい治療につながる可能性があります。魚鱗癬といった似たような症状のある疾患でも、同様のアプローチが役立つかもしれません。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://clinicaltrials.gov/study/NCT06687512",
-  "published_date": "2026-08-10",
-  "curation_reasoning": "アトピー性皮膚炎の治療法は魚鱗癬の症状にも応用可能な場合があり、新しい治療の可能性を示しているため。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42547464/",
+  "published_date": "2026 Jul",
+  "curation_reasoning": "この研究は皮膚の脂質バランスが炎症に与える影響を解明しており、魚鱗癬でも皮膚のバリア機能が重要であるため、関連する知見です。",
   "drugs_json": "[]",
-  "patient_insight": "この研究で得られる情報は、魚鱗癬の治療法の開発に役立つかもしれません。新しい治療法が出てくる可能性があるため、主治医と相談しながら最新の情報を追うとよいでしょう。",
-  "created_at": "2026-08-10 22:47:49"
+  "patient_insight": "皮膚のバリアを守る脂質が不足していると炎症がひどくなることが分かってきました。セラミドを含む保湿剤を選んで使うことで、皮膚のバリアをサポートし、症状の改善につながるかもしれません。主治医に相談してみると良いでしょう。",
+  "created_at": "2026-08-11 22:53:10"
 }
