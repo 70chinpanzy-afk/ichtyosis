@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-08-11",
+  "digest_date": "2026-08-13",
   "source": "pubmed",
-  "source_id": "42547464",
-  "original_title": "Skin Lipid Dysregulation in Atopic Dermatitis and Related Inflammatory Skin Diseases.",
-  "title_ja": "アトピー性皮膚炎における皮膚脂質の異常とその関係",
-  "summary_ja": "アトピー性皮膚炎は皮膚の脂質バランスが崩れることが原因の一つとされています。この研究は、皮膚のバリアを作るために必要な脂質がどのように破壊され、炎症が進むのかを詳しく調べました。特にセラミドという脂質の不足がバリアを弱めることが分かり、これが新しい治療につながる可能性があります。魚鱗癬といった似たような症状のある疾患でも、同様のアプローチが役立つかもしれません。",
+  "source_id": "42559654",
+  "original_title": "Sleep Disturbance and Atopic Dermatitis: A Bidirectional Relationship With Clinical and Therapeutic Implications.",
+  "title_ja": "アトピー性皮膚炎と睡眠の関係：症状への影響と治療方法",
+  "summary_ja": "この研究は、アトピー性皮膚炎の患者さんに多く見られる睡眠障害についてで、症状と睡眠が互いに悪影響を及ぼすということが分かりました。かゆみや皮膚の乾燥感が夜間の睡眠を妨げる一方、質の悪い睡眠が皮膚のバリアの修復を邪魔し、さらにかゆみを悪化させます。睡眠環境を整えることが、皮膚の状態改善につながる可能性があります。この知見は魚鱗癬のケアにも役立ちます。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42547464/",
-  "published_date": "2026 Jul",
-  "curation_reasoning": "この研究は皮膚の脂質バランスが炎症に与える影響を解明しており、魚鱗癬でも皮膚のバリア機能が重要であるため、関連する知見です。",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42559654/",
+  "published_date": "2026-07",
+  "curation_reasoning": "皮膚疾患全般で重要となる睡眠と症状の関係は、魚鱗癬患者にとってもケア改善へのヒントになります。",
   "drugs_json": "[]",
-  "patient_insight": "皮膚のバリアを守る脂質が不足していると炎症がひどくなることが分かってきました。セラミドを含む保湿剤を選んで使うことで、皮膚のバリアをサポートし、症状の改善につながるかもしれません。主治医に相談してみると良いでしょう。",
-  "created_at": "2026-08-11 22:53:10"
+  "patient_insight": "皮膚疾患を持つ方は、良質な睡眠が皮膚の健康を保つカギとなります。睡眠環境を整えることで、症状が軽減される可能性がありますので、寝具や生活習慣を見直してみてください。",
+  "created_at": "2026-08-13 22:52:34"
 }
