@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-08-18",
-  "source": "google_news:Fierce Biotech",
-  "source_id": "84fe42a9bb7d77c9",
-  "original_title": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease drug awaiting FDA nod - Fierce Biotech",
-  "title_ja": "Leo社、435百万ドルで田辺製薬の希少皮膚疾患の薬を取得しFDA承認待ち - Fierce Biotech",
-  "summary_ja": "記事は、Leo社が希少皮膚疾患の治療薬を435百万ドルで購入し、現在FDA（米食品医薬品局）の承認を待っているという内容です。この動きにより、今後魚鱗癬を含む希少疾患への新しい治療オプションが提供されるかもしれません。この薬は症状を軽減する可能性がありますが、利用開始までには時間がかかることが予想されます。読者の方々は、今後の進展を注視されるのが良いでしょう。",
+  "digest_date": "2026-08-19",
+  "source": "google_news:PharmTech.com",
+  "source_id": "9253307582371ed9",
+  "original_title": "Dersimelagon Acquisition Highlights Shift Toward Late-Stage Rare Disease Licensing - PharmTech.com",
+  "title_ja": "デシメラゴンの取得、後期段階の希少疾患ライセンスへのシフトを強調",
+  "summary_ja": "製薬企業が新しい希少疾患治療薬デシメラゴンを取得したことが話題です。デシメラゴンは、皮膚病の一部において痛みを和らげる可能性のある薬です。この取得により、希少疾患の治療が一歩進展することが期待されています。このような動きは、将来的に魚鱗癬などの希少な皮膚疾患に対する新しい治療法の開発が加速する可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 0.7,
-  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVk1tOVlmcGJEXzBOOGMxMjFwLWVkbGxXdmVMTGZtNnU2Zi01a0lTd0FfNjFvM3l6NjlHRHlSZVRNc3NYRnozaEZRTGNPRU40clBDY0c2QUs0NzNiUThUVGwyazY2RzRRTThzVnhzLWtOSHp3dmR6eTJMb1JqQkR2dFd4c2loaXBUUnN0dmJzcmJMc0xSM05LSnJaTmNEbDVGaXlqaTgxNzZmVEU?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYko4VUI3eVlNaElackh2ZEYxbGV4WVh1OG5LcGwxUG9KUnprNnVJZmlfX1RmbmJIMldsRU9sa1JaT1pZcXpBcTYyYjF4UG90elZCaUdQU2w2NWhBN2ltUUYxYlNEUXVNR0s4bHF2alM5UWc0RGE4UWVLUl80UTVCdzZIUkw3Y3RjMkNzOTlicGFSeHlqb2tQRUxoOU5BRmhyUDluTUpEQlIzT3YxaWcwenljSQ?oc=5",
   "published_date": "2026-08-18",
-  "curation_reasoning": "新しい治療薬の承認に関する情報で、魚鱗癬患者に未来の希望を提供します。",
-  "drugs_json": "[]",
-  "patient_insight": "この薬の承認が進めば、新しい治療法として期待できるでしょう。今はまだ承認待ちですが、進展を見守りつつ、現行の療法を大切に続けてください。",
-  "created_at": "2026-08-18 22:32:06"
+  "curation_reasoning": "新しい薬の取得は、魚鱗癬に関連する治療法の進展可能性を示しており、患者や家族に希望を与える。",
+  "drugs_json": "[{\"drug_name\": \"デシメラゴン（Dersimelagon）\", \"ingredients\": \"未公開\", \"description\": \"希少な皮膚疾患の痛みを和らげる可能性がある薬\"}]",
+  "patient_insight": "デシメラゴンのような新しい薬の登場は、今後の治療選択肢の多様性を広げるかもしれません。現時点では、保湿ケアを続けつつ、このような情報を注意深く見守ることが大切です。",
+  "created_at": "2026-08-19 22:32:37"
 }
