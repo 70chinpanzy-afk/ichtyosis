@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-08-20",
+  "digest_date": "2026-08-21",
   "source": "clinical_trials",
   "source_id": "NCT06137157",
   "original_title": "A Randomized, Double-Blind, Vehicle-Controlled, First-in-Human Safety, Tolerability and Proof-of-Concept Study of Topical ATR12-351 in Adults With Netherton Syndrome",
-  "title_ja": "ネザートン症候群治療のための新しい外用薬ATR12-351の初の臨床試験",
-  "summary_ja": "この臨床試験は、ネザートン症候群という皮膚疾患に新しい外用薬ATR12-351がどのように効くかを初めて調べるものです。この試験では、安全性と有効性を評価し、12人の大人の患者に実施されます。片側の体には薬を、もう片側にはコントロールを使用し、効果を比較します。この研究により、魚鱗癬に対する新しい治療法の可能性も示唆されるかもしれません。",
+  "title_ja": "ネザートン症候群の成人患者に対する新薬ATR12-351の安全性試験",
+  "summary_ja": "この臨床試験では、ネザートン症候群の患者に対する新しい外用薬ATR12-351の安全性と効果を調べています。12人の成人患者に対し、左右の肌に新薬と偽薬を適用し比較します。この研究は、この薬が肌の炎症を軽減する可能性を探る初めての試みです。結果が良好であれば、魚鱗癬の治療にも期待されます。",
   "category": "新薬・治療法",
-  "relevance_score": 0.8,
+  "relevance_score": 0.7,
   "url": "https://clinicaltrials.gov/study/NCT06137157",
   "published_date": "2026-07-29",
-  "curation_reasoning": "この試験は、魚鱗癬と関連がある皮膚疾患の新しい治療法の開発に役立つ可能性があります。今後の治療法の選択肢の拡大につながる情報です。",
-  "drugs_json": "[{\"drug_name\": \"ATR12-351\", \"ingredients\": \"未知\", \"description\": \"ネザートン症候群に対する新しい外用薬として開発中\"}]",
-  "patient_insight": "ネザートン症候群の治療に関するこの新しい試験は、魚鱗癬の患者さんにも新たな希望をもたらす可能性があります。今後の結果を注視しつつ、個別の治療法を医師と相談してください。",
-  "created_at": "2026-08-20 22:35:30"
+  "curation_reasoning": "新薬の研究は魚鱗癬のような遺伝性皮膚疾患を持つ患者にとって、将来の有望な治療法を提供する可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"ATR12-351\", \"ingredients\": \"不明（新薬のため詳細情報なし）\", \"description\": \"皮膚の炎症を軽減することを目的とした新しい外用薬\"}]",
+  "patient_insight": "この新薬の研究は、皮膚疾患の治療法が進む可能性を提示しています。引き続き、新しい治療法が登場するまで、現在のケアを大切にしつつ情報を追ってみてください。",
+  "created_at": "2026-08-21 22:32:42"
 }
