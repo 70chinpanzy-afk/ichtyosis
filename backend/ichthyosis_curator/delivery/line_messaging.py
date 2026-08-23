@@ -84,8 +84,15 @@ def _article_link(item: DeliveryItem, frontend_url: str) -> str:
     return item.url or ""
 
 
-def _build_article_bubble(item: DeliveryItem, frontend_url: str) -> dict:
-    """1記事分のFlex Bubble"""
+def _build_article_bubble(
+    item: DeliveryItem, frontend_url: str, insight_override: str = ""
+) -> dict:
+    """1記事分のFlex Bubble
+
+    insight_override があればそれを「次にできること」として表示する
+    （患者プロフィールに合わせて生成した文）。無ければキュレーション時の
+    汎用 patient_insight を「患者さんへのポイント」として表示する。
+    """
     category = item.category or "ニュース"
     cat_color = CATEGORY_COLORS.get(category, "#95A5A6")
     source_label = _get_source_label(item.source)
@@ -111,8 +118,10 @@ def _build_article_bubble(item: DeliveryItem, frontend_url: str) -> dict:
         },
     ]
 
-    # 「患者さんへのポイント」— 生成済みなのに従来LINEに出ていなかった部分
-    if item.patient_insight:
+    # 生成済みなのに従来LINEに出ていなかった部分
+    insight_text = insight_override or item.patient_insight
+    insight_label = "次にできること" if insight_override else "患者さんへのポイント"
+    if insight_text:
         body_contents.append({
             "type": "box",
             "layout": "vertical",
@@ -123,14 +132,14 @@ def _build_article_bubble(item: DeliveryItem, frontend_url: str) -> dict:
             "contents": [
                 {
                     "type": "text",
-                    "text": "患者さんへのポイント",
+                    "text": insight_label,
                     "size": "md",
                     "weight": "bold",
                     "color": cat_color,
                 },
                 {
                     "type": "text",
-                    "text": _truncate(item.patient_insight, MAX_INSIGHT_CHARS),
+                    "text": _truncate(insight_text, MAX_INSIGHT_CHARS),
                     "size": "lg",
                     "color": "#555555",
                     "wrap": True,
@@ -403,8 +412,13 @@ def build_flex_messages(
     frontend_url: str = "",
     mode: str = MODE_WEEKLY,
     urgent_count: int = 0,
+    insight_overrides: dict[str, str] | None = None,
 ) -> list[dict]:
-    """Flex Messageオブジェクトのリストを生成"""
+    """Flex Messageオブジェクトのリストを生成
+
+    insight_overrides: source_id -> パーソナライズ済みテキスト。
+    永続化しない前提でここに直接渡す（DeliveryItem には載せない）。
+    """
     if not frontend_url:
         frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
 
@@ -414,8 +428,13 @@ def build_flex_messages(
     bubbles: list[dict] = [
         _build_header_bubble(date_label, greeting, items, mode, urgent_count)
     ]
+    insight_overrides = insight_overrides or {}
     for item in items:
-        bubbles.append(_build_article_bubble(item, frontend_url))
+        bubbles.append(
+            _build_article_bubble(
+                item, frontend_url, insight_overrides.get(item.source_id, "")
+            )
+        )
 
     has_footer = bool(frontend_url) and mode == MODE_WEEKLY
     if has_footer:

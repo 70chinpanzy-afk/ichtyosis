@@ -21,6 +21,7 @@ from ichthyosis_curator.curation.dedup import (
     mark_articles_sent,
 )
 from ichthyosis_curator.curation.history import load_seen_hashes
+from ichthyosis_curator.curation.personalize import personalize_insights
 from ichthyosis_curator.delivery import policy
 from ichthyosis_curator.delivery.line_messaging import (
     MODE_URGENT,
@@ -294,6 +295,7 @@ def _deliver(
             date_label=today_display,
             frontend_url=config.frontend_url,
             mode=MODE_URGENT,
+            insight_overrides=_personalize(config, urgent),
         )
         if _push_flex(config, messages, dry_run, label="urgent"):
             sent = True
@@ -327,11 +329,28 @@ def _deliver(
         frontend_url=config.frontend_url,
         mode=MODE_WEEKLY,
         urgent_count=len(weekly_exclude),
+        insight_overrides=_personalize(config, weekly_items),
     )
     if _push_flex(config, messages, dry_run, label="weekly"):
         sent = True
 
     return sent
+
+
+def _personalize(
+    config: CuratorConfig, items: list[DeliveryItem]
+) -> dict[str, str]:
+    """LINE送信直前にプロフィールを当てて「次にできること」を作る。
+
+    ここで作った文は公開データ(frontend/public/data)には一切書かない。
+    DB保存とエクスポートはこの時点で既に終わっており、対象は
+    LINEに送るメッセージだけ。
+    """
+    if not config.patient_profile:
+        return {}
+    return personalize_insights(
+        items, config.patient_profile, model=config.openai_model
+    )
 
 
 def _push_flex(

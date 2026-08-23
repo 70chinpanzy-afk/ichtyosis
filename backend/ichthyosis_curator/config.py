@@ -21,6 +21,10 @@ class CuratorConfig:
     # CIは backend/ を作業ディレクトリにして実行するため相対パスがこの形になる。
     data_dir: str = field(default_factory=lambda: os.getenv("CURATOR_DATA_DIR", "../frontend/public/data"))
 
+    # 患者プロフィール（GitHub Actions Secret から渡す平文）。
+    # 公開リポジトリなのでファイルには置かない。未設定なら汎用文で配信する。
+    patient_profile: str = field(default_factory=lambda: os.getenv("PATIENT_PROFILE", ""))
+
     # LINE Messaging API
     line_channel_access_token: str = field(default_factory=lambda: os.getenv("LINE_CHANNEL_ACCESS_TOKEN", ""))
     line_user_id: str = field(default_factory=lambda: os.getenv("LINE_USER_ID", ""))
