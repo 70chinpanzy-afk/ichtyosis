@@ -41,6 +41,8 @@ export interface Article {
   drugs_json: string | null;
   patient_insight: string | null;
   created_at: string | null;
+  /** 公開URL用の安定ID。DBのidはCI実行ごとに振り直されるため使わない */
+  slug?: string | null;
 }
 
 /** drugs_json文字列をDrugInfo配列にパース */
@@ -174,11 +176,16 @@ export async function getDigestByDate(date: string): Promise<Article[]> {
   return fetchJson<Article[]>(`${API_BASE}/api/digests/${date}`);
 }
 
-export async function getArticle(id: number): Promise<Article> {
+export async function getArticle(id: string | number): Promise<Article> {
   if (IS_STATIC) {
     return fetchJson<Article>(`/data/articles/${id}.json`);
   }
   return fetchJson<Article>(`${API_BASE}/api/articles/${id}`);
+}
+
+/** 記事の公開URLに使うID。slugがあれば優先し、無い古いデータはidにフォールバック */
+export function articleHref(article: Pick<Article, "id" | "slug">): string {
+  return `/article/${article.slug || article.id}`;
 }
 
 export async function searchArticles(
