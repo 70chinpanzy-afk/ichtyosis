@@ -25,6 +25,14 @@ def main():
         "--export", type=str, metavar="OUTPUT_DIR",
         help="静的JSONをエクスポートする（例: ../frontend/public/data）"
     )
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="LINEに送らず、送るはずだったFlex JSONを標準出力に出す"
+    )
+    parser.add_argument(
+        "--force-weekly", action="store_true",
+        help="曜日に関係なく週次まとめを生成する（動作確認用）"
+    )
     args = parser.parse_args()
 
     log_level = logging.DEBUG if args.verbose else logging.INFO
@@ -56,7 +64,9 @@ def main():
             logging.error(f"設定エラー: {e}")
             sys.exit(1)
 
-        success = run_daily_curation(config)
+        success = run_daily_curation(
+            config, dry_run=args.dry_run, force_weekly=args.force_weekly
+        )
         sys.exit(0 if success else 1)
 
 

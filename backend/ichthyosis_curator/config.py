@@ -16,6 +16,11 @@ class CuratorConfig:
     max_articles: int = field(default_factory=lambda: int(os.getenv("CURATOR_MAX_ARTICLES_PER_RUN", "20")))
     log_level: str = field(default_factory=lambda: os.getenv("CURATOR_LOG_LEVEL", "INFO"))
 
+    # 公開データ（frontend/public/data）の場所。
+    # 配信履歴・週次まとめ・即時送信記録の読み書きに使う。
+    # CIは backend/ を作業ディレクトリにして実行するため相対パスがこの形になる。
+    data_dir: str = field(default_factory=lambda: os.getenv("CURATOR_DATA_DIR", "../frontend/public/data"))
+
     # LINE Messaging API
     line_channel_access_token: str = field(default_factory=lambda: os.getenv("LINE_CHANNEL_ACCESS_TOKEN", ""))
     line_user_id: str = field(default_factory=lambda: os.getenv("LINE_USER_ID", ""))
