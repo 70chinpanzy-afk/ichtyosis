@@ -22,6 +22,7 @@ from ichthyosis_curator.curation.dedup import (
 )
 from ichthyosis_curator.curation.history import load_seen_hashes
 from ichthyosis_curator.curation.personalize import personalize_insights
+from ichthyosis_curator.curation.quality import report_boilerplate
 from ichthyosis_curator.delivery import policy
 from ichthyosis_curator.delivery.line_messaging import (
     MODE_URGENT,
@@ -199,6 +200,11 @@ def run_daily_curation(
     logger.info(f"重複排除後: {len(unseen)} new / {len(curated) - len(unseen)} duplicates")
 
     to_send = unseen[: config.max_articles]
+
+    # patient_insight が一般論に収束していないかCIログに残す。
+    # 患者プロフィールを使わない運用では、行動につながる文はこれ一本なので
+    # 劣化に気づけるようにしておく。
+    report_boilerplate(to_send)
 
     # --- DB保存 ---
     import json as _json
