@@ -23,6 +23,7 @@ from ichthyosis_curator.curation.dedup import (
 from ichthyosis_curator.curation.history import load_seen_hashes
 from ichthyosis_curator.curation.personalize import personalize_insights
 from ichthyosis_curator.curation.quality import report_boilerplate
+from ichthyosis_curator.curation.visit_brief import build_visit_brief
 from ichthyosis_curator.delivery import policy
 from ichthyosis_curator.delivery.line_messaging import (
     MODE_URGENT,
@@ -328,6 +329,12 @@ def _deliver(
     except Exception:
         greeting = f"{today_display}の魚鱗癬関連情報をお届けします。"
 
+    # 「次の診察で聞くとよいこと」を過去1か月ぶんから作る。
+    # 失敗しても空リストが返るだけで、まとめ自体は送られる。
+    brief = build_visit_brief(
+        config.data_dir, model=config.openai_model, extra_items=today_items
+    )
+
     messages = build_flex_messages(
         weekly_items,
         date_label=today_display,
@@ -336,6 +343,7 @@ def _deliver(
         mode=MODE_WEEKLY,
         urgent_count=len(weekly_exclude),
         insight_overrides=_personalize(config, weekly_items),
+        brief_entries=brief,
     )
     if _push_flex(config, messages, dry_run, label="weekly"):
         sent = True

@@ -6,6 +6,7 @@ import os
 
 import requests
 
+from ichthyosis_curator.curation.visit_brief import BriefEntry
 from ichthyosis_curator.schemas import DeliveryItem
 
 logger = logging.getLogger(__name__)
@@ -17,6 +18,7 @@ LINE_PUSH_URL = "https://api.line.me/v2/bot/message/push"
 MAX_BUBBLES = 12
 MAX_FLEX_BYTES = 45000
 MAX_INSIGHT_CHARS = 200
+MAX_QUESTION_CHARS = 90
 
 MODE_WEEKLY = "weekly"
 MODE_URGENT = "urgent"
@@ -332,6 +334,92 @@ def _build_header_bubble(
     }
 
 
+def build_brief_bubble(entries: list[BriefEntry], frontend_url: str = "") -> dict:
+    """「次の診察で聞いてみるとよいこと」のBubble
+
+    診察室でそのまま読めるよう、番号付きの質問文を並べる。
+    各質問の下に根拠の記事タイトルを小さく添えて、何の話か分かるようにする。
+    """
+    contents: list[dict] = [
+        {
+            "type": "text",
+            "text": "次の診察で聞いてみるとよいこと",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#333333",
+            "wrap": True,
+        },
+        {
+            "type": "text",
+            "text": "過去1か月に届いた情報から",
+            "size": "sm",
+            "color": "#AAAAAA",
+            "margin": "sm",
+        },
+        {"type": "separator", "margin": "lg"},
+    ]
+
+    for i, entry in enumerate(entries, start=1):
+        contents.append({
+            "type": "text",
+            "text": f"{i}. {entry.question}",
+            "size": "lg",
+            "color": "#333333",
+            "wrap": True,
+            "margin": "lg",
+        })
+        if entry.article:
+            title = entry.article.title_ja or entry.article.original_title or ""
+            if title:
+                contents.append({
+                    "type": "text",
+                    "text": _truncate(title, MAX_QUESTION_CHARS),
+                    "size": "sm",
+                    "color": "#AAAAAA",
+                    "wrap": True,
+                    "margin": "xs",
+                })
+
+    contents.append({
+        "type": "text",
+        "text": "答えは主治医の判断によります。気になるものだけ聞いてみてください。",
+        "size": "sm",
+        "color": "#AAAAAA",
+        "wrap": True,
+        "margin": "xl",
+    })
+
+    bubble: dict = {
+        "type": "bubble",
+        "size": "mega",
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": contents,
+        },
+    }
+
+    if frontend_url:
+        bubble["footer"] = {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "もとの記事を見る",
+                        "uri": frontend_url,
+                    },
+                    "style": "secondary",
+                    "height": "sm",
+                },
+            ],
+        }
+
+    return bubble
+
+
 def _build_footer_bubble(frontend_url: str, total: int) -> dict:
     """フッター用Bubble（全件リンク）"""
     bubble: dict = {
@@ -413,6 +501,7 @@ def build_flex_messages(
     mode: str = MODE_WEEKLY,
     urgent_count: int = 0,
     insight_overrides: dict[str, str] | None = None,
+    brief_entries: list[BriefEntry] | None = None,
 ) -> list[dict]:
     """Flex Messageオブジェクトのリストを生成
 
@@ -428,6 +517,10 @@ def build_flex_messages(
     bubbles: list[dict] = [
         _build_header_bubble(date_label, greeting, items, mode, urgent_count)
     ]
+
+    # ブリーフは記事より先に読ませたいのでヘッダーの直後に置く
+    if brief_entries:
+        bubbles.append(build_brief_bubble(brief_entries, frontend_url))
     insight_overrides = insight_overrides or {}
     for item in items:
         bubbles.append(
