@@ -60,6 +60,11 @@ def item_hash(item: DeliveryItem) -> str:
 
 def is_urgent(item: DeliveryItem) -> bool:
     """この記事を即時アラートとして送るべきか"""
+    # 締切があるもの・期限内に動く必要があるものは無条件で即時
+    # （週次まとめを待つと締切を過ぎてしまう）
+    if item.action_required or item.deadline:
+        return True
+
     haystack = " ".join(
         [item.title_ja or "", item.original_title or "", item.summary_ja or ""]
     )

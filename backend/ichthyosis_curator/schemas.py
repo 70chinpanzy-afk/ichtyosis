@@ -14,6 +14,7 @@ Category = Literal[
     "ケア・対処法",
     "体験談・対処法",
     "関連疾患からの知見",
+    "制度・支援",
     "ニュース",
 ]
 
@@ -55,6 +56,8 @@ class CuratedArticle(BaseModel):
     curation_reasoning: str = ""
     patient_insight: str = Field(default="", description="患者さんへのポイント: この記事が患者さんやご家族にとって何を意味するか")
     drugs: list[DrugInfo] = Field(default_factory=list, description="記事に含まれる薬品リスト")
+    deadline: Optional[str] = Field(default=None, description="申請・応募の締切や開催日（読み取れた場合のみ。例: 2026-09-30、令和8年9月末）")
+    action_required: bool = Field(default=False, description="読者が期限内に動く必要があるか（申請・問い合わせ・参加登録など）")
 
 
 class CurationBatchResult(BaseModel):
@@ -95,6 +98,8 @@ class DeliveryItem(BaseModel):
     category: str = "ニュース"
     relevance_score: float = 0.0
     url: str = ""
+    deadline: str = ""
+    action_required: bool = False
 
     @property
     def slug(self) -> str:
@@ -113,6 +118,8 @@ class DeliveryItem(BaseModel):
             category=article.category,
             relevance_score=article.relevance_score,
             url=article.url,
+            deadline=article.deadline or "",
+            action_required=article.action_required,
         )
 
     @classmethod
@@ -128,4 +135,6 @@ class DeliveryItem(BaseModel):
             category=row.get("category") or "ニュース",
             relevance_score=row.get("relevance_score") or 0.0,
             url=row.get("url") or "",
+            deadline=row.get("deadline") or "",
+            action_required=bool(row.get("action_required")),
         )

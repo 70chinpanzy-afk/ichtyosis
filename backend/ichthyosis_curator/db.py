@@ -53,6 +53,8 @@ def init_db(db_path: str) -> None:
                 curation_reasoning TEXT,
                 drugs_json TEXT DEFAULT '[]',
                 patient_insight TEXT DEFAULT '',
+                deadline TEXT DEFAULT '',
+                action_required INTEGER DEFAULT 0,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
@@ -68,6 +70,17 @@ def init_db(db_path: str) -> None:
             cursor.execute("SELECT patient_insight FROM curated_articles LIMIT 1")
         except sqlite3.OperationalError:
             cursor.execute("ALTER TABLE curated_articles ADD COLUMN patient_insight TEXT DEFAULT ''")
+
+        # 締切・要対応フラグ（制度・支援情報の即時アラート判定に使う）
+        try:
+            cursor.execute("SELECT deadline FROM curated_articles LIMIT 1")
+        except sqlite3.OperationalError:
+            cursor.execute("ALTER TABLE curated_articles ADD COLUMN deadline TEXT DEFAULT ''")
+
+        try:
+            cursor.execute("SELECT action_required FROM curated_articles LIMIT 1")
+        except sqlite3.OperationalError:
+            cursor.execute("ALTER TABLE curated_articles ADD COLUMN action_required INTEGER DEFAULT 0")
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS run_log (
@@ -141,6 +154,8 @@ def save_curated_article(
     curation_reasoning: str,
     drugs_json: str = "[]",
     patient_insight: str = "",
+    deadline: Optional[str] = None,
+    action_required: bool = False,
 ) -> int:
     with get_db_connection(db_path) as conn:
         cursor = conn.cursor()
@@ -148,12 +163,13 @@ def save_curated_article(
             """INSERT INTO curated_articles
             (digest_date, source, source_id, original_title, title_ja, summary_ja,
              category, relevance_score, url, published_date, curation_reasoning,
-             drugs_json, patient_insight)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+             drugs_json, patient_insight, deadline, action_required)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 digest_date, source, source_id, original_title, title_ja,
                 summary_ja, category, relevance_score, url, published_date,
                 curation_reasoning, drugs_json, patient_insight,
+                deadline or "", int(action_required),
             ),
         )
         return cursor.lastrowid

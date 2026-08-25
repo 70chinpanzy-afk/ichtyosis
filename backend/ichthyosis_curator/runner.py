@@ -10,6 +10,7 @@ from ichthyosis_curator.sources.news_rss import get_news_articles
 from ichthyosis_curator.sources.reddit import get_reddit_posts
 from ichthyosis_curator.sources.patient_communities import get_patient_community_posts
 from ichthyosis_curator.sources.youtube import get_youtube_videos
+from ichthyosis_curator.sources.japan_support import get_japan_support_articles
 from ichthyosis_curator.curation.llm_curator import (
     curate_articles,
     generate_greeting,
@@ -139,6 +140,16 @@ def run_daily_curation(
         logger.error(f"YouTube fetch failed: {e}")
         errors.append(f"YouTube: {e}")
 
+    # 日本の制度・助成。更新は年に数回だが、締切があって動けば結果が変わる情報。
+    try:
+        support = get_japan_support_articles()
+        all_raw.extend(support)
+        sources_scanned += 1
+        logger.info(f"日本の制度・支援: {len(support)} 件")
+    except Exception as e:
+        logger.error(f"Japan support fetch failed: {e}")
+        errors.append(f"JapanSupport: {e}")
+
     logger.info(f"合計: {len(all_raw)} raw articles from {sources_scanned} sources")
 
     # --- 既出記事をキュレーション前に除外 ---
@@ -226,6 +237,8 @@ def run_daily_curation(
             curation_reasoning=article.curation_reasoning,
             drugs_json=_json.dumps(drugs_data, ensure_ascii=False),
             patient_insight=article.patient_insight,
+            deadline=article.deadline,
+            action_required=article.action_required,
         )
 
     # --- LINE配信判定 ---

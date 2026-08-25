@@ -46,6 +46,23 @@ def test_高スコアの新薬ニュースは即時アラートになる():
     assert policy.is_urgent(_item("a", 0.9, category="新薬・治療法"))
 
 
+def test_締切があれば無条件で即時アラートにする():
+    # 週次まとめを待つと締切を過ぎてしまう
+    item = _item("a", 0.4, category="制度・支援")
+    item.deadline = "2026-09-30"
+    assert policy.is_urgent(item)
+
+
+def test_期限内に動く必要があれば即時アラートにする():
+    item = _item("a", 0.4, category="制度・支援")
+    item.action_required = True
+    assert policy.is_urgent(item)
+
+
+def test_締切も要対応も無い制度記事は週次にまわす():
+    assert not policy.is_urgent(_item("a", 0.6, category="制度・支援"))
+
+
 def test_高スコアでも研究論文は即時にしない():
     # 論文は締切がないので週次まとめで足りる
     assert not policy.is_urgent(_item("a", 0.95, category="研究論文"))

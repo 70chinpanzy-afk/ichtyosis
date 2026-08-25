@@ -53,6 +53,8 @@ SOURCE_LABELS = {
     "first": "FIRST",
     "isg": "ISG",
     "inspire": "Inspire",
+    "難病情報センター": "難病情報センター",
+    "小児慢性特定疾病": "小慢センター",
 }
 
 CATEGORY_ORDER = [
@@ -100,7 +102,7 @@ def _build_article_bubble(
     source_label = _get_source_label(item.source)
     link_url = _article_link(item, frontend_url)
 
-    body_contents = [
+    body_contents: list[dict] = [
         {
             "type": "text",
             "text": item.title_ja or item.original_title or "無題",
@@ -110,6 +112,21 @@ def _build_article_bubble(
             "maxLines": 3,
             "color": "#333333",
         },
+    ]
+
+    # 締切は見落とすと取り返しがつかないので、要約より前に出す
+    if item.deadline:
+        body_contents.append({
+            "type": "text",
+            "text": f"\u23f0 締切・日程: {item.deadline}",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#E74C3C",
+            "wrap": True,
+            "margin": "md",
+        })
+
+    body_contents.append(
         {
             "type": "text",
             "text": item.summary_ja or "（要約なし）",
@@ -117,8 +134,8 @@ def _build_article_bubble(
             "color": "#555555",
             "wrap": True,
             "margin": "lg",
-        },
-    ]
+        }
+    )
 
     # 生成済みなのに従来LINEに出ていなかった部分
     insight_text = insight_override or item.patient_insight
