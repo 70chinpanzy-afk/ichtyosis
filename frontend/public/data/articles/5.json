@@ -1,17 +1,17 @@
 {
   "id": 5,
-  "digest_date": "2026-08-27",
+  "digest_date": "2026-08-28",
   "source": "clinical_trials",
-  "source_id": "NCT06545695",
-  "original_title": "Epidermal Growth Factor Receptor Inhibition for Keratinopathies",
-  "title_ja": "ケラチノパチーに対するEGFR阻害薬の研究",
-  "summary_ja": "この研究では、EGFR（上皮成長因子受容体）というシグナルを抑える薬「エルロチニブ」の効果をケラチノパチーに対して調べています。この薬は元々癌治療に使われていましたが、皮膚の問題にも有効である可能性が示されています。特に遺伝的な皮膚の疾患に新しい希望を与えるものです。",
+  "source_id": "NCT06137157",
+  "original_title": "A Randomized, Double-Blind, Vehicle-Controlled, First-in-Human Safety, Tolerability and Proof-of-Concept Study of Topical ATR12-351 in Adults With Netherton Syndrome",
+  "title_ja": "ネザートン症候群における新しい外用薬ATR12-351の安全性と効果の試験",
+  "summary_ja": "この臨床試験は、ネザートン症候群という皮膚疾患を持つ人に対して、新しい薬（ATR12-351）がどのような効果を示すか調べる初めての試みです。患者は体の片側に薬を、反対側に偽薬を使用し、その安全性と効果を検討しています。この研究が成功すれば、魚鱗癬のような皮膚疾患にも応用できる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 0.8,
-  "url": "https://clinicaltrials.gov/study/NCT06545695",
-  "published_date": "2026-08-03",
-  "curation_reasoning": "EGFR阻害薬が今後、魚鱗癬のような遺伝的皮膚疾患にも応用できるかもしれないため、注目です。",
-  "drugs_json": "[{\"drug_name\": \"エルロチニブ（Erlotinib）\", \"ingredients\": \"エルロチニブ\", \"description\": \"皮膚や癌の細胞成長を抑えるお薬です。\"}]",
-  "patient_insight": "既存の癌治療薬が皮膚疾患に使える可能性があるため、今後この薬の詳細な効果を見守ることが重要です。現在の治療法を続けながら、新しい情報を待ちましょう。",
-  "created_at": "2026-08-27 03:04:22"
+  "url": "https://clinicaltrials.gov/study/NCT06137157",
+  "published_date": "2026-07-29",
+  "curation_reasoning": "ネザートン症候群の新しい治療法の開発が、魚鱗癬にも応用される可能性があり、患者にとって重要です。",
+  "drugs_json": "[{\"drug_name\": \"ATR12-351\", \"ingredients\": \"未公開\", \"description\": \"新しい外用薬で皮膚の症状を改善する可能性がある\"}]",
+  "patient_insight": "この新しい外用薬が将来的に魚鱗癬の治療に役立つかもしれません。現在はまだ試験段階ですが、今後の成果に期待できそうです。日常のケアは引き続き大切です。",
+  "created_at": "2026-08-28 06:05:06"
 }

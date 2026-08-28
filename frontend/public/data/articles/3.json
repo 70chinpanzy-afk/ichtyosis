@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-08-27",
+  "digest_date": "2026-08-28",
   "source": "clinical_trials",
   "source_id": "NCT07783165",
   "original_title": "Patient Study to Evaluate the Safety and Emollient Performance of Doublebase Once in the Treatment of Ichthyosis",
-  "title_ja": "魚鱗癬における保湿剤「Doublebase Once」の安全性と効果を調べる研究",
-  "summary_ja": "この研究は、魚鱗癬の患者さんを対象に、保湿剤「Doublebase Once」の安全性と効果を28日間調査しました。保湿剤は、患者さんの肌の乾燥や荒れを防ぐために重要です。この研究により、「Doublebase Once」がどの程度効果的かが評価されます。この成果は、日常的なスキンケアの選択肢を増やす可能性があります。",
+  "title_ja": "魚鱗癬の治療におけるダブルベースの安全性と保湿効果を評価する患者調査",
+  "summary_ja": "この研究は、魚鱗癬患者に対する保湿剤「ダブルベース」の安全性と効果を評価するものです。28日間の試験で、特に皮膚の保湿効果について詳しく調べています。魚鱗癬は皮膚が乾燥しやすいため、効果的な保湿剤の利用は生活の質を大きく向上させる可能性があります。今回は直接的な治療というよりは、日常的なケアに役立つ情報を提供することが目的です。試験結果が出れば、魚鱗癬の方に適した新たな保湿方法が見つかるかもしれません。",
   "category": "ケア・対処法",
   "relevance_score": 0.9,
   "url": "https://clinicaltrials.gov/study/NCT07783165",
   "published_date": "2026-08-24",
-  "curation_reasoning": "この研究は魚鱗癬の患者さんに直接役立つ保湿剤の情報を提供します。保湿の向上は、症状の管理において重要なため、患者さんにとって有益です。",
-  "drugs_json": "[{\"drug_name\": \"ダブルベースワンス（Doublebase Once）\", \"ingredients\": \"エモリエント成分\", \"description\": \"肌の乾燥を防ぎ、潤いを保つ保湿クリームです。\"}]",
-  "patient_insight": "この研究結果により、日々のスキンケアとして「Doublebase Once」を考える価値があるかもしれません。ただし、新しい保湿剤を使用する前には、主治医に相談してみることをおすすめします。",
-  "created_at": "2026-08-27 03:04:22"
+  "curation_reasoning": "魚鱗癬の患者にとって、日常的な皮膚ケアはとても重要であり、効果的な保湿剤の選択は生活の質を向上させるために非常に有益です。",
+  "drugs_json": "[{\"drug_name\": \"ダブルベース（Doublebase）\", \"ingredients\": \"保湿成分\", \"description\": \"肌を滑らかに保ち、乾燥を防ぐための保湿剤\"}]",
+  "patient_insight": "この研究で扱われる「ダブルベース」は、特に保湿効果を高めるためのものです。試験結果が良好であれば、日常ケアに取り入れることで、皮膚の乾燥を和らげ、快適に生活することができるかもしれません。現時点では、他の保湿剤と同様に主治医に相談して取り入れてみると良いでしょう。",
+  "created_at": "2026-08-28 06:05:06"
 }
