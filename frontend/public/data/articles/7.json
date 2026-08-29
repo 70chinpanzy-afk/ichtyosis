@@ -1,17 +1,17 @@
 {
   "id": 7,
-  "digest_date": "2026-08-28",
+  "digest_date": "2026-08-29",
   "source": "pubmed",
-  "source_id": "42633230",
-  "original_title": "High-salt microenvironment worsens the progression of atopic dermatitis via activating the SGK-1-mTOR pathway in keratinocytes.",
-  "title_ja": "高塩環境がアトピー性皮膚炎を悪化させるしくみを解明",
-  "summary_ja": "この研究は、皮膚の高塩環境がアトピー性皮膚炎をどのように悪化させるかを調べたものです。高い塩分濃度が皮膚の細胞である「ケラチノサイト」に作用し、炎症を進める信号を活性化することが分かりました。この知見は、日常生活での塩分管理が皮膚の健康に重要であることを示しています。魚鱗癬の患者さんにも、皮膚の環境を管理することで症状の悪化を防げる可能性があります。",
+  "source_id": "42638429",
+  "original_title": "Clinical and inflammatory determinants of successful abrocitinib dose reduction in atopic dermatitis: a real-world cohort study with implications for treatment optimization.",
+  "title_ja": "アブロキシチニブの減量が可能かの研究とその効果",
+  "summary_ja": "この研究はアトピー性皮膚炎に対するアブロキシチニブという薬の効果的な使い方について調査しました。特に薬の効果を保ちつつ減量が可能かどうかを検討しました。多くの患者で、症状が安定している場合は安全に薬の使用量を減らすことができることがわかりました。これにより、副作用のリスクを減らしつつ、適切な薬の使い方を考える材料となります。",
   "category": "関連疾患からの知見",
   "relevance_score": 0.7,
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42633230/",
-  "published_date": "2026 Nov",
-  "curation_reasoning": "皮膚の高塩環境が病気を悪化させる可能性は、魚鱗癬の症状管理にも役立つ重要な知見です。",
-  "drugs_json": "[]",
-  "patient_insight": "皮膚の塩分レベルが高いと症状が悪化する可能性があるため、日々の食事やスキンケアで塩分管理を意識すると良いでしょう。魚鱗癬の方も、塩分管理で症状の緩和が期待できます。",
-  "created_at": "2026-08-28 06:05:06"
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42638429/",
+  "published_date": "2026 Dec",
+  "curation_reasoning": "この研究はアトピー性皮膚炎の治療法に関するもので、魚鱗癬にも応用可能な知見が得られる可能性があるため、関連性が高いです。",
+  "drugs_json": "[{\"drug_name\": \"アブロキシチニブ（Abrocitinib）\", \"ingredients\": \"アブロキシチニブ\", \"description\": \"免疫反応を調整することで炎症を抑える薬\"}]",
+  "patient_insight": "アブロキシチニブの減量が可能なケースもあるとのことです。使用中の方は主治医に相談して、減量について情報交換を行ってみてください。",
+  "created_at": "2026-08-29 03:38:21"
 }

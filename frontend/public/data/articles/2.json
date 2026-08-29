@@ -1,17 +1,17 @@
 {
   "id": 2,
-  "digest_date": "2026-08-28",
-  "source": "google_news:Fierce Pharma",
-  "source_id": "1ade1fef70ea0856",
-  "original_title": "Priovant pushes ex-Pfizer asset across FDA finish line in rare skin and muscle disease - Fierce Pharma",
-  "title_ja": "希少皮膚疾患の新しい治療薬がFDAに承認",
-  "summary_ja": "このニュースは、希少な皮膚と筋肉の疾患を対象にした新しい薬がFDA（アメリカ食品医薬品局）の承認を得たことについてです。この薬はもともとファイザーが開発していたもので、Priovant社が最終的な承認手続きを進めました。具体的な効果として、患者の皮膚や筋肉の症状を改善することが期待されています。魚鱗癬のような希少疾患を持つ患者にとって、新たな治療の可能性が広がることを意味します。この薬の承認は、同様の希少な皮膚疾患に対する治療法の発展をさらに促す可能性があります。",
+  "digest_date": "2026-08-29",
+  "source": "google_news:EMJ",
+  "source_id": "da6833dfe8e5bbd0",
+  "original_title": "FDA approves first-in-class drug for rare skin disease - EMJ",
+  "title_ja": "米国FDAが希少皮膚疾患向けの新しいタイプの薬を承認",
+  "summary_ja": "米国の政府機関FDAが、希少な皮膚疾患に対する新しいタイプの薬を初めて承認しました。この薬は、これまでにない方法で病気を治療することができるように設計されています。魚鱗癬（ぎょりんせん）やそれに似た皮膚疾患を持つ方々にとって、新たな治療の選択肢が増える可能性があります。医師と相談しながら、今後の治療プランに役立てることが期待されますが、具体的な効果や安全性の確認が重要です。",
   "category": "新薬・治療法",
   "relevance_score": 1.0,
-  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOHFEbEpzOWxXQWd2WTlNeDFjbWJQZlR3STBiMWRBVjlGbEhGcDRiWmh1dTJBSExQZWxZeUFfWDRkVWNCWkN4bXFqOVdvTmtWM1czbldrOTBzLTRwRmxObkl2YV8tREh5b0IxcmJrbTJYemtQb0RqSEs2SEFDM0ZmQ0lUeDNfVmp5MlVxZFZjcGFEZVpaVVd5MUYtTVhCeWN2dVZPMWFKODF4NUcxWXljeXBfYUV1bUw1bHhZ?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNXpFOTgxQnN6VEFzdE5OTTZQajlnNmRwc2RhaUxsc191aHZDckpjTk5YR1ZuME5TS1Z4Znh2Q2M4MktuaVd5WEFZeDNTN1Y4UUFlT3plUE9GYm9RN3FRbUhrWVctMGsxQ0pKeHN6MWRXdUlFeksxNklaTmFPUXJxVmdtVnYxSGlpZzZGczl1MjEtbUo1OUNkU1hJWkQ?oc=5",
   "published_date": "2026-08-28",
-  "curation_reasoning": "新しい治療法がFDAの承認を得たことは、魚鱗癬の患者さんにとっても今後の治療に役立つ可能性があります。直接的な治療法ではないものの、希少疾患の治療環境が改善されることは希望につながります。",
-  "drugs_json": "[{\"drug_name\": \"対象不明新薬\", \"ingredients\": \"情報なし\", \"description\": \"希少皮膚疾患や筋肉疾患の症状を改善することが期待される新しい治療薬\"}]",
-  "patient_insight": "新しい治療薬の承認は、魚鱗癬を含む希少な皮膚疾患の治療法発展に期待を持たせてくれます。現時点ではまだ魚鱗癬に直接適用されるものではないですが、新しい選択肢が増えることで将来の希望が広がります。医療機関での新しい情報に注目していてください。",
-  "created_at": "2026-08-28 06:05:06"
+  "curation_reasoning": "新しい治療選択肢が増えることで、魚鱗癬患者にとっての希望になる可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"新規クラスの薬（具体的な名前記載なし）\", \"ingredients\": \"不明（この記事には具体的な成分情報がありません）\", \"description\": \"希少皮膚疾患を新しい方法で治療するために開発された薬\"}]",
+  "patient_insight": "新しい薬が承認されたことで、治療の幅が広がる可能性があります。主治医とよく話し合い、どのように治療に取り入れるか検討してみると良いでしょう。",
+  "created_at": "2026-08-29 03:38:21"
 }
