@@ -1,17 +1,17 @@
 {
   "id": 3,
-  "digest_date": "2026-08-29",
-  "source": "google_news:Fierce Pharma",
-  "source_id": "1ade1fef70ea0856",
-  "original_title": "Priovant pushes ex-Pfizer asset across FDA finish line in rare skin and muscle disease - Fierce Pharma",
-  "title_ja": "プリオバントが希少皮膚・筋疾患向けの新薬をFDA承認段階へ",
-  "summary_ja": "プリオバント社が、既存の製薬会社ファイザー社の資産を活用して、希少な皮膚や筋肉の病気に対する薬を米国FDAでの承認段階に進めました。この薬は、まだ臨床試験中ですが、患者への提供に向けた大きなステップとなります。特に、魚鱗癬や類似した皮膚疾患の患者にとって、今後の治療オプションが増える可能性があります。",
+  "digest_date": "2026-08-30",
+  "source": "google_news:BioPharma Dive",
+  "source_id": "ea7373cfc89acb98",
+  "original_title": "FDA green lights Priovant drug for rare skin disease - BioPharma Dive",
+  "title_ja": "FDAが稀少皮膚疾患に対する新薬「プリオバント」を承認",
+  "summary_ja": "FDA（アメリカ食品医薬品局）が、稀少な皮膚病に対する新しい薬「プリオバント」を承認しました。この薬は、特定の皮膚疾患の炎症を抑える効果があります。今回の承認により、患者さんたちが新しい治療法を利用できる道が開かれました。魚鱗癬患者の方々にも類似の治療選択肢が広がる可能性があります。",
   "category": "新薬・治療法",
-  "relevance_score": 1.0,
-  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOHFEbEpzOWxXQWd2WTlNeDFjbWJQZlR3STBiMWRBVjlGbEhGcDRiWmh1dTJBSExQZWxZeUFfWDRkVWNCWkN4bXFqOVdvTmtWM1czbldrOTBzLTRwRmxObkl2YV8tREh5b0IxcmJrbTJYemtQb0RqSEs2SEFDM0ZmQ0lUeDNfVmp5MlVxZFZjcGFEZVpaVVd5MUYtTVhCeWN2dVZPMWFKODF4NUcxWXljeXBfYUV1bUw1bHhZ?oc=5",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPODFIZE5fUlhpRDZGam5SVGNvR3JZVlY3MkhQbm5VRzZBU012d0VuMUVSNUtrU0VOQ0Rpdk5UNHFpclc1dlZHRWZEeHBNTkhyQTBWeWFzNHhtNlFfd2hIX1ZlUEpFYm1vcElRSko0aWtqRXNHdnVUSDFDY2tMZHdtUzNUQUF2VVNraXpaNUNNOTRUdk5jUXFB?oc=5",
   "published_date": "2026-08-28",
-  "curation_reasoning": "承認された新薬が魚鱗癬の患者さんにも役立つ可能性があるため。",
+  "curation_reasoning": "魚鱗癬の患者も含む稀少皮膚疾患に対する新しい治療法の承認は、有用な情報として価値がある。",
   "drugs_json": "[]",
-  "patient_insight": "新しい治療の可能性が増えたことで、より個別化された治療が期待できます。主治医にこの薬について詳しく聞いてみるのも良いかもしれません。",
-  "created_at": "2026-08-29 03:38:21"
+  "patient_insight": "新しい薬が承認されたことは、今後の治療選択肢に期待を持てるニュースです。現時点では詳細な効果や入手方法について、主治医に相談して確認してください。",
+  "created_at": "2026-08-30 00:04:23"
 }
