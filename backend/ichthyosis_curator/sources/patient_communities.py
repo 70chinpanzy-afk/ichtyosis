@@ -360,81 +360,129 @@ def get_inspire_posts(days_back: int = 14) -> list[RawArticle]:
 # --------------------------------------------------------------------------- #
 # note.com - 魚鱗癬患者・家族による日本語体験談ブログ
 #
-# note.comはユーザー単位で `https://note.com/{urlname}/rss` 形式のRSSフィードを
-# 提供している。urlname: safe_magpie2015（「浄化太郎」氏）は魚鱗癬の子を持つ
-# 父親で「魚鱗癬と歩んだ家族の物語」という体験談シリーズを連載しており、
-# curlでの実地検証で200 OK・実データ取得を確認済み（2026-07時点）。
-# 全記事が魚鱗癬に直接関係するわけではない個人ブログのため、関連性の絞り込みは
-# LLMキュレーション側の関連性スコア閾値（0.3）に委ねる。
+# 以前は特定ユーザーのRSS（safe_magpie2015 氏）だけを追っていたが、それでは
+# 5か月で13件しか集まらず、患者側の情報が薄いままだった。
+# note.com には検索API（/api/v3/searches）があり、「魚鱗癬」で297件がヒットする。
+# 「魚鱗癬 保育園」のような困りごと単位で引くと、研究論文には絶対に出てこない
+# 「娘の足の裏を『キモい』と笑われた日」のような記事が拾える。ここが
+# 学校・保育園まわりの空白（収集0件）を埋める主力になる。
 # --------------------------------------------------------------------------- #
 
-NOTE_RSS_FEEDS = [
-    # 浄化太郎氏「魚鱗癬と歩んだ家族の物語」シリーズ
-    {"urlname": "safe_magpie2015", "label": "浄化太郎"},
-]
+NOTE_SEARCH_API = "https://note.com/api/v3/searches"
+
+# 病名そのもの。ここが本体で、テーマ別クエリは困りごとの穴を埋める補助。
+NOTE_BASE_QUERIES = ("魚鱗癬", "先天性魚鱗癬様紅皮症")
+
+# 1クエリあたりの取得件数。noteは公開順ではなく関連順で返るため多く取りすぎない
+NOTE_PAGE_SIZE = 20
+
+# テーマ別クエリを1回の実行で何件回すか（日替わりで一巡させる）
+NOTE_THEME_QUERIES_PER_RUN = 6
+
+
+# note の検索は語のAND一致ではないため、「魚鱗癬 夏 体温」のようなテーマ別クエリを
+# 投げると「ペイ・フォワード企画」のような無関係の記事が大量に返ってくる。
+# テーマ別クエリの結果は病名を含むものだけに絞る（病名そのもののクエリは絞らない）。
+NOTE_DISEASE_TERMS = ("魚鱗癬", "魚鱗症", "ぎょりんせん", "ichthyosis", "紅皮症", "コロジオン")
+
+
+def _note_url(urlname: str, key: str) -> str:
+    return f"https://note.com/{urlname}/n/{key}"
+
+
+def _mentions_disease(*texts: str) -> bool:
+    joined = " ".join(t or "" for t in texts).lower()
+    return any(term.lower() in joined for term in NOTE_DISEASE_TERMS)
+
+
+def _fetch_note_search(
+    query: str, days_back: int, require_disease: bool = False
+) -> list[RawArticle]:
+    """note.comの検索APIから1クエリ分を取得する
+
+    require_disease: タイトル・概要に病名が出てくるものだけ残す
+        （テーマ別クエリのノイズ対策）
+    """
+    params = {"context": "note", "q": query, "size": NOTE_PAGE_SIZE}
+    try:
+        resp = requests.get(
+            NOTE_SEARCH_API, params=params, headers=HEADERS, timeout=REQUEST_TIMEOUT
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+    except Exception as e:
+        logger.debug(f"note.com 検索に失敗 (q={query}): {e}")
+        return []
+
+    contents = ((payload.get("data") or {}).get("notes") or {}).get("contents") or []
+
+    articles: list[RawArticle] = []
+    for note in contents:
+        user = note.get("user") or {}
+        urlname = user.get("urlname")
+        key = note.get("key")
+        if not urlname or not key:
+            continue
+
+        title = (note.get("name") or "").strip()
+        if not title:
+            continue
+
+        if require_disease and not _mentions_disease(title, note.get("description")):
+            continue
+
+        published = (note.get("publish_at") or "")[:10]
+        if not _is_recent(published, days_back):
+            continue
+
+        url = _note_url(urlname, key)
+        description = (note.get("description") or "").strip()
+
+        # 反応の多さは「多くの人に刺さった内容か」の手がかりになるので残す
+        stats = f"[スキ {note.get('like_count', 0)} / コメント {note.get('comment_count', 0)}]"
+
+        articles.append(RawArticle(
+            source=f"patient_blog:note_{urlname}",
+            source_id=_url_hash(url),
+            title=f"[note] {title}",
+            abstract=f"{stats} {description}".strip() or "[Patient/family blog post from note.com]",
+            url=url,
+            published_date=published or None,
+            language="ja",
+        ))
+
+    return articles
 
 
 def get_note_ichthyosis_articles(days_back: int = 60) -> list[RawArticle]:
-    """note.comの魚鱗癬患者・家族による体験談ブログから記事を取得
+    """note.comの検索APIから魚鱗癬関連の体験談を取得する
+
+    病名クエリに加えて、困りごとテーマ別のクエリを日替わりで回す。
+    テーマ別に引かないと、研究寄りの記事ばかり集まって学校・夏の汗といった
+    生活場面が空白のままになる。
 
     Args:
-        days_back: 何日前までの記事を対象にするか（noteは更新頻度が低いブログも
-            あるため、他ソースよりデフォルトを長め（60日）に設定）
+        days_back: 何日前までの記事を対象にするか（noteは更新頻度が低いので長め）
     """
-    import re
+    from ichthyosis_curator.curation.themes import rotating_themes
+
+    # 病名そのもののクエリは絞らない。テーマ別クエリは病名を含むものだけ残す。
+    queries: list[tuple[str, bool]] = [(q, False) for q in NOTE_BASE_QUERIES]
+    for theme in rotating_themes(NOTE_THEME_QUERIES_PER_RUN):
+        queries.extend((q, True) for q in theme.queries_ja)
 
     articles: list[RawArticle] = []
     seen: set[str] = set()
 
-    for feed_info in NOTE_RSS_FEEDS:
-        urlname = feed_info["urlname"]
-        feed_url = f"https://note.com/{urlname}/rss"
-
-        try:
-            feed = feedparser.parse(feed_url)
-            if feed.bozo and not feed.entries:
-                logger.debug(f"note.com RSS parse failed ({feed_url})")
+    for query, require_disease in queries:
+        for article in _fetch_note_search(query, days_back, require_disease):
+            if article.url in seen:
                 continue
+            seen.add(article.url)
+            articles.append(article)
+        time.sleep(0.5)  # 検索APIに連続で叩き込まない
 
-            for entry in feed.entries:
-                url = getattr(entry, "link", "")
-                if not url or url in seen:
-                    continue
-
-                title = getattr(entry, "title", "").strip()
-                if not title:
-                    continue
-
-                pub_date = _parse_feedparser_date(entry)
-                if not _is_recent(pub_date, days_back):
-                    continue
-
-                summary = ""
-                if hasattr(entry, "summary"):
-                    summary = re.sub(r"<[^>]+>", " ", entry.summary).strip()
-                    summary = re.sub(r"\s+", " ", summary)[:800]
-                elif hasattr(entry, "description"):
-                    summary = re.sub(r"<[^>]+>", " ", entry.description).strip()
-                    summary = re.sub(r"\s+", " ", summary)[:800]
-
-                seen.add(url)
-                articles.append(RawArticle(
-                    source=f"patient_blog:note_{urlname}",
-                    source_id=_url_hash(url),
-                    title=f"[note] {title}",
-                    abstract=summary or "[Patient/family blog post from note.com]",
-                    url=url,
-                    published_date=pub_date,
-                    language="ja",
-                ))
-
-            logger.info(f"note.com RSS ({feed_url}): {len(articles)} entries")
-
-        except Exception as e:
-            logger.debug(f"note.com RSS fetch failed ({feed_url}): {e}")
-            continue
-
-    logger.info(f"note.com: {len(articles)} articles found")
+    logger.info(f"note.com: {len(articles)} articles found ({len(queries)} queries)")
     return articles
 
 

@@ -12,6 +12,7 @@ User-Agent文字列の変更（ブラウザ相当のUAへの偽装含む）で�
 
 import hashlib
 import logging
+import os
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -38,9 +39,102 @@ REDDIT_SOURCES = [
     {"subreddit": "eczema", "query": "skin barrier ceramide moisturizer", "type": "search"},
 ]
 
+# 1回の実行で回す困りごとテーマの数（日替わりで一巡させる）
+THEME_QUERIES_PER_RUN = 4
+
+
+def _theme_sources() -> list[dict]:
+    """困りごとテーマ由来の検索条件。
+
+    既存クエリは treatment / moisturizer / gene therapy と研究寄りに偏っており、
+    学校・夏の汗・耳といった生活場面がまったく集まっていなかった。
+    r/ichthyosis には当事者の生の相談が集まっているので、テーマ名で引く。
+    """
+    from ichthyosis_curator.curation.themes import rotating_themes
+
+    sources: list[dict] = []
+    for theme in rotating_themes(THEME_QUERIES_PER_RUN):
+        for query in theme.queries_en:
+            sources.append({"subreddit": "ichthyosis", "query": query, "type": "search"})
+    return sources
+
 HEADERS = {
     "User-Agent": "IchthyoCure/1.0 (medical curation bot; contact: curator@example.com)",
 }
+
+# Reddit は未認証の *.json アクセスを事実上遮断しており、JSONではなく
+# HTMLのログイン誘導ページが返る。そのためこのソースは 2026-03-19 を最後に
+# 5か月間まったく取得できていなかった（runner が例外を握りつぶすため、
+# 失敗が表に出ていなかった）。アプリ登録して client credentials を渡せば
+# oauth.reddit.com 経由で取得できる。
+REDDIT_TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
+REDDIT_OAUTH_BASE = "https://oauth.reddit.com"
+REDDIT_PUBLIC_BASE = "https://www.reddit.com"
+
+_token_cache: dict[str, str] = {}
+
+
+def _get_access_token() -> str | None:
+    """client credentials でアクセストークンを取る（未設定なら None）"""
+    if "token" in _token_cache:
+        return _token_cache["token"]
+
+    client_id = os.getenv("REDDIT_CLIENT_ID", "")
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET", "")
+    if not client_id or not client_secret:
+        return None
+
+    try:
+        resp = requests.post(
+            REDDIT_TOKEN_URL,
+            auth=(client_id, client_secret),
+            data={"grant_type": "client_credentials"},
+            headers=HEADERS,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        token = resp.json().get("access_token")
+    except Exception as e:
+        logger.warning(f"Reddit の認証に失敗しました: {e}")
+        return None
+
+    if not token:
+        logger.warning("Reddit の認証レスポンスに access_token がありません")
+        return None
+
+    _token_cache["token"] = token
+    return token
+
+
+def _reddit_get(path: str, params: dict | None = None) -> list[dict]:
+    """Reddit APIを叩いて children を返す。認証があれば oauth 経由。
+
+    未認証だとHTMLが返るので、JSONとして読めなかった場合は「認証が要る」ことが
+    分かるログを出す（黙って0件にしない）。
+    """
+    token = _get_access_token()
+    if token:
+        url = f"{REDDIT_OAUTH_BASE}{path}"
+        headers = {**HEADERS, "Authorization": f"Bearer {token}"}
+    else:
+        url = f"{REDDIT_PUBLIC_BASE}{path}.json"
+        headers = HEADERS
+
+    try:
+        resp = requests.get(url, headers=headers, params=params, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+    except ValueError:
+        logger.warning(
+            f"Reddit がJSONを返しませんでした ({path})。"
+            "REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET を設定してください"
+        )
+        return []
+    except Exception as e:
+        logger.warning(f"Reddit fetch failed ({path}): {e}")
+        return []
+
+    return data.get("data", {}).get("children", [])
 
 
 def _post_hash(permalink: str) -> str:
@@ -49,34 +143,19 @@ def _post_hash(permalink: str) -> str:
 
 def _fetch_subreddit_new(subreddit: str, days_back: int, limit: int = 25) -> list[dict]:
     """サブレディットの新着投稿を取得"""
-    url = f"https://www.reddit.com/r/{subreddit}/new.json?limit={limit}"
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        return data.get("data", {}).get("children", [])
-    except Exception as e:
-        logger.warning(f"Reddit r/{subreddit} fetch failed: {e}")
-        return []
+    return _reddit_get(f"/r/{subreddit}/new", {"limit": limit})
 
 
 def _fetch_search(subreddit: str | None, query: str, days_back: int, limit: int = 25) -> list[dict]:
     """Reddit検索API（サブレディット指定 or 全体検索）"""
     if subreddit:
-        url = f"https://www.reddit.com/r/{subreddit}/search.json"
+        path = f"/r/{subreddit}/search"
         params = {"q": query, "restrict_sr": "on", "sort": "new", "t": "month", "limit": limit}
     else:
-        url = "https://www.reddit.com/search.json"
+        path = "/search"
         params = {"q": query, "sort": "new", "t": "month", "limit": limit}
 
-    try:
-        resp = requests.get(url, headers=HEADERS, params=params, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        return data.get("data", {}).get("children", [])
-    except Exception as e:
-        logger.warning(f"Reddit search failed (r/{subreddit} q={query}): {e}")
-        return []
+    return _reddit_get(path, params)
 
 
 def _is_recent(created_utc: float, days_back: int) -> bool:
@@ -141,7 +220,7 @@ def get_reddit_posts(days_back: int = 14) -> list[RawArticle]:
     articles: list[RawArticle] = []
     seen_ids: set[str] = set()
 
-    for source in REDDIT_SOURCES:
+    for source in REDDIT_SOURCES + _theme_sources():
         src_type = source["type"]
 
         if src_type == "subreddit":
