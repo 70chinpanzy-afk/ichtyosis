@@ -1,17 +1,17 @@
 {
   "id": 6,
-  "digest_date": "2026-08-30",
+  "digest_date": "2026-08-31",
   "source": "google_news:MedCity News",
   "source_id": "2664b416ab06c6bd",
   "original_title": "FDA Nod for Inflammation Drug Notches Wins for Rare Disease Patients, Roivant’s Biz Strategy - MedCity News",
-  "title_ja": "FDAが炎症薬を承認、希少疾患患者さんに朗報",
-  "summary_ja": "このニュースは、FDAが新しい炎症用の薬を承認したことを伝えています。この薬は、皮膚の炎症を抑える効果が期待され、多くの希少疾患の患者さんに役立つ可能性があります。また、薬を開発した企業の戦略にも注目が集まっています。この薬が魚鱗癬のような皮膚疾患にも応用可能であれば、患者さんに新たな希望をもたらすかもしれません。現在、この薬は他の疾患での有効性が検証されていますが、魚鱗癬の治療にも期待が持てる情報です。",
+  "title_ja": "FDAが希少疾患向けの新しい炎症薬を承認",
+  "summary_ja": "FDAが新しい炎症を抑える薬を承認し、希少疾患の患者に新たな治療の希望を提供しました。この薬は、体の中で炎症を引き起こす信号を抑えることで、症状を効果的に緩和する仕組みです。魚鱗癬など、炎症が関係する疾患に対しても応用が考えられます。新たな治療法の登場は、魚鱗癬患者にも選択肢を広げる可能性があります。",
   "category": "新薬・治療法",
   "relevance_score": 0.8,
   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNMVMyX0JMVDcwYWhxM2VHbi1JVFpSZDRSb05keGZmRThKSUF5WThYVkJLRjdOYzRCaVJzYlRpWF9oVk93TnkxWkhfRUx3VU8wNmx0Qlo4WkkyWkxTSER6YnNCZUlCLUFpOVhPbVRfQmw2Vi05bjlSX3ExX0FQMlZ2cGFfSUxyQzVldWk3X01CZmZUcmJrWDNoSWxzTmhwTWxjTWhsdGtIRkZfdV9jXzZXYW5RS0dnLW0tTW5SSjdaMHJ6SWpQakJUbUk2R3hhQjJBeDVjTmo4QmdQbk56c3hPY01DdkpFYk5NVUxvRmYwQVZrdnNoLTFOVW9SMXY3ekU?oc=5",
   "published_date": "2026-08-28",
-  "curation_reasoning": "新しい炎症抑制薬の承認情報は、魚鱗癬などの皮膚疾患の治療に応用可能性があり、患者さんに希望を与える可能性があるからです。",
-  "drugs_json": "[{\"drug_name\": \"新しい炎症薬（名称不明）\", \"ingredients\": \"情報なし\", \"description\": \"皮膚の炎症を抑える効果が期待される薬\"}]",
-  "patient_insight": "この薬が将来、魚鱗癬の治療に使えるかもしれません。まだ魚鱗癬での効果は確認されていませんが、主治医にこの情報を伝えて、一緒に今後の治療について相談してみると良いでしょう。",
-  "created_at": "2026-08-30 00:04:23"
+  "curation_reasoning": "炎症を抑える新しい薬の承認は、炎症が関連する皮膚疾患の治療に新たな可能性をもたらすため、魚鱗癬患者にも関連性が高い。",
+  "drugs_json": "[]",
+  "patient_insight": "新たに承認された薬は、今後の治療の選択肢を増やし、より良い症状管理につながるかもしれません。今の治療法に加えて、医師と相談しながらこの新しい選択肢も検討していくと良いでしょう。",
+  "created_at": "2026-08-31 00:22:48"
 }
