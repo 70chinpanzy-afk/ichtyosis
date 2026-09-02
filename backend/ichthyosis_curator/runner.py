@@ -155,7 +155,7 @@ def run_daily_curation(
     # --- 既出記事をキュレーション前に除外 ---
     # CIではSQLiteが毎回空から作られるため、コミット済みの digests/*.json を
     # 履歴として使う。LLMに投げる前に落とすのでAPIコストも下がる。
-    seen_hashes = load_seen_hashes(config.data_dir, days=60)
+    seen_hashes = load_seen_hashes(config.data_dir)
     before_dedup = len(all_raw)
     all_raw = filter_unseen_raw(all_raw, seen_hashes)
     logger.info(

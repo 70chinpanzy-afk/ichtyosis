@@ -68,25 +68,87 @@ def _parse_feedparser_date(entry: Any) -> str:
 
 # --------------------------------------------------------------------------- #
 # FIRST (Foundation for Ichthyosis & Related Skin Types)
-# https://www.ichthyosis.org
+# https://www.firstskinfoundation.org
+#
+# 旧ドメイン www.ichthyosis.org は既に消滅しており（DNS解決自体が失敗）、
+# 2026-07 時点の調査ではこれを「WAFによるTLS遮断」と誤って結論づけていた。
+# 実際には団体がリブランドして firstskinfoundation.org へ移転していただけで、
+# 新ドメインには生きたRSS（/news/feed）がある。この取り違えのため、FIRSTは
+# 全期間を通じて1件も取得できていなかった。
 # --------------------------------------------------------------------------- #
 
-# 既知の制約:
-# www.ichthyosis.org へのHTTPS接続はTLSハンドシェイクの段階で失敗する
-# （SSL alert handshake failure / sslv3 alert handshake failure）。
-# curl、openssl s_client、Python requests のいずれで直接検証しても同じ失敗が
-# 再現し、User-Agentや暗号スイート・TLSバージョンの指定を変えても解消しない
-# ことを確認済み（2026-07時点）。サーバー側のWAF等によるボット遮断の可能性が高く、
-# クライアント側の設定変更では対処できないため、現状維持とする。
-# なお ISG UK (ichthyosis.org.uk) は接続自体は成功するが、/feed/ が301リダイレクト
-# の後404を返す状態（RSS自体が現状存在しない）。こちらはTLSレベルの問題ではない。
+FIRST_BASE = "https://www.firstskinfoundation.org"
+
 FIRST_RSS_FEEDS = [
-    "https://www.ichthyosis.org/feed/",          # WordPress標準RSS
-    "https://www.ichthyosis.org/news/feed/",      # ニュースカテゴリ
-    "https://www.ichthyosis.org/blog/feed/",      # ブログ
+    f"{FIRST_BASE}/news/feed",
 ]
 
-FIRST_NEWS_PAGE = "https://www.ichthyosis.org/news/"
+FIRST_NEWS_PAGE = f"{FIRST_BASE}/news"
+
+# 実用ガイド。ニュースと違って更新されない静的ページだが、収集が空白だった
+# 生活場面（夏の汗・学校・見た目・入浴）をそのまま埋める内容が載っている。
+# 重複排除が効くので、初回に一度だけ取り込まれて以後は蓄積資産になる。
+FIRST_GUIDE_PAGES = [
+    ("overheating", "夏の暑さ・体温調節"),
+    ("school-resources", "学校での配慮と先生への説明"),
+    ("mental-health", "見た目・気持ちの支え"),
+    ("bathing", "入浴と角質ケア"),
+]
+
+# ガイド本文の最大取得文字数（LLMに渡すのでトークン節約のため切る）
+GUIDE_MAX_CHARS = 4000
+
+
+def fetch_first_guides() -> list[RawArticle]:
+    """FIRSTの実用ガイドページを取り込む
+
+    著作権に配慮し、全文を再配布する目的では使わない。要約と原典リンクを
+    出すための素材として扱う（キュレーション側で日本語の要点にまとめ、
+    記事ページから原文へリンクする）。
+    """
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        logger.warning("beautifulsoup4 未インストール。pip install beautifulsoup4")
+        return []
+
+    articles: list[RawArticle] = []
+
+    for slug, label in FIRST_GUIDE_PAGES:
+        url = f"{FIRST_BASE}/{slug}"
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+        except Exception as e:
+            logger.warning(f"FIRSTガイドの取得に失敗 ({slug}): {e}")
+            continue
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for tag in soup(["script", "style", "nav", "header", "footer", "form"]):
+            tag.decompose()
+
+        main = soup.find("main") or soup.find("article") or soup.body
+        if main is None:
+            continue
+
+        text = " ".join(main.get_text(" ", strip=True).split())
+        if len(text) < 200:
+            logger.warning(f"FIRSTガイドの本文が短すぎるためスキップ ({slug})")
+            continue
+
+        articles.append(RawArticle(
+            source="patient_org:FIRST_guide",
+            source_id=_url_hash(url),
+            title=f"[FIRST] {label} (Living with Ichthyosis guide)",
+            abstract=text[:GUIDE_MAX_CHARS],
+            url=url,
+            published_date=None,
+            language="en",
+        ))
+        time.sleep(1.0)
+
+    logger.info(f"FIRST guides: {len(articles)} pages")
+    return articles
 
 
 def _fetch_first_rss(days_back: int) -> list[RawArticle]:
@@ -230,131 +292,17 @@ def _scrape_first_news_page(days_back: int) -> list[RawArticle]:
 
 
 # --------------------------------------------------------------------------- #
-# ISG (Ichthyosis Support Group UK)
-# https://www.ichthyosis.org.uk
+# ISG (英) と Inspire は取得元として撤去した
+#
+# ISG (ichthyosis.org.uk): サイトは生きているが RSS が存在せず（/feed, /news/feed,
+#   /blog/feed などいずれも404）、ニュース欄自体が無い。発信は Facebook に
+#   移っており、スクレイプ可能な更新情報が無い。
+# Inspire (inspire.com): 魚鱗癬グループのURLが404。別スラッグも見つからず、
+#   グループ自体が無くなったと判断した。
+#
+# どちらも実装は存在したが、全期間を通じて1件も取得できていなかった。
+# 動かないコードを残すと「取得できているつもり」になるため削除する。
 # --------------------------------------------------------------------------- #
-
-ISG_RSS_FEEDS = [
-    "https://www.ichthyosis.org.uk/feed/",
-    "https://www.ichthyosis.org.uk/news/feed/",
-    "https://ichthyosis.org.uk/feed/",
-]
-
-
-def get_isg_articles(days_back: int = 30) -> list[RawArticle]:
-    """ISG (ichthyosis.org.uk) から患者コミュニティ情報を取得"""
-    articles: list[RawArticle] = []
-    seen: set[str] = set()
-
-    for feed_url in ISG_RSS_FEEDS:
-        try:
-            feed = feedparser.parse(feed_url)
-            if feed.bozo and not feed.entries:
-                continue
-
-            for entry in feed.entries:
-                url = getattr(entry, "link", "")
-                if not url or url in seen:
-                    continue
-
-                title = getattr(entry, "title", "").strip()
-                if not title:
-                    continue
-
-                pub_date = _parse_feedparser_date(entry)
-                if not _is_recent(pub_date, days_back):
-                    continue
-
-                summary = ""
-                if hasattr(entry, "summary"):
-                    import re
-                    summary = re.sub(r"<[^>]+>", " ", entry.summary).strip()
-                    summary = re.sub(r"\s+", " ", summary)[:600]
-
-                seen.add(url)
-                articles.append(RawArticle(
-                    source="patient_org:ISG_UK",
-                    source_id=_url_hash(url),
-                    title=f"[ISG UK] {title}",
-                    abstract=summary or "[Patient support content from ichthyosis.org.uk]",
-                    url=url,
-                    published_date=pub_date,
-                    language="en",
-                ))
-
-            if articles:
-                logger.info(f"ISG UK RSS ({feed_url}): {len(articles)} entries")
-                break
-
-        except Exception as e:
-            logger.debug(f"ISG RSS fetch failed ({feed_url}): {e}")
-            continue
-
-    logger.info(f"ISG UK: {len(articles)} articles found")
-    return articles
-
-
-# --------------------------------------------------------------------------- #
-# Inspire.com - 希少疾患患者コミュニティ
-# ichthyosisサポートグループの投稿を取得
-# --------------------------------------------------------------------------- #
-
-INSPIRE_ICHTHYOSIS_URL = "https://www.inspire.com/groups/ichthyosis-support-network/discussion/"
-
-
-def get_inspire_posts(days_back: int = 14) -> list[RawArticle]:
-    """Inspire.comから魚鱗癬コミュニティの投稿を取得"""
-    # Inspire.comはログイン不要でRSSを提供していないため、
-    # 公開討論ページをスクレイプ。取得できない場合は0件で継続。
-    try:
-        from bs4 import BeautifulSoup
-    except ImportError:
-        logger.debug("beautifulsoup4未インストール。Inspire.comスキップ")
-        return []
-
-    try:
-        resp = requests.get(INSPIRE_ICHTHYOSIS_URL, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        if resp.status_code != 200:
-            logger.debug(f"Inspire.com: HTTP {resp.status_code}")
-            return []
-    except Exception as e:
-        logger.debug(f"Inspire.com fetch failed: {e}")
-        return []
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    articles: list[RawArticle] = []
-
-    # 投稿リストを探索
-    for post_el in soup.find_all(["div", "article"], class_=lambda c: c and "discussion" in str(c).lower()):
-        title_el = post_el.find(["h2", "h3", "a"])
-        if not title_el:
-            continue
-
-        title = title_el.get_text(strip=True)
-        link_el = post_el.find("a", href=True)
-        if not link_el:
-            continue
-
-        href = link_el.get("href", "")
-        url = f"https://www.inspire.com{href}" if href.startswith("/") else href
-        if not url:
-            continue
-
-        excerpt_el = post_el.find(["p", "div"], class_=lambda c: c and "excerpt" in str(c).lower())
-        summary = excerpt_el.get_text(strip=True)[:500] if excerpt_el else ""
-
-        articles.append(RawArticle(
-            source="patient_community:Inspire",
-            source_id=_url_hash(url),
-            title=f"[Inspire] {title}",
-            abstract=summary or "[Patient community post from Inspire.com]",
-            url=url,
-            published_date="",
-            language="en",
-        ))
-
-    logger.info(f"Inspire.com: {len(articles)} posts found")
-    return articles
 
 
 # --------------------------------------------------------------------------- #
@@ -495,9 +443,7 @@ def get_patient_community_posts(days_back: int = 14) -> list[RawArticle]:
     全患者コミュニティソースから情報を収集して返す。
 
     Sources:
-        - FIRST (ichthyosis.org) - 米国患者団体
-        - ISG UK (ichthyosis.org.uk) - 英国患者サポートグループ
-        - Inspire.com - 希少疾患患者コミュニティ
+        - FIRST (firstskinfoundation.org) - 米国患者団体のニュースと実用ガイド
         - note.com - 魚鱗癬患者・家族による日本語体験談ブログ
 
     Args:
@@ -508,8 +454,7 @@ def get_patient_community_posts(days_back: int = 14) -> list[RawArticle]:
 
     sources = [
         ("FIRST", lambda: get_first_articles(days_back=max(days_back, 30))),
-        ("ISG UK", lambda: get_isg_articles(days_back=max(days_back, 30))),
-        ("Inspire", lambda: get_inspire_posts(days_back=days_back)),
+        ("FIRST guides", fetch_first_guides),
         ("note.com", lambda: get_note_ichthyosis_articles(days_back=max(days_back, 60))),
     ]
 

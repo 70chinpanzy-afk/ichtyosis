@@ -67,8 +67,12 @@ def _load_digest_files(data_dir: str, since: date) -> list[tuple[date, list[dict
     return loaded
 
 
-def load_seen_hashes(data_dir: str, days: int = 60, today: date | None = None) -> set[str]:
+def load_seen_hashes(data_dir: str, days: int = 365, today: date | None = None) -> set[str]:
     """直近 days 日ぶんの配信済み記事ハッシュを返す。
+
+    既定を1年にしているのは、FIRSTの実用ガイドのような更新されない静的ページが
+    期間から外れて再配信されるのを防ぐため。読むファイル数は日数ぶんなので
+    1年でも負荷は小さい。
 
     source_id は PMID / NCT ID / URLハッシュ / YouTube動画ID のいずれかで、
     日をまたいで安定していることを実データで確認済み。
