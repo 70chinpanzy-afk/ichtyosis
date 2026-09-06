@@ -18,6 +18,42 @@ SEARCH_TERMS = [
     "ichthyosis erythroderma",
 ]
 
+# 参加できる状態の試験。日本の患者が実際に動けるのはこれらだけ。
+RECRUITING_STATUSES = {"RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"}
+
+MAX_COUNTRIES_SHOWN = 8
+
+
+def _trial_context(protocol: dict) -> str:
+    """「自分に当てはまるか」を判断するのに要る条件を1行にまとめる。
+
+    要約だけ渡すと、募集中かどうか・日本で参加できるか・対象年齢に
+    入るかがLLMに分からず、「今後に期待しましょう」で終わってしまう。
+    """
+    status = protocol.get("statusModule", {}).get("overallStatus", "") or "UNKNOWN"
+
+    locations = protocol.get("contactsLocationsModule", {}).get("locations") or []
+    countries = sorted({loc.get("country") for loc in locations if loc.get("country")})
+    if countries:
+        shown = ", ".join(countries[:MAX_COUNTRIES_SHOWN])
+        if len(countries) > MAX_COUNTRIES_SHOWN:
+            shown += f" and {len(countries) - MAX_COUNTRIES_SHOWN} more"
+        japan = "yes" if "Japan" in countries else "no"
+    else:
+        shown, japan = "unknown", "unknown"
+
+    eligibility = protocol.get("eligibilityModule", {})
+    min_age = eligibility.get("minimumAge") or "not specified"
+    max_age = eligibility.get("maximumAge") or "not specified"
+    std_ages = ", ".join(eligibility.get("stdAges") or []) or "not specified"
+
+    return (
+        f"[Trial status: {status} | Recruiting now: "
+        f"{'yes' if status in RECRUITING_STATUSES else 'no'} | "
+        f"Countries: {shown} | Available in Japan: {japan} | "
+        f"Age: {min_age} to {max_age} ({std_ages})]"
+    )
+
 
 def search_clinical_trials(days_back: int = 30) -> list[RawArticle]:
     """ClinicalTrials.govで最近更新された臨床試験を検索"""
@@ -52,6 +88,7 @@ def search_clinical_trials(days_back: int = 30) -> list[RawArticle]:
                 title = id_module.get("officialTitle") or id_module.get("briefTitle", "")
                 desc_module = protocol.get("descriptionModule", {})
                 abstract = desc_module.get("briefSummary", "")
+                abstract = f"{_trial_context(protocol)}\n{abstract}".strip()
 
                 status_module = protocol.get("statusModule", {})
                 last_update = status_module.get("lastUpdatePostDateStruct", {}).get("date", "")

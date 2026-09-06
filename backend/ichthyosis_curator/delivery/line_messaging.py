@@ -1,15 +1,27 @@
 """LINE Messaging API通知（Flex Message対応）"""
 
+import json as _json
 import logging
 import os
 
 import requests
 
-from ichthyosis_curator.schemas import CuratedArticle, DailyDigest
+from ichthyosis_curator.curation.visit_brief import BriefEntry
+from ichthyosis_curator.schemas import DeliveryItem
 
 logger = logging.getLogger(__name__)
 
 LINE_PUSH_URL = "https://api.line.me/v2/bot/message/push"
+
+# LINEの制限: カルーセルは最大12バブル、Flexメッセージ1件のJSONは50KBまで。
+# 「患者さんへのポイント」を載せるとバブルが膨らむので余裕を持って抑える。
+MAX_BUBBLES = 12
+MAX_FLEX_BYTES = 45000
+MAX_INSIGHT_CHARS = 200
+MAX_QUESTION_CHARS = 90
+
+MODE_WEEKLY = "weekly"
+MODE_URGENT = "urgent"
 
 CATEGORY_COLORS = {
     "新薬・治療法": "#E74C3C",
@@ -18,6 +30,7 @@ CATEGORY_COLORS = {
     "体験談・対処法": "#F1C40F",
     "関連疾患からの知見": "#9B59B6",
     "ニュース": "#F39C12",
+    "制度・支援": "#16A085",
 }
 
 CATEGORY_EMOJI = {
@@ -27,6 +40,7 @@ CATEGORY_EMOJI = {
     "体験談・対処法": "\U0001f4ac",
     "関連疾患からの知見": "\U0001f517",
     "ニュース": "\U0001f4f0",
+    "制度・支援": "\U0001f3e5",
 }
 
 SOURCE_LABELS = {
@@ -34,7 +48,24 @@ SOURCE_LABELS = {
     "clinical_trials": "臨床試験",
     "google_news": "ニュース",
     "reddit": "Reddit",
+    "youtube": "YouTube",
+    "patient_blog": "患者ブログ",
+    "first": "FIRST",
+    "isg": "ISG",
+    "inspire": "Inspire",
+    "難病情報センター": "難病情報センター",
+    "小児慢性特定疾病": "小慢センター",
 }
+
+CATEGORY_ORDER = [
+    "新薬・治療法",
+    "制度・支援",
+    "研究論文",
+    "ケア・対処法",
+    "体験談・対処法",
+    "関連疾患からの知見",
+    "ニュース",
+]
 
 
 def _get_source_label(source: str) -> str:
@@ -44,23 +75,97 @@ def _get_source_label(source: str) -> str:
     return "その他"
 
 
+def _truncate(text: str, limit: int) -> str:
+    text = text or ""
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1] + "…"
+
+
+def _article_link(item: DeliveryItem, frontend_url: str) -> str:
+    if frontend_url and item.slug:
+        return f"{frontend_url.rstrip('/')}/article/{item.slug}"
+    return item.url or ""
+
+
 def _build_article_bubble(
-    article: CuratedArticle,
-    frontend_url: str,
-    db_id: int | None,
+    item: DeliveryItem, frontend_url: str, insight_override: str = ""
 ) -> dict:
-    """1記事分のFlex Bubble"""
-    category = article.category or "ニュース"
+    """1記事分のFlex Bubble
+
+    insight_override があればそれを「次にできること」として表示する
+    （患者プロフィールに合わせて生成した文）。無ければキュレーション時の
+    汎用 patient_insight を「患者さんへのポイント」として表示する。
+    """
+    category = item.category or "ニュース"
     cat_color = CATEGORY_COLORS.get(category, "#95A5A6")
-    source_label = _get_source_label(article.source)
+    source_label = _get_source_label(item.source)
+    link_url = _article_link(item, frontend_url)
 
-    # リンクURL
-    if frontend_url and db_id:
-        link_url = f"{frontend_url}/article/{db_id}"
-    else:
-        link_url = article.url or ""
+    body_contents: list[dict] = [
+        {
+            "type": "text",
+            "text": item.title_ja or item.original_title or "無題",
+            "weight": "bold",
+            "size": "xxl",
+            "wrap": True,
+            "maxLines": 3,
+            "color": "#333333",
+        },
+    ]
 
-    summary = article.summary_ja or "（要約なし）"
+    # 締切は見落とすと取り返しがつかないので、要約より前に出す
+    if item.deadline:
+        body_contents.append({
+            "type": "text",
+            "text": f"\u23f0 締切・日程: {item.deadline}",
+            "size": "lg",
+            "weight": "bold",
+            "color": "#E74C3C",
+            "wrap": True,
+            "margin": "md",
+        })
+
+    body_contents.append(
+        {
+            "type": "text",
+            "text": item.summary_ja or "（要約なし）",
+            "size": "xl",
+            "color": "#555555",
+            "wrap": True,
+            "margin": "lg",
+        }
+    )
+
+    # 生成済みなのに従来LINEに出ていなかった部分
+    insight_text = insight_override or item.patient_insight
+    insight_label = "次にできること" if insight_override else "患者さんへのポイント"
+    if insight_text:
+        body_contents.append({
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#F4F6F8",
+            "cornerRadius": "md",
+            "paddingAll": "12px",
+            "margin": "lg",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": insight_label,
+                    "size": "md",
+                    "weight": "bold",
+                    "color": cat_color,
+                },
+                {
+                    "type": "text",
+                    "text": _truncate(insight_text, MAX_INSIGHT_CHARS),
+                    "size": "lg",
+                    "color": "#555555",
+                    "wrap": True,
+                    "margin": "sm",
+                },
+            ],
+        })
 
     bubble: dict = {
         "type": "bubble",
@@ -104,31 +209,12 @@ def _build_article_bubble(
         "body": {
             "type": "box",
             "layout": "vertical",
-            "contents": [
-                {
-                    "type": "text",
-                    "text": article.title_ja or article.original_title or "無題",
-                    "weight": "bold",
-                    "size": "xxl",
-                    "wrap": True,
-                    "maxLines": 3,
-                    "color": "#333333",
-                },
-                {
-                    "type": "text",
-                    "text": summary,
-                    "size": "xl",
-                    "color": "#555555",
-                    "wrap": True,
-                    "margin": "lg",
-                },
-            ],
+            "contents": body_contents,
             "spacing": "none",
             "paddingTop": "4px",
         },
     }
 
-    # リンクがある場合はフッターにボタン追加
     if link_url:
         bubble["footer"] = {
             "type": "box",
@@ -152,8 +238,21 @@ def _build_article_bubble(
     return bubble
 
 
-def _build_header_bubble(digest: DailyDigest) -> dict:
-    """ヘッダー用Bubble（挨拶 + 日付）"""
+def _build_header_bubble(
+    date_label: str,
+    greeting: str,
+    items: list[DeliveryItem],
+    mode: str = MODE_WEEKLY,
+    urgent_count: int = 0,
+) -> dict:
+    """ヘッダー用Bubble（週次まとめ / 速報で出し分け）"""
+    if mode == MODE_URGENT:
+        title = "速報"
+        lead = "期限や募集があるお知らせです"
+    else:
+        title = "今週のまとめ"
+        lead = ""
+
     contents = [
         {
             "type": "text",
@@ -163,7 +262,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         },
         {
             "type": "text",
-            "text": "デイリーニュース",
+            "text": title,
             "weight": "bold",
             "size": "xxl",
             "color": "#333333",
@@ -171,7 +270,7 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         },
         {
             "type": "text",
-            "text": digest.date,
+            "text": date_label,
             "size": "md",
             "color": "#999999",
             "margin": "md",
@@ -182,38 +281,63 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
         },
     ]
 
-    if digest.greeting:
+    if lead:
         contents.append({
             "type": "text",
-            "text": digest.greeting,
+            "text": lead,
             "size": "lg",
             "color": "#555555",
             "wrap": True,
             "margin": "lg",
         })
 
+    if greeting:
+        contents.append({
+            "type": "text",
+            "text": greeting,
+            "size": "lg",
+            "color": "#555555",
+            "wrap": True,
+            "margin": "lg",
+        })
+
+    label = "お知らせ" if mode == MODE_URGENT else "注目の記事"
     contents.append({
         "type": "text",
-        "text": f"本日の注目記事: {len(digest.articles)}件",
+        "text": f"{label}: {len(items)}件",
         "size": "xl",
         "color": "#333333",
         "weight": "bold",
         "margin": "lg",
     })
 
-    # カテゴリ別件数
-    by_cat: dict[str, int] = {}
-    for a in digest.articles:
-        by_cat[a.category] = by_cat.get(a.category, 0) + 1
+    # 速報は数件しか出さないのでカテゴリ内訳は冗長になる
+    if mode != MODE_URGENT:
+        by_cat: dict[str, int] = {}
+        for item in items:
+            by_cat[item.category] = by_cat.get(item.category, 0) + 1
 
-    for cat, count in by_cat.items():
-        emoji = CATEGORY_EMOJI.get(cat, "")
+        ordered = [c for c in CATEGORY_ORDER if c in by_cat]
+        ordered += [c for c in by_cat if c not in CATEGORY_ORDER]
+        for cat in ordered:
+            emoji = CATEGORY_EMOJI.get(cat, "\U0001f4cc")
+            contents.append({
+                "type": "text",
+                "text": f"{emoji} {cat}: {by_cat[cat]}件",
+                "size": "lg",
+                "color": "#888888",
+                "margin": "sm",
+            })
+
+    # 即時送信済みは本文から外しているので、件数だけ知らせる
+    if mode == MODE_WEEKLY and urgent_count > 0:
         contents.append({
             "type": "text",
-            "text": f"{emoji} {cat}: {count}件",
-            "size": "lg",
-            "color": "#888888",
-            "margin": "sm",
+            "text": f"※ 今週の速報{urgent_count}件は送信済みのため除いています",
+            "size": "md",
+            "color": "#AAAAAA",
+            "wrap": True,
+            "margin": "lg",
         })
 
     return {
@@ -225,6 +349,92 @@ def _build_header_bubble(digest: DailyDigest) -> dict:
             "contents": contents,
         },
     }
+
+
+def build_brief_bubble(entries: list[BriefEntry], frontend_url: str = "") -> dict:
+    """「次の診察で聞いてみるとよいこと」のBubble
+
+    診察室でそのまま読めるよう、番号付きの質問文を並べる。
+    各質問の下に根拠の記事タイトルを小さく添えて、何の話か分かるようにする。
+    """
+    contents: list[dict] = [
+        {
+            "type": "text",
+            "text": "次の診察で聞いてみるとよいこと",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#333333",
+            "wrap": True,
+        },
+        {
+            "type": "text",
+            "text": "過去1か月に届いた情報から",
+            "size": "sm",
+            "color": "#AAAAAA",
+            "margin": "sm",
+        },
+        {"type": "separator", "margin": "lg"},
+    ]
+
+    for i, entry in enumerate(entries, start=1):
+        contents.append({
+            "type": "text",
+            "text": f"{i}. {entry.question}",
+            "size": "lg",
+            "color": "#333333",
+            "wrap": True,
+            "margin": "lg",
+        })
+        if entry.article:
+            title = entry.article.title_ja or entry.article.original_title or ""
+            if title:
+                contents.append({
+                    "type": "text",
+                    "text": _truncate(title, MAX_QUESTION_CHARS),
+                    "size": "sm",
+                    "color": "#AAAAAA",
+                    "wrap": True,
+                    "margin": "xs",
+                })
+
+    contents.append({
+        "type": "text",
+        "text": "答えは主治医の判断によります。気になるものだけ聞いてみてください。",
+        "size": "sm",
+        "color": "#AAAAAA",
+        "wrap": True,
+        "margin": "xl",
+    })
+
+    bubble: dict = {
+        "type": "bubble",
+        "size": "mega",
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": contents,
+        },
+    }
+
+    if frontend_url:
+        bubble["footer"] = {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "uri",
+                        "label": "もとの記事を見る",
+                        "uri": frontend_url,
+                    },
+                    "style": "secondary",
+                    "height": "sm",
+                },
+            ],
+        }
+
+    return bubble
 
 
 def _build_footer_bubble(frontend_url: str, total: int) -> dict:
@@ -272,115 +482,141 @@ def _build_footer_bubble(frontend_url: str, total: int) -> dict:
     return bubble
 
 
+def _flex_size(bubbles: list[dict]) -> int:
+    return len(
+        _json.dumps(
+            {"type": "carousel", "contents": bubbles}, ensure_ascii=False
+        ).encode("utf-8")
+    )
+
+
+def _trim_bubbles(bubbles: list[dict], has_footer: bool) -> list[dict]:
+    """バブル数とJSONサイズをLINEの制限内に収める（末尾の記事から削る）"""
+    footer = bubbles.pop() if has_footer else None
+
+    if footer is not None:
+        max_articles = MAX_BUBBLES - 2  # ヘッダー + フッター
+    else:
+        max_articles = MAX_BUBBLES - 1
+    if len(bubbles) - 1 > max_articles:
+        bubbles = bubbles[: max_articles + 1]
+
+    def assembled(bs: list[dict]) -> list[dict]:
+        return bs + [footer] if footer is not None else bs
+
+    while len(bubbles) > 1 and _flex_size(assembled(bubbles)) > MAX_FLEX_BYTES:
+        bubbles.pop()
+
+    return assembled(bubbles)
+
+
 def build_flex_messages(
-    digest: DailyDigest,
+    items: list[DeliveryItem],
+    date_label: str,
+    greeting: str = "",
     frontend_url: str = "",
-    article_db_ids: list[int] | None = None,
+    mode: str = MODE_WEEKLY,
+    urgent_count: int = 0,
+    insight_overrides: dict[str, str] | None = None,
+    brief_entries: list[BriefEntry] | None = None,
 ) -> list[dict]:
-    """Flex Messageオブジェクトのリストを生成"""
+    """Flex Messageオブジェクトのリストを生成
+
+    insight_overrides: source_id -> パーソナライズ済みテキスト。
+    永続化しない前提でここに直接渡す（DeliveryItem には載せない）。
+    """
     if not frontend_url:
         frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
 
-    # 記事→DB IDのマッピング
-    id_map: dict[str, int] = {}
-    if article_db_ids:
-        for i, article in enumerate(digest.articles):
-            if i < len(article_db_ids):
-                id_map[article.source_id] = article_db_ids[i]
+    if not items:
+        return [build_empty_message(date_label, greeting)]
 
-    if not digest.articles:
-        # 記事なしの場合はテキストメッセージ
-        return [{
-            "type": "text",
-            "text": f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース\n"
-                    f"\U0001f4c5 {digest.date}\n\n"
-                    f"{digest.greeting}\n\n"
-                    f"本日は新しい関連ニュースはありませんでした。\n"
-                    f"明日もチェックを続けます。",
-        }]
+    bubbles: list[dict] = [
+        _build_header_bubble(date_label, greeting, items, mode, urgent_count)
+    ]
 
-    messages: list[dict] = []
+    # ブリーフは記事より先に読ませたいのでヘッダーの直後に置く
+    if brief_entries:
+        bubbles.append(build_brief_bubble(brief_entries, frontend_url))
+    insight_overrides = insight_overrides or {}
+    for item in items:
+        bubbles.append(
+            _build_article_bubble(
+                item, frontend_url, insight_overrides.get(item.source_id, "")
+            )
+        )
 
-    # --- Carousel 1: ヘッダー + 上位記事（最大12 bubbles） ---
-    bubbles: list[dict] = []
-    bubbles.append(_build_header_bubble(digest))
+    has_footer = bool(frontend_url) and mode == MODE_WEEKLY
+    if has_footer:
+        bubbles.append(_build_footer_bubble(frontend_url, len(items)))
 
-    # 関連性スコアの高い順に最大10記事
-    sorted_articles = sorted(digest.articles, key=lambda a: a.relevance_score, reverse=True)
-    for article in sorted_articles[:10]:
-        db_id = id_map.get(article.source_id)
-        bubbles.append(_build_article_bubble(article, frontend_url, db_id))
+    bubbles = _trim_bubbles(bubbles, has_footer)
 
-    # フッター
-    bubbles.append(_build_footer_bubble(frontend_url, len(digest.articles)))
+    if mode == MODE_URGENT:
+        alt_text = f"魚鱗癬紅皮症 速報 {date_label}（{len(items)}件）"
+    else:
+        alt_text = f"魚鱗癬紅皮症 今週のまとめ {date_label}（{len(items)}件）"
 
-    alt_text = f"魚鱗癬紅皮症 デイリーニュース {digest.date}（{len(digest.articles)}件）"
-    messages.append({
+    return [{
         "type": "flex",
         "altText": alt_text[:400],
         "contents": {
             "type": "carousel",
             "contents": bubbles,
         },
-    })
-
-    return messages
+    }]
 
 
-def format_digest_for_line(
-    digest: DailyDigest,
+def build_empty_message(date_label: str, greeting: str = "") -> dict:
+    """新着なしのときのテキストメッセージ"""
+    body = f"\U0001f52c 魚鱗癬紅皮症 今週のまとめ\n\U0001f4c5 {date_label}\n\n"
+    if greeting:
+        body += f"{greeting}\n\n"
+    body += "今週は新しい関連情報はありませんでした。\n引き続きチェックを続けます。"
+    return {"type": "text", "text": body}
+
+
+def format_items_for_line(
+    items: list[DeliveryItem],
+    date_label: str,
+    greeting: str = "",
     frontend_url: str = "",
-    article_db_ids: list[int] | None = None,
 ) -> str:
-    """テキスト形式のフォールバック（後方互換性）"""
+    """テキスト形式のフォールバック"""
     if not frontend_url:
         frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
 
-    id_map: dict[str, int] = {}
-    if article_db_ids:
-        for i, article in enumerate(digest.articles):
-            if i < len(article_db_ids):
-                id_map[article.source_id] = article_db_ids[i]
+    lines = ["\U0001f52c 魚鱗癬紅皮症 今週のまとめ", f"\U0001f4c5 {date_label}", ""]
 
-    lines = []
-    lines.append(f"\U0001f52c 魚鱗癬紅皮症 デイリーニュース")
-    lines.append(f"\U0001f4c5 {digest.date}")
-    lines.append("")
+    if greeting:
+        lines.extend([greeting, ""])
 
-    if digest.greeting:
-        lines.append(digest.greeting)
-        lines.append("")
-
-    if not digest.articles:
-        lines.append("本日は新しい関連ニュースはありませんでした。")
+    if not items:
+        lines.append("今週は新しい関連情報はありませんでした。")
         return "\n".join(lines)
 
-    by_category: dict[str, list[CuratedArticle]] = {}
-    for article in digest.articles:
-        by_category.setdefault(article.category, []).append(article)
+    by_category: dict[str, list[DeliveryItem]] = {}
+    for item in items:
+        by_category.setdefault(item.category, []).append(item)
 
-    order = ["新薬・治療法", "研究論文", "ケア・対処法", "体験談・対処法", "関連疾患からの知見", "ニュース"]
+    ordered = [c for c in CATEGORY_ORDER if c in by_category]
+    ordered += [c for c in by_category if c not in CATEGORY_ORDER]
 
-    for cat in order:
-        articles = by_category.get(cat, [])
-        if not articles:
-            continue
+    for cat in ordered:
         emoji = CATEGORY_EMOJI.get(cat, "\U0001f4cc")
         lines.append(f"{emoji} {cat}")
-        for a in articles[:3]:
-            lines.append(f"  {a.title_ja}")
-            db_id = id_map.get(a.source_id)
-            if frontend_url and db_id:
-                lines.append(f"  {frontend_url}/article/{db_id}")
-            elif a.url:
-                lines.append(f"  {a.url}")
+        for item in by_category[cat][:3]:
+            lines.append(f"  {item.title_ja or item.original_title}")
+            link = _article_link(item, frontend_url)
+            if link:
+                lines.append(f"  {link}")
             lines.append("")
 
     if frontend_url:
-        lines.append(f"全{len(digest.articles)}件の記事はこちら")
+        lines.append(f"全{len(items)}件の記事はこちら")
         lines.append(frontend_url)
     else:
-        lines.append(f"計{len(digest.articles)}件")
+        lines.append(f"計{len(items)}件")
     return "\n".join(lines)
 
 
@@ -400,41 +636,50 @@ def send_line_flex(token: str, user_id: str, messages: list[dict]) -> bool:
         "messages": messages[:5],  # LINE APIは最大5メッセージ
     }
 
+    body_size = len(_json.dumps(body, ensure_ascii=False).encode("utf-8"))
+    logger.info(f"LINE Flex push: {len(messages)} messages, body size={body_size} bytes")
+
     try:
         resp = requests.post(LINE_PUSH_URL, headers=headers, json=body, timeout=30)
         if resp.status_code == 200:
             logger.info("LINE Flex Message sent")
             return True
-        else:
-            logger.error(f"LINE Flex push failed: {resp.status_code} {resp.text} (body_size={body_size})")
-            # Flex失敗時はテキストにフォールバック
-            logger.info("Falling back to text message")
-            alt_texts = []
-            for msg in messages:
-                if msg.get("type") == "flex":
-                    alt_texts.append(msg.get("altText", ""))
-            if alt_texts:
-                text_body = {
-                    "to": user_id,
-                    "messages": [{"type": "text", "text": t} for t in alt_texts[:5] if t],
-                }
-                try:
-                    resp2 = requests.post(LINE_PUSH_URL, headers=headers, json=text_body, timeout=30)
-                    if resp2.status_code == 200:
-                        logger.info("LINE text fallback sent")
-                        return True
-                    else:
-                        logger.error(f"LINE text fallback also failed: {resp2.status_code} {resp2.text}")
-                except requests.RequestException as e2:
-                    logger.error(f"LINE text fallback request failed: {e2}")
-            return False
+
+        logger.error(
+            f"LINE Flex push failed: {resp.status_code} {resp.text} (body_size={body_size})"
+        )
+        # Flex失敗時はテキストにフォールバック
+        logger.info("Falling back to text message")
+        alt_texts = [
+            msg.get("altText", "")
+            for msg in messages
+            if msg.get("type") == "flex"
+        ]
+        if alt_texts:
+            text_body = {
+                "to": user_id,
+                "messages": [{"type": "text", "text": t} for t in alt_texts[:5] if t],
+            }
+            try:
+                resp2 = requests.post(
+                    LINE_PUSH_URL, headers=headers, json=text_body, timeout=30
+                )
+                if resp2.status_code == 200:
+                    logger.info("LINE text fallback sent")
+                    return True
+                logger.error(
+                    f"LINE text fallback also failed: {resp2.status_code} {resp2.text}"
+                )
+            except requests.RequestException as e2:
+                logger.error(f"LINE text fallback request failed: {e2}")
+        return False
     except requests.RequestException as e:
         logger.error(f"LINE Flex push request failed: {e}")
         return False
 
 
 def send_line_push(token: str, user_id: str, message: str) -> bool:
-    """テキストメッセージを送信（後方互換性）"""
+    """テキストメッセージを送信"""
     if not token or not user_id:
         logger.warning("LINE credentials not configured, skipping notification")
         return False
@@ -445,11 +690,9 @@ def send_line_push(token: str, user_id: str, message: str) -> bool:
     }
 
     chunks = _split_message(message, max_len=5000)
-    messages = [{"type": "text", "text": chunk} for chunk in chunks[:5]]
-
     body = {
         "to": user_id,
-        "messages": messages,
+        "messages": [{"type": "text", "text": chunk} for chunk in chunks[:5]],
     }
 
     try:
@@ -457,9 +700,8 @@ def send_line_push(token: str, user_id: str, message: str) -> bool:
         if resp.status_code == 200:
             logger.info("LINE push notification sent")
             return True
-        else:
-            logger.error(f"LINE push failed: {resp.status_code} {resp.text}")
-            return False
+        logger.error(f"LINE push failed: {resp.status_code} {resp.text}")
+        return False
     except requests.RequestException as e:
         logger.error(f"LINE push request failed: {e}")
         return False
