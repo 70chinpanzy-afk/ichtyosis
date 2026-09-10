@@ -4,6 +4,8 @@
 手続きできる情報が入っていなかった。ここは締切があるので取りこぼすと痛い。
 """
 
+from datetime import date, timedelta
+
 import pytest
 
 pytest.importorskip("bs4")
@@ -32,14 +34,19 @@ NANBYOU_HTML = """
 </div>
 """
 
-SHOUMAN_HTML = """
+# 日付を固定で書くと、実時間の経過で days_back の窓から外れてテストが壊れる。
+# 「最近」「かなり前」を今日基準で組み立てる。
+_RECENT = (date.today() - timedelta(days=10)).isoformat()
+_OLD = (date.today() - timedelta(days=800)).isoformat()
+
+SHOUMAN_HTML = f"""
 <ul>
   <li class="topics" data-category="topics">
-    <p class="date"><strong>2026-06-09</strong></p>
+    <p class="date"><strong>{_RECENT}</strong></p>
     <p><a href="/news/topics/169">第19回自立支援員研修会【基礎編】開催案内</a></p>
   </li>
   <li class="topics" data-category="topics">
-    <p class="date"><strong>2019-01-01</strong></p>
+    <p class="date"><strong>{_OLD}</strong></p>
     <p><a href="/news/topics/1">古いお知らせ</a></p>
   </li>
 </ul>
@@ -107,7 +114,7 @@ def test_期間より古いお知らせは落とす(monkeypatch):
 
     articles = fetch_shouman_news(days_back=90)
 
-    assert [a.published_date for a in articles] == ["2026-06-09"]
+    assert [a.published_date for a in articles] == [_RECENT]
 
 
 def test_取得に失敗しても空リストで返る(monkeypatch):
