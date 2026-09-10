@@ -37,6 +37,11 @@ jobs:
           FRONTEND_URL: https://ichtyosis.vercel.app
           CURATOR_PUBMED_EMAIL: ${{ secrets.CURATOR_PUBMED_EMAIL }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # 患者プロフィール（未設定なら汎用文で配信される）
+          PATIENT_PROFILE: ${{ secrets.PATIENT_PROFILE }}
+          # Reddit は未認証アクセスを遮断しており、未設定だとこのソースは0件になる
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
           echo "=== Starting curation ==="
           echo "DB path: $(pwd)/ichthyosis_curator.db"

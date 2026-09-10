@@ -40,6 +40,21 @@ SEARCH_QUERIES = [
     "魚鱗癬 日常ケア",
 ]
 
+# YouTube Data API は search 1回で100ユニット消費し、1日1万ユニットの上限がある。
+# 全テーマを毎日引くと上限に近づくので、日替わりで少しずつ回す。
+THEME_QUERIES_PER_RUN = 3
+
+
+def _theme_queries() -> list[str]:
+    """困りごとテーマ由来の検索クエリ（日替わり）"""
+    from ichthyosis_curator.curation.themes import rotating_themes
+
+    queries: list[str] = []
+    for theme in rotating_themes(THEME_QUERIES_PER_RUN):
+        queries.extend(theme.queries_en)
+        queries.extend(theme.queries_ja)
+    return queries
+
 # 動画の説明文の最大取得文字数
 MAX_DESCRIPTION_LENGTH = 800
 
@@ -197,7 +212,7 @@ def get_youtube_videos(days_back: int = 30) -> list[RawArticle]:
     articles: list[RawArticle] = []
     seen_ids: set[str] = set()
 
-    for query in SEARCH_QUERIES:
+    for query in SEARCH_QUERIES + _theme_queries():
         items = _search_videos(api_key, query, days_back)
         if not items:
             # API エラーまたは割り当て超過の場合は中断

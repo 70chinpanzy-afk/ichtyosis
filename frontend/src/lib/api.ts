@@ -41,6 +41,12 @@ export interface Article {
   drugs_json: string | null;
   patient_insight: string | null;
   created_at: string | null;
+  /** 申請・応募の締切や開催日（読み取れた場合のみ） */
+  deadline?: string | null;
+  /** 期限内に読者が動く必要があるか */
+  action_required?: boolean | number | null;
+  /** 公開URL用の安定ID。DBのidはCI実行ごとに振り直されるため使わない */
+  slug?: string | null;
 }
 
 /** drugs_json文字列をDrugInfo配列にパース */
@@ -61,6 +67,7 @@ export type Category =
   | "ケア・対処法"
   | "体験談・対処法"
   | "関連疾患からの知見"
+  | "制度・支援"
   | "ニュース";
 
 export const CATEGORIES: Category[] = [
@@ -69,6 +76,7 @@ export const CATEGORIES: Category[] = [
   "ケア・対処法",
   "体験談・対処法",
   "関連疾患からの知見",
+  "制度・支援",
   "ニュース",
 ];
 
@@ -100,6 +108,11 @@ export const CATEGORY_CONFIG: Record<
     emoji: "\u{1f517}",
     color: "text-purple-700",
     bgColor: "bg-purple-50 border-purple-200",
+  },
+  "制度・支援": {
+    emoji: "\u{1f3e5}",
+    color: "text-teal-700",
+    bgColor: "bg-teal-50 border-teal-200",
   },
   "ニュース": {
     emoji: "\u{1f4f0}",
@@ -174,11 +187,16 @@ export async function getDigestByDate(date: string): Promise<Article[]> {
   return fetchJson<Article[]>(`${API_BASE}/api/digests/${date}`);
 }
 
-export async function getArticle(id: number): Promise<Article> {
+export async function getArticle(id: string | number): Promise<Article> {
   if (IS_STATIC) {
     return fetchJson<Article>(`/data/articles/${id}.json`);
   }
   return fetchJson<Article>(`${API_BASE}/api/articles/${id}`);
+}
+
+/** 記事の公開URLに使うID。slugがあれば優先し、無い古いデータはidにフォールバック */
+export function articleHref(article: Pick<Article, "id" | "slug">): string {
+  return `/article/${article.slug || article.id}`;
 }
 
 export async function searchArticles(

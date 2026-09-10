@@ -22,8 +22,9 @@ export default function ArticleDetailPage() {
   useEffect(() => {
     async function load() {
       try {
-        const id = Number(params.id);
-        if (!isNaN(id)) {
+        // slug（文字列）と旧id（数値）のどちらでも開けるようにする
+        const id = Array.isArray(params.id) ? params.id[0] : params.id;
+        if (id) {
           const data = await getArticle(id);
           setArticle(data);
         }

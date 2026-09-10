@@ -28,11 +28,23 @@ SEARCH_QUERIES = [
 ]
 
 
+def _theme_queries() -> list[str]:
+    """困りごとテーマ由来の臨床クエリ
+
+    既存クエリは治療・遺伝子・新薬に寄っており、発汗障害・眼瞼外反・耳垢・感染・
+    成長・QOLといった「実際に生活で問題になること」の文献が集まっていなかった。
+    これらは臨床研究として存在するので、テーマ名で引けば拾える。
+    """
+    from ichthyosis_curator.curation.themes import all_pubmed_queries
+
+    return all_pubmed_queries()
+
+
 def search_pubmed(email: str, days_back: int = 7, max_results: int = 50) -> list[str]:
     """PubMedで最近の論文を検索し、PMIDリストを返す"""
     all_pmids: set[str] = set()
 
-    for query in SEARCH_QUERIES:
+    for query in SEARCH_QUERIES + _theme_queries():
         params = {
             "db": "pubmed",
             "term": query,

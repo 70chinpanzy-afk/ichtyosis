@@ -28,6 +28,33 @@ GOOGLE_NEWS_FEEDS = [
     "https://news.google.com/rss/search?q=%E3%82%A2%E3%83%88%E3%83%94%E3%83%BC+%E7%9A%AE%E8%86%9A%E3%83%90%E3%83%AA%E3%82%A2+%E6%96%B0%E8%96%AC&hl=ja&gl=JP&ceid=JP:ja",
 ]
 
+# 上のクエリは treatment / 新薬 / gene therapy と研究寄りで、生活場面の記事が
+# 集まらない。困りごとテーマ由来のクエリを日替わりで足す。
+# 希少疾患なのでニュース自体が少なく、ヒットは多くない想定だが、
+# 制度・支援や季節の注意喚起はここから入ってくる。
+THEME_FEEDS_PER_RUN = 5
+
+
+def _theme_feed_urls() -> list[str]:
+    """困りごとテーマ由来のGoogle News RSS URL（日替わり）"""
+    from urllib.parse import quote
+
+    from ichthyosis_curator.curation.themes import rotating_themes
+
+    urls: list[str] = []
+    for theme in rotating_themes(THEME_FEEDS_PER_RUN):
+        for query in theme.queries_ja:
+            urls.append(
+                f"https://news.google.com/rss/search?q={quote(query)}"
+                "&hl=ja&gl=JP&ceid=JP:ja"
+            )
+        for query in theme.queries_en:
+            urls.append(
+                f"https://news.google.com/rss/search?q={quote(query)}"
+                "&hl=en&gl=US&ceid=US:en"
+            )
+    return urls
+
 
 def _url_hash(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()[:16]
@@ -52,7 +79,7 @@ def fetch_google_news(days_back: int = 7) -> list[RawArticle]:
     articles: list[RawArticle] = []
     seen_urls: set[str] = set()
 
-    for feed_url in GOOGLE_NEWS_FEEDS:
+    for feed_url in GOOGLE_NEWS_FEEDS + _theme_feed_urls():
         try:
             feed = feedparser.parse(feed_url)
 

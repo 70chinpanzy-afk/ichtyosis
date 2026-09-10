@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Article, Category, CATEGORY_CONFIG, getArticleRegion, REGION_CONFIG } from "@/lib/api";
+import { Article, Category, CATEGORY_CONFIG, articleHref, getArticleRegion, REGION_CONFIG } from "@/lib/api";
 
 interface ArticleCardProps {
   article: Article;
@@ -38,7 +38,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
         )}
       </div>
 
-      <Link href={`/article/${article.id}`}>
+      <Link href={articleHref(article)}>
         <h3 className="text-base font-semibold text-slate-800 hover:text-blue-600 transition leading-snug mb-2">
           {article.title_ja || article.original_title || "タイトルなし"}
         </h3>
