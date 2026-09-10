@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-05-05",
+  "source": "clinical_trials",
+  "source_id": "NCT02113904",
+  "original_title": "Phase II Clinical Trial Using Humira in Netherton Syndrome",
+  "title_ja": "ネザートン症候群におけるヒュミラの第II相試験",
+  "summary_ja": "この研究は、ネザートン症候群という遺伝性の皮膚疾患に対するヒュミラ（アダリムマブ）の効果を調べる試験です。患者さんに3か月間この薬を使います。重い炎症や痒みを和らげる可能性があるため、その影響を確認しています。また安全性も確認されます。この疾患は社会的孤立を引き起こしやすいため、20%以上の改善が見られれば大きな助けになると期待されています。ただし、感染症のリスクがあるため注意が必要です。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT02113904",
+  "published_date": "2026-04-08",
+  "curation_reasoning": "ネザートン症候群は、魚鱗癬紅皮症と同様に遺伝性の皮膚疾患であり、ヒュミラが炎症や痒みを改善する可能性があるため、魚鱗癬にも関連性があります。",
+  "drugs_json": "[{\"drug_name\": \"ヒュミラ（Humira）\", \"ingredients\": \"アダリムマブ（adalimumab）\", \"description\": \"免疫システムの一部を抑えることで、炎症や痛みを和らげる注射薬\"}]",
+  "patient_insight": "ヒュミラは、比較的安全に使用できる可能性がありますが、感染のリスクについては主治医に相談してください。この試験は、将来的に魚鱗癬に対する新たな治療法の候補になるかもしれません。",
+  "created_at": "2026-05-05 23:02:49",
+  "slug": "31d210a6226bbc72"
+}

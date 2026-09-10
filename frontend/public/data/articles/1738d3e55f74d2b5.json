@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "digest_date": "2026-07-12",
+  "source": "clinical_trials",
+  "source_id": "NCT06651489",
+  "original_title": "Efficacy of Guselkumab in the Treatment of Hailey Hailey Disease: An Open-label, Proof of Concept Study",
+  "title_ja": "ガセルクマブがヘイリー・ヘイリー病に与える効果",
+  "summary_ja": "この研究は、遺伝性の皮膚疾患であるヘイリー・ヘイリー病に対するガセルクマブの効果を検証するものです。ガセルクマブという新しい薬がどのようにこの病気の症状を改善するのかを探ります。この試験により、炎症を抑える新しい治療法の可能性が示されるかもしれません。魚鱗癬のような皮膚症状に対しても応用できる可能性が考えられます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT06651489",
+  "published_date": "2026-06-22",
+  "curation_reasoning": "遺伝性皮膚疾患に対する新薬の効果を検証しており、魚鱗癬に類似した症状に応用可能だから。",
+  "drugs_json": "[{\"drug_name\": \"ガセルクマブ（Guselkumab）\", \"ingredients\": \"ガセルクマブ（guselkumab）\", \"description\": \"炎症を抑える生物学的製剤で、皮膚病の新しい治療法\"}]",
+  "patient_insight": "ガセルクマブは魚鱗癬に似た症状を持つ病気の新しい治療法として検討されています。これが成功すれば、魚鱗癬の治療にも新たな道が開かれる可能性があります。今はまだ研究段階なので、今後の進展に注目しつつ、現在の治療法を継続してください。",
+  "created_at": "2026-07-12 22:58:19",
+  "slug": "1738d3e55f74d2b5"
+}

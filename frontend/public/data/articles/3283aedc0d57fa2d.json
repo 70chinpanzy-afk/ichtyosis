@@ -1,0 +1,17 @@
+{
+  "id": 47,
+  "digest_date": "2026-03-19",
+  "source": "reddit:r/eczema",
+  "source_id": "7293e3d8e41ee3ca",
+  "original_title": "What helped my flare up this winter",
+  "title_ja": "冬の湿疹悪化に効いたもの",
+  "summary_ja": "冬に悪化する湿疹に対して、新しい保湿剤が効果的だったという体験談です。投稿者は、湿疹がひどい時にCOSRXのセラミド配合保湿剤とワセリンを使ったところ、大きな改善が見られたと報告しています。セラミドは皮膚を守る「壁」を強化する天然の脂質で、乾燥や湿疹に役立つことがあります。魚鱗癬の患者さんにも、このような保湿方法が有効かもしれません。実際に試す際は、皮膚科医と相談するのが良いでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1rwqeh7/what_helped_my_flare_up_this_winter/",
+  "published_date": "2026-03-18",
+  "curation_reasoning": "セラミドは皮膚バリアの維持に重要で、魚鱗癬患者のケアにも応用できるため。",
+  "drugs_json": "[{\"drug_name\": \"COSRX セラミドスキンバリア保湿剤（COSRX The Ceramide Skin Barrier Moisturizer）\", \"ingredients\": \"セラミド\", \"description\": \"皮膚の保護壁を強化する天然の脂質を含む保湿クリーム\"}]",
+  "created_at": "2026-03-20 01:39:35",
+  "slug": "3283aedc0d57fa2d"
+}

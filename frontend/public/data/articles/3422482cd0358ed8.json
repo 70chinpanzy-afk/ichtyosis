@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "digest_date": "2026-08-10",
+  "source": "pubmed",
+  "source_id": "42569741",
+  "original_title": "Repetin Regulates Epidermal Barrier Homeostasis and Is Associated With Inflammatory Skin Diseases.",
+  "title_ja": "細胞タンパク質REPTINの役割と皮膚炎の関係",
+  "summary_ja": "細胞タンパク質REPTINが、皮膚の健康を保つ役割を担っており、その不足が炎症性皮膚疾患と関係していることが明らかになりました。アトピー性皮膚炎などでこのタンパク質の変化が見られ、皮膚バリアを改善する可能性が示唆されています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42544840/",
+  "published_date": "2026-08",
+  "curation_reasoning": "魚鱗癬患者にとって、皮膚バリアを強化する新しい知見が治療の選択肢を広げるかもしれません。",
+  "drugs_json": "[]",
+  "patient_insight": "皮膚のバリア機能が重要です。現時点でできることは、しっかりと保湿を心がけることです。これに加え、研究の進展により将来的な治療法の選択肢が増える可能性があります。",
+  "created_at": "2026-08-10 22:47:49",
+  "slug": "3422482cd0358ed8"
+}

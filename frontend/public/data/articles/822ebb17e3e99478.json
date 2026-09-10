@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-09-04",
+  "source": "pubmed",
+  "source_id": "42665125",
+  "original_title": "Nitrogen gas-derived cold atmospheric plasma suppresses pruritus through modulation of peripheral sensory neurons and keratinocytes.",
+  "title_ja": "窒素ガス由来の冷たい大気プラズマでかゆみを抑える",
+  "summary_ja": "この研究は、新しい方法である窒素ガス由来の冷たい大気プラズマがかゆみを抑える効果について調査しました。この方法は、かゆみを感じる神経と皮膚の細胞を直接変化させ、長期的な薬物治療の代替手段として期待されています。魚鱗癬を含む皮膚のかゆみに悩む患者にとって、薬に頼らずに症状を改善する可能性があるため注目されています。ただし、まだ試験段階のため、今後の実用化にはさらなる研究が必要です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42665125/",
+  "published_date": "2026-08-28",
+  "curation_reasoning": "この研究は、魚鱗癬患者に共通するかゆみの新しい治療法になる可能性を示しています。薬物治療以外の選択肢として期待されるため、患者に有益な情報です。",
+  "drugs_json": "[]",
+  "patient_insight": "この新しい治療法は、薬に頼らず、かゆみを効果的に抑えられる可能性があります。さらに研究が進むことで、将来的に日常のケアとして取り入れられる日が来るかもしれません。",
+  "created_at": "2026-09-04 23:54:24",
+  "slug": "822ebb17e3e99478"
+}

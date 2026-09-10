@@ -13,7 +13,8 @@
     "published_date": "2026 Jan 30",
     "curation_reasoning": "魚鱗癬の中で最も重いタイプであるため、患者さんへの理解を深める重要な情報です。",
     "drugs_json": "[]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "1c6cc329f0f66376"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "published_date": "2026-03-20",
     "curation_reasoning": "魚鱗癬患者に直接関係する新しい治療法の試験で、症状改善の希望となり得るため。",
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"TMB-001\", \"description\": \"魚鱗癬の厚くなった皮膚を改善するための外用薬。\"}]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "206152bdee2f875c"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "published_date": "2026 Apr",
     "curation_reasoning": "デルゴシチニブは炎症を抑えるため、炎症に関連する皮膚病の魚鱗癬にも応用可能な知見を提供するかもしれないため。",
     "drugs_json": "[{\"drug_name\": \"デルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デルゴシチニブ\", \"description\": \"体内の炎症を引き起こす信号をブロックする塗り薬\"}]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "2a87787dcee65d7e"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "published_date": "2026-04-01",
     "curation_reasoning": "魚鱗癬を含む重い皮膚疾患の治療に関する新しい知見であり、合併症の軽減に役立つ可能性があるため。",
     "drugs_json": "[]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "61558033b92b769a"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "published_date": "2026 Mar",
     "curation_reasoning": "皮膚バリアを修復する保湿剤の使用は、魚鱗癬の対策にも共通するため、有用な知見が得られます。",
     "drugs_json": "[]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "3d49fd89fe51d64f"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "published_date": "2026-03-16",
     "curation_reasoning": "Netherton症候群の治療研究であり、類似の症状を持つ魚鱗癬に役立つ可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"QRX003ローション（QRX003 lotion）\", \"ingredients\": \"QRX003\", \"description\": \"Netherton症候群の肌を保護し症状を改善するローション。\"}]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "c1e507f2055d8911"
   },
   {
     "id": 7,
@@ -109,6 +115,7 @@
     "published_date": "2026 Apr 01",
     "curation_reasoning": "JAK阻害薬の試験における多様性の理解は、魚鱗癬治療の個別化に役立つ可能性があります。",
     "drugs_json": "[]",
-    "created_at": "2026-04-03 22:43:04"
+    "created_at": "2026-04-03 22:43:04",
+    "slug": "20185e21b7d046f7"
   }
 ]

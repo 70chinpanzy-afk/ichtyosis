@@ -13,7 +13,8 @@
     "published_date": "2026-03-17",
     "curation_reasoning": "遺伝子変異に関する知識が魚鱗癬患者の新たな診断や治療に有益であるため。",
     "drugs_json": "[]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "56c374f5cd5eb4f6"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "published_date": "2026-03-20",
     "curation_reasoning": "魚鱗癬に直接関連する新しい治療法が確立される可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001）\", \"ingredients\": \"TMB-001\", \"description\": \"先天性魚鱗癬治療を目的とした新しい外用薬。\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "206152bdee2f875c"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "published_date": "2026-04-01",
     "curation_reasoning": "合併症を軽減する治療法は患者の日常生活を改善する可能性があり、重要と判断しました。",
     "drugs_json": "[]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "deec3caabd749967"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "published_date": "2026",
     "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の併発症例は治療法の選択や生活の工夫に有益な情報を提供するため。",
     "drugs_json": "[]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "1216ffbb5e6d977a"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "published_date": "2026 Dec",
     "curation_reasoning": "新しい全身治療薬の効果が示されており、魚鱗癬のような疾患に対する新たな治療の可能性が期待できるため。",
     "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックする新しいタイプの薬。\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "be5f63630f502a76"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "published_date": "2026-03-31",
     "curation_reasoning": "新薬が魚鱗癬紅皮症の治療に応用できる可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"BCX17725（BCX17725）\", \"ingredients\": \"BCX17725\", \"description\": \"ネザートン症候群に対する新しい治療薬。\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "35bb049951618962"
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     "published_date": "2026-03-16",
     "curation_reasoning": "新しいスキンケア製品が魚鱗癬治療にも役立つ可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"QRX003ローション（QRX003 Lotion）\", \"ingredients\": \"QRX003\", \"description\": \"ネザートン症候群に使用されるローション。\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "c1e507f2055d8911"
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     "published_date": "2026-03-31",
     "curation_reasoning": "新しい治療法の紹介は患者に新しい選択肢を提供し、希望を持つきっかけになる可能性があります。",
     "drugs_json": "[{\"drug_name\": \"ラパマイシン（Rapamycin）\", \"ingredients\": \"シロリムス（sirolimus）\", \"description\": \"細胞の成長を抑え、異常組織の増殖を防ぐ薬剤\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "1f8303f64b6b9617"
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     "published_date": "2026 Mar",
     "curation_reasoning": "皮膚バリアの修復は、魚鱗癬患者の日常のスキンケアにおいて非常に重要なため。",
     "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守る壁の材料となる脂質を補給してバリア機能を強化する保湿剤\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "3d49fd89fe51d64f"
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "published_date": "2026-03-12",
     "curation_reasoning": "新薬が魚鱗癬の治療に応用できる可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ（spesolimab）\", \"description\": \"免疫反応を調節する新しい注射薬。\"}]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "4d2340d4bf6acc12"
   },
   {
     "id": 11,
@@ -173,6 +183,7 @@
     "published_date": "2026 Jan 30",
     "curation_reasoning": "魚鱗癬の希少なタイプに関する情報は患者家族の理解を助け、治療選択に影響を与えるため。",
     "drugs_json": "[]",
-    "created_at": "2026-04-01 22:42:27"
+    "created_at": "2026-04-01 22:42:27",
+    "slug": "1c6cc329f0f66376"
   }
 ]

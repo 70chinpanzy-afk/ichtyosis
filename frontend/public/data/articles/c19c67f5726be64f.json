@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "digest_date": "2026-08-01",
+  "source": "pubmed",
+  "source_id": "42499727",
+  "original_title": "Successful treatment of eosinophilic esophagitis with upadacitinib prescribed for atopic dermatitis.",
+  "title_ja": "ウパダシチニブによる治療で好酸球性食道炎を改善",
+  "summary_ja": "この記事では、新しい薬ウパダシチニブ（upadacitinib）がアトピー性皮膚炎だけでなく、好酸球性食道炎という別の病気にも有効であることが紹介されています。この薬は体内の免疫シグナルをブロックし、炎症を抑える働きがあります。対象の患者において、ウパダシチニブにより症状が改善したとのことです。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42499727/",
+  "published_date": "2026 Apr 03",
+  "curation_reasoning": "ウパダシチニブはアトピー性皮膚炎だけでなく、魚鱗癬の症状にも応用可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内の免疫シグナルをブロックし、炎症を抑える新しいタイプの薬\"}]",
+  "patient_insight": "ウパダシチニブのように、免疫系に働きかける新薬は、将来的に魚鱗癬でも応用される可能性があります。主治医と相談しながら、治療の選択肢の一つとして考えてみてください。",
+  "created_at": "2026-08-01 23:01:21",
+  "slug": "c19c67f5726be64f"
+}

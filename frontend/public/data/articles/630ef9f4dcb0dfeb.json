@@ -1,0 +1,17 @@
+{
+  "id": 32,
+  "digest_date": "2026-03-18",
+  "source": "reddit:r/eczema",
+  "source_id": "d6ac4523867d8f01",
+  "original_title": "urgent plea for help",
+  "title_ja": "新しい薬が効かなくなってきたと感じたがどうすれば？",
+  "summary_ja": "この投稿は、ある患者さんが新しい薬「リンボック（Rinvoq、一般名：ウパダシチニブ）」の効果に変化を感じたというものです。皮膚の炎症を抑えるこの薬はしばらく効いていましたが、最近症状が再発してきたようです。現在の低い投与量を維持するか、または費用の高い方法で投与量を増やすか悩んでいます。このような経済的負担は患者さんにとって大きな問題です。この情報は、他の患者さんが経済的な対策や医療支援を見つけるための参考になるでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.reddit.com/r/eczema/comments/1ro9j27/urgent_plea_for_help/",
+  "published_date": "2026-03-08",
+  "curation_reasoning": "特定の薬の効果が減少した場合の対応方法や、治療費の経済的負担についての情報が得られるため、患者さんの役に立ちます。",
+  "drugs_json": "[{\"drug_name\": \"リンボック（Rinvoq）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内で炎症を引き起こすタンパク質の信号を妨げる薬\"}]",
+  "created_at": "2026-03-18 14:05:30",
+  "slug": "630ef9f4dcb0dfeb"
+}

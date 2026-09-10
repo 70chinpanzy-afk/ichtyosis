@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "digest_date": "2026-09-06",
+  "source": "google_news:日経メディカル",
+  "source_id": "69f66ba245af2d04",
+  "original_title": "プロトピック軟膏0.1%の基本情報（薬効分類・副作用・添付文書など）｜日経メディカル処方薬事典 - 日経メディカル",
+  "title_ja": "プロトピック軟膏の基本情報と使用上の注意",
+  "summary_ja": "プロトピック軟膏0.1%は、皮膚の炎症を抑えるために使われる処方薬です。この薬の主な成分はタクロリムスで、免疫系の一部を抑制して炎症を減少させます。アトピー性皮膚炎の治療によく使われる薬ですが、魚鱗癬のような皮膚症状の改善にも役立つことがあります。ただし、使用には医師の指導が必要です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RajJRSGJCNzFOb2NyTGMzNWxPZkhLbW5UZG1vMG9XSzlsV3lqWnJYdUx4YUpoNGVTRTFnNTVPTUFUd0RUaFd3SFpIUU43elo4czAxUUE3X2o4YzhMZGhidEduQm9pd05PblFXcXZFaG5PWVJzb2l5WXZQZw?oc=5",
+  "published_date": "2026-09-04",
+  "curation_reasoning": "プロトピック軟膏がアトピー性皮膚炎だけでなく、魚鱗癬の補助的な治療法としても利用可能であることが重要です。",
+  "drugs_json": "[{\"drug_name\": \"プロトピック軟膏（Protopic）\", \"ingredients\": \"タクロリムス\", \"description\": \"皮膚の炎症を抑えるために免疫系を調整する外用薬\"}]",
+  "patient_insight": "プロトピック軟膏は、自分の肌に合うかどうかを医師と相談しながら試すと良いでしょう。特にかゆみが辛い場合は効果が期待できるかもしれません。",
+  "created_at": "2026-09-06 23:43:42",
+  "slug": "833435a1147869b6"
+}

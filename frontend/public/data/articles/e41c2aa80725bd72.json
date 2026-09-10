@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "digest_date": "2026-06-26",
+  "source": "pubmed",
+  "source_id": "42327467",
+  "original_title": "Effects of a Moisturizer and Emollient on the Stratum Corneum Assessed by Confocal Raman Spectroscopy in Patients With and Without Atopic Dermatitis: An Assessor-Blinded Prospective Cohort Study.",
+  "title_ja": "保湿剤とエモリエントの皮膚への効果",
+  "summary_ja": "この研究は保湿剤が皮膚にどのように影響を与えるかを調べたものです。アトピー性皮膚炎の患者さんとそうでない人が対象となり、クリームタイプの保湿剤とワセリンを用いて、皮膚の水分量やバリア機能を評価しました。保湿剤は、皮膚の水分保持を改善し、バリア機能を強化します。これは、魚鱗癬などの乾燥性皮膚疾患の管理にも役立つ可能性があります。毎日のスキンケアに取り入れることで、皮膚の状態を改善する手助けとなります。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42327467/",
+  "published_date": "2026 Jun",
+  "curation_reasoning": "保湿剤の効果は魚鱗癬のケアに直接関連し、実生活で役立つ可能性があるため、重要な情報です。",
+  "drugs_json": "[{\"drug_name\": \"クリームタイプ保湿剤\", \"ingredients\": \"保湿成分\", \"description\": \"皮膚の水分を保持し、バリアを修復する。\"}, {\"drug_name\": \"ワセリン\", \"ingredients\": \"石油ゼリー\", \"description\": \"水分を閉じ込め、皮膚の保護膜を作る。\"}]",
+  "patient_insight": "毎日のスキンケアとして保湿剤を使うことは、魚鱗癬にとって非常に大切です。この研究は市販のクリームやワセリンが効果的であることを示しています。主治医に相談しながら、適切な製品を選んでください。",
+  "created_at": "2026-06-26 23:16:19",
+  "slug": "e41c2aa80725bd72"
+}

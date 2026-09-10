@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "digest_date": "2026-07-28",
+  "source": "youtube:Dr. Deepika Lunawat",
+  "source_id": "66567581577feea6",
+  "original_title": "Your Dry Skin Could Be Ichthyosis Vulgaris | Dr. Deepika",
+  "title_ja": "あなたの乾燥肌、それは魚鱗癬かも？",
+  "summary_ja": "YouTubeの動画によると、乾燥肌が続く場合、一般的な魚鱗癬である「尋常性魚鱗癬」の可能性があると指摘されています。この病気は角質がうまく剥がれ落ちないために肌が乾燥し、鱗のような見た目になることがあります。治療には尿素を含む保湿剤を使用すると良いとされています。また、アトピー性皮膚炎のケアも参考になる可能性があると説明されていました。患者さんにとっては、日常のスキンケアが症状の管理に役立つかもしれません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://www.youtube.com/watch?v=0iq6iTBFJ3Q",
+  "published_date": "2026-07-10",
+  "curation_reasoning": "魚鱗癬と診断されていない可能性のある乾燥肌についての情報は、類似症状に悩む患者さんにとって、見逃しやすい症状を理解する助けとなります。",
+  "drugs_json": "[{\"drug_name\": \"尿素保湿剤（Urea Moisturizer）\", \"ingredients\": \"尿素\", \"description\": \"皮膚を柔らかくし、水分を保持するのを助ける保湿剤\"}]",
+  "patient_insight": "この情報は、乾燥肌だと思っていた症状が実は魚鱗癬の可能性があることを教えてくれます。尿素を含む保湿剤が症状のケアに有効かもしれないため、主治医に相談の上で試しても良いでしょう。",
+  "created_at": "2026-07-28 23:08:59",
+  "slug": "25ac98cb8459ad6d"
+}

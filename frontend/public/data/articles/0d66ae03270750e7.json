@@ -1,0 +1,17 @@
+{
+  "id": 5,
+  "digest_date": "2026-03-30",
+  "source": "pubmed",
+  "source_id": "41884388",
+  "original_title": "A Case Series of Tofacitinib Treatment for Chronic Spontaneous Urticaria with Inadequate Response to Omalizumab.",
+  "title_ja": "トファシチニブによる慢性特発性蕁麻疹の治療",
+  "summary_ja": "この研究は、一般的に使用される薬が効かない慢性蕁麻疹の患者に、トファシチニブという薬が効果を示したという報告です。トファシチニブは免疫系の働きを抑える薬で、炎症を引き起こす信号をブロックします。魚鱗癬のような皮膚の問題にも、将来的に応用できるかもしれません。このような新たな治療の可能性が、患者さんにとって希望となることを期待します。",
+  "category": "研究論文",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41884388/",
+  "published_date": "2026",
+  "curation_reasoning": "新しい免疫抑制剤の効果が魚鱗癬の治療にも応用できる可能性があるため、注目すべき情報です。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"免疫の炎症を抑える信号をブロックする飲み薬\"}]",
+  "created_at": "2026-03-30 22:41:00",
+  "slug": "0d66ae03270750e7"
+}

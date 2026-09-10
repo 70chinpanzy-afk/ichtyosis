@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "digest_date": "2026-04-15",
+  "source": "pubmed",
+  "source_id": "41972259",
+  "original_title": "Novel Combination of UVA-1 Phototherapy With Topical Tofacitinib for Treating Eosinophilic Fasciitis With Morphea: Case Report.",
+  "title_ja": "UVA-1光線療法とトファシチニブの新しい組み合わせが有効な症例報告",
+  "summary_ja": "この報告は、珍しい皮膚の病気であるエオシノフィル筋膜炎とモルフィアの患者に対する新しい治療法を紹介しています。トファシチニブという薬とUVA-1光線療法の組み合わせが効果的であったと述べています。トファシチニブは、体の中の炎症を抑える薬で、この治療法を使うことで症状が改善されました。この研究は、魚鱗癬にも応用可能な新しい治療の可能性を示唆しています。今後、この組み合わせが魚鱗癬に対してもっと研究されることが期待されます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41972259/",
+  "published_date": "2026 Apr 13",
+  "curation_reasoning": "トファシチニブのようなJAK阻害薬は、魚鱗癬の治療に応用できる可能性があるからです。魚鱗癬患者には新しい治療選択肢として参考になるでしょう。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"体内の炎症を起こす信号をブロックする薬です。\"}]",
+  "patient_insight": "トファシチニブのUVA-1光線療法との組み合わせは珍しい治療法ですが、炎症を伴う病気に有効でした。魚鱗癬でも試してみる価値があるかもしれませんので、主治医に相談してみてください。",
+  "created_at": "2026-04-15 22:51:43",
+  "slug": "bbff4d5dac1a54fd"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "digest_date": "2026-06-23",
+  "source": "pubmed",
+  "source_id": "42311448",
+  "original_title": "Translational insights into interleukin-driven macrophage polarization as diagnostic biomarkers for atopic dermatitis-a narrative review.",
+  "title_ja": "アトピー性皮膚炎の診断に役立つ新しい手がかり：免疫の重要な働きについて",
+  "summary_ja": "この研究はアトピー性皮膚炎での免疫の動きを詳しく調べたものです。特に、インターロイキンという物質がどのように免疫細胞を働かせるかに注目しています。この働きがバランスを崩すと、肌に炎症が起きやすくなるそうです。今回の研究により、将来的には魚鱗癬など他の皮膚病にも応用できる可能性があります。このような理解が進むことで、より正確な診断や新しい治療法が期待されています。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42311448/",
+  "published_date": "2026",
+  "curation_reasoning": "アトピー性皮膚炎の診断や治療に関する新しい知見が魚鱗癬にも適用できる可能性があるため、関連性が高いと判断。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は肌の炎症を引き起こすメカニズムを詳しく解明していて、魚鱗癬のような他の皮膚疾患にも応用できるかもしれません。患者としては、引き続き日常のスキンケアを重視しつつ、新しい治療法が利用可能になるのを期待しましょう。",
+  "created_at": "2026-06-23 23:14:21",
+  "slug": "3b7dbc7f463166d7"
+}

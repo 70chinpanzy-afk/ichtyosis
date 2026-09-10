@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-08-13",
+  "source": "pubmed",
+  "source_id": "42559654",
+  "original_title": "Sleep Disturbance and Atopic Dermatitis: A Bidirectional Relationship With Clinical and Therapeutic Implications.",
+  "title_ja": "アトピー性皮膚炎と睡眠の関係：症状への影響と治療方法",
+  "summary_ja": "この研究は、アトピー性皮膚炎の患者さんに多く見られる睡眠障害についてで、症状と睡眠が互いに悪影響を及ぼすということが分かりました。かゆみや皮膚の乾燥感が夜間の睡眠を妨げる一方、質の悪い睡眠が皮膚のバリアの修復を邪魔し、さらにかゆみを悪化させます。睡眠環境を整えることが、皮膚の状態改善につながる可能性があります。この知見は魚鱗癬のケアにも役立ちます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42559654/",
+  "published_date": "2026-07",
+  "curation_reasoning": "皮膚疾患全般で重要となる睡眠と症状の関係は、魚鱗癬患者にとってもケア改善へのヒントになります。",
+  "drugs_json": "[]",
+  "patient_insight": "皮膚疾患を持つ方は、良質な睡眠が皮膚の健康を保つカギとなります。睡眠環境を整えることで、症状が軽減される可能性がありますので、寝具や生活習慣を見直してみてください。",
+  "created_at": "2026-08-13 22:52:34",
+  "slug": "4e257f3bc6ff5037"
+}

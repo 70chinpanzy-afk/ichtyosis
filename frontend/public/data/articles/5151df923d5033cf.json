@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "digest_date": "2026-07-10",
+  "source": "pubmed",
+  "source_id": "42398206",
+  "original_title": "Unveiling the pharmacological basis of Rhodiola crenulata for atopic dermatitis: A multi-model approach combining zebrafish, mouse studies, and intelligent computational analysis.",
+  "title_ja": "アトピー性皮膚炎へのロディオラクレヌラータの効果の解明",
+  "summary_ja": "この研究では、植物由来のロディオラクレヌラータがアトピー性皮膚炎に及ぼす影響を調べました。動物実験と計算機解析により、炎症を抑える効果が確認されました。これが魚鱗癬にも応用できるかはまだ明確ではありませんが、将来的に植物エキスを使った新しい治療法の可能性を示唆しています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42398206/",
+  "published_date": "2026 Jun 26",
+  "curation_reasoning": "植物エキスが炎症を抑える可能性があり、魚鱗癬の新しい治療法につながるかもしれない。",
+  "drugs_json": "[{\"drug_name\": \"ロディオラクレヌラータ\", \"ingredients\": \"カエムフェロール, ナリンゲニン\", \"description\": \"炎症や酸化ストレスを抑える植物由来の成分\"}]",
+  "patient_insight": "植物由来のエキスが炎症を抑えるかもしれませんが、まだ研究中です。新しい治療法になる可能性がありますが、使用する前に必ず医師に相談してください。",
+  "created_at": "2026-07-10 23:06:43",
+  "slug": "5151df923d5033cf"
+}

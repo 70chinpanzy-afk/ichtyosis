@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "digest_date": "2026-08-25",
+  "source": "pubmed",
+  "source_id": "42608924",
+  "original_title": "[Use of recombinant nerve growth factor in the treatment of neurotrophic keratitis associated with ichthyosis follicularis, atrichia, and photophobia (IFAP syndrome)].",
+  "title_ja": "神経成長因子を用いたIFAP症候群の治療例",
+  "summary_ja": "この研究では、IFAP症候群という珍しい病気に対して、遺伝子組み換えされた神経成長因子を用いた治療を紹介しています。患者さんは目の表面の損傷がありましたが、新しい治療により症状が改善しました。この新しいアプローチは、他の類似疾患への応用も考えられます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42608924/",
+  "published_date": "2026",
+  "curation_reasoning": "IFAP症候群の治療に成功した事例は、魚鱗癬に類似する症状の治療に関しても参考になります。",
+  "drugs_json": "[{\"drug_name\": \"セネゲルミン\", \"ingredients\": \"遺伝子組み換え神経成長因子\", \"description\": \"神経と皮膚の修復を助ける治療薬です\"}]",
+  "patient_insight": "この神経成長因子の治療は、皮膚の問題に直面している方にとって希望になります。他の症状が似ている疾病に適用される可能性もあるため、今後の発展に期待が持てます。主治医と相談しながら治療の可能性を探ると良いでしょう。",
+  "created_at": "2026-08-25 22:35:19",
+  "slug": "511ac773bc4be754"
+}

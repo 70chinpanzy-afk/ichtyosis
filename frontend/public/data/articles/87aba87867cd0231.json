@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "digest_date": "2026-07-11",
+  "source": "pubmed",
+  "source_id": "42423580",
+  "original_title": "Real-world outcomes of 24-week abrocitinib tapering in moderate-to-severe atopic dermatitis: Feasibility and regimen comparison.",
+  "title_ja": "中等度から重度のアトピー性皮膚炎におけるアブロシチニブの24週間の漸減治療の現実的な成果",
+  "summary_ja": "この研究は、アトピー性皮膚炎の患者にアブロシチニブ（皮膚の炎症を軽減する薬）を24週間にわたって徐々に減量する方法を評価しています。78人の患者が対象とされ、97%以上が成功裏に薬を減らすことができました。これにより、コスト削減にも寄与しました。お金をかけずに効果的な治療を維持する方法として期待できます。これからの選択肢となる可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42423580/",
+  "published_date": "2026 Jul 09",
+  "curation_reasoning": "アトピー性皮膚炎の治療法が魚鱗癬にも応用可能であり、特に薬の漸減が可能であることは患者にとって重要です。",
+  "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ（abrocitinib）\", \"description\": \"皮膚の炎症を軽減する内服薬で、特にアトピー性皮膚炎の治療に使われます\"}]",
+  "patient_insight": "アブロシチニブの治療法が、長期間の使用を考慮しても効果的であることが示されています。興味がある場合は、医師に相談して、この方法を試す価値があるか確認してみてください。",
+  "created_at": "2026-07-11 22:58:07",
+  "slug": "87aba87867cd0231"
+}

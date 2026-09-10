@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "digest_date": "2026-06-12",
+  "source": "clinical_trials",
+  "source_id": "NCT05979831",
+  "original_title": "A Phase 1b/2, Double-Blind, Placebo-Controlled, Randomized, Parallel-Arm Study to Explore Safety, Pharmacokinetics, and Early Clinical Signal of Efficacy of DS-2325a in Patients With Netherton Syndrome",
+  "title_ja": "ネザートン症候群患者におけるDS-2325aの安全性と有効性の初期信号を評価する試験",
+  "summary_ja": "この研究は、ネザートン症候群という希少疾患を持つ患者さんに対するDS-2325aという新薬の効果を初めて試したものです。現在は早期の試験段階であり、安全性や体にどう作用するかを詳しく調べています。ネザートン症候群と魚鱗癬はどちらも皮膚のバリアが弱い病気で、同じような治療法が期待できます。このような新薬の開発は、魚鱗癬の治療にも応用される可能性があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT05979831",
+  "published_date": "2026-05-14",
+  "curation_reasoning": "ネザートン症候群に対する新薬の研究は、魚鱗癬の治療に応用できる潜在性があるため有益です。",
+  "drugs_json": "[{\"drug_name\": \"DS-2325a\", \"ingredients\": \"不明\", \"description\": \"ネザートン症候群向けに開発された新しい研究段階の薬\"}]",
+  "patient_insight": "この新しい治療法はまだ研究中ですが、根本的な治療につながる可能性があります。魚鱗癬に苦しむ方も新たな希望を持てるかもしれません。現段階では、通常の保湿ケアを続けることが推奨されます。",
+  "created_at": "2026-06-12 23:25:42",
+  "slug": "ac38e75d05d9c701"
+}

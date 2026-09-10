@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "digest_date": "2026-07-18",
+  "source": "google_news:Pluang",
+  "source_id": "95303cd0e84ba242",
+  "original_title": "EMA grants orphan drug status to Vanda's imsido... - Pluang",
+  "title_ja": "Vanda社の新薬「イムシド」の希少疾病用医薬品指定が認可",
+  "summary_ja": "Vanda社の新薬「イムシド」がEMA（欧州医薬品庁）から希少疾病用医薬品として指定されました。この薬は、皮膚の問題を持つ希少疾患に対する治療の可能性を持ちます。このような指定は、薬がまだ開発途中であることが多いですが、将来、魚鱗癬のような希少皮膚疾患に効果が期待されます。患者さんにとっては、新たな治療の選択肢が増えるかもしれません。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUi1lNUFGY0czcUVLWlhlY0pvVTNWeTRSWWNWcm55N3FGWERUaXc1cWZIakJURURNTEk0dUdGbnMydnVzeGZ1cGt5cWsxbUVfb2hWU1U2MjZ5Q3RNWW84M1JVUW82d1lYSFZuNEVfZDdBazd6N0FwMzRHUFM4dmRMQUxUbUlvTGpDU0NkaEdaZDRHbFdJZ3czbVlCZENvWE52NXhfSExIMWgxOVlf?oc=5",
+  "published_date": "2026-07-16",
+  "curation_reasoning": "この新薬は、魚鱗癬など希少疾患の治療の可能性があるため、患者さんにとって有益です。",
+  "drugs_json": "[{\"drug_name\": \"イムシド（Imsido）\", \"ingredients\": \"（不明）\", \"description\": \"希少皮膚疾患の治療を目指す新薬。\"}]",
+  "patient_insight": "この情報は、魚鱗癬などの希少疾患を持つ患者さんにとって、新しい治療法が登場する可能性を示しています。医師と相談し、最新の治療オプションについて聞いてみることをおすすめします。",
+  "created_at": "2026-07-18 22:57:47",
+  "slug": "240484a1bea6a378"
+}

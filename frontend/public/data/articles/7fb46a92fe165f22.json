@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-04-30",
+  "source": "clinical_trials",
+  "source_id": "NCT04341623",
+  "original_title": "Epidermal Permeability Barrier Function and Stratum Corneum Hydration of Xerosis Following Application of a Topical Moisturizer",
+  "title_ja": "保湿剤の適用による乾燥肌のバリア機能と角質層の水分保持",
+  "summary_ja": "この研究では、乾燥肌の治療として保湿剤を使うことで皮膚の水分がどれだけ保たれるかを調べています。保湿剤を使ったグループと使わなかったグループで比較し、肌のバリア機能の違いを測ります。この知見は、魚鱗癬紅皮症のような皮膚が乾燥しやすい疾患において非常に参考になるでしょう。日々のケアに役立つ具体的なデータが得られることが期待されます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT04341623",
+  "published_date": "2026-04-03",
+  "curation_reasoning": "保湿剤による肌バリア機能の改善は、魚鱗癬紅皮症の日常ケアに直結する情報といえます。",
+  "drugs_json": "[{\"drug_name\": \"市販保湿剤\", \"ingredients\": \"不明\", \"description\": \"皮膚の水分を補給し、乾燥を防ぐための一般的な保湿剤\"}]",
+  "patient_insight": "この研究は、保湿剤を使うことが肌の乾燥をどのくらい防げるかを教えてくれる重要なデータです。魚鱗癬の患者さんも、適切な保湿が症状管理に有効であることを意識してケアに努めましょう。",
+  "created_at": "2026-04-30 23:00:30",
+  "slug": "7fb46a92fe165f22"
+}

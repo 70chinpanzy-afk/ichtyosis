@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-06-07",
+  "source": "pubmed",
+  "source_id": "42220541",
+  "original_title": "Real-world effectiveness and safety of 200 mg abrocitinib initiation in Chinese adults with moderate-to-severe atopic dermatitis: a retrospective study.",
+  "title_ja": "アトピー性皮膚炎に対するアブロシチニブの実際の効果と安全性",
+  "summary_ja": "この研究は、重度から中度のアトピー性皮膚炎患者におけるアブロシチニブの効果と安全性についてのものです。アブロシチニブはJAK阻害剤と呼ばれる新しい薬剤で、体の炎症シグナルを抑える働きがあります。200 mgから始めることで、多くの患者で症状の改善が見られました。魚鱗癬の患者さんにも、同様の作用機序を持つ薬が効果を示す可能性があります。今後、より多くの患者で試されることを期待したいですね。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42220541/",
+  "published_date": "2026",
+  "curation_reasoning": "アブロシチニブのJAK阻害効果は、魚鱗癬の治療にも応用できる可能性があるため、関連性が高いと判断しました。",
+  "drugs_json": "[{\"drug_name\": \"アブロシチニブ（abrocitinib）\", \"ingredients\": \"アブロシチニブ\", \"description\": \"炎症を引き起こす体内のシグナルを抑える新しい薬\"}]",
+  "patient_insight": "アブロシチニブは日本でも使用されている薬です。この薬の効果を魚鱗癬にも試してもらうように主治医に相談してみると良いかもしれません。ただし、今はまだ魚鱗癬の治療として承認されていないので慎重に相談しましょう。",
+  "created_at": "2026-06-07 23:15:17",
+  "slug": "8b530c8ad8ed1577"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "digest_date": "2026-06-22",
+  "source": "pubmed",
+  "source_id": "42292609",
+  "original_title": "Secukinumab for lamellar ichthyosis in an adolescent: a case report.",
+  "title_ja": "セクキヌマブで層板状魚鱗癬が改善した事例",
+  "summary_ja": "14歳の女の子が生まれつきの層板状魚鱗癬を患い、セクキヌマブという薬を使って治療したという報告です。この薬は元々、他の皮膚炎用に開発されたもので、今回のケースでは、肌の状態が改善したことが観察されました。層板状魚鱗癬という珍しい病気にセクキヌマブが効く可能性を示す初めての報告です。今後、さらに多くの患者さんでこの薬が有効かを確認する研究が期待されます。",
+  "category": "新薬・治療法",
+  "relevance_score": 1.0,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42292609/",
+  "published_date": "2026 May 31",
+  "curation_reasoning": "このケーススタディは、層板状魚鱗癬の治療に新たな可能性を示しており、患者や家族に希望を与える情報です。",
+  "drugs_json": "[{\"drug_name\": \"セクキヌマブ（Secukinumab）\", \"ingredients\": \"セクキヌマブ（secukinumab）\", \"description\": \"免疫系の特定のタンパク質の働きを抑えることで抗炎症効果を持つ注射薬\"}]",
+  "patient_insight": "この報告に出てくるセクキヌマブは、魚鱗癬には今まで使われていなかった薬です。主治医に相談して、この治療が適切かどうか確認する価値があります。もしかしたら、今後大きな治療の選択肢になるかもしれません。",
+  "created_at": "2026-06-22 23:26:37",
+  "slug": "2de61a859f3db05b"
+}

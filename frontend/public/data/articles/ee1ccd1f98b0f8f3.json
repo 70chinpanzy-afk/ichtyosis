@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-06-24",
+  "source": "pubmed",
+  "source_id": "42335903",
+  "original_title": "Commensal Cutibacterium acnes-derived indolelactic acid safeguards skin barrier function through the aryl hydrocarbon receptor.",
+  "title_ja": "皮膚の細菌が作る成分が皮膚バリアを守る仕組みを発見",
+  "summary_ja": "皮膚に住む細菌Cutibacterium acnes（キューティバクテリウム・アクネス）が作るインドール乳酸という成分が、皮膚のバリアを修復し、乾燥や炎症を和らげることがわかりました。これにより皮膚を守るための新しい方法が示唆されています。この成分を使用することで、魚鱗癬のような皮膚の乾燥や炎症を抑えられるかもしれません。",
+  "category": "研究論文",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42335903/",
+  "published_date": "2026-06-23",
+  "curation_reasoning": "細菌由来の成分が皮膚のバリア機能を改善する可能性があり、魚鱗癬を含むバリア機能が低下する疾患の治療に役立つ可能性があるからです。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究では、皮膚に住む細菌が作る成分が皮膚の健康をサポートする可能性が示されています。この発見は、自然の成分で皮膚の症状を改善する新しい道を開くかもしれません。日々のケアでは、肌を清潔に保つことが大切です。",
+  "created_at": "2026-06-24 23:14:39",
+  "slug": "ee1ccd1f98b0f8f3"
+}

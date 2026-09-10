@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "digest_date": "2026-07-22",
+  "source": "pubmed",
+  "source_id": "42480860",
+  "original_title": "PHYTOCERAMIDES AND 6-HYDROXYCERAMIDES DEFICIENCY CORRELATES WITH BARRIER FUNCTION ALTERATION IN ATOPIC DERMATITIS SKIN.",
+  "title_ja": "フィトセラミドと6-ヒドロキシセラミドの不足がアトピー性皮膚炎の皮膚バリアに影響する",
+  "summary_ja": "この研究では、アトピー性皮膚炎の患者さんの皮膚バリアがどのように変化するかを調べました。特にフィトセラミドと6-ヒドロキシセラミドという脂質が不足すると、皮膚のバリア機能が低下することがわかりました。セラミドは皮膚を守る“壁”を作る大切な成分で、これが不足すると乾燥や炎症が進むことがあります。この研究成果は、適切なスキンケア製品の選択に役立つかもしれません。",
+  "category": "研究論文",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42480860/",
+  "published_date": "2026 Jul 21",
+  "curation_reasoning": "セラミドの不足が皮膚バリアに与える影響を知ることは、正しいスキンケアの選択に役立ち、魚鱗癬の患者さんにも同様の影響が考えられるため。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は、皮膚のバリアを強化することが大切であることを示しています。市販のセラミドを含む保湿剤を活用し、毎日のスキンケアの中で効果的に保護することを心掛けましょう。特に入浴後すぐの保湿が効果的です。",
+  "created_at": "2026-07-22 23:12:02",
+  "slug": "f5b14b90b0d8000b"
+}

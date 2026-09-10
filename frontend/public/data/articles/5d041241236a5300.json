@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-08-02",
+  "source": "pubmed",
+  "source_id": "42520678",
+  "original_title": "Dual role of macrophage heterogeneity in allergic inflammation: from mechanism to targeted therapy.",
+  "title_ja": "アレルギー性炎症におけるマクロファージの多様性と治療への応用",
+  "summary_ja": "アレルギー反応では、マクロファージ（免疫細胞）が複雑な役割を果たしています。この研究は、マクロファージが炎症を悪化させる一方で、治りを助ける働きもあることを示しています。特に、皮膚のバリア機能の回復に役立つ可能性があり、アレルギー性皮膚炎の治療に新たなアプローチを提供するかもしれません。この知見は、魚鱗癬のような皮膚疾患にも応用できる可能性があり、今後の治療法の開発につながるかもしれません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42520678/",
+  "published_date": "2026 Jul 28",
+  "curation_reasoning": "マクロファージの役割に関する新しい知見は、魚鱗癬を含む皮膚疾患の治療に役立つ可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は魚鱗癬の治療法の進展に役立つかもしれません。免疫系に関与する新しいアプローチに期待が持てますが、現時点では引き続き既存の治療とケアを行いましょう。",
+  "created_at": "2026-08-02 23:02:02",
+  "slug": "5d041241236a5300"
+}

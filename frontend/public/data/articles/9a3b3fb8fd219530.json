@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "digest_date": "2026-06-06",
+  "source": "google_news:Termedia",
+  "source_id": "9310885be4eb5a98",
+  "original_title": "Baricitinib in the treatment of atopic dermatitis: a systematic review of randomized controlled trials - Termedia",
+  "title_ja": "デュピクセント類似薬がアトピー性皮膚炎の治療に効果があるか調べる",
+  "summary_ja": "この研究は、バリシチニブという新しい薬がアトピー性皮膚炎にどれだけ効果的かを調べたものです。バリシチニブは体の中で炎症を引き起こす信号を抑える働きがあり、皮膚のかゆみや赤みを和らげます。魚鱗癬の治療にも役立つ可能性があり、今後の研究次第では魚鱗癬に対する新しい治療法として期待されます。こうした新薬が実用化されることで、患者さんの症状管理がより良くなるかもしれません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX1htWTV4SnA0b1RZRGdGaHJRdjA5VHo1MEhlNGtiVG5NVl9MY3ZQMXhWT2cwNkE4eW5Jci0ybzR3Wi1MU3Z1aFVCaU9xOTc1T055d0M1X2ptd2kyWkp3VU9vYkJPVm0xQjA1NnRadWxmOURrNTZrd2RDZTg2RHdkM0hWSmFYckg4WE5vZEFZRHFFYWZjQkJ1aVJiLXhfRUE4VUlzX1d3R1oxZjljQXhpV1NOQ2ZlOHhOQWc2aEpiS2o2OVVpcDJzdlJuelZuQk5PLXpVMzFwaWFyZw?oc=5",
+  "published_date": "2026-06-04",
+  "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の治療に共通する可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"バリシチニブ（Baricitinib）\", \"ingredients\": \"バリシチニブ\", \"description\": \"体内の炎症を抑えることで皮膚のかゆみや赤みを軽減する薬\"}]",
+  "patient_insight": "バリシチニブは新しい治療法の候補かもしれません。実際に使えるようになるまでは、現行のケアや治療法を続けて、主治医と新しい情報について話し合ってください。",
+  "created_at": "2026-06-06 23:11:37",
+  "slug": "9a3b3fb8fd219530"
+}

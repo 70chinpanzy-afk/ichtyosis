@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "digest_date": "2026-05-24",
+  "source": "youtube:Tea with MD",
+  "source_id": "e9105f6bbb5a9bb2",
+  "original_title": "If your legs look like this, it may be ichthyosis vulgaris.⁠",
+  "title_ja": "あなたの足がこんな風なら、それは魚鱗癬かも",
+  "summary_ja": "この動画では、単なる乾燥肌ではなく魚鱗癬という皮膚疾患について説明しています。皮膚がうまく剥がれ落ちないことで、死んだ皮膚が溜まり、保湿剤だけでは改善しにくい場合があります。このため、尿素や乳酸を含むクリームが有効です。動画は適切な製品の選び方を助けます。魚鱗癬の方には、日常ケアの方針を見直す良い機会です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.8,
+  "url": "https://www.youtube.com/watch?v=siJFPwbc3kQ",
+  "published_date": "2026-05-01",
+  "curation_reasoning": "魚鱗癬に特化した製品の選び方について具体的なアドバイスがあり、実用的な情報が得られます。",
+  "drugs_json": "[{\"drug_name\": \"尿素クリーム（Urea Cream）\", \"ingredients\": \"尿素（urea）\", \"description\": \"角質を柔らかくして、皮膚のうるおいを保つクリーム\"}, {\"drug_name\": \"乳酸クリーム（Lactic Acid Cream）\", \"ingredients\": \"乳酸（lactic acid）\", \"description\": \"角質を緩めて肌を滑らかにするクリーム\"}]",
+  "patient_insight": "動画で紹介される尿素や乳酸を含むクリームは、肉眼では見えない乾燥や剥離を改善する効果があります。市販製品を使用する際は、あらかじめ医師に相談することをお勧めします。",
+  "created_at": "2026-05-24 23:04:34",
+  "slug": "07c2dccf899b2a28"
+}

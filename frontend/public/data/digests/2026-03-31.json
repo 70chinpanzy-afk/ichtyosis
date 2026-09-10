@@ -13,7 +13,8 @@
     "published_date": "2026 Jan 30",
     "curation_reasoning": "魚鱗癬に直接関係する重大な遺伝的情報と治療管理の知見を提供しています。",
     "drugs_json": "[]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "1c6cc329f0f66376"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "published_date": "2026-03-20",
     "curation_reasoning": "先天性魚鱗癬の新しい治療法の開発は、患者に直接役立つため。",
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏\", \"ingredients\": \"塗布用軟膏の有効成分未公開\", \"description\": \"皮膚を潤し、乾燥から守るために開発された薬です\"}]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "206152bdee2f875c"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "published_date": "2026",
     "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の両方に関連する貴重な知見を提供し、病気との闘いに役立てられる情報があります。",
     "drugs_json": "[]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "1216ffbb5e6d977a"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "published_date": "2026 Apr",
     "curation_reasoning": "新しい治療法として注目されるJAK阻害薬が、魚鱗癬のような皮膚疾患にも応用可能であることを示唆しているため。",
     "drugs_json": "[{\"drug_name\": \"デュルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デュルゴシチニブ\", \"description\": \"炎症を引き起こす信号をブロックする新しい外用薬です。\"}]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "2a87787dcee65d7e"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "published_date": "2026-03-31",
     "curation_reasoning": "魚鱗癬の治療法として新しい技術が試みられており、患者さんにとって治療の選択肢が増える可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"ラパマイシン（Rapamycin）\", \"ingredients\": \"ラパマイシン（Sirolimus）\", \"description\": \"免疫を抑える効果があり、皮膚の異常を改善するために開発された外用薬。\"}]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "9b7e7b00aba08d22"
   },
   {
     "id": 6,
@@ -93,6 +98,7 @@
     "published_date": "2026 Mar",
     "curation_reasoning": "皮膚バリアを改善する方法は、魚鱗癬の患者さんにも有効であり、スキンケアの基本的な知識として重要です。",
     "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守るための重要な脂質を含んだ保湿剤です。\"}]",
-    "created_at": "2026-03-31 22:38:44"
+    "created_at": "2026-03-31 22:38:44",
+    "slug": "3d49fd89fe51d64f"
   }
 ]

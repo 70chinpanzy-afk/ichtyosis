@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-08-11",
+  "source": "pubmed",
+  "source_id": "42547464",
+  "original_title": "Skin Lipid Dysregulation in Atopic Dermatitis and Related Inflammatory Skin Diseases.",
+  "title_ja": "アトピー性皮膚炎における皮膚脂質の異常とその関係",
+  "summary_ja": "アトピー性皮膚炎は皮膚の脂質バランスが崩れることが原因の一つとされています。この研究は、皮膚のバリアを作るために必要な脂質がどのように破壊され、炎症が進むのかを詳しく調べました。特にセラミドという脂質の不足がバリアを弱めることが分かり、これが新しい治療につながる可能性があります。魚鱗癬といった似たような症状のある疾患でも、同様のアプローチが役立つかもしれません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42547464/",
+  "published_date": "2026 Jul",
+  "curation_reasoning": "この研究は皮膚の脂質バランスが炎症に与える影響を解明しており、魚鱗癬でも皮膚のバリア機能が重要であるため、関連する知見です。",
+  "drugs_json": "[]",
+  "patient_insight": "皮膚のバリアを守る脂質が不足していると炎症がひどくなることが分かってきました。セラミドを含む保湿剤を選んで使うことで、皮膚のバリアをサポートし、症状の改善につながるかもしれません。主治医に相談してみると良いでしょう。",
+  "created_at": "2026-08-11 22:53:10",
+  "slug": "3ad6810b6b442176"
+}

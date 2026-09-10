@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "digest_date": "2026-07-23",
+  "source": "pubmed",
+  "source_id": "42473558",
+  "original_title": "Engineering Multi-Scale Transdermal Delivery Systems for Atopic Dermatitis: Emerging Insights from the Gut-Skin Axis.",
+  "title_ja": "アトピー性皮膚炎治療における新しい貼付技術の可能性",
+  "summary_ja": "この研究は、アトピー性皮膚炎の治療に新しい貼付技術を応用する可能性を示しています。特に、腸と皮膚の関係を利用して、より効果的な治療を目指します。これにより、皮膚のバリア機能を改善することが期待されます。魚鱗癬の患者さんにも、皮膚のバリア機能を強化する新しい治療法としての可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42473558/",
+  "published_date": "2026",
+  "curation_reasoning": "この研究は、新しい貼付技術でアトピー性皮膚炎の治療が進む可能性があり、魚鱗癬の皮膚バリア改善にも役立つ可能性があるため。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は、魚鱗癬の治療において、皮膚のバリア機能を改善する新しい技術の可能性を示しています。今後の研究で効果が確認されれば、患者さんの日常ケアの選択肢が広がるかもしれません。",
+  "created_at": "2026-07-23 23:05:03",
+  "slug": "f6e8af8d1ae90e57"
+}

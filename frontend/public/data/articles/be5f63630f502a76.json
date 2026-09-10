@@ -1,0 +1,17 @@
+{
+  "id": 4,
+  "digest_date": "2026-04-04",
+  "source": "pubmed",
+  "source_id": "41919337",
+  "original_title": "Comparative efficacy of targeted systemic therapies for moderate-to-severe atopic dermatitis: a network meta-analysis of phase 3-4 randomized trials.",
+  "title_ja": "中等度から重度のアトピー性皮膚炎に対する薬の効果比較",
+  "summary_ja": "この研究は、中等度から重度のアトピー性皮膚炎に対する新しい薬の効果を比較したものです。様々な薬が試され、その中で特にウパダシチニブが高い効果を示しました。この薬は体内の炎症を引き起こすシグナルをブロックする働きがあります。アトピーの治療法は魚鱗癬にも応用できることがあり、この情報は患者さんにとって新しい治療の可能性を示しています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/",
+  "published_date": "2026 Dec",
+  "curation_reasoning": "アトピー性皮膚炎に対する効果のある治療法は、魚鱗癬の症状緩和にも役立つ可能性があるため、関連性が高いです。",
+  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"体内の炎症を引き起こすシグナルをブロックする飲み薬\"}]",
+  "created_at": "2026-04-04 22:39:12",
+  "slug": "be5f63630f502a76"
+}

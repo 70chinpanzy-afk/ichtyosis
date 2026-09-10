@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "digest_date": "2026-04-18",
+  "source": "pubmed",
+  "source_id": "41964248",
+  "original_title": "Mutation Analysis in Ten Cases With PNPLA1-Nonsyndromic Epidermal Differentiation Disorder: Evidence of a Founder Effect.",
+  "title_ja": "PNPLA1遺伝子変異による魚鱗癬タイプの分析",
+  "summary_ja": "この研究では、ARCI（常染色体劣性魚鱗癬）の一部を引き起こすPNPLA1遺伝子というものの変異を調べました。中国の患者さん10例を対象に、全エクソンシーケンシングという遺伝子解析技術を使い、よく見られる変異を特定しました。この研究は、魚鱗癬の遺伝的な仕組みを理解する手助けとなり、将来的には遺伝子治療の可能性を探ることにつながります。",
+  "category": "研究論文",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41964248/",
+  "published_date": "2026 Apr 10",
+  "curation_reasoning": "魚鱗癬の遺伝子パターンを明らかにすることで、将来的な遺伝子治療や個別化医療に役立つ可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は、魚鱗癬を引き起こす遺伝子変異を明らかにして、将来の治療法に重要な手がかりを提供するものです。現在採用できる治療法については、医師と密に連絡を取り合いながら進めることが大切です。",
+  "created_at": "2026-04-18 22:45:06",
+  "slug": "50b8de41bd1dfb34"
+}

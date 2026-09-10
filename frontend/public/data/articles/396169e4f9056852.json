@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "digest_date": "2026-06-12",
+  "source": "pubmed",
+  "source_id": "42244272",
+  "original_title": "Baricitinib for Itch-Dominant Atopic Dermatitis: A 52-week Baricitinib Real-World Experience in Korea.",
+  "title_ja": "かゆみを伴うアトピー性皮膚炎に対するバリシチニブの効果：韓国での実際の体験報告",
+  "summary_ja": "この研究は、韓国におけるアトピー性皮膚炎患者さんへのバリシチニブの効果を検証したものです。16週間の治療で、かゆみが半減し、湿疹の面積と重症度も50%以上改善しました。バリシチニブは、炎症を引き起こす体内の信号を妨げるタイプの薬です。この結果は、魚鱗癬の患者さんにも同様の薬理作用が期待できる可能性を示唆しています。今後、魚鱗癬の新薬開発にもつながるかもしれませんが、実際の効果を確認するためにはさらなる研究が必要です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42244272/",
+  "published_date": "2026 Jun",
+  "curation_reasoning": "バリシチニブは炎症を抑える薬で、魚鱗癬の症状改善につながる可能性があるため、患者さんにとって有用な情報です。",
+  "drugs_json": "[{\"drug_name\": \"バリシチニブ（Baricitinib）\", \"ingredients\": \"バリシチニブ（baricitinib）\", \"description\": \"炎症を引き起こす体内の信号を妨げる飲み薬\"}]",
+  "patient_insight": "バリシチニブは、アトピー性の症状を持つ方に効果があるとされています。魚鱗癬にも類似した症状があるため、医師と相談して使用を検討する価値があります。ただし、使用にあたっては医療専門家の指導が必要です。",
+  "created_at": "2026-06-12 23:25:42",
+  "slug": "396169e4f9056852"
+}

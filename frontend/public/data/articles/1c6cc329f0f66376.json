@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "digest_date": "2026-04-04",
+  "source": "pubmed",
+  "source_id": "41912165",
+  "original_title": "Epidemiology and Clinical Characteristics of Harlequin Ichthyosis: A Systematic Review and Meta-Analysis of Case Reports.",
+  "title_ja": "ハーリクイン魚鱗癬の特徴と治療についての研究",
+  "summary_ja": "この研究は、ハーリクイン魚鱗癬と呼ばれる非常にまれで重篤な皮膚疾患の特徴と治療法についてまとめたものです。皮膚に厚い鱗状のものができるこの病気のケースを世界中から集め、共通する特徴や遺伝子の傾向を調査しました。どの遺伝子の変異が多いのか、どの地域でよく見られるのか、またどの治療法が有効かを知ることで、今後の適切な治療戦略につなげることを目的としています。この知見は、魚鱗癬の患者さんや医療従事者にとって、より良い治療法を見つけるための重要な手がかりになります。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41912165/",
+  "published_date": "2026 Jan 30",
+  "curation_reasoning": "ハーリクイン魚鱗癬は魚鱗癬紅皮症の一種であり、疾患に関する詳細な知識と治療法の選択肢を増やすために役立つ情報です。",
+  "drugs_json": "[]",
+  "created_at": "2026-04-04 22:39:12",
+  "slug": "1c6cc329f0f66376"
+}

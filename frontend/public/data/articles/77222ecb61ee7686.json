@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-07-17",
+  "source": "pubmed",
+  "source_id": "42429252",
+  "original_title": "Evaluation of delgocitinib for the treatment of moderate to severe chronic hand eczema in adults.",
+  "title_ja": "中等度から重度の慢性手湿疹に対するデルゴシチニブの評価",
+  "summary_ja": "デルゴシチニブは、新しいタイプの塗り薬で、手の湿疹に対して効果があるとされています。長期間使用される軟膏ステロイドとは異なり、皮膚への負担が少なく、副作用が少ないです。この薬は、ビタミンA誘導体であるアリトレチノインよりも安全で効果的であることが証明されました。こうした特徴から、魚鱗癬のような皮膚の弱い状態にも応用できる可能性が考えられます。特に、肌荒れや炎症を抑えることが期待でき、日頃から悩んでいる方にとって役立つ情報です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42429252/",
+  "published_date": "2026 Jul 15",
+  "curation_reasoning": "デルゴシチニブは、皮膚に優しい新しい抗炎症薬であり、魚鱗癬など皮膚状態が弱い患者にも潜在的に役立つ可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"デルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デルゴシチニブ\", \"description\": \"皮膚の炎症を抑えるための新しいタイプの塗り薬\"}]",
+  "patient_insight": "この新しい塗り薬は、炎症を抑える効果があり、皮膚の状態を改善するサポートが期待できるかもしれません。ただし、必ず主治医に確認してから使用を考えてください。",
+  "created_at": "2026-07-17 22:56:47",
+  "slug": "77222ecb61ee7686"
+}

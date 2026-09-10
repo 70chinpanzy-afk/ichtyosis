@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "digest_date": "2026-05-09",
+  "source": "pubmed",
+  "source_id": "42097697",
+  "original_title": "Treatment of Chronic Erythema Multiforme Using JAK Inhibitors: A Systematic Review.",
+  "title_ja": "慢性多形紅斑に対するJAK阻害薬の治療",
+  "summary_ja": "慢性多形紅斑は、皮膚に発疹が現れる症状で、JAK阻害薬を用いた治療の効果が系統的にレビューされました。この薬は体内の炎症を引き起こすシグナルを抑えるもので、いくつかの症状に有効であるとされています。魚鱗癬と関連した炎症性症状にも応用が期待されますが、今後さらなる研究が必要です。患者さんにとっては、新しい治療法の選択肢として注目されます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42097697/",
+  "published_date": "2026 May 07",
+  "curation_reasoning": "JAK阻害薬は、魚鱗癬の症状にも効果が期待できるため、このレビューは関連性があります。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitors）\", \"ingredients\": \"一般的なJAK阻害薬\", \"description\": \"体内で炎症を引き起こすシグナルをブロックする飲み薬\"}]",
+  "patient_insight": "新しい治療薬の選択肢が増えることで、将来的に役立つかもしれません。主治医と相談して治療プランを考えてみるのも良いかもしれません。",
+  "created_at": "2026-05-09 22:56:32",
+  "slug": "3497cd9686aa416c"
+}

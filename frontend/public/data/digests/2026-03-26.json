@@ -13,7 +13,8 @@
     "published_date": "2026-03-20",
     "curation_reasoning": "魚鱗癬の患者さんに直接効果がある外用薬の大規模試験で、新しい治療法が期待されるため。",
     "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未詳\", \"description\": \"RXLIやARCIタイプの魚鱗癬に対して効果が期待される外用薬\"}]",
-    "created_at": "2026-03-26 22:32:26"
+    "created_at": "2026-03-26 22:32:26",
+    "slug": "206152bdee2f875c"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "published_date": "2026",
     "curation_reasoning": "アトピー性皮膚炎と魚鱗癬の合併症が報告され、皮膚バリアの重要性が再確認されています。魚鱗癬患者の感染対策として有用な情報です。",
     "drugs_json": "[]",
-    "created_at": "2026-03-26 22:32:26"
+    "created_at": "2026-03-26 22:32:26",
+    "slug": "1216ffbb5e6d977a"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "published_date": "2026-03-12",
     "curation_reasoning": "Spesolimabが、ネザートン症候群に限定されず魚鱗癬にも効果を示す可能性が期待されるため、多くの患者さんに新しい治療選択肢を提供するかもしれません。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ（Spesolimab）\", \"description\": \"体内の過剰な免疫反応を抑えて、皮膚症状を改善するための注射薬\"}]",
-    "created_at": "2026-03-26 22:32:26"
+    "created_at": "2026-03-26 22:32:26",
+    "slug": "4d2340d4bf6acc12"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "published_date": "2026 Mar 24",
     "curation_reasoning": "JAK阻害薬の一つであるデュゴシチニブが、ステロイドフリーの治療法として評価されているため、魚鱗癬紅皮症の治療にも適用可能性があります。",
     "drugs_json": "[{\"drug_name\": \"デュゴシチニブ（Delgocitinib）\", \"ingredients\": \"デュゴシチニブ（Delgocitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックすることで、皮膚における炎症を抑えるクリーム\"}]",
-    "created_at": "2026-03-26 22:32:26"
+    "created_at": "2026-03-26 22:32:26",
+    "slug": "610a69ec15495a96"
   },
   {
     "id": 5,
@@ -77,6 +81,7 @@
     "published_date": "2026",
     "curation_reasoning": "トファシチニブは炎症の根本を抑えることで、魚鱗癬の免疫系が関与する症状にも応用される可能性があります。",
     "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（Tofacitinib）\", \"description\": \"体内の炎症を引き起こす信号を阻害することによって、様々な免疫系疾患を治療する飲み薬\"}]",
-    "created_at": "2026-03-26 22:32:26"
+    "created_at": "2026-03-26 22:32:26",
+    "slug": "0d66ae03270750e7"
   }
 ]

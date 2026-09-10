@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-09-10",
+  "source": "clinical_trials",
+  "source_id": "NCT07783165",
+  "original_title": "Patient Study to Evaluate the Safety and Emollient Performance of Doublebase Once in the Treatment of Ichthyosis",
+  "title_ja": "魚鱗癬の治療におけるダブルベースワンスの安全性と保湿効果の評価",
+  "summary_ja": "この研究は、魚鱗癬患者においてダブルベースワンスという保湿剤の安全性と効果を評価するもので、28日間の調査が行われます。保湿剤は、肌を柔らかく保つことで、かゆみや乾燥を軽減すると期待されます。魚鱗癬の患者さんの日常ケアに役立つ製品の開発が進んでいることを示しています。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://clinicaltrials.gov/study/NCT07783165",
+  "published_date": "2026-09-08",
+  "curation_reasoning": "魚鱗癬の治療に直接関連する保湿剤の研究であり、患者さんの生活の質を高める可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"ダブルベースワンス（Doublebase Once）\", \"ingredients\": \"不明\", \"description\": \"肌を柔らかく保ち、乾燥やかゆみを軽減する保湿剤\"}]",
+  "patient_insight": "この保湿剤が日常的なスキンケアに利用できる可能性があります。主治医に相談しつつ、新しいケア方法として試してみるのも良いでしょう。適切な保湿は、魚鱗癬の症状緩和に重要です。",
+  "created_at": "2026-09-10 00:02:28",
+  "slug": "6b28d18fc6257e9b"
+}

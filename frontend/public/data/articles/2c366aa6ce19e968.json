@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "digest_date": "2026-06-22",
+  "source": "pubmed",
+  "source_id": "42292717",
+  "original_title": "Systemic Salicylate Toxicity From Topical Emollient Use in an Infant With Suspected Ichthyosis.",
+  "title_ja": "魚鱗癬が疑われる乳児における鎮痛剤含むクリームの危険性",
+  "summary_ja": "魚鱗癬の疑いがある6ヶ月の赤ちゃんが、サリチル酸を含むクリームを使用して重篤な中毒状態になった事例です。このクリームを長期間使用し続けた結果、赤ちゃんは意識障害や代謝の問題を起こしました。サリチル酸は一般に痛みや炎症を和らげる成分ですが、皮膚から吸収されて中毒を引き起こすことがあります。これからは、特に幼い子供にはこうした成分を含む製品の使用に注意が必要です。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42292717/",
+  "published_date": "2026 Jun",
+  "curation_reasoning": "安全なスキンケアの選択が重要であることを示すケーススタディで、患者の生活に直結する情報です。",
+  "drugs_json": "[{\"drug_name\": \"サリチル酸（Salicylic acid）\", \"ingredients\": \"サリチル酸（salicylic acid）\", \"description\": \"皮膚の角質除去や炎症を抑える働きを持つ薬用成分\"}]",
+  "patient_insight": "この事例から、薬用のクリームや保湿剤を選ぶ際には特に注意が必要です。成分に迷ったときは主治医に確認し、安全なものを選ぶよう心掛けてください。",
+  "created_at": "2026-06-22 23:26:37",
+  "slug": "2c366aa6ce19e968"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 3,
+  "digest_date": "2026-07-17",
+  "source": "google_news:Pluag",
+  "source_id": "95303cd0e84ba242",
+  "original_title": "EMA grants orphan drug status to Vanda's imsido... - Plung",
+  "title_ja": "Vanda社の新薬イムシドにオーファンドラッグ指定",
+  "summary_ja": "EMA（欧州医薬品庁）が、Vanda社の新薬イムシドにオーファンドラッグ（孤児薬）指定を与えました。この指定は、希少疾患の治療薬の開発を支援するためのもので、開発と承認が促進されます。イムシドは魚鱗癬の患者さんにも将来的に役立つかもしれません。オーファンドラッグとしての指定は、この薬が希少疾患にとって重要な治療法となる可能性を示しています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUi1lNUFGY0czcUVLWlhlY0pvVTNWeTRSWWNWcm55N3FGWERUaXc1cWZIakJURURNTEk0dUdGbnMydnVzeGZ1cGt5cWsxbUVfb2hWU1U2MjZ5Q3RNWW84M1JVUW82d1lYSFZuNEVfZDdBazd6N0FwMzRHUFM4dmRMQUxUbUlvTGpDU0NkaEdaZDRHbFdJZ3czbVlCZENvWE52NXhfSExIMWgxOVlf?oc=5",
+  "published_date": "2026-07-16",
+  "curation_reasoning": "オーファンドラッグ指定は、魚鱗癬を含む希少疾患にとって新しい治療薬の開発を加速するための重要なステップです。",
+  "drugs_json": "[{\"drug_name\": \"イムシド（Imsido）\", \"ingredients\": \"未公開\", \"description\": \"希少疾患の治療を目的とした新薬で、オーファンドラッグとして指定されています。\"}]",
+  "patient_insight": "イムシドが将来的に魚鱗癬の治療選択肢になるかもしれません。このニュースは、希少疾患に対する新しい治療法の開発に励みを与えるものです。主治医と相談しながら今後の進展を注視しましょう。",
+  "created_at": "2026-07-17 22:56:47",
+  "slug": "e54e24269890081c"
+}
