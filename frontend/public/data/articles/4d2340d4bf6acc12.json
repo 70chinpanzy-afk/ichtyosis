@@ -13,5 +13,6 @@
   "curation_reasoning": "新薬が魚鱗癬の治療に応用できる可能性があるため。",
   "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ（spesolimab）\", \"description\": \"免疫反応を調節する新しい注射薬。\"}]",
   "created_at": "2026-04-01 22:42:27",
-  "slug": "4d2340d4bf6acc12"
+  "slug": "4d2340d4bf6acc12",
+  "themes": []
 }

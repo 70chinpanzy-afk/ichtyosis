@@ -13,5 +13,8 @@
   "curation_reasoning": "敏感肌や乾燥による肌トラブルについての情報が、魚鱗癬のケア方法として参考になるため。",
   "drugs_json": "[{\"drug_name\": \"セラヴィ（CeraVe）\", \"ingredients\": \"不明\", \"description\": \"保湿剤として使用されるスキンケア商品\"}]",
   "created_at": "2026-03-18 13:45:19",
-  "slug": "ca0d8cbcc5951152"
+  "slug": "ca0d8cbcc5951152",
+  "themes": [
+    "moisturizer"
+  ]
 }

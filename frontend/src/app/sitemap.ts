@@ -16,6 +16,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/themes`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -43,6 +49,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             });
           }
         }
+      }
+    }
+  } catch {
+    // フェッチ失敗時はスキップ
+  }
+
+  // テーマ別ページを動的に追加（件数0のテーマも一覧ページとして存在するため含める）
+  try {
+    const themesRes = await fetch(`${baseUrl}/data/themes.json`);
+    if (themesRes.ok) {
+      const themes = await themesRes.json();
+      for (const theme of themes) {
+        entries.push({
+          url: `${baseUrl}/themes/${theme.key}`,
+          lastModified: new Date(),
+          changeFrequency: "weekly",
+          priority: 0.6,
+        });
       }
     }
   } catch {

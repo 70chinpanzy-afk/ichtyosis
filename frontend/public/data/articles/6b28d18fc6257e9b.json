@@ -14,5 +14,9 @@
   "drugs_json": "[{\"drug_name\": \"ダブルベースワンス（Doublebase Once）\", \"ingredients\": \"不明\", \"description\": \"肌を柔らかく保ち、乾燥やかゆみを軽減する保湿剤\"}]",
   "patient_insight": "この保湿剤が日常的なスキンケアに利用できる可能性があります。主治医に相談しつつ、新しいケア方法として試してみるのも良いでしょう。適切な保湿は、魚鱗癬の症状緩和に重要です。",
   "created_at": "2026-09-10 00:02:28",
-  "slug": "6b28d18fc6257e9b"
+  "slug": "6b28d18fc6257e9b",
+  "themes": [
+    "itch",
+    "moisturizer"
+  ]
 }

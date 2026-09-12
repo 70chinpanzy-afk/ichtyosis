@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitors）\", \"ingredients\": \"一般的なJAK阻害薬\", \"description\": \"体内で炎症を引き起こすシグナルをブロックする飲み薬\"}]",
   "patient_insight": "新しい治療薬の選択肢が増えることで、将来的に役立つかもしれません。主治医と相談して治療プランを考えてみるのも良いかもしれません。",
   "created_at": "2026-05-09 22:56:32",
-  "slug": "3497cd9686aa416c"
+  "slug": "3497cd9686aa416c",
+  "themes": []
 }

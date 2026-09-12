@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"体内の炎症を起こす信号をブロックする薬です。\"}]",
   "patient_insight": "トファシチニブのUVA-1光線療法との組み合わせは珍しい治療法ですが、炎症を伴う病気に有効でした。魚鱗癬でも試してみる価値があるかもしれませんので、主治医に相談してみてください。",
   "created_at": "2026-04-15 22:51:43",
-  "slug": "bbff4d5dac1a54fd"
+  "slug": "bbff4d5dac1a54fd",
+  "themes": []
 }

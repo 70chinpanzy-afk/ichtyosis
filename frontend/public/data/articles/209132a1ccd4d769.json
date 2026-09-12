@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"保湿クリーム（Moisturizing Cream）\", \"ingredients\": \"セラミド（Ceramide）など\", \"description\": \"皮膚の水分を補い、乾燥を防ぐための外用剤\"}]",
   "patient_insight": "このビデオでは、層板状魚鱗癬に対しての具体的な治療法が紹介されています。特に保湿ケアが重要であることが強調されているので、日常生活でのケアに取り入れてみるといいでしょう。",
   "created_at": "2026-08-13 22:52:34",
-  "slug": "209132a1ccd4d769"
+  "slug": "209132a1ccd4d769",
+  "themes": [
+    "moisturizer"
+  ]
 }

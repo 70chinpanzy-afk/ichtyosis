@@ -14,7 +14,11 @@
     "curation_reasoning": "魚鱗癬に直接関係する試験で、新しい治療法TMB-001が、患者さんの症状を改善する可能性を示しています。",
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"未公開\", \"description\": \"皮膚に塗ることで、乾燥やひび割れを和らげる可能性のある試験中の薬\"}]",
     "created_at": "2026-03-24 22:34:23",
-    "slug": "206152bdee2f875c"
+    "slug": "206152bdee2f875c",
+    "themes": [
+      "moisturizer",
+      "mental"
+    ]
   },
   {
     "id": 2,
@@ -31,7 +35,8 @@
     "curation_reasoning": "患者や介護者の具体的な生活の工夫が聞けるため、魚鱗癬に直接役立つ情報を提供。",
     "drugs_json": "[]",
     "created_at": "2026-03-24 22:34:23",
-    "slug": "5743339468a503de"
+    "slug": "5743339468a503de",
+    "themes": []
   },
   {
     "id": 3,
@@ -48,7 +53,8 @@
     "curation_reasoning": "JAK阻害薬はアトピー性皮膚炎の治療にも使われており、魚鱗癬紅皮症にも応用可能な知見となり得るため。",
     "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックする飲み薬。\"}]",
     "created_at": "2026-03-24 22:34:23",
-    "slug": "ea5aca2dc2191df9"
+    "slug": "ea5aca2dc2191df9",
+    "themes": []
   },
   {
     "id": 4,
@@ -65,6 +71,9 @@
     "curation_reasoning": "ネザートン症候群の治療が魚鱗癬の治療にも応用できる可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫反応を調整する注射薬で、炎症を抑える効果がある。\"}]",
     "created_at": "2026-03-24 22:34:23",
-    "slug": "4d2340d4bf6acc12"
+    "slug": "4d2340d4bf6acc12",
+    "themes": [
+      "mental"
+    ]
   }
 ]

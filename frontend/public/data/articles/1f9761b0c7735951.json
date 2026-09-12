@@ -13,5 +13,8 @@
   "curation_reasoning": "肌のバリア修復と保湿についての情報が魚鱗癬の患者さんのケアに役立つ可能性があるため。",
   "drugs_json": "[{\"drug_name\": \"Purito パンテノール モイスチャライザー\", \"ingredients\": \"パンテノール\", \"description\": \"肌のバリアを修復するための保湿剤\"}]",
   "created_at": "2026-03-18 13:45:19",
-  "slug": "1f9761b0c7735951"
+  "slug": "1f9761b0c7735951",
+  "themes": [
+    "moisturizer"
+  ]
 }

@@ -13,5 +13,6 @@
   "curation_reasoning": "アトピー性皮膚炎に対する効果のある治療法は、魚鱗癬の症状緩和にも役立つ可能性があるため、関連性が高いです。",
   "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"体内の炎症を引き起こすシグナルをブロックする飲み薬\"}]",
   "created_at": "2026-04-04 22:39:12",
-  "slug": "be5f63630f502a76"
+  "slug": "be5f63630f502a76",
+  "themes": []
 }

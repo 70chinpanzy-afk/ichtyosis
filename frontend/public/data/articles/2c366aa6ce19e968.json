@@ -14,5 +14,9 @@
   "drugs_json": "[{\"drug_name\": \"サリチル酸（Salicylic acid）\", \"ingredients\": \"サリチル酸（salicylic acid）\", \"description\": \"皮膚の角質除去や炎症を抑える働きを持つ薬用成分\"}]",
   "patient_insight": "この事例から、薬用のクリームや保湿剤を選ぶ際には特に注意が必要です。成分に迷ったときは主治医に確認し、安全なものを選ぶよう心掛けてください。",
   "created_at": "2026-06-22 23:26:37",
-  "slug": "2c366aa6ce19e968"
+  "slug": "2c366aa6ce19e968",
+  "themes": [
+    "moisturizer",
+    "newborn"
+  ]
 }

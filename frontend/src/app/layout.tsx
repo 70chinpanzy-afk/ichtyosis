@@ -122,6 +122,12 @@ export default function RootLayout({
                 最新
               </Link>
               <Link
+                href="/themes"
+                className="text-slate-600 hover:text-blue-600 transition"
+              >
+                テーマから探す
+              </Link>
+              <Link
                 href="/ichthyosis"
                 className="text-slate-600 hover:text-blue-600 transition"
               >

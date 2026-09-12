@@ -114,6 +114,9 @@ def test_テーマ項目は記事ページへ辿れる情報を持つ(out: Path)
     assert item["slug"] == article_slug("pubmed", "a")
     assert item["date"] == "2026-09-01"
     assert item["summary_ja"] == "要約です"
+    # 国内/海外バッジの判定に要る。無いと日本語ソースまで「海外」になる
+    assert item["source"] == "pubmed"
+    assert "original_title" in item
 
 
 def test_同じ記事が複数日にあっても索引では1件(out: Path):

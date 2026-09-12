@@ -13,5 +13,8 @@
   "curation_reasoning": "魚鱗癬で白斑や乾燥に悩む患者への参考情報として役立つ可能性があるため。",
   "drugs_json": "[]",
   "created_at": "2026-03-20 01:39:35",
-  "slug": "b683b1e8fd0da4b6"
+  "slug": "b683b1e8fd0da4b6",
+  "themes": [
+    "moisturizer"
+  ]
 }

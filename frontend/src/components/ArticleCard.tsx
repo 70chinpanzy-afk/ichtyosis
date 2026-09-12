@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Article, Category, CATEGORY_CONFIG, articleHref, getArticleRegion, REGION_CONFIG } from "@/lib/api";
+import { ArticleCardArticle, Category, CATEGORY_CONFIG, articleHref, getArticleRegion, REGION_CONFIG } from "@/lib/api";
 
 interface ArticleCardProps {
-  article: Article;
+  article: ArticleCardArticle;
 }
 
 export default function ArticleCard({ article }: ArticleCardProps) {

@@ -154,6 +154,10 @@ def _write_theme_index(out: Path, latest: dict[str, tuple[str, dict]]) -> None:
                 "relevance_score": row.get("relevance_score") or 0.0,
                 "date": digest_date,
                 "url": row.get("url") or "",
+                # フロント側の国内/海外バッジ判定に要る。無いと日本語ソースの
+                # 記事まで「海外」と表示されてしまう
+                "source": row.get("source") or "",
+                "original_title": row.get("original_title") or "",
             })
 
     index = []

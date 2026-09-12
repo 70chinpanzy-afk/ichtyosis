@@ -13,5 +13,8 @@
   "curation_reasoning": "ヒアルロン酸の保湿効果により、魚鱗癬の肌トラブル軽減に役立つ可能性が高いため。",
   "created_at": "2026-03-15 12:41:22",
   "drugs_json": "[{\"drug_name\": \"ヒアルロン酸（Hyaluronic Acid）\", \"ingredients\": \"ヒアルロン酸\", \"description\": \"皮膚の水分を保持し、保湿効果を高める成分\"}]",
-  "slug": "3411ccb5ef556858"
+  "slug": "3411ccb5ef556858",
+  "themes": [
+    "moisturizer"
+  ]
 }

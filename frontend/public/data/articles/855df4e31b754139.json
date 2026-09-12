@@ -13,5 +13,8 @@
   "curation_reasoning": "穏やかなオーツセラムは魚鱗癬紅皮症の敏感な肌にも適している可能性が高い。利用できるセラムとその成分が詳しく説明されているため、患者さんの自宅でのスキンケア選択に役立つ情報となっています。",
   "drugs_json": "[{\"drug_name\": \"Aveeno\", \"ingredients\": \"オートミール（oatmeal）\", \"description\": \"オーツを成分として含む、肌を穏やかにするセラム\"}, {\"drug_name\": \"First Aid Beauty\", \"ingredients\": \"コロイド状オートミール（colloidal oatmeal）\", \"description\": \"コロイド状のオートミールを含むセラムで、肌の炎症を和らげる効果がある\"}]",
   "created_at": "2026-03-20 01:39:35",
-  "slug": "855df4e31b754139"
+  "slug": "855df4e31b754139",
+  "themes": [
+    "moisturizer"
+  ]
 }

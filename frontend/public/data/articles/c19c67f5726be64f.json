@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内の免疫シグナルをブロックし、炎症を抑える新しいタイプの薬\"}]",
   "patient_insight": "ウパダシチニブのように、免疫系に働きかける新薬は、将来的に魚鱗癬でも応用される可能性があります。主治医と相談しながら、治療の選択肢の一つとして考えてみてください。",
   "created_at": "2026-08-01 23:01:21",
-  "slug": "c19c67f5726be64f"
+  "slug": "c19c67f5726be64f",
+  "themes": []
 }

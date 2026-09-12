@@ -130,7 +130,9 @@ export const REGION_CONFIG: Record<
 };
 
 /** 記事のregionを判定（regionフィールドがない場合はsourceから推定） */
-export function getArticleRegion(article: Article): Region {
+export function getArticleRegion(
+  article: Partial<Pick<Article, "region" | "source" | "original_title" | "title_ja">>
+): Region {
   if (article.region) return article.region;
   const japaneseSources = [
     "nikkei", "日経", "日本経済新聞",
@@ -195,9 +197,27 @@ export async function getArticle(id: string | number): Promise<Article> {
 }
 
 /** 記事の公開URLに使うID。slugがあれば優先し、無い古いデータはidにフォールバック */
-export function articleHref(article: Pick<Article, "id" | "slug">): string {
+export function articleHref(
+  article: Partial<Pick<Article, "id" | "slug">>
+): string {
   return `/article/${article.slug || article.id}`;
 }
+
+/**
+ * ArticleCard コンポーネントが実際に使うフィールドだけを抜き出した型。
+ * テーマ別ページ（ThemeArticle）など、Article型と完全には一致しないデータでも
+ * 必要なフィールドさえ揃えればカードをそのまま再利用できるようにするための型。
+ */
+export type ArticleCardArticle = Pick<
+  Article,
+  "title_ja" | "summary_ja" | "category" | "relevance_score" | "url"
+> &
+  Partial<
+    Pick<
+      Article,
+      "id" | "slug" | "source" | "original_title" | "published_date" | "region"
+    >
+  >;
 
 export async function searchArticles(
   query: string,
@@ -236,4 +256,40 @@ export async function searchArticles(
   return fetchJson<Article[]>(
     `${API_BASE}/api/search?q=${encodeURIComponent(query)}&limit=${limit}`
   );
+}
+
+// ===== テーマ別キュレーション =====
+
+export type ThemeSummary = {
+  key: string;
+  label: string;
+  count: number;
+};
+
+export type ThemeArticle = {
+  slug: string;
+  title_ja: string;
+  summary_ja: string;
+  category: string;
+  relevance_score: number;
+  date: string;
+  url: string;
+  source: string;
+  original_title: string;
+};
+
+export async function getThemes(): Promise<ThemeSummary[]> {
+  if (IS_STATIC) {
+    return fetchJson<ThemeSummary[]>("/data/themes.json");
+  }
+  // テーマ集計用のAPIエンドポイントは未実装のため、静的モードと同じパスを使う
+  return fetchJson<ThemeSummary[]>("/data/themes.json");
+}
+
+export async function getThemeArticles(key: string): Promise<ThemeArticle[]> {
+  if (IS_STATIC) {
+    return fetchJson<ThemeArticle[]>(`/data/themes/${key}.json`);
+  }
+  // テーマ集計用のAPIエンドポイントは未実装のため、静的モードと同じパスを使う
+  return fetchJson<ThemeArticle[]>(`/data/themes/${key}.json`);
 }

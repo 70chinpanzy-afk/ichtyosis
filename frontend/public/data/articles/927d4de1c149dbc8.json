@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ\", \"description\": \"体内の炎症を引き起こす信号をブロックする経口薬\"}, {\"drug_name\": \"バリシチニブ（Baricitinib）\", \"ingredients\": \"バリシチニブ\", \"description\": \"体の免疫反応を調整し、炎症を抑えるための薬\"}, {\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"JAK経路を阻害することで免疫反応を調整し、炎症を抑える薬\"}, {\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ\", \"description\": \"免疫反応を調整し、体内の炎症を抑える新しいタイプの薬\"}, {\"drug_name\": \"ルキシリチニブ（Ruxolitinib）\", \"ingredients\": \"ルキシリチニブ\", \"description\": \"免疫システムの特定の信号を遮断し、炎症を抑えるための薬\"}]",
   "patient_insight": "JAK阻害剤は、新しい治療法として期待できる薬です。今後の臨床研究で実際に効果が確認されれば、魚鱗癬の治療選択肢が広がるかもしれません。現在の治療が効果を示さない場合は、専門医に相談し、新たな治療法について情報を得ることをお勧めします。",
   "created_at": "2026-05-13 23:13:47",
-  "slug": "927d4de1c149dbc8"
+  "slug": "927d4de1c149dbc8",
+  "themes": []
 }

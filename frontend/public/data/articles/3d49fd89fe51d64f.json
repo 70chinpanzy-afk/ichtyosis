@@ -13,5 +13,8 @@
   "curation_reasoning": "皮膚バリアの保護や修復に関する情報は、魚鱗癬患者のケアにも応用可能で有益です。",
   "drugs_json": "[{\"drug_name\": \"セラミド配合保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守るバリアの材料となる脂質を含んだ保湿剤\"}]",
   "created_at": "2026-04-04 22:39:12",
-  "slug": "3d49fd89fe51d64f"
+  "slug": "3d49fd89fe51d64f",
+  "themes": [
+    "moisturizer"
+  ]
 }

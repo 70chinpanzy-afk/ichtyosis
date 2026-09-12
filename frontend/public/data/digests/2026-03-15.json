@@ -14,7 +14,8 @@
     "curation_reasoning": "アブロシチニブが魚鱗癬の治療に応用できる可能性が示されており、治療の選択肢として考えられるため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックすることで、皮膚の症状を改善する薬\"}]",
-    "slug": "de02410d9ee94bb4"
+    "slug": "de02410d9ee94bb4",
+    "themes": []
   },
   {
     "id": 31,
@@ -31,7 +32,10 @@
     "curation_reasoning": "遺伝子変異の発見が魚鱗癬の理解と治療の進展に寄与するため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "683e5de984810519"
+    "slug": "683e5de984810519",
+    "themes": [
+      "newborn"
+    ]
   },
   {
     "id": 32,
@@ -48,7 +52,8 @@
     "curation_reasoning": "魚鱗癬に特化した情報を提供しており、患者さんが日常生活での対策を考えるための有用な情報が含まれています。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "670232d1b0720843"
+    "slug": "670232d1b0720843",
+    "themes": []
   },
   {
     "id": 33,
@@ -65,7 +70,10 @@
     "curation_reasoning": "ヒアルロン酸の保湿効果により、魚鱗癬の肌トラブル軽減に役立つ可能性が高いため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"ヒアルロン酸（Hyaluronic Acid）\", \"ingredients\": \"ヒアルロン酸\", \"description\": \"皮膚の水分を保持し、保湿効果を高める成分\"}]",
-    "slug": "3411ccb5ef556858"
+    "slug": "3411ccb5ef556858",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 34,
@@ -82,7 +90,10 @@
     "curation_reasoning": "自然素材で肌の保護と保湿ができる方法は、魚鱗癬患者の肌ケアに役立つため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"ヒマワリ油（Sunflower Oil）\", \"ingredients\": \"ヒマワリ油\", \"description\": \"肌のバリア機能をサポートし、保湿する植物油\"}]",
-    "slug": "8795fa7f00d41699"
+    "slug": "8795fa7f00d41699",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 35,
@@ -99,7 +110,8 @@
     "curation_reasoning": "ナノスプレーが肌のバリア機能を強化する可能性があり、魚鱗癬のケアに役立つ可能性があるため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "0173cd6d8a938e09"
+    "slug": "0173cd6d8a938e09",
+    "themes": []
   },
   {
     "id": 36,
@@ -116,7 +128,8 @@
     "curation_reasoning": "同時に免疫と皮膚バリアにアプローチする点で魚鱗癬の治療に応用できるかもしれないため。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "1e7b9af9732f02ec"
+    "slug": "1e7b9af9732f02ec",
+    "themes": []
   },
   {
     "id": 37,
@@ -133,7 +146,8 @@
     "curation_reasoning": "ネザートン症候群は皮膚疾患であり、魚鱗癬に似た症状を持つことから、この治療法が魚鱗癬の患者にも参考になる可能性があります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫系を調整して皮膚の炎症を抑える作用を持つ新しい薬\"}]",
-    "slug": "4d2340d4bf6acc12"
+    "slug": "4d2340d4bf6acc12",
+    "themes": []
   },
   {
     "id": 38,
@@ -150,7 +164,8 @@
     "curation_reasoning": "ネザートン症候群は魚鱗癬と類似した皮膚疾患であり、この治療法が魚鱗癬の新たな治療法に繋がる可能性を秘めています。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"ネザートン症候群の炎症を抑制するために開発された新薬\"}]",
-    "slug": "35bb049951618962"
+    "slug": "35bb049951618962",
+    "themes": []
   },
   {
     "id": 39,
@@ -167,7 +182,10 @@
     "curation_reasoning": "デュピルマブは、魚鱗癬の皮膚バリアの問題にも応用できる可能性があります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]",
-    "slug": "7cb856aaaf1f1ba9"
+    "slug": "7cb856aaaf1f1ba9",
+    "themes": [
+      "itch"
+    ]
   },
   {
     "id": 40,
@@ -184,7 +202,11 @@
     "curation_reasoning": "魚鱗癬を持つ方にとってもスキンケアの工夫は重要で、治療法が限られている場合の対処法として参考になります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"イソトレチノイン（Isotretinoin）\", \"ingredients\": \"イソトレチノイン\", \"description\": \"皮脂の分泌を抑え、効果的にニキビを治療する飲み薬\"}]",
-    "slug": "ef12b5b53a2bf05b"
+    "slug": "ef12b5b53a2bf05b",
+    "themes": [
+      "infection",
+      "moisturizer"
+    ]
   },
   {
     "id": 41,
@@ -201,7 +223,8 @@
     "curation_reasoning": "皮膚状態が魚鱗癬に類似しており、日常のケアに関する実例が含まれているため、患者家族にとって有益です。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "00666280562387de"
+    "slug": "00666280562387de",
+    "themes": []
   },
   {
     "id": 42,
@@ -218,7 +241,8 @@
     "curation_reasoning": "日常生活で取り組める簡単な対処法として、水分摂取の重要性を示しており、魚鱗癬の患者にも参考になる可能性があります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "b57a295942194302"
+    "slug": "b57a295942194302",
+    "themes": []
   },
   {
     "id": 43,
@@ -235,7 +259,8 @@
     "curation_reasoning": "魚鱗癬を持つ人々が、日常生活や支援に関する情報を得るのに有用なリソースを提供する試みです。信頼できる情報が得られることは、患者さんの安心につながります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "e9c37eec4348b391"
+    "slug": "e9c37eec4348b391",
+    "themes": []
   },
   {
     "id": 44,
@@ -252,7 +277,11 @@
     "curation_reasoning": "同じ症状に悩む人々が、体験を通して得た情報を共有することは、他の患者さんにとって非常に有用です。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "f59b06da9c881b53"
+    "slug": "f59b06da9c881b53",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
   },
   {
     "id": 45,
@@ -269,7 +298,8 @@
     "curation_reasoning": "日常生活での実際の体験談に基づくアドバイスは、患者さんに勇気を与えるとともに具体的なケアの参考になります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "f7b88ab20afc136e"
+    "slug": "f7b88ab20afc136e",
+    "themes": []
   },
   {
     "id": 46,
@@ -286,7 +316,8 @@
     "curation_reasoning": "家庭でできる肌ケア方法は、魚鱗癬のケアにも応用できる可能性があります。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "dffe70c40446b399"
+    "slug": "dffe70c40446b399",
+    "themes": []
   },
   {
     "id": 47,
@@ -303,7 +334,8 @@
     "curation_reasoning": "トレチノインが皮膚疾患の治療に応用されることがあり、患者さんによる体験談はユーザーにとって価値のある情報です。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"トレチノイン（Tretinoin）\", \"ingredients\": \"トレチノイン（tretinoin）\", \"description\": \"皮膚の新陳代謝を促進し、角質を剥がすことで新しい皮膚の生成を助ける\"}]",
-    "slug": "77de1e1d0937ff30"
+    "slug": "77de1e1d0937ff30",
+    "themes": []
   },
   {
     "id": 48,
@@ -320,7 +352,8 @@
     "curation_reasoning": "患者さん本人の体験談で、魚鱗癬の診断や症状の変化についての具体例があり、他の患者さんの参考になる情報が含まれています。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[]",
-    "slug": "4e902f7db9ebe81a"
+    "slug": "4e902f7db9ebe81a",
+    "themes": []
   },
   {
     "id": 49,
@@ -337,6 +370,9 @@
     "curation_reasoning": "ケフィアという食材を使ったかゆみの軽減方法は、自然派志向の方や副作用の少ないケアを探している方にとって興味深い情報です。",
     "created_at": "2026-03-15 12:41:22",
     "drugs_json": "[{\"drug_name\": \"ケフィア（Kefir）\", \"ingredients\": \"乳酸菌（Lactobacillus）\", \"description\": \"発酵乳で、肌のpHを整えたり、かゆみ軽減に役立つ可能性がある\"}]",
-    "slug": "05336dc79040e554"
+    "slug": "05336dc79040e554",
+    "themes": [
+      "itch"
+    ]
   }
 ]

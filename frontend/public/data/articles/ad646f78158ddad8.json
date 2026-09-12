@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"アブロキシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ（abrocitinib）\", \"description\": \"体内の炎症を引き起こす信号を抑えることで皮膚の状態を改善する薬\"}]",
   "patient_insight": "魚鱗癬の患者さんにとって、アブロキシチニブが新たな治療の選択肢となる可能性があります。ただし、まずは主治医に相談してから使用を考えてください。今は保湿ケアを続けながら、最新の治療情報を追いかけることが大切です。",
   "created_at": "2026-05-15 23:04:03",
-  "slug": "ad646f78158ddad8"
+  "slug": "ad646f78158ddad8",
+  "themes": [
+    "moisturizer"
+  ]
 }

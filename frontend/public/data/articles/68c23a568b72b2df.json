@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"ケトチフェン（Ketotifen）\", \"ingredients\": \"ケトチフェン\", \"description\": \"抗ヒスタミン薬で、アレルギー反応を抑える\"}, {\"drug_name\": \"セチリジン（Cetirizine）\", \"ingredients\": \"セチリジン\", \"description\": \"抗ヒスタミン薬で、アレルギー反応を軽減\"}, {\"drug_name\": \"シクロスポリン（Cyclosporine）\", \"ingredients\": \"シクロスポリン\", \"description\": \"免疫抑制薬で、免疫系の過剰反応を抑える\"}]",
   "patient_insight": "皮膚に新しい異常が現れたときは、他の病気のサインである可能性も考え、医師に相談してください。早期の対応が健康を守るためには非常に大切です。",
   "created_at": "2026-08-18 22:32:06",
-  "slug": "68c23a568b72b2df"
+  "slug": "68c23a568b72b2df",
+  "themes": []
 }

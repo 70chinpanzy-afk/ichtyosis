@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"デルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デルゴシチニブ\", \"description\": \"皮膚の炎症を抑えるための新しいタイプの塗り薬\"}]",
   "patient_insight": "この新しい塗り薬は、炎症を抑える効果があり、皮膚の状態を改善するサポートが期待できるかもしれません。ただし、必ず主治医に確認してから使用を考えてください。",
   "created_at": "2026-07-17 22:56:47",
-  "slug": "77222ecb61ee7686"
+  "slug": "77222ecb61ee7686",
+  "themes": [
+    "moisturizer"
+  ]
 }

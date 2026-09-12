@@ -14,5 +14,9 @@
   "drugs_json": "[{\"drug_name\": \"角質軟化剤（Keratic Softening Agents）\", \"ingredients\": \"尿素、サリチル酸など\", \"description\": \"角質をやわらかくし、皮膚の状態を改善するための成分です。\"}]",
   "patient_insight": "冬に症状が悪化しがちな魚鱗癬には、保湿ケアが重要です。日常で使う保湿剤に角質をやわらかくするものを選ぶとよいでしょう。具体的な成分をチェックしながら選び、主治医に相談するとより効果的です。",
   "created_at": "2026-09-04 23:54:24",
-  "slug": "abf5b0894b453369"
+  "slug": "abf5b0894b453369",
+  "themes": [
+    "bathing",
+    "moisturizer"
+  ]
 }
