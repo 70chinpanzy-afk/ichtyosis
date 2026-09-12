@@ -30,6 +30,10 @@ class Theme:
     key: str
     label: str
     # 記事がこのテーマに当たるかの判定語（日本語・英語。小文字で比較する）
+    #
+    # 部分一致なので、短い語は別テーマの語に飲み込まれる。
+    # 実際に「垢」が「耳垢」に、「寝」が「寝具」に、「服」が「服用」に、
+    # 「遺伝」が遺伝子研究の記事すべてに誤爆した。2文字以下の語は避ける。
     keywords: tuple[str, ...]
     # 患者コミュニティ検索用（note / Reddit / YouTube）
     queries_ja: tuple[str, ...] = field(default_factory=tuple)
@@ -61,7 +65,7 @@ THEMES: tuple[Theme, ...] = (
     Theme(
         key="bathing",
         label="入浴・角質ケア",
-        keywords=("入浴", "お風呂", "シャワー", "角質", "皮むけ", "垢", "重曹", "入浴剤",
+        keywords=("入浴", "お風呂", "シャワー", "角質", "皮むけ", "あかすり", "重曹", "入浴剤",
                   "bath", "soak", "descal", "exfoliat", "keratolytic"),
         queries_ja=("魚鱗癬 入浴 方法", "魚鱗癬 皮むけ お風呂", "魚鱗癬 入浴剤"),
         queries_en=("ichthyosis bath routine", "ichthyosis descaling bath",
@@ -98,7 +102,7 @@ THEMES: tuple[Theme, ...] = (
     Theme(
         key="itch",
         label="かゆみ・睡眠",
-        keywords=("かゆみ", "痒", "掻き", "掻破", "睡眠", "寝",
+        keywords=("かゆみ", "痒", "掻き", "掻破", "睡眠", "就寝", "寝つ", "寝れ",
                   "itch", "pruritus", "scratch", "sleep"),
         queries_ja=("魚鱗癬 かゆみ 対策", "魚鱗癬 夜 眠れない"),
         queries_en=("ichthyosis itching relief", "ichthyosis sleep scratching night"),
@@ -115,7 +119,7 @@ THEMES: tuple[Theme, ...] = (
     Theme(
         key="clothing",
         label="衣類・寝具",
-        keywords=("衣類", "服", "寝具", "シーツ", "洗濯", "布団", "肌着",
+        keywords=("衣類", "衣服", "洋服", "寝具", "シーツ", "洗濯", "布団", "肌着",
                   "clothing", "fabric", "bedding", "sheets", "laundry"),
         queries_ja=("魚鱗癬 衣類 選び方", "魚鱗癬 寝具 シーツ 皮膚"),
         queries_en=("ichthyosis clothing fabric", "ichthyosis bedding sheets skin flakes"),
@@ -166,7 +170,7 @@ THEMES: tuple[Theme, ...] = (
     Theme(
         key="adult",
         label="おとな・仕事・妊娠",
-        keywords=("就職", "仕事", "職場", "妊娠", "出産", "遺伝", "結婚",
+        keywords=("就職", "仕事", "職場", "妊娠", "出産", "遺伝カウンセリング", "遺伝相談", "結婚",
                   "employment", "workplace", "pregnancy", "genetic counseling"),
         queries_ja=("魚鱗癬 仕事 職場", "魚鱗癬 遺伝 妊娠"),
         queries_en=("ichthyosis adult work life", "ichthyosis genetic counseling pregnancy"),
