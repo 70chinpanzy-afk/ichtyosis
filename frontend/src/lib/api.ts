@@ -134,6 +134,18 @@ export function getArticleRegion(
   article: Partial<Pick<Article, "region" | "source" | "original_title" | "title_ja">>
 ): Region {
   if (article.region) return article.region;
+
+  const source = (article.source || "").toLowerCase();
+
+  // ソースが分かっているものは、ソースで判定する。
+  // 以前はタイトルに日本語が含まれるかで推測していたため、日本語の見出しを
+  // 付けた海外ソース（FIRSTの実用ガイド等）が「日本」と表示されていた。
+  const foreignSources = ["pubmed", "clinical_trials", "patient_org", "reddit", "inspire"];
+  if (foreignSources.some((s) => source.includes(s))) return "international";
+
+  const domesticSources = ["japan_support", "note_", "shouman", "nanbyou"];
+  if (domesticSources.some((s) => source.includes(s))) return "japan";
+
   const japaneseSources = [
     "nikkei", "日経", "日本経済新聞",
     "yomiuri", "読売",
@@ -147,20 +159,40 @@ export function getArticleRegion(
     "impress", "Impress",
     "yahoo", "Yahoo",
   ];
-  const sourceLower = (article.source || "").toLowerCase();
   const titleLower = (article.original_title || article.title_ja || "").toLowerCase();
   for (const s of japaneseSources) {
-    if (sourceLower.includes(s.toLowerCase()) || titleLower.includes(s.toLowerCase())) {
+    if (source.includes(s.toLowerCase()) || titleLower.includes(s.toLowerCase())) {
       return "japan";
     }
   }
-  // タイトルが日本語主体なら日本ニュースと推定
+
+  // ソースから判断できない場合のみ、タイトルの言語から推定する
   const jaRegex = /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/;
   if (article.original_title && jaRegex.test(article.original_title)) {
     return "japan";
   }
   return "international";
 }
+
+/** 生のsource文字列は読者に見せない。人が読める名前に変換する */
+export function sourceLabel(source: string | null | undefined): string {
+  if (!source) return "その他";
+  const [prefix, rest] = source.split(":");
+  const map: Record<string, string> = {
+    pubmed: "PubMed",
+    clinical_trials: "臨床試験",
+    reddit: "Reddit",
+    google_news: rest || "ニュース",
+    youtube: "YouTube",
+    patient_blog: "note（患者・家族のブログ）",
+    japan_support: rest || "制度・支援",
+  };
+  if (prefix === "patient_org") {
+    return rest?.startsWith("FIRST") ? "FIRST（米国患者団体）" : rest || "患者団体";
+  }
+  return map[prefix] ?? source;
+}
+
 
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url, {

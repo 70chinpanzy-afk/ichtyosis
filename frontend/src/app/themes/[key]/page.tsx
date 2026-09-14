@@ -11,6 +11,7 @@ import {
   ArticleCardArticle,
 } from "@/lib/api";
 import ArticleCard from "@/components/ArticleCard";
+import { THEME_DOCUMENTS } from "@/lib/documents";
 
 /**
  * ThemeArticle を ArticleCard が期待する最小限の形に変換する。
@@ -103,6 +104,29 @@ export default function ThemeDetailPage() {
         <h2 className="text-2xl font-bold text-slate-800">{theme.label}</h2>
         <span className="text-sm text-slate-500">{theme.count}件の記事</span>
       </div>
+
+      {/* 使える資料（テーマキーに紐づく道具があれば記事一覧の上に表示） */}
+      {(THEME_DOCUMENTS[theme.key] ?? []).length > 0 && (
+        <div className="mb-6">
+          <h3 className="text-sm font-semibold text-slate-500 mb-2">
+            {"\u{1f9f0}"} 使える資料
+          </h3>
+          <div className="space-y-2">
+            {THEME_DOCUMENTS[theme.key].map((doc) => (
+              <Link
+                key={doc.href}
+                href={doc.href}
+                className="block rounded-xl border border-teal-200 bg-teal-50 p-4 transition hover:border-teal-300 hover:shadow-md"
+              >
+                <p className="font-semibold text-teal-800">{doc.title}</p>
+                <p className="text-sm text-teal-700 mt-1">
+                  {doc.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
 
       {articles.length > 0 ? (
         <div className="space-y-4">

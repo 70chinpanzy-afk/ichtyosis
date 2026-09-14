@@ -100,8 +100,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 min-h-screen`}
       >
-        {/* Header */}
-        <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
+        {/* Header（印刷時は手紙などの資料だけを出すため非表示にする） */}
+        <header className="bg-white border-b border-slate-200 sticky top-0 z-50 print:hidden">
           <div className="max-w-4xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-2">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80">
               <span className="text-2xl">{"\u{1f52c}"}</span>
@@ -162,10 +162,12 @@ export default function RootLayout({
         </header>
 
         {/* Main */}
-        <main className="max-w-4xl mx-auto px-4 py-6">{children}</main>
+        <main className="max-w-4xl mx-auto px-4 py-6 print:max-w-none print:p-0">
+          {children}
+        </main>
 
-        {/* Footer */}
-        <footer className="bg-white border-t border-slate-200 mt-12">
+        {/* Footer（印刷時は非表示） */}
+        <footer className="bg-white border-t border-slate-200 mt-12 print:hidden">
           <div className="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-slate-500">
             <p>
               IchthyoCure - 魚鱗癬紅皮症の最新情報を毎日お届け
