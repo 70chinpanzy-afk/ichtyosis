@@ -13,5 +13,10 @@
   "curation_reasoning": "湿疹のケアに関する実践的な体験が共有されており、親御さんにとって役立つ可能性があります。痒みの対処方法について知見を得ることができます。",
   "drugs_json": "[{\"drug_name\": \"ユーカリン湿疹リリーフクリーム（Eucerin Eczema Relief Cream）\", \"ingredients\": \"ヒドロコルチゾン\", \"description\": \"湿疹の炎症を和らげるクリーム\"}, {\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚の保湿を助けるジェル\"}, {\"drug_name\": \"プレドニゾロン（Prednisolone）\", \"ingredients\": \"プレドニゾロン\", \"description\": \"炎症を抑えるステロイド薬\"}, {\"drug_name\": \"ジルテック（Zyrtec）\", \"ingredients\": \"セチリジン\", \"description\": \"アレルギー症状を改善する抗ヒスタミン薬\"}, {\"drug_name\": \"ベナドリル（Benadryl）\", \"ingredients\": \"ジフェンヒドラミン\", \"description\": \"アレルギー反応を抑える抗ヒスタミン薬\"}]",
   "created_at": "2026-03-18 13:45:19",
-  "slug": "20294e55cc9bb70a"
+  "slug": "20294e55cc9bb70a",
+  "themes": [
+    "bathing",
+    "itch",
+    "moisturizer"
+  ]
 }

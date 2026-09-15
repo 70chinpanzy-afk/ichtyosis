@@ -13,5 +13,9 @@
   "curation_reasoning": "レチノールによる肌バリア損傷の対処例が、魚鱗癬患者さんにも応用できる可能性があるため。",
   "drugs_json": "[{\"drug_name\": \"アベンヌ - シカフィット\", \"ingredients\": \"セカライト\", \"description\": \"肌の回復を助ける再生クリーム\"}, {\"drug_name\": \"ラネージュ - クリームスキントナー\", \"ingredients\": \"緑茶エキス\", \"description\": \"肌を保護し、水分を補給するトナー\"}]",
   "created_at": "2026-03-18 13:45:19",
-  "slug": "6cbc59b3e72e5f1d"
+  "slug": "6cbc59b3e72e5f1d",
+  "themes": [
+    "itch",
+    "moisturizer"
+  ]
 }

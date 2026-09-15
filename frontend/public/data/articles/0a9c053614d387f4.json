@@ -13,5 +13,8 @@
   "curation_reasoning": "アトピー性皮膚炎の治療法が魚鱗癬にも応用できる可能性があり、患者さんのスキンケアに参考になる情報です。",
   "drugs_json": "[]",
   "created_at": "2026-03-25 22:39:02",
-  "slug": "0a9c053614d387f4"
+  "slug": "0a9c053614d387f4",
+  "themes": [
+    "moisturizer"
+  ]
 }

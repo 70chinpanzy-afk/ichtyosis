@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"免疫系の過剰反応を抑え、炎症を軽減する薬\"}]",
   "patient_insight": "ウパダシチニブのような新しい薬が、魚鱗癬の治療にも役立つかもしれません。まずは、医師と相談し、最新の情報に注意を払いながら治療を進めましょう。",
   "created_at": "2026-07-22 23:12:02",
-  "slug": "41c25ed4871b6cc9"
+  "slug": "41c25ed4871b6cc9",
+  "themes": [
+    "itch"
+  ]
 }

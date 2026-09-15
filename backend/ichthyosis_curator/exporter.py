@@ -7,6 +7,7 @@ import logging
 from pathlib import Path
 
 from ichthyosis_curator.db import get_digest_dates, get_articles_by_date, get_article_by_id
+from ichthyosis_curator.curation.themes import THEMES, detect_themes
 from ichthyosis_curator.identifiers import article_slug
 
 logger = logging.getLogger(__name__)
@@ -84,6 +85,16 @@ def _backfill_slugs(out: Path) -> tuple[int, int]:
                 rows_updated += 1
                 changed = True
 
+            # テーマは本文から決まる派生データなので、DBに列を足さず
+            # エクスポート時に計算する。判定語を変えれば過去分も次の実行で揃う。
+            themes = detect_themes(
+                f"{row.get('title_ja') or ''} {row.get('summary_ja') or ''} "
+                f"{row.get('patient_insight') or ''} {row.get('original_title') or ''}"
+            )
+            if row.get("themes") != themes:
+                row["themes"] = themes
+                changed = True
+
             known = latest.get(slug)
             if known is None or file_date >= known[0]:
                 latest[slug] = (file_date, row)
@@ -94,6 +105,8 @@ def _backfill_slugs(out: Path) -> tuple[int, int]:
                     json.dump(rows, f, ensure_ascii=False, indent=2, default=str)
             except OSError as e:
                 logger.warning(f"digests/{path.name} の書き戻しに失敗: {e}")
+
+    _write_theme_index(out, latest)
 
     articles_written = 0
     for slug, (_, row) in latest.items():
@@ -113,6 +126,62 @@ def _backfill_slugs(out: Path) -> tuple[int, int]:
             logger.warning(f"articles/{slug}.json の書き込みに失敗: {e}")
 
     return (rows_updated, articles_written)
+
+
+def _write_theme_index(out: Path, latest: dict[str, tuple[str, dict]]) -> None:
+    """困りごとテーマ別のインデックスを書き出す。
+
+    日付順に流れていくだけだと、5か月ぶんの蓄積が読み返せない。
+    「夏の汗」「学校」のように困りごとから引けるようにするための索引。
+
+      themes.json        - [{key, label, count}]
+      themes/<key>.json  - そのテーマの記事一覧
+    """
+    themes_dir = out / "themes"
+    themes_dir.mkdir(parents=True, exist_ok=True)
+
+    by_theme: dict[str, list[dict]] = {theme.key: [] for theme in THEMES}
+
+    for slug, (digest_date, row) in latest.items():
+        for key in row.get("themes") or []:
+            if key not in by_theme:
+                continue
+            by_theme[key].append({
+                "slug": slug,
+                "title_ja": row.get("title_ja") or row.get("original_title") or "",
+                "summary_ja": row.get("summary_ja") or "",
+                "category": row.get("category") or "",
+                "relevance_score": row.get("relevance_score") or 0.0,
+                "date": digest_date,
+                "url": row.get("url") or "",
+                # フロント側の国内/海外バッジ判定に要る。無いと日本語ソースの
+                # 記事まで「海外」と表示されてしまう
+                "source": row.get("source") or "",
+                "original_title": row.get("original_title") or "",
+            })
+
+    index = []
+    for theme in THEMES:
+        items = by_theme[theme.key]
+        # 蓄積を読む用途なので、新しさより「良い記事が上」を優先する
+        items.sort(key=lambda a: (a["relevance_score"], a["date"]), reverse=True)
+
+        with open(themes_dir / f"{theme.key}.json", "w", encoding="utf-8") as f:
+            json.dump(items, f, ensure_ascii=False, indent=2, default=str)
+
+        index.append({
+            "key": theme.key,
+            "label": theme.label,
+            "count": len(items),
+        })
+
+    with open(out / "themes.json", "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+
+    logger.info(
+        f"テーマ索引: {len(index)}テーマ / "
+        f"延べ {sum(t['count'] for t in index)} 件"
+    )
 
 
 def export_static_json(db_path: str, output_dir: str) -> int:

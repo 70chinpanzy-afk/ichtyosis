@@ -14,7 +14,8 @@
     "curation_reasoning": "JAK阻害薬はアトピー性皮膚炎で効果が確認されており、魚鱗癬のような皮膚炎症状にも応用できる可能性があります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "ea5aca2dc2191df9"
+    "slug": "ea5aca2dc2191df9",
+    "themes": []
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
     "curation_reasoning": "アブロシチニブが難治性の皮膚炎症に効果を示したことは、魚鱗癬患者にも新たな治療の可能性を示します。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "de02410d9ee94bb4"
+    "slug": "de02410d9ee94bb4",
+    "themes": []
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
     "curation_reasoning": "特殊な手のひらのパターンが魚鱗癬の早期診断や治療法選択の一助となる可能性があります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "516ee430836202b0"
+    "slug": "516ee430836202b0",
+    "themes": []
   },
   {
     "id": 21,
@@ -65,7 +68,8 @@
     "curation_reasoning": "この研究は皮膚のバリア機能を改善する新しいスプレー治療法に関するもので、魚鱗癬の患者にとっても役立つ可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"EGCG\", \"ingredients\": \"epigallocatechin-3-gallate\", \"description\": \"お茶の成分で、抗炎症作用を持つ\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "0173cd6d8a938e09"
+    "slug": "0173cd6d8a938e09",
+    "themes": []
   },
   {
     "id": 22,
@@ -82,7 +86,8 @@
     "curation_reasoning": "魚鱗癬の管理方法について具体的な情報を提供しており、患者さんの日常生活に役立つ可能性があります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "670232d1b0720843"
+    "slug": "670232d1b0720843",
+    "themes": []
   },
   {
     "id": 4,
@@ -99,7 +104,8 @@
     "curation_reasoning": "新しいナノスプレーの開発は皮膚の炎症やバリア機能の改善に役立ち、魚鱗癬のケアに応用できる可能性があります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "0173cd6d8a938e09"
+    "slug": "0173cd6d8a938e09",
+    "themes": []
   },
   {
     "id": 5,
@@ -116,7 +122,8 @@
     "curation_reasoning": "ネザートン症候群も魚鱗癬と同様に皮膚のバリアに問題が起こりうる疾患であり、この試験の結果が魚鱗癬の新たな治療法開発に貢献する可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫系の特定の部分を鎮めることで皮膚の炎症を抑える薬\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "4d2340d4bf6acc12"
+    "slug": "4d2340d4bf6acc12",
+    "themes": []
   },
   {
     "id": 6,
@@ -133,7 +140,8 @@
     "curation_reasoning": "ネザートン症候群は魚鱗癬と類似性があるため、この研究の結果が魚鱗癬の新しい治療法の開発に役立つ可能性があります。",
     "drugs_json": "[{\"drug_name\": \"QRX003（QRX003）\", \"ingredients\": \"QRX003\", \"description\": \"皮膚のバリアを強化し、炎症を抑えることを目的としたローション\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "c1e507f2055d8911"
+    "slug": "c1e507f2055d8911",
+    "themes": []
   },
   {
     "id": 7,
@@ -150,7 +158,10 @@
     "curation_reasoning": "敏感肌や乾燥による肌トラブルについての情報が、魚鱗癬のケア方法として参考になるため。",
     "drugs_json": "[{\"drug_name\": \"セラヴィ（CeraVe）\", \"ingredients\": \"不明\", \"description\": \"保湿剤として使用されるスキンケア商品\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "ca0d8cbcc5951152"
+    "slug": "ca0d8cbcc5951152",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 8,
@@ -167,7 +178,10 @@
     "curation_reasoning": "肌バリア修復に関する具体的なケア体験が魚鱗癬患者さんにも役立つ可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"無香料保湿剤\", \"ingredients\": \"不明\", \"description\": \"香料なしの保湿剤で肌を守る\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "ebf572f9492cd21e"
+    "slug": "ebf572f9492cd21e",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 9,
@@ -184,7 +198,10 @@
     "curation_reasoning": "肌のバリア修復と保湿についての情報が魚鱗癬の患者さんのケアに役立つ可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"Purito パンテノール モイスチャライザー\", \"ingredients\": \"パンテノール\", \"description\": \"肌のバリアを修復するための保湿剤\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "1f9761b0c7735951"
+    "slug": "1f9761b0c7735951",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 10,
@@ -201,7 +218,10 @@
     "curation_reasoning": "アキュテインの使用により肌の乾燥がひどくなる状況の相談で、魚鱗癬患者にも通じるスキンケアの必要性が示されています。",
     "drugs_json": "[{\"drug_name\": \"アキュテイン（Accutane）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮脂の分泌を抑え、にきびを改善する内服薬\"}, {\"drug_name\": \"ラウンドラボ - バーチジュースモイスチャライジングクリーム\", \"ingredients\": \"バーチジュース\", \"description\": \"皮膚の保湿を促進するクリーム\"}, {\"drug_name\": \"エクレリン - デルモピュアハイドラリペアクリーム\", \"ingredients\": \"\", \"description\": \"皮膚の乾燥と炎症を抑えるクリーム\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "440151c11433ed65"
+    "slug": "440151c11433ed65",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 11,
@@ -218,7 +238,11 @@
     "curation_reasoning": "レチノールによる肌バリア損傷の対処例が、魚鱗癬患者さんにも応用できる可能性があるため。",
     "drugs_json": "[{\"drug_name\": \"アベンヌ - シカフィット\", \"ingredients\": \"セカライト\", \"description\": \"肌の回復を助ける再生クリーム\"}, {\"drug_name\": \"ラネージュ - クリームスキントナー\", \"ingredients\": \"緑茶エキス\", \"description\": \"肌を保護し、水分を補給するトナー\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "6cbc59b3e72e5f1d"
+    "slug": "6cbc59b3e72e5f1d",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
   },
   {
     "id": 12,
@@ -235,7 +259,8 @@
     "curation_reasoning": "皮膚科医の診断を受けた患者さんの体験談で、魚鱗癬に悩む方々にとって実践的なスキンケア方法の参考になる情報が含まれています。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "00666280562387de"
+    "slug": "00666280562387de",
+    "themes": []
   },
   {
     "id": 13,
@@ -252,7 +277,8 @@
     "curation_reasoning": "成分が肌に与える影響についての情報は、魚鱗癬の治療やケアにとっても大切です。",
     "drugs_json": "[{\"drug_name\": \"シアバター\", \"ingredients\": \"オレイン酸\", \"description\": \"オレイン酸を多く含む保湿成分で、肌への浸透を助けますが、敏感肌の人には刺激になることがあります。\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "b734d218677474da"
+    "slug": "b734d218677474da",
+    "themes": []
   },
   {
     "id": 14,
@@ -269,7 +295,10 @@
     "curation_reasoning": "かゆみの緩和法としてケフィアが紹介されており、魚鱗癬の患者にも試す価値がある可能性があるため。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "05336dc79040e554"
+    "slug": "05336dc79040e554",
+    "themes": [
+      "itch"
+    ]
   },
   {
     "id": 15,
@@ -286,7 +315,10 @@
     "curation_reasoning": "分別ココナッツオイルが肌の保護に役立つ可能性があり、魚鱗癬の患者にも試す価値があるため。",
     "drugs_json": "[{\"drug_name\": \"分別ココナッツオイル（Fractionated Coconut Oil）\", \"ingredients\": \"ココナッツオイル\", \"description\": \"肌の水分を補い、柔らかくするための天然オイルです\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "918d61bee35b0c7d"
+    "slug": "918d61bee35b0c7d",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 16,
@@ -303,7 +335,12 @@
     "curation_reasoning": "湿疹のケアに関する実践的な体験が共有されており、親御さんにとって役立つ可能性があります。痒みの対処方法について知見を得ることができます。",
     "drugs_json": "[{\"drug_name\": \"ユーカリン湿疹リリーフクリーム（Eucerin Eczema Relief Cream）\", \"ingredients\": \"ヒドロコルチゾン\", \"description\": \"湿疹の炎症を和らげるクリーム\"}, {\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚の保湿を助けるジェル\"}, {\"drug_name\": \"プレドニゾロン（Prednisolone）\", \"ingredients\": \"プレドニゾロン\", \"description\": \"炎症を抑えるステロイド薬\"}, {\"drug_name\": \"ジルテック（Zyrtec）\", \"ingredients\": \"セチリジン\", \"description\": \"アレルギー症状を改善する抗ヒスタミン薬\"}, {\"drug_name\": \"ベナドリル（Benadryl）\", \"ingredients\": \"ジフェンヒドラミン\", \"description\": \"アレルギー反応を抑える抗ヒスタミン薬\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "20294e55cc9bb70a"
+    "slug": "20294e55cc9bb70a",
+    "themes": [
+      "bathing",
+      "itch",
+      "moisturizer"
+    ]
   },
   {
     "id": 23,
@@ -320,7 +357,10 @@
     "curation_reasoning": "この研究は新しい治療法について紹介しており、類似の皮膚疾患に応用できる可能性があるため、魚鱗癬の患者にとっても有用です。",
     "drugs_json": "[{\"drug_name\": \"JAK阻害薬\", \"ingredients\": \"JAK inhibitors\", \"description\": \"炎症を引き起こす体内の信号をブロックする新しいタイプの薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "fdf830e31dee7bd3"
+    "slug": "fdf830e31dee7bd3",
+    "themes": [
+      "infection"
+    ]
   },
   {
     "id": 24,
@@ -337,7 +377,8 @@
     "curation_reasoning": "ネザートン症候群の治療法の研究ですが、同様の皮膚疾患である魚鱗癬紅皮症にも応用できる可能性があり、期待が持てます。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ\", \"description\": \"免疫系の過剰反応を抑えて皮膚炎症を軽減する抗体薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "4d2340d4bf6acc12"
+    "slug": "4d2340d4bf6acc12",
+    "themes": []
   },
   {
     "id": 25,
@@ -354,7 +395,8 @@
     "curation_reasoning": "新薬BCX17725の効果が確認されれば、魚鱗癬紅皮症に対する新しい治療の一助となるかもしれません。",
     "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"未公開であるが、皮膚炎症の改善を目指す新薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "35bb049951618962"
+    "slug": "35bb049951618962",
+    "themes": []
   },
   {
     "id": 26,
@@ -371,7 +413,8 @@
     "curation_reasoning": "患者目線での実用情報が提供されており、家族のサポートに役立つと考えられるため。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "e9c37eec4348b391"
+    "slug": "e9c37eec4348b391",
+    "themes": []
   },
   {
     "id": 27,
@@ -388,7 +431,10 @@
     "curation_reasoning": "ワセリンの使い方に関する具体的な日常の工夫が、同じ問題を抱える人に役立つため。",
     "drugs_json": "[{\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"肌に潤いを閉じ込め、乾燥を防ぐ油脂性の保湿剤\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "70ceb627b275333e"
+    "slug": "70ceb627b275333e",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 28,
@@ -405,7 +451,10 @@
     "curation_reasoning": "乾燥肌を防ぐための保湿対策が魚鱗癬の患者さんにも応用可能なため。",
     "drugs_json": "[{\"drug_name\": \"アキュテイン（Accutane）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮脂の分泌を抑えてニキビを治療する内服薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "440151c11433ed65"
+    "slug": "440151c11433ed65",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 29,
@@ -422,7 +471,10 @@
     "curation_reasoning": "色素沈着の治療に関する情報は、皮膚が乾燥しやすい魚鱗癬の患者さんにとって有益です。投稿は日常的なケアの改善に役立ちます。",
     "drugs_json": "[{\"drug_name\": \"ヒドロキノン（Hydroquinone）\", \"ingredients\": \"ヒドロキノン\", \"description\": \"肌の色素沈着を薄くするために使用されるクリーム\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "9856c4fe9583226c"
+    "slug": "9856c4fe9583226c",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 30,
@@ -439,7 +491,8 @@
     "curation_reasoning": "魚鱗癬の類似症状を持つ方の体験談は、他の患者さんにも役立つ実践的なケア方法のヒントを提供する可能性があります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "00666280562387de"
+    "slug": "00666280562387de",
+    "themes": []
   },
   {
     "id": 31,
@@ -456,7 +509,10 @@
     "curation_reasoning": "冬の湿疹に悩む患者さんにとって、具体的な製品と方法の提案が実用的な手助けとなるため。",
     "drugs_json": "[{\"drug_name\": \"COSRX The Ceramide Skin Barrier Moisturizer\", \"ingredients\": \"セラミド\", \"description\": \"セラミドを含む保湿剤で、皮膚のバリアを強化し、乾燥を和らげるのに役立ちます。\"}, {\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"白色ワセリン\", \"description\": \"肌を保護し、乾燥を防ぐためのシンプルで安全な保湿剤。\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "3283aedc0d57fa2d"
+    "slug": "3283aedc0d57fa2d",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 32,
@@ -473,7 +529,8 @@
     "curation_reasoning": "特定の薬の効果が減少した場合の対応方法や、治療費の経済的負担についての情報が得られるため、患者さんの役に立ちます。",
     "drugs_json": "[{\"drug_name\": \"リンボック（Rinvoq）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内で炎症を引き起こすタンパク質の信号を妨げる薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "630ef9f4dcb0dfeb"
+    "slug": "630ef9f4dcb0dfeb",
+    "themes": []
   },
   {
     "id": 17,
@@ -490,7 +547,8 @@
     "curation_reasoning": "ネザートン症候群の治療に向けた研究が、魚鱗癬患者さんに利用できる可能性のある新薬開発を示唆しているため。",
     "drugs_json": "[{\"drug_name\": \"BCX17725（BCX17725）\", \"ingredients\": \"BCX17725\", \"description\": \"新たに開発中の薬で、免疫系に作用して炎症を抑えることを目指している\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "35bb049951618962"
+    "slug": "35bb049951618962",
+    "themes": []
   },
   {
     "id": 18,
@@ -507,7 +565,8 @@
     "curation_reasoning": "デュピクセントを使用した個人の体験談が紹介されており、新しい治療法に対する期待と現在の状況が分かるため、参考になります。",
     "drugs_json": "[{\"drug_name\": \"デュピクセント（Dupixent）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を引き起こす体内の信号をブロックする注射薬\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "10c0e2d6df6900bc"
+    "slug": "10c0e2d6df6900bc",
+    "themes": []
   },
   {
     "id": 19,
@@ -524,7 +583,12 @@
     "curation_reasoning": "職場の環境が皮膚状態に与える影響についての現実的な課題とその対処法が示されており、患者の日常生活改善のヒントになります。",
     "drugs_json": "[{\"drug_name\": \"Aquaphor\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚を保護する保湿剤\"}, {\"drug_name\": \"AmLactin\", \"ingredients\": \"乳酸\", \"description\": \"角質を柔らかくし、皮膚の乾燥を防ぐローション\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "5018c2b2bc7c4444"
+    "slug": "5018c2b2bc7c4444",
+    "themes": [
+      "moisturizer",
+      "mental",
+      "adult"
+    ]
   },
   {
     "id": 20,
@@ -541,7 +605,11 @@
     "curation_reasoning": "ワセリン使用における現実的な問題と、その解決策を探る情報が患者に役立ちます。",
     "drugs_json": "[{\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚を保護するための保湿剤\"}]",
     "created_at": "2026-03-18 13:45:19",
-    "slug": "70ceb627b275333e"
+    "slug": "70ceb627b275333e",
+    "themes": [
+      "moisturizer",
+      "clothing"
+    ]
   },
   {
     "id": 33,
@@ -558,7 +626,11 @@
     "curation_reasoning": "乾燥環境での対策は、多くの魚鱗癬患者に共通する悩みで、実際の工夫が詳しく述べられているため。",
     "drugs_json": "[{\"drug_name\": \"アクアフォー（Aquaphor）\", \"ingredients\": \"ワセリン、ラノリンアルコール\", \"description\": \"乾燥を防ぐための保湿剤\"}, {\"drug_name\": \"アムラクトイン（AmLactin）\", \"ingredients\": \"乳酸\", \"description\": \"角質を柔らかくし、潤いを与える保湿クリーム\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "5018c2b2bc7c4444"
+    "slug": "5018c2b2bc7c4444",
+    "themes": [
+      "moisturizer",
+      "adult"
+    ]
   },
   {
     "id": 34,
@@ -575,7 +647,10 @@
     "curation_reasoning": "肌のバリア修復は魚鱗癬のケアに関連し、具体的な保湿方法の参考になるため。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "ebf572f9492cd21e"
+    "slug": "ebf572f9492cd21e",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 35,
@@ -592,7 +667,11 @@
     "curation_reasoning": "魚鱗癬のような乾燥肌に対する保湿剤の選び方に関する具体的な情報が含まれているため。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "e009b443a6986717"
+    "slug": "e009b443a6986717",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
   },
   {
     "id": 36,
@@ -609,7 +688,10 @@
     "curation_reasoning": "乾燥から肌を守る保湿方法が魚鱗癬のケアに役立つため。特にセラミドを含む製品の利用が推奨されている。",
     "drugs_json": "[{\"drug_name\": \"タザロテン（Tazarotene）\", \"ingredients\": \"タザロテン（tazarotene）\", \"description\": \"ニキビや乾癬の治療に使われるビタミンA誘導体の外用薬\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "63b13d40a4615ab6"
+    "slug": "63b13d40a4615ab6",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 37,
@@ -626,7 +708,10 @@
     "curation_reasoning": "肌のバリアを修復する取り組みは魚鱗癬のケアに非常に有用です。この投稿は患者さんに具体的な製品選びや体験談を提供し、日常生活のケアに役立つでしょう。",
     "drugs_json": "[{\"drug_name\": \"アロエベラ\", \"ingredients\": \"アロエベラ\", \"description\": \"肌を保湿し、炎症を和らげる植物由来の成分\"}, {\"drug_name\": \"グリセリン\", \"ingredients\": \"グリセリン\", \"description\": \"肌の水分を保持し、潤いを与える保湿成分\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "a86e84db1d40d68c"
+    "slug": "a86e84db1d40d68c",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 38,
@@ -643,7 +728,10 @@
     "curation_reasoning": "保湿の重要性は魚鱗癬のケアにも当てはまります。この投稿はシンプルで効果的な保湿ケアの例を実際に示しており、日常生活の一助となります。",
     "drugs_json": "[]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "4e4d4bfc69334cc5"
+    "slug": "4e4d4bfc69334cc5",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 39,
@@ -660,7 +748,10 @@
     "curation_reasoning": "乾燥や赤みの悩みは魚鱗癬患者にも共通の問題であり、体験談から学べることが多いため。",
     "drugs_json": "[{\"drug_name\": \"トレチノイン\", \"ingredients\": \"トレチノイン（tretinoin）\", \"description\": \"皮膚細胞のターンオーバーを促進して、しわや色素沈着を改善する薬。\"}, {\"drug_name\": \"アゼライン酸\", \"ingredients\": \"アゼライク酸（azelaic acid）\", \"description\": \"ニキビや赤みのある肌のケアに使われる、細菌の成長を抑え炎症を減らす成分。\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "f3b671d06b342d10"
+    "slug": "f3b671d06b342d10",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 40,
@@ -677,6 +768,7 @@
     "curation_reasoning": "特定の薬剤反応に関する情報は、魚鱗癬の患者が同様の薬を使用する際の注意点として有用。",
     "drugs_json": "[{\"drug_name\": \"アクリーフ（Aklief）\", \"ingredients\": \"トラロミン（trifarotene）\", \"description\": \"ニキビ治療に使われるクリーム。皮膚の細胞ターンオーバーを早める働きがあります。\"}]",
     "created_at": "2026-03-18 14:05:30",
-    "slug": "52af07f1526ce82e"
+    "slug": "52af07f1526ce82e",
+    "themes": []
   }
 ]

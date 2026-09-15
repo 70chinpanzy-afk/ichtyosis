@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"ATR-01プログラム（ATR-01 Program）\", \"ingredients\": \"ATR-01\", \"description\": \"尋常性魚鱗癬の症状改善を目指したプログラム\"}]",
   "patient_insight": "Ichthyosis Vulgaris（尋常性魚鱗癬）の新しい治療法が開発中です。すぐに利用できるわけではありませんが、引き続き保湿ケアなどの基本的なケアを続けることが大切です。将来的には新しい選択肢が増えるかもしれませんので、注目していきましょう。",
   "created_at": "2026-04-28 23:02:32",
-  "slug": "34d50d18c00c11be"
+  "slug": "34d50d18c00c11be",
+  "themes": [
+    "moisturizer"
+  ]
 }

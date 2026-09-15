@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "4e257f3bc6ff5037",
+    "title_ja": "アトピー性皮膚炎と睡眠の関係：症状への影響と治療方法",
+    "summary_ja": "この研究は、アトピー性皮膚炎の患者さんに多く見られる睡眠障害についてで、症状と睡眠が互いに悪影響を及ぼすということが分かりました。かゆみや皮膚の乾燥感が夜間の睡眠を妨げる一方、質の悪い睡眠が皮膚のバリアの修復を邪魔し、さらにかゆみを悪化させます。睡眠環境を整えることが、皮膚の状態改善につながる可能性があります。この知見は魚鱗癬のケアにも役立ちます。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "date": "2026-08-13",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42559654/",
+    "source": "pubmed",
+    "original_title": "Sleep Disturbance and Atopic Dermatitis: A Bidirectional Relationship With Clinical and Therapeutic Implications."
+  },
+  {
+    "slug": "70ceb627b275333e",
+    "title_ja": "服にワセリンがつく問題について",
+    "summary_ja": "この投稿は、重度の魚鱗癬を持つ方が、ワセリンを使用した後に服が汚れる問題についての相談です。投稿者はワセリンの代わりに服を汚さない保湿剤を探しているようです。投稿は、他の患者からのアドバイスを求めています。ワセリンは皮膚を保護し、乾燥を防ぐ効果がありますが、衣類に付着しやすいため、使用方法によっては日常生活で不便を感じることもあります。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-03-19",
+    "url": "https://www.reddit.com/r/ichthyosis/comments/1rnhb38/vaseline_all_over_clothes/",
+    "source": "reddit:r/ichthyosis",
+    "original_title": "Vaseline all over clothes?"
+  },
+  {
+    "slug": "67cde10e4551268d",
+    "title_ja": "湿疹の原因を発見し、自身の気付かなさを反省",
+    "summary_ja": "長年悩んでいた指の湿疹の原因が見つかり、それがダニアレルギーによるものだと判明した体験です。ベッドシーツや枕の掃除がアレルギーを引き起こす原因を軽減し、湿疹の改善につながったといいます。これにより、日常生活の中でのアレルゲン対策が、皮膚の改善に役立つ可能性が示されています。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-03-19",
+    "url": "https://www.reddit.com/r/eczema/comments/1rqmzre/finally_found_the_cause_of_my_blistering_eczema/",
+    "source": "reddit:r/eczema",
+    "original_title": "Finally found the cause of my blistering eczema (pomphyolyx) and I feel like an idiot for not realizing sooner"
+  }
+]

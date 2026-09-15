@@ -54,8 +54,12 @@ def _stub_llm(monkeypatch, questions: list[dict]):
     "この薬は子どもでも使える見込みはありますか？",
     "今の処方に加える意味はありますか。",
     "うちの子は対象になるでしょうか？",
+    # 疑問符のあとに文が続く形。末尾だけを見ていた頃は取りこぼしていた
+    # （実際の生成で5件中3件がこれで捨てられていた）
+    "セクキヌマブは選択肢ですか？その場合の効果やリスクはどうでしょうか。",
+    "FDAが承認した薬が魚鱗癬にどう関わる可能性があるか、具体的に教えてください。",
 ])
-def test_疑問形を通す(text: str):
+def test_医師への質問として成立するものを通す(text: str):
     assert is_question(text)
 
 
@@ -64,7 +68,16 @@ def test_疑問形を通す(text: str):
     "保湿剤を切り替えてください。",
     "",
 ])
-def test_疑問形でないものは弾く(text: str):
+def test_質問になっていないものは弾く(text: str):
+    assert not is_question(text)
+
+
+@pytest.mark.parametrize("text", [
+    # 疑問形でも治療の変更を指示していれば通さない。判断は医師に委ねる
+    "乾燥がひどいので保湿剤を切り替えてください。効果はありますか？",
+    "この薬を試してみてはいかがですか。中止してください。",
+])
+def test_疑問形でも治療の変更を指示していれば弾く(text: str):
     assert not is_question(text)
 
 

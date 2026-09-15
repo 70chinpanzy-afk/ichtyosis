@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"デルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デルゴシチニブ\", \"description\": \"皮膚の炎症の原因となる信号を抑えるクリーム\"}]",
   "patient_insight": "このクリームは炎症を効果的に抑えるため、魚鱗癬の肌荒れやかゆみを和らげる可能性があります。新しい選択肢として、導入される日を期待しましょう。",
   "created_at": "2026-07-28 23:08:59",
-  "slug": "14bd5b6e64fd1c2d"
+  "slug": "14bd5b6e64fd1c2d",
+  "themes": [
+    "itch"
+  ]
 }

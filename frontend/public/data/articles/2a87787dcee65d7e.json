@@ -13,5 +13,6 @@
   "curation_reasoning": "デルゴシチニブは炎症を抑えるため、炎症に関連する皮膚病の魚鱗癬にも応用可能な知見を提供するかもしれないため。",
   "drugs_json": "[{\"drug_name\": \"デルゴシチニブ（Delgocitinib）\", \"ingredients\": \"デルゴシチニブ\", \"description\": \"体内の炎症を引き起こす信号をブロックする塗り薬\"}]",
   "created_at": "2026-04-03 22:43:04",
-  "slug": "2a87787dcee65d7e"
+  "slug": "2a87787dcee65d7e",
+  "themes": []
 }

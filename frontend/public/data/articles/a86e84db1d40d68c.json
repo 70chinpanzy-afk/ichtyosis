@@ -13,5 +13,8 @@
   "curation_reasoning": "肌のバリアを修復する取り組みは魚鱗癬のケアに非常に有用です。この投稿は患者さんに具体的な製品選びや体験談を提供し、日常生活のケアに役立つでしょう。",
   "drugs_json": "[{\"drug_name\": \"アロエベラ\", \"ingredients\": \"アロエベラ\", \"description\": \"肌を保湿し、炎症を和らげる植物由来の成分\"}, {\"drug_name\": \"グリセリン\", \"ingredients\": \"グリセリン\", \"description\": \"肌の水分を保持し、潤いを与える保湿成分\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "a86e84db1d40d68c"
+  "slug": "a86e84db1d40d68c",
+  "themes": [
+    "moisturizer"
+  ]
 }

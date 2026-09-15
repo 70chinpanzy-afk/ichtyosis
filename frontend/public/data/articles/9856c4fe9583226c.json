@@ -13,5 +13,8 @@
   "curation_reasoning": "色素沈着の治療に関する情報は、皮膚が乾燥しやすい魚鱗癬の患者さんにとって有益です。投稿は日常的なケアの改善に役立ちます。",
   "drugs_json": "[{\"drug_name\": \"ヒドロキノン（Hydroquinone）\", \"ingredients\": \"ヒドロキノン\", \"description\": \"肌の色素沈着を薄くするために使用されるクリーム\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "9856c4fe9583226c"
+  "slug": "9856c4fe9583226c",
+  "themes": [
+    "moisturizer"
+  ]
 }

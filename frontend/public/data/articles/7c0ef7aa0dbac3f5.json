@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"体の炎症を引き起こすタンパク質の働きをブロックする注射薬。\"}]",
   "patient_insight": "デュピルマブは既にアトピー性皮膚炎の治療でも使われている信頼性のある薬です。この情報は他のタイプの魚鱗癬の患者さんにも希望を与えるかもしれません。主治医に相談して、使用の可能性を探ってみることをおすすめします。",
   "created_at": "2026-08-04 23:11:17",
-  "slug": "7c0ef7aa0dbac3f5"
+  "slug": "7c0ef7aa0dbac3f5",
+  "themes": [
+    "itch"
+  ]
 }

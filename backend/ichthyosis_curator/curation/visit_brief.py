@@ -33,8 +33,16 @@ MAX_QUESTIONS = 5
 MAX_SOURCE_ITEMS = 20
 MAX_SUMMARY_CHARS = 300
 
-# 質問として成立している語尾
-_QUESTION_ENDINGS = ("？", "?", "か。", " か", "ますか", "ですか", "でしょうか")
+# 疑問を示す手がかり。文末だけを見ると
+# 「…選択肢ですか？ その場合の効果は…」のように疑問符のあとに文が続く質問を
+# 取りこぼすため、本文のどこかに現れれば疑問とみなす
+# （実際に1回の生成で5件中3件を誤って捨てていた）。
+_QUESTION_MARKERS = ("？", "?", "ですか", "ますか", " でしょうか", "でしょうか",
+                     "ませんか", "のか、", "のか。", "か、", "教えてください")
+
+# 患者に治療の変更を指示する形。これが本来弾きたいもので、判断は医師に委ねる。
+_DIRECTIVE_VERBS = ("切り替え", "試し", "使っ", "中止", "増やし", "減らし", "やめ", "変え")
+_DIRECTIVE_ENDINGS = ("ください", "ましょう", "すべきです", "おすすめします", "してください")
 
 
 class _BriefQuestion(BaseModel):
@@ -60,11 +68,26 @@ class BriefEntry(BaseModel):
 
 
 def is_question(text: str) -> bool:
-    """疑問形になっているか（指示文が混ざるのを防ぐ）"""
-    stripped = (text or "").strip().rstrip("。 ")
+    """医師への質問として成立しているか。
+
+    弾きたいのは「保湿剤を切り替えてください」のように患者へ治療の変更を
+    指示する文。判断は医師に委ねるという原則を守るための検査で、
+    単なる語尾の形式チェックではない。
+    """
+    stripped = (text or "").strip()
     if not stripped:
         return False
-    return any(stripped.endswith(ending.rstrip("。 ")) for ending in _QUESTION_ENDINGS)
+
+    if not any(marker in stripped for marker in _QUESTION_MARKERS):
+        return False
+
+    # 疑問形でも、治療の変更を指示していれば通さない
+    for verb in _DIRECTIVE_VERBS:
+        for ending in _DIRECTIVE_ENDINGS:
+            if f"{verb}て{ending}" in stripped or f"{verb}{ending}" in stripped:
+                return False
+
+    return True
 
 
 def build_visit_brief(

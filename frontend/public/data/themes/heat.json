@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "5a83b527c4c0c406",
+    "title_ja": "魚鱗癬患者のための夏の暑さと体温調節の工夫",
+    "summary_ja": "魚鱗癬を持つ方は、皮膚の厚みや鱗屑（うろこ）が原因で汗がうまく皮膚表面に出ず、暑い環境で体温調節が難しいことがあります。このガイドでは、特に暑さの対策として、外での活動を涼しい時間帯に制限し、エアコンのある場所に避難することなどの具体的な対策が提案されています。これらを実行することで、熱中症などを予防できるとされています。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.7,
+    "date": "2026-09-11",
+    "url": "https://www.firstskinfoundation.org/overheating",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] 夏の暑さ・体温調節 (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "5a869793d873be28",
+    "title_ja": "夏の暑さで湿疹が悪化する理由とその予防法",
+    "summary_ja": "この記事は、夏の暑さが湿疹を悪化させる理由とその対策について説明しています。高温と汗が皮膚のバリアを壊し、炎症を引き起こしやすくなるとのことです。これを防ぐためには、涼しい環境で、汗をこまめに拭き取り、適切な保湿を行うことが推奨されています。魚鱗癬の患者さんもこれらの対策を取り入れることで、症状の悪化を防ぐことができるかもしれません。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-08-22",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPenozNTNCSzNuOUNHV1RDTDN5RWkycXpIaVczOC1iOHBjcExYeTAzX1JqRVYtek82NHF2WWNEZ1RLSFJwelBBbm1qSkc1RTBpQWFmVEs4MkhHVEVHMTljNlp1WjZuQ0huVTdNVjlDSnhaNGJ0OTJSYk5Kd3hHYllJNDNidkp6Y0Z0NVJMbENhRzNOUXFmUy1ld0FUc0JzYTl3UTlrU0VITDk?oc=5",
+    "source": "google_news:New York Post",
+    "original_title": "Summer heat can make eczema flare up — here’s why and how to prevent it - New York Post"
+  },
+  {
+    "slug": "1e0d9f08b5b1f528",
+    "title_ja": "対称性末梢角化症と尋常性魚鱗癬の関連性について",
+    "summary_ja": "この研究では、若い男性に多く見られる「対称性末梢角化症」（SAK）と、多くの人に発症する「尋常性魚鱗癬」（IV）の関連性を調査しています。これらの疾患はそれぞれ異なる特徴を持ちますが、この研究はそれらがどのように関係するかを明らかにするためのレビューを行っています。SAKは暑く湿った環境で悪化する一方、IVは生涯にわたり乾燥しやすい肌が続きます。両者がどう関連しているのかをさらに理解することで、新たな治療法の開発につながる可能性があります。",
+    "category": "研究論文",
+    "relevance_score": 0.6,
+    "date": "2026-07-15",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42416135/",
+    "source": "pubmed",
+    "original_title": "Symmetrical Acral Keratoderma and Ichthyosis Vulgaris: Related or Independent?"
+  }
+]

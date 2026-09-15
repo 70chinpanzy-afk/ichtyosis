@@ -14,5 +14,8 @@
   "drugs_json": "[]",
   "patient_insight": "日常のスキンケアを見直す良い機会になります。乾燥肌以上の症状を感じたら、専門医に相談して魚鱗癬の可能性も検討してみると良いでしょう。",
   "created_at": "2026-07-17 22:56:47",
-  "slug": "97722eb15ede2dc0"
+  "slug": "97722eb15ede2dc0",
+  "themes": [
+    "moisturizer"
+  ]
 }

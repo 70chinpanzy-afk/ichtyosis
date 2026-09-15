@@ -14,5 +14,9 @@
   "drugs_json": "[]",
   "patient_insight": "おすすめされている保湿剤やスキンケア法は、直ちに症状の軽減に繋がる可能性があります。日常的に取り入れることで大きな変化が期待できるでしょう。",
   "created_at": "2026-06-04 23:16:35",
-  "slug": "caa9ef0cd74cc22e"
+  "slug": "caa9ef0cd74cc22e",
+  "themes": [
+    "itch",
+    "moisturizer"
+  ]
 }

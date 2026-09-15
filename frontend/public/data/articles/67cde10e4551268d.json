@@ -13,5 +13,8 @@
   "curation_reasoning": "原因特定が改善につながることを示し、魚鱗癬患者にも応用可能なアレルギー対策が含まれているため。",
   "drugs_json": "[]",
   "created_at": "2026-03-20 01:39:35",
-  "slug": "67cde10e4551268d"
+  "slug": "67cde10e4551268d",
+  "themes": [
+    "clothing"
+  ]
 }

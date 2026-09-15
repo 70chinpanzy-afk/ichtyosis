@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"デシメラゴン（Dersimelagon）\", \"ingredients\": \"未公開\", \"description\": \"希少な皮膚疾患の痛みを和らげる可能性がある薬\"}]",
   "patient_insight": "デシメラゴンのような新しい薬の登場は、今後の治療選択肢の多様性を広げるかもしれません。現時点では、保湿ケアを続けつつ、このような情報を注意深く見守ることが大切です。",
   "created_at": "2026-08-19 22:32:37",
-  "slug": "ba2fa43323c33988"
+  "slug": "ba2fa43323c33988",
+  "themes": [
+    "moisturizer"
+  ]
 }

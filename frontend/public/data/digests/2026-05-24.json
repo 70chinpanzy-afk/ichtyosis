@@ -15,7 +15,10 @@
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質の生成を抑え、柔らかくすることで症状を改善する塗り薬です。\"}]",
     "patient_insight": "TMB-001という新しい薬の研究が進められています。この薬が普及すれば、より効果的な治療が受けられる可能性があります。今は現行の治療法を継続しつつ、新しい情報を待ちましょう。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "206152bdee2f875c"
+    "slug": "206152bdee2f875c",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 2,
@@ -33,7 +36,10 @@
     "drugs_json": "[{\"drug_name\": \"TMB-001軟膏（TMB-001 ointment）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮膚の角質の生成を抑え、柔らかくすることで症状を改善する塗り薬です。\"}]",
     "patient_insight": "TMB-001の濃度が異なるバージョンが研究されています。これにより、もっと適切な治療法が見つかるかもしれません。現状はしっかりと保湿ケアを続けていきましょう。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "defc25fb52732508"
+    "slug": "defc25fb52732508",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 3,
@@ -51,7 +57,10 @@
     "drugs_json": "[]",
     "patient_insight": "この研究は、魚鱗癬の新しい治療法を探る重要なステップです。バイオマーカーを特定することで、症状の変化をもっと正確に把握し、個々の患者さんに適した治療を選ぶことが可能になるかもしれません。今後の研究成果が期待されます。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "bf90ec553243af0b"
+    "slug": "bf90ec553243af0b",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 4,
@@ -69,7 +78,8 @@
     "drugs_json": "[{\"drug_name\": \"ルキソリチニブ（Ruxolitinib）\", \"ingredients\": \"ルキソリチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックする外用薬\"}]",
     "patient_insight": "魚鱗癬の治療オプションとして、炎症を抑える外用薬が期待されています。もし、この治療法が承認されると、ご家庭で簡単に使えるようになり、日常生活での症状管理が楽になるかもしれません。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "a5ba19fd7179c090"
+    "slug": "a5ba19fd7179c090",
+    "themes": []
   },
   {
     "id": 5,
@@ -87,7 +97,10 @@
     "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬です。\"}]",
     "patient_insight": "デュピルマブはアトピー治療に使われていますが、今後魚鱗癬にも効果があるかもしれません。現在受けている治療について主治医と話し合いながら、新しい治療法にも注目しましょう。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "efbdb5fec4d87c5b"
+    "slug": "efbdb5fec4d87c5b",
+    "themes": [
+      "itch"
+    ]
   },
   {
     "id": 6,
@@ -105,7 +118,8 @@
     "drugs_json": "[]",
     "patient_insight": "この動画は魚鱗癬についての専門家の予備知識を得るのに役立ちます。専門家の意見を参考に、日々のスキンケアや治療方針について医師と相談してみてください。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "8c97116e1ee0d2ba"
+    "slug": "8c97116e1ee0d2ba",
+    "themes": []
   },
   {
     "id": 7,
@@ -123,6 +137,9 @@
     "drugs_json": "[{\"drug_name\": \"尿素クリーム（Urea Cream）\", \"ingredients\": \"尿素（urea）\", \"description\": \"角質を柔らかくして、皮膚のうるおいを保つクリーム\"}, {\"drug_name\": \"乳酸クリーム（Lactic Acid Cream）\", \"ingredients\": \"乳酸（lactic acid）\", \"description\": \"角質を緩めて肌を滑らかにするクリーム\"}]",
     "patient_insight": "動画で紹介される尿素や乳酸を含むクリームは、肉眼では見えない乾燥や剥離を改善する効果があります。市販製品を使用する際は、あらかじめ医師に相談することをお勧めします。",
     "created_at": "2026-05-24 23:04:34",
-    "slug": "07c2dccf899b2a28"
+    "slug": "07c2dccf899b2a28",
+    "themes": [
+      "moisturizer"
+    ]
   }
 ]
