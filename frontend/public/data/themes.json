@@ -1,0 +1,77 @@
+[
+  {
+    "key": "heat",
+    "label": "夏の汗・体温調節",
+    "count": 3
+  },
+  {
+    "key": "school",
+    "label": "学校・保育園",
+    "count": 1
+  },
+  {
+    "key": "bathing",
+    "label": "入浴・角質ケア",
+    "count": 11
+  },
+  {
+    "key": "eye",
+    "label": "目（眼瞼外反・ドライアイ）",
+    "count": 2
+  },
+  {
+    "key": "ear",
+    "label": "耳（耳垢・聞こえ）",
+    "count": 1
+  },
+  {
+    "key": "infection",
+    "label": "感染・とびひ",
+    "count": 7
+  },
+  {
+    "key": "itch",
+    "label": "かゆみ・睡眠",
+    "count": 31
+  },
+  {
+    "key": "moisturizer",
+    "label": "保湿剤の選び方と量",
+    "count": 86
+  },
+  {
+    "key": "clothing",
+    "label": "衣類・寝具",
+    "count": 3
+  },
+  {
+    "key": "newborn",
+    "label": "新生児・乳児期",
+    "count": 7
+  },
+  {
+    "key": "growth",
+    "label": "成長・栄養",
+    "count": 15
+  },
+  {
+    "key": "mental",
+    "label": "見た目・気持ち・まわりの目",
+    "count": 19
+  },
+  {
+    "key": "support",
+    "label": "医療費・制度・手続き",
+    "count": 9
+  },
+  {
+    "key": "travel",
+    "label": "外出・旅行・災害時",
+    "count": 5
+  },
+  {
+    "key": "adult",
+    "label": "おとな・仕事・妊娠",
+    "count": 5
+  }
+]

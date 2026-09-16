@@ -15,7 +15,13 @@
     "drugs_json": "[]",
     "patient_insight": "この報告は、魚鱗癬を持つ赤ちゃんへのケアが地域を問わず重要であることを教えてくれます。家でのケアでも体温管理や保湿など基本のスキンケアが大切です。",
     "created_at": "2026-05-02 22:53:34",
-    "slug": "1acc5ab61735beaa"
+    "slug": "1acc5ab61735beaa",
+    "themes": [
+      "heat",
+      "infection",
+      "moisturizer",
+      "newborn"
+    ]
   },
   {
     "id": 2,
@@ -33,7 +39,11 @@
     "drugs_json": "[]",
     "patient_insight": "ラップ療法は、皮膚の保湿を効果的に行う新しい方法として注目されています。試してみるには、専門家に相談してから始めると安心です。",
     "created_at": "2026-05-02 22:53:34",
-    "slug": "250d360deb0e1cd9"
+    "slug": "250d360deb0e1cd9",
+    "themes": [
+      "bathing",
+      "moisturizer"
+    ]
   },
   {
     "id": 3,
@@ -51,7 +61,10 @@
     "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]",
     "patient_insight": "デュピルマブは将来的に魚鱗癬のかゆみのケアに役立つ可能性があります。今は医師に相談し、適切なスキンケアを行うことが大切です。",
     "created_at": "2026-05-02 22:53:34",
-    "slug": "efbdb5fec4d87c5b"
+    "slug": "efbdb5fec4d87c5b",
+    "themes": [
+      "itch"
+    ]
   },
   {
     "id": 4,
@@ -69,6 +82,9 @@
     "drugs_json": "[]",
     "patient_insight": "魚鱗癬の新しい治療法発見に向けた研究が進んでいます。今出来ることは、適切な保湿ケアを続けつつ、新しい情報を待つことです。",
     "created_at": "2026-05-02 22:53:34",
-    "slug": "bf90ec553243af0b"
+    "slug": "bf90ec553243af0b",
+    "themes": [
+      "moisturizer"
+    ]
   }
 ]

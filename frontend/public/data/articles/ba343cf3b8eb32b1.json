@@ -14,5 +14,9 @@
   "drugs_json": "[]",
   "patient_insight": "この情報は、日常のケアが入院のリスクを減らす可能性を示しています。特に保湿をしっかり行い、肌を清潔に保つことが大切です。大変な時は医療スタッフに相談しましょう。",
   "created_at": "2026-07-06 23:15:47",
-  "slug": "ba343cf3b8eb32b1"
+  "slug": "ba343cf3b8eb32b1",
+  "themes": [
+    "infection",
+    "moisturizer"
+  ]
 }

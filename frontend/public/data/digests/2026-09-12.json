@@ -17,7 +17,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "231eac42ca2f07ba"
+    "slug": "231eac42ca2f07ba",
+    "themes": []
   },
   {
     "id": 2,
@@ -37,7 +38,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "4a813cf4849acde7"
+    "slug": "4a813cf4849acde7",
+    "themes": [
+      "growth"
+    ]
   },
   {
     "id": 3,
@@ -57,7 +61,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "06fd3ed7891c7efe"
+    "slug": "06fd3ed7891c7efe",
+    "themes": []
   },
   {
     "id": 4,
@@ -77,7 +82,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "1616269d9aa2ca51"
+    "slug": "1616269d9aa2ca51",
+    "themes": []
   },
   {
     "id": 5,
@@ -97,7 +103,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "3d6e0d029fe1823d"
+    "slug": "3d6e0d029fe1823d",
+    "themes": []
   },
   {
     "id": 6,
@@ -117,7 +124,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "392b8492648880e5"
+    "slug": "392b8492648880e5",
+    "themes": []
   },
   {
     "id": 7,
@@ -137,7 +145,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "727c6ef61469a192"
+    "slug": "727c6ef61469a192",
+    "themes": []
   },
   {
     "id": 8,
@@ -157,7 +166,10 @@
     "deadline": "令和8年9月1日",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "27293baab8a0b377"
+    "slug": "27293baab8a0b377",
+    "themes": [
+      "support"
+    ]
   },
   {
     "id": 9,
@@ -177,7 +189,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "eb5fd43a8d074b12"
+    "slug": "eb5fd43a8d074b12",
+    "themes": [
+      "support",
+      "travel"
+    ]
   },
   {
     "id": 10,
@@ -197,7 +213,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "6910f3b0c5bfa9c0"
+    "slug": "6910f3b0c5bfa9c0",
+    "themes": [
+      "support",
+      "travel"
+    ]
   },
   {
     "id": 11,
@@ -217,6 +237,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 00:05:43",
-    "slug": "2726b86923dcb117"
+    "slug": "2726b86923dcb117",
+    "themes": [
+      "support",
+      "travel"
+    ]
   }
 ]

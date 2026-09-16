@@ -13,5 +13,8 @@
   "curation_reasoning": "乾燥から肌を守る保湿方法が魚鱗癬のケアに役立つため。特にセラミドを含む製品の利用が推奨されている。",
   "drugs_json": "[{\"drug_name\": \"タザロテン（Tazarotene）\", \"ingredients\": \"タザロテン（tazarotene）\", \"description\": \"ニキビや乾癬の治療に使われるビタミンA誘導体の外用薬\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "63b13d40a4615ab6"
+  "slug": "63b13d40a4615ab6",
+  "themes": [
+    "moisturizer"
+  ]
 }

@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"オプゼルラ（Opzelura）\", \"ingredients\": \"ルキソリチニブ（ruxolitinib）\", \"description\": \"炎症を抑えることで皮膚を改善するステロイドフリーのJAK阻害薬クリーム。\"}]",
   "patient_insight": "中等度のアトピー性皮膚炎に承認されたOpzelura（ルキソリチニブ）は、魚鱗癬にも期待できるかもしれません。オプションが増えることは、治療を続けるための大きな励みになるでしょう。",
   "created_at": "2026-07-30 23:15:20",
-  "slug": "f723dc3caebb3fbb"
+  "slug": "f723dc3caebb3fbb",
+  "themes": []
 }

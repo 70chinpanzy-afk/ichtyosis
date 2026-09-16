@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"アブロキシチニブ（Abrocitinib）\", \"ingredients\": \"アブロキシチニブ\", \"description\": \"免疫反応を調整することで炎症を抑える薬\"}]",
   "patient_insight": "アブロキシチニブの減量が可能なケースもあるとのことです。使用中の方は主治医に相談して、減量について情報交換を行ってみてください。",
   "created_at": "2026-08-29 03:38:21",
-  "slug": "8e81a5d0e0e06eca"
+  "slug": "8e81a5d0e0e06eca",
+  "themes": []
 }

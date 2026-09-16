@@ -13,5 +13,9 @@
   "curation_reasoning": "魚鱗癬を持つ方にとってもスキンケアの工夫は重要で、治療法が限られている場合の対処法として参考になります。",
   "created_at": "2026-03-15 12:41:22",
   "drugs_json": "[{\"drug_name\": \"イソトレチノイン（Isotretinoin）\", \"ingredients\": \"イソトレチノイン\", \"description\": \"皮脂の分泌を抑え、効果的にニキビを治療する飲み薬\"}]",
-  "slug": "ef12b5b53a2bf05b"
+  "slug": "ef12b5b53a2bf05b",
+  "themes": [
+    "infection",
+    "moisturizer"
+  ]
 }

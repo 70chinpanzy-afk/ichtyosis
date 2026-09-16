@@ -14,5 +14,10 @@
   "drugs_json": "[{\"drug_name\": \"尿素保湿剤（Urea Moisturizer）\", \"ingredients\": \"尿素\", \"description\": \"皮膚を柔らかくし、水分を保持するのを助ける保湿剤\"}]",
   "patient_insight": "この情報は、乾燥肌だと思っていた症状が実は魚鱗癬の可能性があることを教えてくれます。尿素を含む保湿剤が症状のケアに有効かもしれないため、主治医に相談の上で試しても良いでしょう。",
   "created_at": "2026-07-28 23:08:59",
-  "slug": "25ac98cb8459ad6d"
+  "slug": "25ac98cb8459ad6d",
+  "themes": [
+    "bathing",
+    "moisturizer",
+    "mental"
+  ]
 }

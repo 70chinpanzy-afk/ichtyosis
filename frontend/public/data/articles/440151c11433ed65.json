@@ -13,5 +13,8 @@
   "curation_reasoning": "乾燥肌を防ぐための保湿対策が魚鱗癬の患者さんにも応用可能なため。",
   "drugs_json": "[{\"drug_name\": \"アキュテイン（Accutane）\", \"ingredients\": \"イソトレチノイン（isotretinoin）\", \"description\": \"皮脂の分泌を抑えてニキビを治療する内服薬\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "440151c11433ed65"
+  "slug": "440151c11433ed65",
+  "themes": [
+    "moisturizer"
+  ]
 }

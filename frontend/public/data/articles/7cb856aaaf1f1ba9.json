@@ -13,5 +13,8 @@
   "curation_reasoning": "デュピルマブは、魚鱗癬の皮膚バリアの問題にも応用できる可能性があります。",
   "created_at": "2026-03-15 12:41:22",
   "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ\", \"description\": \"皮膚の炎症を引き起こすタンパク質の働きをブロックする注射薬\"}]",
-  "slug": "7cb856aaaf1f1ba9"
+  "slug": "7cb856aaaf1f1ba9",
+  "themes": [
+    "itch"
+  ]
 }

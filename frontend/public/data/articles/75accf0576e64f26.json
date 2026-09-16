@@ -14,5 +14,8 @@
   "drugs_json": "[{\"drug_name\": \"ネモリズマブ（Nemolizumab）\", \"ingredients\": \"ネモリズマブ（nemolizumab）\", \"description\": \"かゆみを抑えるのに使われる薬\"}]",
   "patient_insight": "ネモリズマブを使う場合は、症状に注意し、異常を感じたらすぐに主治医に相談することが大切です。安心して治療を受けるために、副作用のリスクを把握しておくことは重要です。",
   "created_at": "2026-08-19 22:32:37",
-  "slug": "75accf0576e64f26"
+  "slug": "75accf0576e64f26",
+  "themes": [
+    "itch"
+  ]
 }

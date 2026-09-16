@@ -13,5 +13,8 @@
   "curation_reasoning": "重症化した場合の専門医の重要性を示し、魚鱗癬の患者にも当てはまる可能性があるため。",
   "drugs_json": "[]",
   "created_at": "2026-03-20 01:39:35",
-  "slug": "ff6f0bcffd4ba958"
+  "slug": "ff6f0bcffd4ba958",
+  "themes": [
+    "mental"
+  ]
 }

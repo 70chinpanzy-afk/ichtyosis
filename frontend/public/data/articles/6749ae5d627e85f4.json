@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"JAK阻害剤（Jak Inhibitor）\", \"ingredients\": \"Tofacitinib\", \"description\": \"皮膚の炎症を引き起こすシグナルをブロックする薬\"}]",
   "patient_insight": "JAK阻害剤による治療は、これまでの方法で効果が得られなかった方にとって新しい希望かもしれません。主治医と相談し、この治療が自身に適しているか検討することをおすすめします。",
   "created_at": "2026-08-25 22:35:19",
-  "slug": "6749ae5d627e85f4"
+  "slug": "6749ae5d627e85f4",
+  "themes": []
 }

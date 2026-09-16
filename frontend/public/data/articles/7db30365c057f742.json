@@ -14,5 +14,6 @@
   "drugs_json": "[{\"drug_name\": \"アブロシチニブ（Abrocitinib）\", \"ingredients\": \"アブロシチニブ（abrocitinib）\", \"description\": \"体内での炎症信号をブロックする薬の一種\"}, {\"drug_name\": \"バリシチニブ（Baricitinib）\", \"ingredients\": \"バリシチニブ（baricitinib）\", \"description\": \"体内での炎症信号をブロックする薬の一種\"}, {\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"体内での炎症信号をブロックする薬の一種\"}, {\"drug_name\": \"リトレシチニブ（Ritlecitinib）\", \"ingredients\": \"リトレシチニブ（ritlecitinib）\", \"description\": \"体内での炎症信号をブロックする薬の一種\"}]",
   "patient_insight": "JAK阻害剤は他の皮膚疾患にも適応できる可能性があり、安全に使用されることが確認されました。新しい治療法に関心がある場合は、主治医と相談してみてください。",
   "created_at": "2026-07-31 23:11:20",
-  "slug": "7db30365c057f742"
+  "slug": "7db30365c057f742",
+  "themes": []
 }

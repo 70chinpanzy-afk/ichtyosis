@@ -13,5 +13,8 @@
   "curation_reasoning": "乾燥や赤みの悩みは魚鱗癬患者にも共通の問題であり、体験談から学べることが多いため。",
   "drugs_json": "[{\"drug_name\": \"トレチノイン\", \"ingredients\": \"トレチノイン（tretinoin）\", \"description\": \"皮膚細胞のターンオーバーを促進して、しわや色素沈着を改善する薬。\"}, {\"drug_name\": \"アゼライン酸\", \"ingredients\": \"アゼライク酸（azelaic acid）\", \"description\": \"ニキビや赤みのある肌のケアに使われる、細菌の成長を抑え炎症を減らす成分。\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "f3b671d06b342d10"
+  "slug": "f3b671d06b342d10",
+  "themes": [
+    "moisturizer"
+  ]
 }

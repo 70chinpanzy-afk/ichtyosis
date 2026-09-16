@@ -13,5 +13,8 @@
   "curation_reasoning": "新しい治療法の紹介は患者に新しい選択肢を提供し、希望を持つきっかけになる可能性があります。",
   "drugs_json": "[{\"drug_name\": \"ラパマイシン（Rapamycin）\", \"ingredients\": \"シロリムス（sirolimus）\", \"description\": \"細胞の成長を抑え、異常組織の増殖を防ぐ薬剤\"}]",
   "created_at": "2026-04-01 22:42:27",
-  "slug": "1f8303f64b6b9617"
+  "slug": "1f8303f64b6b9617",
+  "themes": [
+    "growth"
+  ]
 }

@@ -14,7 +14,10 @@
     "curation_reasoning": "魚鱗癬の新しい治療法に関する直接的な情報であり、特に新薬の有効性と安全性の評価に関連する重要な情報です。",
     "drugs_json": "[]",
     "created_at": "2026-04-04 22:39:12",
-    "slug": "206152bdee2f875c"
+    "slug": "206152bdee2f875c",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 2,
@@ -31,7 +34,8 @@
     "curation_reasoning": "ハーリクイン魚鱗癬は魚鱗癬紅皮症の一種であり、疾患に関する詳細な知識と治療法の選択肢を増やすために役立つ情報です。",
     "drugs_json": "[]",
     "created_at": "2026-04-04 22:39:12",
-    "slug": "1c6cc329f0f66376"
+    "slug": "1c6cc329f0f66376",
+    "themes": []
   },
   {
     "id": 3,
@@ -48,7 +52,10 @@
     "curation_reasoning": "皮膚バリアの保護や修復に関する情報は、魚鱗癬患者のケアにも応用可能で有益です。",
     "drugs_json": "[{\"drug_name\": \"セラミド配合保湿剤\", \"ingredients\": \"セラミド\", \"description\": \"皮膚を守るバリアの材料となる脂質を含んだ保湿剤\"}]",
     "created_at": "2026-04-04 22:39:12",
-    "slug": "3d49fd89fe51d64f"
+    "slug": "3d49fd89fe51d64f",
+    "themes": [
+      "moisturizer"
+    ]
   },
   {
     "id": 4,
@@ -65,6 +72,7 @@
     "curation_reasoning": "アトピー性皮膚炎に対する効果のある治療法は、魚鱗癬の症状緩和にも役立つ可能性があるため、関連性が高いです。",
     "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"体内の炎症を引き起こすシグナルをブロックする飲み薬\"}]",
     "created_at": "2026-04-04 22:39:12",
-    "slug": "be5f63630f502a76"
+    "slug": "be5f63630f502a76",
+    "themes": []
   }
 ]

@@ -14,7 +14,8 @@
     "curation_reasoning": "魚鱗癬に直接関係する新しい治療法の臨床試験であり、患者さんにとって重要です。",
     "drugs_json": "[{\"drug_name\": \"TMB-001\", \"ingredients\": \"未公開\", \"description\": \"魚鱗癬の治療に使用される可能性がある塗り薬\"}]",
     "created_at": "2026-03-22 22:28:37",
-    "slug": "206152bdee2f875c"
+    "slug": "206152bdee2f875c",
+    "themes": []
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
     "curation_reasoning": "ネザートン症候群は魚鱗癬と類似した皮膚疾患であり、この新しい薬が魚鱗癬にも応用される可能性があるため、有用な情報です。",
     "drugs_json": "[{\"drug_name\": \"BCX17725\", \"ingredients\": \"BCX17725\", \"description\": \"新しい薬で、特定の皮膚疾患の治療に使用される可能性があります。\"}]",
     "created_at": "2026-03-22 22:28:37",
-    "slug": "35bb049951618962"
+    "slug": "35bb049951618962",
+    "themes": []
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
     "curation_reasoning": "QRX003ローションは魚鱗癬と類似した疾患の治療法であり、この情報は患者さんの選択肢を広げる可能性があります。",
     "drugs_json": "[{\"drug_name\": \"QRX003ローション\", \"ingredients\": \"QRX003\", \"description\": \"皮膚の状態を改善するための新しいローション。\"}]",
     "created_at": "2026-03-22 22:28:37",
-    "slug": "c1e507f2055d8911"
+    "slug": "c1e507f2055d8911",
+    "themes": []
   },
   {
     "id": 4,
@@ -65,7 +68,8 @@
     "curation_reasoning": "SNSでの患者の声を分析することで、具体的な課題を知ることができ、支援策を考える参考になる。",
     "drugs_json": "[]",
     "created_at": "2026-03-22 22:28:37",
-    "slug": "5743339468a503de"
+    "slug": "5743339468a503de",
+    "themes": []
   },
   {
     "id": 5,
@@ -82,6 +86,7 @@
     "curation_reasoning": "新薬の試験が魚鱗癬やその類似疾患にも応用可能であるため、希望を持てるニュースです。",
     "drugs_json": "[{\"drug_name\": \"スペソリマブ（Spesolimab）\", \"ingredients\": \"スペソリマブ（Spesolimab）\", \"description\": \"ネザートン症候群の症状を改善する可能性がある新薬\"}]",
     "created_at": "2026-03-22 22:28:37",
-    "slug": "4d2340d4bf6acc12"
+    "slug": "4d2340d4bf6acc12",
+    "themes": []
   }
 ]

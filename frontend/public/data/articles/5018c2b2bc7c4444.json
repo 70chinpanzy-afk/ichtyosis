@@ -13,5 +13,9 @@
   "curation_reasoning": "乾燥環境での対策は、多くの魚鱗癬患者に共通する悩みで、実際の工夫が詳しく述べられているため。",
   "drugs_json": "[{\"drug_name\": \"アクアフォー（Aquaphor）\", \"ingredients\": \"ワセリン、ラノリンアルコール\", \"description\": \"乾燥を防ぐための保湿剤\"}, {\"drug_name\": \"アムラクトイン（AmLactin）\", \"ingredients\": \"乳酸\", \"description\": \"角質を柔らかくし、潤いを与える保湿クリーム\"}]",
   "created_at": "2026-03-18 14:05:30",
-  "slug": "5018c2b2bc7c4444"
+  "slug": "5018c2b2bc7c4444",
+  "themes": [
+    "moisturizer",
+    "adult"
+  ]
 }

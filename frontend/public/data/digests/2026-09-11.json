@@ -17,7 +17,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "1517f52d503b3eb3"
+    "slug": "1517f52d503b3eb3",
+    "themes": []
   },
   {
     "id": 2,
@@ -37,7 +38,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "7eaa2b4a314d34cb"
+    "slug": "7eaa2b4a314d34cb",
+    "themes": [
+      "growth"
+    ]
   },
   {
     "id": 3,
@@ -57,7 +61,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "3f53819e8b388fe4"
+    "slug": "3f53819e8b388fe4",
+    "themes": [
+      "bathing"
+    ]
   },
   {
     "id": 4,
@@ -77,7 +84,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "dde11098102fc738"
+    "slug": "dde11098102fc738",
+    "themes": []
   },
   {
     "id": 5,
@@ -97,7 +105,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "5a83b527c4c0c406"
+    "slug": "5a83b527c4c0c406",
+    "themes": [
+      "heat",
+      "travel"
+    ]
   },
   {
     "id": 6,
@@ -117,7 +129,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "cdd14dce3f5c927c"
+    "slug": "cdd14dce3f5c927c",
+    "themes": [
+      "school",
+      "mental"
+    ]
   },
   {
     "id": 7,
@@ -137,6 +153,9 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-10 23:58:23",
-    "slug": "5896f2abf7c2a5f8"
+    "slug": "5896f2abf7c2a5f8",
+    "themes": [
+      "support"
+    ]
   }
 ]
