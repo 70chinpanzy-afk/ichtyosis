@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-09-16",
+    "source": "pubmed",
+    "source_id": "42739598",
+    "original_title": "Real-World Effectiveness, Safety, and 36-Month Persistence of Upadacitinib in Elderly Patients with Moderate-to-Severe Atopic Dermatitis: The 3-6 Month Critical Window and the Role of Early Itch Response and Psychotropic Medication Use.",
+    "title_ja": "高齢の重症アトピー性皮膚炎患者における新薬ウパダシチニブの効果と安全性",
+    "summary_ja": "この研究は、炎症を引き起こす体内の信号をブロックする新しいタイプの薬「ウパダシチニブ（upadacitinib）」の効果と安全性を検証したものです。主に高齢者の重症アトピー性皮膚炎の患者を対象に、3ヶ月から6ヶ月の間の重要な時期を見極め、薬の持続効果や安全性を観察しました。早期にかゆみが改善した患者が継続的に良い効果を得られる可能性を示しました。魚鱗癬の方にも類似のメカニズムで役立つ可能性がありますが、具体的な適応は今後の研究が必要です。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42739598/",
+    "published_date": "2026-08-26",
+    "curation_reasoning": "ウパダシチニブは炎症を抑える効果があり、魚鱗癬にも応用が期待されるため。",
+    "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ（upadacitinib）\", \"description\": \"炎症を引き起こす体内の信号をブロックする薬\"}]",
+    "patient_insight": "高齢者のアトピー性皮膚炎の治療に関する内容で、直接魚鱗癬の話ではありません。ウパダシチニブの試用が魚鱗癬に広がる可能性について、主治医に相談してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-16 00:07:35",
+    "slug": "af2ca9800509d5c9"
+  }
+]
