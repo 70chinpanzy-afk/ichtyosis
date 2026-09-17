@@ -17,7 +17,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-15 00:27:47",
-    "slug": "7bc3e290c89d70dd"
+    "slug": "7bc3e290c89d70dd",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
   },
   {
     "id": 2,
@@ -37,7 +41,8 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-15 00:27:47",
-    "slug": "8d0499a11e2eb583"
+    "slug": "8d0499a11e2eb583",
+    "themes": []
   },
   {
     "id": 3,
@@ -57,7 +62,10 @@
     "deadline": "令和8年7月7日",
     "action_required": 0,
     "created_at": "2026-09-15 00:27:47",
-    "slug": "1807a9bd1c02c8a0"
+    "slug": "1807a9bd1c02c8a0",
+    "themes": [
+      "support"
+    ]
   },
   {
     "id": 4,
@@ -77,6 +85,7 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-15 00:27:47",
-    "slug": "53095f86649a77a2"
+    "slug": "53095f86649a77a2",
+    "themes": []
   }
 ]

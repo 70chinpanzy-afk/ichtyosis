@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-09-17",
+    "source": "google_news:medical.nikkeibp.co.jp",
+    "source_id": "13adf0cba8c11e9c",
+    "original_title": "スピラゾンローション0.3%の基本情報（薬効分類・副作用・添付文書など）｜日経メディカル処方薬事典 - medical.nikkeibp.co.jp",
+    "title_ja": "スピラゾンローションの概要と使い方",
+    "summary_ja": "スピラゾンローションは皮膚の炎症を抑えるために使われる外用薬です。このローションは特に肌が乾燥している部分に効果的で、症状を和らげることが期待されます。副作用や使用上の注意点もしっかりと確認し、安全に使用することが重要です。魚鱗癬を含むいくつかの皮膚疾患に使われることがありますが、必ず医師の指示を仰いでから使用してください。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QbWZlM2xiV285ay04UE81OG5lWGRMRlU2ekFoeGNuejNQcjBIbzRfZFlKU1BQMExFdFA3T1I3YkZGbjlxV01ZTEN2enBrSUkyLTh3VElUNkhFcjJGU2Ita0RlOG8yVDJkQm9FZF9wa2IwelhpdHdBeXJwSQ?oc=5",
+    "published_date": "2026-09-14",
+    "curation_reasoning": "スピラゾンローションは魚鱗癬などの肌の乾燥を改善するために使用でき、患者さんの日常のスキンケアに役立つ可能性があります。",
+    "drugs_json": "[{\"drug_name\": \"スピラゾンローション（Spirazone Lotion）\", \"ingredients\": \"不明\", \"description\": \"皮膚の炎症を抑えるために使用される外用薬\"}]",
+    "patient_insight": "この情報は、肌の乾燥に悩む方に適しています。スピラゾンローションの使用を考えている場合、今の保湿剤との違いを確認し、主治医に詳細を相談するとよいでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-17 00:18:13",
+    "slug": "8a241d08fb22f425",
+    "themes": [
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-09-17",
+    "source": "pubmed",
+    "source_id": "42745318",
+    "original_title": "The potential effects, mechanisms and translational perspectives of natural products in the treatment of atopic dermatitis.",
+    "title_ja": "アトピー性皮膚炎の治療における天然成分の可能性とメカニズム",
+    "summary_ja": "この研究はアトピー性皮膚炎（慢性の皮膚のかゆみや赤みを伴う状態）の治療における天然成分の効果を調査したものです。最近、自然由来の成分が注目されており、炎症を抑える特性があり、アトピー症状を軽減する可能性があります。このような成分には、皮膚のバリアを強化する効果も期待されています。魚鱗癬にも類似の症状を持つことから、これらの知見が間接的に役に立つかもしれません。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42745318/",
+    "published_date": "2026 Sep 16",
+    "curation_reasoning": "天然成分による皮膚のバリア機能強化の可能性があり、魚鱗癬に類似症状を持つ患者にとっても役立つ情報と考えられるため。",
+    "drugs_json": "[]",
+    "patient_insight": "アトピー性皮膚炎の治療に興味がある方に適しています。主治医に、天然成分を使った製品の使用について相談し、自分に合ったケア方法を探してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-17 00:18:13",
+    "slug": "88898081a13d23c5",
+    "themes": [
+      "itch"
+    ]
+  }
+]

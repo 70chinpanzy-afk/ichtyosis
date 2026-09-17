@@ -32,12 +32,12 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 31
+    "count": 35
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 86
+    "count": 88
   },
   {
     "key": "clothing",
@@ -57,21 +57,21 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 19
+    "count": 20
   },
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 9
+    "count": 14
   },
   {
     "key": "travel",
     "label": "外出・旅行・災害時",
-    "count": 5
+    "count": 8
   },
   {
     "key": "adult",
     "label": "おとな・仕事・妊娠",
-    "count": 5
+    "count": 6
   }
 ]

@@ -17,7 +17,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 23:55:39",
-    "slug": "66bdeaf5a6b50aff"
+    "slug": "66bdeaf5a6b50aff",
+    "themes": [
+      "itch"
+    ]
   },
   {
     "id": 2,
@@ -37,7 +40,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 23:55:39",
-    "slug": "9bf4d587a9c028d3"
+    "slug": "9bf4d587a9c028d3",
+    "themes": [
+      "support",
+      "travel"
+    ]
   },
   {
     "id": 3,
@@ -57,7 +64,11 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 23:55:39",
-    "slug": "01085c002717243c"
+    "slug": "01085c002717243c",
+    "themes": [
+      "support",
+      "travel"
+    ]
   },
   {
     "id": 4,
@@ -77,6 +88,10 @@
     "deadline": "",
     "action_required": 0,
     "created_at": "2026-09-12 23:55:39",
-    "slug": "bfeb6635af981971"
+    "slug": "bfeb6635af981971",
+    "themes": [
+      "support",
+      "travel"
+    ]
   }
 ]
