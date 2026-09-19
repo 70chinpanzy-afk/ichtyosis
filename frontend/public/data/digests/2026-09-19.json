@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-09-19",
+    "source": "google_news:Physician's Weekly",
+    "source_id": "73e3307a5a942dfc",
+    "original_title": "Congenital Ichthyosis Tied to Higher Risk for Allergic Disorders - Physician's Weekly",
+    "title_ja": "先天性魚鱗癬はアレルギー障害のリスクを高める",
+    "summary_ja": "新しい研究で、先天性魚鱗癬を持つ人はアレルギー性疾患のリスクが高いことが報告されました。この疾患を持つ人は、アレルギー性鼻炎や喘息などになる可能性が通常よりも高いとされています。特に、皮膚の障害が免疫系に影響を与えることが考えられるため注意が必要です。患者さんにとって、症状管理や予防策を主治医と相談することが重要となります。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.8,
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaEp0YUY3WDFLeVJoWGtHWGU1N1IxcUJpQmFrdkJxU2xGeG1BRGJTUnVtaUJmdW90aU43VzJSaVUwdGdLQndGY01ZOExQMjVlOExqRHFjdjlWcVQ5NlZVNlg2SF83LV9tcVV0MGdmUTlWWkFieDVSRUxnY0VEN09mOW9RSndBaThjekZoTGdPM2VsMmRzVmJPdFdPVzRWUXMzVldUTA?oc=5",
+    "published_date": "2026-09-18",
+    "curation_reasoning": "先天性魚鱗癬がアレルギー疾患に関連することは、患者さんの健康管理に重要な情報です。",
+    "drugs_json": "[]",
+    "patient_insight": "この情報は、先天性魚鱗癬の方に関するものです。アレルギー性疾患の兆候が見られる場合、早めに医師に相談して適切な予防策を講じることが大切です。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-19 00:07:21",
+    "slug": "3f193d7c085c0cef",
+    "themes": []
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-09-19",
+    "source": "youtube:Dr Sanjay Singh (MD, AIIMS, New Delhi) Skin Clinic",
+    "source_id": "bb40a975cb79c924",
+    "original_title": "Moisturizer for very dry skin | Ichthyosis | Xerosis | dry skin ka moisturizer रूखी त्वचा का cream",
+    "title_ja": "非常に乾燥した肌用の保湿クリーム",
+    "summary_ja": "YouTubeの動画で、極度の乾燥肌向けの保湿剤についてDr. Sanjay Singhが紹介しています。魚鱗癬や乾燥肌に適した保湿剤やその使い方が具体的に述べられており、一般的なケアに役立つ情報が含まれています。特に肌のバリアを守る重要性が強調されています。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.7,
+    "url": "https://www.youtube.com/watch?v=EJRRj7jbA-0",
+    "published_date": "2026-09-03",
+    "curation_reasoning": "乾燥肌や魚鱗癬の患者にとって、適切な保湿剤の選択は生活の質を向上させる鍵です。",
+    "drugs_json": "[{\"drug_name\": \"ヒアルロン酸（Hyaluronic Acid）\", \"ingredients\": \"ヒアルロン酸（hyaluronic acid）\", \"description\": \"皮膚の水分を保持し、潤いを与える保湿成分\"}]",
+    "patient_insight": "乾燥肌や魚鱗癬に悩む方のための情報です。使っている保湿剤を見直し、適切な製品を選ぶことが大切です。次回の診察で主治医に今のケアが自分に合っているかを確認してください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-19 00:07:21",
+    "slug": "bdcd2658dddbcfe6",
+    "themes": [
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-09-19",
+    "source": "youtube:Dr. Kanza Aftab",
+    "source_id": "df27d5844dad0150",
+    "original_title": "Icthyosis Vulgaris",
+    "title_ja": "魚鱗癬様症（乾燥肌が魚の鱗のように見える原因）",
+    "summary_ja": "YouTubeの動画で、Dr. Kanzaが魚鱗癬様症（乾燥肌が魚の鱗のように見える状態）の原因を解説しています。水分不足が原因でないことが多く、遺伝的要因や皮膚の天然保湿因子の欠如が関与しているとのことです。この情報は、乾燥肌に悩む多くの方にとって興味深い内容です。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.6,
+    "url": "https://www.youtube.com/watch?v=09JJUhQcXkY",
+    "published_date": "2026-09-09",
+    "curation_reasoning": "魚鱗癬様症に関連する情報は、症状管理に役立ちます。",
+    "drugs_json": "[]",
+    "patient_insight": "これは魚鱗癬の方に関連する情報です。遺伝的要因や保湿に関する理解を深めることで、皮膚のケア方法の改善に役立ちます。この動画の内容を参考にしつつ、主治医に現在のスキンケアについて相談してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-19 00:07:21",
+    "slug": "2d88785a3bd2f884",
+    "themes": [
+      "moisturizer"
+    ]
+  }
+]
