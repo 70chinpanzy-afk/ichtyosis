@@ -12,7 +12,7 @@
 import hashlib
 import logging
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Any
 
 import feedparser
@@ -85,18 +85,87 @@ FIRST_RSS_FEEDS = [
 
 FIRST_NEWS_PAGE = f"{FIRST_BASE}/news"
 
-# 実用ガイド。ニュースと違って更新されない静的ページだが、収集が空白だった
-# 生活場面（夏の汗・学校・見た目・入浴）をそのまま埋める内容が載っている。
-# 重複排除が効くので、初回に一度だけ取り込まれて以後は蓄積資産になる。
+# 実用ガイド（Living with Ichthyosis 配下）。
+#
+# ニュースと違って更新されない静的ページだが、収集が空白だった生活場面
+# （夏の汗・学校・耳・見た目・新生児など）をそのまま埋める内容が載っている。
+# 論文にはならず当事者コミュニティにしか無いと思っていた領域が、実際には
+# 米国患者団体がガイドとしてまとめていた。
+#
+# 当初は当てずっぽうの短縮URL4本しか見ておらず、実体が
+# /living-with-ichthyosis/ 配下の階層構造だと気づいていなかった。
+#
+# パスと英語タイトルの組。タイトルを英語のままにしているのは、これが
+# original_title（原文タイトル）になるため。日本語タイトルはLLMが付ける。
 FIRST_GUIDE_PAGES = [
-    ("overheating", "夏の暑さ・体温調節"),
-    ("school-resources", "学校での配慮と先生への説明"),
-    ("mental-health", "見た目・気持ちの支え"),
-    ("bathing", "入浴と角質ケア"),
+    # --- 新生児・乳児期 ---
+    ("/living-with-ichthyosis/life-stages/newborns/bonding-breast-feeding", "Bonding & Breast Feeding"),
+    ("/living-with-ichthyosis/life-stages/newborns/building-your-medical-team", "Building Your Medical Team"),
+    ("/living-with-ichthyosis/life-stages/newborns/feeling-at-home-in-the-nicu", "Feeling at Home in the NICU"),
+    # --- 子ども ---
+    ("/living-with-ichthyosis/life-stages/young-children/bullying", "Bullying"),
+    ("/living-with-ichthyosis/life-stages/young-children/ear-care-for-children", "Ear Care for Children"),
+    ("/living-with-ichthyosis/life-stages/young-children/eye-care", "Eye Care"),
+    ("/living-with-ichthyosis/life-stages/young-children/is-my-child-overheating", "Is My Child Overheating?"),
+    ("/living-with-ichthyosis/life-stages/young-children/nutrition-for-children", "Nutrition for Children"),
+    ("/living-with-ichthyosis/life-stages/young-children/questions-kids-ask", "Questions Kids Ask"),
+    ("/living-with-ichthyosis/life-stages/young-children/recognizing-infection", "Recognizing Infection"),
+    ("/living-with-ichthyosis/life-stages/young-children/retinoids-for-children", "Retinoids For Children"),
+    ("/living-with-ichthyosis/life-stages/young-children/scalp-fingernails-scratch-care", "Scalp, Fingernails, & Scratch Care"),
+    # --- 学校・進学（収集がほぼ空白だった領域） ---
+    ("/living-with-ichthyosis/life-stages/school-and-college/school-resources", "School Resources"),
+    ("/living-with-ichthyosis/life-stages/school-and-college/school-survival-guide", "School Survival Guide"),
+    ("/living-with-ichthyosis/life-stages/school-and-college/special-education-accomodations", "Special Education Accommodations"),
+    ("/living-with-ichthyosis/life-stages/school-and-college/understand-childrens-rights-in-school", "Understand Children's Rights in School"),
+    ("/living-with-ichthyosis/life-stages/school-and-college/college-survival-guide", "College Survival Guide"),
+    # --- おとな ---
+    ("/living-with-ichthyosis/life-stages/adults/at-work", "At Work"),
+    ("/living-with-ichthyosis/life-stages/adults/guide-for-working-adults", "Guide for Working Adults"),
+    ("/living-with-ichthyosis/life-stages/adults/advocating-in-hospitals-nursing-homes", "Advocating in Hospitals and Nursing Homes"),
+    ("/living-with-ichthyosis/life-stages/adults/pregnancy", "Pregnancy"),
+    ("/living-with-ichthyosis/life-stages/adults/breastfeeding", "Breastfeeding"),
+    ("/living-with-ichthyosis/life-stages/adults/menopause", "Menopause"),
+    ("/living-with-ichthyosis/life-stages/adults/retirement", "Retirement"),
+    ("/living-with-ichthyosis/life-stages/adults/aging-and-ichthyosis", "Aging and Ichthyosis"),
+    # --- 日々のスキンケア ---
+    ("/living-with-ichthyosis/daily-skin-care/bathing-exfoliation", "Bathing & Exfoliation"),
+    ("/living-with-ichthyosis/daily-skin-care/bleach-baths", "Bleach Baths"),
+    ("/living-with-ichthyosis/daily-skin-care/ear-care-for-adults", "Ear Care for Adults"),
+    # --- 症状・合併症 ---
+    ("/living-with-ichthyosis/symptoms-complications/overheating", "Overheating"),
+    ("/living-with-ichthyosis/symptoms-complications/itching", "Itching"),
+    ("/living-with-ichthyosis/symptoms-complications/skin-infection", "Skin Infection"),
+    ("/living-with-ichthyosis/symptoms-complications/scalp-scale", "Scalp Scale"),
+    ("/living-with-ichthyosis/symptoms-complications/chicken-pox", "Chicken Pox"),
+    ("/living-with-ichthyosis/symptoms-complications/broken-bones", "Broken Bones"),
+    ("/living-with-ichthyosis/symptoms-complications/cancer", "Cancer"),
+    ("/living-with-ichthyosis/symptoms-complications/heart-rate-monitors", "Heart Rate Monitors"),
+    # --- 医療・治療 ---
+    ("/living-with-ichthyosis/medical-care-treatments/retinoids-for-adults", "Retinoids for Adults"),
+    ("/living-with-ichthyosis/medical-care-treatments/what-is-a-child-life-specialist", "What is a Child Life Specialist?"),
+    # --- 心の健康 ---
+    ("/living-with-ichthyosis/mental-health/ichthyosis-not-just-skin-deep", "Ichthyosis - Not just Skin Deep"),
+    ("/living-with-ichthyosis/mental-health/coping-with-ichthyosis", "Coping with Ichthyosis"),
+    ("/living-with-ichthyosis/mental-health/assessing-your-mental-health-questions-to-ask", "Assessing Your Mental Health & Questions to Ask"),
+    ("/living-with-ichthyosis/mental-health/mental-health-matters", "Mental Health Matters"),
+    ("/living-with-ichthyosis/mental-health/practice-mindfulness", "Practice Mindfulness"),
+    # --- 生活の工夫 ---
+    ("/living-with-ichthyosis/lifestyle-and-wellness/yoga-for-skin", "Yoga for Skin"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/nutrition-for-adults", "Nutrition for Adults"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/household-appliances", "Household Appliances"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/laundry-care", "Laundry Care"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/traveling-with-ichthyosis", "Traveling with Ichthyosis"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/tsa-disabilities-and-medical-conditions", "TSA - Disabilities and Medical Conditions"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/weather-and-ichthyosis", "Weather and Ichthyosis"),
+    ("/living-with-ichthyosis/lifestyle-and-wellness/reducing-sun-damage", "Reducing Sun Damage"),
 ]
 
 # ガイド本文の最大取得文字数（LLMに渡すのでトークン節約のため切る）
 GUIDE_MAX_CHARS = 4000
+
+# 1回の実行で取りに行くガイド数。更新されない静的ページなので、
+# 一度取り込めば重複排除で落ちる。全部を毎日叩く意味はないため日替わりで回す。
+GUIDE_PAGES_PER_RUN = 6
 
 
 def fetch_first_guides() -> list[RawArticle]:
@@ -114,13 +183,13 @@ def fetch_first_guides() -> list[RawArticle]:
 
     articles: list[RawArticle] = []
 
-    for slug, label in FIRST_GUIDE_PAGES:
-        url = f"{FIRST_BASE}/{slug}"
+    for path, label in _guides_for_today():
+        url = f"{FIRST_BASE}{path}"
         try:
             resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
             resp.raise_for_status()
         except Exception as e:
-            logger.warning(f"FIRSTガイドの取得に失敗 ({slug}): {e}")
+            logger.warning(f"FIRSTガイドの取得に失敗 ({path}): {e}")
             continue
 
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -133,7 +202,7 @@ def fetch_first_guides() -> list[RawArticle]:
 
         text = " ".join(main.get_text(" ", strip=True).split())
         if len(text) < 200:
-            logger.warning(f"FIRSTガイドの本文が短すぎるためスキップ ({slug})")
+            logger.warning(f"FIRSTガイドの本文が短すぎるためスキップ ({path})")
             continue
 
         articles.append(RawArticle(
@@ -149,6 +218,20 @@ def fetch_first_guides() -> list[RawArticle]:
 
     logger.info(f"FIRST guides: {len(articles)} pages")
     return articles
+
+
+def _guides_for_today(today: date | None = None) -> list[tuple[str, str]]:
+    """その日に取りに行くガイドを選ぶ。
+
+    静的ページなので一度取り込めば重複排除で落ちる。全部を毎日叩いても
+    無駄なので、日付で位置をずらして少しずつ回し、数日で一巡させる。
+    """
+    total = len(FIRST_GUIDE_PAGES)
+    if GUIDE_PAGES_PER_RUN >= total:
+        return list(FIRST_GUIDE_PAGES)
+    today = today or datetime.now().date()
+    start = (today.toordinal() * GUIDE_PAGES_PER_RUN) % total
+    return [FIRST_GUIDE_PAGES[(start + i) % total] for i in range(GUIDE_PAGES_PER_RUN)]
 
 
 def _fetch_first_rss(days_back: int) -> list[RawArticle]:

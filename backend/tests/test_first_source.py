@@ -10,6 +10,8 @@ import pytest
 
 pytest.importorskip("bs4")
 
+from datetime import date  # noqa: E402
+
 from ichthyosis_curator.sources import patient_communities as pc  # noqa: E402
 
 GUIDE_HTML = """
@@ -51,7 +53,8 @@ def test_実用ガイドを本文つきで取り込む(monkeypatch):
 
     articles = pc.fetch_first_guides()
 
-    assert len(articles) == len(pc.FIRST_GUIDE_PAGES)
+    # 静的ページなので全部を毎日叩かず、日替わりで少しずつ回す
+    assert len(articles) == pc.GUIDE_PAGES_PER_RUN
     a = articles[0]
     assert a.source == "patient_org:FIRST_guide"
     assert "10:00 a.m." in a.abstract
@@ -89,10 +92,60 @@ def test_ガイドのURLは安定している(monkeypatch):
 
     # 静的ページなので毎回同じIDになり、重複排除で一度だけ配信される
     assert first == second
-    assert len(first) == len(pc.FIRST_GUIDE_PAGES)
+    assert len(first) == pc.GUIDE_PAGES_PER_RUN
 
 
 def test_取得できないISGとInspireは撤去されている():
     # 動かないコードが残っていると「取得できているつもり」になる
     assert not hasattr(pc, "get_isg_articles")
     assert not hasattr(pc, "get_inspire_posts")
+
+
+# --- 日替わりローテーション ---
+
+
+def test_数日で全ガイドを一巡する():
+    """静的ページを毎日全部叩く意味はないが、取りこぼしも困る"""
+    seen: set[str] = set()
+    base = date(2026, 9, 20).toordinal()
+    days_needed = -(-len(pc.FIRST_GUIDE_PAGES) // pc.GUIDE_PAGES_PER_RUN)
+
+    for offset in range(days_needed + 2):
+        for path, _ in pc._guides_for_today(date.fromordinal(base + offset)):
+            seen.add(path)
+
+    assert seen == {path for path, _ in pc.FIRST_GUIDE_PAGES}
+
+
+def test_同じ日なら同じガイドを返す():
+    day = date(2026, 9, 20)
+
+    assert pc._guides_for_today(day) == pc._guides_for_today(day)
+
+
+def test_収集が空白だった領域のガイドが入っている():
+    paths = {path for path, _ in pc.FIRST_GUIDE_PAGES}
+
+    # 学校・耳・夏の汗は、当初の収集でそれぞれ1件・1件・3件しかなかった
+    assert any("school-survival-guide" in p for p in paths)
+    assert any("ear-care-for-children" in p for p in paths)
+    assert any("is-my-child-overheating" in p for p in paths)
+    assert any("bullying" in p for p in paths)
+
+
+def test_目次ページは含めない():
+    # セクションの目次は中身が薄く、記事として配信する価値がない
+    index_pages = {
+        "/living-with-ichthyosis/life-stages",
+        "/living-with-ichthyosis/daily-skin-care",
+        "/living-with-ichthyosis/mental-health",
+    }
+    paths = {path for path, _ in pc.FIRST_GUIDE_PAGES}
+
+    assert not (paths & index_pages)
+
+
+def test_ガイドのタイトルは英語のまま():
+    """original_title になるため。日本語を入れると地域判定を狂わせる原因になる"""
+    for _, label in pc.FIRST_GUIDE_PAGES:
+        assert not any("\u3040" <= ch <= "\u30ff" or "\u4e00" <= ch <= "\u9faf" for ch in label), label
