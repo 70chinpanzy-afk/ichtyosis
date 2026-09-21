@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-09-21",
+    "source": "japan_support:難病情報センター",
+    "source_id": "d1a18c9201fb66d3",
+    "original_title": "[難病情報センター] （難病情報センターからのお知らせ） 難病情報センターの全てのページに「音声読み上げ」ボタンを配置しましたのでお知らせします。 なお画面に表示されない場合は再読み",
+    "title_ja": "難病情報センターに音声読み上げ機能が追加されました",
+    "summary_ja": "難病情報センターのウェブサイトに音声読み上げ機能が追加され、ページの情報を聞くことができるようになりました。パソコンやスマートフォンからアクセスする際に音声での情報取得が可能です。ただし表示されないことがあるため、その場合は再読み込みを試してください。この機能は視覚に障がいのある方や読み書きが困難な方にとって便利です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "url": "https://www.nanbyou.or.jp/entry/category/news",
+    "published_date": "2026-07-24",
+    "curation_reasoning": "視覚や読み書きに困難を抱える魚鱗癬患者や家族が情報にアクセスしやすくなる支援です。",
+    "drugs_json": "[]",
+    "patient_insight": "日本国内で利用できる情報です。音声読み上げ機能を利用することで情報を耳で聞けるので、難病情報センターのサイトを訪問してください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-21 00:05:44",
+    "slug": "3f6ff3db3db7b57a",
+    "themes": [
+      "support"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-09-21",
+    "source": "clinical_trials",
+    "source_id": "NCT07781917",
+    "original_title": "A Multicentric, Randomized, Controlled Clinical Trial Comparing High-Purity Type-I Collagen-Based Skin Substitute Versus Acellular Intact Fish Skin Matrix in the Treatment of Diabetic Foot Ulcers",
+    "title_ja": "高純度コラーゲンと魚皮を使った皮膚代替物の比較試験",
+    "summary_ja": "この研究は糖尿病による足の潰瘍を治療するための新しい方法を探るものです。インドとバングラデシュで行われており、高純度コラーゲンを使った代替物と魚の皮を使った代替物を比較しています。この試験から得られる結果は、皮膚の保護や治療に役立つ可能性がありますが、日本では実施されていません。この種の技術が魚鱗癬にも応用できるかもしれないため、注目されています。",
+    "category": "研究論文",
+    "relevance_score": 0.5,
+    "url": "https://clinicaltrials.gov/study/NCT07781917",
+    "published_date": "2026-09-10",
+    "curation_reasoning": "魚の皮などを使った新しい皮膚代替物の研究は、魚鱗癬の治療に生かせる可能性があります。皮膚の再生や保護に新たな技術が加わる期待があります。",
+    "drugs_json": "[]",
+    "patient_insight": "日本では行われていない研究です。魚の皮を使った新しい技術があるかどうか、主治医に聞いてみると良いです。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-21 00:05:44",
+    "slug": "605a04e6dc8c9b01",
+    "themes": []
+  }
+]
