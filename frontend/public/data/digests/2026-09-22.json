@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-09-22",
+    "source": "pubmed",
+    "source_id": "42766467",
+    "original_title": "Genotypic and Phenotypic Profiles of Babies with Collodion Membrane in a Tertiary Care Center in Riyadh, Saudi Arabia.",
+    "title_ja": "コロジオン膜を持つ赤ちゃんの遺伝的・臨床的特徴",
+    "summary_ja": "サウジアラビアのリヤドで、コロジオン膜という皮膚が膜のように覆う新生児の状態に関する研究が行われました。この状態は遺伝性の皮膚障害と関連していることが多く、具体的な遺伝的特徴や臨床的特徴が分析されました。研究は過去に実施された21人の患者のデータを分析し、皮膚の遺伝的構造に関する知見を広げました。魚鱗癬型の皮膚疾患とも関連する可能性があるため、魚鱗癬患者にとっても興味深い研究です。今後の遺伝子治療や診断技術の進展に期待が持てます。",
+    "category": "研究論文",
+    "relevance_score": 0.8,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42766467/",
+    "published_date": "2026 Sep 21",
+    "curation_reasoning": "コロジオン膜は魚鱗癬と関連する遺伝性の皮膚疾患であり、遺伝的特徴に関する知見は今後の治療や診断に役立つ可能性があるため。",
+    "drugs_json": "[]",
+    "patient_insight": "新生児に特有の皮膚状態に関する研究です。お子様の皮膚の遺伝的側面をもっと理解したいと思っている方は、この情報を基に遺伝子検査や専門医に相談するとよいでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-22 00:42:38",
+    "slug": "105e3924026b3fcd",
+    "themes": [
+      "newborn"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-09-22",
+    "source": "google_news:The Dermatology Digest",
+    "source_id": "c835d6caa358650e",
+    "original_title": "Rare Skin Disease Spotlight: Congenital Ichthyosis Linked to Allergies - The Dermatology Digest",
+    "title_ja": "アレルギーとの関連が示唆される先天性魚鱗癬",
+    "summary_ja": "先天性魚鱗癬は、皮膚が乾燥し鱗のようになる遺伝性疾患ですが、一部の研究によるとアレルギーとの関連が示唆されています。このリンクにより新しい治療法の開発が進む可能性があります。アレルギー治療のアプローチが、魚鱗癬の症状改善にもつながるかもしれません。現在のアプローチと新たな可能性を知ることで、患者さんやその家族の治療選択が広がることが期待されます。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUFBPM0plREdWVVNOQ3ljdEdOMzQ5UEJjaUtNczE5MEdvRXZ1R1hNQTlzMkRsMG9sVjdUVnhKcXo1OUt1MFM0d2EycVJ0by1LbjduN3Q5eGxFZHd3X3Jab2xLZ3phVEUwdWU4SW1MbFpNWklyTUZBY2pFNGE4MmIyaVhTVDNfa1JoTUd3c0VhXzBERFNZSTg3dkxCaEU?oc=5",
+    "published_date": "2026-09-21",
+    "curation_reasoning": "先天性魚鱗癬がアレルギーと関連している可能性が示唆され、新たな治療法の可能性を示唆する内容であるため。",
+    "drugs_json": "[]",
+    "patient_insight": "アレルギーとの関連に関する話です。アレルギーの治療が魚鱗癬にも影響するか、主治医に聞いてみると新たな治療の可能性が見えてくるかもしれません。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-09-22 00:42:38",
+    "slug": "883d83b0a763c91a",
+    "themes": []
+  }
+]
