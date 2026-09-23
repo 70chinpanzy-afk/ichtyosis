@@ -44,6 +44,28 @@
     "original_title": "Novel ABCA12 frameshift variant in a preterm infant with harlequin ichthyosis."
   },
   {
+    "slug": "bf16576475af0336",
+    "title_ja": "魚鱗癬のケアチームを作る方法",
+    "summary_ja": "魚鱗癬の治療には、多くの専門医が関与する必要があります。親として、医師たちと協力して赤ちゃんのための医療チームを作ることが大切です。医師との会話を重ね、子どものために優れたケアを提供できる環境を整えましょう。このガイドでは、効率的に質問を準備し、お医者さんと良好な関係を築く方法についても説明しています。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-23",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/newborns/building-your-medical-team",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Building Your Medical Team (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "99892c7bbf97b372",
+    "title_ja": "NICUでの快適な過ごし方",
+    "summary_ja": "魚鱗癬の赤ちゃんがNICU（新生児集中治療室）にいる間、家族がどのように快適な環境を作るかが述べられています。家族の写真や音楽などを赤ちゃんのそばに置くことで、赤ちゃんだけでなく、両親の心も和らげる助けとなります。特に、温かみのある個人的なタッチが家族全員に安心をもたらすといいます。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-23",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/newborns/feeling-at-home-in-the-nicu",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Feeling at Home in the NICU (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "105e3924026b3fcd",
     "title_ja": "コロジオン膜を持つ赤ちゃんの遺伝的・臨床的特徴",
     "summary_ja": "サウジアラビアのリヤドで、コロジオン膜という皮膚が膜のように覆う新生児の状態に関する研究が行われました。この状態は遺伝性の皮膚障害と関連していることが多く、具体的な遺伝的特徴や臨床的特徴が分析されました。研究は過去に実施された21人の患者のデータを分析し、皮膚の遺伝的構造に関する知見を広げました。魚鱗癬型の皮膚疾患とも関連する可能性があるため、魚鱗癬患者にとっても興味深い研究です。今後の遺伝子治療や診断技術の進展に期待が持てます。",
@@ -64,6 +86,17 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/41940243/",
     "source": "pubmed",
     "original_title": "Lamellar Ichthyosis in a Resource-Limited Setting: A Somaliland Case Report."
+  },
+  {
+    "slug": "9bb6a2f2351f9821",
+    "title_ja": "気候と魚鱗癬の関係",
+    "summary_ja": "このガイドでは、気候が魚鱗癬にどう影響するかとその対策を説明しています。高温多湿な夏や乾燥した冬は特に皮膚に影響を与え、適切なケアが求められます。例えば乾燥する冬には、加湿器の利用や保湿剤の頻繁な塗布が推奨されています。季節によって肌のケア方法を調整することで、症状の悪化を防ぎやすくなります。※個人の体験に基づく内容です。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.7,
+    "date": "2026-09-23",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/lifestyle-and-wellness/weather-and-ichthyosis",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Weather and Ichthyosis (Living with Ichthyosis guide)"
   },
   {
     "slug": "d7d5412682d1991c",
