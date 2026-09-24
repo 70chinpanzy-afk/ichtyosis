@@ -2,7 +2,7 @@
   {
     "key": "heat",
     "label": "夏の汗・体温調節",
-    "count": 4
+    "count": 5
   },
   {
     "key": "school",
@@ -22,12 +22,12 @@
   {
     "key": "ear",
     "label": "耳（耳垢・聞こえ）",
-    "count": 1
+    "count": 2
   },
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 7
+    "count": 8
   },
   {
     "key": "itch",
@@ -57,7 +57,7 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 20
+    "count": 21
   },
   {
     "key": "support",

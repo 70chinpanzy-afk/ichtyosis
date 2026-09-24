@@ -16,5 +16,9 @@
   "deadline": "",
   "action_required": 0,
   "created_at": "2026-09-24 00:23:26",
-  "slug": "d430cf6b3979eb5f"
+  "slug": "d430cf6b3979eb5f",
+  "themes": [
+    "infection",
+    "mental"
+  ]
 }
