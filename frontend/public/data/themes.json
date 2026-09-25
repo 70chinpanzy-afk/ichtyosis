@@ -7,12 +7,12 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 1
+    "count": 4
   },
   {
     "key": "bathing",
     "label": "入浴・角質ケア",
-    "count": 11
+    "count": 12
   },
   {
     "key": "eye",
@@ -27,17 +27,17 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 8
+    "count": 9
   },
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 35
+    "count": 36
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 92
+    "count": 94
   },
   {
     "key": "clothing",
@@ -57,12 +57,12 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 21
+    "count": 22
   },
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 15
+    "count": 16
   },
   {
     "key": "travel",

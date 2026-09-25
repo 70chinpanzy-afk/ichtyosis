@@ -1,5 +1,16 @@
 [
   {
+    "slug": "6e2b08d12b21487e",
+    "title_ja": "魚鱗癬の特別支援教育の補助ガイド",
+    "summary_ja": "このガイドでは、魚鱗癬を持つお子さんが特別な教育の補助を受けるための計画（IEPや504プラン）について紹介しています。魚鱗癬が原因で学習に影響が出る場合、特別な対応が必要になることがあります。お子さんの症状に応じた教育サポートを受けるための手続きを知ることができます。",
+    "category": "制度・支援",
+    "relevance_score": 0.7,
+    "date": "2026-09-25",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/school-and-college/special-education-accomodations",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Special Education Accommodations (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "cdd14dce3f5c927c",
     "title_ja": "学校で魚鱗癬を持つ子供への配慮と説明",
     "summary_ja": "新学期を迎える魚鱗癬を持つ子供たちへのサポートとして、教師やクラスメートへの情報提供が重要です。このガイドでは、学校での生活がスムーズに進むように、自己紹介や病状説明のためのテンプレートが用意されています。正しい知識を伝えることで、周囲の理解を深め、子供たちの不安を減らすことができます。",
@@ -9,5 +20,27 @@
     "url": "https://www.firstskinfoundation.org/school-resources",
     "source": "patient_org:FIRST_guide",
     "original_title": "[FIRST] 学校での配慮と先生への説明 (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "21fb0c05d77d36c4",
+    "title_ja": "魚鱗癬の子供向け学校リソースガイド",
+    "summary_ja": "このガイドは、魚鱗癬のお子さんが学校生活をスムーズに始めるためのリソースを紹介しています。新学期の不安を軽減するために、教師に疾患の影響について十分な情報を提供する方法が説明されています。クラスメイトと教師に自己紹介するためのテンプレートも提供されています。これにより、お子さまに対する誤解を減らし、安心して学校生活を送る手助けとなるでしょう。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-09-25",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/school-and-college/school-resources",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] School Resources (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "f22f35b98e5de003",
+    "title_ja": "魚鱗癬のための学校サバイバルガイド",
+    "summary_ja": "このガイドは、魚鱗癬を持つ子供を学校で成功させるために親が考慮すべきポイントを提供しています。初めて学校に入る子供や既に通っている子供に対して、どのようにサポートすればよいかが具体的に解説されています。親として子供の得意なことや苦手なことを理解し、環境に合わせた支援ができるようにするのが目標です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-09-25",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/school-and-college/school-survival-guide",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] School Survival Guide (Living with Ichthyosis guide)"
   }
 ]
