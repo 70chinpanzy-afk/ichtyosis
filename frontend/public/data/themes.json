@@ -7,7 +7,7 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 4
+    "count": 5
   },
   {
     "key": "bathing",
@@ -32,7 +32,7 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 36
+    "count": 37
   },
   {
     "key": "moisturizer",
@@ -62,7 +62,7 @@
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 16
+    "count": 17
   },
   {
     "key": "travel",
@@ -72,6 +72,6 @@
   {
     "key": "adult",
     "label": "おとな・仕事・妊娠",
-    "count": 6
+    "count": 7
   }
 ]
