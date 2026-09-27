@@ -119,5 +119,16 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/42292717/",
     "source": "pubmed",
     "original_title": "Systemic Salicylate Toxicity From Topical Emollient Use in an Infant With Suspected Ichthyosis."
+  },
+  {
+    "slug": "d8cecfe91972d529",
+    "title_ja": "魚鱗癬の母親が授乳するときの注意点",
+    "summary_ja": "魚鱗癬の母親が授乳を行う際に考慮すべき点についてのガイドです。魚鱗癬では皮膚の細胞が常に新しく入れ替わるため、授乳期に特有の問題が発生しやすいことが指摘されています。このガイドは、他の患者の体験に基づいたアドバイスを含んでおり、授乳中の母親が直面する可能性のある皮膚の問題に対応するための準備を支援します。医療機関からのサポートが少ない場合に頼りになる情報として役立ちます。母親の経験に基づいて構成されたため、実践的な情報が含まれていますが、個人差に留意し自己判断せず相談することが推奨されます。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-09-27",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/breastfeeding",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Breastfeeding (Living with Ichthyosis guide)"
   }
 ]
