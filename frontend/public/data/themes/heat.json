@@ -1,5 +1,27 @@
 [
   {
+    "slug": "24190a4f899c4345",
+    "title_ja": "過熱に対する対策（魚鱗癬ガイド）",
+    "summary_ja": "魚鱗癬の方は、皮膚の厚みのせいで汗が表面に出にくく、過熱しやすいです。特に熱い天気では熱中症のリスクがあります。運動や屋外活動は涼しい時間帯に行い、エアコンのある場所で過ごすようにしましょう。エアコンが使えない場合は扇風機を利用してください。これらの対策が熱中症を予防するのに役立ちます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/overheating",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Overheating (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "bcb8face1aa0479e",
+    "title_ja": "かゆみ対策（魚鱗癬ガイド）",
+    "summary_ja": "魚鱗癬の患者さんは、皮膚の厚みが汗を閉じ込めるため、炎症やかゆみを起こしやすいです。特に暑く湿気が多い時期には注意が必要です。適切な保湿や冷却がかゆみの対策になります。また、かゆみが強い場合は、主治医に相談して適切な処置を受けることが大切です。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/itching",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Itching (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "d1b246045e6b95e7",
     "title_ja": "魚鱗癬の子供が熱中症になるリスクを減らす方法",
     "summary_ja": "このガイドでは、魚鱗癬を持つ子供が外気温に対して敏感であり、熱中症になるリスクがあることについて説明しています。皮膚が厚いために体温調節が難しく、暑い環境下での注意が必要です。子供の皮膚の赤みや機嫌、脱力感を観察し、異常があれば速やかに冷たい環境に移すことが勧められます。冷たい水で湿らせたタオルを使って体温を下げることも効果的です。",

@@ -22,6 +22,28 @@
     "original_title": "Dupilumab Provides Meaningful Clinical Responses in Harlequin Ichthyosis (ABCA12-nEDD): A Report of Two Cases."
   },
   {
+    "slug": "d14330bed8b6893e",
+    "title_ja": "大人向けの耳のお手入れ（魚鱗癬ガイド）",
+    "summary_ja": "魚鱗癬の方は皮膚が多く剥がれるため、耳の中にたまった皮膚が耳垢と混ざってかたまりやすく、かゆみやにおいを引き起こすことがあります。この固まりを自分で取らないようにし、定期的に聴力検査を受けることが推奨されています。医師の指示を仰ぎ、市販の耳垢除去剤を使用することが勧められています。耳の健康を保つために専門家のアドバイスを受けながらお手入れを続けてください。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/daily-skin-care/ear-care-for-adults",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Ear Care for Adults (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "bcb8face1aa0479e",
+    "title_ja": "かゆみ対策（魚鱗癬ガイド）",
+    "summary_ja": "魚鱗癬の患者さんは、皮膚の厚みが汗を閉じ込めるため、炎症やかゆみを起こしやすいです。特に暑く湿気が多い時期には注意が必要です。適切な保湿や冷却がかゆみの対策になります。また、かゆみが強い場合は、主治医に相談して適切な処置を受けることが大切です。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/itching",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Itching (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "f5164ef132f93b62",
     "title_ja": "デュピルマブの効果と安全性を調べるNetherton症候群の治療試験",
     "summary_ja": "デュピルマブという薬がNetherton症候群に効くかどうかを調べる大規模試験が行われました。Netherton症候群は有効な治療法が少ない病気で、皮膚にかゆみや炎症を引き起こします。この試験は残念ながら終了してしまいましたが、もしデュピルマブが有効であれば、魚鱗癬のような皮膚疾患にも応用できるかもしれません。新しい治療法が見つかれば、患者さんの生活の質を大きく向上させる可能性があります。今後の研究に期待が持てます。",
@@ -339,6 +361,17 @@
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR3VFVExudjJncDJob2dWeUFYQ05nb2lxNHR3dWptbHl1YW5mNjZyaHIwdFhKSVRZajdpM2hpZlJ1VXhIYWNCUzlxbEpGQW94VHgtRy13MnJIT0FxQzExdmFGdXg0azlVRkVuSzNuNlJOZ1Z0djhVNEhFLXlxdVdxZ2xfa3NScENTOVI3YXF1c3BDMENmMWlSY25WTEprOWN5bjJIaDlmM2RwRldzUHYydWxXYVdoLUxZX0FZcA?oc=5",
     "source": "google_news:Technology Networks",
     "original_title": "Dupilumab Restores Skin Barrier in Paediatric Atopic Dermatitis - Technology Networks"
+  },
+  {
+    "slug": "88167f4432502317",
+    "title_ja": "魚鱗癬と水痘（チキンポックス）",
+    "summary_ja": "この記事は、魚鱗癬（ぎょりんせん）患者が水痘（水ぼうそう）にかかったときの対処法について説明しています。水痘は、子どもの頃に多く見られるウイルス感染症で、かゆみや発熱を伴う発疹が特徴です。魚鱗癬を持つ人は皮膚が敏感なため、大きな負担になります。予防接種が効果的で、米国の小児科学会ではすべての子どもに接種を推奨しています。水痘の症状が出たときには、早めの対応と適切なケアが重要です。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/chicken-pox",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Chicken Pox (Living with Ichthyosis guide)"
   },
   {
     "slug": "b57a295942194302",

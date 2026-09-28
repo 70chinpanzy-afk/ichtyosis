@@ -33,6 +33,17 @@
     "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges."
   },
   {
+    "slug": "012caf3ebe738d24",
+    "title_ja": "魚鱗癬における皮膚感染症のリスク",
+    "summary_ja": "魚鱗癬の方は皮膚のバリアが弱いため、感染症にかかりやすいです。特に真菌感染や細菌感染が問題となります。これに対して日常のケアをしっかり行い、感染症が疑われる場合はすぐに医師に相談することが重要です。早期の対応が症状の悪化を防ぎます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/skin-infection",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Skin Infection (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "aaf9ec6610c87778",
     "title_ja": "感染症の見分け方（魚鱗癬とともに生きるガイド）",
     "summary_ja": "魚鱗癬の子どもは皮膚のバリアが弱く、感染症にかかりやすくなります。皮膚が割れたり、黄色いかさぶたができたりする可能性があります。感染症は早期に適切な治療を受けることで管理でき、通常は処方された軟膏やクリームで治療します。このガイドでは、どのように感染を見分け、日常生活で対策をとるかを学ぶことができます。",
@@ -86,6 +97,17 @@
     "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rub0g4/acne_derm_refuses_to_prescribe_isotretinoin_what/",
     "source": "reddit:r/SkincareAddiction",
     "original_title": "[Acne] derm refuses to prescribe Isotretinoin, what are my options?"
+  },
+  {
+    "slug": "88167f4432502317",
+    "title_ja": "魚鱗癬と水痘（チキンポックス）",
+    "summary_ja": "この記事は、魚鱗癬（ぎょりんせん）患者が水痘（水ぼうそう）にかかったときの対処法について説明しています。水痘は、子どもの頃に多く見られるウイルス感染症で、かゆみや発熱を伴う発疹が特徴です。魚鱗癬を持つ人は皮膚が敏感なため、大きな負担になります。予防接種が効果的で、米国の小児科学会ではすべての子どもに接種を推奨しています。水痘の症状が出たときには、早めの対応と適切なケアが重要です。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-09-28",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/chicken-pox",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Chicken Pox (Living with Ichthyosis guide)"
   },
   {
     "slug": "d430cf6b3979eb5f",

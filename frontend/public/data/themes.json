@@ -2,7 +2,7 @@
   {
     "key": "heat",
     "label": "夏の汗・体温調節",
-    "count": 5
+    "count": 7
   },
   {
     "key": "school",
@@ -22,22 +22,22 @@
   {
     "key": "ear",
     "label": "耳（耳垢・聞こえ）",
-    "count": 2
+    "count": 3
   },
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 9
+    "count": 11
   },
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 37
+    "count": 40
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 94
+    "count": 95
   },
   {
     "key": "clothing",
@@ -47,7 +47,7 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 12
+    "count": 14
   },
   {
     "key": "growth",
