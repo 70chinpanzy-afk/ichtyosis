@@ -7,7 +7,7 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 5
+    "count": 6
   },
   {
     "key": "bathing",
@@ -27,7 +27,7 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 11
+    "count": 12
   },
   {
     "key": "itch",
@@ -47,7 +47,7 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 14
+    "count": 16
   },
   {
     "key": "growth",
@@ -57,7 +57,7 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 22
+    "count": 23
   },
   {
     "key": "support",
