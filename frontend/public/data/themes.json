@@ -47,12 +47,12 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 16
+    "count": 17
   },
   {
     "key": "growth",
     "label": "成長・栄養",
-    "count": 15
+    "count": 16
   },
   {
     "key": "mental",
@@ -62,7 +62,7 @@
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 17
+    "count": 18
   },
   {
     "key": "travel",
