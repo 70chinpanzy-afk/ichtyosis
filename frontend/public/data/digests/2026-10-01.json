@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-01",
+    "source": "pubmed",
+    "source_id": "42814431",
+    "original_title": "Longitudinal Growth in Children With Epidermal Differentiation Disorders.",
+    "title_ja": "表皮分化障害を持つ子供たちの成長に関する研究",
+    "summary_ja": "表皮分化障害を持つ子供たちは、成長に影響を受けることがあります。この研究では、異なる遺伝子型を持つ子供たちの身長、体重、頭囲などの成長の変化を調べました。調査はIchthyosis（魚鱗癬）に関する全国的なレジストリを通じて実施され、135人の参加者を対象に行われました。結果として、特定の遺伝子型が成長の結果に関連していることが明らかになりました。この研究は、魚鱗癬の子供たちが持つ成長の課題に光を当て、今後の治療方針の設計に役立つ可能性があります。",
+    "category": "研究論文",
+    "relevance_score": 0.8,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42814431/",
+    "published_date": "2026 Sep 30",
+    "curation_reasoning": "魚鱗癬を含む表皮分化障害を持つ子供たちの成長に関する研究であり、患者家族が子供の成長発達に関する知識を深めるのに役立つ。",
+    "drugs_json": "[]",
+    "patient_insight": "子供たちの成長に関する報告です。成長の過程を主治医と共有して、適切なフォローアップを受けるための参考にしましょう。成長記録を日常的に取っておくとよいでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-01 01:12:34",
+    "slug": "6226290bfec5e6e4",
+    "themes": [
+      "growth"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-01",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "946d5e4870c82042",
+    "original_title": "[FIRST] Household Appliances (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬患者のための洗濯機の使い方ガイド",
+    "summary_ja": "このガイドは、魚鱗癬を持つ方のために、洗濯機の使い方とケアについての工夫を紹介しています。皮膚のケア用に使うクリームやオイルが洗濯機に負担をかけるため、洗濯や乾燥機の選び方に注意が必要です。具体的な対策として、大型の業務用洗濯機を利用したり、洗濯用に専用のもう一台の機械を用意することが提案されています。これにより、衣類についての心配が減り、気軽に必要な皮膚ケアが可能になります。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.6,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/lifestyle-and-wellness/household-appliances",
+    "published_date": null,
+    "curation_reasoning": "洗濯機の使い方に工夫を凝らすことが、魚鱗癬の患者にとって日々のケアを快適にします。具体的な対策が書かれており、実践しやすいため有用です。",
+    "drugs_json": "[]",
+    "patient_insight": "魚鱗癬のケア用クリームが洗濯機に影響を与えることに悩んでいる方に向けた情報です。専用の洗濯機を用意したり、業務用のものを使用する方法について主治医や家族と一緒に考えてみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-01 01:12:34",
+    "slug": "f79b6e7e62ebacdd",
+    "themes": [
+      "clothing"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-10-01",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "b58b474480688245",
+    "original_title": "[FIRST] Laundry Care (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬患者のための洗濯ケアガイド",
+    "summary_ja": "魚鱗癬の人々のための洗濯ケアに関するガイドです。肌への優しさを考えて、無香料・無染料の洗剤を選ぶことが重要です。また、衣類の前処理として酢につけておくと、クリームの汚れが落ちやすくなります。これは皮膚の負担を軽減し、より快適な衣類管理を可能にします。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.6,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/lifestyle-and-wellness/laundry-care",
+    "published_date": null,
+    "curation_reasoning": "洗濯による肌の負担を減らす具体的な方法が紹介されています。特に敏感肌の方にとって有用な情報です。",
+    "drugs_json": "[]",
+    "patient_insight": "肌の敏感な方に向けた洗濯方法の提案です。無香料で低刺激の洗剤選びを意識し、現在使用しているものと比べてみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-01 01:12:34",
+    "slug": "2ac9ebcbaff71f70",
+    "themes": [
+      "clothing"
+    ]
+  },
+  {
+    "id": 4,
+    "digest_date": "2026-10-01",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "f01bb097bc88c928",
+    "original_title": "[FIRST] Traveling with Ichthyosis (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬患者の旅行ガイド",
+    "summary_ja": "魚鱗癬を持つ方が旅行する際の準備についてのアドバイスを提供しています。旅行前には、通常のケアを徹底することが推奨されており、気候の変化やストレスが症状に影響を与えることがあるため、予防策を講じることが重要であるとされています。このガイドを参考に旅行の計画を立てれば、より安心して旅を楽しむことができます。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.6,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/lifestyle-and-wellness/traveling-with-ichthyosis",
+    "published_date": null,
+    "curation_reasoning": "旅行時の皮膚ケアについて具体的なアドバイスが説明されており、これから旅行を考えている患者さんに役立つ情報です。",
+    "drugs_json": "[]",
+    "patient_insight": "旅行を計画している魚鱗癬の患者さんに参考になる情報です。気候や環境が変わることを見越して、普段のスキンケアルーチンを見直してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-01 01:12:34",
+    "slug": "2ede532ac125568f",
+    "themes": [
+      "travel"
+    ]
+  }
+]

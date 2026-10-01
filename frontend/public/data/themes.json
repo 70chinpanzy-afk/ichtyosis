@@ -42,7 +42,7 @@
   {
     "key": "clothing",
     "label": "衣類・寝具",
-    "count": 4
+    "count": 6
   },
   {
     "key": "newborn",
@@ -52,7 +52,7 @@
   {
     "key": "growth",
     "label": "成長・栄養",
-    "count": 16
+    "count": 17
   },
   {
     "key": "mental",
@@ -67,7 +67,7 @@
   {
     "key": "travel",
     "label": "外出・旅行・災害時",
-    "count": 9
+    "count": 10
   },
   {
     "key": "adult",
