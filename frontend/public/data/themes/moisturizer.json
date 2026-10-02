@@ -99,6 +99,17 @@
     "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges."
   },
   {
+    "slug": "cafccd63325883a8",
+    "title_ja": "魚鱗癬を持つ子供の目のケア",
+    "summary_ja": "この記事は、魚鱗癬を持つ子供の目のケア方法について詳しく説明しています。皮膚が硬くて目を開けづらい場合、ワセリンやアクアフォーといった保湿剤を目の周りに塗ることが推奨されています。また、エクトロピオンという目の病状についても触れ、夜間のケアや症状の緩和方法を紹介しています。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-10-02",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/young-children/eye-care",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Eye Care (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "bcb8face1aa0479e",
     "title_ja": "かゆみ対策（魚鱗癬ガイド）",
     "summary_ja": "魚鱗癬の患者さんは、皮膚の厚みが汗を閉じ込めるため、炎症やかゆみを起こしやすいです。特に暑く湿気が多い時期には注意が必要です。適切な保湿や冷却がかゆみの対策になります。また、かゆみが強い場合は、主治医に相談して適切な処置を受けることが大切です。",
@@ -460,6 +471,17 @@
     "url": "https://www.reddit.com/r/eczema/comments/1rkrue2/diy_balm_update_sunflower_oil_wins/",
     "source": "reddit:r/eczema",
     "original_title": "DIY balm update: Sunflower oil wins"
+  },
+  {
+    "slug": "4e83d4e473ef4a5a",
+    "title_ja": "加齢に伴うアトピー性皮膚炎の管理方法5選",
+    "summary_ja": "この記事は、高齢者がアトピー性皮膚炎をどのように管理するかについての5つのポイントを紹介しています。加齢により皮膚の乾燥やバリア機能が低下するため、より注意が必要です。毎日の保湿が重要であり、肌に合った適切な製品を選ぶことが大切です。日常的な生活習慣の工夫が、痒みや炎症を軽減する鍵になります。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.7,
+    "date": "2026-10-02",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcWs2d3luNkE5T2UzcmpCVzB2bHBqRkF2UEtYRzczdXo0NzZIbFo1ZmhLSVFpdXc3VFBZcjhsUlV0OFlYYUtMNzRTOEV6bUNhVjFWX3hkZXkxVkt3cHZWWG5xeURQdzZGR3RxLXF0RjlOSlJnbk4zdzN4MTViOXVxdjlqZUd3MDRPWVZzWElB?oc=5",
+    "source": "google_news:Everyday Health",
+    "original_title": "5 Tips for Managing Atopic Dermatitis as You Age - Everyday Health"
   },
   {
     "slug": "9bb6a2f2351f9821",

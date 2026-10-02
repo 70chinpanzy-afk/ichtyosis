@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-02",
+    "source": "pubmed",
+    "source_id": "42805028",
+    "original_title": "Budget Impact Analysis of System-Level Costs Associated With Topical Janus Kinase Inhibitor Therapies for Moderate Atopic Dermatitis in Germany.",
+    "title_ja": "中程度のアトピー性皮膚炎に対する新しい外用薬の経済効果",
+    "summary_ja": "この研究は、中程度のアトピー性皮膚炎に対する新しい外用薬「ルキソリチニブクリーム」（1.5%配合）の経済効果をドイツで評価しました。ルキソリチニブクリームは、炎症を抑えるJAK阻害薬の一種で、2026年から使用される予定です。30%の患者に採用されることで、より高価な治療法の代わりになり、全体的な医療費を削減できます。これは、負担を軽くしながら効果的な治療を提供できる可能性を示しています。",
+    "category": "研究論文",
+    "relevance_score": 0.8,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42805028/",
+    "published_date": "2026 Sep 28",
+    "curation_reasoning": "JAK阻害薬は魚鱗癬などの治療でも研究が進んでおり、この新しい外用薬が類似疾患にも応用できる可能性があるため、関連性があります。",
+    "drugs_json": "[{\"drug_name\": \"ルキソリチニブクリーム（Ruxolitinib Cream）\", \"ingredients\": \"ルキソリチニブ（ruxolitinib）\", \"description\": \"炎症を抑えるJAK阻害薬を含んだ外用薬\"}]",
+    "patient_insight": "中等度のアトピー性皮膚炎の治療に関する研究です。この情報は、魚鱗癬や他の皮膚疾患の新しい治療法にどう影響するか、主治医に相談すると良いでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-02 01:32:01",
+    "slug": "32525899ab8e1f7f",
+    "themes": [
+      "support"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-02",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "d518bc0a1114291a",
+    "original_title": "[FIRST] Bonding & Breast Feeding (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬の新生児との絆と授乳",
+    "summary_ja": "この記事は、魚鱗癬を持つ新生児を育てる親のための情報です。子供を初めて抱く時の注意点や、魚鱗癬の症状が徐々に改善することへの希望を持つことの大切さが述べられています。親たちはポジティブな環境を作り、前向きな物語を読むことを推奨されています。また、時間と共に身体的、感情的な改善が期待できることが示されています。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/newborns/bonding-breast-feeding",
+    "published_date": null,
+    "curation_reasoning": "魚鱗癬の新生児を持つ親が抱える不安を軽減し、前向きな視点を持つための具体的なアドバイスを提供している。",
+    "drugs_json": "[]",
+    "patient_insight": "魚鱗癬の新生児を育てる親へ向けたアドバイスです。ポジティブな環境作りが大切であることが紹介されています。何か不安があれば、具体的にどのようなサポートを求めるべきか周囲と話し合うとよいでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-02 01:32:01",
+    "slug": "733dd706f05b5cfa",
+    "themes": [
+      "newborn",
+      "mental"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-10-02",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "c5d339caa0b8d620",
+    "original_title": "[FIRST] Eye Care (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬を持つ子供の目のケア",
+    "summary_ja": "この記事は、魚鱗癬を持つ子供の目のケア方法について詳しく説明しています。皮膚が硬くて目を開けづらい場合、ワセリンやアクアフォーといった保湿剤を目の周りに塗ることが推奨されています。また、エクトロピオンという目の病状についても触れ、夜間のケアや症状の緩和方法を紹介しています。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/young-children/eye-care",
+    "published_date": null,
+    "curation_reasoning": "魚鱗癬の子供を持つ親にとって具体的で役立つ目のケアの方法がわかりやすく提供されている。",
+    "drugs_json": "[{\"drug_name\": \"ワセリン（Vaseline）\", \"ingredients\": \"ワセリン\", \"description\": \"皮膚のバリア機能を補強し乾燥を防ぐ保湿剤\"}, {\"drug_name\": \"アクアフォー（Aquaphor）\", \"ingredients\": \"ワセリン、ラノリンなど\", \"description\": \"保湿とバリア機能の補助をする軟膏\"}]",
+    "patient_insight": "魚鱗癬の子供の目のケア方法を探している親に役立ちます。アクアフォーやワセリンなどの保湿剤を使用し、目周りのケアを試みることが推奨されています。次の診察で、他にどのような方法が適しているか主治医に相談してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-02 01:32:01",
+    "slug": "cafccd63325883a8",
+    "themes": [
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 4,
+    "digest_date": "2026-10-02",
+    "source": "google_news:Everyday Health",
+    "source_id": "ede8f7c7f500f384",
+    "original_title": "5 Tips for Managing Atopic Dermatitis as You Age - Everyday Health",
+    "title_ja": "加齢に伴うアトピー性皮膚炎の管理方法5選",
+    "summary_ja": "この記事は、高齢者がアトピー性皮膚炎をどのように管理するかについての5つのポイントを紹介しています。加齢により皮膚の乾燥やバリア機能が低下するため、より注意が必要です。毎日の保湿が重要であり、肌に合った適切な製品を選ぶことが大切です。日常的な生活習慣の工夫が、痒みや炎症を軽減する鍵になります。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.7,
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcWs2d3luNkE5T2UzcmpCVzB2bHBqRkF2UEtYRzczdXo0NzZIbFo1ZmhLSVFpdXc3VFBZcjhsUlV0OFlYYUtMNzRTOEV6bUNhVjFWX3hkZXkxVkt3cHZWWG5xeURQdzZGR3RxLXF0RjlOSlJnbk4zdzN4MTViOXVxdjlqZUd3MDRPWVZzWElB?oc=5",
+    "published_date": "2026-09-30",
+    "curation_reasoning": "アトピー性皮膚炎の管理方法は、魚鱗癬患者にも適用できるため、有益な情報であると判断しました。",
+    "drugs_json": "[]",
+    "patient_insight": "高齢者向けのスキンケア情報です。保湿のポイントが紹介されていますので、今使っている保湿剤の使い方や選び方を見直してみると良いかもしれません。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-02 01:32:01",
+    "slug": "4e83d4e473ef4a5a",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 5,
+    "digest_date": "2026-10-02",
+    "source": "japan_support:小児慢性特定疾病情報センター",
+    "source_id": "8af356e89adb7b0a",
+    "original_title": "[小児慢性特定疾病] 【令和8年台風第25号に伴う災害の被災者の皆さまへ】 小児慢性特定疾病に係る診療に 受給者証は不要 で 指定医療機関以外の受診も可能 です",
+    "title_ja": "災害時の小児慢性特定疾病患者の診療",
+    "summary_ja": "台風に伴う災害被害者向けに、小児慢性特定疾病患者の診療において、受給者証がなくても指定医療機関以外の受診が可能になったという重要なお知らせです。これは災害被害を受けた人々が安心して医療を受けられるための特別措置です。魚鱗癬を含む小児慢性特定疾病に該当する患者やその家族にとって非常に役立つ情報です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "url": "https://www.shouman.jp/news/topics/176",
+    "published_date": "2026-09-29",
+    "curation_reasoning": "災害時の特別措置として、小児慢性特定疾病の患者が柔軟に診療を受けられるという重要な情報であり、魚鱗癬患者にも直接影響を及ぼす。",
+    "drugs_json": "[]",
+    "patient_insight": "災害時でも受給者証がなくても診療を受けられる措置です。お住まいの地域で同様の対応が可能か、自治体や医療機関に確認しておくことをお勧めします。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-02 01:32:01",
+    "slug": "d75cfd25996b0a4a",
+    "themes": [
+      "support",
+      "travel"
+    ]
+  }
+]

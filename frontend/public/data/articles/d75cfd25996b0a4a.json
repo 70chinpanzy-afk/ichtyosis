@@ -16,5 +16,9 @@
   "deadline": "",
   "action_required": 0,
   "created_at": "2026-10-02 01:32:01",
-  "slug": "d75cfd25996b0a4a"
+  "slug": "d75cfd25996b0a4a",
+  "themes": [
+    "support",
+    "travel"
+  ]
 }

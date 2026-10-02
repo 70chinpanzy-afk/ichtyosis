@@ -22,6 +22,17 @@
     "original_title": "Palvella Therapeutics Wins Additional US FDA Grant Funding for Rare Skin Disease Drug - Yahoo Finance"
   },
   {
+    "slug": "32525899ab8e1f7f",
+    "title_ja": "中程度のアトピー性皮膚炎に対する新しい外用薬の経済効果",
+    "summary_ja": "この研究は、中程度のアトピー性皮膚炎に対する新しい外用薬「ルキソリチニブクリーム」（1.5%配合）の経済効果をドイツで評価しました。ルキソリチニブクリームは、炎症を抑えるJAK阻害薬の一種で、2026年から使用される予定です。30%の患者に採用されることで、より高価な治療法の代わりになり、全体的な医療費を削減できます。これは、負担を軽くしながら効果的な治療を提供できる可能性を示しています。",
+    "category": "研究論文",
+    "relevance_score": 0.8,
+    "date": "2026-10-02",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42805028/",
+    "source": "pubmed",
+    "original_title": "Budget Impact Analysis of System-Level Costs Associated With Topical Janus Kinase Inhibitor Therapies for Moderate Atopic Dermatitis in Germany."
+  },
+  {
     "slug": "6e2b08d12b21487e",
     "title_ja": "魚鱗癬の特別支援教育の補助ガイド",
     "summary_ja": "このガイドでは、魚鱗癬を持つお子さんが特別な教育の補助を受けるための計画（IEPや504プラン）について紹介しています。魚鱗癬が原因で学習に影響が出る場合、特別な対応が必要になることがあります。お子さんの症状に応じた教育サポートを受けるための手続きを知ることができます。",
@@ -97,6 +108,17 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/41865984/",
     "source": "pubmed",
     "original_title": "Health care resource utilization in patients with atopic dermatitis according to treatment response: evidence from the BIOBADATOP registry."
+  },
+  {
+    "slug": "d75cfd25996b0a4a",
+    "title_ja": "災害時の小児慢性特定疾病患者の診療",
+    "summary_ja": "台風に伴う災害被害者向けに、小児慢性特定疾病患者の診療において、受給者証がなくても指定医療機関以外の受診が可能になったという重要なお知らせです。これは災害被害を受けた人々が安心して医療を受けられるための特別措置です。魚鱗癬を含む小児慢性特定疾病に該当する患者やその家族にとって非常に役立つ情報です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-10-02",
+    "url": "https://www.shouman.jp/news/topics/176",
+    "source": "japan_support:小児慢性特定疾病情報センター",
+    "original_title": "[小児慢性特定疾病] 【令和8年台風第25号に伴う災害の被災者の皆さまへ】 小児慢性特定疾病に係る診療に 受給者証は不要 で 指定医療機関以外の受診も可能 です"
   },
   {
     "slug": "e34dd6b3516d0922",
