@@ -37,7 +37,7 @@
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 97
+    "count": 99
   },
   {
     "key": "clothing",
@@ -52,7 +52,7 @@
   {
     "key": "growth",
     "label": "成長・栄養",
-    "count": 17
+    "count": 18
   },
   {
     "key": "mental",
@@ -62,12 +62,12 @@
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 20
+    "count": 21
   },
   {
     "key": "travel",
     "label": "外出・旅行・災害時",
-    "count": 11
+    "count": 12
   },
   {
     "key": "adult",
