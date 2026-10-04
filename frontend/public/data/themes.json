@@ -32,12 +32,12 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 41
+    "count": 42
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 99
+    "count": 101
   },
   {
     "key": "clothing",
@@ -47,12 +47,12 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 18
+    "count": 19
   },
   {
     "key": "growth",
     "label": "成長・栄養",
-    "count": 18
+    "count": 19
   },
   {
     "key": "mental",
@@ -72,6 +72,6 @@
   {
     "key": "adult",
     "label": "おとな・仕事・妊娠",
-    "count": 7
+    "count": 8
   }
 ]
