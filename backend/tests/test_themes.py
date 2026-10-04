@@ -73,3 +73,55 @@ def test_PubMedクエリは臨床文献のあるテーマにだけある():
     queries = all_pubmed_queries()
     assert queries
     assert all("ichthyosis" in q.lower() or "collodion" in q.lower() for q in queries)
+
+
+# --- 打ち消し文の扱い ---
+# 「この病気は感染するものではありません」という説明文が感染症テーマに当たり、
+# いじめの解説記事が感染症の記事として並んでいた
+
+
+@pytest.mark.parametrize("text", [
+    "この病気は感染するものではありません",
+    "魚鱗癬は感染しません。見た目の誤解を解くことが大切です",
+    "触れてもうつりません",
+])
+def test_打ち消し文は該当とみなさない(text: str):
+    assert "infection" not in detect_themes(text)
+
+
+@pytest.mark.parametrize("text", [
+    "基礎的な感染対策を工夫し命を救えた",
+    "感染のリスクが高まるため清潔に保つ",
+    "感染の徴候が見られた女児のケア方法",
+])
+def test_実際に感染を扱う記述は拾う(text: str):
+    assert "infection" in detect_themes(text)
+
+
+def test_二重否定を打ち消しと誤認しない():
+    assert "infection" in detect_themes("皮膚の感染症は珍しくありません")
+
+
+# --- 実データで見つかった判定漏れ ---
+
+
+def test_カタカナ表記の病名を拾う():
+    # 英語の ectropion では当たらず、Eye Care ガイドが保湿剤テーマにしか入らなかった
+    assert "eye" in detect_themes("エクトロピオンという目の病状についても触れています")
+
+
+def test_目のケアという言い回しを拾う():
+    assert "eye" in detect_themes("魚鱗癬を持つ子供の目のケア方法について")
+
+
+def test_大学生は学校テーマに入れる():
+    assert "school" in detect_themes("魚鱗癬を持つ大学生のための生活ガイド。寮の担当者と相談する")
+
+
+def test_大学病院は学校テーマに入れない():
+    # 素の「大学」を判定語にしていたとき、論文記事が学校テーマに混ざっていた
+    assert "school" not in detect_themes("研究はイタリアの8つの大学病院で行われました")
+
+
+def test_友達への伝え方は気持ちのテーマに入れる():
+    assert "mental" in detect_themes("友達に自分の病気をどう伝えるか、自信を持って話せるように")

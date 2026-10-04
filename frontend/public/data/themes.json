@@ -7,7 +7,7 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 6
+    "count": 8
   },
   {
     "key": "bathing",
@@ -17,7 +17,7 @@
   {
     "key": "eye",
     "label": "目（眼瞼外反・ドライアイ）",
-    "count": 2
+    "count": 3
   },
   {
     "key": "ear",
@@ -27,7 +27,7 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 12
+    "count": 11
   },
   {
     "key": "itch",
@@ -37,7 +37,7 @@
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 101
+    "count": 100
   },
   {
     "key": "clothing",
@@ -57,7 +57,7 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 24
+    "count": 27
   },
   {
     "key": "support",

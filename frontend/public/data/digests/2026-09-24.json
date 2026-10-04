@@ -39,7 +39,9 @@
     "action_required": 0,
     "created_at": "2026-09-24 00:23:26",
     "slug": "f58a990cb686df9f",
-    "themes": []
+    "themes": [
+      "mental"
+    ]
   },
   {
     "id": 3,
@@ -107,7 +109,6 @@
     "created_at": "2026-09-24 00:23:26",
     "slug": "d430cf6b3979eb5f",
     "themes": [
-      "infection",
       "mental"
     ]
   }
