@@ -66,6 +66,17 @@
     "original_title": "[FIRST] Bonding & Breast Feeding (Living with Ichthyosis guide)"
   },
   {
+    "slug": "f58a990cb686df9f",
+    "title_ja": "子供たちの素朴な質問に答えるIchthyosisガイド",
+    "summary_ja": "このガイドは魚鱗癬（いくりんせん）を持つ子どもたちが抱える疑問に答えるものです。魚鱗癬の子どもは肌がとても乾燥しやすく、ひび割れることがあるため、特別なクリームやローションを毎日使います。このページでは魚鱗癬が何か、他の子どもたちにどのように伝えるかについても解説しています。子どもたちが自身の状態に自信を持ち、友達に正しく伝える助けになる内容です。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-09-24",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/young-children/questions-kids-ask",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Questions Kids Ask (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "3871ba9cb4079a94",
     "title_ja": "魚鱗癬と共に生きるための心のサポート",
     "summary_ja": "このガイドは、魚鱗癬を持つ人がどのように心の健康を保ち、生活の質を向上させるかについての情報を提供しています。精神的な健康が他の領域にどのように影響を与えるかの研究もあり、病気の管理には心のケアも重要です。具体的なコーピングスキルや、患者同士のサポートグループの活用が提案されています。患者が社会的、感情的により良い支援を受けることができるよう支援する内容です。",
@@ -207,6 +218,28 @@
     "url": "https://www.reddit.com/r/eczema/comments/1rqp6m1/worst_eczema_flareup_of_my_life_after_years_of/",
     "source": "reddit:r/eczema",
     "original_title": "Worst eczema flare-up of my life after years of mild symptoms, finally saw a dermatologist"
+  },
+  {
+    "slug": "f7b88ab20afc136e",
+    "title_ja": "魚鱗癬との生活をどう楽にするか",
+    "summary_ja": "魚鱗癬を持つ人々が、どのように生活を楽にしているかを共有する場です。物理的なケアだけでなく、精神的なケアについても話されています。例えば、自信を持って人前に出るための服の選び方や、公共の場でのケア習慣についての悩みが挙げられています。これらは、魚鱗癬で悩む人々が、自分らしく日常を過ごすためにヒントを得るのに役立つでしょう。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.6,
+    "date": "2026-03-15",
+    "url": "https://www.reddit.com/r/ichthyosis/comments/1rnazwa/how_do_you_make_life_easier_with_icriosis/",
+    "source": "reddit:r/ichthyosis",
+    "original_title": "How do you make life easier with icriosis?"
+  },
+  {
+    "slug": "c8a258a80ff3b6ee",
+    "title_ja": "「かわいいって言わないで」#カリー・インフルエンサー #魚鱗癬",
+    "summary_ja": "このYouTubeショート動画では、魚鱗癬（ぎょりんせん）を持つインフルエンサーのカリーさんが、自分の生き方を自信を持ってシェアしています。カリーさんは、自分自身の姿を受け入れる大切さと、病気に対する社会の誤解を解消しようと努力しています。このような勇気ある発信は、同じ病気で苦しんでいる方々にとって、共感できるだけでなく力を与えるものです。魚鱗癬の患者さんの生活に関わる実際の声を届けることで、日常のサポートや共感を得られるかもしれません。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.5,
+    "date": "2026-08-30",
+    "url": "https://www.youtube.com/watch?v=2z94XW7UOb8",
+    "source": "youtube:PinkNews",
+    "original_title": "“Don’t Call Me Adorable” #shorts #carlieinfluencer #ichthyosis"
   },
   {
     "slug": "92fe7aff37576d3f",

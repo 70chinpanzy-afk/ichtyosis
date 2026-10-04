@@ -1,5 +1,16 @@
 [
   {
+    "slug": "103f3bdf0b0c04c8",
+    "title_ja": "魚鱗癬を持つ大学生のための生活ガイド",
+    "summary_ja": "このガイドは、魚鱗癬（ぎょりんせん）を持つ学生が大学生活を成功させるためのアドバイスをまとめたものです。魚鱗癬の患者さんは皮膚のケアが必要であるため、特別な配慮が求められることがあります。例えば、寮の施設担当者と事前にニーズを話し合うことが重要です。また、他の学生との共同生活についての心構えや、日常の生活を楽にするテクニックも紹介されています。個別の体験談に基づいており、新たな環境に適応するための参考になります。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.7,
+    "date": "2026-10-04",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/school-and-college/college-survival-guide",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] College Survival Guide (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "632b350bbe8a2cfe",
     "title_ja": "チャイルドライフスペシャリストの役割について",
     "summary_ja": "チャイルドライフスペシャリストは、医療システムを理解しやすくするために、家族のサポートを行います。特に魚鱗癬のような慢性疾患を持つ子供が学校に戻る際のサポートや、感情的な健康を保つための取り組みを助ける役割を果たします。医療チームの一員として、家族と子供にとって重要な存在です。患者や家族の不安を和らげ、日常生活にスムーズに戻れるよう支援します。",
@@ -64,5 +75,16 @@
     "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/school-and-college/school-survival-guide",
     "source": "patient_org:FIRST_guide",
     "original_title": "[FIRST] School Survival Guide (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "c1935090fba56a79",
+    "title_ja": "ベトナムで魚鱗癬の学生を支援する寄付",
+    "summary_ja": "ザライ省で、魚鱗癬を患う学生を支援するために2850万ベトナムドンの寄付が行われました。この支援は、経済的困難を抱える家族にとって大きな助けとなり、学生が必要な医療や保湿ケアを受けやすくすることを目指しています。こういった地域の取り組みは、患者さんの負担を軽減する助けになります。これからも全国各地で、魚鱗癬の罹患した方々へのサポートが広がることが期待されます。",
+    "category": "ニュース",
+    "relevance_score": 0.5,
+    "date": "2026-04-16",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVEFDOUxFVXotMWd1TDB6cmlid2ZKMHp0aFhkNllDcFBNZ0E4UndIWHRlYkRxUmtSV2tDaWR4ZERVb0w0UHR5ZnRqTnVJNU9jUktPYjBTTWtvS21xek9BVUdLRWtGNVpmT3VaMW56MHN5TnRlS1hrWkZvVWhFNmI3bXhTSVBxaDR5TURnX2hwdw?oc=5",
+    "source": "google_news:Vietnam.vn",
+    "original_title": "ザライ省：魚鱗癬を患う学生を支援するため、2850万ベトナムドンを寄付。 - Vietnam.vn"
   }
 ]

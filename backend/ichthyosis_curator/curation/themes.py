@@ -17,6 +17,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from datetime import date
 
@@ -57,6 +58,7 @@ THEMES: tuple[Theme, ...] = (
         key="school",
         label="学校・保育園",
         keywords=("学校", "保育園", "幼稚園", "先生", "クラス", "体育", "プール", "水泳",
+                  "大学生", "学生", "寮", "進学",
                   "school", "teacher", "classmate", "daycare", "swimming", "gym class"),
         queries_ja=("魚鱗癬 保育園", "魚鱗癬 学校 説明", "魚鱗癬 プール 体育"),
         queries_en=("ichthyosis school teacher", "ichthyosis swimming pool",
@@ -76,6 +78,7 @@ THEMES: tuple[Theme, ...] = (
         key="eye",
         label="目（眼瞼外反・ドライアイ）",
         keywords=("眼瞼", "外反", "まぶた", "ドライアイ", "目やに", "角膜", "視力",
+                  "エクトロピオン", "目のケア", "目の周り", "目周り", "眼科",
                   "ectropion", "eyelid", "dry eye", "cornea", "ophthalm"),
         queries_ja=("魚鱗癬 眼瞼外反", "魚鱗癬 目 乾燥"),
         queries_en=("ichthyosis ectropion eye care", "ichthyosis dry eyes eyelid"),
@@ -146,6 +149,7 @@ THEMES: tuple[Theme, ...] = (
         key="mental",
         label="見た目・気持ち・まわりの目",
         keywords=("見た目", "視線", "いじめ", "からかい", "自己肯定", "気持ち", "不安", "きょうだい",
+                  "友達", "自信",
                   "stigma", "bullying", "appearance", "psychosocial", "quality of life", "stare"),
         queries_ja=("魚鱗癬 見た目 視線", "魚鱗癬 いじめ", "魚鱗癬 気持ち 家族"),
         queries_en=("ichthyosis bullying stares", "ichthyosis mental health confidence"),
@@ -181,6 +185,27 @@ THEMES: tuple[Theme, ...] = (
 THEMES_BY_KEY = {theme.key: theme for theme in THEMES}
 
 
+# 判定語の直後が打ち消しなら、その一致は数えない。
+# 「この病気は感染するものではありません」という説明文が感染症テーマに
+# 当たり、いじめの解説記事が感染症の記事として並んでいた。
+# 「ありません」単体は「珍しくありません」のような二重否定を巻き込むため入れない。
+_NEGATION_RE = re.compile(r"(ではありません|ではない|しません|しない|するものでは|うつりません|うつらない)")
+_NEGATION_WINDOW = 10
+
+
+def _matches(keyword: str, text: str, lowered: str) -> bool:
+    kw = keyword.lower()
+    start = 0
+    while True:
+        i = lowered.find(kw, start)
+        if i < 0:
+            return False
+        tail = text[i + len(keyword) : i + len(keyword) + _NEGATION_WINDOW]
+        if not _NEGATION_RE.search(tail):
+            return True
+        start = i + len(kw)
+
+
 def detect_themes(text: str) -> list[str]:
     """本文からテーマを判定する（LLMを使わないので追加コストなし）"""
     if not text:
@@ -189,7 +214,7 @@ def detect_themes(text: str) -> list[str]:
     return [
         theme.key
         for theme in THEMES
-        if any(kw.lower() in lowered for kw in theme.keywords)
+        if any(_matches(kw, text, lowered) for kw in theme.keywords)
     ]
 
 
