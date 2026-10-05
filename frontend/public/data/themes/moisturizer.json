@@ -99,6 +99,28 @@
     "original_title": "Video Demonstration of ABCA12-Related Harlequin Ichthyosis in a Low-Resource Setting: Case Report and Review of Early Management Challenges."
   },
   {
+    "slug": "30eee5233701b9c3",
+    "title_ja": "魚鱗癬と更年期：肌の変化にどう対応するか",
+    "summary_ja": "このガイドでは、更年期における魚鱗癬の方の肌の変化について解説しています。更年期ではホルモンの減少が肌の乾燥、弾力低下、厚さの減少を引き起こし、特に魚鱗癬の患者さんは腕や脚で鱗粉が出やすくなります。また、肌がデリケートになり感染リスクも高まるため、適切な保湿が重要です。日常的に保湿剤を利用し、肌を守る工夫が、変化に伴う不快感を和らげる助けとなります。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/menopause",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Menopause (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "bfb61d4c3f28ce94",
+    "title_ja": "魚鱗癬と退職後の生活：ケアの絶対条件",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が退職後にどのように肌のケアを維持するかについて説明しています。皮膚は年齢と共に薄くなり、油分が減少するため、乾燥が強まる傾向があります。日常の保湿と共に、石鹸や温度変化に対する敏感さに注意が必要です。入浴後すぐに軟膏やクリームを塗布することで、肌の保湿を維持することが推奨されます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/retirement",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Retirement (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "78bf0253c0f72e77",
     "title_ja": "硝酸アンモニウムが皮膚のバリア機能を改善する効果",
     "summary_ja": "硝酸アンモニウムが皮膚の保湿だけでなく、バリア機能を改善する役割についての研究です。この成分は、皮膚の表面で水分を保持する能力を持ち、バリアを支える効果が期待されています。乾燥肌や角化症（かくかしょう）といった皮膚の状態で特に効果を発揮します。魚鱗癬などの乾燥に悩む患者さんにとって、日常的なケアの選択肢が増える可能性があります。",
@@ -867,6 +889,28 @@
     "url": "https://www.reddit.com/r/SkincareAddiction/comments/1rub0g4/acne_derm_refuses_to_prescribe_isotretinoin_what/",
     "source": "reddit:r/SkincareAddiction",
     "original_title": "[Acne] derm refuses to prescribe Isotretinoin, what are my options?"
+  },
+  {
+    "slug": "a334968547b8a1b8",
+    "title_ja": "魚鱗癬を持つ働く大人のためのガイド",
+    "summary_ja": "この記事は、魚鱗癬を持つ方が職場でどのように快適に働けるようにするかについてのガイドです。この記事内では、職場で肌の症状がどのように作業に影響するかを説明し、必要な調整をリクエストする方法を紹介しています。例えば、作業場所にファンを設置したり、一日に2回短い保湿時間を取ることなどが挙げられます。職場での理解を得るため、雇用者にしっかりと症状を伝え、必要な支援を具体的にお願いすることが重要です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/guide-for-working-adults",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Guide for Working Adults (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "1d34a0421f397aca",
+    "title_ja": "病院や介護施設での魚鱗癬ケアのためのアドボカシーガイド",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が病院や介護施設での適切なケアを受けるための方法を紹介しています。魚鱗癬は珍しい疾患であり、多くの医療スタッフが詳しく知らない可能性があるため、入院や施設に入る前に自分の肌のケアに関する要望を伝えることが大切です。具体的な入浴方法や保湿ケア、必要な薬剤の使用方法を説明し、自分の快適さと尊厳を守るための計画を立てることが推奨されています。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/advocating-in-hospitals-nursing-homes",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Advocating in Hospitals and Nursing Homes (Living with Ichthyosis guide)"
   },
   {
     "slug": "d3b00ce906455bd8",

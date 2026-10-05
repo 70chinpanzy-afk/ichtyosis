@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-05",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "5b6f8a48fb147b56",
+    "original_title": "[FIRST] Menopause (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬と更年期：肌の変化にどう対応するか",
+    "summary_ja": "このガイドでは、更年期における魚鱗癬の方の肌の変化について解説しています。更年期ではホルモンの減少が肌の乾燥、弾力低下、厚さの減少を引き起こし、特に魚鱗癬の患者さんは腕や脚で鱗粉が出やすくなります。また、肌がデリケートになり感染リスクも高まるため、適切な保湿が重要です。日常的に保湿剤を利用し、肌を守る工夫が、変化に伴う不快感を和らげる助けとなります。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/menopause",
+    "published_date": null,
+    "curation_reasoning": "更年期の魚鱗癬患者の肌の変化について解説しており、適切なケア方法が示されているため、患者や家族にとって非常に有益です。",
+    "drugs_json": "[]",
+    "patient_insight": "これは更年期の魚鱗癬患者向けの情報です。次の診察時に、更年期に伴う肌の変化に対応する保湿剤やスキンケア方法を主治医に相談してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-05 00:41:38",
+    "slug": "30eee5233701b9c3",
+    "themes": [
+      "infection",
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-05",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "c4be775b5129adac",
+    "original_title": "[FIRST] Retirement (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬と退職後の生活：ケアの絶対条件",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が退職後にどのように肌のケアを維持するかについて説明しています。皮膚は年齢と共に薄くなり、油分が減少するため、乾燥が強まる傾向があります。日常の保湿と共に、石鹸や温度変化に対する敏感さに注意が必要です。入浴後すぐに軟膏やクリームを塗布することで、肌の保湿を維持することが推奨されます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/retirement",
+    "published_date": null,
+    "curation_reasoning": "退職後の生活でも、肌のケアが重要であることを再認識させ、具体的な保湿方法を紹介しているため、患者にとって有益です。",
+    "drugs_json": "[]",
+    "patient_insight": "退職後の魚鱗癬患者向けの内容です。年齢による皮膚の変化を主治医と共有し、最適なスキンケアを相談しましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-05 00:41:38",
+    "slug": "bfb61d4c3f28ce94",
+    "themes": [
+      "bathing",
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-10-05",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "9d81f5c031b06a0e",
+    "original_title": "[FIRST] Guide for Working Adults (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬を持つ働く大人のためのガイド",
+    "summary_ja": "この記事は、魚鱗癬を持つ方が職場でどのように快適に働けるようにするかについてのガイドです。この記事内では、職場で肌の症状がどのように作業に影響するかを説明し、必要な調整をリクエストする方法を紹介しています。例えば、作業場所にファンを設置したり、一日に2回短い保湿時間を取ることなどが挙げられます。職場での理解を得るため、雇用者にしっかりと症状を伝え、必要な支援を具体的にお願いすることが重要です。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/guide-for-working-adults",
+    "published_date": null,
+    "curation_reasoning": "職場での生活を支える具体的なアドバイスが含まれており、有用な支援方法が提供されているため。",
+    "drugs_json": "[]",
+    "patient_insight": "これは成人の方に向けた職場での対処法のガイドです。上司や人事部に、作業環境や保湿時間の調整など必要な支援を説明し、快適に働く環境を整えましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-05 00:41:38",
+    "slug": "a334968547b8a1b8",
+    "themes": [
+      "moisturizer",
+      "adult"
+    ]
+  },
+  {
+    "id": 4,
+    "digest_date": "2026-10-05",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "7990e0246c78d331",
+    "original_title": "[FIRST] Advocating in Hospitals and Nursing Homes (Living with Ichthyosis guide)",
+    "title_ja": "病院や介護施設での魚鱗癬ケアのためのアドボカシーガイド",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が病院や介護施設での適切なケアを受けるための方法を紹介しています。魚鱗癬は珍しい疾患であり、多くの医療スタッフが詳しく知らない可能性があるため、入院や施設に入る前に自分の肌のケアに関する要望を伝えることが大切です。具体的な入浴方法や保湿ケア、必要な薬剤の使用方法を説明し、自分の快適さと尊厳を守るための計画を立てることが推奨されています。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/advocating-in-hospitals-nursing-homes",
+    "published_date": null,
+    "curation_reasoning": "医療機関での適切なケアを受けられるよう、患者が自分の権利を主張するための具体的なアドバイスが含まれているため。",
+    "drugs_json": "[]",
+    "patient_insight": "入院や施設に入る予定がある方に役立つ情報です。自分の肌のケアがどのようにされるべきか、具体的に医療スタッフに伝えて、快適な環境を作りましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-05 00:41:38",
+    "slug": "1d34a0421f397aca",
+    "themes": [
+      "bathing",
+      "moisturizer"
+    ]
+  }
+]

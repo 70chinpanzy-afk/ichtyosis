@@ -11,6 +11,17 @@
     "original_title": "Gene therapy for genodermatoses at the crossroads of innovation and clinical translation."
   },
   {
+    "slug": "bfb61d4c3f28ce94",
+    "title_ja": "魚鱗癬と退職後の生活：ケアの絶対条件",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が退職後にどのように肌のケアを維持するかについて説明しています。皮膚は年齢と共に薄くなり、油分が減少するため、乾燥が強まる傾向があります。日常の保湿と共に、石鹸や温度変化に対する敏感さに注意が必要です。入浴後すぐに軟膏やクリームを塗布することで、肌の保湿を維持することが推奨されます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/retirement",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Retirement (Living with Ichthyosis guide)"
+  },
+  {
     "slug": "689390e82c6b2ab7",
     "title_ja": "頭皮、爪、かゆみのケア方法（魚鱗癬とともに生きるガイド）",
     "summary_ja": "魚鱗癬を持つ子どもにとって、かゆみや頭皮のフケは大きな悩みです。このガイドでは、かゆみの緩和に効果的なオートミールとオイルバスの方法、保湿クリームの活用法を紹介しています。また、頭皮のフケを取り除く方法として、夜間にクリームを塗ってシャワーキャップをかぶせ、朝に洗い流すテクニックも紹介されています。",
@@ -141,5 +152,16 @@
     "url": "https://www.reddit.com/r/eczema/comments/1rnrqvk/6yearold_eczema_flare_skin_softer_but_itching/",
     "source": "reddit:r/eczema",
     "original_title": "6-year-old eczema flare – skin softer but itching still severe. Is this normal?"
+  },
+  {
+    "slug": "1d34a0421f397aca",
+    "title_ja": "病院や介護施設での魚鱗癬ケアのためのアドボカシーガイド",
+    "summary_ja": "このガイドは、魚鱗癬を持つ人が病院や介護施設での適切なケアを受けるための方法を紹介しています。魚鱗癬は珍しい疾患であり、多くの医療スタッフが詳しく知らない可能性があるため、入院や施設に入る前に自分の肌のケアに関する要望を伝えることが大切です。具体的な入浴方法や保湿ケア、必要な薬剤の使用方法を説明し、自分の快適さと尊厳を守るための計画を立てることが推奨されています。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-10-05",
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/life-stages/adults/advocating-in-hospitals-nursing-homes",
+    "source": "patient_org:FIRST_guide",
+    "original_title": "[FIRST] Advocating in Hospitals and Nursing Homes (Living with Ichthyosis guide)"
   }
 ]

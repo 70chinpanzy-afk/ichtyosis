@@ -12,7 +12,7 @@
   {
     "key": "bathing",
     "label": "入浴・角質ケア",
-    "count": 13
+    "count": 15
   },
   {
     "key": "eye",
@@ -27,7 +27,7 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 11
+    "count": 12
   },
   {
     "key": "itch",
@@ -37,7 +37,7 @@
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 100
+    "count": 104
   },
   {
     "key": "clothing",
@@ -72,6 +72,6 @@
   {
     "key": "adult",
     "label": "おとな・仕事・妊娠",
-    "count": 8
+    "count": 9
   }
 ]
