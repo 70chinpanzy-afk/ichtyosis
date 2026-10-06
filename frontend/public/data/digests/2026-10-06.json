@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-06",
+    "source": "patient_org:FIRST_guide",
+    "source_id": "03a2b3b2b905556a",
+    "original_title": "[FIRST] Bathing & Exfoliation (Living with Ichthyosis guide)",
+    "title_ja": "魚鱗癬生活ガイド: 入浴と角質除去",
+    "summary_ja": "魚鱗癬では、皮膚の表面が厚くなるため、適切な入浴と角質除去が重要です。体の最も外側の皮膚（角質層）がうまく作られなかったり、剥がれにくくなることでセルフケアが難しくなります。このガイドでは、どのようにして安全に皮膚を整えるかを説明しています。定期的なケアで、皮膚が厚くならないようにすることができます。※個人の体験に基づく内容です。医学的な効果が証明されたものではありません。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/daily-skin-care/bathing-exfoliation",
+    "published_date": null,
+    "curation_reasoning": "魚鱗癬の特性に合わせた日常的なケア方法が具体的に示されており、患者さん自身がセルフケアを改善するための有用な情報を提供しているため。",
+    "drugs_json": "[]",
+    "patient_insight": "魚鱗癬に特化した入浴とケアのガイドです。毎日の入浴時にどのように皮膚を保護するかを学び、家庭でのケアに取り入れてみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-06 02:11:06",
+    "slug": "bdb5fbe46191f0e8",
+    "themes": [
+      "bathing"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-06",
+    "source": "pubmed",
+    "source_id": "42802835",
+    "original_title": "Eczema Molluscatum in a Patient With Atopic Dermatitis on Upadacitinib and Methotrexate.",
+    "title_ja": "アトピー性皮膚炎患者のエクゼマモルスカットムのケース",
+    "summary_ja": "この研究は、長期間アトピー性皮膚炎に苦しんでいた29歳の患者についてのものです。患者は特定の薬（ウパダシチニブとメトトレキサート）で治療中に、顔に小さな丘疹が発生しました。治療には局所的なジェルが使われましたが効果はあまりなく、最終的に冷凍療法で改善しました。このケースは、他の皮膚病との判別が重要であることを示しています。魚鱗癬の方にも同様の症状が出た場合、早期発見と適切な治療が求められます。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42802835/",
+    "published_date": "2026 Aug",
+    "curation_reasoning": "特定の薬による治療中に発生した症状の詳細な報告で、魚鱗癬患者さんにも関連する症状が含まれるため。類似の症状に対する注意喚起ができる。",
+    "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（Upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"体内の免疫反応を抑えることで、炎症を和らげる薬です。\"}, {\"drug_name\": \"メトトレキサート（Methotrexate）\", \"ingredients\": \"メトトレキサート\", \"description\": \"免疫系の活性を抑え、炎症を軽減するために使用される薬です。\"}]",
+    "patient_insight": "アトピー性皮膚炎の治療中に発生した症例です。ウパダシチニブやメトトレキサートを使用中の方は、類似の症状が出ないか注意深く観察し、異常があれば医師に相談しましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-06 02:11:06",
+    "slug": "333e4a389629661d",
+    "themes": []
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-10-06",
+    "source": "youtube:Matt Randon",
+    "source_id": "1445c5e6682d1f29",
+    "original_title": "HOW TO FIX DRY LEGS!😱 #dryskin #skincaretips #skincareroutine #skin #beautytips",
+    "title_ja": "乾燥した脚を治す方法",
+    "summary_ja": "この動画では、乾燥した脚のスキンケア方法について紹介されています。動画によると、保湿剤の選び方や効果的な使い方が説明されています。また、日常のケアで気をつけるべきポイントも解説されています。特に、保湿が重要であるということが強調されていますが、魚鱗癬の患者さんにも参考になる内容です。スキンケアを工夫することで、日常の不快感が軽減される可能性があります。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.5,
+    "url": "https://www.youtube.com/watch?v=souWUea1rcM",
+    "published_date": "2026-09-24",
+    "curation_reasoning": "乾燥肌に対するスキンケアが取り上げられており、魚鱗癬患者のケアにも応用できるため。具体的な日常ケアに関する情報が含まれている点が役立つ。",
+    "drugs_json": "[]",
+    "patient_insight": "この動画は、乾燥肌のケアに関する一般的なアドバイスですが、魚鱗癬の保湿ケアとしても参考になります。使用する保湿剤の種類や頻度について、次の診療で確認してみると良いでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-06 02:11:06",
+    "slug": "0f625c2ffca06470",
+    "themes": [
+      "moisturizer"
+    ]
+  }
+]
