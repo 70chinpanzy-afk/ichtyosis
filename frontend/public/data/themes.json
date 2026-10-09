@@ -27,12 +27,12 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 12
+    "count": 13
   },
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 42
+    "count": 43
   },
   {
     "key": "moisturizer",
@@ -47,17 +47,17 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 19
+    "count": 20
   },
   {
     "key": "growth",
     "label": "成長・栄養",
-    "count": 19
+    "count": 20
   },
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 29
+    "count": 30
   },
   {
     "key": "support",
