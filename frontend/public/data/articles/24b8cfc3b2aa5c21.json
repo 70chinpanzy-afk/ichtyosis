@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-10-12",
+  "source": "google_news:Dermatology Times",
+  "source_id": "1df0b0e8399c1001",
+  "original_title": "JAK Inhibitor Safety in Atopic Dermatitis: Long-Term Epidemiology Data - Dermatology Times",
+  "title_ja": "アトピー性皮膚炎におけるJAK阻害薬の安全性について",
+  "summary_ja": "アトピー性皮膚炎の治療で使われる新しいタイプの薬、JAK阻害薬の長期間の安全性についてのデータが発表されました。この薬は体の中の免疫反応を調整し、症状を和らげる働きをします。長期的に使用した場合でも安全であることが確認されたので、この治療法が魚鱗癬の患者さんにも効果が期待できる可能性があります。ただし、具体的な魚鱗癬への適用については今後のさらなる研究が必要です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeWtaRWh0SVhRNmxNUGczRGdGWW9NTnFhdU44bHFlYmlGZV81QXFzM1BBYnJMcVRQQlA5UVdORVptX0lXQm9paENRTUdNRjBUWWVhTkpEbzNhOVRGUl9VLUxaa2pySFlMRXFReXg4aXRvUWFvMElRNmRaTnZzdUw0OTg3OVRRU1VHRmloS3J3bmFVSWlyRjA2UDVJQ1FyY3V1NFIxRlJ6eHI5SUE?oc=5",
+  "published_date": "2026-10-10",
+  "curation_reasoning": "アトピー性皮膚炎に使用される薬が、他の皮膚疾患である魚鱗癬にも応用可能かもしれないため。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitor）\", \"ingredients\": \"ジャヌスキナーゼ阻害剤（Janus kinase inhibitor）\", \"description\": \"免疫反応を調整して炎症を抑える薬\"}]",
+  "patient_insight": "成人が対象の報告です。魚鱗癬の治療にも使える可能性があるため、次の診察時に主治医にこの治療法について聞いてみるとよい報告です。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-12 01:10:56",
+  "slug": "24b8cfc3b2aa5c21",
+  "themes": []
+}
