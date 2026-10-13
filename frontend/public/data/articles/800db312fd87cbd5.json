@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-13",
+  "source": "patient_org:FIRST",
+  "source_id": "1d57579ecf05ed5e",
+  "original_title": "[FIRST] 2nd UFIRST Scholarship Cycle Now Accepting Applications!",
+  "title_ja": "UFIRST奨学金の第2回応募受付開始！",
+  "summary_ja": "Ichthyosis（魚鱗癬）や関連する皮膚疾患を持つ学生を対象に、第2回目のUFIRST奨学金の応募受付が始まりました。この奨学金は、Beiersdorf（バイエルスドルフ）の支援を受けており、EucerinやAquaphorといったスキンケア製品を製造する会社が協力しています。奨学金は学費の負担軽減を目的としており、学生がより安心して学業に専念できる環境を提供します。応募には特定の条件があるので、詳細は公式サイトで確認してください。",
+  "category": "制度・支援",
+  "relevance_score": 0.6,
+  "url": "https://firstskinfoundation.org/news-articles/2nd-ufirst-scholarship-cycle-now-accepting-applications/",
+  "published_date": "2026-10-05",
+  "curation_reasoning": "魚鱗癬や関連する皮膚疾患を持つ方が学校での学費を支援してもらえる制度であり、教育における不安を軽減する可能性があるため。",
+  "drugs_json": "[]",
+  "patient_insight": "魚鱗癬や関連疾患を持つ学生が対象です。奨学金の詳細条件を確認し、申請に必要な書類を準備するために、早めに公式サイトを訪れてください。",
+  "deadline": "",
+  "action_required": 1,
+  "created_at": "2026-10-13 02:58:31",
+  "slug": "800db312fd87cbd5",
+  "themes": [
+    "school",
+    "support"
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-13",
+    "source": "pubmed",
+    "source_id": "42858415",
+    "original_title": "Shared Pathways between Psoriasis and Atopic Dermatitis.",
+    "title_ja": "乾癬とアトピー性皮膚炎に共通する治療の可能性",
+    "summary_ja": "乾癬（かんせん）とアトピー性皮膚炎は異なる皮膚の病気ですが、共通する免疫の仕組みがあることが分かってきました。最新の研究では、これらの共通する仕組みが新しい治療のターゲットになり得ることが示唆されています。この発見により、他の皮膚病にも応用できる薬の開発に繋がる可能性があります。魚鱗癬を含む皮膚のバリア障害を抱える患者さんには、今後の治療法の選択肢として期待できる内容です。同様の免疫の仕組みが対象となるため、新しい治療法の登場に備えて情報収集が重要です。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42858415/",
+    "published_date": "2026 Jul 31",
+    "curation_reasoning": "乾癬とアトピー性皮膚炎に共通する免疫の仕組みが明らかになり、これが新しい治療法の開発に繋がる可能性があるため。魚鱗癬にも応用が期待できる。",
+    "drugs_json": "[]",
+    "patient_insight": "乾癬やアトピー性皮膚炎の治療法が、魚鱗癬にも応用できるかもしれません。今後の治療の選択肢が増える可能性があるため、最新の研究や治療情報を主治医と共に確認することをお勧めします。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-13 02:58:31",
+    "slug": "6a2cb21de5aa0a35",
+    "themes": []
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-13",
+    "source": "pubmed",
+    "source_id": "42860858",
+    "original_title": "Enzymatic Synthesis of a Novel α-Linolenic Acid-Enriched Phytoceramide From Perilla Seed Oil and Its Multifunctional Bioactivity in Skin Barrier Repair and Anti-Aging.",
+    "title_ja": "シソ油から作った新しいセラミドが皮膚の健康に役立つ研究",
+    "summary_ja": "シソ油から作られた新しいタイプのセラミドが、皮膚のバリア機能を強化し、老化を防ぐ可能性があることが分かりました。このセラミドは特にα-リノレン酸という脂肪酸が多く含まれており、人間の皮膚細胞の実験で、安全で効果的であることが確認されています。魚鱗癬などの皮膚バリアが弱い方には、新たな保湿剤として期待できます。しかし、実用化されるかはまだ研究が必要です。",
+    "category": "研究論文",
+    "relevance_score": 0.6,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42860858/",
+    "published_date": "2026 Oct",
+    "curation_reasoning": "皮膚のバリア機能改善に役立つセラミドの新しい種類を紹介しており、魚鱗癬の症状緩和に繋がる可能性があるため。",
+    "drugs_json": "[{\"drug_name\": \"植物性セラミド（Phytoceramide）\", \"ingredients\": \"α-リノレン酸（alpha-linolenic acid）\", \"description\": \"皮膚のバリアを強化し、老化を防ぐ効果が期待される脂質成分\"}]",
+    "patient_insight": "この研究は現在のところ実験段階ですが、シソ油から作った新しいセラミドが皮膚の健康に良い影響を与える可能性が示されています。今後これが製品化された場合は、主治医と相談の上で使用を検討してみてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-13 02:58:31",
+    "slug": "334669578235db7d",
+    "themes": [
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-10-13",
+    "source": "patient_org:FIRST",
+    "source_id": "1d57579ecf05ed5e",
+    "original_title": "[FIRST] 2nd UFIRST Scholarship Cycle Now Accepting Applications!",
+    "title_ja": "UFIRST奨学金の第2回応募受付開始！",
+    "summary_ja": "Ichthyosis（魚鱗癬）や関連する皮膚疾患を持つ学生を対象に、第2回目のUFIRST奨学金の応募受付が始まりました。この奨学金は、Beiersdorf（バイエルスドルフ）の支援を受けており、EucerinやAquaphorといったスキンケア製品を製造する会社が協力しています。奨学金は学費の負担軽減を目的としており、学生がより安心して学業に専念できる環境を提供します。応募には特定の条件があるので、詳細は公式サイトで確認してください。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "url": "https://firstskinfoundation.org/news-articles/2nd-ufirst-scholarship-cycle-now-accepting-applications/",
+    "published_date": "2026-10-05",
+    "curation_reasoning": "魚鱗癬や関連する皮膚疾患を持つ方が学校での学費を支援してもらえる制度であり、教育における不安を軽減する可能性があるため。",
+    "drugs_json": "[]",
+    "patient_insight": "魚鱗癬や関連疾患を持つ学生が対象です。奨学金の詳細条件を確認し、申請に必要な書類を準備するために、早めに公式サイトを訪れてください。",
+    "deadline": "",
+    "action_required": 1,
+    "created_at": "2026-10-13 02:58:31",
+    "slug": "800db312fd87cbd5",
+    "themes": [
+      "school",
+      "support"
+    ]
+  }
+]
