@@ -7,7 +7,7 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 9
+    "count": 10
   },
   {
     "key": "bathing",
@@ -32,12 +32,12 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 46
+    "count": 47
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 108
+    "count": 110
   },
   {
     "key": "clothing",
@@ -47,7 +47,7 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 20
+    "count": 21
   },
   {
     "key": "growth",
