@@ -1,0 +1,21 @@
+{
+  "id": 6,
+  "digest_date": "2026-10-15",
+  "source": "patient_org:FIRST",
+  "source_id": "c5dd360f9c3f13f1",
+  "original_title": "[FIRST] Northwestern and Yale to Lead New NIH-Funded National Consortium for Rare Inherited Skin Disorders",
+  "title_ja": "希少な遺伝性皮膚疾患研究の新しい全国コンソーシアム設立",
+  "summary_ja": "アメリカのノースウェスタン大学とイェール大学が、希少な皮膚疾患の研究を目的とした新しいコンソーシアムを設立しました。このプロジェクトは、5年間で500万ドルの資金提供を受け、遺伝性の皮膚疾患に関する知見を深めます。研究の結果は、魚鱗癬などの皮膚疾患の新しい治療法の開発に寄与するかもしれません。特に日本の患者にとっても、将来的に海外での治療法が日本に応用される可能性があり、関心を持つに値する取り組みです。",
+  "category": "ニュース",
+  "relevance_score": 0.6,
+  "url": "https://firstskinfoundation.org/news-articles/northwestern-and-yale-to-lead-new-nih-funded-national-consortium-for-rare-inherited-skin-disorders/",
+  "published_date": "2026-10-14",
+  "curation_reasoning": "希少皮膚疾患に焦点を当てた研究プロジェクトであり、魚鱗癬のような疾患の新たな治療法が期待されるため、重要。",
+  "drugs_json": "[]",
+  "patient_insight": "遺伝性の皮膚疾患に関する新しい大規模な研究プロジェクトです。アメリカで始まった研究ですが、今後日本にも影響を及ぼす可能性があるため、定期的に進捗を確認すると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "3f236428eb31cd12",
+  "themes": []
+}

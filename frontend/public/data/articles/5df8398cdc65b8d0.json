@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "digest_date": "2026-10-15",
+  "source": "pubmed",
+  "source_id": "42870708",
+  "original_title": "Review of Ultrasound Diagnosis of Ichthyosis in Fetuses.",
+  "title_ja": "胎児における魚鱗癬の超音波診断レビュー",
+  "summary_ja": "この研究は、胎児における魚鱗癬の超音波診断についてまとめています。研究によると、幾つかの魚鱗癬では妊娠中期以降に特有のパターンが見られることがあります。例えば、顔の特徴や羊水の状態から診断が難しい場合があります。この情報は、早期発見と家族への適切な説明に役立ちます。特に、早期発見が治療の選択肢を広げる可能性が高いです。",
+  "category": "研究論文",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42870708/",
+  "published_date": "2026 Oct 14",
+  "curation_reasoning": "胎児の超音波診断は早期発見に役立つため、家族や医療従事者にとって価値があります。",
+  "drugs_json": "[]",
+  "patient_insight": "妊娠中の超音波診断についての情報です。異常を早期に発見することで治療の選択肢が広がる可能性があります。次回の診察で主治医に具体的な診断方法や対応について聞くと良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "5df8398cdc65b8d0",
+  "themes": [
+    "adult"
+  ]
+}

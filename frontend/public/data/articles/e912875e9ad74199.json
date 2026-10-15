@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "digest_date": "2026-10-15",
+  "source": "patient_org:FIRST_guide",
+  "source_id": "aca37863f71e26cf",
+  "original_title": "[FIRST] Scalp Scale (Living with Ichthyosis guide)",
+  "title_ja": "魚鱗癬の頭皮ケア方法",
+  "summary_ja": "このガイドは、魚鱗癬（ぎょりんせん）患者が頭皮のかさぶたを安全に取り除く方法を紹介しています。具体的には、ローションやオイルを頭皮に塗って柔らかくし、シャワーキャップを被って寝てから、翌朝シャンプーで洗い流す方法です。また、かさぶたを緩めるために使用できる特定のシャンプーやクリームも紹介されています。魚鱗癬を持つ方にとって、髪を傷めずに頭皮を清潔に保つ役立つ方法です。日常的な頭皮ケアのヒントになるでしょう。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/scalp-scale",
+  "published_date": null,
+  "curation_reasoning": "頭皮のかさぶた取り除き方を具体的に提供しており、日常生活の質を向上させる実践的な方法を含んでいるため。",
+  "drugs_json": "[{\"drug_name\": \"ニゾラールシャンプー（Nizoral Shampoo）\", \"ingredients\": \"ケトコナゾール（ketoconazole）\", \"description\": \"皮膚の真菌（菌類）の増殖を抑えるシャンプー\"}, {\"drug_name\": \"T-Sal エクストラストレングスシャンプー（T-Sal Extra Strength Shampoo）\", \"ingredients\": \"サリチル酸（salicylic acid）\", \"description\": \"皮膚のかさぶたやフケを柔らかくし取り除くシャンプー\"}, {\"drug_name\": \"ネオストラタ・プロブレムドライスキンクリーム（NeoStrata Problem Dry Skin Cream）\", \"ingredients\": \"特定の成分情報なし\", \"description\": \"非常に乾燥した肌を保湿し、滑らかにするクリーム\"}]",
+  "patient_insight": "頭皮のかさぶたに困っている魚鱗癬の方に向けた情報です。紹介されている方法や製品を試す前に、今使用している製品との適合性を主治医に確認してみると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "e912875e9ad74199",
+  "themes": [
+    "bathing"
+  ]
+}

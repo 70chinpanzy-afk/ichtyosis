@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "digest_date": "2026-10-15",
+  "source": "patient_org:FIRST",
+  "source_id": "692a57a8290aeaea",
+  "original_title": "[FIRST] What New Research Tells Us About Skin Cancer and Congenital Ichthyosis",
+  "title_ja": "新研究：皮膚がんと先天性魚鱗癬の関係",
+  "summary_ja": "最新の研究が、皮膚がんと先天性魚鱗癬の関連性について理解を深める手助けをしています。大規模な国の健康データベースを活用し、この疑問に答えるためのデータを集めました。これにより、魚鱗癬患者に対する将来的な予防策や治療法の改良が期待されています。患者さんやご家族にとっては、より安全で効果的なケア方法が見つかる可能性があり、重要な進展です。",
+  "category": "研究論文",
+  "relevance_score": 0.7,
+  "url": "https://firstskinfoundation.org/news-articles/new-research-skin-cancer-and-congenital-ichthyosis/",
+  "published_date": "2026-10-14",
+  "curation_reasoning": "先天性魚鱗癬と皮膚がんとの関連を研究することで、予防策や治療法が改良される可能性があるため、特に重要な研究。",
+  "drugs_json": "[]",
+  "patient_insight": "先天性魚鱗癬と皮膚がんの関連を調査した新しい研究です。これにより、今後の治療法や予防策が進む可能性があります。次の診察で気になる点を主治医に相談してみると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "b8389a9a730fe543",
+  "themes": []
+}

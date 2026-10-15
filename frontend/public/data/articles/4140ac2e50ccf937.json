@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-15",
+  "source": "pubmed",
+  "source_id": "42868105",
+  "original_title": "Effect of a Ceramide NP-Containing Moisturizer on Skin Barrier Function in Adults with Atopic Dermatitis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+  "title_ja": "セラミドNPを含む保湿剤がアトピー性皮膚炎のスキンバリアに与える効果",
+  "summary_ja": "この研究は、セラミドNPを含む保湿剤がアトピー性皮膚炎の大人の肌に与える影響を調べたものです。保湿剤を使用すると、肌の水分量が増え、乾燥が改善される結果が出ました。ただし、対照群との有意差は見られませんでした。セラミドは皮膚の健康を保つために重要な脂質で、今回の結果は肌の保護に役立つ可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42868105/",
+  "published_date": "2026 Oct 13",
+  "curation_reasoning": "セラミドを含む保湿剤は魚鱗癬の患者さんにも肌の保護に使用できるため、価値があります。",
+  "drugs_json": "[{\"drug_name\": \"セラミド含有保湿剤\", \"ingredients\": \"セラミドNP\", \"description\": \"皮膚バリアを強化し、乾燥を防ぐ保湿剤\"}]",
+  "patient_insight": "アトピー性皮膚炎向けの情報ですが、セラミドNP含有の保湿剤は魚鱗癬にも役立つかもしれません。成分表示を確認し、使ってみる価値があるか主治医に聞くとよいです。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "4140ac2e50ccf937",
+  "themes": [
+    "moisturizer"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-10-15",
+  "source": "pubmed",
+  "source_id": "42870205",
+  "original_title": "An Investigational Mechanism-Informed Therapy for Netherton Syndrome: Introduction to QRX003 and A Pediatric Compassionate-Use Case Report.",
+  "title_ja": "ネザートン症候群向けのQRX003薬の研究紹介",
+  "summary_ja": "この研究は、ネザートン症候群という重度の遺伝性皮膚疾患のために開発されたQRX003という新しい塗り薬について紹介しています。QRX003は、遺伝子異常によって引き起こされる皮膚障害の改善を目指しています。この薬は、皮膚のバリアを強化し、炎症を軽減する効果が期待されています。現在、医薬品としての開発が進行中です。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42870205/",
+  "published_date": "2026 Oct 13",
+  "curation_reasoning": "QRX003は類似した皮膚疾患への新しい治療法として期待できるため、魚鱗癬の患者さんにも可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"QRX003\", \"ingredients\": \"DiPalmitoyl HydroxyProline (DPHP)\", \"description\": \"過剰なセリンプロテアーゼの活性を低下させ、皮膚の炎症を軽減する塗り薬\"}]",
+  "patient_insight": "ネザートン症候群の治療研究についての情報です。この治療法が同様の皮膚疾患に広がる可能性について、主治医に相談するとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-15 00:25:18",
+  "slug": "66b8cf9d92c77bc8",
+  "themes": []
+}
