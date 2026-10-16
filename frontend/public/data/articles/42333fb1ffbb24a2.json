@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-10-16",
+  "source": "google_news:The Manila Times",
+  "source_id": "39b8c5e8f48f1a26",
+  "original_title": "Quoin Pharmaceuticals Announces European Medicines Agency (EMA) Grants Orphan Drug Designation for QRX003 for the Treatment of Peeling Skin Syndrome - The Manila Times",
+  "title_ja": "新しい薬QRX003、皮膚剥脱症候群の治療に",
+  "summary_ja": "QRX003という新しい薬が、皮膚剥脱症候群の治療薬として欧州の特定希少疾病用医薬品に指定されました。魚鱗癬のような皮膚疾患にも効果が期待できるかもしれません。この指定により、QRX003は今後の治療法のひとつとして開発が加速するでしょう。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.9,
+  "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPSjg2UThub3lnYzRnLVlLOUpBSUZZTlRUSUl0dm1IRFppX183TDhjLUFCSUx4Y19NaGhOTXBnU0NidUJHZ3ZKVzBpVTJ4WHZmNnl0Yzk2dW9VUkZCa3RsT3Q5dkxMVzJIdGd4NC1lOTIzOGZhSTk3VUoxMTdJa05kRmJTcGFsQkRrOWtDQXZZYThrendxQ3MzR1VLQjZfTHVUSXhTSUhlU3BuZXVBc0ZUT3ZiS3ZjcVdORDF3RXJDTWx3ekNJMkViTG5nNE42aVJKMDI5dGVrYmtGaDZTNk93OUNDMzAzdzBEMkQ1RXdiZ0x6amI4cjBfWUh4ajhxM3BlTEJBNTYzSGNadXVlWEpRakw2ZldZVFNlbWNvTVVjbTliZklITnlPbzJzNVNjc1FMTEZ6b3NSaTNHVGJ4WHNrMTJR0gHHAkFVX3lxTE1Nbml3SGFnTjhpSEozMjlyM0x4bG1HRVFmRG1WM1lYVUhERmVXS3d4M05uRXJwNzRJVmt4cFM2aTFnblNwUEpRNDZjUng3UHdUWlJoa1N6SE5KemgtRzQtZTM3bEhpZmp0MEtOU2x1cUZGZlNtRmFleGptMXQwMnlxX0hPTW1FazNsd3NMb1RiNnROMnBmRTFjdUFHaGU4UFB0ajNzNm1jdlhUTmJsd1NZbm82ZUNjYVJqZjJHMGFheFppZ19Ed1VaeDR0RjRELXhtaEhEOTEwV051cW1wQ2xkb3VUdHVQWlpvVWRzNEdZVmtjLWhyVWFBVE1QRGNNU3pNZkp6YmhfdGswYy1QNjlsQnFobHkxcGlCX2MzY2JUY1BqQ3psT2FsWFcxeUNqWWJlMTZvOWhIVHdHczJSX1NyQUhhdFR3TQ?oc=5",
+  "published_date": "2026-10-14",
+  "curation_reasoning": "QRX003の開発は、魚鱗癬の患者に新たな治療の可能性を提供します。",
+  "drugs_json": "[{\"drug_name\": \"QRX003\", \"ingredients\": \"不明\", \"description\": \"皮膚の剥脱症に対する新しい治療薬\"}]",
+  "patient_insight": "海外での薬の開発進展です。日本での利用状況については、主治医に確認しておくと良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-16 00:14:28",
+  "slug": "42333fb1ffbb24a2",
+  "themes": []
+}

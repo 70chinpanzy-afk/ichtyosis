@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-16",
+  "source": "google_news:Bioengineer.org",
+  "source_id": "e22e002409f2aa90",
+  "original_title": "Once-Daily Tapinarof Cream Shows Strong 60-Week Results in Young Children With Eczema - Bioengineer.org",
+  "title_ja": "新しいクリーム、タピナロフの効果が見込める",
+  "summary_ja": "新しいクリーム「タピナロフ」が子どもの湿疹に有効であることがわかりました。毎日一度の使用で、60週間にわたり症状の改善が見られました。このクリームは炎症を抑える効果があり、魚鱗癬のような皮膚疾患でも使えるかもしれません。今後、関連する疾患の新しい治療法として期待されています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2pwSHVTVHY5dURpbDJmR0NOLVg4OGpEbHI4UkdLQW5XTG1QOEV5VmkxNUZYM3BPcURKOVl5RlpCWWxsZTVidXdlY01kX3cwMmszQkdoQjJ4aE9ScWhpUmhkbFRuUU1uaUsyWVR1bWQxUkJsMTUzbVBzOWxibUdOQUZQbzhKRzl5bUU0dVBZREM0eS13YVV5Tl8yeTl2TXREaXJ1ekVFQVFTeG5XSDBj?oc=5",
+  "published_date": "2026-10-15",
+  "curation_reasoning": "タピナロフクリームは新しい治療法として注目され、魚鱗癬にも応用可能であるため有益です。",
+  "drugs_json": "[{\"drug_name\": \"タピナロフ（Tapinarof）\", \"ingredients\": \"タピナロフ\", \"description\": \"皮膚の炎症を抑える外用クリーム\"}]",
+  "patient_insight": "小児が対象のクリームです。次回の診察時にこのクリームが魚鱗癬にも適用可能かを医師に確認すると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-16 00:14:28",
+  "slug": "89744fe71e07fcad",
+  "themes": []
+}
