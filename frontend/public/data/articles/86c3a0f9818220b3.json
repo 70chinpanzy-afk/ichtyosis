@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "digest_date": "2026-10-18",
+  "source": "patient_org:FIRST_guide",
+  "source_id": "fa3ec698ec1a9ba9",
+  "original_title": "[FIRST] Mental Health Matters (Living with Ichthyosis guide)",
+  "title_ja": "魚鱗癬患者のメンタルヘルスの重要性",
+  "summary_ja": "このガイドでは、魚鱗癬を持つ人々の精神的健康に焦点を当て、ストレスや不安に対処するための情報を提供しています。著者自身の経験から、魚鱗癬が日常の不安や恐怖をどのように引き起こすかが具体的に述べられており、専門家との協力がどれほど役立つかも強調されています。魚鱗癬患者がより健康的な生活を送るために、メンタルヘルスへの配慮が重要です。",
+  "category": "体験談・対処法",
+  "relevance_score": 0.6,
+  "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/mental-health/mental-health-matters",
+  "published_date": null,
+  "curation_reasoning": "魚鱗癬患者のメンタルヘルスについて詳述されており、病気との向き合いに役立つ情報だから。",
+  "drugs_json": "[]",
+  "patient_insight": "魚鱗癬患者に起こりがちな不安やストレスに対処した内容です。類似したストレスを感じる方は、取り組める対策を主治医と相談し、サポートを受ける方法を考えてみてください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-17 23:56:41",
+  "slug": "86c3a0f9818220b3",
+  "themes": [
+    "mental"
+  ]
+}
