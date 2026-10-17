@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "digest_date": "2026-10-17",
+  "source": "patient_org:FIRST_guide",
+  "source_id": "1df4d776357ccc76",
+  "original_title": "[FIRST] Coping with Ichthyosis (Living with Ichthyosis guide)",
+  "title_ja": "魚鱗癬と共に生きるためのガイド",
+  "summary_ja": "このガイドは、魚鱗癬を抱える人々がどのように心の健康を保ちながら生活するかのアドバイスを提供しています。魚鱗癬は日常生活に多くの挑戦をもたらしますが、自分にできることに集中し、他人の反応を気にしないことが大切です。心の健康を保つために、趣味や自分にとって意味のある活動に参加することが推奨されています。これは、患者さんやその家族にとって安心感を与え、日常をより良くする助けになります。",
+  "category": "体験談・対処法",
+  "relevance_score": 0.8,
+  "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/mental-health/coping-with-ichthyosis",
+  "published_date": null,
+  "curation_reasoning": "魚鱗癬を抱える人々への実際的なメンタルヘルスのサポートと生活のアドバイスが含まれており、日常生活の改善に役立つ情報です。",
+  "drugs_json": "[]",
+  "patient_insight": "魚鱗癬を持つ方全般に向けたメンタルヘルスのアドバイスです。自分の気持ちを大切にし、心が安らぐ趣味を続けることを検討してみてください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-17 00:17:46",
+  "slug": "2bba3d7b82622a53",
+  "themes": [
+    "mental"
+  ]
+}
