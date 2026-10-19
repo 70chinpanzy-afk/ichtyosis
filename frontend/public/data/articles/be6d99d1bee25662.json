@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-10-19",
+  "source": "pubmed",
+  "source_id": "42891949",
+  "original_title": "Early-Stage Derisking of a Topical JAK Inhibitor Candidate in Healthy Human Skin Explants: Dermal Stability and Pharmacokinetics.",
+  "title_ja": "新しい外用JAK阻害薬の皮膚内での安定性と有効性試験",
+  "summary_ja": "この研究は、炎症を抑える新しいタイプの外用薬（JAK阻害薬）が皮膚にどのように吸収されるかを調べました。健康な人の皮膚サンプルを使って、薬の浸透や代謝について分析し、既存の薬との比較を行いました。結果、皮膚内での安定性や効果が確認され、新しい皮膚病治療の可能性が示されました。魚鱗癬のような炎症性皮膚疾患の新しい治療法の一つとして、今後の開発が期待されます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42891949/",
+  "published_date": "2026 Oct 17",
+  "curation_reasoning": "新しい外用JAK阻害薬の研究は、炎症性皮膚疾患の新しい治療法になる可能性があるため重要です。",
+  "drugs_json": "[{\"drug_name\": \"ruxolitinib（ルキソリチニブ）\", \"ingredients\": \"ルキソリチニブ（ruxolitinib）\", \"description\": \"炎症を引き起こす信号を遮断するクリームタイプの外用薬\"}]",
+  "patient_insight": "成人の魚鱗癬患者さん向けの新しい治療薬の話です。次の診察で、JAK阻害薬がどのように有効か説明を受けるとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-19 00:05:56",
+  "slug": "be6d99d1bee25662",
+  "themes": []
+}
