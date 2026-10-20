@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-20",
+  "source": "pubmed",
+  "source_id": "42889776",
+  "original_title": "Prevention and Management of Pediatric Sensitive Skin Conditions in India: A Modified Delphi Consensus.",
+  "title_ja": "インドの小児敏感肌ケアに関するガイドライン",
+  "summary_ja": "インドでの小児の敏感肌に対応するための医師たちのガイドラインがまとめられました。15人の専門家が参加し、過去の研究を元にして推奨事項を作成しました。魚鱗癬のような皮膚疾患を持つ子どもにも有効なケア方法が含まれている可能性があります。このガイドラインは、スキンケア製品の適切な使用法や予防策について詳しく記載されています。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42889776/",
+  "published_date": "2026-09",
+  "curation_reasoning": "このガイドラインは、魚鱗癬の患者が参考にできる可能性があるスキンケアの手法を含んでいるため。小児の敏感肌は魚鱗癬にも関連する問題です。",
+  "drugs_json": "[{\"drug_name\": \"保湿剤（Emollient）\", \"ingredients\": \"不明\", \"description\": \"皮膚を保湿し、乾燥を防ぐために用いられるクリームやローション\"}]",
+  "patient_insight": "小児向けのスキンケアガイドラインです。お子さんの敏感肌ケアに有効な方法が含まれるか、次回の診察で確認してみてください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-20 01:02:06",
+  "slug": "70641ff8a0644206",
+  "themes": []
+}

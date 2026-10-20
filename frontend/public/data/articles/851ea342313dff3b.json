@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-10-20",
+  "source": "pubmed",
+  "source_id": "42890452",
+  "original_title": "Beyond Eczema Control: Long-Term Outcomes of Dupilumab Therapy in Six Patients with Netherton Syndrome.",
+  "title_ja": "デュピルマブがネザーランド症候群に与える効果",
+  "summary_ja": "デュピルマブという薬が、ネザーランド症候群という希少な遺伝性皮膚疾患に効果を示しました。この薬は、アトピー性皮膚炎の治療に用いられ、体の炎症を抑える注射薬です。研究により、この薬は長期的に症状を改善し患者の生活の質を向上させる可能性があります。魚鱗癬にも応用できるかもしれません。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42890707/",
+  "published_date": "2026",
+  "curation_reasoning": "デュピルマブが遺伝性皮膚疾患の治療に長期的な効果を示しており、魚鱗癬患者へも希望を与える可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"デュピルマブ（Dupilumab）\", \"ingredients\": \"デュピルマブ（dupilumab）\", \"description\": \"皮膚の炎症を抑えるための注射薬\"}]",
+  "patient_insight": "ネザーランド症候群に関する試験ですが、似た炎症メカニズムを持つ魚鱗癬への応用を主治医に相談してみる価値があります。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-20 01:02:06",
+  "slug": "851ea342313dff3b",
+  "themes": []
+}
