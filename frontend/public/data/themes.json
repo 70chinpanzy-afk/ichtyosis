@@ -7,7 +7,7 @@
   {
     "key": "school",
     "label": "学校・保育園",
-    "count": 10
+    "count": 11
   },
   {
     "key": "bathing",
@@ -47,7 +47,7 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 22
+    "count": 23
   },
   {
     "key": "growth",

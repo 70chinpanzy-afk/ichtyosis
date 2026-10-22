@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-10-22",
+  "source": "pubmed",
+  "source_id": "42870452",
+  "original_title": "Ritlecitinib in Nonsegmental Vitiligo: A Systematic Review and Comprehensive Program Synthesis of Clinical Efficacy, Safety, and Biomarker Outcomes.",
+  "title_ja": "リトレシチニブが非分節型白斑に与える効果の評価",
+  "summary_ja": "非分節型白斑に対するリトレシチニブの効果と安全性についての評価が行われました。この薬は、炎症を引き起こす信号をブロックするJAK3阻害薬で、フェーズ2bの試験で364名の参加者に対して調査されました。結果は顔や体の色素回復を示していますが、魚鱗癬への直接的な適用は確認されていません。炎症性皮膚疾患の治療の可能性として注目されています。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42870452/",
+  "published_date": "2026-10-13",
+  "curation_reasoning": "この研究は、類似した炎症性皮膚疾患の治療に関するもので、魚鱗癬の新しい治療法として将来的に得る可能性がある知見を提供します。",
+  "drugs_json": "[{\"drug_name\": \"リトレシチニブ（Ritlecitinib）\", \"ingredients\": \"リトレシチニブ（ritlecitinib）\", \"description\": \"炎症を引き起こす信号をブロックするJAK3阻害薬\"}]",
+  "patient_insight": "成人の患者が対象の治療です。今後、同様の治療が魚鱗癬の改善につながるか、主治医に確認してみるとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-22 00:34:56",
+  "slug": "e520531724e689d0",
+  "themes": []
+}
