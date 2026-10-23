@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-10-23",
+  "source": "google_news:BioSpace",
+  "source_id": "d3d7d87665fda06a",
+  "original_title": "Roivant’s TYK2/JAK inhibitor reduces need for steroids in inflammatory eye disease - BioSpace",
+  "title_ja": "新しいJAK阻害薬が炎症を抑える",
+  "summary_ja": "Roivant社の新しい薬が、炎症を引き起こす体内の信号をブロックし、類似した病気を持つ人々でステロイドの使用量を減らすことに成功しました。この薬は一般的に皮膚の炎症にも関連するため、魚鱗癬の患者さんにも将来的に役立つ可能性があります。ただし、今回の結果は目の病気に関するもので、皮膚への応用にはさらなる研究が必要です。今後、魚鱗癬の治療法としての可能性を調査することが期待されます。",
+  "category": "研究論文",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNVF3TjltYUw4TFh4YmdXM096V0ZndlFqVm1vd3NvdXp3dVFhcFR5TnZ5dzh2R1FQZ2JNSkJod3ozakhJNG9vcFd1dVlaam5SREljT2s5OFEyaTZHeUlxMGU5MU9HdmE2M3o5WDlmSVVtWnBnX253OS1HdUo1azFLNmxKTEc2S3cwSVNydXA4TU9uN1Y1bk5FSmlxQm9FZkktc1prektEa19aVjVSUENqanVMb1dWQ2Z6akJvLXAxZXg?oc=5",
+  "published_date": "2026-10-22",
+  "curation_reasoning": "この薬は、皮膚炎症にも影響を与える可能性があり、魚鱗癬患者にとって将来的に参考になります。",
+  "drugs_json": "[{\"drug_name\": \"Roivant社のJAK阻害薬\", \"ingredients\": \"未指定\", \"description\": \"炎症を引き起こす体内の信号をブロックする薬\"}]",
+  "patient_insight": "成人向けの新薬の研究結果です。次回の診察で、この薬について主治医に質問し、魚鱗癬に応用できる可能性を相談してください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-23 00:31:55",
+  "slug": "d6c7615e3af4a671",
+  "themes": []
+}
