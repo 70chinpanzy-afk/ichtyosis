@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-24",
+  "source": "patient_org:FIRST_guide",
+  "source_id": "4636112b92513d00",
+  "original_title": "[FIRST] Cancer (Living with Ichthyosis guide)",
+  "title_ja": "魚鱗癬と皮膚がんのリスクについて",
+  "summary_ja": "このガイドは、魚鱗癬を持つ方が皮膚がんのリスクについて知るための情報を提供しています。魚鱗癬自体は皮膚がんのリスクを大きく増加させるわけではありませんが、特定の希少遺伝型は皮膚がん（特に扁平上皮癌）のリスクがわずかに増加することがあります。定期的な皮膚科受診や皮膚のチェックが早期発見と予防の鍵になります。この情報は、魚鱗癬患者さんが安心して生活するために重要です。",
+  "category": "制度・支援",
+  "relevance_score": 0.7,
+  "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/cancer",
+  "published_date": null,
+  "curation_reasoning": "魚鱗癬患者のがんリスクに関する正確な情報と、早期の予防対策が記されているため。",
+  "drugs_json": "[]",
+  "patient_insight": "魚鱗癬を持つ人全般に関わる情報です。自宅で定期的に皮膚をチェックし、異常があれば早期に皮膚科を受診してください。これは、特定の遺伝型の場合でもリスク管理に役立ちます。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-24 00:27:33",
+  "slug": "2cba694be97fa60d",
+  "themes": []
+}

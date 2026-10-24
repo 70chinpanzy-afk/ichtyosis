@@ -2,7 +2,7 @@
   {
     "key": "heat",
     "label": "夏の汗・体温調節",
-    "count": 7
+    "count": 8
   },
   {
     "key": "school",
@@ -47,7 +47,7 @@
   {
     "key": "newborn",
     "label": "新生児・乳児期",
-    "count": 23
+    "count": 24
   },
   {
     "key": "growth",
@@ -57,7 +57,7 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 32
+    "count": 33
   },
   {
     "key": "support",
