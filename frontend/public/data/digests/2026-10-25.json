@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-25",
+    "source": "google_news:hicbc.com",
+    "source_id": "1724afb906696f3f",
+    "original_title": "手のひら・足裏の皮膚だけ正常な“魚鱗癬”…学校生活は？表皮融解性魚鱗癬～定期配信型ドキュメンタリー「ピエロと呼ばれた息子」第７３話 - hicbc.com",
+    "title_ja": "部分的に正常な皮膚を持つ魚鱗癬の少年の学校生活のドキュメント",
+    "summary_ja": "これは特定の魚鱗癬患者の子どもがどのように学校生活を送っているかを描いたドキュメンタリーです。手のひらや足裏の皮膚が正常であるという特徴的な症状が紹介されています。学校での生活の工夫や困難な点を共有することで、同じ病気を持つ子どもたちに役立つ情報が得られます。家族や教育者が理解を深め、適切な支援を考える手助けとなるでしょう。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.7,
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wNlUzb3VQN2RDWjlXaF81eXR4SWR0SlVIdlI1SjhSWGxPQ3UxSVRFVzFfWU9pdUkwM1BLSElSNVRjak42dmhNT25tMXpNSmtiNnR5SjhFSF80QzhCcThzTDRwemthdw?oc=5",
+    "published_date": "2026-10-23",
+    "curation_reasoning": "具体的な生活の工夫や日常生活での対応が紹介されているため、同じ状況の方の支援になる。",
+    "drugs_json": "[]",
+    "patient_insight": "特にお子さんが魚鱗癬の方に。学校での支援体制や生活の工夫を考える参考になります。担任の先生に子どもの具体的な症状とケア方法を伝えて協力を求めましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-25 00:11:27",
+    "slug": "d42371cb0f12ec19",
+    "themes": [
+      "school"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-25",
+    "source": "pubmed",
+    "source_id": "42904225",
+    "original_title": "Apalutamide-induced drug reaction with eosinophilia and systemic symptoms and Stevens-Johnson syndrome overlap successfully treated with cyclosporine and benralizumab: A case report and literature review.",
+    "title_ja": "薬剤性の皮膚症状がシクロスポリンとベンラリズマブで成功裏に治療された事例",
+    "summary_ja": "これは特定の薬が原因で発生した重篤な皮膚反応を、シクロスポリンとベンラリズマブという治療法で対処した例を報告したものです。特に、薬剤による皮膚障害の改善に役立つ情報が含まれています。魚鱗癬の患者さんは、薬剤に対する反応が重要なテーマであり、可能性のある治療法についての知識を得ることで自己管理の一助となるでしょう。皮膚反応に対する治療選択肢を学ぶことで、不測の事態に備えた相談材料としても活用できます。",
+    "category": "研究論文",
+    "relevance_score": 0.4,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42904225/",
+    "published_date": "2026 Nov",
+    "curation_reasoning": "魚鱗癬の患者さんにとって薬剤による皮膚反応への対応は重要です。",
+    "drugs_json": "[{\"drug_name\": \"シクロスポリン（Cyclosporine）\", \"ingredients\": \"シクロスポリン\", \"description\": \"免疫系の反応を抑える薬です。\"}, {\"drug_name\": \"ベンラリズマブ（Benralizumab）\", \"ingredients\": \"ベンラリズマブ\", \"description\": \"特定の白血球を減らすことで炎症を抑える薬です。\"}]",
+    "patient_insight": "成人が対象で、薬剤性皮膚障害への対応です。特に新しい薬を使う際に、皮膚反応について主治医に確認しておくと安心です。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-25 00:11:27",
+    "slug": "92de99ab48229977",
+    "themes": []
+  }
+]
