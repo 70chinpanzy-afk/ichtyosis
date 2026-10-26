@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-26",
+    "source": "google_news:TradingView",
+    "source_id": "8a971343d181361a",
+    "original_title": "Palvella Therapeutics Eyes QTORIN Launch as Rare-Disease Pipeline Expands - TradingView",
+    "title_ja": "Palvella Therapeutics社、希少疾患治療薬QTORINの発売を視野に",
+    "summary_ja": "QTORIN（クオートリン）は、希少疾患を対象とした新しい治療薬として開発が進められており、その市場投入が待たれています。この薬は、魚鱗癬などの皮膚疾患に対する治療効果が期待されています。現在臨床試験が進行中であり、将来的には新たな治療オプションとなる可能性があります。これにより多くの患者さんが恩恵を受けられる可能性があり、興味深い進展です。",
+    "category": "ニュース",
+    "relevance_score": 0.9,
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ0ZDUXBCWXpsckVQTUdkS0dUdV9JMUoxZnVXbjBDSThuY3hJMS1MNzJWUFVfU0NqbVhPdEROM29aVjUxUnh4TnBiT2hES1E1bWRuUVRaMDZsSFZFdjJqZnlILWhsSHhUWUhTNGw1U3ItSmRLYVhCZWZscmZtUFp4MUUzVHR4TjE5RDNJR1RoVTlYWUJJN1hhb2NkN1AyOVhFOUUwdmVUdjJCeVduVFQ3SmlscnVZVXJWaHl2S1hMazRYRHJkckhSaTNuWEhEYUU?oc=5",
+    "published_date": "2026-10-25",
+    "curation_reasoning": "QTORINが魚鱗癬の新たな治療オプションとなる可能性があり、患者さんにとって重要です。",
+    "drugs_json": "[{\"drug_name\": \"クオートリン（QTORIN）\", \"ingredients\": \"不明\", \"description\": \"詳細は不明だが、希少疾患の治療薬として開発されている\"}]",
+    "patient_insight": "特に魚鱗癬に関心のある方に向けた内容です。QTORINの臨床試験の状況については、次の診察時に主治医に確認し、治療可能性を相談する一つの参考にしてください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-26 00:03:53",
+    "slug": "9913f02fcacbb719",
+    "themes": []
+  }
+]
