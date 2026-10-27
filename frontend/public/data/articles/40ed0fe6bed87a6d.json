@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "digest_date": "2026-10-27",
+  "source": "patient_org:FIRST",
+  "source_id": "412d970b75ab172f",
+  "original_title": "[FIRST] TEX264’s Role in Skin Cell Maturation: Insights from Darier Disease Research",
+  "title_ja": "TEX264と皮膚細胞の成熟: ダリエ病研究からの知見",
+  "summary_ja": "この研究は、TEX264というタンパク質が皮膚の細胞をどのように成熟させるのかを解明し、ダリエ病や魚鱗癬への影響を探ります。肌の細胞が正常に成長するためにはこのタンパク質が重要であることがわかりました。これにより、皮膚疾患の治療法が進むかもしれません。魚鱗癬患者にとっては、今後の治療法開発につながる可能性のある研究です。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.6,
+  "url": "https://firstskinfoundation.org/news-articles/tex264s-darier-disease/",
+  "published_date": "2026-10-26",
+  "curation_reasoning": "TEX264が皮膚細胞の機能にどう影響するかを調べる研究は、魚鱗癬の新たな治療法の開発のきっかけとなる可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は、現在はダリエ病が主な対象ですが、魚鱗癬にも影響があるかもしれません。具体的な治療法が進むかどうか、今後の研究に注目しておくと良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-27 01:23:00",
+  "slug": "40ed0fe6bed87a6d",
+  "themes": [
+    "growth"
+  ]
+}

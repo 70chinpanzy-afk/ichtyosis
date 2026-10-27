@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "digest_date": "2026-10-27",
+  "source": "patient_org:FIRST_guide",
+  "source_id": "52af299c71f011b3",
+  "original_title": "[FIRST] Reducing Sun Damage (Living with Ichthyosis guide)",
+  "title_ja": "魚鱗癬のための日焼け対策ガイド",
+  "summary_ja": "魚鱗癬の患者さん向けた日焼け対策についてのガイドです。紫外線から肌を守る方法として、紫外線指数の確認や帽子、長袖の衣類、日焼け止めの使用が推奨されています。特に、UPF（紫外線防止指数）付きの衣類は、日焼け止めよりも持続的な保護が可能です。これらの対策により、皮膚を守りながら生活することができます。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/lifestyle-and-wellness/reducing-sun-damage",
+  "published_date": null,
+  "curation_reasoning": "魚鱗癬の患者さんが行える効果的な日焼け防止策を具体的に提供しているため、日本の患者さんにも非常に役立つ情報です。",
+  "drugs_json": "[]",
+  "patient_insight": "日差しの強い地域にお住まいの魚鱗癬の患者さんに向けた情報です。UV指数をこまめにチェックし、UPF付きの衣類を使うことで、紫外線から肌を守る準備をすると良いでしょう。日焼け止めと併用することで、さらに効果が高まります。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-27 01:23:00",
+  "slug": "fd4e9589999eed57",
+  "themes": [
+    "clothing"
+  ]
+}
