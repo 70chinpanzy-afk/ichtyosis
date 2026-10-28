@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-10-28",
+    "source": "pubmed",
+    "source_id": "42929863",
+    "original_title": "Neuroimmune-Lipid Crosstalk in Chronic Itch: Molecular Mechanisms from Skin Surface to Cerebral Cortex.",
+    "title_ja": "慢性的なかゆみに関わる神経と脂質の相互作用",
+    "summary_ja": "この研究は、慢性的なかゆみの原因について、皮膚のバリア機能の異常から脳に至るまで、神経と脂質の相互作用を調べたものです。特にセラミドや脂肪酸が炎症やかゆみにどう関わっているのかが焦点です。これらの脂質が魚鱗癬などでの皮膚バリア障害と関連があることが示唆されています。魚鱗癬の患者にとって、かゆみの対策として新たな視点が得られるかもしれません。",
+    "category": "研究論文",
+    "relevance_score": 0.7,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42929863/",
+    "published_date": "2026 Oct 16",
+    "curation_reasoning": "脂質代謝と皮膚バリア機能の関係が魚鱗癬への応用可能性があるため。",
+    "drugs_json": "[]",
+    "patient_insight": "かゆみが強い魚鱗癬の方に関係がありそうです。脂質を含む保湿剤などに興味が湧いたら、次回の診察で主治医に尋ねてみると良いかもしれません。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-28 01:07:38",
+    "slug": "86b7264d37551a80",
+    "themes": [
+      "itch",
+      "moisturizer"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-10-28",
+    "source": "youtube:Dr varSha pariHaar",
+    "source_id": "48fe5e0a92e2dcd3",
+    "original_title": "dry, scaly skin that never goes away? try this management approach #shorts",
+    "title_ja": "乾燥してかさつく肌のためのケア方法",
+    "summary_ja": "YouTubeの動画によると、持続する乾燥やカサカサ肌を管理するための方法が紹介されています。ここでは保湿クリームの使用や、肌を傷めない入浴法が推奨されています。具体的には、温かい水での短い入浴と、保湿成分を含むクリームの使用が効果的とされています。魚鱗癬の方には日常のケアとして参考になるかもしれません。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.5,
+    "url": "https://www.youtube.com/watch?v=qw5uSkOnHzM",
+    "published_date": "2026-10-24",
+    "curation_reasoning": "乾燥肌のケア方法が魚鱗癬の患者にも適用できるため。",
+    "drugs_json": "[]",
+    "patient_insight": "※個人の体験に基づく内容です。乾燥肌のケアに関する具体的な方法が知りたい方に。試す前に、主治医に相談すると安心です。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-10-28 01:07:38",
+    "slug": "7824564dce197e0f",
+    "themes": [
+      "bathing",
+      "moisturizer"
+    ]
+  }
+]

@@ -528,6 +528,17 @@
     "original_title": "DIY balm update: Sunflower oil wins"
   },
   {
+    "slug": "86b7264d37551a80",
+    "title_ja": "慢性的なかゆみに関わる神経と脂質の相互作用",
+    "summary_ja": "この研究は、慢性的なかゆみの原因について、皮膚のバリア機能の異常から脳に至るまで、神経と脂質の相互作用を調べたものです。特にセラミドや脂肪酸が炎症やかゆみにどう関わっているのかが焦点です。これらの脂質が魚鱗癬などでの皮膚バリア障害と関連があることが示唆されています。魚鱗癬の患者にとって、かゆみの対策として新たな視点が得られるかもしれません。",
+    "category": "研究論文",
+    "relevance_score": 0.7,
+    "date": "2026-10-28",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42929863/",
+    "source": "pubmed",
+    "original_title": "Neuroimmune-Lipid Crosstalk in Chronic Itch: Molecular Mechanisms from Skin Surface to Cerebral Cortex."
+  },
+  {
     "slug": "4140ac2e50ccf937",
     "title_ja": "セラミドNPを含む保湿剤がアトピー性皮膚炎のスキンバリアに与える効果",
     "summary_ja": "この研究は、セラミドNPを含む保湿剤がアトピー性皮膚炎の大人の肌に与える影響を調べたものです。保湿剤を使用すると、肌の水分量が増え、乾燥が改善される結果が出ました。ただし、対照群との有意差は見られませんでした。セラミドは皮膚の健康を保つために重要な脂質で、今回の結果は肌の保護に役立つ可能性があります。",
@@ -1153,6 +1164,17 @@
     "url": "https://www.reddit.com/r/ichthyosis/comments/1rjbil2/advice_for_flares_that_get_bad_at_night/",
     "source": "reddit:r/ichthyosis",
     "original_title": "Advice for flares that get bad at night"
+  },
+  {
+    "slug": "7824564dce197e0f",
+    "title_ja": "乾燥してかさつく肌のためのケア方法",
+    "summary_ja": "YouTubeの動画によると、持続する乾燥やカサカサ肌を管理するための方法が紹介されています。ここでは保湿クリームの使用や、肌を傷めない入浴法が推奨されています。具体的には、温かい水での短い入浴と、保湿成分を含むクリームの使用が効果的とされています。魚鱗癬の方には日常のケアとして参考になるかもしれません。",
+    "category": "体験談・対処法",
+    "relevance_score": 0.5,
+    "date": "2026-10-28",
+    "url": "https://www.youtube.com/watch?v=qw5uSkOnHzM",
+    "source": "youtube:Dr varSha pariHaar",
+    "original_title": "dry, scaly skin that never goes away? try this management approach #shorts"
   },
   {
     "slug": "b0bc7e4fe85fb3f4",
