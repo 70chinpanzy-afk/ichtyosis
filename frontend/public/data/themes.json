@@ -32,7 +32,7 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 50
+    "count": 51
   },
   {
     "key": "moisturizer",
@@ -57,12 +57,12 @@
   {
     "key": "mental",
     "label": "見た目・気持ち・まわりの目",
-    "count": 33
+    "count": 34
   },
   {
     "key": "support",
     "label": "医療費・制度・手続き",
-    "count": 25
+    "count": 27
   },
   {
     "key": "travel",
@@ -72,6 +72,6 @@
   {
     "key": "adult",
     "label": "おとな・仕事・妊娠",
-    "count": 11
+    "count": 12
   }
 ]
