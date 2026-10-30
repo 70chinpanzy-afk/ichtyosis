@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "digest_date": "2026-10-30",
+  "source": "pubmed",
+  "source_id": "42955254",
+  "original_title": "Evidence-Based Alternative Strategies to Improve and Restore Skin Barrier Function: A Narrative Review.",
+  "title_ja": "皮膚のバリア機能を改善・回復するための代替策",
+  "summary_ja": "このレビューでは、皮膚のバリア機能を改善する新しい方法についてまとめています。皮膚のバリアは、身体を外部環境から守る重要な役割を担っています。ただし、様々な要因でその機能が乱れると、敏感肌や炎症性疾患の原因になります。保湿は基本的な対策ですが、それ以外の新しいアプローチについても研究されており、これが皮膚の健康を守る手助けになる可能性があります。魚鱗癬の患者にとって、こうした新しい方法は日々のスキンケアに役立つかもしれません。",
+  "category": "ケア・対処法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42955254/",
+  "published_date": "2026-10-28",
+  "curation_reasoning": "皮膚のバリア機能改善に関する新しいアプローチは、魚鱗癬のスキンケアに役立つ可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "皮膚のバリア機能を改善する新しい方法についての情報です。次の診察で、これらの方法が適用可能かどうか主治医に確認してみても良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-10-30 01:49:21",
+  "slug": "a3b81c57f2b05256",
+  "themes": [
+    "moisturizer"
+  ]
+}
