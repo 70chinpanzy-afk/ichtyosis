@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "digest_date": "2026-11-02",
+  "source": "pubmed",
+  "source_id": "42966396",
+  "original_title": "Congenital Ichthyosis.",
+  "title_ja": "先天性魚鱗癬に関するレビュー",
+  "summary_ja": "このレビューは、新生児期に発見される先天性魚鱗癬（皮膚のバリアが弱くなる病気）の特徴と、赤ちゃんの健康管理の方法をまとめたものです。特に脱水や体温調整の失敗などのリスクがあるため、医療専門家が早期に見つけて対策を立てることが重要です。具体的なケア方法も紹介されており、家庭での対応に役立ちます。この情報は、魚鱗癬を持つ赤ちゃんの安全な生活支援に貢献します。",
+  "category": "研究論文",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42966396/",
+  "published_date": "2026-11-01",
+  "curation_reasoning": "先天性魚鱗癬の管理方法に関する包括的な情報は、家族が病気に対処するための指針となります。",
+  "drugs_json": "[]",
+  "patient_insight": "この情報は新生児期のケアに役立ちます。赤ちゃんにどのケアが必要か、主治医と具体的な計画を話し合ってください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-02 01:26:25",
+  "slug": "72522e4d4b954224",
+  "themes": [
+    "heat",
+    "newborn"
+  ]
+}

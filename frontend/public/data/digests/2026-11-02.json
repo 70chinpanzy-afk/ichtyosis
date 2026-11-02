@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-11-02",
+    "source": "pubmed",
+    "source_id": "42966396",
+    "original_title": "Congenital Ichthyosis.",
+    "title_ja": "先天性魚鱗癬に関するレビュー",
+    "summary_ja": "このレビューは、新生児期に発見される先天性魚鱗癬（皮膚のバリアが弱くなる病気）の特徴と、赤ちゃんの健康管理の方法をまとめたものです。特に脱水や体温調整の失敗などのリスクがあるため、医療専門家が早期に見つけて対策を立てることが重要です。具体的なケア方法も紹介されており、家庭での対応に役立ちます。この情報は、魚鱗癬を持つ赤ちゃんの安全な生活支援に貢献します。",
+    "category": "研究論文",
+    "relevance_score": 0.9,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42966396/",
+    "published_date": "2026-11-01",
+    "curation_reasoning": "先天性魚鱗癬の管理方法に関する包括的な情報は、家族が病気に対処するための指針となります。",
+    "drugs_json": "[]",
+    "patient_insight": "この情報は新生児期のケアに役立ちます。赤ちゃんにどのケアが必要か、主治医と具体的な計画を話し合ってください。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-02 01:26:25",
+    "slug": "72522e4d4b954224",
+    "themes": [
+      "heat",
+      "newborn"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-11-02",
+    "source": "patient_org:FIRST",
+    "source_id": "eb1e052128006db9",
+    "original_title": "[FIRST] FIRST-Aid Skin Care Fund Applications Now Open",
+    "title_ja": "FIRST-Aidスキンケア基金の応募を受付開始",
+    "summary_ja": "FIRST-Aidプログラムは、魚鱗癬の患者さんがスキンケアを適切に行うための支援を提供します。応募が開始されたこの基金は、魚鱗癬患者さんやその家族がケア用品などを入手するための経済的支援になります。このプログラムを活用することで、生活の質を向上させる一助になることが期待されています。",
+    "category": "制度・支援",
+    "relevance_score": 0.8,
+    "url": "https://firstskinfoundation.org/news-articles/first-aid-announcement/",
+    "published_date": "2026-11-01",
+    "curation_reasoning": "このプログラムは魚鱗癬患者への経済的支援として直接的に役立ちます。",
+    "drugs_json": "[]",
+    "patient_insight": "アメリカに住む魚鱗癬患者対象の援助です。このプログラムの利用条件を確認し、応募ください。詳細は公式サイトを参照してください。",
+    "deadline": "",
+    "action_required": 1,
+    "created_at": "2026-11-02 01:26:25",
+    "slug": "85292abb97ccc19f",
+    "themes": []
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-11-02",
+    "source": "patient_org:FIRST",
+    "source_id": "919d0a8055c7c0ff",
+    "original_title": "[FIRST] Applications Now Accepted for Weary Air Conditioner Fund",
+    "title_ja": "疲労エアコン基金の募集開始",
+    "summary_ja": "Weary Fundは、魚鱗癬などの皮膚疾患患者が、暑い気候で快適に過ごせるようにエアコン購入支援を提供するプログラムです。最近応募が開始され、気温が高い時期でも安心して過ごせる環境を整えるための経済的援助を受けることができます。この助成を活用することで、症状の悪化を防ぎやすくなります。",
+    "category": "制度・支援",
+    "relevance_score": 0.7,
+    "url": "https://firstskinfoundation.org/news-articles/applications-now-accepted-for-weary-air-conditioner-fund/",
+    "published_date": "2026-11-01",
+    "curation_reasoning": "気温が症状に影響を与える魚鱗癬患者にとって、エアコンは重要な生活費用であり、この基金は大変役立ちます。",
+    "drugs_json": "[]",
+    "patient_insight": "こちらもアメリカ在住の魚鱗癬患者対象です。エアコン購入支援を検討中なら、この基金の利用条件を確認し、応募を検討してください。公式情報を必ずチェックしてください。",
+    "deadline": "",
+    "action_required": 1,
+    "created_at": "2026-11-02 01:26:25",
+    "slug": "70985075fdc1407a",
+    "themes": [
+      "heat",
+      "support"
+    ]
+  }
+]

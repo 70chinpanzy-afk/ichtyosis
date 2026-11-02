@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "digest_date": "2026-11-02",
+  "source": "patient_org:FIRST",
+  "source_id": "919d0a8055c7c0ff",
+  "original_title": "[FIRST] Applications Now Accepted for Weary Air Conditioner Fund",
+  "title_ja": "疲労エアコン基金の募集開始",
+  "summary_ja": "Weary Fundは、魚鱗癬などの皮膚疾患患者が、暑い気候で快適に過ごせるようにエアコン購入支援を提供するプログラムです。最近応募が開始され、気温が高い時期でも安心して過ごせる環境を整えるための経済的援助を受けることができます。この助成を活用することで、症状の悪化を防ぎやすくなります。",
+  "category": "制度・支援",
+  "relevance_score": 0.7,
+  "url": "https://firstskinfoundation.org/news-articles/applications-now-accepted-for-weary-air-conditioner-fund/",
+  "published_date": "2026-11-01",
+  "curation_reasoning": "気温が症状に影響を与える魚鱗癬患者にとって、エアコンは重要な生活費用であり、この基金は大変役立ちます。",
+  "drugs_json": "[]",
+  "patient_insight": "こちらもアメリカ在住の魚鱗癬患者対象です。エアコン購入支援を検討中なら、この基金の利用条件を確認し、応募を検討してください。公式情報を必ずチェックしてください。",
+  "deadline": "",
+  "action_required": 1,
+  "created_at": "2026-11-02 01:26:25",
+  "slug": "70985075fdc1407a",
+  "themes": [
+    "heat",
+    "support"
+  ]
+}
