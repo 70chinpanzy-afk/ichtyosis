@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-11-04",
+    "source": "google_news:MyChesCo",
+    "source_id": "9d3fad00292aa8b8",
+    "original_title": "Palvella Wins Priority FDA Review for Rare Disease Drug - MyChesCo",
+    "title_ja": "希少疾患治療薬に米国FDA優先審査を取得",
+    "summary_ja": "これは希少疾患用の新薬が、米国のFDAによって優先的に審査されることになったというニュースです。この審査の対象となる薬は、特定の遺伝性皮膚疾患の症状を改善することを目的にしています。このような優先審査は、通常よりも早く新薬が患者さんの手元に届く可能性があるため、希少疾患の患者さんにとって重要です。この進展により、新しい治療法が日本でも開発・承認される期待が高まります。",
+    "category": "新薬・治療法",
+    "relevance_score": 0.9,
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeGhTQ0ZuRGRGeUF3cm1ZRGlUaTJQUUNLZ2lxYnFoc2lzMVdJRS05aFNiR0lKbkpjZmo2X0pZU01HXzFxeWVOY08wTTRVMkFjR0hEUUdRamU2alZKQ0Z2aGFXR1N0QklNXzhmb3VsdGw3MTBUeHJ4ZkJhemFwMHdrQXNTU3BIUG1jWHEtam1MQkh2T1hLcFZOc0FfVWViRzhXU1kxQTdR?oc=5",
+    "published_date": "2026-11-03",
+    "curation_reasoning": "この新薬の優先審査は希少皮膚疾患治療の促進につながり、魚鱗癬のような病気の患者さんに希望を与える。",
+    "drugs_json": "[]",
+    "patient_insight": "希少疾患の治療薬の話です。日本でも同様の優先審査プロセスが利用できるか、主治医に確認してみましょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-04 02:06:29",
+    "slug": "b21f247665a999f3",
+    "themes": []
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-11-04",
+    "source": "youtube:foundation for ichthyosis",
+    "source_id": "649a563e9724b7d4",
+    "original_title": "Ichthyosis and Pregnancy: Navigating Skin Changes, Care, and Parenthood - Dr. Jinia El Feghaly",
+    "title_ja": "魚鱗癬を持つ妊婦のスキンケアと育児",
+    "summary_ja": "この動画は、魚鱗癬を持つ妊婦さんがどのように肌の変化に対応し、育児に取り組むかを解説しています。妊娠中はホルモンの影響で肌がさらに乾燥しやすくなるため、保湿がより重要になります。Dr. Jinia El Feghalyは、安全で効果的なスキンケア方法や、妊娠中に気をつけるポイントについて詳しく説明しています。魚鱗癬の方が妊娠・出産を考える場合、実用的なアドバイスが得られます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.youtube.com/watch?v=OfWOv1nuRPY",
+    "published_date": "2026-10-29",
+    "curation_reasoning": "魚鱗癬を持つ女性が妊娠中に経験する特有の肌変化とその対処法を紹介しているため、患者さんや家族にとって非常に実用的です。",
+    "drugs_json": "[]",
+    "patient_insight": "妊娠を考えている魚鱗癬を持つ女性に役立つ情報です。主治医に、妊娠中に使用する保湿剤やスキンケアについて具体的なアドバイスを求めると良いでしょう。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-04 02:06:29",
+    "slug": "511c3158f361c252",
+    "themes": [
+      "moisturizer",
+      "adult"
+    ]
+  }
+]
