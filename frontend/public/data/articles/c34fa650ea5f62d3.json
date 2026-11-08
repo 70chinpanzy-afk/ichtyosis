@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-11-08",
+  "source": "pubmed",
+  "source_id": "42991038",
+  "original_title": "Baricitinib and ritlecitinib in alopecia areata: A nationwide prospective real-world registry study.",
+  "title_ja": "脱毛症に対するJAK阻害薬の効果と耐性研究",
+  "summary_ja": "脱毛症治療に用いられるJAK阻害薬、バリシチニブとリトレシチニブについての研究です。この研究では、これらの薬が脱毛症患者にどのように作用するかを実際の臨床データで調査しました。結果として、症状の改善が確認されています。魚鱗癬にもJAK阻害薬が注目されているため、参考になる可能性があります。治療の選択肢の一つとして、今後の更なる研究が期待されます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42991038/",
+  "published_date": "2026-12",
+  "curation_reasoning": "JAK阻害薬の他の適応症での効果が魚鱗癬の治療に応用できる可能性があるため、有益な情報です。",
+  "drugs_json": "[{\"drug_name\": \"バリシチニブ（Baricitinib）\", \"ingredients\": \"バリシチニブ（baricitinib）\", \"description\": \"炎症を引き起こすシグナル伝達を阻害する薬\"}, {\"drug_name\": \"リトレシチニブ（Ritlecitinib）\", \"ingredients\": \"リトレシチニブ（ritlecitinib）\", \"description\": \"炎症シグナルをブロックする飲み薬\"}]",
+  "patient_insight": "成人向けの情報です。次の通院の際に、魚鱗癬にも効果があるか主治医に聞いてみてください。バリシチニブやリトレシチニブなどの選択肢についても確認すると良いです。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-08 01:16:25",
+  "slug": "c34fa650ea5f62d3",
+  "themes": []
+}

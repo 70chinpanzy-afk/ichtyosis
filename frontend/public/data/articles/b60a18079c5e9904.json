@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-11-08",
+  "source": "pubmed",
+  "source_id": "42969233",
+  "original_title": "JAK1/2 inhibition promotes aggressive cutaneous carcinogenesis through COT kinase-mediated alternative MAPK pathway activation.",
+  "title_ja": "JAK阻害薬が肌のがんを引き起こす可能性",
+  "summary_ja": "JAK阻害薬ルキソリチニブが皮膚がんを引き起こす可能性についての研究です。この研究では、ルキソリチニブによる治療が皮膚がんの一種を進行させる可能性を示しています。この薬ががんの原因になる理由として、皮膚の細胞の変化を引き起こす新たな経路が関与しています。魚鱗癬の治療にJAK阻害薬が検討されることもあり、リスクとベネフィットを知ることが重要です。今後は、主治医にこの薬のリスクについて確認することが必要です。",
+  "category": "研究論文",
+  "relevance_score": 0.5,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42969233/",
+  "published_date": "2026-11-02",
+  "curation_reasoning": "JAK阻害薬は皮膚の炎症による症状の改善に有効と言われており、魚鱗癬の治療に関心が持たれていますが、副作用のリスク知識が必要です。",
+  "drugs_json": "[{\"drug_name\": \"ルキソリチニブ（Ruxolitinib）\", \"ingredients\": \"ルキソリチニブ（ruxolitinib）\", \"description\": \"炎症を促進するJA経路を抑制する薬\"}]",
+  "patient_insight": "JAK阻害薬の使用を考えている患者さん対象の情報です。次の診察で、ルキソリチニブなどのJAK阻害薬のリスクについて主治医に確認してください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-08 01:16:25",
+  "slug": "b60a18079c5e9904",
+  "themes": []
+}
