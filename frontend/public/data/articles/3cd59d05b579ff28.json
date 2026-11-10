@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "digest_date": "2026-11-10",
+  "source": "google_news:Bioengineer.org",
+  "source_id": "ed20ac6e529b034e",
+  "original_title": "Nano-Lipid Carriers Enhance Topical Skin Drug Delivery - Bioengineer.org",
+  "title_ja": "ナノリピッドキャリアで皮膚薬の吸収を促進",
+  "summary_ja": "最新の研究で、ナノリピッドキャリアという技術を用いることで、皮膚に塗る薬の染み込みが大幅に良くなることがわかりました。これは、薬の有効成分が皮膚のバリアを通過しやすくするための技術です。特に保湿剤やステロイドなど、皮膚に直接塗るタイプの薬に役立ちます。この技術によって、魚鱗癬の患者さんもより効果的に薬を活用できる可能性があります。今後の治療法に新しい選択肢が生まれるかもしれません。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.8,
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOFR4Ql9UcGtBSTFENURncDFUdG1VamhNYmpNOXlvUkw1LW12UVNhR2JaX29WQmpZRjVodl9wRkc0dTdzdEttcDV3aE1ma0lxYjhvVUpuYWVmS3IyUGhsVndpQ05PcjhVNW9wMktUaTFJVWZra1Ftd2pDekNOYmU0a2FkM0xnZw?oc=5",
+  "published_date": "2026-11-08",
+  "curation_reasoning": "魚鱗癬の患者がより効果的に外用薬を活用するための新しい技術として注目されます。皮膚の薬の吸収を改善する方法は日常ケアに直接影響します。",
+  "drugs_json": "[]",
+  "patient_insight": "成人も子どもも使える新技術の話です。今のところ製品化には時間がかかるかもしれませんが、次の主治医の診察でこの技術の進展を聞いてみても良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-10 04:02:38",
+  "slug": "3cd59d05b579ff28",
+  "themes": [
+    "moisturizer"
+  ]
+}

@@ -2,7 +2,7 @@
   {
     "key": "heat",
     "label": "夏の汗・体温調節",
-    "count": 10
+    "count": 11
   },
   {
     "key": "school",
@@ -32,12 +32,12 @@
   {
     "key": "itch",
     "label": "かゆみ・睡眠",
-    "count": 51
+    "count": 52
   },
   {
     "key": "moisturizer",
     "label": "保湿剤の選び方と量",
-    "count": 116
+    "count": 117
   },
   {
     "key": "clothing",
