@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "digest_date": "2026-11-12",
+  "source": "google_news:Bioengineer.org",
+  "source_id": "1a912d41697a4348",
+  "original_title": "Real-World Study Tracks Multiyear Atopic Dermatitis Control with Oral JAK Inhibitors - Bioengineer.org",
+  "title_ja": "JAK阻害薬によるアトピー性皮膚炎の実地研究",
+  "summary_ja": "この研究は、JAK阻害薬という新しいタイプの飲み薬がアトピー性皮膚炎に長期間効果を示すか調査したものです。実際に患者さんに使用し、多くの人で長期間にわたり症状が改善したことが確認されました。この薬は炎症を抑える作用がありますが、副作用のリスクもあるため、医師との相談が必要です。アトピー性皮膚炎の治療法として注目されていますが、魚鱗癬にも応用可能な知見が得られる可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOHRmbnpRbmdadUs5R2VvWFZad2FyekdreC0zUWh5elJQSFFlVjM5MnM5OExnRHZJQmU4UmxzVU41OGo5Q3Y2c2U1TGloN1BHSlVNa1paS0I1LXEzLU12YW1Rd0VfbjNlS0lWY1lyZVlrTGFLbElGc2FwN0JzSjhpYm5FQ3piVTI4QmYtXzl3Q0FqNDRPcGZ6dFNieE9Nd3FDdVlEVkZpTl9qLVZPQmc?oc=5",
+  "published_date": "2026-11-10",
+  "curation_reasoning": "この研究はアトピー性皮膚炎の治療に関するもので、魚鱗癬にも似た治療法が応用できる可能性があるため、患者さんにとって興味深い情報といえます。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitors）\", \"ingredients\": \"JAK阻害薬（JAK inhibitors）\", \"description\": \"炎症を引き起こす体内の信号を抑える新しい飲み薬で、アトピー性皮膚炎の治療に使われています。\"}]",
+  "patient_insight": "成人が対象の研究です。JAK阻害薬が魚鱗癬にも効果があるかどうかを主治医に聞いてみるとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-12 02:49:29",
+  "slug": "edc09568cfac9bd1",
+  "themes": []
+}

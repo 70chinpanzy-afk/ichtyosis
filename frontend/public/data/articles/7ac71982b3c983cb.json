@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "digest_date": "2026-11-12",
+  "source": "google_news:医薬通信社",
+  "source_id": "5a2a6a30d295162a",
+  "original_title": "選択的チロシンキナーゼ2阻害薬「ザソシチニブ」 日本で製造販売承認申請 武田薬品 - 医薬通信社",
+  "title_ja": "新しい薬「ザソシチニブ」が日本で承認申請",
+  "summary_ja": "武田薬品が新しい薬「ザソシチニブ」の承認申請を日本で行いました。この薬は選択的チロシンキナーゼ2阻害薬で、特定の体内信号を抑えることで病気の進行を遅らせる効果が期待されています。アトピー性皮膚炎などの治療に役立つ可能性がありますが、魚鱗癬への応用も考えられるかもしれません。今後の承認プロセスを見守る必要があります。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOZHkyWnk1dGFxbUhmY0ZsbHQzcG5WZy1PUV9CMFZSdnV2R1FEYzh3QlJsTVJITVlxRmxjMVhheTI3MHZmMFJBUTJUbTJwQzVVWVpIQkE1NVdOODFfZVhfRFFYdTNHUXlKRkRSLTl1RGFyLWMwYURYZTlMSjVtMEg4NmZWM3o2REZJN000Y1ZBNnFoa1J4RlJjTmJUMS16b0ZULXRoTnVmWW93ekh5MVZxRi1fd2JRNzYyTS1YbUJsOGxVUmpTSFQ3X2ZJVjJ5UE9MUk52LWZnX2lUeS04RGxkblJLQnItSnljQmw4eXJQRzdaSmhpS1pSRVJDRnZmVHVEY2xOMmEtQ0Q5cW9mZDUyaXVoc3BpVkUtTGs3Ynd5SFVWbk1NajFPVlIzV3E3RllBWkNvd2lGbGJmVXhwMmJmbHBWNW1zcTdKZWNFLVFWM1lTZjB4LVZZWU5NTQ?oc=5",
+  "published_date": "2026-11-11",
+  "curation_reasoning": "新薬の承認申請は、将来的に魚鱗癬の治療選択肢が増える可能性を示唆します。",
+  "drugs_json": "[{\"drug_name\": \"ザソシチニブ（Zasocitinib）\", \"ingredients\": \"選択的チロシンキナーゼ2阻害薬\", \"description\": \"特定の体内信号をブロックすることで、病気の進行を抑える新薬です。\"}]",
+  "patient_insight": "成人向けの新薬情報です。ザソシチニブが魚鱗癬治療に適用される可能性について主治医に尋ねると良いかもしれません。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-12 02:49:29",
+  "slug": "7ac71982b3c983cb",
+  "themes": [
+    "support"
+  ]
+}
