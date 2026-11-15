@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "digest_date": "2026-11-15",
+    "source": "youtube:foundation for ichthyosis",
+    "source_id": "a7648a62220cbcfb",
+    "original_title": "Ichthyosis and Cooling Devices: Beating the Heat and Staying Cool - Dr. Cheryl Bayart #ichthyosis",
+    "title_ja": "魚鱗癬と冷却デバイス：暑さ対策と涼しさを保つ方法",
+    "summary_ja": "魚鱗癬患者さんが暑さを和らげるための冷却デバイス利用についての動画です。皮膚がうまく汗を出せない人にとって、冷却デバイスは体温を調節する効果的なツールです。この動画では、具体的な冷却方法や日常生活での活用法が紹介されています。暑さに敏感な魚鱗癬の患者さんにとって、心地よい生活を送るための貴重な情報源になるでしょう。クールで快適な生活を送るためのヒントが得られます。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.youtube.com/watch?v=lQQClRhqYVs",
+    "published_date": "2026-11-06",
+    "curation_reasoning": "動画は、魚鱗癬の患者さんが直面する暑さの問題に対する具体的な対策を紹介しており、日常生活に直結する役立つ情報です。",
+    "drugs_json": "[]",
+    "patient_insight": "暑さに敏感な魚鱗癬の患者さん向けです。次の診察時に、冷却デバイスの種類や具体的な使用法を主治医に相談し、取り入れ方を考えてみると良いです。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-15 01:43:56",
+    "slug": "05d25e4410f4e7d0",
+    "themes": [
+      "heat"
+    ]
+  },
+  {
+    "id": 2,
+    "digest_date": "2026-11-15",
+    "source": "youtube:foundation for ichthyosis",
+    "source_id": "341b07ad77ccb33f",
+    "original_title": "Heat Intolerance and Ichthyosis: Understanding Overheating and Keeping - Dr. Cheryl Bayart",
+    "title_ja": "魚鱗癬と熱への耐性：過熱を防ぐ方法と知識",
+    "summary_ja": "魚鱗癬患者が抱える熱による影響についての動画です。皮膚が熱を逃がさないことで体温が上昇しやすく、過熱状態になることがあります。この動画では、過熱の兆候を認識し、快適に過ごすための対策が説明されています。魚鱗癬の患者さんが暑い日でも安心して日常生活を送るための知識を得られます。自分の体調をよく観察することが重要です。",
+    "category": "ケア・対処法",
+    "relevance_score": 0.8,
+    "url": "https://www.youtube.com/watch?v=VcfS8aiFhLU",
+    "published_date": "2026-11-06",
+    "curation_reasoning": "魚鱗癬患者の生活における日常的な問題（過熱）に対する具体的な対策を提供しており、生活の質を向上させます。",
+    "drugs_json": "[]",
+    "patient_insight": "熱に弱い魚鱗癬の患者さん向けです。過熱の兆候を記録し、医師にどのような対策が個々に適しているかを相談することが大切です。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-15 01:43:56",
+    "slug": "745d89196ad7bd89",
+    "themes": [
+      "heat"
+    ]
+  },
+  {
+    "id": 3,
+    "digest_date": "2026-11-15",
+    "source": "clinical_trials",
+    "source_id": "NCT05898711",
+    "original_title": "Quality and Safety Outcomes: Prospective Follow Up Registry on FDA Cleared Acellular Fish Skin Grafts in Soft Tissue Reinforcement.",
+    "title_ja": "フィッシュスキングラフトの安全性と効果を調査する研究",
+    "summary_ja": "この研究は、手術時の組織補強用に認可されたフィッシュスキングラフトの長期的な安全性と結果を調査するものです。魚の皮膚を使うことによって、手術後の感染や傷口の開きなどを防ぐ効果が期待されています。患者さんのケアや治療の質向上が目的で、記録を基に評価されます。ただし、日本ではこの技術は利用できません。",
+    "category": "研究論文",
+    "relevance_score": 0.5,
+    "url": "https://clinicaltrials.gov/study/NCT05898711",
+    "published_date": "2026-11-13",
+    "curation_reasoning": "この記事は、皮膚の再生や補強に関する新たな技術の知見を提供するため、魚鱗癬のような組織再生が重要な疾患の患者に有益です。",
+    "drugs_json": "[]",
+    "patient_insight": "成人を対象にした研究で、日本ではこの技術はまだ使えません。今後、日本国内での展開を見据えて、詳細を集めることが重要です。",
+    "deadline": "",
+    "action_required": 0,
+    "created_at": "2026-11-15 01:43:56",
+    "slug": "65565772df1cc124",
+    "themes": [
+      "infection"
+    ]
+  }
+]

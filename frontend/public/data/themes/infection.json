@@ -152,5 +152,16 @@
     "url": "https://www.firstskinfoundation.org/living-with-ichthyosis/symptoms-complications/chicken-pox",
     "source": "patient_org:FIRST_guide",
     "original_title": "[FIRST] Chicken Pox (Living with Ichthyosis guide)"
+  },
+  {
+    "slug": "65565772df1cc124",
+    "title_ja": "フィッシュスキングラフトの安全性と効果を調査する研究",
+    "summary_ja": "この研究は、手術時の組織補強用に認可されたフィッシュスキングラフトの長期的な安全性と結果を調査するものです。魚の皮膚を使うことによって、手術後の感染や傷口の開きなどを防ぐ効果が期待されています。患者さんのケアや治療の質向上が目的で、記録を基に評価されます。ただし、日本ではこの技術は利用できません。",
+    "category": "研究論文",
+    "relevance_score": 0.5,
+    "date": "2026-11-15",
+    "url": "https://clinicaltrials.gov/study/NCT05898711",
+    "source": "clinical_trials",
+    "original_title": "Quality and Safety Outcomes: Prospective Follow Up Registry on FDA Cleared Acellular Fish Skin Grafts in Soft Tissue Reinforcement."
   }
 ]

@@ -2,7 +2,7 @@
   {
     "key": "heat",
     "label": "夏の汗・体温調節",
-    "count": 11
+    "count": 13
   },
   {
     "key": "school",
@@ -27,7 +27,7 @@
   {
     "key": "infection",
     "label": "感染・とびひ",
-    "count": 14
+    "count": 15
   },
   {
     "key": "itch",
