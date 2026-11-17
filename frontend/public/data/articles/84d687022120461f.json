@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-11-17",
+  "source": "clinical_trials",
+  "source_id": "NCT07326657",
+  "original_title": "Open-label, Controlled, Randomized, Multicenter Study Evaluating Intact Fish Skin Graft in Promoting AutoLOgous Skin Tissue ReGeneratIon of Deep Partial-Thickness Burns: The LOGI Study",
+  "title_ja": "新しい魚の皮を使った火傷治療の研究",
+  "summary_ja": "この研究では、魚の皮を使った新しい治療法が深い火傷の治療に効果があるかを調査しています。対象は18歳以上で、魚の皮を使うことで移植する皮膚の量を減らせるかを調べています。この研究が成功すれば、患者さんの負担が大きく軽減される可能性があります。日本ではこの治療に参加できませんが、将来的な治療の選択肢として注目されています。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://clinicaltrials.gov/study/NCT07326657",
+  "published_date": "2026-11-12",
+  "curation_reasoning": "新しい治療法が、魚鱗癬にも応用可能な火傷治療に関連しているため、有用な知見が得られる可能性があります。",
+  "drugs_json": "[{\"drug_name\": \"魚の皮移植（Fish Skin Graft）\", \"ingredients\": \"ケレシス（Kerecis）\", \"description\": \"魚の皮を使って皮膚の再生を促す新しい治療法\"}]",
+  "patient_insight": "成人が対象の試験です。日本での利用はまだですが、新しい技術の動向を把握するために注視しておくとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-17 04:25:04",
+  "slug": "84d687022120461f",
+  "themes": []
+}
