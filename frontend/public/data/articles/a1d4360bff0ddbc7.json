@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-11-20",
+  "source": "pubmed",
+  "source_id": "43044570",
+  "original_title": "A phase 2, open-label, single-arm clinical trial of the safety and efficacy of the JAK1/3 inhibitor tofacitinib in Down syndrome.",
+  "title_ja": "ダウン症でのJAK1/3阻害薬トファシチニブの安全性と有効性に関する臨床試験",
+  "summary_ja": "ダウン症の皮膚疾患にトファシチニブという薬が試されました。参加者には9ヶ月間この薬が投与され、安全性が確認されました。インターフェロンやサイトカインという免疫の働きを抑えることで、皮膚の状態と脳機能が改善されたとされています。魚鱗癬患者にも類似の免疫メカニズムがあるため、研究の進展によってこの薬が役立つ可能性があります。詳細な仕組みは研究中ですが、今後の発展が期待されます。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43044570/",
+  "published_date": "2026 Nov 17",
+  "curation_reasoning": "魚鱗癬のような免疫に関連する皮膚疾患に応用される可能性がある新薬の試験であり、患者さんに希望を与える情報です。",
+  "drugs_json": "[{\"drug_name\": \"トファシチニブ（Tofacitinib）\", \"ingredients\": \"トファシチニブ（tofacitinib）\", \"description\": \"免疫系の過剰な働きを抑えることで炎症や皮膚症状を改善させる飲み薬。\"}]",
+  "patient_insight": "※この研究はダウン症の治療に関するものです。魚鱗癬への応用はまだ検討中ですが、将来的にどのように進むか主治医に聞いてみるとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-20 02:57:55",
+  "slug": "a1d4360bff0ddbc7",
+  "themes": []
+}

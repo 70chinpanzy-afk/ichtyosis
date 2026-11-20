@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "digest_date": "2026-11-20",
+  "source": "pubmed",
+  "source_id": "43048096",
+  "original_title": "Circadian orchestration of the cutaneous microenvironment and chronotherapeutic strategies in inflammatory skin diseases.",
+  "title_ja": "皮膚の環境と時間を考慮した炎症性皮膚疾患の新しい治療法",
+  "summary_ja": "皮膚の炎症性疾患、例えばアトピー性皮膚炎では、夜にかゆみが悪化することが知られています。この研究は、体内の時計（サーカディアンリズム）が皮膚のバリアに与える影響を調べ、そのリズムに合わせた治療法の可能性を示しました。特に、投薬やケアのタイミングを調整することで治療効果が向上するかもしれません。魚鱗癬の患者さんも皮膚バリアが関与するため、今後の治療に役立つ可能性があります。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43048096/",
+  "published_date": "2026",
+  "curation_reasoning": "投薬タイミングが治療効果に影響する可能性があり、魚鱗癬の皮膚ケアに役立つ知見です。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は一般的な皮膚炎についてで、日本ではまだ導入されていません。皮膚のケアタイミングを改善する方法を主治医に相談してみるとよいです。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-20 02:57:55",
+  "slug": "ab99e198480f7811",
+  "themes": [
+    "itch"
+  ]
+}

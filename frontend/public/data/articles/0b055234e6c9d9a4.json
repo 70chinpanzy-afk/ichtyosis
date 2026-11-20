@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-11-20",
+  "source": "pubmed",
+  "source_id": "43056227",
+  "original_title": "Multi-Omic Profiling for Molecular Diagnosis of Erythrodermic Skin Diseases.",
+  "title_ja": "紅皮症の分子診断に向けた最新技術",
+  "summary_ja": "紅皮症は皮膚全体が赤くなり、鱗のような状態になる重篤な皮膚病の一つです。この研究では、多くの患者の皮膚サンプルを解析し、それぞれの病気に特有な分子のパターンを特定しようとしています。これにより、今後、症状に合った治療を迅速に行うための診断基準が整備される可能性があります。魚鱗癬の患者さんにも、より適切な治療につながる期待があります。",
+  "category": "研究論文",
+  "relevance_score": 0.8,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43056227/",
+  "published_date": "2026 Nov 19",
+  "curation_reasoning": "紅皮症の分子診断が進むことで、魚鱗癬含めた皮膚疾患の迅速な診断や治療法が提供される可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "紅皮症に関する研究ですが、魚鱗癬にも応用されるかもしれません。最新の診断方法について、主治医に科学的な進展を共有してもらうとよいです。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-20 02:57:55",
+  "slug": "0b055234e6c9d9a4",
+  "themes": []
+}

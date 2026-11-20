@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "digest_date": "2026-11-20",
+  "source": "google_news:Yahoo News Singapore",
+  "source_id": "5f2be365684e0ce2",
+  "original_title": "6 Misconceptions and Facts About JAK Inhibitors for Atopic Dermatitis - Yahoo News Singapore",
+  "title_ja": "アトピー性皮膚炎へのJAK阻害薬に関する6つの誤解と事実",
+  "summary_ja": "この記事では、アトピー性皮膚炎の治療に使われる「JAK阻害薬」について、いくつかの誤解とそれに対する事実が紹介されています。具体的には、JAK阻害薬がどのようにして症状を改善するか、どのような副作用があるかなどです。魚鱗癬を持つ方たちにも、同じような仕組みの治療法の可能性が考えられるため、知識の向上につながる情報です。これにより、患者さんは治療法に対する理解を深め、正しい医療知識を持って治療に取り組むことができます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQM0hwcWI5NDNINE5MV3lLNHNQczRMcjZ6VTJuZk5qNDFnaEc3VkRvX19rOWppOWxFbHJib1MtaXdSU0p2LS1jR3piZEktVEY3S2k5dkxRN3NzV3Z1dWxGVWJzR1VmVmtLVEcwQzJjUWxwVXBUNmtvcy1ua3NmaUJOS1V4b2U?oc=5",
+  "published_date": "2026-11-19",
+  "curation_reasoning": "JAK阻害薬は炎症を抑えるため、魚鱗癬の潜在的な治療法として考えられる。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitors）\", \"ingredients\": \"不明（JAK阻害）\", \"description\": \"体内で炎症を引き起こす信号をブロックする作用を持つ薬\"}]",
+  "patient_insight": "成人患者向けのJAK阻害薬に関する情報です。同じメカニズムの治療が魚鱗癬に応用できるか、次回の診察で確認してみてください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-20 02:57:55",
+  "slug": "d14e449ae1bf1cbe",
+  "themes": []
+}
