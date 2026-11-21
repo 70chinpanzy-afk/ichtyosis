@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "digest_date": "2026-11-21",
+  "source": "pubmed",
+  "source_id": "43062795",
+  "original_title": "Consensus Statement on the Role of Dermoceuticals in the Management of Atopic Dermatitis in the United Arab Emirates.",
+  "title_ja": "アラブ首長国連邦におけるアトピー性皮膚炎管理におけるドモシューティカルの役割についての合意声明",
+  "summary_ja": "この研究は、アトピー性皮膚炎の治療に役立つスキンケア製品（ドモシューティカル）についての指針を提供しています。特に、皮膚のバリアを修復し、保湿を保ち、症状を減らす方法が強調されています。この情報は、副作用の少ないスキンケア方法を模索する方に役立ちます。ドモシューティカルの選び方や日常生活への取り入れ方を知ることで、皮膚の健康管理が容易になるでしょう。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43062795/",
+  "published_date": "2026-11-20",
+  "curation_reasoning": "アトピー性皮膚炎の治療法としてのドモシューティカルは、魚鱗癬の皮膚ケアにも応用可能な知見を提供するため。",
+  "drugs_json": "[]",
+  "patient_insight": "成人が対象の情報ですが、魚鱗癬のケアにも活かせる可能性があります。適切なスキンケア製品を次の診察時に相談すると役立つかもしれません。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-21 03:05:07",
+  "slug": "e31fb79b965f2a1d",
+  "themes": [
+    "moisturizer"
+  ]
+}

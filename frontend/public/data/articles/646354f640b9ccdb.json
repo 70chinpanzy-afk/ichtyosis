@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "digest_date": "2026-11-21",
+  "source": "google_news:Everyday Health",
+  "source_id": "f447bdabc966ff96",
+  "original_title": "6 Misconceptions and Facts About JAK Inhibitors for Atopic Dermatitis - Everyday Health",
+  "title_ja": "アトピー性皮膚炎のJAK阻害薬に関する誤解と事実",
+  "summary_ja": "このニュースは、アトピー性皮膚炎に使用されるJAK阻害薬についての誤解と事実を解説しています。JAK阻害薬は、体の炎症を引き起こす信号をブロックする新しいタイプの薬ですが、効果や副作用について誤解されることがあります。この記事は、それらの誤解を解消し、JAK阻害薬の正しい情報提供を目的としています。魚鱗癬の患者さんにとっても参考になるかもしれません。なぜなら、同様の炎症を抑える薬が他の皮膚疾患にも応用されることがあるからです。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV3pMNkd5S0hoaWZFVkYyNGVTT0xFTTkydDIyT2R1eHQ2eF9lbnhLdDAtcUYxQk5XUVpvMnAydWR5dHYxRl9tTGxZUV9JM1UyQlFESGVraEVpckF0bEVTcW9VZ2lEb3dIVGpJempXdk1TMW84WFIwODNaTFJlV0gwd2tKTnlXQ2xmNFRiMlFtNnRmSGt6a3BadTY3NGRGc2NqRG8tOQ?oc=5",
+  "published_date": "2026-11-20",
+  "curation_reasoning": "JAK阻害薬の働きや誤解の解消に関する情報は、他の皮膚疾患にも応用される可能性があり、魚鱗癬患者にも役立つため。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬\", \"ingredients\": \"ジャックキナーゼ阻害薬\", \"description\": \"炎症を引き起こす体内の信号をブロックする薬\"}]",
+  "patient_insight": "成人のアトピー性皮膚炎治療に関する情報です。JAK阻害薬に関する最新の知見を把握して、次の診察で主治医に魚鱗癬への応用があるか確認すると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-21 03:05:07",
+  "slug": "646354f640b9ccdb",
+  "themes": []
+}

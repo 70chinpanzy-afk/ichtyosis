@@ -1,0 +1,21 @@
+{
+  "id": 8,
+  "digest_date": "2026-11-21",
+  "source": "pubmed",
+  "source_id": "43041413",
+  "original_title": "Erythroderma Following Fluphenazine Decanoate Injection: A Rare Adverse Drug Reaction in a Resource-Limited Setting.",
+  "title_ja": "フルフェナジン注射による紅皮症: 希少な副作用のケース",
+  "summary_ja": "フルフェナジンという薬が、まれに重度の紅皮症を引き起こすことがあります。この症状は、早期に薬の使用を中止し適切な対処が必要ですが、特に医療資源が限られた地域では慎重に扱う必要があります。魚鱗癬の患者で同種の薬を使用している場合、副作用として注意が必要です。症状を感じた場合、すぐに医療機関に相談することが推奨されます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.4,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43041413/",
+  "published_date": "2026 Nov",
+  "curation_reasoning": "紅皮症は魚鱗癬と関連する症状であり、同様の薬剤を使用している場合の注意喚起が必要なため。",
+  "drugs_json": "[{\"drug_name\": \"フルフェナジン（Fluphenazine）\", \"ingredients\": \"フルフェナジン\", \"description\": \"神経症状を軽減するための抗精神病薬です。稀に皮膚反応の副作用があります。\"}]",
+  "patient_insight": "成人が対象の情報です。フルフェナジン注射などを使用している場合、紅皮症の兆候がないか観察し、疑わしい場合には直ちに主治医に相談してください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-21 03:05:07",
+  "slug": "981fbf886ec3e864",
+  "themes": []
+}
