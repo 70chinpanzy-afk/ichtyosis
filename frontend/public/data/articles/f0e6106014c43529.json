@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-11-23",
+  "source": "pubmed",
+  "source_id": "43066054",
+  "original_title": "Very Early-Onset Schizophrenia in a 9-Year-Old With X-Linked Ichthyosis: Case Report.",
+  "title_ja": "X連鎖性魚鱗癬を持つ9歳児の早期発症型統合失調症のケース報告",
+  "summary_ja": "この論文は、X連鎖性魚鱗癬を持つ9歳の男の子が非常に早期に統合失調症を発症したケースを報告しています。魚鱗癬と精神障害の関連性を示す貴重な事例で、診断や治療の難しさについても述べられています。このような症例報告は、魚鱗癬患者が他の疾患も併発しやすいことを理解するための手がかりとなります。結果、患者やその家族が気をつけるべきポイントを知ることができます。",
+  "category": "研究論文",
+  "relevance_score": 0.6,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43066054/",
+  "published_date": "2026",
+  "curation_reasoning": "魚鱗癬患者の精神的健康に関する情報を提供し、他の疾患との関連性を理解するための重要な研究です。",
+  "drugs_json": "[]",
+  "patient_insight": "この情報はお子様が魚鱗癬と診断されている親御さん向けです。精神的な健康面にも注意を払い、異常が見られた場合は早期に専門医に相談してください。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-23 02:27:25",
+  "slug": "f0e6106014c43529",
+  "themes": []
+}
