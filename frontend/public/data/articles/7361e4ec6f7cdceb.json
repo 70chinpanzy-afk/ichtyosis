@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "digest_date": "2026-11-24",
+  "source": "pubmed",
+  "source_id": "43070018",
+  "original_title": "Inspired by Fruit Battery and Pyramid: Multilayer Self-Powered Electrostimulation Patch for Alleviation of Atopic Dermatitis.",
+  "title_ja": "アトピー性皮膚炎を和らげるフルーツバッテリー発想の自己発電パッチ",
+  "summary_ja": "新しい自己発電の電気刺激パッチが、アトピー性皮膚炎の治療に役立つかもしれません。フルーツバッテリーとピラミッド形の電場集中技術を利用して、このパッチは湿度にかかわらず安定した電力を供給します。実験では、肌のバリア機能を改善し、炎症を軽減することが確認されました。魚鱗癬を含む皮膚疾患の患者にとって、日常的に使用できる可能性があります。長期使用の安全性も確保されているため、将来的に家庭でのケアに役立つでしょう。",
+  "category": "新薬・治療法",
+  "relevance_score": 0.9,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43070018/",
+  "published_date": "2026-11-23",
+  "curation_reasoning": "魚鱗癬やアトピー性皮膚炎の治療に応用できる新しい自己発電型電気刺激パッチの報告。",
+  "drugs_json": "[]",
+  "patient_insight": "このパッチはアトピー性皮膚炎の治療として研究されています。次の診察で、魚鱗癬のケアへの応用が可能かどうかを主治医に相談すると良いかもしれません。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-24 05:52:46",
+  "slug": "7361e4ec6f7cdceb",
+  "themes": []
+}

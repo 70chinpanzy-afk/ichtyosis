@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "digest_date": "2026-11-24",
+  "source": "google_news:NewBeauty",
+  "source_id": "8d566bddbbf0af9e",
+  "original_title": "Alopecia Areata Treatment: How JAK Inhibitors Work - NewBeauty",
+  "title_ja": "円形脱毛症治療に使われるJAK阻害薬の仕組み",
+  "summary_ja": "円形脱毛症の治療にJAK阻害薬が使われています。この薬は、炎症を引き起こす体内の信号をブロックして症状を改善します。魚鱗癬は皮膚の炎症が関係しているため、同じ仕組みの薬が役立つ可能性があります。今後の研究で、魚鱗癬にも効果があるかもしれませんが、現時点では確定的な情報はありません。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16S2tRU0tsVXI3Sm03RVpGblRjLTRXS2ZNNHd4MUtLZEZjUjFHYUJ3TnVzM2FtRURXS0tjZUhoQlQ3V0Jlczc0bUZudkFsU0g0R1BqcTBETUtPWm42a004b2FSTnFoSFhPTXJYcFBYTkJVRnd0YUR2bDRlUQ?oc=5",
+  "published_date": "2026-11-23",
+  "curation_reasoning": "魚鱗癬の炎症にJAK阻害薬が応用可能かもしれないという知見が患者に役立つ。",
+  "drugs_json": "[{\"drug_name\": \"JAK阻害薬（JAK Inhibitors）\", \"ingredients\": \"特定の成分は記事に記載なし\", \"description\": \"炎症を引き起こす体内の信号をブロックして症状を改善する薬\"}]",
+  "patient_insight": "成人向けの情報ですが、同様の薬が魚鱗癬に使われる可能性を次の診察で主治医に確認してみてください。今の治療に追加できる選択肢があるかもしれません。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-24 05:52:46",
+  "slug": "8847740ded9ce1ae",
+  "themes": []
+}
