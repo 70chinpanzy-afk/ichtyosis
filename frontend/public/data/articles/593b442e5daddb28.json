@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-11-26",
+  "source": "pubmed",
+  "source_id": "43067973",
+  "original_title": "JAK inhibition in Schnitzler syndrome: A case report of successful treatment with upadacitinib and literature review.",
+  "title_ja": "シュニツラー症候群におけるJAK阻害薬の効果的な治療事例",
+  "summary_ja": "シュニツラー症候群というまれな病気に、JAK阻害薬「ウパダシチニブ（upadacitinib）」が効果を示した事例です。この薬は炎症を抑える新しいタイプの薬で、発疹や関節痛の改善が見られました。魚鱗癬の患者さんも、似た仕組みの薬が使用される可能性があります。今後さらに研究が進むと期待されます。",
+  "category": "関連疾患からの知見",
+  "relevance_score": 0.7,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43067973/",
+  "published_date": "2026",
+  "curation_reasoning": "炎症を抑えるJAK阻害薬は、他の免疫系疾患治療のヒントになるため。",
+  "drugs_json": "[{\"drug_name\": \"ウパダシチニブ（upadacitinib）\", \"ingredients\": \"ウパダシチニブ\", \"description\": \"炎症を引き起こす体内の信号をブロックする飲み薬\"}]",
+  "patient_insight": "成人向けの治療例ですが、似た薬が他の皮膚疾患にも使える可能性があります。主治医に、JAK阻害薬の使用について相談してみると良いでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-26 04:04:28",
+  "slug": "593b442e5daddb28",
+  "themes": []
+}
