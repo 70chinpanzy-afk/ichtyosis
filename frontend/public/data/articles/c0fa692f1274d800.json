@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "digest_date": "2026-11-27",
+  "source": "pubmed",
+  "source_id": "43091581",
+  "original_title": "Janus Kinase Inhibition in Congenital Ichthyoses: A Systematic Review of Clinical Evidence.",
+  "title_ja": "先天性魚鱗癬におけるヤヌスキナーゼ阻害の効果: 臨床証拠の体系的レビュー",
+  "summary_ja": "この研究は、先天性魚鱗癬（皮膚が乾燥し剥がれる難病）に対するヤヌスキナーゼ阻害薬がどのように役立つのかを調査しています。ヤヌスキナーゼ阻害薬は、体内の炎症シグナルをブロックすることで症状を改善します。研究により、皮膚のバリア機能を守る可能性が示されました。この情報は、将来的に患者さんの生活の質を大きく改善する治療法の手がかりとなるかもしれません。詳細な臨床試験が進むことで、さらなる効果が期待されます。",
+  "category": "研究論文",
+  "relevance_score": 1.0,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43091581/",
+  "published_date": "2026-11-08",
+  "curation_reasoning": "ヤヌスキナーゼ阻害薬は魚鱗癬の新たな治療法として期待されており、症状の改善に役立つ可能性があるため。",
+  "drugs_json": "[{\"drug_name\": \"ヤヌスキナーゼ阻害薬（Janus Kinase Inhibitors）\", \"ingredients\": \"ヤヌスキナーゼ阻害薬\", \"description\": \"体内の炎症を引き起こすシグナルをブロックする薬\"}]",
+  "patient_insight": "成人が対象のレビューです。主治医にヤヌスキナーゼ阻害薬の適応可能性や進行中の臨床試験について詳細を相談してみてください。今後、子どもにも安全に使える薬として広がるかもしれませんので注目しておくとよいでしょう。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-27 04:02:38",
+  "slug": "c0fa692f1274d800",
+  "themes": [
+    "support"
+  ]
+}

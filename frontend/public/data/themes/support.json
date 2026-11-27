@@ -1,5 +1,16 @@
 [
   {
+    "slug": "c0fa692f1274d800",
+    "title_ja": "先天性魚鱗癬におけるヤヌスキナーゼ阻害の効果: 臨床証拠の体系的レビュー",
+    "summary_ja": "この研究は、先天性魚鱗癬（皮膚が乾燥し剥がれる難病）に対するヤヌスキナーゼ阻害薬がどのように役立つのかを調査しています。ヤヌスキナーゼ阻害薬は、体内の炎症シグナルをブロックすることで症状を改善します。研究により、皮膚のバリア機能を守る可能性が示されました。この情報は、将来的に患者さんの生活の質を大きく改善する治療法の手がかりとなるかもしれません。詳細な臨床試験が進むことで、さらなる効果が期待されます。",
+    "category": "研究論文",
+    "relevance_score": 1.0,
+    "date": "2026-11-27",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43091581/",
+    "source": "pubmed",
+    "original_title": "Janus Kinase Inhibition in Congenital Ichthyoses: A Systematic Review of Clinical Evidence."
+  },
+  {
     "slug": "bec458c25d4e2b5c",
     "title_ja": "希少皮膚疾患の患者、新しい治療法にアクセス可能に",
     "summary_ja": "この記事は、希少な皮膚疾患を持つ患者が新しい治療法にアクセスできるようになったことを報告しています。最近の医療の進歩により、魚鱗癬などの難病に対しても効果的な治療法が登場しています。この新しい治療法は、症状を軽減し、生活の質を向上させる可能性があるとされています。皮膚のバリア機能を改善することで、感染症のリスクも減らせるでしょう。これにより患者やその家族に希望が届けられると期待されています。",
@@ -152,6 +163,17 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/41865984/",
     "source": "pubmed",
     "original_title": "Health care resource utilization in patients with atopic dermatitis according to treatment response: evidence from the BIOBADATOP registry."
+  },
+  {
+    "slug": "bbe9341b5c202348",
+    "title_ja": "指定難病検討委員会の開始について",
+    "summary_ja": "厚生労働省は指定難病検討委員会を開催し、魚鱗癬を含む指定難病の審議を行います。このような委員会の開催は、希少疾患患者の医療支援に関する最新の情報が得られる重要な機会です。患者さんは医療助成や制度の改善に関する情報を得ることができます。日本の患者の医療環境がより良くなることが期待されます。",
+    "category": "制度・支援",
+    "relevance_score": 0.6,
+    "date": "2026-11-27",
+    "url": "https://www.mhlw.go.jp/stf/newpage_77586.html",
+    "source": "japan_support:難病情報センター",
+    "original_title": "[難病情報センター] （厚生労働省からのお知らせ） 第６９回厚生科学審議会疾病対策部会指定難病検討委員会（持ち回り開催）資料 持ち回り審議により、第６９回厚生科学審議会疾病対策部会指"
   },
   {
     "slug": "23353a439b7267c0",
