@@ -176,6 +176,17 @@
     "original_title": "Phase II Clinical Trial Using Humira in Netherton Syndrome"
   },
   {
+    "slug": "348b4195563a1f1b",
+    "title_ja": "アトピー性皮膚炎に対するレブリキズマブの52週間時点の効果",
+    "summary_ja": "この研究は、中〜重度のアトピー性皮膚炎に対するレブリキズマブという新しい薬の効果を、52週間の治療で確認しました。試験は「ADvocate1」と「ADvocate2」と呼ばれ、週16で反応が見られた患者の経過を連続的に評価しています。結果として、多くの患者でかゆみの軽減や皮膚の見た目が良くなることが確認されました。この新薬は魚鱗癬に直接使われているわけではありませんが、似たような皮膚症状による痒みに悩む患者さんの救いになるかもしれません。今後この治療がさらに広がることで、魚鱗癬など異なる皮膚疾患にも適用される可能性があります。",
+    "category": "関連疾患からの知見",
+    "relevance_score": 0.7,
+    "date": "2026-11-28",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43086581/",
+    "source": "pubmed",
+    "original_title": "Efficacy of Lebrikizumab Treatment in Patients with Atopic Dermatitis at 52 Weeks: A Treat-Through Model Estimating Real-World Outcomes from the ADvocate1 and ADvocate2 Trials."
+  },
+  {
     "slug": "ab99e198480f7811",
     "title_ja": "皮膚の環境と時間を考慮した炎症性皮膚疾患の新しい治療法",
     "summary_ja": "皮膚の炎症性疾患、例えばアトピー性皮膚炎では、夜にかゆみが悪化することが知られています。この研究は、体内の時計（サーカディアンリズム）が皮膚のバリアに与える影響を調べ、そのリズムに合わせた治療法の可能性を示しました。特に、投薬やケアのタイミングを調整することで治療効果が向上するかもしれません。魚鱗癬の患者さんも皮膚バリアが関与するため、今後の治療に役立つ可能性があります。",

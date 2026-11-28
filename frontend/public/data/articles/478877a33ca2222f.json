@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "digest_date": "2026-11-28",
+  "source": "patient_org:FIRST",
+  "source_id": "3ea80f8b2102b7f3",
+  "original_title": "[FIRST] Epidermal Differentiation Disorders (EDDs): Translational insights and technical challenges of three-dimensional epidermal, full-thickness, and organoid skin models",
+  "title_ja": "皮膚の分化障害に関する新しい研究: 3D皮膚モデルによる実用化の可能性と課題",
+  "summary_ja": "この研究では、実験室で人間の皮膚を再現する方法を改善する取り組みについて紹介しています。特に三次元の皮膚モデルを用いた技術が、どのように病気の理解を助けるかが議論されています。皮膚の分化障害を持つ患者さんにとって、この研究は新しい治療法開発の可能性を示しています。特に魚鱗癬の患者さんにとって、皮膚モデルがどのように役立つか、今後の期待が持てる内容となっています。",
+  "category": "研究論文",
+  "relevance_score": 0.6,
+  "url": "https://firstskinfoundation.org/news-articles/edds-translational-insights/",
+  "published_date": "2026-11-27",
+  "curation_reasoning": "3D皮膚モデルは、魚鱗癬のような皮膚の分化障害に対する新しい研究の基盤として重要です。病気の理解を深め、新しい治療法開発に役立つ可能性があります。",
+  "drugs_json": "[]",
+  "patient_insight": "この研究は皮膚の分化障害を持つ方を対象にしています。今後、三次元皮膚モデルが新しい治療法の開発に役立つことが期待されますが、現時点では直接行動できることはありません。治療法が実用化される進展を待つ状態です。",
+  "deadline": "",
+  "action_required": 0,
+  "created_at": "2026-11-28 03:49:37",
+  "slug": "478877a33ca2222f",
+  "themes": []
+}
